@@ -1,9 +1,35 @@
 import Image from 'next/image';
 import ToolCallout from '@/components/article/ToolCallout';
+import { generateFAQSchema } from '@/lib/schema';
 
 export default function Article() {
+  // FAQ Schema Data
+  const faqs = [
+    {
+      question: "Are administrative fees legal?",
+      answer: "Generally yes, but some states and cities are regulating them. They're essentially pure profit for landlords and are often negotiable. Always ask what they cover and consider refusing to pay them."
+    },
+    {
+      question: "Can I be charged both pet rent AND a pet deposit?",
+      answer: "Yes, unfortunately. Pet deposits are refundable (for damages), while pet rent is monthly income for the landlord. This is legal but negotiable. Try to negotiate one or the other, not both."
+    },
+    {
+      question: "What if I'm charged surprise fees not in my lease?",
+      answer: "You're not obligated to pay fees not disclosed in your lease. Request written explanation of the charge and cite your lease terms. If the landlord insists, consider consulting a tenant attorney or local housing authority."
+    },
+    {
+      question: "How can I estimate total costs before applying?",
+      answer: "Ask for a fee schedule in writing before applying. Request: base rent, all deposits, all monthly fees, all move-in costs. Use our Hidden Fees Estimator tool to calculate your true cost."
+    },
+  ];
+
   return (
     <>
+      {/* FAQ Schema for Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqs)) }}
+      />
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">💸 Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
