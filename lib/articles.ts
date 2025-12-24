@@ -2,6 +2,21 @@ import { Article } from '@/types';
 
 export const articles: Article[] = [
   {
+    slug: 'how-to-break-lease-early',
+    title: 'How to Break a Lease Early: 7 Legal Ways (Save $10,000+)',
+    description: 'Learn the 7 legal ways to break your lease early—some with zero penalty. Avoid $10,000+ costs and credit damage with our expert guide.',
+    content: '',
+    author: 'Michael Chen',
+    publishDate: '2025-01-22T10:00:00Z',
+    lastModified: '2025-01-22T10:00:00Z',
+    category: 'Legal Rights',
+    tags: ['lease-termination', 'tenant-rights', 'legal', 'lease-break', 'early-termination'],
+    readingTime: 16,
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop',
+    imageAlt: 'Person reviewing lease contract documents for early termination options',
+    imageCredit: 'Photo by Tingey Injury Law Firm on Unsplash',
+  },
+  {
     slug: 'first-apartment-checklist-guide-2025',
     title: 'First Apartment Checklist: Complete Guide + Budget (2025)',
     description: 'Your complete first apartment checklist with budget breakdown, timeline, and money-saving tips. Save $500+ with our expert guide and free downloadable PDF.',
