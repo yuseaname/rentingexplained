@@ -1,0 +1,286 @@
+================================================================================
+  ?? HOSTINGER EASY DEPLOY - ZIP UPLOAD METHOD
+================================================================================
+
+WHAT IS EASY DEPLOY?
+--------------------
+Hostinger's Easy Deploy lets you upload a ZIP file that automatically extracts
+and deploys your application. Just upload and configure - no manual SSH needed!
+
+================================================================================
+  ?? STEP 1: CREATE ZIP FILE
+================================================================================
+
+METHOD A: Windows (Right-click method)
+---------------------------------------
+1. Navigate to: D:\repos\rentingexplained.com\hostinger-upload\
+2. Select ALL files and folders inside this directory
+3. Right-click ? "Send to" ? "Compressed (zipped) folder"
+4. Name it: rentingexplained.zip
+5. Move the zip file to your Desktop
+
+METHOD B: Windows (PowerShell)
+-------------------------------
+Open PowerShell in the hostinger-upload folder and run:
+
+  Compress-Archive -Path * -DestinationPath ..\rentingexplained.zip
+
+This creates rentingexplained.zip in the parent directory.
+
+METHOD C: Mac/Linux
+-------------------
+Open Terminal in the hostinger-upload folder and run:
+
+  zip -r ../rentingexplained.zip .
+
+================================================================================
+  ?? STEP 2: UPLOAD TO HOSTINGER
+================================================================================
+
+1. Log in to hPanel: https://hpanel.hostinger.com
+
+2. Navigate to your hosting plan
+
+3. Go to: Files ? File Manager
+
+4. Navigate to: domains/yourdomain.com/
+
+5. Delete any existing files in that folder (if first deployment)
+
+6. Click "Upload" button (top right)
+
+7. Select your rentingexplained.zip file
+
+8. Wait for upload to complete
+
+9. Right-click the zip file ? "Extract"
+
+10. Select "Extract Here"
+
+11. Wait for extraction to complete
+
+12. Delete the zip file (optional - save space)
+
+================================================================================
+  ?? STEP 3: CONFIGURE NODE.JS APPLICATION
+================================================================================
+
+1. In hPanel, go to: Advanced ? Node.js
+
+2. Click "Create Application" (or edit existing)
+
+3. Configure settings:
+   ???????????????????????????????????????????????????????????????
+   ? Node.js Version:        18.x or 20.x (LTS)                  ?
+   ? Application Mode:       Production                          ?
+   ? Application Root:       domains/yourdomain.com              ?
+   ? Application URL:        https://yourdomain.com              ?
+   ? Application Startup:    server.js                           ?
+   ???????????????????????????????????????????????????????????????
+
+4. Click "Create" or "Update"
+
+================================================================================
+  ?? STEP 4: SET ENVIRONMENT VARIABLES
+================================================================================
+
+In the Node.js application settings:
+
+1. Click "Edit" on your application
+
+2. Scroll to "Environment Variables" section
+
+3. Add these variables:
+
+   Variable Name              Value
+   ?????????????????????????????????????????????????????????????
+   NODE_ENV                   production
+   NEXT_PUBLIC_SITE_URL       https://yourdomain.com
+   PORT                       (auto-assigned by Hostinger)
+
+4. Click "Update"
+
+================================================================================
+  ?? STEP 5: START THE APPLICATION
+================================================================================
+
+1. In the Node.js settings, find your application
+
+2. Click the "Start" or "Restart" button
+
+3. Wait for status to change to "Running" (green)
+
+4. Note the assigned port (usually 3000-4000)
+
+================================================================================
+  ? STEP 6: VERIFY DEPLOYMENT
+================================================================================
+
+1. Visit: https://yourdomain.com
+
+2. Check that:
+   ? Home page loads
+   ? Navigation works
+   ? Blog page loads
+   ? Tools page loads
+   ? Articles load correctly
+   ? Calculators work
+   ? Images display
+   ? HTTPS is active (green padlock)
+
+3. If app status shows "Stopped":
+   - Check the logs (click "View Logs")
+   - Verify startup file is "server.js"
+   - Restart the application
+
+================================================================================
+  ?? TROUBLESHOOTING
+================================================================================
+
+Application won't start?
+------------------------
+? Check Node.js logs in hPanel
+? Verify "server.js" is set as startup file
+? Make sure Node version is 18.x or 20.x
+? Check that .htaccess file exists
+
+Build failed during extraction?
+--------------------------------
+? SSH to server (if needed):
+  ssh username@yourdomain.com
+  cd domains/yourdomain.com
+  npm install --production
+  npm run build
+
+Port not assigned?
+------------------
+? Restart the application in hPanel
+? Check that no other app is using the port
+
+Images not loading?
+-------------------
+? SSH to server:
+  chmod -R 755 public/
+? Verify images are in public/ folder
+
+Page shows 404 errors?
+-----------------------
+? Verify .htaccess file exists
+? Check file permissions: chmod 644 .htaccess
+? Restart Apache if needed
+
+================================================================================
+  ?? UPDATING YOUR SITE (FUTURE)
+================================================================================
+
+METHOD 1: Quick Update (Recommended)
+-------------------------------------
+1. Make changes locally
+2. Build: npm run build (test locally)
+3. Create new ZIP file with updated files only
+4. Upload to hPanel File Manager
+5. Extract to overwrite existing files
+6. Restart Node.js app in hPanel
+
+METHOD 2: Full Redeployment
+----------------------------
+1. Delete all files in domains/yourdomain.com/
+2. Upload new ZIP file
+3. Extract
+4. Reconfigure Node.js app if needed
+5. Start application
+
+METHOD 3: Git Method (Best for frequent updates)
+-------------------------------------------------
+1. Push changes to GitHub
+2. SSH to server
+3. cd domains/yourdomain.com
+4. git pull
+5. npm install (if dependencies changed)
+6. npm run build
+7. Restart app in hPanel
+
+================================================================================
+  ?? WHAT HAPPENS AFTER ZIP EXTRACTION
+================================================================================
+
+Automatic Steps (if .hostinger-deploy script works):
+1. Sets file permissions
+2. Runs: npm install --production
+3. Runs: npm run build
+4. Creates .htaccess from template
+5. Creates logs directory
+
+If automatic deployment doesn't work:
+? SSH to server and run manually:
+  cd domains/yourdomain.com
+  npm install --production
+  npm run build
+  cp .htaccess-hostinger .htaccess
+
+================================================================================
+  ?? FILE SIZES AFTER DEPLOYMENT
+================================================================================
+
+Uploaded ZIP:          ~400 KB
+After extraction:      ~400 KB
+After npm install:     ~250 MB (node_modules)
+After build:           ~350 MB (includes .next)
+
+Total disk usage:      ~350-400 MB
+
+Make sure your Hostinger plan has sufficient storage!
+
+================================================================================
+  ?? QUICK CHECKLIST
+================================================================================
+
+Before Upload:
+  [ ] Created ZIP from hostinger-upload folder
+  [ ] ZIP file is ~400 KB
+  [ ] Hostinger account ready
+  [ ] Domain configured
+  [ ] SSL certificate active
+
+During Upload:
+  [ ] Logged into hPanel
+  [ ] Navigated to File Manager
+  [ ] Went to domains/yourdomain.com/
+  [ ] Uploaded ZIP file
+  [ ] Extracted ZIP
+  [ ] Verified files extracted correctly
+
+Node.js Configuration:
+  [ ] Created Node.js application
+  [ ] Set Node version: 18.x
+  [ ] Set startup file: server.js
+  [ ] Added environment variables
+  [ ] Started application
+  [ ] Status shows "Running"
+
+Verification:
+  [ ] Visited https://yourdomain.com
+  [ ] Home page loads
+  [ ] All pages work
+  [ ] Tools functional
+  [ ] Images display
+  [ ] No errors in browser console
+
+================================================================================
+  ?? YOU'RE DONE!
+================================================================================
+
+Your Next.js site is now deployed on Hostinger via Easy Deploy!
+
+The ZIP upload method is perfect for:
+  ? First-time deployments
+  ? Major updates
+  ? Quick deployments without Git
+
+For frequent updates, consider switching to Git deployment method.
+
+Questions? Check the Hostinger 24/7 support chat in hPanel!
+
+Good luck! ??
+
+================================================================================

@@ -1,0 +1,183 @@
+================================================================================
+  HOSTINGER UPLOAD PACKAGE - SUMMARY
+================================================================================
+
+?? PACKAGE CONTENTS:
+   Total Files: 64
+   Total Folders: 32
+   Total Size: ~392 KB
+
+================================================================================
+  FOLDER STRUCTURE
+================================================================================
+
+hostinger-upload/
+?
+??? ?? app/                         (23 files - Next.js pages)
+?   ??? blog/
+?   ??? tools/
+?   ??? about/
+?   ??? contact/
+?   ??? costs/
+?   ??? guides/
+?   ??? laws/
+?   ??? resources/
+?   ??? sitemap/
+?   ??? corrections/
+?   ??? disclosure/
+?   ??? editorial-policy/
+?   ??? privacy-policy/
+?   ??? terms-of-service/
+?   ??? layout.tsx
+?   ??? page.tsx
+?   ??? not-found.tsx
+?   ??? globals.css
+?   ??? sitemap.ts
+?   ??? robots.ts
+?
+??? ?? components/                  (19 files - React components)
+?   ??? analytics/
+?   ??? article/
+?   ??? gamification/
+?   ??? home/
+?   ??? layout/
+?   ??? progress/
+?   ??? quiz/
+?   ??? ui/
+?
+??? ?? content/                     (5 files - Blog articles)
+?   ??? how-to-save-money-renting-2025.tsx
+?   ??? tenant-rights-everyone-should-know.tsx
+?   ??? hidden-rental-fees-explained.tsx
+?   ??? best-apps-and-tools-for-renters.tsx
+?   ??? renting-vs-buying-2025.tsx
+?
+??? ?? lib/                         (4 files - Utilities)
+?   ??? articles.ts
+?   ??? metadata.ts
+?   ??? quizzes.ts
+?   ??? schema.ts
+?
+??? ?? public/                      (Empty - add static files here)
+?
+??? ?? types/                       (1 file - TypeScript types)
+?   ??? index.ts
+?
+??? ?? package.json                 (Dependencies)
+??? ?? package-lock.json            (Dependency lock)
+??? ?? next.config.js               (Next.js config)
+??? ?? tsconfig.json                (TypeScript config)
+??? ?? tailwind.config.js           (Tailwind config)
+??? ?? postcss.config.js            (PostCSS config)
+??? ?? next-env.d.ts                (Next.js types)
+??? ?? server.js                    (Node.js server - REQUIRED!)
+??? ?? .htaccess                    (Apache config)
+?
+??? ?? README-UPLOAD.txt            (Upload instructions)
+??? ?? UPLOAD-CHECKLIST.txt         (Deployment checklist)
+??? ?? FILE-LISTING.txt             (Complete file list)
+??? ?? PACKAGE-SUMMARY.txt          (This file)
+
+================================================================================
+  UPLOAD DESTINATION
+================================================================================
+
+Upload TO:    domains/yourdomain.com/
+Via:          FTP (ftp.yourdomain.com) or SFTP (port 22)
+Username:     Your Hostinger username
+Password:     Your Hostinger password
+
+================================================================================
+  QUICK START
+================================================================================
+
+1. Connect via FTP/SFTP
+2. Navigate to domains/yourdomain.com/
+3. Upload ALL files and folders from this directory
+4. SSH to server: ssh username@yourdomain.com
+5. Navigate: cd domains/yourdomain.com
+6. Install: npm install --production
+7. Build: npm run build
+8. Configure Node.js app in hPanel
+9. Set startup file: server.js
+10. Start the application
+
+================================================================================
+  CRITICAL FILES
+================================================================================
+
+Must have these files for the app to work:
+
+  ? server.js          - Without this, app won't start!
+  ? .htaccess          - Without this, routing won't work!
+  ? package.json       - Without this, can't install dependencies!
+  ? next.config.js     - Without this, Next.js won't configure!
+
+After upload, verify with:
+  ls -la server.js
+  ls -la .htaccess
+  ls -la package.json
+
+================================================================================
+  WHAT HAPPENS AFTER UPLOAD
+================================================================================
+
+ON SERVER:
+1. npm install --production  ? Creates node_modules/ (~200-300 MB)
+2. npm run build             ? Creates .next/ (~50-100 MB)
+3. Start app in hPanel       ? Runs on assigned port (3000-4000)
+
+TOTAL SERVER SIZE AFTER BUILD: ~350-500 MB
+
+================================================================================
+  VERIFICATION
+================================================================================
+
+After deployment, check:
+  ? https://yourdomain.com - Home page loads
+  ? https://yourdomain.com/blog - Blog hub loads
+  ? https://yourdomain.com/tools - Tools hub loads
+  ? Click any article - Article loads with images
+  ? Use any calculator - Tools work correctly
+  ? Mobile responsive - Test on phone
+  ? HTTPS active - Green padlock in browser
+
+================================================================================
+  SUPPORT FILES
+================================================================================
+
+See parent directory for detailed documentation:
+  ../HOSTINGER-README.md       - Quick start guide (5 min)
+  ../HOSTINGER-DEPLOY.md       - Complete guide (30 min)
+  ../HOSTINGER-CHECKLIST.md    - Full deployment checklist
+  ../HOSTINGER-QUICKREF.md     - Quick reference card
+  ../HOSTINGER-INDEX.md        - Documentation navigator
+
+================================================================================
+  IMPORTANT NOTES
+================================================================================
+
+??  DO NOT upload node_modules/ - Install on server instead
+??  DO NOT upload .next/ - Build on server instead
+??  DO NOT upload .env files - Set in hPanel instead
+??  DO set "server.js" as startup file in hPanel
+??  DO run "npm run build" after install
+
+================================================================================
+  PACKAGE READY!
+================================================================================
+
+This folder contains everything you need to deploy your Next.js site to
+Hostinger Node.js hosting.
+
+Simply upload all files to: domains/yourdomain.com/
+
+Questions? See README-UPLOAD.txt or parent directory documentation.
+
+Good luck with your deployment! ??
+
+================================================================================
+  Package Created: December 23, 2025
+  Next.js Version: 14.2.35
+  Node.js Required: 18.17.0 or higher
+================================================================================

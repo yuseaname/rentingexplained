@@ -1,0 +1,39 @@
+#!/bin/bash
+# Post-deployment script for Hostinger Easy Deploy
+# This runs automatically after zip extraction
+
+echo "?? Starting automatic deployment..."
+
+# Set correct permissions
+echo "Setting permissions..."
+find . -type d -exec chmod 755 {} \;
+find . -type f -exec chmod 644 {} \;
+chmod +x deploy-hostinger.sh 2>/dev/null || true
+
+# Install dependencies
+echo "Installing dependencies..."
+npm install --production
+
+# Build the application
+echo "Building Next.js application..."
+npm run build
+
+# Create .htaccess from template
+if [ -f ".htaccess-hostinger" ] && [ ! -f ".htaccess" ]; then
+    echo "Creating .htaccess..."
+    cp .htaccess-hostinger .htaccess
+fi
+
+# Create logs directory
+mkdir -p logs
+
+echo "? Deployment complete!"
+echo "Next steps:"
+echo "1. Go to hPanel ? Node.js"
+echo "2. Create/Edit application"
+echo "3. Set startup file: server.js"
+echo "4. Set Node version: 18.x or 20.x"
+echo "5. Add environment variables"
+echo "6. Start the application"
+echo ""
+echo "Your site will be available at your domain!"

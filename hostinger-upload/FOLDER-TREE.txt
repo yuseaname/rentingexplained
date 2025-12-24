@@ -1,0 +1,131 @@
+Folder PATH listing for volume SSK SSD
+Volume serial number is 0241-A762
+D:\REPOS\RENTINGEXPLAINED.COM\HOSTINGER-UPLOAD
+ª   .htaccess
+ª   FILE-LISTING.txt
+ª   FOLDER-TREE.txt
+ª   next-env.d.ts
+ª   next.config.js
+ª   package-lock.json
+ª   PACKAGE-SUMMARY.txt
+ª   package.json
+ª   postcss.config.js
+ª   README-UPLOAD.txt
+ª   server.js
+ª   tailwind.config.js
+ª   tsconfig.json
+ª   UPLOAD-CHECKLIST.txt
+ª   
++---app
+ª   ª   globals.css
+ª   ª   layout.tsx
+ª   ª   not-found.tsx
+ª   ª   page.tsx
+ª   ª   robots.ts
+ª   ª   sitemap.ts
+ª   ª   
+ª   +---about
+ª   ª       page.tsx
+ª   ª       
+ª   +---blog
+ª   ª   ª   page.tsx
+ª   ª   ª   
+ª   ª   +---[slug]
+ª   +---contact
+ª   ª       page.tsx
+ª   ª       
+ª   +---corrections
+ª   ª       page.tsx
+ª   ª       
+ª   +---costs
+ª   ª       page.tsx
+ª   ª       
+ª   +---disclosure
+ª   ª       page.tsx
+ª   ª       
+ª   +---editorial-policy
+ª   ª       page.tsx
+ª   ª       
+ª   +---guides
+ª   ª       page.tsx
+ª   ª       
+ª   +---laws
+ª   ª       page.tsx
+ª   ª       
+ª   +---privacy-policy
+ª   ª       page.tsx
+ª   ª       
+ª   +---resources
+ª   ª       page.tsx
+ª   ª       
+ª   +---sitemap
+ª   ª       page.tsx
+ª   ª       
+ª   +---terms-of-service
+ª   ª       page.tsx
+ª   ª       
+ª   +---tools
+ª       ª   page.tsx
+ª       ª   
+ª       +---hidden-fees-estimator
+ª       ª       page.tsx
+ª       ª       
+ª       +---lease-red-flag-scanner
+ª       ª       page.tsx
+ª       ª       
+ª       +---rent-budget-checker
+ª               page.tsx
+ª               
++---components
+ª   +---analytics
+ª   ª       AnalyticsProvider.tsx
+ª   ª       
+ª   +---article
+ª   ª       ArticleTracker.tsx
+ª   ª       ReadingProgress.tsx
+ª   ª       RelatedArticles.tsx
+ª   ª       TableOfContents.tsx
+ª   ª       
+ª   +---gamification
+ª   ª       BadgesDisplay.tsx
+ª   ª       Leaderboard.tsx
+ª   ª       
+ª   +---home
+ª   ª       ContinueReading.tsx
+ª   ª       FeaturedGuides.tsx
+ª   ª       HeroSection.tsx
+ª   ª       ToolsPreview.tsx
+ª   ª       TrendingTopics.tsx
+ª   ª       
+ª   +---layout
+ª   ª       Footer.tsx
+ª   ª       Header.tsx
+ª   ª       
+ª   +---progress
+ª   ª       ProgressProvider.tsx
+ª   ª       
+ª   +---quiz
+ª   ª       ArticleQuiz.tsx
+ª   ª       
+ª   +---ui
+ª           Badge.tsx
+ª           Button.tsx
+ª           Card.tsx
+ª           
++---content
+ª       best-apps-and-tools-for-renters.tsx
+ª       hidden-rental-fees-explained.tsx
+ª       how-to-save-money-renting-2025.tsx
+ª       renting-vs-buying-2025.tsx
+ª       tenant-rights-everyone-should-know.tsx
+ª       
++---lib
+ª       articles.ts
+ª       metadata.ts
+ª       quizzes.ts
+ª       schema.ts
+ª       
++---public
++---types
+        index.ts
+        

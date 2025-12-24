@@ -1,0 +1,75 @@
+================================================================================
+  UPLOAD CHECKLIST
+================================================================================
+
+BEFORE UPLOAD:
+  [ ] Hostinger account ready
+  [ ] Domain configured
+  [ ] SSL certificate enabled
+  [ ] Node.js available in hPanel
+  [ ] SSH credentials ready
+
+UPLOAD FILES:
+  [ ] Connect to FTP/SFTP
+  [ ] Navigate to domains/yourdomain.com/
+  [ ] Upload ALL files from this folder
+  [ ] Verify folder structure preserved
+  [ ] Check that server.js uploaded
+  [ ] Check that .htaccess uploaded
+
+SSH TO SERVER:
+  [ ] ssh username@yourdomain.com
+  [ ] cd domains/yourdomain.com
+  [ ] ls -la (verify files present)
+  [ ] npm install --production
+  [ ] npm run build
+  [ ] Verify .next/ folder created
+
+CONFIGURE IN hPANEL:
+  [ ] Go to Advanced ? Node.js
+  [ ] Click "Create Application"
+  [ ] Set Node version: 18.x or 20.x
+  [ ] Set Application mode: Production
+  [ ] Set Application root: domains/yourdomain.com
+  [ ] Set Startup file: server.js
+  [ ] Add environment variable: NODE_ENV=production
+  [ ] Add environment variable: NEXT_PUBLIC_SITE_URL=https://yourdomain.com
+  [ ] Click "Start"
+
+VERIFY DEPLOYMENT:
+  [ ] App status shows "Running" in hPanel
+  [ ] Visit https://yourdomain.com
+  [ ] Home page loads
+  [ ] Navigate to /blog
+  [ ] Navigate to /tools
+  [ ] Click on an article
+  [ ] Test a calculator
+  [ ] Check images load
+  [ ] Verify HTTPS (green padlock)
+  [ ] Test on mobile device
+  [ ] Check for console errors (F12)
+
+POST-DEPLOYMENT:
+  [ ] Submit sitemap to Google Search Console
+  [ ] Set up Google Analytics (optional)
+  [ ] Configure email (optional)
+  [ ] Test contact form (if applicable)
+  [ ] Bookmark hPanel for future access
+  [ ] Save SSH credentials securely
+
+COMMON ISSUES:
+  - App won't start? ? Check startup file is "server.js"
+  - Build fails? ? Clear and rebuild: rm -rf .next && npm run build
+  - Port conflict? ? Check .htaccess port matches hPanel
+  - Images missing? ? chmod -R 755 public/
+
+SUPPORT:
+  - Hostinger: 24/7 chat in hPanel
+  - Documentation: See parent directory
+  - Logs: hPanel ? Node.js ? View Logs
+
+================================================================================
+Deployment Date: _______________
+Deployed By: _______________
+Notes: _____________________________________________________________________
+================================================================================

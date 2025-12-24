@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  }
+}
+
+@layer components {
+  .prose-custom {
+    @apply prose prose-lg max-w-none;
+  }
+  
+  .prose-custom h2 {
+    @apply text-3xl font-bold mt-12 mb-4 text-gray-900 scroll-mt-24;
+  }
+  
+  .prose-custom h3 {
+    @apply text-2xl font-semibold mt-8 mb-3 text-gray-800 scroll-mt-24;
+  }
+  
+  .prose-custom p {
+    @apply mb-6 text-gray-700 leading-relaxed;
+  }
+  
+  .prose-custom ul, .prose-custom ol {
+    @apply my-6 space-y-2;
+  }
+  
+  .prose-custom li {
+    @apply text-gray-700;
+  }
+  
+  .prose-custom a {
+    @apply text-primary-600 hover:text-primary-700 font-medium underline transition-colors;
+  }
+  
+  .prose-custom strong {
+    @apply text-gray-900 font-semibold;
+  }
+  
+  .prose-custom img {
+    @apply rounded-lg shadow-md my-8;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors shadow-sm hover:shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-gray-100 text-gray-900 rounded-lg font-medium hover:bg-gray-200 transition-colors;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-100;
+  }
+}
+
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0284c7, #f59e0b);
+  z-index: 9999;
+  transition: width 0.1s ease-out;
+}
+
+.toc-active {
+  @apply text-primary-700 font-semibold border-l-2 border-primary-700;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.badge-gold {
+  @apply bg-accent-100 text-accent-800 ring-1 ring-accent-400;
+}
+
+.badge-silver {
+  @apply bg-gray-200 text-gray-700 ring-1 ring-gray-400;
+}
+
+.badge-bronze {
+  @apply bg-orange-100 text-orange-700 ring-1 ring-orange-400;
+}
