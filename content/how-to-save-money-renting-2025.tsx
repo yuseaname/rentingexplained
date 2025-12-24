@@ -1,9 +1,39 @@
 import Image from 'next/image';
 import ToolCallout from '@/components/article/ToolCallout';
+import { generateFAQSchema } from '@/lib/schema';
 
 export default function Article() {
+  // FAQ Schema Data
+  const faqs = [
+    {
+      question: "How much can I realistically save by negotiating rent?",
+      answer: "Most successful negotiations save $50-200/month ($600-2,400/year). In slower markets or with longer leases, savings can reach $300+/month. The key is timing and leverage."
+    },
+    {
+      question: "Is it worth having a roommate to save money?",
+      answer: "Financially, yes — roommates typically save $400-800/month. However, quality of life matters. Choose roommates carefully and set clear expectations. Bad roommate situations can cost you more in stress than you save in rent."
+    },
+    {
+      question: "What if I'm already locked into a lease — can I still save?",
+      answer: "Yes! Optimize utilities, eliminate unnecessary subscriptions, ask about mid-lease concessions, or find a qualified subtenant for a larger space and pocket the difference. Start planning your next move 3-4 months before lease ends."
+    },
+    {
+      question: "Should I ever pay more than 30% of my income on rent?",
+      answer: "Sometimes, yes. In high-cost cities, 35-40% might be unavoidable if it means better career opportunities. Just ensure you have no high-interest debt, a 3-month emergency fund, and strong earning potential. Treat it as temporary, not permanent."
+    },
+    {
+      question: "What's the single best way to save money on rent?",
+      answer: "Get a roommate. It's the fastest, most impactful change you can make, often cutting costs 40-50% immediately. Combined with negotiating rent and choosing off-peak move times, you can save $6,000-12,000 annually."
+    },
+  ];
+
   return (
     <>
+      {/* FAQ Schema for Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqs)) }}
+      />
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">💰 Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">

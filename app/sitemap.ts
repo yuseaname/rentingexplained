@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Article pages (in production, fetch from CMS or database)
   const articles = [
+    'first-apartment-checklist-guide-2025',
     'how-to-save-money-renting-2025',
     'tenant-rights-everyone-should-know',
     'hidden-rental-fees-explained',
@@ -38,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
-    priority: 0.9,
+    priority: slug === 'first-apartment-checklist-guide-2025' ? 1.0 : 0.9,
   }));
 
   // Tool pages

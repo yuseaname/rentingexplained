@@ -1,9 +1,39 @@
 import Image from 'next/image';
 import ToolCallout from '@/components/article/ToolCallout';
+import { generateFAQSchema } from '@/lib/schema';
 
 export default function Article() {
+  // FAQ Schema Data
+  const faqs = [
+    {
+      question: "Can my landlord evict me without cause?",
+      answer: "It depends on your state and lease type. Month-to-month tenants can usually be evicted with 30-60 days notice for any legal reason. Fixed-term leases require cause (non-payment, lease violation) unless you're in a just-cause eviction jurisdiction like San Francisco or Seattle."
+    },
+    {
+      question: "What if my landlord refuses to make repairs?",
+      answer: "1) Put repair request in writing (email or certified mail). 2) Give reasonable time to fix (typically 14-30 days). 3) Document the issue with photos. 4) Follow your state's repair-and-deduct or rent withholding procedure, OR report to code enforcement, OR move out if it violates habitability."
+    },
+    {
+      question: "Can I withhold rent?",
+      answer: "Maybe, but only following your state's exact procedure. Most states allow rent withholding for serious habitability issues, but you must: 1) Notify landlord in writing, 2) Give them time to fix it, 3) Continue paying rent into an escrow account. Never just stop paying rent without following legal procedure."
+    },
+    {
+      question: "How do I get my security deposit back?",
+      answer: "1) Give proper notice per your lease. 2) Clean thoroughly and repair any damage you caused. 3) Do a walk-through with landlord if possible. 4) Take photos/video of the condition. 5) Provide forwarding address in writing. 6) If landlord withholds unfairly, send a demand letter, then consider small claims court."
+    },
+    {
+      question: "When should I contact an attorney?",
+      answer: "Contact an attorney for: eviction notices, discrimination, large security deposit disputes (over $1,000), habitability issues landlord refuses to fix, lease terms you don't understand before signing, or if you feel your rights are being violated. Many offer free consultations."
+    },
+  ];
+
   return (
     <>
+      {/* FAQ Schema for Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqs)) }}
+      />
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">⚖️ Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
