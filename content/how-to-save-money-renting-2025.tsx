@@ -5,23 +5,51 @@ export default function Article() {
   return (
     <>
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Key Takeaways</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">💰 Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
-          <li>? Negotiate rent before signing � save $50-200/month</li>
-          <li>? Get roommates to cut costs by 40-50%</li>
-          <li>? Time your move during off-peak seasons for better deals</li>
-          <li>? Bundle utilities and services for 10-20% savings</li>
-          <li>? Use the 30% rule to avoid becoming rent-burdened</li>
+          <li>✓ Negotiate rent before signing — save $50-200/month</li>
+          <li>✓ Get roommates to cut costs by 40-50%</li>
+          <li>✓ Time your move during off-peak seasons for better deals</li>
+          <li>✓ Bundle utilities and services for 10-20% savings</li>
+          <li>✓ Use the 30% rule to avoid becoming rent-burdened</li>
         </ul>
       </div>
 
-      <h2 id="introduction">Why Saving Money on Rent Matters More Than Ever</h2>
-      <p>
-        Rent is likely your single largest monthly expense. In 2025, the average American spends 32% of their income on housing — well above the recommended 30% threshold. That means for every $3,000 you earn, nearly $1,000 goes straight to rent before you pay for food, transportation, or savings. This is <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">especially important for first-time renters</a> who may not know where to start with budgeting.
+      <h2 id="introduction">You Work Hard for Your Money—But It's Disappearing Into Rent</h2>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        Every month, you watch it happen: 40% of your paycheck vanishes into rent. You've tried looking for cheaper places. You've considered moving. You've wondered if you're doing something wrong.
       </p>
-      <p>
-        But here's the good news: by implementing strategic approaches to how you rent, where you rent, and how you negotiate, you can save thousands of dollars annually while still enjoying a comfortable home. This guide reveals the exact strategies real renters have used to slash their housing costs.
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        <strong>You're not alone, and you're not wrong.</strong> In 2025, the average American spends 32% of their income on housing—well above the recommended 30% threshold. If you're in a major city, it's even worse. You're stuck feeling like you'll never get ahead, never save enough, never achieve the financial freedom you're working toward.
       </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        <strong>But what if you could slash your rent costs by $200-300 per month without moving?</strong>
+      </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-6">
+        In this guide, you'll discover <strong>12 proven strategies real renters use to save thousands annually</strong>—strategies landlords don't want you to know. Whether you're <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">renting your first apartment</a> or trying to reduce your current rent burden, these tactics work.
+      </p>
+
+      <div className="bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-200 rounded-xl p-6 mb-8">
+        <h3 className="text-xl font-bold text-gray-900 mb-3">What You'll Learn:</h3>
+        <ul className="space-y-2 text-gray-800">
+          <li className="flex items-start">
+            <span className="text-green-600 font-bold mr-2">→</span>
+            How to negotiate rent (even in competitive markets) and save $600-2,400/year
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-600 font-bold mr-2">→</span>
+            The exact timing strategies that can cut your rent by 10-20%
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-600 font-bold mr-2">→</span>
+            Hidden fees to eliminate and how to avoid paying hundreds in unnecessary costs
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-600 font-bold mr-2">→</span>
+            Smart roommate strategies that don't sacrifice your lifestyle
+          </li>
+        </ul>
+      </div>
 
       <div className="relative w-full h-80 my-8 rounded-lg overflow-hidden">
         <Image

@@ -5,23 +5,54 @@ export default function Article() {
   return (
     <>
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Key Takeaways</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">💸 Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
-          <li>? True rental cost is 15-30% higher than advertised rent</li>
-          <li>? Application and admin fees can add $200-500 upfront</li>
-          <li>? Pet fees average $300-500 deposit + $25-75/month</li>
-          <li>? Many fees are negotiable if you ask</li>
-          <li>? Hidden fees cost the average renter $2,000-4,000 annually</li>
+          <li>✓ True rental cost is 15-30% higher than advertised rent</li>
+          <li>✓ Application and admin fees can add $200-500 upfront</li>
+          <li>✓ Pet fees average $300-500 deposit + $25-75/month</li>
+          <li>✓ Many fees are negotiable if you ask</li>
+          <li>✓ Hidden fees cost the average renter $2,000-4,000 annually</li>
         </ul>
       </div>
 
-      <h2 id="introduction">The Real Cost of Renting Nobody Tells You About</h2>
-      <p>
-        You see an apartment listed at $1,500/month and budget accordingly. Then comes the application fee, administrative fee, pet deposit, parking charge, trash fee, amenity fee, and utilities. Suddenly, your $1,500 apartment costs $1,850/month, and you had to pay $2,000 upfront before you even moved in.
+      <h2 id="introduction">Your "$1,500/Month" Apartment Actually Costs $1,850. Here's How They Hide It.</h2>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        You budgeted carefully. You found the perfect apartment at $1,500/month—right at the top of what you can afford. You're excited. You apply.
       </p>
-      <p>
-        This scenario plays out millions of times every year. Hidden rental fees are a multi-billion dollar industry that catches renters off guard and drains wallets. This guide exposes every common hidden fee, explains which ones are legitimate, and shows you how to avoid or negotiate them. For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, understanding these costs upfront is crucial for accurate budgeting.
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        Then the fees start appearing: <strong>Application fee. Administrative fee. Pet deposit. Pet rent. Parking fee. Trash fee. Amenity fee. Water/sewer fee.</strong>
       </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        Suddenly, you need $2,000 upfront just to move in. And that "$1,500/month" apartment? It actually costs <strong>$1,850 per month</strong>. That's $350 more than you budgeted—every single month. <strong>$4,200 per year that wasn't in the listing.</strong>
+      </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        <strong>You've been deceived—and it's completely legal.</strong>
+      </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-6">
+        This scenario plays out millions of times every year. <strong>Hidden rental fees are a multi-billion dollar industry</strong> designed to make apartments look affordable while hitting you with charges that weren't advertised. For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, these surprise costs can derail your entire budget before you even move in.
+      </p>
+
+      <div className="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 rounded-xl p-6 mb-8">
+        <h3 className="text-xl font-bold text-gray-900 mb-3">In This Guide, You'll Learn:</h3>
+        <ul className="space-y-2 text-gray-800">
+          <li className="flex items-start">
+            <span className="text-red-600 font-bold mr-2">→</span>
+            Every hidden fee landlords charge (and which ones you can eliminate)
+          </li>
+          <li className="flex items-start">
+            <span className="text-red-600 font-bold mr-2">→</span>
+            How to calculate the TRUE cost before signing (so you're never surprised)
+          </li>
+          <li className="flex items-start">
+            <span className="text-red-600 font-bold mr-2">→</span>
+            Exact scripts to negotiate away $200-500 in unnecessary fees
+          </li>
+          <li className="flex items-start">
+            <span className="text-red-600 font-bold mr-2">→</span>
+            Which fees are actually illegal in your state
+          </li>
+        </ul>
+      </div>
 
       <ToolCallout tool="fees" />
 

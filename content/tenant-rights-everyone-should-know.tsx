@@ -5,23 +5,54 @@ export default function Article() {
   return (
     <>
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Key Takeaways</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">⚖️ Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
-          <li>? You have the right to a habitable living space under implied warranty</li>
-          <li>? Landlords must provide 24-48 hours notice before entry in most states</li>
-          <li>? Security deposits have strict legal timelines for return</li>
-          <li>? You cannot be discriminated against under Fair Housing Act</li>
-          <li>? Retaliation for asserting your rights is illegal</li>
+          <li>✓ You have the right to a habitable living space under implied warranty</li>
+          <li>✓ Landlords must provide 24-48 hours notice before entry in most states</li>
+          <li>✓ Security deposits have strict legal timelines for return</li>
+          <li>✓ You cannot be discriminated against under Fair Housing Act</li>
+          <li>✓ Retaliation for asserting your rights is illegal</li>
         </ul>
       </div>
 
-      <h2 id="introduction">Why Knowing Your Rights Protects Your Wallet and Well-Being</h2>
-      <p>
-        Every year, tenants lose billions of dollars to unfair security deposit deductions, illegal fees, and unlawful evictions — simply because they don't know their rights. Understanding tenant law isn't just about legal theory; it's about protecting your money, your home, and your peace of mind. For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, knowing your rights before signing your first lease is especially critical.
+      <h2 id="introduction">You're Being Taken Advantage Of—And You Don't Even Know It</h2>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        Your landlord kept $800 of your security deposit for "normal wear and tear" that's actually illegal to charge. You signed a lease with a clause that waives your right to sue—completely unenforceable. You're paying "admin fees" that landlords made up to pad their profits.
       </p>
-      <p>
-        This comprehensive guide covers the essential tenant rights that apply across most U.S. jurisdictions, with guidance on state-specific variations and when to seek legal help.
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        <strong>Every year, tenants lose billions of dollars to unfair deductions, illegal fees, and unlawful evictions—simply because they don't know their rights.</strong>
       </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        The system is designed to keep you in the dark. Landlords and property managers have teams of lawyers. They know exactly what they can and can't do. <strong>You're expected to sign 20-page leases written in legal jargon without understanding what you're agreeing to.</strong>
+      </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        That ends today.
+      </p>
+      <p className="text-lg text-gray-700 leading-relaxed mb-6">
+        This guide covers the <strong>essential tenant rights that every renter needs to know</strong>—explained in plain English, with specific examples of how to use them. Whether you're <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">signing your first lease</a> or fighting an unfair eviction, these rights protect your money, your home, and your peace of mind.
+      </p>
+
+      <div className="bg-gradient-to-r from-orange-50 to-red-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
+        <h3 className="text-xl font-bold text-gray-900 mb-3">What You'll Discover:</h3>
+        <ul className="space-y-2 text-gray-800">
+          <li className="flex items-start">
+            <span className="text-orange-600 font-bold mr-2">→</span>
+            The 6 fundamental rights landlords hope you never learn about
+          </li>
+          <li className="flex items-start">
+            <span className="text-orange-600 font-bold mr-2">→</span>
+            How to get your full security deposit back (even when landlords fight it)
+          </li>
+          <li className="flex items-start">
+            <span className="text-orange-600 font-bold mr-2">→</span>
+            Which lease clauses are illegal and unenforceable (even if you signed them)
+          </li>
+          <li className="flex items-start">
+            <span className="text-orange-600 font-bold mr-2">→</span>
+            When and how to legally withhold rent for repairs
+          </li>
+        </ul>
+      </div>
 
       <div className="relative w-full h-80 my-8 rounded-lg overflow-hidden">
         <Image
