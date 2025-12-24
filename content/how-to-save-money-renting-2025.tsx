@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ToolCallout from '@/components/article/ToolCallout';
 
 export default function Article() {
   return (
@@ -16,7 +17,7 @@ export default function Article() {
 
       <h2 id="introduction">Why Saving Money on Rent Matters More Than Ever</h2>
       <p>
-        Rent is likely your single largest monthly expense. In 2025, the average American spends 32% of their income on housing � well above the recommended 30% threshold. That means for every $3,000 you earn, nearly $1,000 goes straight to rent before you pay for food, transportation, or savings.
+        Rent is likely your single largest monthly expense. In 2025, the average American spends 32% of their income on housing — well above the recommended 30% threshold. That means for every $3,000 you earn, nearly $1,000 goes straight to rent before you pay for food, transportation, or savings. This is <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">especially important for first-time renters</a> who may not know where to start with budgeting.
       </p>
       <p>
         But here's the good news: by implementing strategic approaches to how you rent, where you rent, and how you negotiate, you can save thousands of dollars annually while still enjoying a comfortable home. This guide reveals the exact strategies real renters have used to slash their housing costs.
@@ -49,6 +50,12 @@ export default function Article() {
         <strong>Example:</strong> If you earn $4,000/month gross, your maximum rent should be around $1,200/month. If utilities run $150/month, aim for $1,050 in base rent.
       </p>
 
+      <ToolCallout tool="budget" />
+
+      <p>
+        For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, getting your budget right from the start is especially important to avoid financial stress.
+      </p>
+
       <h3>When to Adjust the Rule</h3>
       <p>
         In high-cost cities like San Francisco, New York, or Boston, the 30% rule can be nearly impossible to follow. In these markets, consider:
@@ -70,7 +77,7 @@ export default function Article() {
 
       <h2 id="negotiation">Strategy #2: Negotiate Like a Pro (Even in Competitive Markets)</h2>
       <p>
-        Most renters never negotiate rent. That's a costly mistake. Even in hot rental markets, there's often room to negotiate � you just need to know how and when.
+        Most renters never negotiate rent. That's a costly mistake. Even in hot rental markets, there's often room to negotiate — you just need to know how and when. Before negotiating, make sure you <a href="/blog/tenant-rights-everyone-should-know" className="text-blue-600 hover:underline font-medium">understand your tenant rights</a> to negotiate from a position of knowledge.
       </p>
 
       <h3>Best Times to Negotiate</h3>
@@ -237,14 +244,22 @@ export default function Article() {
         <li>Programmable thermostats reduce heating/cooling 15%</li>
         <li>Bundle internet/cable for provider discounts</li>
       </ul>
+      <p>
+        For more ways to automate savings and track expenses, explore our guide on <a href="/blog/best-apps-and-tools-for-renters" className="text-blue-600 hover:underline font-medium">rental apps and tools that can help</a> you manage your finances more efficiently.
+      </p>
 
       <h3>Eliminate or Reduce Fees</h3>
+      <p>
+        Watch out for <a href="/blog/hidden-rental-fees-explained" className="text-blue-600 hover:underline font-medium">hidden rental fees that landlords don't advertise</a>—they can add hundreds to your monthly costs. Understanding these fees gives you negotiating power.
+      </p>
       <ul>
         <li><strong>Application fees:</strong> Negotiate to waive or apply to first month</li>
         <li><strong>Admin fees:</strong> Often negotiable or unnecessary</li>
         <li><strong>Parking:</strong> Use street parking or carpool</li>
         <li><strong>Pet rent:</strong> Negotiate a one-time deposit instead</li>
       </ul>
+
+      <ToolCallout tool="fees" />
 
       <h3>Insurance Optimization</h3>
       <p>
@@ -282,7 +297,7 @@ export default function Article() {
 
       <h3>Rent-to-Own</h3>
       <p>
-        Some landlords offer rent-to-own arrangements where a portion of rent builds toward a future purchase. Great if you plan to stay long-term.
+        Some landlords offer rent-to-own arrangements where a portion of rent builds toward a future purchase. Great if you plan to stay long-term. For a <a href="/blog/renting-vs-buying-2025" className="text-blue-600 hover:underline font-medium">comprehensive financial analysis of renting versus buying</a>, see our detailed comparison guide.
       </p>
 
       <h2 id="faq">Frequently Asked Questions</h2>

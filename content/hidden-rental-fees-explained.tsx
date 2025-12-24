@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ToolCallout from '@/components/article/ToolCallout';
 
 export default function Article() {
   return (
@@ -19,8 +20,10 @@ export default function Article() {
         You see an apartment listed at $1,500/month and budget accordingly. Then comes the application fee, administrative fee, pet deposit, parking charge, trash fee, amenity fee, and utilities. Suddenly, your $1,500 apartment costs $1,850/month, and you had to pay $2,000 upfront before you even moved in.
       </p>
       <p>
-        This scenario plays out millions of times every year. Hidden rental fees are a multi-billion dollar industry that catches renters off guard and drains wallets. This guide exposes every common hidden fee, explains which ones are legitimate, and shows you how to avoid or negotiate them.
+        This scenario plays out millions of times every year. Hidden rental fees are a multi-billion dollar industry that catches renters off guard and drains wallets. This guide exposes every common hidden fee, explains which ones are legitimate, and shows you how to avoid or negotiate them. For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, understanding these costs upfront is crucial for accurate budgeting.
       </p>
+
+      <ToolCallout tool="fees" />
 
       <div className="relative w-full h-80 my-8 rounded-lg overflow-hidden">
         <Image
@@ -179,6 +182,9 @@ export default function Article() {
       </p>
 
       <h2 id="calculate">Calculate Your True Rental Cost</h2>
+      <p>
+        Before committing to any apartment, you need to know the complete picture. <a href="/tools/rent-budget-checker" className="text-blue-600 hover:underline font-semibold">Determine how much rent you can afford</a> including all fees to avoid budget shock.
+      </p>
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Example: $1,500/month "affordable" apartment</h3>
@@ -205,6 +211,9 @@ export default function Article() {
       </div>
 
       <h2 id="negotiate">How to Negotiate Away Hidden Fees</h2>
+      <p>
+        Use these <a href="/blog/how-to-save-money-renting-2025" className="text-blue-600 hover:underline font-medium">money-saving negotiation strategies</a> to reduce or eliminate unnecessary fees. <a href="/blog/tenant-rights-everyone-should-know" className="text-blue-600 hover:underline font-medium">Know your tenant rights</a> to identify illegal charges and negotiate from a position of knowledge.
+      </p>
 
       <h3>The Direct Approach</h3>
       <p>"I'm interested in the unit, but my budget is $X all-in. Can we remove the administrative fee and include parking in the base rent to make this work?"</p>
@@ -258,7 +267,7 @@ export default function Article() {
         <div className="border-l-4 border-primary-600 pl-4">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">How can I estimate total costs before applying?</h3>
           <p>
-            Ask for a fee schedule in writing before applying. Request: base rent, all deposits, all monthly fees, all move-in costs. Use our Hidden Fees Estimator tool to calculate your true cost.
+            Ask for a fee schedule in writing before applying. Request: base rent, all deposits, all monthly fees, all move-in costs. Use our Hidden Fees Estimator tool to calculate your true cost. For ongoing expense tracking, explore <a href="/blog/best-apps-and-tools-for-renters" className="text-blue-600 hover:underline font-medium">apps that help track rental expenses</a> automatically.
           </p>
         </div>
       </div>

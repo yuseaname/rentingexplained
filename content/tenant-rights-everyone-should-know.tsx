@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ToolCallout from '@/components/article/ToolCallout';
 
 export default function Article() {
   return (
@@ -16,7 +17,7 @@ export default function Article() {
 
       <h2 id="introduction">Why Knowing Your Rights Protects Your Wallet and Well-Being</h2>
       <p>
-        Every year, tenants lose billions of dollars to unfair security deposit deductions, illegal fees, and unlawful evictions � simply because they don't know their rights. Understanding tenant law isn't just about legal theory; it's about protecting your money, your home, and your peace of mind.
+        Every year, tenants lose billions of dollars to unfair security deposit deductions, illegal fees, and unlawful evictions — simply because they don't know their rights. Understanding tenant law isn't just about legal theory; it's about protecting your money, your home, and your peace of mind. For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, knowing your rights before signing your first lease is especially critical.
       </p>
       <p>
         This comprehensive guide covers the essential tenant rights that apply across most U.S. jurisdictions, with guidance on state-specific variations and when to seek legal help.
@@ -104,7 +105,7 @@ export default function Article() {
 
       <h2 id="security-deposit">Right #3: Security Deposit Protection</h2>
       <p>
-        Security deposits have strict legal protections. Landlords cannot simply keep your deposit � they must follow specific rules.
+        Security deposits have strict legal protections. Landlords cannot simply keep your deposit — they must follow specific rules. Understanding these protections helps you avoid <a href="/blog/hidden-rental-fees-explained" className="text-blue-600 hover:underline font-medium">hidden fees that might be illegal</a> or improperly deducted from your deposit.
       </p>
 
       <h3>Deposit Return Timelines (By State)</h3>
@@ -212,6 +213,9 @@ export default function Article() {
         <li>Decreasing services</li>
         <li>Harassment or threats</li>
       </ul>
+      <p>
+        If you're facing a rent increase, learn <a href="/blog/how-to-save-money-renting-2025" className="text-blue-600 hover:underline font-medium">strategies to negotiate rent increases</a> while protecting your rights.
+      </p>
 
       <h3>Proving Retaliation</h3>
       <p>You typically need to show:</p>
@@ -223,8 +227,10 @@ export default function Article() {
 
       <h2 id="lease-terms">Right #6: Reasonable Lease Terms</h2>
       <p>
-        While landlords have broad authority to set lease terms, some clauses are illegal or unenforceable.
+        While landlords have broad authority to set lease terms, some clauses are illegal or unenforceable. Before signing any lease, it's crucial to identify problematic clauses.
       </p>
+
+      <ToolCallout tool="lease" />
 
       <h3>Generally Unenforceable Clauses</h3>
       <ul>
@@ -244,7 +250,7 @@ export default function Article() {
 
       <h2 id="state-specific">Understanding State-Specific Rights</h2>
       <p>
-        While the rights above apply broadly, every state has specific variations. Here are examples of strong tenant-friendly state laws:
+        While the rights above apply broadly, every state has specific variations. <a href="/laws" className="text-blue-600 hover:underline font-medium">Check your state's specific tenant protection laws</a> for local regulations. Here are examples of strong tenant-friendly state laws:
       </p>
 
       <h3>California</h3>

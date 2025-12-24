@@ -14,16 +14,16 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center mb-12">
             <Link
-              href="/blog"
+              href="/blog/first-apartment-checklist-guide-2025"
               className="px-8 py-4 bg-white text-primary-700 rounded-lg font-semibold hover:bg-primary-50 transition-all shadow-lg hover:shadow-xl"
             >
-              Start Learning
+              First Apartment Guide
             </Link>
             <Link
-              href="/tools"
+              href="/tools/rent-budget-checker"
               className="px-8 py-4 bg-primary-500 text-white rounded-lg font-semibold hover:bg-primary-400 transition-all border-2 border-white/20"
             >
-              Try Our Tools
+              Calculate Your Budget
             </Link>
           </div>
           
