@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -61,6 +62,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Rybbit Analytics */}
+        <Script
+          src="https://app.rybbit.io/api/script.js"
+          data-site-id="d00d1f463c4a"
+          strategy="afterInteractive"
+        />
+      </head>
       <body>
         <AnalyticsProvider>
           <ProgressProvider>
