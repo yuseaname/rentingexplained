@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ToolCallout from '@/components/article/ToolCallout';
 
 export default function Article() {
   return (
@@ -16,7 +17,7 @@ export default function Article() {
 
       <h2 id="introduction">The Rent vs Buy Debate Has Changed in 2025</h2>
       <p>
-        For decades, conventional wisdom said "renting is throwing money away" and "buying builds wealth." But in 2025, with median home prices at $420,000, mortgage rates at 6-7%, and remote work enabling mobility, that advice is dangerously oversimplified.
+        For decades, conventional wisdom said "renting is throwing money away" and "buying builds wealth." But in 2025, with median home prices at $420,000, mortgage rates at 6-7%, and remote work enabling mobility, that advice is dangerously oversimplified. This is especially important for <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a> making their initial housing decisions.
       </p>
       <p>
         This guide provides a comprehensive financial analysis of renting versus buying, revealing when each choice makes more sense for your specific situation.
@@ -66,6 +67,12 @@ export default function Article() {
 
       <h2 id="true-cost-renting">The True Cost of Renting (It's Not "Throwing Money Away")</h2>
 
+      <p>
+        Before comparing costs, <a href="/tools/rent-budget-checker" className="text-blue-600 hover:underline font-semibold">calculate your ideal rent budget</a> to understand what you can comfortably afford. Remember to factor in <a href="/blog/hidden-rental-fees-explained" className="text-blue-600 hover:underline font-medium">hidden rental fees</a> when comparing the true cost.
+      </p>
+
+      <ToolCallout tool="budget" />
+
       <h3>What You Get for Your Rent Dollar</h3>
       <ul>
         <li><strong>Housing services:</strong> Roof, walls, utilities infrastructure</li>
@@ -73,6 +80,7 @@ export default function Article() {
         <li><strong>Flexibility:</strong> Move for jobs, relationships, lifestyle changes</li>
         <li><strong>No surprise costs:</strong> Predictable monthly expense</li>
         <li><strong>Investment opportunity:</strong> Deploy capital elsewhere for potentially higher returns</li>
+        <li><strong>Legal protections:</strong> <a href="/blog/tenant-rights-everyone-should-know" className="text-blue-600 hover:underline font-medium">Tenant rights and protections</a> safeguard your housing security</li>
       </ul>
 
       <h3>Example: Same $400k House, Rented</h3>
@@ -141,7 +149,7 @@ export default function Article() {
 
       <h3>5. You Value Flexibility</h3>
       <p>
-        Career pivots, remote work opportunities, family changes � renting lets you optimize for life changes worth far more than financial calculations.
+        Career pivots, remote work opportunities, family changes — renting lets you optimize for life changes worth far more than financial calculations. While renting, you can also employ <a href="/blog/how-to-save-money-renting-2025" className="text-blue-600 hover:underline font-medium">strategies to save money</a> and maximize your financial flexibility.
       </p>
 
       <h2 id="when-buying-wins">When Buying Makes More Sense</h2>

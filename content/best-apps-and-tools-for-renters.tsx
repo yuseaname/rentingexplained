@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ToolCallout from '@/components/article/ToolCallout';
 
 export default function Article() {
   return (
@@ -16,7 +17,7 @@ export default function Article() {
 
       <h2 id="introduction">Why Renters Need Digital Tools in 2025</h2>
       <p>
-        The rental market has gone digital. From apartment hunting to paying rent to requesting repairs, apps and digital tools have transformed the renting experience. The right tools can save you time, money, and stress � but with hundreds of options, which ones are actually worth using?
+        The rental market has gone digital. From apartment hunting to paying rent to requesting repairs, apps and digital tools have transformed the renting experience. The right tools can save you time, money, and stress — but with hundreds of options, which ones are actually worth using? For <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">first-time renters</a>, knowing which tools to use can simplify your entire rental journey.
       </p>
       <p>
         This guide reviews the best apps and tools for renters across every category, with honest comparisons, pricing details, and recommendations for different situations.
@@ -112,6 +113,12 @@ export default function Article() {
 
       <h2 id="budgeting">Best Budgeting & Financial Tools</h2>
 
+      <p>
+        Before exploring third-party apps, start with <a href="/tools/rent-budget-checker" className="text-blue-600 hover:underline font-semibold">our free rent budget calculator</a> to determine how much rent you can afford. Then use these apps to track your spending:
+      </p>
+
+      <ToolCallout tool="budget" />
+
       <h3>1. Mint (by Intuit) ????�</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Comprehensive budget tracking</p>
@@ -142,6 +149,19 @@ export default function Article() {
       <p><strong>Best for:</strong> Hiring moving help, furniture assembly, cleaning.</p>
 
       <h2 id="recommendations">Our Complete App Stack Recommendations</h2>
+
+      <h3>RentingExplained.com Free Tools (Start Here)</h3>
+      <p>
+        Before downloading third-party apps, use our free tools built specifically for renters:
+      </p>
+      <ul>
+        <li><a href="/tools/rent-budget-checker" className="text-blue-600 hover:underline font-semibold">Rent Budget Calculator</a> - Determine affordable rent based on your income</li>
+        <li><a href="/tools/hidden-fees-estimator" className="text-blue-600 hover:underline font-semibold">Hidden Fees Estimator</a> - Calculate true rental costs including all fees</li>
+        <li><a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">Lease Red Flag Scanner</a> - Identify problematic lease clauses</li>
+      </ul>
+      <p>
+        Combine these with <a href="/blog/how-to-save-money-renting-2025" className="text-blue-600 hover:underline font-medium">strategies to save money on rent</a> for maximum impact.
+      </p>
 
       <h3>The Essential (Free) Stack</h3>
       <ul>
