@@ -1,0 +1,242 @@
+# YouTube Embed Automation Configuration
+# Edit these values to customize behavior without modifying the main script
+
+# ============================================================================
+# VIDEO CONSTRAINTS
+# ============================================================================
+
+# Minimum video duration in seconds (default: 120 = 2 minutes)
+MIN_DURATION: 120
+
+# Maximum video duration in seconds (default: 1500 = 25 minutes)
+MAX_DURATION: 1500
+
+# Number of search results to fetch per query (default: 10)
+SEARCH_RESULTS_PER_QUERY: 10
+
+# Maximum total unique candidates to consider per post (default: 25)
+MAX_TOTAL_CANDIDATES: 25
+
+# ============================================================================
+# SCORING WEIGHTS
+# ============================================================================
+# These should add up to 1.0 for best results
+
+# Weight for transcript similarity to blog content (default: 0.50)
+TRANSCRIPT_WEIGHT: 0.50
+
+# Weight for description similarity to blog summary (default: 0.20)
+DESCRIPTION_WEIGHT: 0.20
+
+# Weight for keyword overlap in titles/headings (default: 0.15)
+KEYWORD_WEIGHT: 0.15
+
+# Weight for quality heuristics (views, likes, non-clickbait) (default: 0.10)
+QUALITY_WEIGHT: 0.10
+
+# Weight for safety/retention factors (default: 0.05)
+SAFETY_WEIGHT: 0.05
+
+# ============================================================================
+# SCORE THRESHOLD
+# ============================================================================
+
+# Default minimum score to insert video (0.0 to 1.0, default: 0.78)
+# Lower = more matches but potentially less relevant
+# Higher = fewer but more relevant matches
+DEFAULT_MIN_SCORE: 0.78
+
+# ============================================================================
+# DIRECTORY PATTERNS
+# ============================================================================
+
+# Directories to ignore when scanning for posts (comma-separated)
+IGNORED_DIRS: node_modules,dist,build,.git,.next,out,__pycache__,.cache,venv,env
+
+# File extensions to consider as blog posts (comma-separated)
+POST_EXTENSIONS: .md,.mdx,.html,.tsx,.jsx
+
+# Subdirectory names to search for posts within pillars (comma-separated)
+POST_SUBDIRS: blogs,posts,content,articles,guides
+
+# ============================================================================
+# CONTENT EXTRACTION
+# ============================================================================
+
+# Number of words to extract for summary (default: 400)
+SUMMARY_WORD_COUNT: 400
+
+# Maximum number of keywords to extract from text (default: 20)
+MAX_KEYWORDS: 20
+
+# ============================================================================
+# SEARCH QUERY GENERATION
+# ============================================================================
+
+# Number of search queries to generate per post (default: 3)
+# More queries = more candidates but slower processing
+QUERIES_PER_POST: 3
+
+# Include "how to" queries for instructional content (default: true)
+INCLUDE_HOWTO_QUERIES: true
+
+# Include pillar name in queries (default: true)
+INCLUDE_PILLAR_IN_QUERIES: true
+
+# ============================================================================
+# VIDEO QUALITY FILTERS
+# ============================================================================
+
+# Minimum view count to consider (0 = no minimum, default: 0)
+MIN_VIEW_COUNT: 0
+
+# Maximum view count to consider (0 = no maximum, default: 0)
+# Setting this can help avoid overly viral/mainstream content
+MAX_VIEW_COUNT: 0
+
+# Prefer videos uploaded within N days (0 = no preference, default: 0)
+# E.g., 365 = prefer videos from last year
+PREFER_RECENT_DAYS: 0
+
+# Clickbait keywords to penalize (comma-separated, lowercase)
+CLICKBAIT_KEYWORDS: shocking,you won't believe,jaw-dropping,insane,crazy,mind-blowing,secret,they don't want you to know,must see,breaking,viral
+
+# Controversial keywords to penalize (comma-separated, lowercase)
+CONTROVERSIAL_KEYWORDS: scandal,exposed,controversy,drama,fight,feud,react,reaction,roast,destroyed,slammed,rant,angry,heated
+
+# ============================================================================
+# EMBED PLACEMENT
+# ============================================================================
+
+# Preferred insertion strategy (options: first_h2, topic_match, near_end, after_h1)
+# Default: first_h2
+PLACEMENT_STRATEGY: first_h2
+
+# For topic_match: minimum keyword overlap to match heading (0.0-1.0, default: 0.3)
+HEADING_MATCH_THRESHOLD: 0.3
+
+# Number of videos to insert per post (default: 1)
+# WARNING: Multiple videos may impact page speed and user experience
+VIDEOS_PER_POST: 1
+
+# ============================================================================
+# EMBED FORMATTING
+# ============================================================================
+
+# Use youtube-nocookie.com for privacy (default: true)
+USE_NOCOOKIE_DOMAIN: true
+
+# Include video title in embed (default: true)
+SHOW_VIDEO_TITLE: true
+
+# Include intro text above embed (default: true)
+SHOW_INTRO_TEXT: true
+
+# Custom intro text (leave empty for default)
+# Default: "?? Optional video walkthrough (stays here on the page):"
+CUSTOM_INTRO_TEXT: ""
+
+# Add lazy loading (default: true)
+# Click-to-play thumbnail instead of immediate iframe load
+LAZY_LOAD: true
+
+# ============================================================================
+# BACKUP & SAFETY
+# ============================================================================
+
+# Create .bak backup files before modifying (default: true)
+CREATE_BACKUPS: true
+
+# Backup file extension (default: .bak)
+BACKUP_EXTENSION: .bak
+
+# Skip files that already have backups (default: false)
+# Set to true to avoid processing files multiple times
+SKIP_IF_BACKUP_EXISTS: false
+
+# ============================================================================
+# PROCESSING BEHAVIOR
+# ============================================================================
+
+# Default batch size for processing (default: 3)
+DEFAULT_BATCH_SIZE: 3
+
+# Process pillars in alphabetical order (default: true)
+SORT_PILLARS: true
+
+# Process posts in alphabetical order within pillars (default: true)
+SORT_POSTS: true
+
+# Timeout for yt-dlp commands in seconds (default: 60)
+YTDLP_TIMEOUT: 60
+
+# Maximum retries for failed yt-dlp commands (default: 2)
+MAX_RETRIES: 2
+
+# ============================================================================
+# TRANSCRIPT HANDLING
+# ============================================================================
+
+# Attempt to fetch transcripts (default: true)
+FETCH_TRANSCRIPTS: true
+
+# Prefer manual captions over auto-generated (default: true)
+PREFER_MANUAL_CAPTIONS: true
+
+# Subtitle languages to try (comma-separated, default: en)
+# Format: "en,en-US,en-GB" or "en.*" for all English variants
+SUBTITLE_LANGUAGES: "en.*,en"
+
+# Penalty multiplier for videos without transcripts (default: 0.5)
+# Videos without transcripts get transcript_score * NO_TRANSCRIPT_PENALTY
+NO_TRANSCRIPT_PENALTY: 0.5
+
+# ============================================================================
+# REPORTING
+# ============================================================================
+
+# Default report output filename (default: youtube_embed_report.json)
+DEFAULT_REPORT_FILE: youtube_embed_report.json
+
+# Include full candidate list in report (default: false)
+# Warning: Can make report file very large
+INCLUDE_ALL_CANDIDATES: false
+
+# Number of top candidates to include per post (default: 5)
+TOP_CANDIDATES_COUNT: 5
+
+# Include transcript samples in report (default: false)
+INCLUDE_TRANSCRIPT_SAMPLES: false
+
+# ============================================================================
+# ADVANCED OPTIONS
+# ============================================================================
+
+# Use scikit-learn for similarity if available (default: true)
+USE_SKLEARN_SIMILARITY: true
+
+# Use BeautifulSoup for HTML parsing if available (default: true)
+USE_BEAUTIFULSOUP: true
+
+# Clean temp files after processing (default: true)
+CLEAN_TEMP_FILES: true
+
+# Temporary directory for subtitle downloads (default: ./.ytdlp_temp)
+TEMP_DIR: ./.ytdlp_temp
+
+# Verbose logging (default: false)
+VERBOSE: false
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# 
+# - Changes to this file take effect on next script run
+# - Invalid values will fall back to defaults with warnings
+# - Comments (lines starting with #) are ignored
+# - Boolean values: true, false (lowercase)
+# - Numeric values: integers or floats as appropriate
+# - String values: quoted or unquoted
+# - Lists: comma-separated values
+#
+# For more information, see README-YOUTUBE-EMBEDS.md

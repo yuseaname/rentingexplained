@@ -45,3 +45,16 @@ next-env.d.ts
 .htaccess
 logs/
 *.log
+
+# Deployment packages
+*.zip
+rentingexplained*.zip
+hostinger-upload/*.zip
+
+# Python automation temp files
+scripts/.ytdlp_temp/
+scripts/__pycache__/
+*.pyc
+*.pyo
+*.bak
+youtube_embed_report.json
