@@ -55,7 +55,7 @@ export default function ToolCallout({ tool, className = '' }: ToolCalloutProps) 
             {config.ctaText} ?
           </Link>
           <p className="text-sm text-white/70 mt-3">
-            Free • No signup required • 2 minutes
+            Free - No signup required - 2 minutes
           </p>
         </div>
       </div>

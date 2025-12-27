@@ -27,10 +27,10 @@ export default function AboutPage() {
               We started RentingExplained.com because <strong>we've been there</strong>. We've signed leases and discovered hidden fees we never agreed to. We've fought for security deposits that landlords tried to keep unfairly. We've felt the anxiety of facing rent increases we couldn't afford.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              Every member of our team has experienced rental challenges firsthand—the confusion, the powerlessness, the frustration of feeling like landlords had all the information and we had none.
+              Every member of our team has experienced rental challenges firsthand-the confusion, the powerlessness, the frustration of feeling like landlords had all the information and we had none.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              <strong>We were tired of seeing renters—including ourselves—get exploited</strong> by confusing contracts, hidden fees, and information that only landlords seemed to have access to. So we decided to change that.
+              <strong>We were tired of seeing renters-including ourselves-get exploited</strong> by confusing contracts, hidden fees, and information that only landlords seemed to have access to. So we decided to change that.
             </p>
           </div>
 
@@ -178,31 +178,6 @@ export default function AboutPage() {
                 First Apartment Guide
               </a>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-              </li>
-            </ul>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-md p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Editorial Standards</h2>
-            <p className="text-gray-700 mb-4">
-              All content on RentingExplained.com follows strict editorial guidelines:
-            </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li>Written or reviewed by subject matter experts</li>
-              <li>Fact-checked against multiple reliable sources</li>
-              <li>Updated regularly to maintain accuracy</li>
-              <li>Clearly dated with publish and update timestamps</li>
-              <li>Free from promotional or sponsored content without clear disclosure</li>
-            </ul>
-            <p className="text-gray-700 mt-4">
-              Learn more in our <a href="/editorial-policy" className="text-primary-600 hover:text-primary-700 underline">Editorial Policy</a>.
-            </p>
           </div>
         </div>
       </div>

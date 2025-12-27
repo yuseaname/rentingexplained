@@ -15,7 +15,7 @@ export default function Article() {
     },
     {
       question: "What happens if I just move out without breaking my lease?",
-      answer: "This is called 'abandoning' your lease and has severe consequences: you'll owe rent for the remaining lease term (potentially $10,000+), landlord can sue you and win a judgment, your credit score will drop 100+ points, future landlords will reject you, and you may face wage garnishment. Never abandon a lease—always communicate and follow legal procedures."
+      answer: "This is called 'abandoning' your lease and has severe consequences: you'll owe rent for the remaining lease term (potentially $10,000+), landlord can sue you and win a judgment, your credit score will drop 100+ points, future landlords will reject you, and you may face wage garnishment. Never abandon a lease-always communicate and follow legal procedures."
     },
     {
       question: "Can my landlord sue me for breaking my lease?",
@@ -27,7 +27,7 @@ export default function Article() {
     },
     {
       question: "How do I find someone to take over my lease?",
-      answer: "Post on apartment listing sites (Zillow, Apartments.com), social media marketplace groups, Craigslist, and subletting platforms like Flip and Leasebreak. Get landlord approval first—many leases require this. Screen potential tenants yourself, then have them apply directly to the landlord. Offer incentives like paying the first month or security deposit to attract renters quickly."
+      answer: "Post on apartment listing sites (Zillow, Apartments.com), social media marketplace groups, Craigslist, and subletting platforms like Flip and Leasebreak. Get landlord approval first-many leases require this. Screen potential tenants yourself, then have them apply directly to the landlord. Offer incentives like paying the first month or security deposit to attract renters quickly."
     },
   ];
 
@@ -50,9 +50,9 @@ export default function Article() {
         </ul>
       </div>
 
-      <h2 id="introduction">You're Stuck in a Lease You Can't Afford—What Now?</h2>
+      <h2 id="introduction">You're Stuck in a Lease You Can't Afford-What Now?</h2>
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
-        You signed a 12-month lease. But now—three months in—you got a job offer across the country. Or your roommate bailed. Or you're facing financial hardship and can't afford the rent anymore.
+        You signed a 12-month lease. But now-three months in-you got a job offer across the country. Or your roommate bailed. Or you're facing financial hardship and can't afford the rent anymore.
       </p>
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
         <strong>Your lease says you owe rent until the end of the term. That's $12,000 you don't have.</strong> You panic. You consider just moving out and hoping for the best.
@@ -61,7 +61,7 @@ export default function Article() {
         Stop. <strong>Abandoning your lease is the worst decision you can make.</strong> You'll owe thousands, destroy your credit, and make it nearly impossible to rent again.
       </p>
       <p className="text-lg text-gray-700 leading-relaxed mb-6">
-        <strong>But there IS a way out.</strong> This guide shows you the 7 legal ways to break your lease early—some with zero penalty, others for $1,000-2,000 instead of $10,000+. Whether you have legal cause or need to negotiate your way out, you'll learn exactly what to do, what to say, and how to protect yourself financially and legally.
+        <strong>But there IS a way out.</strong> This guide shows you the 7 legal ways to break your lease early-some with zero penalty, others for $1,000-2,000 instead of $10,000+. Whether you have legal cause or need to negotiate your way out, you'll learn exactly what to do, what to say, and how to protect yourself financially and legally.
       </p>
 
       <div className="bg-gradient-to-r from-orange-50 to-red-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
@@ -112,7 +112,7 @@ export default function Article() {
 
       <h3>What You're Actually Signing</h3>
       <p>
-        A lease is a <strong>binding legal contract</strong>. When you sign, you're promising to pay rent for the entire term—even if you move out early. Breaking it without cause means:
+        A lease is a <strong>binding legal contract</strong>. When you sign, you're promising to pay rent for the entire term-even if you move out early. Breaking it without cause means:
       </p>
       <ul>
         <li>You owe rent until a new tenant moves in OR the lease ends (whichever comes first)</li>
@@ -125,7 +125,7 @@ export default function Article() {
       <div className="bg-yellow-50 border-l-4 border-yellow-600 p-4 my-6">
         <p className="text-yellow-900 font-semibold mb-2">?? Warning: Never Just Stop Paying Rent</p>
         <p className="text-yellow-800">
-          Simply moving out and ghosting your landlord is <strong>lease abandonment</strong>. You'll still owe rent for the entire remaining lease term—potentially $10,000-15,000. Your landlord can sue, win a judgment, garnish your wages, and tank your credit. Always communicate and follow proper procedures.
+          Simply moving out and ghosting your landlord is <strong>lease abandonment</strong>. You'll still owe rent for the entire remaining lease term-potentially $10,000-15,000. Your landlord can sue, win a judgment, garnish your wages, and tank your credit. Always communicate and follow proper procedures.
         </p>
       </div>
 
@@ -150,7 +150,7 @@ export default function Article() {
         <li>Provide written notice to your landlord (30 days recommended)</li>
         <li>Include a copy of your military orders</li>
         <li>Your lease terminates 30 days after the next rent payment date</li>
-        <li>You're only responsible for rent through that date—no penalties</li>
+        <li>You're only responsible for rent through that date-no penalties</li>
       </ol>
       <p className="font-semibold text-green-700">
         ? Cost: $0 (protected by federal law)
@@ -192,7 +192,7 @@ export default function Article() {
           <p className="mb-2">Subject: Urgent Repair Needed - Uninhabitable Condition at [Address]</p>
           <p className="mb-4">Dear [Landlord],</p>
           <p className="mb-2">I am writing to formally notify you of a serious habitability issue at [your address]:</p>
-          <p className="mb-2">[Describe issue: "The heating system has been broken for 10 days during winter, with indoor temperatures dropping to 45°F."]</p>
+          <p className="mb-2">[Describe issue: "The heating system has been broken for 10 days during winter, with indoor temperatures dropping to 45 F."]</p>
           <p className="mb-2">This violates the implied warranty of habitability under [State] law. I request immediate repair within [14 days].</p>
           <p className="mb-2">If this issue is not resolved by [date], I will be forced to exercise my right to terminate the lease and vacate due to uninhabitable conditions.</p>
           <p className="mb-2">Please confirm receipt of this notice and your repair timeline.</p>
@@ -457,11 +457,11 @@ export default function Article() {
           A collections account or judgment for unpaid rent will:
         </p>
         <ul className="mt-2 space-y-1 text-red-700">
-          <li>• Drop your credit score 100-150 points</li>
-          <li>• Stay on your credit report for 7 years</li>
-          <li>• Make it nearly impossible to rent (landlords reject you)</li>
-          <li>• Hurt your ability to get car loans, credit cards, or mortgages</li>
-          <li>• Can lead to wage garnishment</li>
+          <li>- Drop your credit score 100-150 points</li>
+          <li>- Stay on your credit report for 7 years</li>
+          <li>- Make it nearly impossible to rent (landlords reject you)</li>
+          <li>- Hurt your ability to get car loans, credit cards, or mortgages</li>
+          <li>- Can lead to wage garnishment</li>
         </ul>
       </div>
 
@@ -603,7 +603,7 @@ export default function Article() {
         <strong>What happens:</strong> Landlord verbally agrees to let you out for $1,000. Later claims you owe $5,000. No written proof of agreement.
       </p>
       <p className="font-semibold text-green-600">
-        Every negotiation, every agreement—get it in writing. Signed by both parties.
+        Every negotiation, every agreement-get it in writing. Signed by both parties.
       </p>
 
       <h3>Mistake #4: Assuming Job Relocation is a Legal Out</h3>
@@ -640,20 +640,20 @@ export default function Article() {
           <li>2. Determine if you have legal cause (military, habitability, domestic violence)</li>
           <li>3. If not, start looking for a replacement tenant immediately</li>
           <li>4. Contact your landlord to discuss options BEFORE giving formal notice</li>
-          <li>5. Get any agreement in writing—ALWAYS</li>
+          <li>5. Get any agreement in writing-ALWAYS</li>
           <li>6. Use our Lease Red Flag Scanner to review your lease terms</li>
           <li>7. Document everything: photos, emails, signed agreements</li>
           <li>8. Follow proper notice procedures (written, 30-60 days)</li>
-          <li>9. Never abandon your lease—protect your credit and future rental prospects</li>
+          <li>9. Never abandon your lease-protect your credit and future rental prospects</li>
         </ol>
       </div>
 
       <p className="text-lg font-semibold text-gray-900 mt-12">
-        Remember: Breaking a lease doesn't have to cost you thousands or ruin your credit. With the right approach—communication, documentation, and knowing your legal options—you can get out of your lease for $0-$2,000 instead of $10,000+. The key is acting strategically, not emotionally, and always protecting yourself with written agreements.
+        Remember: Breaking a lease doesn't have to cost you thousands or ruin your credit. With the right approach-communication, documentation, and knowing your legal options-you can get out of your lease for $0-$2,000 instead of $10,000+. The key is acting strategically, not emotionally, and always protecting yourself with written agreements.
       </p>
 
       <p className="text-lg text-gray-700 mt-6">
-        Need help understanding your lease terms? Use our <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">free Lease Red Flag Scanner</a> to identify problematic clauses before you sign—or find out if your current lease has any hidden early termination penalties.
+        Need help understanding your lease terms? Use our <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">free Lease Red Flag Scanner</a> to identify problematic clauses before you sign-or find out if your current lease has any hidden early termination penalties.
       </p>
     </>
   );

@@ -4,7 +4,7 @@ export default function FirstApartmentChecklistGuide2025() {
   return (
     <article className="prose prose-lg max-w-none">
       <p className="lead">
-        Your first apartment is exciting—until you realize you need a toilet brush, shower curtain, AND somehow forgot about needing actual plates to eat off of. Oh, and that'll be $3,500 before you even pay first month's rent.
+        Your first apartment is exciting-until you realize you need a toilet brush, shower curtain, AND somehow forgot about needing actual plates to eat off of. Oh, and that'll be $3,500 before you even pay first month's rent.
       </p>
 
       <p>
@@ -25,17 +25,17 @@ export default function FirstApartmentChecklistGuide2025() {
       <h2>Before You Buy Anything: What Your Landlord Must Provide</h2>
       
       <p>
-        Before you drop a single dollar on apartment essentials, you need to know what your landlord is legally required to provide. According to the National Apartment Association, <strong>27% of first-time renters waste money buying items their landlord must provide</strong>—like smoke detectors, basic appliances, or window coverings.
+        Before you drop a single dollar on apartment essentials, you need to know what your landlord is legally required to provide. According to the National Apartment Association, <strong>27% of first-time renters waste money buying items their landlord must provide</strong>-like smoke detectors, basic appliances, or window coverings.
       </p>
 
       <h3>Required Working Systems</h3>
       <p>
-        Your landlord must provide functional heating, cooling (in most states), hot water, electricity, and plumbing. If any of these systems aren't working properly, that's a habitability issue—not your expense to fix.
+        Your landlord must provide functional heating, cooling (in most states), hot water, electricity, and plumbing. If any of these systems aren't working properly, that's a habitability issue-not your expense to fix.
       </p>
 
       <h3>Safety Devices</h3>
       <p>
-        In all 50 states, landlords must install and maintain smoke detectors. Most states also require carbon monoxide detectors, especially in units with gas appliances. Some states even require fire extinguishers in certain building types. <em>Never buy these yourself</em>—it's your landlord's legal obligation.
+        In all 50 states, landlords must install and maintain smoke detectors. Most states also require carbon monoxide detectors, especially in units with gas appliances. Some states even require fire extinguishers in certain building types. <em>Never buy these yourself</em>-it's your landlord's legal obligation.
       </p>
 
       <h3>Kitchen Appliances</h3>
@@ -51,7 +51,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
         <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
         <p className="mb-0">
-          Take photos during your move-in walkthrough of everything the landlord provides. This protects your security deposit later when you move out—you'll have proof of what was already there.
+          Take photos during your move-in walkthrough of everything the landlord provides. This protects your security deposit later when you move out-you'll have proof of what was already there.
         </p>
       </div>
 
@@ -68,7 +68,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <h2>The 3-Tier Budget System: Choose Your Approach</h2>
 
       <p>
-        Not everyone has the same budget when moving into their first apartment. That's why we've created three realistic budget tiers based on your financial situation. Pick ONE tier before you start shopping—this prevents the $3,000 surprise when you're "just browsing."
+        Not everyone has the same budget when moving into their first apartment. That's why we've created three realistic budget tiers based on your financial situation. Pick ONE tier before you start shopping-this prevents the $3,000 surprise when you're "just browsing."
       </p>
 
       <div className="overflow-x-auto my-8">
@@ -131,7 +131,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
         <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
         <p className="mb-0">
-          Don't mix tiers randomly—it's how you end up spending $3,000 without realizing it. Pick your tier BEFORE shopping to avoid overspending.
+          Don't mix tiers randomly-it's how you end up spending $3,000 without realizing it. Pick your tier BEFORE shopping to avoid overspending.
         </p>
       </div>
 
@@ -176,7 +176,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
         <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
         <p className="mb-0">
-          Buy used appliances (microwave, coffee maker) on Facebook Marketplace—save 60-80%. Just check that they work before leaving the seller's place.
+          Buy used appliances (microwave, coffee maker) on Facebook Marketplace-save 60-80%. Just check that they work before leaving the seller's place.
         </p>
       </div>
 
@@ -187,7 +187,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <h2>Bedroom Essentials: Sleep Setup Without Breaking the Bank</h2>
 
       <p>
-        Quality sleep is non-negotiable, but you don't need to drop $2,000 on a bedroom setup your first month. Sarah slept on an air mattress for 2 months while saving for a real bed—and saved $400 in the process.
+        Quality sleep is non-negotiable, but you don't need to drop $2,000 on a bedroom setup your first month. Sarah slept on an air mattress for 2 months while saving for a real bed-and saved $400 in the process.
       </p>
 
       <h3>Bare Essentials Budget ($200)</h3>
@@ -220,21 +220,21 @@ export default function FirstApartmentChecklistGuide2025() {
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
         <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
         <p className="mb-0">
-          Wait for mattress sales during Memorial Day, Labor Day, or Black Friday—save 30-50% on quality mattresses. Set a price alert if you're planning ahead.
+          Wait for mattress sales during Memorial Day, Labor Day, or Black Friday-save 30-50% on quality mattresses. Set a price alert if you're planning ahead.
         </p>
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
         <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
         <p className="mb-0">
-          Don't cheap out on pillows—spending $30 for 2 good pillows is worth it for your neck and sleep quality. Poor sleep affects everything else in your life.
+          Don't cheap out on pillows-spending $30 for 2 good pillows is worth it for your neck and sleep quality. Poor sleep affects everything else in your life.
         </p>
       </div>
 
       <h2>Bathroom Essentials: The Overlooked Necessities</h2>
 
       <p>
-        Bathroom items are small but add up fast. Stick to actual needs—you can always add fancy bath products later.
+        Bathroom items are small but add up fast. Stick to actual needs-you can always add fancy bath products later.
       </p>
 
       <h3>Bare Essentials Budget ($80)</h3>
@@ -263,7 +263,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <h2>Living Room Essentials: Creating Functional Space</h2>
 
       <p>
-        Your living room can start minimal and grow over time. David used folding chairs and a camping table for 3 months—saving $600 for a quality couch he bought on sale later.
+        Your living room can start minimal and grow over time. David used folding chairs and a camping table for 3 months-saving $600 for a quality couch he bought on sale later.
       </p>
 
       <h3>Bare Essentials Budget ($120)</h3>
@@ -300,7 +300,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
         <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
         <p className="mb-0">
-          Bed bugs are real—inspect used furniture carefully, especially upholstered items. Look for small brown spots, shed skins, or live bugs in seams. If it smells weird or looks damaged, pass.
+          Bed bugs are real-inspect used furniture carefully, especially upholstered items. Look for small brown spots, shed skins, or live bugs in seams. If it smells weird or looks damaged, pass.
         </p>
       </div>
 
@@ -515,7 +515,7 @@ export default function FirstApartmentChecklistGuide2025() {
 
       <h4>Timing Matters</h4>
       <ul>
-        <li><strong>May-June:</strong> College move-out season—Facebook floods with free/cheap furniture</li>
+        <li><strong>May-June:</strong> College move-out season-Facebook floods with free/cheap furniture</li>
         <li><strong>End of Month:</strong> People rushing to move leave curb alerts</li>
         <li><strong>Black Friday/Cyber Monday:</strong> Appliances, furniture, bedding sales</li>
         <li><strong>Memorial Day, Labor Day:</strong> Mattress sales (30-50% off)</li>
@@ -534,7 +534,7 @@ export default function FirstApartmentChecklistGuide2025() {
 
       <h3>1. Buying Everything New</h3>
       <p>
-        <strong>Mistake:</strong> Tyler bought all new furniture at once—spent $2,200 on credit.<br />
+        <strong>Mistake:</strong> Tyler bought all new furniture at once-spent $2,200 on credit.<br />
         <strong>Consequence:</strong> Paid $380 in interest over a year.<br />
         <strong>Solution:</strong> Mix new essentials with used furniture. Buy what you need when you need it.
       </p>
@@ -580,7 +580,7 @@ export default function FirstApartmentChecklistGuide2025() {
         >
           Calculate My Costs (Free Tool)
         </a>
-        <p className="text-sm text-gray-600 mt-4">Takes 2 minutes • No signup required</p>
+        <p className="text-sm text-gray-600 mt-4">Takes 2 minutes - No signup required</p>
       </div>
 
       <h2>Frequently Asked Questions</h2>
@@ -703,7 +703,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
         <h3 className="text-xl font-semibold mb-4">?? Share Your Experience</h3>
         <p className="text-gray-700">
-          What was the first thing you bought for your apartment? What do you wish you'd known before moving in? Drop a comment below—your experience could help the next first-timer avoid an expensive mistake!
+          What was the first thing you bought for your apartment? What do you wish you'd known before moving in? Drop a comment below-your experience could help the next first-timer avoid an expensive mistake!
         </p>
       </div>
     </article>

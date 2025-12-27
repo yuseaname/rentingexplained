@@ -28,7 +28,7 @@ export default function GuidesPage() {
                 <span className="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold">NEW</span>
               </div>
               <p className="text-gray-600 mb-2">Complete guide with budget breakdown and timeline</p>
-              <span className="text-sm text-primary-600 font-medium">18 min read • Most Popular</span>
+              <span className="text-sm text-primary-600 font-medium">18 min read - Most Popular</span>
             </Link>
 
             <Link href="/blog/tenant-rights-everyone-should-know" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
@@ -37,7 +37,7 @@ export default function GuidesPage() {
                 <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold">ESSENTIAL</span>
               </div>
               <p className="text-gray-600 mb-2">Essential rights and legal protections for renters</p>
-              <span className="text-sm text-primary-600 font-medium">15 min read • Must-Read</span>
+              <span className="text-sm text-primary-600 font-medium">15 min read - Must-Read</span>
             </Link>
 
             <Link href="/blog/how-to-save-money-renting-2025" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">

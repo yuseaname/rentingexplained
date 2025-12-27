@@ -18,6 +18,9 @@ import BestAppsAndToolsForRenters from '@/content/best-apps-and-tools-for-renter
 import RentingVsBuying2025 from '@/content/renting-vs-buying-2025';
 import FirstApartmentChecklistGuide2025 from '@/content/first-apartment-checklist-guide-2025';
 import HowToBreakLeaseEarly from '@/content/how-to-break-lease-early';
+import HowToNegotiateRentGuide from '@/content/how-to-negotiate-rent-guide';
+import FirstApartmentChecklistBudgetGuide from '@/content/first-apartment-checklist-budget-guide';
+import BreakingALeaseWithoutPenalty2025 from '@/content/breaking-a-lease-without-penalty-2025';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -27,6 +30,9 @@ const contentComponents: Record<string, React.ComponentType> = {
   'renting-vs-buying-2025': RentingVsBuying2025,
   'first-apartment-checklist-guide-2025': FirstApartmentChecklistGuide2025,
   'how-to-break-lease-early': HowToBreakLeaseEarly,
+  'how-to-negotiate-rent-guide': HowToNegotiateRentGuide,
+  'first-apartment-checklist-budget-guide': FirstApartmentChecklistBudgetGuide,
+  'breaking-a-lease-without-penalty-2025': BreakingALeaseWithoutPenalty2025,
 };
 
 export async function generateStaticParams() {
@@ -92,16 +98,16 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
       />
       
       <ReadingProgress />
-      <ArticleTracker articleSlug={params.slug} />
+      <ArticleTracker slug={params.slug} readingTime={article.readingTime} />
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <header className="bg-white border-b border-gray-200">
           <div className="container mx-auto px-4 py-8 md:py-12 max-w-4xl">
             <nav className="flex items-center space-x-2 text-sm text-gray-600 mb-6">
               <Link href="/" className="hover:text-primary-600">Home</Link>
-              <span>›</span>
+              <span>&gt;</span>
               <Link href="/blog" className="hover:text-primary-600">Blog</Link>
-              <span>›</span>
+              <span>&gt;</span>
               <span className="text-gray-900">{article.category}</span>
             </nav>
 
@@ -176,7 +182,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         </div>
 
         <div className="container mx-auto px-4 max-w-6xl mt-16 mb-12">
-          <RelatedArticles articles={relatedArticles} />
+          <RelatedArticles currentSlug={params.slug} />
         </div>
       </div>
     </>
