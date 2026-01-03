@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import logo from '@/assets/images/logo.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -42,9 +44,13 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-accent-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">RE</span>
-              </div>
+              <Image
+                src={logo}
+                alt="RentingExplained.com logo"
+                width={40}
+                height={40}
+                className="h-10 w-10 object-contain"
+              />
               <span className="text-xl font-bold text-white">
                 RentingExplained
               </span>

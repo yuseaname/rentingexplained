@@ -1,4 +1,8 @@
 import { Article } from '@/types';
+import logoSrc from '@/assets/images/logo.png';
+
+const logoPath = typeof logoSrc === 'string' ? logoSrc : logoSrc.src;
+const getLogoUrl = (siteUrl: string) => new URL(logoPath, siteUrl).toString();
 
 export function generateArticleSchema(article: Article, siteUrl: string = 'https://rentingexplained.com') {
   return {
@@ -18,7 +22,7 @@ export function generateArticleSchema(article: Article, siteUrl: string = 'https
       name: 'RentingExplained.com',
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/logo.png`,
+        url: getLogoUrl(siteUrl),
       },
     },
     mainEntityOfPage: {
@@ -47,7 +51,7 @@ export function generateOrganizationSchema(siteUrl: string = 'https://rentingexp
     '@type': 'Organization',
     name: 'RentingExplained.com',
     url: siteUrl,
-    logo: `${siteUrl}/logo.png`,
+    logo: getLogoUrl(siteUrl),
     description: 'Expert renting advice, tenant rights information, and money-saving strategies for confident renters.',
     sameAs: [
       'https://twitter.com/rentingexplained',
