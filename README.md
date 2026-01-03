@@ -61,6 +61,24 @@ rentingexplained.com/
 ??? package.json                  # Dependencies
 ```
 
+
+## Project Docs
+
+- `docs/project-identity.md` - Mission, audience, tone, and non-negotiables
+- `docs/content-pillars.md` - Canonical topic pillars and coverage rules
+- `docs/editorial-policy.md` - Accuracy, sources, and review standards
+- `docs/adsense-guidelines.md` - Ad placement and compliance rules
+- `docs/tool-design-rules.md` - Tool UX, privacy, and ad constraints
+- `docs/seo-architecture.md` - URL stability, schema, and internal linking
+
+## Contributor Checklist
+
+- Read `docs/project-identity.md` before content or UX changes
+- Validate changes against `docs/adsense-guidelines.md` (no intrusive ads)
+- For content edits, follow `docs/editorial-policy.md` and `docs/content-pillars.md`
+- For tool changes, follow `docs/tool-design-rules.md`
+- For routing, schema, or internal linking, follow `docs/seo-architecture.md`
+
 ## ??? Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
