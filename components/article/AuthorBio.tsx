@@ -34,6 +34,7 @@ export default function AuthorBio({
               src={image}
               alt={`${name} - ${title}`}
               fill
+              sizes="80px"
               className="object-cover"
             />
           </div>

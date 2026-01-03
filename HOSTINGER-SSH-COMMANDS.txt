@@ -1,0 +1,76 @@
+# Quick SSH Commands to Run on Hostinger
+# Copy and paste these into your SSH session
+
+## STEP 1: Navigate to your app directory
+cd ~/domains/rentingexplained.com/public_html/current
+
+## STEP 2: Check if static files exist
+echo "Checking for static files..."
+ls -la .next/static/
+
+## STEP 3: Check PM2 status
+echo "Checking PM2 status..."
+pm2 status
+
+## STEP 4: View PM2 logs
+echo "Viewing PM2 logs..."
+pm2 logs rentingexplained --lines 30 --nostream
+
+## STEP 5: Check what PM2's working directory is
+echo "PM2 working directory:"
+pm2 show rentingexplained | grep cwd
+
+## STEP 6: Test if server is responding locally
+echo "Testing server..."
+curl -I http://localhost:3000
+
+## STEP 7: Test a static file
+echo "Testing static file..."
+curl -I http://localhost:3000/_next/static/css/a9919ff15d616d12.css
+
+
+# ============================================
+# IF STATIC FILES ARE MISSING (.next/static/)
+# ============================================
+
+# You need to deploy the manual-deploy.zip file!
+# See: MANUAL-DEPLOY-INSTRUCTIONS.md
+
+
+# ============================================
+# IF STATIC FILES EXIST BUT STILL GET 404
+# ============================================
+
+# Restart PM2 from the correct directory
+cd ~/domains/rentingexplained.com/public_html/current
+pm2 delete rentingexplained
+pm2 start ecosystem.config.js --env production
+pm2 save
+
+# Check logs
+pm2 logs rentingexplained --lines 20
+
+
+# ============================================
+# IF PM2 SHOWS ERRORS
+# ============================================
+
+# View error logs
+pm2 logs rentingexplained --err --lines 50
+
+# Common fixes:
+
+# Fix 1: Wrong port
+# Check assigned port in hPanel → Application Settings
+# Update .env.production with correct PORT value
+# Then: pm2 restart rentingexplained
+
+# Fix 2: Permission issues
+chmod -R 755 .next
+chmod -R 755 public
+pm2 restart rentingexplained
+
+# Fix 3: Clear PM2 and restart fresh
+pm2 delete all
+pm2 start ecosystem.config.js --env production
+pm2 save

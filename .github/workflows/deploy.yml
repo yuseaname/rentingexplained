@@ -1,0 +1,113 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js application
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Create deployment package
+        run: |
+          mkdir -p deploy-package
+          
+          # Copy standalone build (this includes server.js)
+          cp -r .next/standalone/* deploy-package/
+          
+          # CRITICAL: Copy static files to the correct location for standalone
+          # Standalone needs static files at .next/static relative to server
+          cp -r .next/static deploy-package/.next/static
+          
+          # Copy public folder
+          if [ -d "public" ]; then
+            cp -r public deploy-package/public
+          fi
+          
+          # Copy our custom server.js (overwrites standalone's server.js)
+          cp server.js deploy-package/server.js
+          
+          # Copy ecosystem config for PM2
+          cp ecosystem.config.js deploy-package/
+          
+          # Create .env.production
+          cat > deploy-package/.env.production << EOF
+          NODE_ENV=production
+          NEXT_PUBLIC_SITE_URL=${{ secrets.SITE_URL }}
+          PORT=${{ secrets.HOSTINGER_PORT || '3000' }}
+          EOF
+
+      - name: Create deployment archive
+        run: |
+          cd deploy-package
+          tar -czf ../deployment.tar.gz .
+          cd ..
+
+      - name: Deploy to Hostinger via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.HOSTINGER_SSH_USER }}
+          server: ${{ secrets.HOSTINGER_SSH_HOST }}
+          ssh_private_key: ${{ secrets.HOSTINGER_SSH_KEY }}
+          local_path: './deployment.tar.gz'
+          remote_path: ${{ secrets.HOSTINGER_REMOTE_PATH }}
+          sftp_only: true
+
+      - name: Extract and restart application
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOSTINGER_SSH_HOST }}
+          username: ${{ secrets.HOSTINGER_SSH_USER }}
+          key: ${{ secrets.HOSTINGER_SSH_KEY }}
+          script: |
+            cd ${{ secrets.HOSTINGER_APP_PATH }}
+            
+            # Backup current deployment
+            if [ -d "current" ]; then
+              mv current backup-$(date +%Y%m%d-%H%M%S)
+            fi
+            
+            # Create new deployment directory
+            mkdir -p current
+            
+            # Extract deployment
+            tar -xzf ${{ secrets.HOSTINGER_REMOTE_PATH }}/deployment.tar.gz -C current/
+            
+            # Install production dependencies
+            cd current
+            npm ci --omit=dev
+            
+            # Restart application with PM2
+            pm2 restart ecosystem.config.js --env production || pm2 start ecosystem.config.js --env production
+            
+            # Clean up old backups (keep last 3)
+            cd ..
+            ls -t | grep backup | tail -n +4 | xargs -r rm -rf
+            
+            echo "Deployment completed successfully!"
+
+      - name: Health check
+        run: |
+          sleep 10
+          curl -f ${{ secrets.SITE_URL }} || exit 1

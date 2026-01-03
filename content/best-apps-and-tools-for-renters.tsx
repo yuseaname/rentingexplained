@@ -28,6 +28,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&auto=format&fit=crop"
           alt="Smartphone showing rental apps interface"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -134,6 +135,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&auto=format&fit=crop"
           alt="Budget planning spreadsheet on laptop"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>

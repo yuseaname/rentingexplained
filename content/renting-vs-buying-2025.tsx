@@ -28,6 +28,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop"
           alt="Modern house with for sale sign in front yard"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -96,6 +97,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1554224311-9ae5b7a1b1ed?w=1200&auto=format&fit=crop"
           alt="Financial calculator with charts"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -184,6 +186,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1560184897-ae75f418493e?w=1200&auto=format&fit=crop"
           alt="Family moving into new home"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>

@@ -87,6 +87,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1554224311-beee4a72adcf?w=1200&auto=format&fit=crop"
           alt="Financial documents with calculator showing hidden costs"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -154,6 +155,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop"
           alt="Person signing lease agreement at desk"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>

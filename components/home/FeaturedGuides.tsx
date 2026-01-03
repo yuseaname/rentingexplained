@@ -62,6 +62,7 @@ export default function FeaturedGuides() {
                       src={guide.image}
                       alt={guide.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute top-4 left-4 flex gap-2">

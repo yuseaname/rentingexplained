@@ -95,6 +95,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop"
           alt="Person reviewing lease contract documents for early termination options"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>

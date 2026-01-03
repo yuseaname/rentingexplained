@@ -86,6 +86,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&auto=format&fit=crop"
           alt="Person using calculator for budget planning"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -129,6 +130,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&auto=format&fit=crop"
           alt="Modern apartment building exterior"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -187,6 +189,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop"
           alt="Person signing rental agreement"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -264,6 +267,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop"
           alt="City neighborhood street view"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -329,6 +333,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1554224311-9ae5b7a1b1ed?w=1200&auto=format&fit=crop"
           alt="Person reviewing expenses on laptop"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>

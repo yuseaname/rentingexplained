@@ -50,6 +50,21 @@ logs/
 *.zip
 rentingexplained*.zip
 hostinger-upload/*.zip
+deployment.tar.gz
+deploy-package/
+
+# PM2 logs
+logs/
+*.log
+pm2-*.log
+.pm2/
+
+# SSH keys (NEVER commit these!)
+*.pem
+*.key
+id_rsa*
+hostinger_deploy*
+.ssh/
 
 # Python automation temp files
 scripts/.ytdlp_temp/

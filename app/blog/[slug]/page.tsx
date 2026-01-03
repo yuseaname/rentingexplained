@@ -141,6 +141,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
               src={article.image}
               alt={article.imageAlt}
               fill
+              sizes="(max-width: 768px) 100vw, 1200px"
               className="object-cover"
               priority
             />

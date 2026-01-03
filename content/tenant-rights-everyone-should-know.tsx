@@ -89,6 +89,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&auto=format&fit=crop"
           alt="Scales of justice and legal documents"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -129,6 +130,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop"
           alt="Person inspecting apartment condition"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -206,6 +208,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1554224311-9ae5b7a1b1ed?w=1200&auto=format&fit=crop"
           alt="Security deposit check and keys"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
@@ -343,6 +346,7 @@ export default function Article() {
           src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1200&auto=format&fit=crop"
           alt="Law library with legal books"
           fill
+          sizes="(max-width: 768px) 100vw, 900px"
           className="object-cover"
         />
       </div>
