@@ -4,43 +4,62 @@ Meta Description: A room-by-room budget guide for first-time renters with realis
 Slug: first-apartment-checklist-budget-guide
 -->
 
-## Key takeaways
+Your first apartment budget is more than furniture. It includes move-in costs, basic supplies, and a plan for when to buy what. This guide keeps the math simple and helps you avoid overbuying in the first week.
 
-- Pick a budget tier before you shop so costs do not drift.
-- Start with essentials and add upgrades later.
-- Used furniture can cut costs without sacrificing quality.
-- Track move-in costs alongside furniture purchases.
-- A short timeline keeps spending predictable.
+Use this as a starting point, then customize it to your space and budget. It is general information, not financial advice.
 
-## Start with total move-in costs
+<h2 id="key-takeaways">Key takeaways</h2>
 
-Furniture is only part of the bill. Plan for:
+- Start with move-in costs before you buy furniture.
+- Pick one budget tier and stick with it.
+- Buy essentials first and upgrades later.
+- Used items can save you without lowering quality.
+- A simple timeline keeps spending under control.
 
-- First month rent and deposit.
-- Utility setup fees.
-- Application or admin fees.
+### Table of contents
 
-If you need a quick summary, review the [hidden rental fees guide](/blog/hidden-rental-fees-explained) and run the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+- [Key takeaways](#key-takeaways)
+- [Add up total move-in costs](#move-in-costs)
+- [Choose a budget tier](#budget-tier)
+- [Room-by-room budget checklist](#room-by-room)
+- [Used vs new: where to save](#used-vs-new)
+- [A simple buying timeline](#buying-timeline)
+- [Track spending without stress](#track-spending)
+- [FAQ](#faq)
+- [Next steps](#next-steps)
 
-## Choose a budget tier
+<h2 id="move-in-costs">Add up total move-in costs</h2>
 
-Pick one tier and stick with it. Mixing tiers is how budgets blow up.
+Furniture is only part of the bill. Start with the costs that must be paid before you move in.
+
+### Common move-in costs to plan for
+
+- First month rent.
+- Security deposit and possible last month rent.
+- Application, admin, or holding fees.
+- Utility setup deposits or activation fees.
+
+If you want a checklist of surprise charges, review the [hidden rental fees guide](/blog/hidden-rental-fees-explained).
+
+<h2 id="budget-tier">Choose a budget tier</h2>
+
+Pick a tier that matches your income and timeline. Mixing tiers is how budgets drift.
 
 ### Essentials tier
 
-Focus on the basics that make the apartment livable.
+Focus on the minimum you need to live comfortably: a bed, basic kitchen items, and lighting.
 
 ### Comfort tier
 
-Add items that improve daily routines without turning into a full furnishing project.
+Add items that improve daily routines, like a small desk, better storage, and upgraded bedding.
 
 ### Upgrade tier
 
-Invest in higher-quality pieces once you know you like the space.
+Invest in higher-quality pieces once you know the space and plan to stay longer.
 
-For a full move-in checklist by room, use the [first apartment checklist](/blog/first-apartment-checklist-guide-2025).
+<h2 id="room-by-room">Room-by-room budget checklist</h2>
 
-## Room-by-room budget guide
+Use this as your baseline list. Skip anything you will not use in the first month.
 
 ### Kitchen
 
@@ -72,11 +91,31 @@ For a full move-in checklist by room, use the [first apartment checklist](/blog/
 - Vacuum or broom, depending on floors.
 - A basic tool kit for minor fixes.
 
-## A simple buying timeline
+For a full move-in checklist, see the [first apartment checklist](/blog/first-apartment-checklist-guide-2025).
+
+<h2 id="used-vs-new">Used vs new: where to save</h2>
+
+Used items can cut costs fast, but not everything should be secondhand.
+
+### Buy used when possible
+
+- Tables, chairs, and storage.
+- Lamps and decor.
+- Kitchen basics like pots or cutting boards.
+
+### Buy new for health and safety
+
+- Mattress and bedding.
+- Towels and basic hygiene items.
+- Small appliances if condition is unclear.
+
+<h2 id="buying-timeline">A simple buying timeline</h2>
+
+A timeline protects your budget and keeps the move-in week manageable.
 
 ### Month 1: essentials only
 
-Buy the items you need to cook, sleep, and stay clean. Skip upgrades.
+Buy the items you need to sleep, cook, and stay clean. Skip upgrades.
 
 ### Month 2: comfort items
 
@@ -86,26 +125,23 @@ Add pieces that improve daily routines like a desk, storage, or better lighting.
 
 If your budget allows, upgrade furniture or add decor.
 
-## How to keep costs in check
+<h2 id="track-spending">Track spending without stress</h2>
 
-- Buy used for large items when possible.
-- Measure spaces and doorways before you buy.
-- Compare prices and check return policies.
-- Keep receipts and track spending weekly.
+A simple list beats a complicated spreadsheet. Keep it short and update it once a week.
 
-For broader ways to save, see [how to save money renting](/blog/how-to-save-money-renting-2025).
+### Quick tracking steps
 
-## Tools and templates
+- Set a total budget number.
+- Track move-in costs and furniture separately.
+- Save receipts and note return dates.
 
-- [Rent Budget Checker](/tools/rent-budget-checker) for a realistic rent range.
-- [Hidden Fees Estimator](/tools/hidden-fees-estimator) for total monthly costs.
-- [Tenant rights overview](/blog/tenant-rights-everyone-should-know) for move-in protections.
+If you want more ways to lower costs, review [how to save money renting](/blog/how-to-save-money-renting-2025).
 
-## Frequently asked questions
+<h2 id="faq">FAQ</h2>
 
 ### How much should I spend on my first apartment?
 
-It depends on your income, savings, and timeline. Choose a tier you can afford without stretching your monthly budget.
+It depends on your income, savings, and timeline. Pick a tier you can afford without stretching your monthly budget.
 
 ### Is it better to buy everything at once?
 
@@ -113,6 +149,14 @@ Not usually. Buying in phases keeps costs predictable and helps you learn what y
 
 ### Should I finance furniture?
 
-Only if the payment fits your budget comfortably. If not, used items and slow upgrades are safer.
+Only if the payment fits your budget comfortably. Used items and slow upgrades are safer for most renters.
 
-If you want a full room-by-room checklist, start with the [first apartment checklist](/blog/first-apartment-checklist-guide-2025).
+### What if my apartment already includes some furniture?
+
+Subtract those items from your list and spend more on storage, lighting, or kitchen basics instead.
+
+<h2 id="next-steps">Next steps</h2>
+
+- Use the [Rent Budget Checker](/tools/rent-budget-checker) to confirm your rent range.
+- Scan add-on costs with the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+- If you are still shopping, use the [rental application checklist](/blog/rental-application-checklist).
