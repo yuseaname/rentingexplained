@@ -82,6 +82,15 @@ export default function GuidesPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Renting vs Buying Analysis</h3>
               <p className="text-gray-600">Make the right housing decision for your situation</p>
             </Link>
+
+            <Link href="/blog/how-much-rent-can-i-afford" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-2xl font-bold text-gray-900">How Much Rent Can I Afford?</h3>
+                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold">NEW</span>
+              </div>
+              <p className="text-gray-600 mb-2">A realistic rent budget guide with tradeoffs</p>
+              <span className="text-sm text-primary-600 font-medium">12 min read</span>
+            </Link>
           </div>
         </div>
       </div>

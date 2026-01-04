@@ -33,6 +33,7 @@ import RentIncreaseRenewalGuide from '@/content/rent-increase-renewal-guide';
 import NoticeToVacateLetterTemplate from '@/content/notice-to-vacate-letter-template';
 import ApartmentMoveOutChecklist from '@/content/apartment-move-out-checklist';
 import SecurityDepositReturnTimeline from '@/content/security-deposit-return-timeline';
+import HowMuchRentCanIAfford from '@/content/how-much-rent-can-i-afford';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -57,6 +58,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'notice-to-vacate-letter-template': NoticeToVacateLetterTemplate,
   'apartment-move-out-checklist': ApartmentMoveOutChecklist,
   'security-deposit-return-timeline': SecurityDepositReturnTimeline,
+  'how-much-rent-can-i-afford': HowMuchRentCanIAfford,
 };
 
 export async function generateStaticParams() {

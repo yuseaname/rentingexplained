@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'notice-to-vacate-letter-template',
     'apartment-move-out-checklist',
     'security-deposit-return-timeline',
+    'how-much-rent-can-i-afford',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

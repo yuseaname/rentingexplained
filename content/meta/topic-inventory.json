@@ -102,6 +102,14 @@
           "search_intent": "informational",
           "overlap_risk": "low",
           "last_updated": "2025-01-11T10:00:00Z"
+        },
+        {
+          "title": "How Much Rent Can I Afford? A Realistic Budget Guide (2026)",
+          "slug": "how-much-rent-can-i-afford",
+          "core_topic": "rent affordability based on cash flow and budgets",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-04T10:00:00Z"
         }
       ]
     },

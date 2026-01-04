@@ -84,6 +84,20 @@
       "commits": [
         "7c64b9a"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Financial Planning",
+      "new_articles": [
+        {
+          "title": "How Much Rent Can I Afford? A Realistic Budget Guide (2026)",
+          "slug": "how-much-rent-can-i-afford"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

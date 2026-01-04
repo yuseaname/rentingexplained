@@ -31,9 +31,10 @@ Coverage summary:
 ## Financial Planning
 
 - Renting vs Buying in 2025: A Practical Decision Guide (/blog/renting-vs-buying-2025)
+- How Much Rent Can I Afford? A Realistic Budget Guide (2026) (/blog/how-much-rent-can-i-afford)
 
 Coverage summary:
-- Covers the rent vs buy decision.
+- Covers rent vs buy and rent affordability decisions.
 - Gap: short-term renting tradeoffs and affordability checkpoints.
 
 ## Legal Rights
