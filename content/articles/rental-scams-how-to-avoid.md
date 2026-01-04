@@ -154,6 +154,7 @@ A real application includes a clear list of requirements and a written explanati
 If you are asked for sensitive information before you tour or verify the property, do not send it. It is OK to say you will submit information after a tour.
 
 If you want a normal flow to compare against, use the [Apartment Tour Checklist](/blog/apartment-tour-checklist-questions-red-flags) and the [Rental Application Checklist](/blog/rental-application-checklist).
+If the listing checks out, confirm affordability with the [Rent Budget Checker](/tools/rent-budget-checker).
 
 <h2 id="checklist">Printable Checklist: Scam safety checks</h2>
 
