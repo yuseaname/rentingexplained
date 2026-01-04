@@ -1,0 +1,23 @@
+{
+  "runs": [
+    {
+      "date": "2026-01-04",
+      "mode": "scan-only",
+      "notes": "Initial inventory build/refresh"
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Costs",
+      "new_articles": [
+        {
+          "title": "Apartment Move-In Costs: Checklist and Budget Guide (2025)",
+          "slug": "apartment-move-in-costs"
+        }
+      ],
+      "commits": [
+        "pending"
+      ]
+    }
+  ]
+}

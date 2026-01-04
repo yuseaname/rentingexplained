@@ -1,4 +1,6 @@
 {
+  "site": "rentingexplained.com",
+  "last_scanned": "2026-01-04",
   "pillars": {
     "Apartment Hunting": {
       "description": "Finding, touring, and preparing for an apartment, with first-time renter guidance and move-in planning.",
@@ -8,6 +10,7 @@
           "slug": "rental-application-checklist",
           "core_topic": "rental application documents, fees, and timing",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-02-05T10:00:00Z"
         },
         {
@@ -15,6 +18,7 @@
           "slug": "apartment-tour-checklist-questions-red-flags",
           "core_topic": "apartment tour questions and red flags",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-02-04T10:00:00Z"
         },
         {
@@ -22,6 +26,7 @@
           "slug": "tenant-screening-credit-checks-for-renters",
           "core_topic": "tenant screening criteria and credit checks",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-02-03T10:00:00Z"
         },
         {
@@ -29,6 +34,7 @@
           "slug": "first-apartment-checklist-guide-2025",
           "core_topic": "first apartment move-in checklist and essentials",
           "search_intent": "informational",
+          "overlap_risk": "medium",
           "last_updated": "2025-01-20T10:00:00Z"
         },
         {
@@ -36,19 +42,29 @@
           "slug": "first-apartment-checklist-budget-guide",
           "core_topic": "first apartment furnishing budget tiers and buying timeline",
           "search_intent": "informational",
-          "last_updated": "2025-01-26T10:00:00Z"
+          "overlap_risk": "medium",
+          "last_updated": "2026-01-04T10:00:00Z"
         }
       ]
     },
     "Costs": {
-      "description": "Understanding the true cost of renting, including fees, deposits, and monthly add-ons.",
+      "description": "Understanding the true cost of renting, including fees, deposits, utilities, and insurance.",
       "articles": [
         {
           "title": "Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent",
           "slug": "hidden-rental-fees-explained",
           "core_topic": "rental fees beyond base rent",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-01-13T10:00:00Z"
+        },
+        {
+          "title": "Apartment Move-In Costs: Checklist and Budget Guide (2025)",
+          "slug": "apartment-move-in-costs",
+          "core_topic": "apartment move-in costs and fee checklist",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-04T10:00:00Z"
         }
       ]
     },
@@ -60,6 +76,7 @@
           "slug": "renting-vs-buying-2025",
           "core_topic": "renting versus buying decision factors",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-01-11T10:00:00Z"
         }
       ]
@@ -72,13 +89,15 @@
           "slug": "breaking-a-lease-without-penalty-2025",
           "core_topic": "penalty-free lease termination options",
           "search_intent": "informational",
-          "last_updated": "2025-01-25T10:00:00Z"
+          "overlap_risk": "high",
+          "last_updated": "2026-01-04T10:00:00Z"
         },
         {
           "title": "How to Break a Lease Early: Legal Options and Safer Steps",
           "slug": "how-to-break-lease-early",
           "core_topic": "early lease termination and negotiation steps",
           "search_intent": "informational",
+          "overlap_risk": "high",
           "last_updated": "2025-01-22T10:00:00Z"
         },
         {
@@ -86,6 +105,7 @@
           "slug": "security-deposits-and-evictions-overview",
           "core_topic": "security deposit rules and eviction basics",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-02-01T10:00:00Z"
         },
         {
@@ -93,6 +113,7 @@
           "slug": "tenant-rights-by-state-overview",
           "core_topic": "state-by-state tenant rights differences",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-02-02T10:00:00Z"
         },
         {
@@ -100,6 +121,7 @@
           "slug": "tenant-rights-everyone-should-know",
           "core_topic": "core tenant rights and protections",
           "search_intent": "informational",
+          "overlap_risk": "medium",
           "last_updated": "2025-02-02T10:00:00Z"
         }
       ]
@@ -112,6 +134,7 @@
           "slug": "how-to-negotiate-rent-guide",
           "core_topic": "rent negotiation scripts and timing",
           "search_intent": "informational",
+          "overlap_risk": "medium",
           "last_updated": "2025-01-27T10:00:00Z"
         },
         {
@@ -119,6 +142,7 @@
           "slug": "how-to-save-money-renting-2025",
           "core_topic": "reducing rent and monthly housing costs",
           "search_intent": "informational",
+          "overlap_risk": "medium",
           "last_updated": "2025-01-15T10:00:00Z"
         }
       ]
@@ -131,6 +155,7 @@
           "slug": "best-apps-and-tools-for-renters",
           "core_topic": "renter apps and tools comparison",
           "search_intent": "informational",
+          "overlap_risk": "low",
           "last_updated": "2025-01-12T10:00:00Z"
         }
       ]

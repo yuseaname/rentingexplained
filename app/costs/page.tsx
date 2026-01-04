@@ -86,6 +86,19 @@ export default function CostsPage() {
               </div>
             </Link>
 
+            <Link href="/blog/apartment-move-in-costs" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-orange-500">
+              <div className="mb-3">
+                <Icon name="book-open" size={28} className="text-orange-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Apartment Move-In Costs</h3>
+              <p className="text-gray-600 mb-4">
+                Checklist and budget guide for fees, deposits, and first-month costs
+              </p>
+              <div className="text-orange-600 font-medium">
+                Read the full guide
+              </div>
+            </Link>
+
             <Link href="/blog/renting-vs-buying-2025" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-purple-500">
               <div className="mb-3">
                 <Icon name="book-open" size={28} className="text-purple-600" />

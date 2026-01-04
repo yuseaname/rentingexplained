@@ -26,6 +26,7 @@ import BreakingALeaseWithoutPenalty2025 from '@/content/breaking-a-lease-without
 import RentalApplicationChecklist from '@/content/rental-application-checklist';
 import ApartmentTourChecklistQuestionsRedFlags from '@/content/apartment-tour-checklist-questions-red-flags';
 import TenantScreeningCreditChecksForRenters from '@/content/tenant-screening-credit-checks-for-renters';
+import ApartmentMoveInCosts from '@/content/apartment-move-in-costs';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -43,6 +44,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'rental-application-checklist': RentalApplicationChecklist,
   'apartment-tour-checklist-questions-red-flags': ApartmentTourChecklistQuestionsRedFlags,
   'tenant-screening-credit-checks-for-renters': TenantScreeningCreditChecksForRenters,
+  'apartment-move-in-costs': ApartmentMoveInCosts,
 };
 
 export async function generateStaticParams() {

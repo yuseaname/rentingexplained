@@ -2,6 +2,21 @@ import { Article } from '@/types';
 
 export const articles: Article[] = [
   {
+    slug: 'apartment-move-in-costs',
+    title: 'Apartment Move-In Costs: Checklist and Budget Guide (2025)',
+    description: 'A renter-first breakdown of move-in costs, fees, and a checklist to budget before you get the keys.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-01-04T10:00:00Z',
+    lastModified: '2026-01-04T10:00:00Z',
+    category: 'Costs',
+    tags: ['move-in-costs', 'budgeting', 'apartment-hunting', 'rental-fees', 'first-apartment'],
+    readingTime: 11,
+    image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1200&auto=format&fit=crop',
+    imageAlt: 'Moving boxes in a bright apartment living room',
+    imageCredit: 'Photo by Christian Mackie on Unsplash',
+  },
+  {
     slug: 'rental-application-checklist',
     title: 'Rental Application Checklist: Documents, Fees, and Timing',
     description: 'A calm checklist of rental application documents, fees, and timing so you can apply fast and avoid delays.',
