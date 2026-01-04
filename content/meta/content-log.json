@@ -126,6 +126,20 @@
       "commits": [
         "ec26514"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Rental Approval & Eligibility",
+      "new_articles": [
+        {
+          "title": "Apartment Approval Requirements: What Landlords Look For (2026)",
+          "slug": "apartment-approval-requirements"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

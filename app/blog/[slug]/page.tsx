@@ -36,6 +36,7 @@ import SecurityDepositReturnTimeline from '@/content/security-deposit-return-tim
 import HowMuchRentCanIAfford from '@/content/how-much-rent-can-i-afford';
 import RentalScamsHowToAvoid from '@/content/rental-scams-how-to-avoid';
 import RentingWithBadCreditOptions from '@/content/renting-with-bad-credit-options';
+import ApartmentApprovalRequirements from '@/content/apartment-approval-requirements';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -63,6 +64,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'how-much-rent-can-i-afford': HowMuchRentCanIAfford,
   'rental-scams-how-to-avoid': RentalScamsHowToAvoid,
   'renting-with-bad-credit-options': RentingWithBadCreditOptions,
+  'apartment-approval-requirements': ApartmentApprovalRequirements,
 };
 
 export async function generateStaticParams() {

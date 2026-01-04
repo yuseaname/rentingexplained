@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'how-much-rent-can-i-afford',
     'rental-scams-how-to-avoid',
     'renting-with-bad-credit-options',
+    'apartment-approval-requirements',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

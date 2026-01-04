@@ -49,6 +49,15 @@ export default function GuidesPage() {
               <span className="text-sm text-primary-600 font-medium">12 min read</span>
             </Link>
 
+            <Link href="/blog/apartment-approval-requirements" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-2xl font-bold text-gray-900">Apartment Approval Requirements</h3>
+                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold">NEW</span>
+              </div>
+              <p className="text-gray-600 mb-2">What landlords look for and how to prepare</p>
+              <span className="text-sm text-primary-600 font-medium">12 min read</span>
+            </Link>
+
             <Link href="/blog/tenant-screening-credit-checks-for-renters" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Tenant Screening Guide</h3>
               <p className="text-gray-600">What landlords look for and how to prepare</p>

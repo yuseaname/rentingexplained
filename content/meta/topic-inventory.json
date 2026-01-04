@@ -63,6 +63,19 @@
         }
       ]
     },
+    "Rental Approval & Eligibility": {
+      "description": "Requirements and preparation steps to improve apartment approval odds without fear or legal advice.",
+      "articles": [
+        {
+          "title": "Apartment Approval Requirements: What Landlords Look For (2026)",
+          "slug": "apartment-approval-requirements",
+          "core_topic": "approval criteria for credit, income, and rental history",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-04T10:00:00Z"
+        }
+      ]
+    },
     "Costs": {
       "description": "Understanding the true cost of renting, including fees, deposits, utilities, and insurance.",
       "articles": [

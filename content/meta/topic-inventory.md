@@ -17,6 +17,15 @@ Coverage summary:
 - Strong beginner guidance for first-time renters.
 - Gap: lease comparison tactics and move-in timeline for repairs/utilities.
 
+## Rental Approval & Eligibility
+
+- Apartment Approval Requirements: What Landlords Look For (2026) (/blog/apartment-approval-requirements)
+
+Coverage summary:
+- Covers approval criteria and screening expectations.
+- Strong internal links into screening, budgeting, and application prep.
+- Gap: proof of income requirements and rent ratio screening.
+
 ## Costs
 
 - Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent (/blog/hidden-rental-fees-explained)

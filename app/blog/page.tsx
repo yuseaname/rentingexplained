@@ -74,10 +74,10 @@ export default function BlogPage() {
               <div className="bg-white rounded-xl shadow-md p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Categories</h3>
                 <div className="space-y-2">
-                  {['Money Saving', 'Legal Rights', 'Costs', 'Technology', 'Financial Planning', 'Apartment Hunting'].map((category) => (
+                  {['Money Saving', 'Legal Rights', 'Costs', 'Technology', 'Financial Planning', 'Apartment Hunting', 'Rental Approval & Eligibility'].map((category) => (
                     <Link
                       key={category}
-                      href={`/blog?category=${category.toLowerCase().replace(' ', '-')}`}
+                      href={`/blog?category=${category.toLowerCase().replace(/&/g, 'and').replace(/\\s+/g, '-')}`}
                       className="block text-gray-700 hover:text-primary-600 hover:translate-x-1 transition-all"
                     >
                       {category}
