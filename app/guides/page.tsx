@@ -54,6 +54,15 @@ export default function GuidesPage() {
               <p className="text-gray-600">What landlords look for and how to prepare</p>
             </Link>
 
+            <Link href="/blog/rental-scams-how-to-avoid" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-2xl font-bold text-gray-900">Rental Scam Safety Guide</h3>
+                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold">NEW</span>
+              </div>
+              <p className="text-gray-600 mb-2">How to spot fake listings and verify rentals</p>
+              <span className="text-sm text-primary-600 font-medium">12 min read</span>
+            </Link>
+
             <Link href="/blog/tenant-rights-everyone-should-know" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
               <div className="flex items-start justify-between mb-2">
                 <h3 className="text-2xl font-bold text-gray-900">Tenant Rights Guide</h3>

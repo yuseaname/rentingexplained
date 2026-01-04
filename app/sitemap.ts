@@ -42,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'apartment-move-out-checklist',
     'security-deposit-return-timeline',
     'how-much-rent-can-i-afford',
+    'rental-scams-how-to-avoid',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',
