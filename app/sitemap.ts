@@ -29,6 +29,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Article pages (in production, fetch from CMS or database)
   const articles = [
+    'rental-application-checklist',
+    'apartment-tour-checklist-questions-red-flags',
+    'tenant-screening-credit-checks-for-renters',
     'how-to-break-lease-early',
     'first-apartment-checklist-guide-2025',
     'how-to-save-money-renting-2025',

@@ -107,6 +107,9 @@ export const articleAuthors: Record<string, string> = {
   'best-apps-and-tools-for-renters': 'sarah-johnson',
   'renting-vs-buying-2025': 'sarah-johnson',
   'first-apartment-checklist-guide-2025': 'editorial-team',
+  'rental-application-checklist': 'editorial-team',
+  'apartment-tour-checklist-questions-red-flags': 'editorial-team',
+  'tenant-screening-credit-checks-for-renters': 'editorial-team',
 };
 
 export function getArticleAuthor(articleSlug: string): Author {

@@ -1,0 +1,139 @@
+{
+  "pillars": {
+    "Apartment Hunting": {
+      "description": "Finding, touring, and preparing for an apartment, with first-time renter guidance and move-in planning.",
+      "articles": [
+        {
+          "title": "Rental Application Checklist: Documents, Fees, and Timing",
+          "slug": "rental-application-checklist",
+          "core_topic": "rental application documents, fees, and timing",
+          "search_intent": "informational",
+          "last_updated": "2025-02-05T10:00:00Z"
+        },
+        {
+          "title": "Apartment Tour Checklist: Questions to Ask and Red Flags to Spot",
+          "slug": "apartment-tour-checklist-questions-red-flags",
+          "core_topic": "apartment tour questions and red flags",
+          "search_intent": "informational",
+          "last_updated": "2025-02-04T10:00:00Z"
+        },
+        {
+          "title": "Tenant Screening and Credit Checks for Renters: What Landlords Look For",
+          "slug": "tenant-screening-credit-checks-for-renters",
+          "core_topic": "tenant screening criteria and credit checks",
+          "search_intent": "informational",
+          "last_updated": "2025-02-03T10:00:00Z"
+        },
+        {
+          "title": "First Apartment Checklist: A Practical Move-In Guide (2025)",
+          "slug": "first-apartment-checklist-guide-2025",
+          "core_topic": "first apartment move-in checklist and essentials",
+          "search_intent": "informational",
+          "last_updated": "2025-01-20T10:00:00Z"
+        },
+        {
+          "title": "First Apartment Budget Guide: What to Buy and What to Skip",
+          "slug": "first-apartment-checklist-budget-guide",
+          "core_topic": "first apartment furnishing budget tiers and buying timeline",
+          "search_intent": "informational",
+          "last_updated": "2025-01-26T10:00:00Z"
+        }
+      ]
+    },
+    "Costs": {
+      "description": "Understanding the true cost of renting, including fees, deposits, and monthly add-ons.",
+      "articles": [
+        {
+          "title": "Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent",
+          "slug": "hidden-rental-fees-explained",
+          "core_topic": "rental fees beyond base rent",
+          "search_intent": "informational",
+          "last_updated": "2025-01-13T10:00:00Z"
+        }
+      ]
+    },
+    "Financial Planning": {
+      "description": "Longer-term financial decisions renters face, like comparing renting and buying.",
+      "articles": [
+        {
+          "title": "Renting vs Buying in 2025: A Practical Decision Guide",
+          "slug": "renting-vs-buying-2025",
+          "core_topic": "renting versus buying decision factors",
+          "search_intent": "informational",
+          "last_updated": "2025-01-11T10:00:00Z"
+        }
+      ]
+    },
+    "Legal Rights": {
+      "description": "Tenant rights, protections, and legal processes related to leases, deposits, and eviction.",
+      "articles": [
+        {
+          "title": "Breaking a Lease Without Penalty: Legal Options and Safer Steps (2025)",
+          "slug": "breaking-a-lease-without-penalty-2025",
+          "core_topic": "penalty-free lease termination options",
+          "search_intent": "informational",
+          "last_updated": "2025-01-25T10:00:00Z"
+        },
+        {
+          "title": "How to Break a Lease Early: Legal Options and Safer Steps",
+          "slug": "how-to-break-lease-early",
+          "core_topic": "early lease termination and negotiation steps",
+          "search_intent": "informational",
+          "last_updated": "2025-01-22T10:00:00Z"
+        },
+        {
+          "title": "Understanding Security Deposits and Evictions: A General Education Guide",
+          "slug": "security-deposits-and-evictions-overview",
+          "core_topic": "security deposit rules and eviction basics",
+          "search_intent": "informational",
+          "last_updated": "2025-02-01T10:00:00Z"
+        },
+        {
+          "title": "How Tenant Rights Differ by State: An Overview Guide",
+          "slug": "tenant-rights-by-state-overview",
+          "core_topic": "state-by-state tenant rights differences",
+          "search_intent": "informational",
+          "last_updated": "2025-02-02T10:00:00Z"
+        },
+        {
+          "title": "Tenant Rights Basics: Core Rights Every Renter Should Know",
+          "slug": "tenant-rights-everyone-should-know",
+          "core_topic": "core tenant rights and protections",
+          "search_intent": "informational",
+          "last_updated": "2025-02-02T10:00:00Z"
+        }
+      ]
+    },
+    "Money Saving": {
+      "description": "Strategies and tactics for lowering rent and monthly costs.",
+      "articles": [
+        {
+          "title": "How to Negotiate Rent in 2025: Practical Scripts and Timing Tips",
+          "slug": "how-to-negotiate-rent-guide",
+          "core_topic": "rent negotiation scripts and timing",
+          "search_intent": "informational",
+          "last_updated": "2025-01-27T10:00:00Z"
+        },
+        {
+          "title": "How to Save Money Renting in 2025: Practical Ways to Lower Costs",
+          "slug": "how-to-save-money-renting-2025",
+          "core_topic": "reducing rent and monthly housing costs",
+          "search_intent": "informational",
+          "last_updated": "2025-01-15T10:00:00Z"
+        }
+      ]
+    },
+    "Technology": {
+      "description": "Apps, tools, and digital services that help renters manage the renting process.",
+      "articles": [
+        {
+          "title": "Best Apps and Tools for Renters in 2025: Complete Comparison Guide",
+          "slug": "best-apps-and-tools-for-renters",
+          "core_topic": "renter apps and tools comparison",
+          "search_intent": "informational",
+          "last_updated": "2025-01-12T10:00:00Z"
+        }
+      ]
+    }
+  }
+}

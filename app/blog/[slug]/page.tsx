@@ -23,6 +23,9 @@ import HowToBreakLeaseEarly from '@/content/how-to-break-lease-early';
 import HowToNegotiateRentGuide from '@/content/how-to-negotiate-rent-guide';
 import FirstApartmentChecklistBudgetGuide from '@/content/first-apartment-checklist-budget-guide';
 import BreakingALeaseWithoutPenalty2025 from '@/content/breaking-a-lease-without-penalty-2025';
+import RentalApplicationChecklist from '@/content/rental-application-checklist';
+import ApartmentTourChecklistQuestionsRedFlags from '@/content/apartment-tour-checklist-questions-red-flags';
+import TenantScreeningCreditChecksForRenters from '@/content/tenant-screening-credit-checks-for-renters';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -37,6 +40,9 @@ const contentComponents: Record<string, React.ComponentType> = {
   'how-to-negotiate-rent-guide': HowToNegotiateRentGuide,
   'first-apartment-checklist-budget-guide': FirstApartmentChecklistBudgetGuide,
   'breaking-a-lease-without-penalty-2025': BreakingALeaseWithoutPenalty2025,
+  'rental-application-checklist': RentalApplicationChecklist,
+  'apartment-tour-checklist-questions-red-flags': ApartmentTourChecklistQuestionsRedFlags,
+  'tenant-screening-credit-checks-for-renters': TenantScreeningCreditChecksForRenters,
 };
 
 export async function generateStaticParams() {

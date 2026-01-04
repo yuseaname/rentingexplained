@@ -64,6 +64,17 @@ export default function FirstApartmentChecklistGuide2025() {
         </a>
         .
       </p>
+      <p>
+        When you start touring units, bring the{' '}
+        <a href="/blog/apartment-tour-checklist-questions-red-flags" className="text-blue-600 hover:underline">
+          apartment tour checklist
+        </a>
+        {' '}and use the{' '}
+        <a href="/blog/rental-application-checklist" className="text-blue-600 hover:underline">
+          rental application checklist
+        </a>
+        {' '}before you pay any fees.
+      </p>
 
       <div className="overflow-x-auto my-8">
         <table className="min-w-full border-collapse border border-gray-300">
