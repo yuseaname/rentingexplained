@@ -141,6 +141,14 @@
           "last_updated": "2026-01-04T10:00:00Z"
         },
         {
+          "title": "Apartment Move-Out Checklist: Photos, Cleaning, Utilities",
+          "slug": "apartment-move-out-checklist",
+          "core_topic": "move-out checklist for photos, cleaning, walkthrough, and utilities",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-04T10:00:00Z"
+        },
+        {
           "title": "How Tenant Rights Differ by State: An Overview Guide",
           "slug": "tenant-rights-by-state-overview",
           "core_topic": "state-by-state tenant rights differences",

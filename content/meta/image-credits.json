@@ -29,6 +29,36 @@
       "license": "Unsplash License (free for commercial use, no attribution required)",
       "attribution_required": false,
       "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "apartment-move-out-checklist",
+      "local_path": "public/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-pile-of-boxes-sitting-next-to-a-window-QxG29lvnqUA",
+      "author": "Faruk Tokluoglu",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "apartment-move-out-checklist",
+      "local_path": "public/images/legal-rights/apartment-move-out-checklist/move-out-photos.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/hand-holding-phone-capturing-hallway-and-christmas-tree-GIJIVAOrTvA",
+      "author": "Jakub Zerdzicki",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "apartment-move-out-checklist",
+      "local_path": "public/images/legal-rights/apartment-move-out-checklist/move-out-checklist.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-hand-marks-off-items-on-a-checklist-yKnIbJV0RbY",
+      "author": "Jakub Zerdzicki",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
     }
   ]
 }

@@ -31,6 +31,7 @@ import ApartmentUtilityCosts from '@/content/apartment-utility-costs';
 import RentersInsuranceCost2025 from '@/content/renters-insurance-cost-2025';
 import RentIncreaseRenewalGuide from '@/content/rent-increase-renewal-guide';
 import NoticeToVacateLetterTemplate from '@/content/notice-to-vacate-letter-template';
+import ApartmentMoveOutChecklist from '@/content/apartment-move-out-checklist';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -53,6 +54,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'renters-insurance-cost-2025': RentersInsuranceCost2025,
   'rent-increase-renewal-guide': RentIncreaseRenewalGuide,
   'notice-to-vacate-letter-template': NoticeToVacateLetterTemplate,
+  'apartment-move-out-checklist': ApartmentMoveOutChecklist,
 };
 
 export async function generateStaticParams() {

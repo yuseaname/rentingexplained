@@ -56,6 +56,20 @@
       "commits": [
         "PENDING"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Legal Rights",
+      "new_articles": [
+        {
+          "title": "Apartment Move-Out Checklist: Photos, Cleaning, Utilities",
+          "slug": "apartment-move-out-checklist"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }
