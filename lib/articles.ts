@@ -3,8 +3,8 @@ import { Article } from '@/types';
 export const articles: Article[] = [
   {
     slug: 'how-to-negotiate-rent-guide',
-    title: 'How to Negotiate Rent: 15 Proven Tactics to Save $2,400+ Per Year',
-    description: 'Learn how to negotiate rent with landlords using 15 proven strategies, word-for-word scripts, and expert timing tactics. Save $200+ monthly in 2025.',
+    title: 'How to Negotiate Rent in 2025: Practical Scripts and Timing Tips',
+    description: 'A renter-first guide to asking for lower rent or better terms with simple scripts and smart timing.',
     content: '',
     author: 'RentingExplained Editorial Team',
     publishDate: '2025-01-27T10:00:00Z',
@@ -78,8 +78,8 @@ export const articles: Article[] = [
   },
   {
     slug: 'how-to-save-money-renting-2025',
-    title: 'How to Save Money Renting in 2025: Expert Strategies That Actually Work',
-    description: 'Discover proven strategies to slash your rental costs, negotiate lower rent, and save thousands of dollars every year with our comprehensive guide.',
+    title: 'How to Save Money Renting in 2025: Practical Ways to Lower Costs',
+    description: 'Practical, renter-first ways to lower rent, reduce fees, and cut monthly costs without risky shortcuts.',
     content: '', // Will be populated separately
     author: 'Sarah Mitchell',
     publishDate: '2025-01-15T10:00:00Z',
@@ -108,8 +108,8 @@ export const articles: Article[] = [
   },
   {
     slug: 'hidden-rental-fees-explained',
-    title: 'Hidden Rental Fees Explained: What You\'re Really Paying For',
-    description: 'Uncover the hidden costs of renting and learn how to identify, negotiate, and avoid unnecessary fees that can drain your wallet.',
+    title: 'Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent',
+    description: 'A clear guide to move-in fees, monthly add-ons, and how to spot and negotiate surprise charges.',
     content: '',
     author: 'Jessica Torres',
     publishDate: '2025-01-13T10:00:00Z',
@@ -138,8 +138,8 @@ export const articles: Article[] = [
   },
   {
     slug: 'renting-vs-buying-2025',
-    title: 'Renting vs Buying in 2025: When Renting Actually Wins',
-    description: 'Comprehensive financial analysis comparing renting and buying, revealing when renting is the smarter financial decision.',
+    title: 'Renting vs Buying in 2025: A Practical Decision Guide',
+    description: 'Compare renting and buying using real-life trade-offs like time horizon, total monthly cost, and flexibility.',
     content: '',
     author: 'Emily Watson',
     publishDate: '2025-01-11T10:00:00Z',
