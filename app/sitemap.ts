@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'tenant-rights-everyone-should-know',
     'tenant-rights-by-state-overview',
     'security-deposits-and-evictions-overview',
+    'notice-to-vacate-letter-template',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

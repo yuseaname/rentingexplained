@@ -2,6 +2,21 @@ import { Article } from '@/types';
 
 export const articles: Article[] = [
   {
+    slug: 'notice-to-vacate-letter-template',
+    title: 'Notice to Vacate Letter Template: What to Include (2026)',
+    description: 'Get a clean notice to vacate letter template, a checklist of what to include, and a calm plan for timing your move-out.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-01-04T10:00:00Z',
+    lastModified: '2026-01-04T10:00:00Z',
+    category: 'Legal Rights',
+    tags: ['notice-to-vacate', 'move-out', 'tenant-rights', 'lease-termination', 'templates'],
+    readingTime: 12,
+    image: '/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-keys.webp',
+    imageAlt: 'Apartment keys on a table near a lease',
+    imageCredit: 'Photo by Jakub Zerdzicki on Unsplash',
+  },
+  {
     slug: 'rent-increase-renewal-guide',
     title: 'Rent Increase Notice: How to Respond at Renewal (2025)',
     description: 'A renter-first guide to renewal rent increases with clear options, scripts, and budget steps.',

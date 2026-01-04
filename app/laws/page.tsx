@@ -67,6 +67,11 @@ export default function LawsPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Security Deposits and Evictions</h3>
               <p className="text-gray-600">General education on deposits and eviction timelines</p>
             </Link>
+
+            <Link href="/blog/notice-to-vacate-letter-template" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Notice to Vacate Letter Template</h3>
+              <p className="text-gray-600">A clean template and checklist for move-out notice</p>
+            </Link>
           </div>
         </div>
       </div>

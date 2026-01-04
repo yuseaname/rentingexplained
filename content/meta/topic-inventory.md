@@ -41,13 +41,15 @@ Coverage summary:
 - Breaking a Lease Without Penalty: Legal Options and Safer Steps (2025) (/blog/breaking-a-lease-without-penalty-2025)
 - How to Break a Lease Early: Legal Options and Safer Steps (/blog/how-to-break-lease-early)
 - Understanding Security Deposits and Evictions: A General Education Guide (/blog/security-deposits-and-evictions-overview)
+- Notice to Vacate Letter Template: What to Include (2026) (/blog/notice-to-vacate-letter-template)
 - How Tenant Rights Differ by State: An Overview Guide (/blog/tenant-rights-by-state-overview)
 - Tenant Rights Basics: Core Rights Every Renter Should Know (/blog/tenant-rights-everyone-should-know)
 
 Coverage summary:
 - Strong baseline rights coverage plus lease termination.
+- New move-out workflow adds a notice template and timing guidance.
 - Overlap risk between lease-break articles.
-- Gap: repair request workflows and deposit return documentation.
+- Gap: move-out documentation, deposit timelines, and repair request workflows.
 
 ## Money Saving
 

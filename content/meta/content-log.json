@@ -42,6 +42,20 @@
       "commits": [
         "a6d525d"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Legal Rights",
+      "new_articles": [
+        {
+          "title": "Notice to Vacate Letter Template: What to Include (2026)",
+          "slug": "notice-to-vacate-letter-template"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

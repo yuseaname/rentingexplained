@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "article_slug": "notice-to-vacate-letter-template",
+      "local_path": "public/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-keys.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-person-putting-a-house-key-into-a-wallet-riZ3ngJV6JA",
+      "author": "Jakub Zerdzicki",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "notice-to-vacate-letter-template",
+      "local_path": "public/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-calendar.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-desk-with-a-calendar-pen-eyeglasses-and-a-notepad-vCTIukAdZnU",
+      "author": "Behnam Norouzi",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "notice-to-vacate-letter-template",
+      "local_path": "public/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-draft.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-person-typing-on-a-keyboard-3bFf0w-J0gc",
+      "author": "Vardan Papikyan",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    }
+  ]
+}
