@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'renting-with-bad-credit-options',
     'apartment-approval-requirements',
     'proof-of-income-for-apartments',
+    'minimum-income-to-rent-apartment',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

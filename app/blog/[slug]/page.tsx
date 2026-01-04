@@ -38,6 +38,7 @@ import RentalScamsHowToAvoid from '@/content/rental-scams-how-to-avoid';
 import RentingWithBadCreditOptions from '@/content/renting-with-bad-credit-options';
 import ApartmentApprovalRequirements from '@/content/apartment-approval-requirements';
 import ProofOfIncomeForApartments from '@/content/proof-of-income-for-apartments';
+import MinimumIncomeToRentApartment from '@/content/minimum-income-to-rent-apartment';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -67,6 +68,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'renting-with-bad-credit-options': RentingWithBadCreditOptions,
   'apartment-approval-requirements': ApartmentApprovalRequirements,
   'proof-of-income-for-apartments': ProofOfIncomeForApartments,
+  'minimum-income-to-rent-apartment': MinimumIncomeToRentApartment,
 };
 
 export async function generateStaticParams() {

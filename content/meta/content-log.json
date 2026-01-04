@@ -154,6 +154,20 @@
       "commits": [
         "PENDING"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Rental Approval & Eligibility",
+      "new_articles": [
+        {
+          "title": "Minimum Income to Rent an Apartment: 3x Rent Rule Explained",
+          "slug": "minimum-income-to-rent-apartment"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

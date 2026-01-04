@@ -81,6 +81,14 @@
           "search_intent": "informational",
           "overlap_risk": "low",
           "last_updated": "2026-01-04T10:00:00Z"
+        },
+        {
+          "title": "Minimum Income to Rent an Apartment: 3x Rent Rule Explained",
+          "slug": "minimum-income-to-rent-apartment",
+          "core_topic": "minimum income to rent and 3x rent rule",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-04T10:00:00Z"
         }
       ]
     },

@@ -21,11 +21,12 @@ Coverage summary:
 
 - Apartment Approval Requirements: What Landlords Look For (2026) (/blog/apartment-approval-requirements)
 - Proof of Income for Apartments: What Counts and How to Prepare (/blog/proof-of-income-for-apartments)
+- Minimum Income to Rent an Apartment: 3x Rent Rule Explained (/blog/minimum-income-to-rent-apartment)
 
 Coverage summary:
-- Covers approval criteria and income documentation.
+- Covers approval criteria, income documentation, and 3x rent screening rules.
 - Strong internal links into screening, budgeting, and application prep.
-- Gap: rent ratio screening and minimum income rules.
+- Gap: guarantor responsibilities and landlord-specific screening variations.
 
 ## Costs
 

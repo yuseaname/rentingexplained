@@ -82,6 +82,15 @@ export default function GuidesPage() {
               <p className="text-gray-600">What counts and how to organize documents</p>
             </Link>
 
+            <Link href="/blog/minimum-income-to-rent-apartment" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-2xl font-bold text-gray-900">Minimum Income to Rent</h3>
+                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold">NEW</span>
+              </div>
+              <p className="text-gray-600 mb-2">3x rent rule explained with real examples</p>
+              <span className="text-sm text-primary-600 font-medium">12 min read</span>
+            </Link>
+
             <Link href="/blog/tenant-rights-everyone-should-know" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-2 border-primary-200">
               <div className="flex items-start justify-between mb-2">
                 <h3 className="text-2xl font-bold text-gray-900">Tenant Rights Guide</h3>
