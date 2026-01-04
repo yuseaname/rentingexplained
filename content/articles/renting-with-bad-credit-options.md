@@ -26,6 +26,7 @@ Think of this as a positioning guide. You are presenting the best version of you
 - [How landlords typically evaluate credit](#evaluate)
 - [Renting options if your credit is not great](#options)
 - [How to strengthen a rental application](#strengthen)
+- [Printable Checklist: Application packet](#packet-checklist)
 - [What to avoid when applying](#avoid)
 - [Example approval scenarios](#scenarios)
 - [FAQ](#faq)
