@@ -38,6 +38,7 @@ jobs:
           
           # CRITICAL: Copy static files to the correct location for standalone
           # Standalone needs static files at .next/static relative to server
+          mkdir -p deploy-package/.next
           cp -r .next/static deploy-package/.next/static
           
           # Copy public folder
@@ -45,8 +46,7 @@ jobs:
             cp -r public deploy-package/public
           fi
           
-          # Copy our custom server.js (overwrites standalone's server.js)
-          cp server.js deploy-package/server.js
+          # Keep the standalone server.js so Next uses the baked config
           
           # Copy ecosystem config for PM2
           cp ecosystem.config.js deploy-package/
