@@ -145,10 +145,11 @@ Some providers charge a setup fee or require a deposit, especially if you have l
 ### Internet and streaming
 
 Internet setup fees vary by provider. If you work from home, confirm the available providers and install timelines before move-in.
+For a deeper breakdown, see the [apartment utility costs guide](/blog/apartment-utility-costs).
 
 ### Renters insurance requirement
 
-Many landlords require renters insurance. If you plan to compare policies, you can use a renters insurance comparison tool. Disclosure: We may earn a commission if you use this service (at no cost to you).
+Many landlords require renters insurance. For a full breakdown, see the [renters insurance cost guide](/blog/renters-insurance-cost-2025). If you plan to compare policies, you can use a renters insurance comparison tool. Disclosure: We may earn a commission if you use this service (at no cost to you).
 
 <h2 id="moving-setup">Moving and setup costs you control</h2>
 

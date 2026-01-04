@@ -234,6 +234,8 @@ Save a screenshot of your usage graph each month. It makes it easier to spot pat
 - [Rent Budget Checker](/tools/rent-budget-checker) to confirm affordability
 - [Hidden rental fees guide](/blog/hidden-rental-fees-explained) to spot add-ons
 
+If insurance is part of your monthly budget, review the [renters insurance cost guide](/blog/renters-insurance-cost-2025).
+
 <h2 id="utility-quiz">2-Minute Quiz: Are You Ready to Cut Utility Costs?</h2>
 
 1) You usually review your utility bill...
