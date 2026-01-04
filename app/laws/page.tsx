@@ -23,30 +23,50 @@ export default function LawsPage() {
         <div className="max-w-5xl mx-auto">
           <div className="bg-orange-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
             <p className="text-orange-900">
-              <strong>Legal Disclaimer:</strong> Information provided is for educational purposes only and does not constitute legal advice. Always consult a qualified attorney for specific legal matters.
+              <strong>Informational Disclaimer:</strong> This section is for educational purposes only and does not provide legal advice. Laws vary by state and city.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6 mb-10">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">What Tenant Rights Cover</h2>
+            <p className="text-gray-700">
+              Tenant rights generally cover safe housing, reasonable privacy, clear rules for deposits and fees, and
+              protection from discrimination or retaliation. Your lease can add details, but it usually cannot remove
+              basic protections set by law.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6 mb-10">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Tenant Rights Vary by State</h2>
+            <p className="text-gray-700">
+              Most tenant protections are set by state and local laws, so timelines and notice requirements can differ.
+              Larger cities often add extra rules, which is why it helps to check both state and city guidance.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6 mb-10">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">How to Use This Section</h2>
+            <p className="text-gray-700">
+              Start with the basics, then use the state overview to locate local rules. If you have a specific question,
+              look up your state or city resources and keep your notes in writing.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link href="/blog/tenant-rights-everyone-should-know" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Essential Tenant Rights</h3>
-              <p className="text-gray-600">Core rights every renter needs to understand</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Tenant Rights Basics</h3>
+              <p className="text-gray-600">Core rights every renter should know</p>
             </Link>
 
-            <div className="bg-white rounded-xl shadow-md p-6 opacity-60">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">State-by-State Guide</h3>
-              <p className="text-gray-600">Coming soon: Rights by jurisdiction</p>
-            </div>
+            <Link href="/blog/tenant-rights-by-state-overview" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">How Rights Differ by State</h3>
+              <p className="text-gray-600">Overview of common state and local differences</p>
+            </Link>
 
-            <div className="bg-white rounded-xl shadow-md p-6 opacity-60">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Security Deposit Laws</h3>
-              <p className="text-gray-600">Coming soon: How to protect your deposit</p>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-md p-6 opacity-60">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Eviction Process</h3>
-              <p className="text-gray-600">Coming soon: Your rights during eviction</p>
-            </div>
+            <Link href="/blog/security-deposits-and-evictions-overview" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Security Deposits and Evictions</h3>
+              <p className="text-gray-600">General education on deposits and eviction timelines</p>
+            </Link>
           </div>
         </div>
       </div>

@@ -50,9 +50,9 @@ export default function Article() {
         <a href="/laws" className="text-blue-600 hover:underline font-medium">
           tenant rights and laws hub
         </a>
-        . If you want a quick way to scan your lease for red flags, use the{' '}
+        . If you want a quick way to work through common red flags, use the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Red Flag Scanner
+          Lease Reflex manual checklist
         </a>
         .
       </p>

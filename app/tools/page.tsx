@@ -31,8 +31,8 @@ export default function ToolsPage() {
       color: 'from-blue-400 to-cyan-500',
     },
     {
-      name: 'Lease Red Flag Scanner',
-      description: 'Scan for clauses that often deserve a second look',
+      name: 'Lease Reflex — Manual Lease Red Flag Checklist',
+      description: 'Work through a plain-language checklist of common lease clauses and questions',
       icon: 'document-search',
       href: '/tools/lease-red-flag-scanner',
       color: 'from-orange-400 to-red-500',
@@ -87,27 +87,27 @@ export default function ToolsPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Renters Use These Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-lg font-semibold text-primary-700 mb-2">100% Free</h3>
+              <h3 className="text-lg font-semibold text-primary-700 mb-2">Free and simple</h3>
               <p className="text-gray-700">
-                All tools are completely free to use, with no hidden charges or signup required.
+                No signup or payment required. Use any tool at your own pace.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-primary-700 mb-2">Privacy-First</h3>
+              <h3 className="text-lg font-semibold text-primary-700 mb-2">Plain language</h3>
               <p className="text-gray-700">
-                Your data never leaves your browser. Everything is calculated locally for maximum privacy.
+                Built to explain costs and terms in a clear, renter-first way.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-primary-700 mb-2">Expert-Designed</h3>
+              <h3 className="text-lg font-semibold text-primary-700 mb-2">Education-first</h3>
               <p className="text-gray-700">
-                Created by financial advisors and renting experts to give you accurate, actionable results.
+                Tools provide general education and checklists, not legal or financial advice.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-primary-700 mb-2">Shareable Results</h3>
+              <h3 className="text-lg font-semibold text-primary-700 mb-2">Use with your documents</h3>
               <p className="text-gray-700">
-                Save and share your results via URL to discuss with roommates or advisors.
+                Bring your lease or budget details and work through each step manually.
               </p>
             </div>
           </div>

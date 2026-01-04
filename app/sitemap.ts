@@ -33,6 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'first-apartment-checklist-guide-2025',
     'how-to-save-money-renting-2025',
     'tenant-rights-everyone-should-know',
+    'tenant-rights-by-state-overview',
+    'security-deposits-and-evictions-overview',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

@@ -1,5 +1,5 @@
 /*
-SEO Title: Tenant Rights Everyone Should Know: A Clear, Renter-First Guide
+SEO Title: Tenant Rights Basics: Core Rights Every Renter Should Know
 Meta Description: Understand core tenant rights, common lease issues, and how to handle repairs, deposits, and privacy concerns.
 Slug: tenant-rights-everyone-should-know
 */
@@ -31,6 +31,22 @@ export default function Article() {
         .
       </p>
 
+      <h2 id="what-rights-cover">What Tenant Rights Cover (In Plain Language)</h2>
+      <p>
+        Tenant rights are the basic protections that set expectations for safety, privacy, repairs, and fair treatment. These rights come from state and local laws, and in some cases from federal rules. Your lease can add details, but it usually cannot remove core protections.
+      </p>
+      <ul>
+        <li>Safe, livable housing with working essential systems.</li>
+        <li>Reasonable privacy and notice for entry.</li>
+        <li>Clear rules around deposits, fees, and move-out timelines.</li>
+        <li>Protection from discrimination and retaliation.</li>
+      </ul>
+
+      <h2 id="how-to-use">How to Use This Guide</h2>
+      <p>
+        Use this page as a starting point for questions to ask and topics to research. If a section seems relevant to your lease, write down the clause and compare it to your state or city rules. This helps you stay factual, calm, and organized.
+      </p>
+
       <div className="relative w-full h-80 my-8 rounded-lg overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop"
@@ -58,9 +74,12 @@ export default function Article() {
       <p>
         Put the issue in writing and keep records. Many states require specific steps before you can withhold rent or end a lease, so check local rules first. If you are unsure, the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Red Flag Scanner
+          Lease Reflex manual checklist
         </a>
         {' '}can help you spot repair clauses and notice rules.
+      </p>
+      <p>
+        Practical tip: keep a simple repair log with dates, photos, and the exact words used in your requests. If you ever need to explain what happened, a clear timeline helps more than long arguments.
       </p>
 
       <h2 id="privacy">Right to Privacy and Quiet Enjoyment</h2>
@@ -73,6 +92,16 @@ export default function Article() {
         Ask for future entries to be scheduled in writing and reference your lease terms. If it continues, document each incident and look up your local rules.
       </p>
 
+      <h2 id="fees">Fees, Rent Increases, and Communication</h2>
+      <p>
+        Some disputes start with fees or changes that were not clearly explained. A good lease should show what is fixed for the term and what can change. If a fee is not listed, ask where it comes from and when it can be charged.
+      </p>
+      <ul>
+        <li>Ask for a written fee schedule and keep it with your lease.</li>
+        <li>Clarify the notice required for rent increases or renewals.</li>
+        <li>Keep communication in writing whenever possible.</li>
+      </ul>
+
       <h2 id="deposit">Security Deposit Protections</h2>
       <p>
         Most states set limits on what can be deducted and how quickly deposits must be returned. The best defense is documentation.
@@ -84,6 +113,9 @@ export default function Article() {
         <li>Save receipts for any repairs you pay for.</li>
         <li>Request a move-out walkthrough when possible.</li>
       </ul>
+      <p>
+        If you can, send a short move-in note with your photos so there is a clear record of the unit condition on day one. Keep the message polite and factual.
+      </p>
 
       <h2 id="discrimination">Protection from Discrimination</h2>
       <p>
@@ -111,7 +143,7 @@ export default function Article() {
       <p>
         If you need help understanding lease language, use the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Red Flag Scanner
+          Lease Reflex manual checklist
         </a>
         .
       </p>
@@ -123,6 +155,9 @@ export default function Article() {
           tenant rights and laws hub
         </a>
         {' '}to find your local rules.
+      </p>
+      <p>
+        Even within the same state, larger cities sometimes have additional protections. Check for city or county rules, especially around notices, deposits, and eviction timelines.
       </p>
 
       <h2 id="lease-exit">When Ending a Lease Is the Safest Option</h2>
@@ -172,7 +207,7 @@ export default function Article() {
       <p className="text-lg font-semibold text-gray-900 mt-12">
         If you are unsure about a lease or a fee, start with the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">
-          Lease Red Flag Scanner
+          Lease Reflex manual checklist
         </a>
         {' '}and keep your requests in writing.
       </p>

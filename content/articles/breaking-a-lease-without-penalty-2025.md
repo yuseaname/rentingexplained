@@ -14,7 +14,7 @@ Slug: breaking-a-lease-without-penalty-2025
 
 ## Start with your lease and local rules
 
-Your lease often lists notice requirements and early termination options. Before acting, check your state rules at the [tenant rights and laws hub](/laws). If you want help spotting tricky clauses, use the [Lease Red Flag Scanner](/tools/lease-red-flag-scanner).
+Your lease often lists notice requirements and early termination options. Before acting, check your state rules at the [tenant rights and laws hub](/laws). If you want help spotting tricky clauses, use the [Lease Reflex manual checklist](/tools/lease-red-flag-scanner).
 
 ## Legal reasons that may allow penalty-free exit
 

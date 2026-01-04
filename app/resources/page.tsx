@@ -13,30 +13,32 @@ export default function ResourcesPage() {
     description: string;
     type: string;
     icon: IconName;
+    downloadHref: string;
+    previewHref: string;
   }> = [
     {
       title: 'Move-In Checklist',
       description: 'Complete checklist to document your unit condition at move-in',
       type: 'PDF Download',
       icon: 'document-check',
+      downloadHref: '/resources/pdfs/move-in-checklist.pdf',
+      previewHref: '/resources/previews/move-in-checklist-preview.pdf',
     },
     {
       title: 'Lease Review Checklist',
       description: 'Essential items to review before signing any lease',
       type: 'PDF Download',
       icon: 'document-check',
+      downloadHref: '/resources/pdfs/lease-review-checklist.pdf',
+      previewHref: '/resources/previews/lease-review-preview.pdf',
     },
     {
       title: 'Security Deposit Documentation Template',
       description: 'Organize photos and notes to protect your deposit',
       type: 'Template',
       icon: 'document-text',
-    },
-    {
-      title: 'Rent Negotiation Email Templates',
-      description: 'Proven scripts to negotiate lower rent',
-      type: 'Templates',
-      icon: 'envelope',
+      downloadHref: '/resources/pdfs/security-deposit-documentation-template.pdf',
+      previewHref: '/resources/previews/security-deposit-preview.pdf',
     },
   ];
 
@@ -62,9 +64,21 @@ export default function ResourcesPage() {
               <p className="text-gray-600 mb-4">{resource.description}</p>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-primary-600 font-medium">{resource.type}</span>
-                <button className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
-                  Download
-                </button>
+                <div className="flex items-center gap-3">
+                  <a
+                    href={resource.previewHref}
+                    className="text-sm font-semibold text-primary-700 hover:text-primary-800"
+                  >
+                    Preview
+                  </a>
+                  <a
+                    href={resource.downloadHref}
+                    download
+                    className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                  >
+                    Download
+                  </a>
+                </div>
               </div>
             </div>
           ))}

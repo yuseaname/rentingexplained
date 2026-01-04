@@ -13,6 +13,8 @@ import { getQuizByArticleSlug } from '@/lib/quizzes';
 
 import HowToSaveMoneyRenting2025 from '@/content/how-to-save-money-renting-2025';
 import TenantRightsEveryoneShouldKnow from '@/content/tenant-rights-everyone-should-know';
+import TenantRightsByStateOverview from '@/content/tenant-rights-by-state-overview';
+import SecurityDepositsAndEvictionsOverview from '@/content/security-deposits-and-evictions-overview';
 import HiddenRentalFeesExplained from '@/content/hidden-rental-fees-explained';
 import BestAppsAndToolsForRenters from '@/content/best-apps-and-tools-for-renters';
 import RentingVsBuying2025 from '@/content/renting-vs-buying-2025';
@@ -25,6 +27,8 @@ import BreakingALeaseWithoutPenalty2025 from '@/content/breaking-a-lease-without
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
   'tenant-rights-everyone-should-know': TenantRightsEveryoneShouldKnow,
+  'tenant-rights-by-state-overview': TenantRightsByStateOverview,
+  'security-deposits-and-evictions-overview': SecurityDepositsAndEvictionsOverview,
   'hidden-rental-fees-explained': HiddenRentalFeesExplained,
   'best-apps-and-tools-for-renters': BestAppsAndToolsForRenters,
   'renting-vs-buying-2025': RentingVsBuying2025,

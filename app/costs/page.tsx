@@ -125,18 +125,18 @@ export default function CostsPage() {
               </div>
             </Link>
 
-            <div className="bg-white rounded-xl shadow-md p-6 opacity-60 border-l-4 border-gray-300">
+            <Link href="/blog/security-deposits-and-evictions-overview" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-gray-500">
               <div className="mb-3">
-                <Icon name="clock" size={28} className="text-gray-500" />
+                <Icon name="document-text" size={28} className="text-gray-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Security Deposit Guide</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Security Deposits and Evictions</h3>
               <p className="text-gray-600 mb-4">
-                Coming soon: How to protect and recover your deposit
+                A plain-language overview of deposit basics, documentation, and eviction timelines
               </p>
-              <div className="text-gray-500 font-medium">
-                Coming soon
+              <div className="text-gray-600 font-medium">
+                Read the guide
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="mt-12 bg-gradient-to-br from-green-50 to-blue-50 rounded-xl p-8 border-2 border-green-200">
