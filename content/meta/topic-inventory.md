@@ -20,11 +20,12 @@ Coverage summary:
 ## Rental Approval & Eligibility
 
 - Apartment Approval Requirements: What Landlords Look For (2026) (/blog/apartment-approval-requirements)
+- Proof of Income for Apartments: What Counts and How to Prepare (/blog/proof-of-income-for-apartments)
 
 Coverage summary:
-- Covers approval criteria and screening expectations.
+- Covers approval criteria and income documentation.
 - Strong internal links into screening, budgeting, and application prep.
-- Gap: proof of income requirements and rent ratio screening.
+- Gap: rent ratio screening and minimum income rules.
 
 ## Costs
 

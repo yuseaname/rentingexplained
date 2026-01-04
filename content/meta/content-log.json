@@ -140,6 +140,20 @@
       "commits": [
         "PENDING"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Rental Approval & Eligibility",
+      "new_articles": [
+        {
+          "title": "Proof of Income for Apartments: What Counts and How to Prepare",
+          "slug": "proof-of-income-for-apartments"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

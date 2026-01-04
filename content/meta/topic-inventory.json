@@ -73,6 +73,14 @@
           "search_intent": "informational",
           "overlap_risk": "low",
           "last_updated": "2026-01-04T10:00:00Z"
+        },
+        {
+          "title": "Proof of Income for Apartments: What Counts and How to Prepare",
+          "slug": "proof-of-income-for-apartments",
+          "core_topic": "accepted proof of income documents and organization",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-04T10:00:00Z"
         }
       ]
     },
