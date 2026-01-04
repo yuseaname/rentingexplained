@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'security-deposit-return-timeline',
     'how-much-rent-can-i-afford',
     'rental-scams-how-to-avoid',
+    'renting-with-bad-credit-options',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

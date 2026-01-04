@@ -112,6 +112,20 @@
       "commits": [
         "PENDING"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Apartment Hunting",
+      "new_articles": [
+        {
+          "title": "Renting With Bad Credit: Options, Cosigners, and What Helps",
+          "slug": "renting-with-bad-credit-options"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

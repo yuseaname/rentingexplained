@@ -8,11 +8,12 @@ Last scanned: 2026-01-04
 - Apartment Tour Checklist: Questions to Ask and Red Flags to Spot (/blog/apartment-tour-checklist-questions-red-flags)
 - Tenant Screening and Credit Checks for Renters: What Landlords Look For (/blog/tenant-screening-credit-checks-for-renters)
 - Rental Scams Explained: How to Spot Fake Listings and Stay Safe (/blog/rental-scams-how-to-avoid)
+- Renting With Bad Credit: Options, Cosigners, and What Helps (/blog/renting-with-bad-credit-options)
 - First Apartment Checklist: A Practical Move-In Guide (2025) (/blog/first-apartment-checklist-guide-2025)
 - First Apartment Budget Guide: What to Buy and What to Skip (/blog/first-apartment-checklist-budget-guide)
 
 Coverage summary:
-- Covers application prep, touring, screening, and scam prevention.
+- Covers application prep, touring, screening, scam prevention, and credit challenges.
 - Strong beginner guidance for first-time renters.
 - Gap: lease comparison tactics and move-in timeline for repairs/utilities.
 
