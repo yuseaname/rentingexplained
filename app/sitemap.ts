@@ -40,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'security-deposits-and-evictions-overview',
     'notice-to-vacate-letter-template',
     'apartment-move-out-checklist',
+    'security-deposit-return-timeline',
     'hidden-rental-fees-explained',
     'best-apps-and-tools-for-renters',
     'renting-vs-buying-2025',

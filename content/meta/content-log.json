@@ -70,6 +70,20 @@
       "commits": [
         "PENDING"
       ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Legal Rights",
+      "new_articles": [
+        {
+          "title": "Security Deposit Return Timeline: What to Expect (2026)",
+          "slug": "security-deposit-return-timeline"
+        }
+      ],
+      "commits": [
+        "PENDING"
+      ]
     }
   ]
 }

@@ -59,6 +59,36 @@
       "license": "Unsplash License (free for commercial use, no attribution required)",
       "attribution_required": false,
       "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "security-deposit-return-timeline",
+      "local_path": "public/images/legal-rights/security-deposit-return-timeline/security-deposit-mailbox.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-blue-mailbox-with-a-red-letter-on-it-nmubOLEp8bQ",
+      "author": "Valeria Nikitina",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "security-deposit-return-timeline",
+      "local_path": "public/images/legal-rights/security-deposit-return-timeline/security-deposit-docs.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/desk-with-papers-glasses-calculator-and-office-supplies-sW02MHv37yk",
+      "author": "Cht Gsml",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
+    },
+    {
+      "article_slug": "security-deposit-return-timeline",
+      "local_path": "public/images/legal-rights/security-deposit-return-timeline/security-deposit-email.webp",
+      "source": "unsplash",
+      "source_page": "https://unsplash.com/photos/a-person-typing-on-a-laptop-keyboard-on-a-desk-rH8YFkrCIYI",
+      "author": "Kit (formerly ConvertKit)",
+      "license": "Unsplash License (free for commercial use, no attribution required)",
+      "attribution_required": false,
+      "date_added": "2026-01-04"
     }
   ]
 }

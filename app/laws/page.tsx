@@ -77,6 +77,11 @@ export default function LawsPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Apartment Move-Out Checklist</h3>
               <p className="text-gray-600">Photos, cleaning, walkthroughs, and utilities in one plan</p>
             </Link>
+
+            <Link href="/blog/security-deposit-return-timeline" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Security Deposit Return Timeline</h3>
+              <p className="text-gray-600">What affects deposit timing and how to follow up</p>
+            </Link>
           </div>
         </div>
       </div>

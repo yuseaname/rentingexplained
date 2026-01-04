@@ -43,14 +43,15 @@ Coverage summary:
 - Understanding Security Deposits and Evictions: A General Education Guide (/blog/security-deposits-and-evictions-overview)
 - Notice to Vacate Letter Template: What to Include (2026) (/blog/notice-to-vacate-letter-template)
 - Apartment Move-Out Checklist: Photos, Cleaning, Utilities (/blog/apartment-move-out-checklist)
+- Security Deposit Return Timeline: What to Expect (2026) (/blog/security-deposit-return-timeline)
 - How Tenant Rights Differ by State: An Overview Guide (/blog/tenant-rights-by-state-overview)
 - Tenant Rights Basics: Core Rights Every Renter Should Know (/blog/tenant-rights-everyone-should-know)
 
 Coverage summary:
 - Strong baseline rights coverage plus lease termination.
-- New move-out workflow adds a notice template and checklist support.
+- New move-out workflow adds notice, checklist support, and deposit timeline guidance.
 - Overlap risk between lease-break articles.
-- Gap: deposit return timelines and repair request workflows.
+- Gap: repair request workflows and habitability documentation.
 
 ## Money Saving
 
