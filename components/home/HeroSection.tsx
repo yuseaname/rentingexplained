@@ -7,17 +7,17 @@ export default function HeroSection() {
       <div className="relative container mx-auto px-4 py-20 md:py-28">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-            Stop Overpaying Rent and Getting Taken Advantage Of
+            Know Your Rent, Fees, and Rights Before You Sign
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-100">
-            Learn your rights, save money, and rent with confidence. Trusted by 50,000+ renters nationwide.
+            Learn your rights, spot fees early, and rent with confidence. Used by 50,000+ renters nationwide.
           </p>
           <div className="flex flex-wrap gap-4 justify-center mb-12">
             <Link
               href="/tools/rent-budget-checker"
               className="px-8 py-4 bg-white text-primary-700 rounded-lg font-semibold hover:bg-primary-50 transition-all shadow-lg hover:shadow-xl"
             >
-              Calculate Your Rent Budget ?
+              Calculate Your Rent Budget
             </Link>
             <Link
               href="/blog/first-apartment-checklist-guide-2025"

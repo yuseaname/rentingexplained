@@ -1,5 +1,6 @@
 import { generateMetadata as genMeta } from '@/lib/metadata';
 import Link from 'next/link';
+import Icon, { IconName } from '@/components/ui/Icon';
 
 export const metadata = genMeta({
   title: 'Rent Toolbelt - Interactive Renting Calculators & Tools',
@@ -8,25 +9,31 @@ export const metadata = genMeta({
 });
 
 export default function ToolsPage() {
-  const tools = [
+  const tools: Array<{
+    name: string;
+    description: string;
+    icon: IconName;
+    href: string;
+    color: string;
+  }> = [
     {
       name: 'Rent Budget Checker',
-      description: 'Calculate how much rent you can afford based on your income and expenses',
-      icon: '??',
+      description: 'Estimate a rent range that fits your income and monthly commitments',
+      icon: 'calculator',
       href: '/tools/rent-budget-checker',
       color: 'from-green-400 to-emerald-500',
     },
     {
       name: 'Hidden Fees Estimator',
-      description: 'Discover the true cost of renting with all fees and hidden costs included',
-      icon: '??',
+      description: 'Add up fees and add-ons to see the real monthly cost',
+      icon: 'receipt',
       href: '/tools/hidden-fees-estimator',
       color: 'from-blue-400 to-cyan-500',
     },
     {
       name: 'Lease Red Flag Scanner',
-      description: 'Identify potential issues and unfair clauses in your lease agreement',
-      icon: '??',
+      description: 'Scan for clauses that often deserve a second look',
+      icon: 'document-search',
       href: '/tools/lease-red-flag-scanner',
       color: 'from-orange-400 to-red-500',
     },
@@ -52,9 +59,11 @@ export default function ToolsPage() {
               className="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden"
             >
               <div className={`h-32 bg-gradient-to-br ${tool.color} flex items-center justify-center`}>
-                <span className="text-7xl group-hover:scale-110 transition-transform">
-                  {tool.icon}
-                </span>
+                <Icon
+                  name={tool.icon}
+                  size={32}
+                  className="text-white group-hover:scale-110 transition-transform"
+                />
               </div>
               <div className="p-6">
                 <h2 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
@@ -75,7 +84,7 @@ export default function ToolsPage() {
         </div>
 
         <div className="mt-16 max-w-4xl mx-auto bg-white rounded-xl shadow-md p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Use Our Tools?</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Renters Use These Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <h3 className="text-lg font-semibold text-primary-700 mb-2">100% Free</h3>

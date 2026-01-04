@@ -23,7 +23,7 @@ export default function LawsPage() {
         <div className="max-w-5xl mx-auto">
           <div className="bg-orange-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
             <p className="text-orange-900">
-              <strong>?? Legal Disclaimer:</strong> Information provided is for educational purposes only and does not constitute legal advice. Always consult with a qualified attorney for specific legal matters.
+              <strong>Legal Disclaimer:</strong> Information provided is for educational purposes only and does not constitute legal advice. Always consult a qualified attorney for specific legal matters.
             </p>
           </div>
 

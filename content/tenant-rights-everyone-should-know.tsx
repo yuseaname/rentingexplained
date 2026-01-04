@@ -96,7 +96,7 @@ export default function Article() {
 
       <h2 id="habitability">Right #1: Habitable Living Conditions (Implied Warranty of Habitability)</h2>
       <p>
-        Every rental unit comes with an implied warranty of habitability � a legal guarantee that your home meets basic standards for human occupancy. This applies even if it's not written in your lease.
+        Every rental unit comes with an implied warranty of habitability - a legal guarantee that your home meets basic standards for human occupancy. This applies even if it's not written in your lease.
       </p>
 
       <h3>What "Habitable" Means</h3>
@@ -121,7 +121,7 @@ export default function Article() {
 
       <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 my-6">
         <p className="text-orange-900">
-          <strong>?? Important:</strong> Always document issues with photos, written notices, and save all communication. Follow your state's specific process for repair and deduct or rent withholding to avoid legal complications.
+          <strong>Important:</strong> Document issues with photos and written notices, and save all communication. Follow your state's process for repair-and-deduct or rent withholding to avoid legal complications.
         </p>
       </div>
 
@@ -137,7 +137,7 @@ export default function Article() {
 
       <h2 id="privacy">Right #2: Privacy and Quiet Enjoyment</h2>
       <p>
-        You have the right to "quiet enjoyment" of your rental property � meaning your landlord cannot unreasonably interfere with your use and privacy of the space.
+        You have the right to "quiet enjoyment" of your rental property - meaning your landlord cannot unreasonably interfere with your use and privacy of the space.
       </p>
 
       <h3>Landlord Entry Rules</h3>
@@ -199,7 +199,7 @@ export default function Article() {
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
         <p className="text-blue-900">
-          <strong>?? Pro Tip:</strong> Take detailed photos and video of the unit at move-in and move-out. Email them to yourself for timestamp proof. This documentation protects you from unfair deductions.
+          <strong>Pro tip:</strong> Take detailed photos and video at move-in and move-out. Email them to yourself for timestamp proof. This documentation helps protect you from unfair deductions.
         </p>
       </div>
 
@@ -308,7 +308,7 @@ export default function Article() {
 
       <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 my-6">
         <p className="text-orange-900">
-          <strong>?? Important:</strong> Just because something is in your lease doesn't make it legal. Courts will not enforce illegal clauses even if you signed them.
+          <strong>Important:</strong> Just because something is in your lease does not make it legal. Courts will not enforce illegal clauses even if you signed them.
         </p>
       </div>
 
@@ -410,22 +410,22 @@ export default function Article() {
       </div>
 
       <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8 my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Your Rights Protection Checklist</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Rights Protection Checklist</h2>
         <ul className="space-y-3 text-gray-800">
-          <li>? Read your entire lease before signing and ask questions</li>
-          <li>? Document unit condition at move-in with photos/video</li>
-          <li>? Keep all communications with landlord in writing</li>
-          <li>? Know your state's specific tenant rights</li>
-          <li>? Save copies of rent payment receipts</li>
-          <li>? Join local tenant union or advocacy group</li>
-          <li>? Save contact info for legal aid and tenant hotlines</li>
-          <li>? Review security deposit itemization carefully</li>
-          <li>? Don't be afraid to assert your rights professionally</li>
+          <li>Read your entire lease before signing and ask questions</li>
+          <li>Document unit condition at move-in with photos/video</li>
+          <li>Keep all communications with landlord in writing</li>
+          <li>Know your state's specific tenant rights</li>
+          <li>Save copies of rent payment receipts</li>
+          <li>Join local tenant union or advocacy group</li>
+          <li>Save contact info for legal aid and tenant hotlines</li>
+          <li>Review security deposit itemization carefully</li>
+          <li>Don't be afraid to assert your rights professionally</li>
         </ul>
       </div>
 
       <p className="text-lg font-semibold text-gray-900 mt-12">
-        Remember: Landlords have legal obligations, not just tenants. Knowing and asserting your rights isn't confrontational � it's smart, responsible renting. Most disputes can be resolved by understanding the law and communicating clearly in writing.
+        Remember: Landlords have legal obligations, not just tenants. Knowing and asserting your rights isn't confrontational - it's smart, responsible renting. Most disputes can be resolved by understanding the law and communicating clearly in writing.
       </p>
     </>
   );

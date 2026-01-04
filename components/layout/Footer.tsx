@@ -106,7 +106,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            � {currentYear} RentingExplained.com. All rights reserved.
+            (c) {currentYear} RentingExplained.com. All rights reserved.
           </p>
           <p className="text-xs text-gray-500 mt-2">
             Information provided for educational purposes only. Always consult with legal professionals for specific advice.

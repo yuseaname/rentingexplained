@@ -222,7 +222,7 @@ export default function Article() {
 
       <h3>Late Fees ($50-$100 or 5% of rent)</h3>
       <p>
-        Most leases charge late fees for rent paid after the grace period (typically 3-5 days after the 1st). These must be reasonable � check your state's cap.
+        Most leases charge late fees for rent paid after the grace period (typically 3-5 days after the 1st). These must be reasonable - check your state's cap.
       </p>
 
       <h3>Guest Parking Fees ($5-15 per visit)</h3>
@@ -285,18 +285,18 @@ export default function Article() {
 
       <h3>What's Usually Negotiable</h3>
       <ul>
-        <li>? Administrative/processing fees (often 100% negotiable)</li>
-        <li>? Pet fees (especially monthly pet rent)</li>
-        <li>? Parking fees (can be bundled into rent)</li>
-        <li>? Amenity fees (if truly optional)</li>
-        <li>? Application fees (can provide your own reports)</li>
+        <li>Administrative/processing fees (often negotiable)</li>
+        <li>Pet fees (especially monthly pet rent)</li>
+        <li>Parking fees (can be bundled into rent)</li>
+        <li>Amenity fees (if truly optional)</li>
+        <li>Application fees (you can provide your own reports)</li>
       </ul>
 
       <h3>What's Rarely Negotiable</h3>
       <ul>
-        <li>? Security deposits (state regulated)</li>
-        <li>? Actual utility costs</li>
-        <li>? Late fees (lease term)</li>
+        <li>Security deposits (state regulated)</li>
+        <li>Actual utility costs</li>
+        <li>Late fees (lease term)</li>
       </ul>
 
       <h2 id="faq">Frequently Asked Questions</h2>
@@ -332,7 +332,7 @@ export default function Article() {
       </div>
 
       <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8 my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Your Hidden Fees Defense Plan</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Hidden Fees Defense Plan</h2>
         <ol className="space-y-3 text-gray-800">
           <li>Before viewing: Ask for complete fee schedule in writing</li>
           <li>Calculate true monthly cost including all fees</li>

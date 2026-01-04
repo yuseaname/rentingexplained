@@ -25,15 +25,15 @@ export default function Leaderboard() {
           score: 1250,
           rank: 1,
           comment: 'Loving these guides! Saved $200 on my new apartment!',
-          avatar: '??',
+          avatar: 'AR',
         },
         {
           id: 'user2',
           name: 'Jamie K.',
           score: 980,
           rank: 2,
-          comment: 'The tenant rights info helped me get my deposit back ??',
-          avatar: '??',
+          comment: 'The tenant rights info helped me get my deposit back.',
+          avatar: 'JK',
         },
         {
           id: 'user3',
@@ -41,21 +41,21 @@ export default function Leaderboard() {
           score: 875,
           rank: 3,
           comment: 'Best renting resource I\'ve found. Thank you!',
-          avatar: '??',
+          avatar: 'MT',
         },
         {
           id: 'user4',
           name: 'Casey L.',
           score: 720,
           rank: 4,
-          avatar: '??',
+          avatar: 'CL',
         },
         {
           id: 'user5',
           name: 'Jordan P.',
           score: 650,
           rank: 5,
-          avatar: '??',
+          avatar: 'JP',
         },
       ]);
     }
@@ -93,7 +93,7 @@ export default function Leaderboard() {
         score: userScore,
         rank: userRank,
         comment: filteredComment,
-        avatar: '??',
+        avatar: 'YOU',
       });
     }
 
@@ -119,7 +119,7 @@ export default function Leaderboard() {
         </div>
         {isTopThree && (
           <div className="mt-4">
-            <Badge variant="gold" className="mb-2">?? Top 3 - You can leave a comment!</Badge>
+            <Badge variant="gold" className="mb-2">Top 3 - You can leave a comment</Badge>
             {!isEditingComment ? (
               <button
                 onClick={() => setIsEditingComment(true)}
@@ -173,9 +173,9 @@ export default function Leaderboard() {
             }`}
           >
             <div className="flex-shrink-0 mr-4">
-              {entry.rank === 1 && <Badge variant="gold">??</Badge>}
-              {entry.rank === 2 && <Badge variant="silver">??</Badge>}
-              {entry.rank === 3 && <Badge variant="bronze">??</Badge>}
+              {entry.rank === 1 && <Badge variant="gold">1st</Badge>}
+              {entry.rank === 2 && <Badge variant="silver">2nd</Badge>}
+              {entry.rank === 3 && <Badge variant="bronze">3rd</Badge>}
               {entry.rank > 3 && (
                 <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center font-semibold text-gray-700">
                   {entry.rank}
@@ -201,10 +201,10 @@ export default function Leaderboard() {
       <div className="mt-6 p-4 bg-blue-50 rounded-lg">
         <h4 className="font-semibold text-gray-900 mb-2">How to climb the leaderboard:</h4>
         <ul className="text-sm text-gray-700 space-y-1">
-          <li>� Read articles: <span className="font-semibold">+10 points each</span></li>
-          <li>� Complete quizzes: <span className="font-semibold">+25 points each</span></li>
-          <li>� Daily streak: <span className="font-semibold">+5 points per day</span></li>
-          <li>� Earn badges: <span className="font-semibold">+15 points each</span></li>
+          <li>Read articles: <span className="font-semibold">+10 points each</span></li>
+          <li>Complete quizzes: <span className="font-semibold">+25 points each</span></li>
+          <li>Daily streak: <span className="font-semibold">+5 points per day</span></li>
+          <li>Earn badges: <span className="font-semibold">+15 points each</span></li>
         </ul>
       </div>
     </div>

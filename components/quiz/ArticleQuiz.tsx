@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Quiz, QuizQuestion } from '@/types';
 import { useProgress } from '@/components/progress/ProgressProvider';
 import Button from '@/components/ui/Button';
+import Icon from '@/components/ui/Icon';
 
 interface ArticleQuizProps {
   quiz: Quiz;
@@ -39,7 +40,7 @@ export default function ArticleQuiz({ quiz }: ArticleQuizProps) {
         id: `${quiz.id}-perfect`,
         name: 'Perfect Score',
         description: `Aced the ${quiz.articleSlug} quiz!`,
-        icon: '??',
+        icon: 'star',
         requirement: 'Score 100% on a quiz',
         earned: true,
       });
@@ -82,8 +83,12 @@ export default function ArticleQuiz({ quiz }: ArticleQuizProps) {
             return (
               <div key={question.id} className="border border-gray-200 rounded-lg p-4">
                 <div className="flex items-start mb-2">
-                  <span className={`mr-3 text-2xl ${isCorrect ? '?' : '?'}`}>
-                    {isCorrect ? '?' : '?'}
+                  <span className="mr-3">
+                    <Icon
+                      name={isCorrect ? 'check' : 'x'}
+                      size={24}
+                      className={isCorrect ? 'text-green-600' : 'text-red-600'}
+                    />
                   </span>
                   <div className="flex-1">
                     <p className="font-semibold text-gray-900 mb-2">
@@ -102,7 +107,7 @@ export default function ArticleQuiz({ quiz }: ArticleQuizProps) {
                       </p>
                     )}
                     <p className="text-sm text-gray-700 mt-2 p-3 bg-blue-50 rounded">
-                      ?? {question.explanation}
+                      Explanation: {question.explanation}
                     </p>
                   </div>
                 </div>

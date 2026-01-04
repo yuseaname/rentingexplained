@@ -76,9 +76,9 @@ function RentBudgetCheckerContent() {
     <div className="min-h-screen bg-gray-50">
       <div className="bg-gradient-to-br from-green-600 to-emerald-700 text-white py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">?? Rent Budget Checker</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Rent Budget Checker</h1>
           <p className="text-xl text-green-100 max-w-2xl">
-            Calculate how much rent you can comfortably afford
+            Estimate a rent range that fits your income and goals
           </p>
         </div>
       </div>
@@ -189,21 +189,21 @@ function RentBudgetCheckerContent() {
                     <span className="text-2xl font-bold text-green-600">${result.comfortable.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between items-center py-3">
-                    <span className="text-gray-700">Remaining for Discretionary</span>
+                    <span className="text-gray-700">Remaining for spending</span>
                     <span className="font-semibold text-gray-900">${result.remaining.toLocaleString()}</span>
                   </div>
                 </div>
               </div>
 
               <div className="bg-blue-50 rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">?? Expert Tips</h3>
-                                <ul className="space-y-2 text-gray-700">
-                                  <li>• The 30% rule is a guideline – adjust based on your city's cost of living</li>
-                                  <li>• Remember to factor in utilities if they're not included</li>
-                                  <li>• Budget for renters insurance (typically $15-30/month)</li>
-                                  <li>• Consider potential rent increases when planning long-term</li>
-                                  <li>• Living below your maximum budget provides a financial cushion</li>
-                                </ul>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Expert Tips</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• The 30% rule is a starting point. Adjust for local cost of living.</li>
+                  <li>• If utilities are not included, budget for them separately.</li>
+                  <li>• Plan for renters insurance (often $15-30/month).</li>
+                  <li>• Leave room for annual rent increases.</li>
+                  <li>• Staying under your max gives you more breathing room.</li>
+                </ul>
                               </div>
                             </div>
                           )}

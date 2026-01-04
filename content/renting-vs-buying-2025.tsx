@@ -5,13 +5,13 @@ export default function Article() {
   return (
     <>
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Key Takeaways</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
-          <li>? Renting wins financially when you'll move within 3-5 years</li>
-          <li>? Homeownership has 20-40% hidden costs beyond mortgage</li>
-          <li>? Renting provides flexibility worth $10,000-50,000+ for careers</li>
-          <li>? The 5% rule: Rent if annual costs &lt; 5% of home value</li>
-          <li>? In 2025, renting makes sense in most major metros</li>
+          <li>Renting often wins financially if you'll move within 3-5 years</li>
+          <li>Homeownership has 20-40% costs beyond the mortgage</li>
+          <li>Renting provides flexibility that can be valuable for careers</li>
+          <li>The 5% rule: Rent if annual costs are under 5% of home value</li>
+          <li>In 2025, renting makes sense in many major metros</li>
         </ul>
       </div>
 
@@ -39,7 +39,7 @@ export default function Article() {
       <p>Most people only calculate the mortgage payment when buying. But homeownership has 8-12 additional cost categories:</p>
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
-        <h4 className="font-semibold text-gray-900 mb-3">$400,000 Home � True Annual Cost Breakdown</h4>
+        <h4 className="font-semibold text-gray-900 mb-3">$400,000 Home - True Annual Cost Breakdown</h4>
         <div className="space-y-2 text-gray-700">
           <p>Mortgage (20% down, 6.5%, 30yr): $2,024/month = $24,288</p>
           <p>Property tax (1.2%): $4,800</p>
@@ -141,7 +141,7 @@ export default function Article() {
 
       <h3>3. You Can Invest the Difference</h3>
       <p>
-        If renting saves you $1,000/month and you invest it in index funds averaging 8% returns, you could have $150,000 in 10 years � potentially more than home equity.
+        If renting saves you $1,000/month and you invest it in index funds averaging 8% returns, you could have $150,000 in 10 years - potentially more than home equity.
       </p>
 
       <h3>4. Your Market Has High Appreciation Uncertainty</h3>
@@ -173,7 +173,7 @@ export default function Article() {
 
       <h3>4. You Want Stability and Customization</h3>
       <p>
-        Emotional benefits of ownership � no rent increases, renovation freedom, community roots � have value beyond finances.
+        Emotional benefits of ownership - no rent increases, renovation freedom, community roots - have value beyond finances.
       </p>
 
       <h3>5. You're in a Tax Bracket Where Deductions Help</h3>
@@ -193,7 +193,7 @@ export default function Article() {
 
       <h2 id="real-examples">Real Market Examples (2025)</h2>
 
-      <h3>San Francisco Bay Area � Rent Wins</h3>
+      <h3>San Francisco Bay Area - Rent Wins</h3>
       <ul>
         <li>Median home: $1.3M</li>
         <li>Median rent: $3,200/month ($38,400/year)</li>
@@ -201,7 +201,7 @@ export default function Article() {
         <li><strong>Verdict:</strong> Renting saves $26,600/year financially</li>
       </ul>
 
-      <h3>Austin, Texas � Close Call</h3>
+      <h3>Austin, Texas - Close Call</h3>
       <ul>
         <li>Median home: $550,000</li>
         <li>Median rent: $2,000/month ($24,000/year)</li>
@@ -209,7 +209,7 @@ export default function Article() {
         <li><strong>Verdict:</strong> Slight edge to renting, but lifestyle factors matter</li>
       </ul>
 
-      <h3>Indianapolis, Indiana � Buying Wins</h3>
+      <h3>Indianapolis, Indiana - Buying Wins</h3>
       <ul>
         <li>Median home: $250,000</li>
         <li>Median rent: $1,400/month ($16,800/year)</li>
@@ -223,7 +223,7 @@ export default function Article() {
         <div className="border-l-4 border-primary-600 pl-4">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Is renting really "throwing money away"?</h3>
           <p>
-            No. You're paying for housing services, flexibility, and avoiding maintenance costs. Homeowners "throw away" money on interest, property tax, insurance, and maintenance � often more than rent. Both are paying for housing; the question is which is cheaper and better for your life.
+            No. You're paying for housing services, flexibility, and avoiding maintenance costs. Homeowners "throw away" money on interest, property tax, insurance, and maintenance - often more than rent. Both are paying for housing; the question is which is cheaper and better for your life.
           </p>
         </div>
 
@@ -250,7 +250,7 @@ export default function Article() {
       </div>
 
       <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8 my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Your Rent vs Buy Decision Framework</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Rent vs Buy Decision Framework</h2>
         <ol className="space-y-3 text-gray-800">
           <li><strong>Step 1:</strong> Calculate 5% of potential home price</li>
           <li><strong>Step 2:</strong> Compare to annual rent for equivalent property</li>
@@ -263,7 +263,7 @@ export default function Article() {
       </div>
 
       <p className="text-lg font-semibold text-gray-900 mt-12">
-        Remember: The best housing choice is the one that aligns with your life goals, financial situation, and timeline � not what society says you "should" do. In many 2025 markets, renting is the financially smarter choice and allows you to build wealth through other investments while maintaining maximum life flexibility.
+        Remember: The best housing choice is the one that aligns with your life goals, financial situation, and timeline - not what society says you "should" do. In many 2025 markets, renting is the financially smarter choice and allows you to build wealth through other investments while maintaining maximum life flexibility.
       </p>
     </>
   );

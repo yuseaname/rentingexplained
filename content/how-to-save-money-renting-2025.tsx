@@ -53,10 +53,10 @@ export default function Article() {
         <strong>You're not alone, and you're not wrong.</strong> In 2025, the average American spends 32% of their income on housing—well above the recommended 30% threshold. If you're in a major city, it's even worse. You're stuck feeling like you'll never get ahead, never save enough, never achieve the financial freedom you're working toward.
       </p>
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
-        <strong>But what if you could slash your rent costs by $200-300 per month without moving?</strong>
+        <strong>What if you could bring your rent down by $200-300 per month without moving?</strong>
       </p>
       <p className="text-lg text-gray-700 leading-relaxed mb-6">
-        In this guide, you'll discover <strong>12 proven strategies real renters use to save thousands annually</strong>—strategies landlords don't want you to know. Whether you're <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">renting your first apartment</a> or trying to reduce your current rent burden, these tactics work.
+        In this guide, you'll find <strong>12 proven strategies real renters use to save thousands annually</strong>—strategies many renters overlook. Whether you're <a href="/blog/first-apartment-checklist-guide-2025" className="text-blue-600 hover:underline font-medium">renting your first apartment</a> or trying to reduce your current rent burden, these tactics work.
       </p>
 
       <div className="bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-200 rounded-xl p-6 mb-8">
@@ -93,7 +93,7 @@ export default function Article() {
 
       <h2 id="know-your-budget">Strategy #1: Master the 30% Rule (But Know When to Break It)</h2>
       <p>
-        Financial experts recommend spending no more than 30% of your gross income on rent. This rule exists for good reason � it ensures you have enough left for other necessities, emergencies, and savings goals.
+        Financial experts recommend spending no more than 30% of your gross income on rent. This rule exists for good reason - it ensures you have enough left for other necessities, emergencies, and savings goals.
       </p>
 
       <h3>How to Calculate Your Maximum Rent</h3>
@@ -167,7 +167,7 @@ export default function Article() {
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6">
         <h4 className="font-semibold text-gray-900 mb-2">Script #3: Renewal Negotiation</h4>
         <p className="italic text-gray-700">
-          "I've been a great tenant for X years � rent on time, no complaints, well-maintained unit. I'd love to renew, but the proposed increase to $X exceeds my budget. Could we keep it at my current rate or meet in the middle at $X?"
+          "I've been a great tenant for X years - rent paid on time, no complaints, well-maintained unit. I'd love to renew, but the proposed increase to $X exceeds my budget. Could we keep it at my current rate or meet in the middle at $X?"
         </p>
       </div>
 
@@ -226,7 +226,7 @@ export default function Article() {
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
         <p className="text-blue-900">
-          <strong>?? Pro Tip:</strong> Put your roommate agreement in writing, even with friends. It prevents 90% of roommate conflicts and provides clarity if issues arise.
+          <strong>Pro tip:</strong> Put your roommate agreement in writing, even with friends. It prevents most roommate conflicts and gives you clarity if issues arise.
         </p>
       </div>
 
@@ -376,12 +376,12 @@ export default function Article() {
         <div className="border-l-4 border-primary-600 pl-4">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Is it worth having a roommate to save money?</h3>
           <p>
-            Financially, yes � roommates typically save $400-800/month. However, quality of life matters. Choose roommates carefully and set clear expectations. Bad roommate situations can cost you more in stress than you save in rent.
+            Financially, yes - roommates typically save $400-800/month. However, quality of life matters. Choose roommates carefully and set clear expectations. Bad roommate situations can cost you more in stress than you save in rent.
           </p>
         </div>
 
         <div className="border-l-4 border-primary-600 pl-4">
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">What if I'm already locked into a lease � can I still save?</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">What if I'm already locked into a lease - can I still save?</h3>
           <p>
             Yes! Optimize utilities, eliminate unnecessary subscriptions, ask about mid-lease concessions, or find a qualified subtenant for a larger space and pocket the difference. Start planning your next move 3-4 months before lease ends.
           </p>
@@ -403,12 +403,12 @@ export default function Article() {
       </div>
 
       <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8 my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Your Action Plan: Start Saving This Month</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Action Plan: Start Saving This Month</h2>
         <ol className="space-y-3 text-gray-800">
           <li><strong>Week 1:</strong> Calculate your 30% rule budget and track current expenses</li>
           <li><strong>Week 2:</strong> Research comparable rentals in your area and neighboring zip codes</li>
           <li><strong>Week 3:</strong> If renewing soon, prepare negotiation script with market data</li>
-          <li><strong>Week 4:</strong> Audit utilities, insurance, and fees � call providers for better rates</li>
+          <li><strong>Week 4:</strong> Audit utilities, insurance, and fees - call providers for better rates</li>
           <li><strong>Ongoing:</strong> Set calendar reminders 90 days before lease renewal to start planning</li>
         </ol>
       </div>

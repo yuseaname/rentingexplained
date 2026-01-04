@@ -12,7 +12,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </p>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
-        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-4">?? Key Takeaways</h3>
+        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-4">Key Takeaways</h3>
         <ul className="mb-0 space-y-2">
           <li>Save $500+ by knowing what to buy (and skip) your first month</li>
           <li>Use our 3-tier budget system: Essentials ($800), Comfortable ($1,500), Upgraded ($2,500)</li>
@@ -49,7 +49,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </p>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           Take photos during your move-in walkthrough of everything the landlord provides. This protects your security deposit later when you move out-you'll have proof of what was already there.
         </p>
@@ -129,7 +129,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
+        <h4 className="text-lg font-semibold text-red-900 mt-0">Warning</h4>
         <p className="mb-0">
           Don't mix tiers randomly-it's how you end up spending $3,000 without realizing it. Pick your tier BEFORE shopping to avoid overspending.
         </p>
@@ -174,7 +174,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </ul>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           Buy used appliances (microwave, coffee maker) on Facebook Marketplace-save 60-80%. Just check that they work before leaving the seller's place.
         </p>
@@ -218,14 +218,14 @@ export default function FirstApartmentChecklistGuide2025() {
       </ul>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           Wait for mattress sales during Memorial Day, Labor Day, or Black Friday-save 30-50% on quality mattresses. Set a price alert if you're planning ahead.
         </p>
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
+        <h4 className="text-lg font-semibold text-red-900 mt-0">Warning</h4>
         <p className="mb-0">
           Don't cheap out on pillows-spending $30 for 2 good pillows is worth it for your neck and sleep quality. Poor sleep affects everything else in your life.
         </p>
@@ -254,7 +254,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <p>Add luxury towel set, multiple bath mats, extensive first aid kit, decorative storage.</p>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           Buy the plunger BEFORE you need it. Trust us on this one. Nothing's worse than having to run to the store in an emergency.
         </p>
@@ -291,14 +291,14 @@ export default function FirstApartmentChecklistGuide2025() {
       </ul>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           Check Facebook Marketplace daily for free or cheap furniture. People move constantly and give away quality items. May-June is peak season (college students moving out).
         </p>
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
+        <h4 className="text-lg font-semibold text-red-900 mt-0">Warning</h4>
         <p className="mb-0">
           Bed bugs are real-inspect used furniture carefully, especially upholstered items. Look for small brown spots, shed skins, or live bugs in seams. If it smells weird or looks damaged, pass.
         </p>
@@ -326,7 +326,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <p>Add: Quality vacuum (Bissell or Shark), Swiffer WetJet, cleaning caddy with full supplies.</p>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           DIY cleaners work great and cost pennies. Mix equal parts white vinegar and water in a spray bottle for an all-purpose cleaner. Add a few drops of dish soap for tougher jobs.
         </p>
@@ -418,14 +418,14 @@ export default function FirstApartmentChecklistGuide2025() {
       </ul>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-yellow-900 mt-0">?? Pro Tip</h4>
+        <h4 className="text-lg font-semibold text-yellow-900 mt-0">Pro Tip</h4>
         <p className="mb-0">
           Keep a "wishlist" note on your phone. Before buying anything over $50, wait 48 hours. If you still want it (and have the budget), then buy it. This prevents impulse purchases.
         </p>
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
+        <h4 className="text-lg font-semibold text-red-900 mt-0">Warning</h4>
         <p className="mb-0">
           Avoid "buy now, pay later" services (Afterpay, Klarna, Affirm) for apartment essentials. They hide the true cost and can spiral into debt quickly. If you can't pay cash/debit today, you can't afford it today.
         </p>
@@ -522,7 +522,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </ul>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
-        <h4 className="text-lg font-semibold text-red-900 mt-0">?? Warning</h4>
+        <h4 className="text-lg font-semibold text-red-900 mt-0">Warning</h4>
         <p className="mb-0">
           Always inspect used items in person. Check for bed bugs (brown spots, shed skins), stains, structural damage, and weird smells. If the seller seems sketchy or won't let you inspect closely, walk away.
         </p>
@@ -570,7 +570,7 @@ export default function FirstApartmentChecklistGuide2025() {
       <h2>Interactive Tool: Calculate Your First-Month Costs</h2>
 
       <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-lg p-8 my-8 text-center">
-        <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-4">?? First-Month Cost Calculator</h3>
+        <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-4">First-Month Cost Calculator</h3>
         <p className="text-gray-700 mb-6">
           Get an exact estimate of your total first-month expenses including rent, deposits, utilities, and essentials.
         </p>
@@ -641,18 +641,18 @@ export default function FirstApartmentChecklistGuide2025() {
 
       <h3>Key Reminders:</h3>
       <ul>
-        <li>? Use the calculator to estimate your true first-month costs</li>
-        <li>? Start with bare essentials, upgrade over time</li>
-        <li>? Shop smart: Facebook Marketplace saves hundreds</li>
-        <li>? Avoid first-timer mistakes (measure before buying!)</li>
-        <li>? Follow the 3-month timeline to prevent debt</li>
+        <li>Use the calculator to estimate your true first-month costs</li>
+        <li>Start with bare essentials, upgrade over time</li>
+        <li>Shop smart: Facebook Marketplace saves hundreds</li>
+        <li>Avoid first-timer mistakes (measure before buying)</li>
+        <li>Follow the 3-month timeline to prevent debt</li>
       </ul>
 
       <div className="bg-gradient-to-r from-green-50 to-teal-50 border-2 border-green-200 rounded-lg p-8 my-8">
-        <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-6 text-center">?? Free Download: Complete First Apartment Kit</h3>
+        <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-6 text-center">Free Download: Complete First Apartment Kit</h3>
         <div className="space-y-4">
           <div className="bg-white rounded-lg p-4 shadow-sm">
-            <h4 className="font-bold text-lg mb-2">?? Room-by-Room Checklist PDF</h4>
+            <h4 className="font-bold text-lg mb-2">Room-by-Room Checklist PDF</h4>
             <p className="text-sm text-gray-600 mb-3">Printable checklist organized by room with checkboxes</p>
             <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors">
               Download Checklist
@@ -660,7 +660,7 @@ export default function FirstApartmentChecklistGuide2025() {
           </div>
           
           <div className="bg-white rounded-lg p-4 shadow-sm">
-            <h4 className="font-bold text-lg mb-2">?? Budget Template Spreadsheet</h4>
+            <h4 className="font-bold text-lg mb-2">Budget Template Spreadsheet</h4>
             <p className="text-sm text-gray-600 mb-3">Track your spending across all three budget tiers</p>
             <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors">
               Download Budget Template
@@ -668,7 +668,7 @@ export default function FirstApartmentChecklistGuide2025() {
           </div>
 
           <div className="bg-white rounded-lg p-4 shadow-sm">
-            <h4 className="font-bold text-lg mb-2">?? 3-Month Purchasing Timeline</h4>
+            <h4 className="font-bold text-lg mb-2">3-Month Purchasing Timeline</h4>
             <p className="text-sm text-gray-600 mb-3">Calendar showing exactly when to buy what</p>
             <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors">
               Download Timeline
@@ -681,7 +681,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </div>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
-        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-4">?? Take the Quiz</h3>
+        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-4">Take the Quiz</h3>
         <p className="mb-4">
           Are you truly ready for your first apartment? Test your knowledge with our 2-minute quiz and get personalized recommendations.
         </p>
@@ -701,7 +701,7 @@ export default function FirstApartmentChecklistGuide2025() {
       </ul>
 
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
-        <h3 className="text-xl font-semibold mb-4">?? Share Your Experience</h3>
+        <h3 className="text-xl font-semibold mb-4">Share Your Experience</h3>
         <p className="text-gray-700">
           What was the first thing you bought for your apartment? What do you wish you'd known before moving in? Drop a comment below-your experience could help the next first-timer avoid an expensive mistake!
         </p>

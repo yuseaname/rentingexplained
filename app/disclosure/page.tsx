@@ -128,7 +128,7 @@ export default function DisclosurePage() {
             how we make money.
           </p>
 
-          <h2>Questions?</h2>
+          <h2>Questions</h2>
           <p>
             If you have questions about our monetization practices, advertising, or affiliate relationships, 
             please contact us at disclosure@rentingexplained.com

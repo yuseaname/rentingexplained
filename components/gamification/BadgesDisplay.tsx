@@ -2,6 +2,7 @@
 
 import { useProgress } from '@/components/progress/ProgressProvider';
 import Badge from '@/components/ui/Badge';
+import Icon, { isIconName } from '@/components/ui/Icon';
 
 export default function BadgesDisplay() {
   const { progress } = useProgress();
@@ -11,7 +12,7 @@ export default function BadgesDisplay() {
       id: 'first-article',
       name: 'Getting Started',
       description: 'Read your first article',
-      icon: '??',
+      icon: 'sparkles',
       requirement: 'Read 1 article',
       earned: progress.articlesRead.length >= 1,
     },
@@ -19,7 +20,7 @@ export default function BadgesDisplay() {
       id: 'five-articles',
       name: 'Knowledge Seeker',
       description: 'Read 5 articles',
-      icon: '??',
+      icon: 'book-open',
       requirement: 'Read 5 articles',
       earned: progress.articlesRead.length >= 5,
     },
@@ -27,7 +28,7 @@ export default function BadgesDisplay() {
       id: 'first-quiz',
       name: 'Quiz Master',
       description: 'Complete your first quiz',
-      icon: '??',
+      icon: 'check-circle',
       requirement: 'Complete 1 quiz',
       earned: progress.quizzesCompleted.length >= 1,
     },
@@ -35,7 +36,7 @@ export default function BadgesDisplay() {
       id: 'week-streak',
       name: 'Weekly Warrior',
       description: '7-day reading streak',
-      icon: '??',
+      icon: 'calendar',
       requirement: '7-day streak',
       earned: progress.streak >= 7,
     },
@@ -43,7 +44,7 @@ export default function BadgesDisplay() {
       id: 'month-streak',
       name: 'Monthly Champion',
       description: '30-day reading streak',
-      icon: '?',
+      icon: 'trophy',
       requirement: '30-day streak',
       earned: progress.streak >= 30,
     },
@@ -66,7 +67,13 @@ export default function BadgesDisplay() {
                 key={badge.id}
                 className="bg-gradient-to-br from-accent-50 to-primary-50 rounded-lg p-4 border-2 border-accent-200"
               >
-                <div className="text-4xl mb-2 text-center">{badge.icon}</div>
+                <div className="flex justify-center mb-2">
+                  <Icon
+                    name={isIconName(badge.icon) ? badge.icon : 'sparkles'}
+                    size={32}
+                    className="text-primary-600"
+                  />
+                </div>
                 <h5 className="font-semibold text-gray-900 text-center mb-1">
                   {badge.name}
                 </h5>
@@ -88,8 +95,12 @@ export default function BadgesDisplay() {
                 key={badge.id}
                 className="bg-gray-100 rounded-lg p-4 border-2 border-gray-200 opacity-60"
               >
-                <div className="text-4xl mb-2 text-center filter grayscale">
-                  {badge.icon}
+                <div className="flex justify-center mb-2 filter grayscale">
+                  <Icon
+                    name={isIconName(badge.icon) ? badge.icon : 'sparkles'}
+                    size={32}
+                    className="text-gray-500"
+                  />
                 </div>
                 <h5 className="font-semibold text-gray-700 text-center mb-1">
                   {badge.name}

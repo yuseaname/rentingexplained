@@ -40,17 +40,17 @@ export default function Article() {
       />
 
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Key Takeaways</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
-          <li>? Breaking a lease early costs $2,000-$5,000 without legal cause</li>
-          <li>? 7 legal ways to break your lease with minimal or no penalties</li>
-          <li>? Simply abandoning your lease can cost you $10,000+ and ruin your credit</li>
-          <li>? Proper communication with your landlord can save you thousands</li>
-          <li>? Finding a replacement tenant is the cheapest way out in most cases</li>
+          <li>Breaking a lease early often costs $2,000-$5,000 without legal cause</li>
+          <li>There are 7 legal ways to exit with minimal or no penalties</li>
+          <li>Abandoning a lease can cost $10,000+ and damage your credit</li>
+          <li>Clear communication with your landlord can save you thousands</li>
+          <li>Finding a replacement tenant is usually the cheapest exit</li>
         </ul>
       </div>
 
-      <h2 id="introduction">You're Stuck in a Lease You Can't Afford-What Now?</h2>
+      <h2 id="introduction">You're Stuck in a Lease You Can't Afford. What Now?</h2>
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
         You signed a 12-month lease. But now-three months in-you got a job offer across the country. Or your roommate bailed. Or you're facing financial hardship and can't afford the rent anymore.
       </p>
@@ -61,30 +61,30 @@ export default function Article() {
         Stop. <strong>Abandoning your lease is the worst decision you can make.</strong> You'll owe thousands, destroy your credit, and make it nearly impossible to rent again.
       </p>
       <p className="text-lg text-gray-700 leading-relaxed mb-6">
-        <strong>But there IS a way out.</strong> This guide shows you the 7 legal ways to break your lease early-some with zero penalty, others for $1,000-2,000 instead of $10,000+. Whether you have legal cause or need to negotiate your way out, you'll learn exactly what to do, what to say, and how to protect yourself financially and legally.
+        <strong>But there is a way out.</strong> This guide shows you the 7 legal ways to break your lease early - some with zero penalty, others for $1,000-2,000 instead of $10,000+. Whether you have legal cause or need to negotiate your way out, you'll learn what to do, what to say, and how to protect yourself financially and legally.
       </p>
 
       <div className="bg-gradient-to-r from-orange-50 to-red-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
         <h3 className="text-xl font-bold text-gray-900 mb-3">In This Guide, You'll Learn:</h3>
         <ul className="space-y-2 text-gray-800">
           <li className="flex items-start">
-            <span className="text-orange-600 font-bold mr-2">?</span>
+            <span className="text-orange-600 font-bold mr-2">&gt;</span>
             7 legal ways to break your lease (including 3 with zero penalty)
           </li>
           <li className="flex items-start">
-            <span className="text-orange-600 font-bold mr-2">?</span>
+            <span className="text-orange-600 font-bold mr-2">&gt;</span>
             Exact scripts to negotiate with your landlord successfully
           </li>
           <li className="flex items-start">
-            <span className="text-orange-600 font-bold mr-2">?</span>
+            <span className="text-orange-600 font-bold mr-2">&gt;</span>
             How to find a replacement tenant (the cheapest option)
           </li>
           <li className="flex items-start">
-            <span className="text-orange-600 font-bold mr-2">?</span>
+            <span className="text-orange-600 font-bold mr-2">&gt;</span>
             What happens to your credit if you break a lease
           </li>
           <li className="flex items-start">
-            <span className="text-orange-600 font-bold mr-2">?</span>
+            <span className="text-orange-600 font-bold mr-2">&gt;</span>
             State-by-state differences in lease-breaking laws
           </li>
         </ul>
@@ -124,7 +124,7 @@ export default function Article() {
       </ul>
 
       <div className="bg-yellow-50 border-l-4 border-yellow-600 p-4 my-6">
-        <p className="text-yellow-900 font-semibold mb-2">?? Warning: Never Just Stop Paying Rent</p>
+        <p className="text-yellow-900 font-semibold mb-2">Warning: Never Just Stop Paying Rent</p>
         <p className="text-yellow-800">
           Simply moving out and ghosting your landlord is <strong>lease abandonment</strong>. You'll still owe rent for the entire remaining lease term-potentially $10,000-15,000. Your landlord can sue, win a judgment, garnish your wages, and tank your credit. Always communicate and follow proper procedures.
         </p>
@@ -154,7 +154,7 @@ export default function Article() {
         <li>You're only responsible for rent through that date-no penalties</li>
       </ol>
       <p className="font-semibold text-green-700">
-        ? Cost: $0 (protected by federal law)
+        Cost: $0 (protected by federal law)
       </p>
 
       <h3>Method #2: Uninhabitable Conditions - $0 Cost</h3>
@@ -184,11 +184,11 @@ export default function Article() {
         <li>Move out and stop paying rent</li>
       </ol>
       <p className="font-semibold text-green-700">
-        ? Cost: $0 (landlord violated the lease first)
+        Cost: $0 (landlord violated the lease first)
       </p>
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
-        <h4 className="font-semibold text-gray-900 mb-3">?? Email Template: Habitability Issue Notice</h4>
+        <h4 className="font-semibold text-gray-900 mb-3">Email Template: Habitability Issue Notice</h4>
         <div className="bg-white p-4 rounded border border-blue-300 text-sm font-mono">
           <p className="mb-2">Subject: Urgent Repair Needed - Uninhabitable Condition at [Address]</p>
           <p className="mb-4">Dear [Landlord],</p>
@@ -217,7 +217,7 @@ export default function Article() {
         <strong>States with protection:</strong> All states except AL, MS, and WV
       </p>
       <p className="font-semibold text-green-700">
-        ? Cost: $0 (protected by state law)
+        Cost: $0 (protected by state law)
       </p>
       <p className="text-sm text-gray-600 mt-2">
         For state-specific domestic violence lease termination laws, visit our <a href="/laws" className="text-blue-600 hover:underline">tenant rights by state</a> resource.
@@ -258,20 +258,20 @@ export default function Article() {
       </ol>
 
       <div className="bg-green-50 border border-green-200 rounded-lg p-6 my-6">
-        <h4 className="font-semibold text-gray-900 mb-3">?? Pro Tip: Sweeten the Deal for Your Landlord</h4>
+        <h4 className="font-semibold text-gray-900 mb-3">Pro tip: Sweeten the Deal for Your Landlord</h4>
         <p className="text-gray-800">
           Landlords are more likely to approve a replacement tenant if you make it no-hassle for them:
         </p>
         <ul className="mt-2 space-y-1 text-gray-700">
-          <li>? Pre-screen candidates yourself (credit, income, references)</li>
-          <li>? Present 2-3 qualified options</li>
-          <li>? Offer to pay any re-leasing or administrative fees</li>
-          <li>? Make it clear you're solving THEIR problem (vacancy = lost rent)</li>
+          <li>Pre-screen candidates yourself (credit, income, references)</li>
+          <li>Present 2-3 qualified options</li>
+          <li>Offer to pay any re-leasing or administrative fees</li>
+          <li>Make it clear you're solving their problem (vacancy = lost rent)</li>
         </ul>
       </div>
 
       <p className="font-semibold text-green-700 mt-4">
-        ? Cost: $0-500 (incentives for new tenant) vs. $2,000-5,000 to break lease
+        Cost: $0-500 (incentives for new tenant) vs. $2,000-5,000 to break lease
       </p>
 
       <h3>Method #5: Negotiate an Early Termination Agreement - $500-3,000 Cost</h3>
@@ -303,7 +303,7 @@ export default function Article() {
       </ol>
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
-        <h4 className="font-semibold text-gray-900 mb-3">?? Negotiation Script: Early Termination Request</h4>
+        <h4 className="font-semibold text-gray-900 mb-3">Negotiation Script: Early Termination Request</h4>
         <div className="bg-white p-4 rounded border border-blue-300 text-sm font-mono">
           <p className="mb-2">Subject: Early Lease Termination Request - [Your Address]</p>
           <p className="mb-4">Dear [Landlord],</p>
@@ -317,7 +317,7 @@ export default function Article() {
       </div>
 
       <p className="font-semibold text-orange-600 mt-4">
-        ?? Cost: $2,000-$4,500 (but saves you from owing $10,000+ in remaining rent)
+        Cost: $2,000-$4,500 (but saves you from owing $10,000+ in remaining rent)
       </p>
 
       <h3>Method #6: Landlord Violates the Lease - $0 Cost</h3>
@@ -345,7 +345,7 @@ export default function Article() {
       </ol>
 
       <p className="font-semibold text-green-700 mt-4">
-        ? Cost: $0 (landlord breached first, releasing you from obligations)
+        Cost: $0 (landlord breached first, releasing you from obligations)
       </p>
 
       <h3>Method #7: Job Relocation (Negotiable, Rarely Protected by Law)</h3>
@@ -365,7 +365,7 @@ export default function Article() {
         <li>Emphasize that you're leaving for legitimate reasons, not to avoid the lease</li>
       </ul>
       <p className="font-semibold text-orange-600 mt-4">
-        ?? Cost: $1,000-$3,000 (negotiated fee) unless lease has relocation clause
+        Cost: $1,000-$3,000 (negotiated fee) unless lease has relocation clause
       </p>
 
       <h2 id="costs-breakdown">What Breaking a Lease Actually Costs</h2>
@@ -430,7 +430,7 @@ export default function Article() {
 
       <h3>Credit Score Impact Scenarios:</h3>
       
-      <h4>? No Credit Impact (You're Safe)</h4>
+      <h4>No Credit Impact (You're Safe)</h4>
       <ul>
         <li>You pay all agreed-upon fees and rent through termination date</li>
         <li>You have a written lease termination agreement</li>
@@ -438,14 +438,14 @@ export default function Article() {
         <li>No unpaid balances sent to collections</li>
       </ul>
 
-      <h4>?? Minor Credit Impact (-50-75 points)</h4>
+      <h4>Minor Credit Impact (-50-75 points)</h4>
       <ul>
         <li>Landlord reports late payments to credit bureaus</li>
         <li>Small unpaid balance (under $500) but no collections</li>
         <li>Dispute with landlord but resolved before legal action</li>
       </ul>
 
-      <h4>? Major Credit Impact (-100-150 points)</h4>
+      <h4>Major Credit Impact (-100-150 points)</h4>
       <ul>
         <li><strong>Collections account:</strong> Unpaid rent sent to collections agency</li>
         <li><strong>Civil judgment:</strong> Landlord sues you and wins (stays on credit for 7 years)</li>
@@ -453,7 +453,7 @@ export default function Article() {
       </ul>
 
       <div className="bg-red-50 border-l-4 border-red-600 p-4 my-6">
-        <p className="text-red-900 font-semibold mb-2">?? Critical: Collections Destroy Your Credit</p>
+        <p className="text-red-900 font-semibold mb-2">Critical: Collections Destroy Your Credit</p>
         <p className="text-red-800">
           A collections account or judgment for unpaid rent will:
         </p>
@@ -635,7 +635,7 @@ export default function Article() {
       </div>
 
       <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8 my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">? Your Lease-Breaking Action Plan</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Lease-Breaking Action Plan</h2>
         <ol className="space-y-3 text-gray-800">
           <li>1. Read your lease's early termination clause today</li>
           <li>2. Determine if you have legal cause (military, habitability, domestic violence)</li>

@@ -76,7 +76,7 @@ export default function HiddenFeesEstimator() {
     <div className="min-h-screen bg-gray-50">
       <div className="bg-gradient-to-br from-blue-600 to-cyan-700 text-white py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">?? Hidden Fees Estimator</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Hidden Fees Estimator</h1>
           <p className="text-xl text-blue-100 max-w-2xl">
             Discover the true cost of renting with all fees included
           </p>
@@ -182,7 +182,7 @@ export default function HiddenFeesEstimator() {
                           onClick={() => removeFee(index)}
                           className="text-red-600 hover:text-red-700"
                         >
-                          ?
+                          Remove
                         </button>
                       </div>
                     </div>
@@ -235,13 +235,13 @@ export default function HiddenFeesEstimator() {
             </div>
 
             <div className="bg-blue-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">?? Money-Saving Tips</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Money-Saving Tips</h3>
               <ul className="space-y-2 text-gray-700 text-sm">
-                <li>� Negotiate administrative and application fees � many are flexible</li>
-                <li>� Ask if utilities are included or if you can choose your own provider</li>
-                <li>� Consider skipping amenities you won't use to reduce monthly fees</li>
-                <li>� Get multiple quotes for renters insurance (can save $10-20/month)</li>
-                <li>� Read your lease carefully � some fees may be optional</li>
+                <li>Negotiate administrative and application fees when possible.</li>
+                <li>Ask if utilities are included or if you can choose your own provider.</li>
+                <li>Skip amenities you will not use to lower monthly fees.</li>
+                <li>Compare renters insurance quotes to save $10-20/month.</li>
+                <li>Read your lease closely. Some fees may be optional.</li>
               </ul>
             </div>
           </div>

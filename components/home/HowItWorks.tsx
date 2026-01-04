@@ -1,26 +1,33 @@
 import Link from 'next/link';
+import Icon, { IconName } from '@/components/ui/Icon';
 
 export default function HowItWorks() {
-  const steps = [
+  const steps: Array<{
+    number: string;
+    title: string;
+    description: string;
+    icon: IconName;
+    link: string;
+  }> = [
     {
       number: '1',
       title: 'Identify Your Challenge',
       description: 'Browse guides by topic: Saving Money, Tenant Rights, Lease Help, or Fees & Costs',
-      icon: '??',
+      icon: 'search',
       link: '/guides',
     },
     {
       number: '2',
       title: 'Get Expert Answers',
       description: 'Read step-by-step guides written by rental experts and legal researchers',
-      icon: '??',
+      icon: 'book-open',
       link: '/blog',
     },
     {
       number: '3',
       title: 'Take Action with Confidence',
       description: 'Use our free tools: Budget Calculator, Fee Estimator, and Lease Scanner',
-      icon: '?',
+      icon: 'bolt',
       link: '/tools',
     },
   ];
@@ -53,7 +60,9 @@ export default function HowItWorks() {
                   </div>
                   
                   {/* Icon */}
-                  <div className="text-5xl text-center mb-4">{step.icon}</div>
+                  <div className="flex justify-center mb-4">
+                    <Icon name={step.icon} size={32} className="text-primary-600" />
+                  </div>
                   
                   {/* Title */}
                   <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">
@@ -72,7 +81,7 @@ export default function HowItWorks() {
 
         <div className="text-center mt-12">
           <p className="text-lg text-gray-700 mb-4">
-            <strong>Our Promise:</strong> No fluff, no paywalls, no bias. Just actionable advice that works.
+            <strong>Our Promise:</strong> Clear, renter-first guidance with no paywalls.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
             <div className="flex items-center">

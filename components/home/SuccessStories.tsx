@@ -92,7 +92,7 @@ export default function SuccessStories() {
               href="/tools/rent-budget-checker"
               className="px-8 py-4 bg-primary-600 text-white rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-md hover:shadow-lg"
             >
-              Calculate Your Rent Budget ?
+              Calculate Your Rent Budget
             </a>
             <a
               href="/blog"

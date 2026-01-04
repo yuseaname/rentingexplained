@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Button from '@/components/ui/Button';
+import Icon, { IconName } from '@/components/ui/Icon';
 
 interface RedFlag {
   category: string;
@@ -126,16 +127,16 @@ export default function LeaseRedFlagScanner() {
     }
   };
 
-  const getSeverityIcon = (severity: string) => {
+  const getSeverityIcon = (severity: RedFlag['severity']): IconName => {
     switch (severity) {
       case 'high':
-        return '??';
+        return 'alert-triangle';
       case 'medium':
-        return '??';
+        return 'alert-circle';
       case 'low':
-        return '?';
+        return 'info-circle';
       default:
-        return '??';
+        return 'info-circle';
     }
   };
 
@@ -143,7 +144,7 @@ export default function LeaseRedFlagScanner() {
     <div className="min-h-screen bg-gray-50">
       <div className="bg-gradient-to-br from-orange-600 to-red-700 text-white py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">?? Lease Red Flag Scanner</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Lease Red Flag Scanner</h1>
           <p className="text-xl text-orange-100 max-w-2xl">
             Identify potential issues in your lease agreement
           </p>
@@ -155,7 +156,7 @@ export default function LeaseRedFlagScanner() {
           <div className="bg-white rounded-xl shadow-md p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Paste Your Lease</h2>
             <p className="text-gray-600 mb-6">
-              Copy and paste your lease agreement text below. Don't worry � nothing is stored or transmitted. All scanning happens in your browser.
+              Copy and paste your lease agreement text below. Don't worry - nothing is stored or transmitted. All scanning happens in your browser.
             </p>
             <textarea
               value={leaseText}
@@ -182,7 +183,9 @@ export default function LeaseRedFlagScanner() {
 
                 {redFlags.length === 0 ? (
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-                    <div className="text-5xl mb-3">?</div>
+                    <div className="flex justify-center mb-3">
+                      <Icon name="check-circle" size={32} className="text-green-600" />
+                    </div>
                     <h3 className="text-xl font-semibold text-green-900 mb-2">No Major Red Flags Detected</h3>
                     <p className="text-green-700">
                       We didn't find obvious red flags in your lease, but this scan is not a substitute for legal advice. Always read your lease carefully and consult an attorney if unsure.
@@ -200,7 +203,9 @@ export default function LeaseRedFlagScanner() {
                       {redFlags.map((flag, index) => (
                         <div key={index} className={`border-2 rounded-lg p-6 ${getSeverityColor(flag.severity)}`}>
                           <div className="flex items-start">
-                            <span className="text-3xl mr-4">{getSeverityIcon(flag.severity)}</span>
+                            <span className="mr-4">
+                              <Icon name={getSeverityIcon(flag.severity)} size={28} className="text-current" />
+                            </span>
                             <div className="flex-1">
                               <div className="flex items-center justify-between mb-2">
                                 <h3 className="text-lg font-bold">{flag.issue}</h3>
@@ -246,14 +251,14 @@ export default function LeaseRedFlagScanner() {
               </div>
 
               <div className="bg-blue-50 rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">?? Next Steps</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Next Steps</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>� Don't rush to sign � take time to read every clause carefully</li>
-                  <li>� Ask questions about anything you don't understand</li>
-                  <li>� Get everything in writing, including verbal promises</li>
-                  <li>� Consider having a tenant rights attorney review before signing</li>
-                  <li>� Keep a copy of your signed lease in a safe place</li>
-                  <li>� Document the condition of the unit with photos before moving in</li>
+                  <li>Don't rush to sign. Take time to read every clause carefully.</li>
+                  <li>Ask questions about anything you do not understand.</li>
+                  <li>Get everything in writing, including verbal promises.</li>
+                  <li>Consider having a tenant rights attorney review before signing.</li>
+                  <li>Keep a copy of your signed lease in a safe place.</li>
+                  <li>Document the condition of the unit with photos before moving in.</li>
                 </ul>
               </div>
             </div>

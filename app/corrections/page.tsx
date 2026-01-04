@@ -134,7 +134,7 @@ export default function CorrectionsPage() {
             <li>We never delete or hide corrections</li>
           </ul>
 
-          <h2>Questions?</h2>
+          <h2>Questions</h2>
           <p>
             If you have questions about our corrections policy or process, contact us at 
             editorial@rentingexplained.com

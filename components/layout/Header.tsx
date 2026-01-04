@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-import logo from '@/assets/images/logo.png';
+import logo from '@/assets/images/renting explainedlogo.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

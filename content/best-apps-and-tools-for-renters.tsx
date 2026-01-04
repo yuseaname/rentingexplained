@@ -5,13 +5,13 @@ export default function Article() {
   return (
     <>
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 mb-8 rounded-r-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Key Takeaways</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Takeaways</h2>
         <ul className="space-y-2 text-gray-800">
-          <li>? Best rental apps save 10+ hours in apartment hunting</li>
-          <li>? Digital rent payment apps eliminate checks and save time</li>
-          <li>? Maintenance request apps create paper trails</li>
-          <li>? Free vs paid tiers � know what you actually need</li>
-          <li>? Right app combination can save $200-500/year</li>
+          <li>Best rental apps save hours during apartment hunting</li>
+          <li>Digital rent payment apps eliminate checks and save time</li>
+          <li>Maintenance request tools create a clear paper trail</li>
+          <li>Free vs. paid tiers - know what you actually need</li>
+          <li>The right combo can save a few hundred dollars a year</li>
         </ul>
       </div>
 
@@ -35,7 +35,7 @@ export default function Article() {
 
       <h2 id="apartment-hunting">Best Apartment Hunting Apps</h2>
 
-      <h3>1. Zillow Rental Manager ?????</h3>
+      <h3>1. Zillow Rental Manager</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Comprehensive search with most listings</p>
       <p><strong>Key features:</strong></p>
@@ -48,7 +48,7 @@ export default function Article() {
       </ul>
       <p><strong>Verdict:</strong> Start here. Most comprehensive free option with the best search filters.</p>
 
-      <h3>2. Apartments.com ????</h3>
+      <h3>2. Apartments.com</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Large apartment complexes</p>
       <p><strong>Key features:</strong></p>
@@ -60,7 +60,7 @@ export default function Article() {
       </ul>
       <p><strong>Verdict:</strong> Great supplement to Zillow, especially for newer complexes.</p>
 
-      <h3>3. Zumper ????</h3>
+      <h3>3. Zumper</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Urban markets and verified listings</p>
       <p><strong>Key features:</strong></p>
@@ -72,7 +72,7 @@ export default function Article() {
       </ul>
       <p><strong>Verdict:</strong> Excellent user experience, particularly strong in major cities.</p>
 
-      <h3>4. PadMapper ???�</h3>
+      <h3>4. PadMapper</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Map-based searching</p>
       <p><strong>Key features:</strong></p>
@@ -86,29 +86,29 @@ export default function Article() {
 
       <h2 id="rent-payment">Best Rent Payment Apps</h2>
 
-      <h3>1. Zelle ?????</h3>
+      <h3>1. Zelle</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Instant, free bank transfers</p>
       <p><strong>Why it's great:</strong> No fees, instant transfer, works with most banks, automatic receipts.</p>
-      <p><strong>Caution:</strong> No built-in rent tracking � save confirmation emails.</p>
+      <p><strong>Caution:</strong> No built-in rent tracking - save confirmation emails.</p>
 
-      <h3>2. Venmo/PayPal ????</h3>
+      <h3>2. Venmo/PayPal</h3>
       <p><strong>Cost:</strong> Free (bank account), 3% (credit card)</p>
       <p><strong>Best for:</strong> Splitting rent with roommates</p>
       <p><strong>Why it's great:</strong> Easy split payments, clear transaction history, widely accepted.</p>
 
-      <h3>3. RentRedi ????�</h3>
+      <h3>3. RentRedi</h3>
       <p><strong>Cost:</strong> Free for tenants (landlord pays)</p>
       <p><strong>Best for:</strong> Building credit with rent payments</p>
       <p><strong>Why it's great:</strong> Reports to credit bureaus, maintenance requests, lease management.</p>
 
       <h2 id="maintenance">Best Maintenance & Communication Apps</h2>
 
-      <h3>1. BuildingLink (if your building uses it) ?????</h3>
+      <h3>1. BuildingLink (if your building uses it)</h3>
       <p><strong>Cost:</strong> Free for residents</p>
       <p><strong>Features:</strong> Maintenance requests, package notifications, amenity booking, visitor access.</p>
 
-      <h3>2. Email + Photo Documentation (DIY Solution) ????</h3>
+      <h3>2. Email + Photo Documentation (DIY Solution)</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best practice:</strong> Email all requests with photos, creates automatic paper trail with timestamps.</p>
 
@@ -120,12 +120,12 @@ export default function Article() {
 
       <ToolCallout tool="budget" />
 
-      <h3>1. Mint (by Intuit) ????�</h3>
+      <h3>1. Mint (by Intuit)</h3>
       <p><strong>Cost:</strong> Free</p>
       <p><strong>Best for:</strong> Comprehensive budget tracking</p>
       <p><strong>Features:</strong> Automatic expense categorization, rent budget tracking, bill reminders, credit score monitoring.</p>
 
-      <h3>2. YNAB (You Need A Budget) ?????</h3>
+      <h3>2. YNAB (You Need A Budget)</h3>
       <p><strong>Cost:</strong> $14.99/month (free 34-day trial)</p>
       <p><strong>Best for:</strong> Serious budgeters</p>
       <p><strong>Why pay for it:</strong> Zero-based budgeting methodology, excellent for controlling rent percentage of income.</p>
@@ -142,11 +142,11 @@ export default function Article() {
 
       <h2 id="moving">Best Moving & Organization Apps</h2>
 
-      <h3>1. Sortly ????</h3>
+      <h3>1. Sortly</h3>
       <p><strong>Cost:</strong> Free (basic), $9/month (premium)</p>
       <p><strong>Features:</strong> Photo-based inventory, QR codes for boxes, moving checklist.</p>
 
-      <h3>2. TaskRabbit ????</h3>
+      <h3>2. TaskRabbit</h3>
       <p><strong>Cost:</strong> Pay for services ($30-100/hour typical)</p>
       <p><strong>Best for:</strong> Hiring moving help, furniture assembly, cleaning.</p>
 
@@ -211,7 +211,7 @@ export default function Article() {
       </div>
 
       <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8 my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">?? Your App Setup Checklist</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Your App Setup Checklist</h2>
         <ol className="space-y-3 text-gray-800">
           <li>Download Zillow, Zumper, and Apartments.com for apartment hunting</li>
           <li>Set up Zelle or Venmo with your bank for rent payments</li>
