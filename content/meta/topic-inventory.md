@@ -20,11 +20,12 @@ Coverage summary:
 - Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent (/blog/hidden-rental-fees-explained)
 - Apartment Move-In Costs: Checklist and Budget Guide (2025) (/blog/apartment-move-in-costs)
 - Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease (/blog/apartment-utility-costs)
+- Renters Insurance Cost in 2025: Coverage Basics and Ways to Save (/blog/renters-insurance-cost-2025)
 
 Coverage summary:
-- Covers fees beyond base rent, move-in totals, and utilities.
+- Covers fees beyond base rent, move-in totals, utilities, and renters insurance.
 - Strong internal linking opportunities across costs and savings topics.
-- Gap: insurance and renewal budgeting.
+- Gap: renewal budgeting.
 
 ## Financial Planning
 

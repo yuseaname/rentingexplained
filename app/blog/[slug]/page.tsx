@@ -28,6 +28,7 @@ import ApartmentTourChecklistQuestionsRedFlags from '@/content/apartment-tour-ch
 import TenantScreeningCreditChecksForRenters from '@/content/tenant-screening-credit-checks-for-renters';
 import ApartmentMoveInCosts from '@/content/apartment-move-in-costs';
 import ApartmentUtilityCosts from '@/content/apartment-utility-costs';
+import RentersInsuranceCost2025 from '@/content/renters-insurance-cost-2025';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -47,6 +48,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'tenant-screening-credit-checks-for-renters': TenantScreeningCreditChecksForRenters,
   'apartment-move-in-costs': ApartmentMoveInCosts,
   'apartment-utility-costs': ApartmentUtilityCosts,
+  'renters-insurance-cost-2025': RentersInsuranceCost2025,
 };
 
 export async function generateStaticParams() {

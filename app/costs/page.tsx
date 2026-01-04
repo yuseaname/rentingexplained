@@ -112,6 +112,19 @@ export default function CostsPage() {
               </div>
             </Link>
 
+            <Link href="/blog/renters-insurance-cost-2025" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-indigo-500">
+              <div className="mb-3">
+                <Icon name="book-open" size={28} className="text-indigo-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Renters Insurance Cost (2025)</h3>
+              <p className="text-gray-600 mb-4">
+                Coverage basics, pricing factors, and ways to save
+              </p>
+              <div className="text-indigo-600 font-medium">
+                Read the full guide
+              </div>
+            </Link>
+
             <Link href="/blog/renting-vs-buying-2025" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-purple-500">
               <div className="mb-3">
                 <Icon name="book-open" size={28} className="text-purple-600" />

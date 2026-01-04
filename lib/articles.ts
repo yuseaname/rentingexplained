@@ -2,6 +2,21 @@ import { Article } from '@/types';
 
 export const articles: Article[] = [
   {
+    slug: 'renters-insurance-cost-2025',
+    title: 'Renters Insurance Cost in 2025: Coverage Basics and Ways to Save',
+    description: 'A renter-first guide to renters insurance costs, coverage choices, and ways to lower your premium.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-01-06T10:00:00Z',
+    lastModified: '2026-01-06T10:00:00Z',
+    category: 'Costs',
+    tags: ['renters-insurance', 'insurance', 'budgeting', 'costs', 'protection'],
+    readingTime: 11,
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop',
+    imageAlt: 'Person reviewing insurance documents at a desk',
+    imageCredit: 'Photo by Brooke Cagle on Unsplash',
+  },
+  {
     slug: 'apartment-utility-costs',
     title: 'Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease',
     description: 'A renter-first guide to understanding utility bills, quick savings, and a simple audit checklist.',
