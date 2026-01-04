@@ -65,6 +65,14 @@
           "search_intent": "informational",
           "overlap_risk": "low",
           "last_updated": "2026-01-04T10:00:00Z"
+        },
+        {
+          "title": "Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease",
+          "slug": "apartment-utility-costs",
+          "core_topic": "apartment utility costs and savings tactics",
+          "search_intent": "informational",
+          "overlap_risk": "low",
+          "last_updated": "2026-01-05T10:00:00Z"
         }
       ]
     },

@@ -2,6 +2,21 @@ import { Article } from '@/types';
 
 export const articles: Article[] = [
   {
+    slug: 'apartment-utility-costs',
+    title: 'Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease',
+    description: 'A renter-first guide to understanding utility bills, quick savings, and a simple audit checklist.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-01-05T10:00:00Z',
+    lastModified: '2026-01-05T10:00:00Z',
+    category: 'Costs',
+    tags: ['utilities', 'budgeting', 'costs', 'saving-money', 'apartment-life'],
+    readingTime: 11,
+    image: 'https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=1200&auto=format&fit=crop',
+    imageAlt: 'Desk with notes and a calculator for utility budgeting',
+    imageCredit: 'Photo by Patrick Perkins on Unsplash',
+  },
+  {
     slug: 'apartment-move-in-costs',
     title: 'Apartment Move-In Costs: Checklist and Budget Guide (2025)',
     description: 'A renter-first breakdown of move-in costs, fees, and a checklist to budget before you get the keys.',
