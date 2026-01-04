@@ -2,6 +2,21 @@ import { Article } from '@/types';
 
 export const articles: Article[] = [
   {
+    slug: 'rent-increase-renewal-guide',
+    title: 'Rent Increase Notice: How to Respond at Renewal (2025)',
+    description: 'A renter-first guide to renewal rent increases with clear options, scripts, and budget steps.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-01-07T10:00:00Z',
+    lastModified: '2026-01-07T10:00:00Z',
+    category: 'Costs',
+    tags: ['rent-increase', 'renewal', 'budgeting', 'costs', 'rent-negotiation'],
+    readingTime: 11,
+    image: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1200&auto=format&fit=crop',
+    imageAlt: 'Person reviewing paperwork and a calculator at a desk',
+    imageCredit: 'Photo by Scott Graham on Unsplash',
+  },
+  {
     slug: 'renters-insurance-cost-2025',
     title: 'Renters Insurance Cost in 2025: Coverage Basics and Ways to Save',
     description: 'A renter-first guide to renters insurance costs, coverage choices, and ways to lower your premium.',

@@ -21,11 +21,12 @@ Coverage summary:
 - Apartment Move-In Costs: Checklist and Budget Guide (2025) (/blog/apartment-move-in-costs)
 - Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease (/blog/apartment-utility-costs)
 - Renters Insurance Cost in 2025: Coverage Basics and Ways to Save (/blog/renters-insurance-cost-2025)
+- Rent Increase Notice: How to Respond at Renewal (2025) (/blog/rent-increase-renewal-guide)
 
 Coverage summary:
 - Covers fees beyond base rent, move-in totals, utilities, and renters insurance.
 - Strong internal linking opportunities across costs and savings topics.
-- Gap: renewal budgeting.
+- Gap: longer-term cost planning beyond annual renewals.
 
 ## Financial Planning
 

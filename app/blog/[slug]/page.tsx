@@ -29,6 +29,7 @@ import TenantScreeningCreditChecksForRenters from '@/content/tenant-screening-cr
 import ApartmentMoveInCosts from '@/content/apartment-move-in-costs';
 import ApartmentUtilityCosts from '@/content/apartment-utility-costs';
 import RentersInsuranceCost2025 from '@/content/renters-insurance-cost-2025';
+import RentIncreaseRenewalGuide from '@/content/rent-increase-renewal-guide';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -49,6 +50,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'apartment-move-in-costs': ApartmentMoveInCosts,
   'apartment-utility-costs': ApartmentUtilityCosts,
   'renters-insurance-cost-2025': RentersInsuranceCost2025,
+  'rent-increase-renewal-guide': RentIncreaseRenewalGuide,
 };
 
 export async function generateStaticParams() {

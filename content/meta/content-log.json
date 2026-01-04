@@ -24,6 +24,22 @@
         }
       ],
       "commits": [
+        "85ae6b3",
+        "e8396fb",
+        "f3f549f"
+      ]
+    },
+    {
+      "date": "2026-01-04",
+      "mode": "publish",
+      "pillar": "Costs",
+      "new_articles": [
+        {
+          "title": "Rent Increase Notice: How to Respond at Renewal (2025)",
+          "slug": "rent-increase-renewal-guide"
+        }
+      ],
+      "commits": [
         "pending"
       ]
     }

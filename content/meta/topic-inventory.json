@@ -81,6 +81,14 @@
           "search_intent": "commercial-investigation",
           "overlap_risk": "low",
           "last_updated": "2026-01-06T10:00:00Z"
+        },
+        {
+          "title": "Rent Increase Notice: How to Respond at Renewal (2025)",
+          "slug": "rent-increase-renewal-guide",
+          "core_topic": "renewal rent increase response and negotiation",
+          "search_intent": "informational",
+          "overlap_risk": "medium",
+          "last_updated": "2026-01-07T10:00:00Z"
         }
       ]
     },
