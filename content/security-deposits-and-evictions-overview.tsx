@@ -42,6 +42,8 @@ export default function Article() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqs)) }}
       />
 
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">Understanding Security Deposits and Evictions: A General Education Guide</h1>
+
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
         Security deposits and evictions are two of the most stressful moments in a renter’s journey. They are also two
         of the most misunderstood. A lot of renter stress comes from not knowing what the process usually looks like
@@ -76,6 +78,7 @@ export default function Article() {
       <nav aria-label="Table of contents" className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-10">
         <h3 className="text-xl font-bold text-gray-900 mb-4">Table of contents</h3>
         <ul className="space-y-2 text-gray-700">
+          <li><a href="#key-takeaways" className="text-blue-600 hover:underline">Key takeaways</a></li>
           <li><a href="#deposits-basics" className="text-blue-600 hover:underline">Security deposits: the basics</a></li>
           <li><a href="#wear-vs-damage" className="text-blue-600 hover:underline">Normal wear vs damage (plain language)</a></li>
           <li><a href="#move-in-proof" className="text-blue-600 hover:underline">Move-in documentation habits</a></li>
@@ -407,7 +410,7 @@ Thank you,
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
         <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
         <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 2018+</li>
+          <li>Word Count: 3136+</li>
           <li>SEO Expansion: COMPLETE</li>
           <li>Structure &amp; Readability: PASSED</li>
           <li>Eligible for AdSense Monetization: YES</li>
