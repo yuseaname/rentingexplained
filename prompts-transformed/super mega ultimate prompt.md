@@ -395,3 +395,212 @@ At the end, print:
 - Commit SHAs/messages
 - Any overlaps detected and how they were avoided
 - Suggested “next run” direction (one sentence)
+
+
+
+
+SHAREABILITY LAYER v1 — RentingExplained.com (AdSense-safe, non-cringe)
+
+Below is a drop-in section you can paste into your Ultimate Master Prompt.
+It adds exactly what you asked for:
+
+Printable checklist block
+
+Copy/paste templates (email to landlord, move-out note, negotiation script)
+
+A tiny 2-minute quiz + shareable results blurb
+
+🔥 Add this to your Mega Prompt (Recommended placement: after PHASE 8 rules)
+=========================================================
+SHAREABILITY LAYER v1 (VIRAL-BUT-NOT-CRINGE)
+=========================================================
+Objective:
+Increase “saveability” and “shareability” (bookmarks, screenshots, forwards),
+without gimmicks, hype, or AdSense risk.
+
+Global rules:
+- Must feel like a practical tool, not marketing.
+- Must be optional and skimmable.
+- Must not give legal advice.
+- Must not contain fake stats.
+- Must be consistent with calm RentingExplained tone.
+
+Each new article MUST include 2 of the 3 modules below.
+If the topic naturally supports all 3, include all 3.
+
+---------------------------------------------------------
+MODULE A — PRINTABLE CHECKLIST (MANDATORY FORMAT)
+---------------------------------------------------------
+Insert a section titled:
+## Printable Checklist: [Short Topic Name]
+Provide:
+- 10–18 checkbox items
+- Grouped into 2–4 subsections
+- Written as actions a renter can do in under 30 minutes
+- End with:
+  “Tip: Save this page or screenshot this checklist for later.”
+
+Format (Markdown):
+✅ Checklist
+- [ ] Item...
+- [ ] Item...
+
+---------------------------------------------------------
+MODULE B — COPY/PASTE TEMPLATE (CHOOSE 1 TYPE PER ARTICLE)
+---------------------------------------------------------
+Choose the single most relevant template type for the article:
+1) Email to landlord (request / clarification / negotiation)
+2) Move-out notice (simple, neutral)
+3) Repair request / follow-up
+4) Security deposit follow-up
+5) Negotiation script (calm, respectful)
+
+Rules:
+- Neutral tone, no threats.
+- Use placeholders: [Landlord Name], [Address], [Date], [Amount], [Your Name].
+- Include a short “When to use this” line above the template.
+- Include a short “Make it yours” line below the template.
+
+Format:
+### Copy/Paste Template: [Template Name]
+**When to use this:** 1 sentence.
+```text
+[Template body...]
+
+
+Make it yours: 1 sentence.
+
+MODULE C — 2-MINUTE QUIZ (MANDATORY FORMAT)
+
+Insert near the end, BEFORE the FAQ or within the Interactive section:
+
+2-Minute Quiz: Are You Ready to [Goal]?
+
+Provide:
+
+5 questions
+
+Multiple choice A/B/C (no scoring math shown)
+
+After questions: a “Results” section with 3 outcomes:
+
+“Quick Fix” (needs one change)
+
+“Solid” (mostly good)
+
+“Locked In” (excellent)
+Each result includes a 1–2 sentence blurb and a shareable line:
+“Shareable line: ‘I got [Result] on the RentingExplained quiz — worth checking.’”
+
+Rules:
+
+No shame language.
+
+Keep it renter-friendly and practical.
+
+PLACEMENT GUIDANCE (AUTO)
+
+Checklist: after the first 1–2 H2 sections (when the reader wants action).
+
+Template: right after the section that discusses communication/steps.
+
+Quiz: near the end to encourage “finish + share”.
+
+QA requirement:
+
+Ensure each module matches the article’s topic and doesn’t drift.
+
+Ensure all placeholders are bracketed and consistent.
+
+
+---
+
+## ✅ Ready-to-use “generic” blocks (optional defaults)
+
+If you want the system to have fallback blocks when it’s unsure, here are safe defaults it can adapt per article.
+
+### A) Printable Checklist (generic fallback)
+**Use as a template; the system should customize items to the article.**
+```markdown
+## Printable Checklist: Your Next 30 Minutes
+**Save this or screenshot it — it’s meant to be used.**
+
+### Quick Prep
+- [ ] Write your goal in one sentence (what you want to happen)
+- [ ] Gather your lease, receipts, and photos (if relevant)
+- [ ] Note key dates (move-in, notice deadlines, payment dates)
+
+### The Action Steps
+- [ ] Identify the one thing you can do today
+- [ ] Draft a clear message (keep it short and polite)
+- [ ] Save proof (screenshots, emails, confirmation numbers)
+
+### Keep Yourself Protected (without drama)
+- [ ] Put important requests in writing
+- [ ] Track what you sent and when
+- [ ] Set a reminder to follow up in 48–72 hours
+
+**Tip:** Save this page or screenshot this checklist for later.
+
+B) Copy/Paste Template (landlord email fallback)
+### Copy/Paste Template: Simple Landlord Email (Clear + Polite)
+**When to use this:** When you need a written record and a clear next step.
+
+```text
+Subject: Quick Question About [Issue] at [Address]
+
+Hi [Landlord Name],
+
+I’m reaching out about [issue/request]. Here’s what I’m seeing:
+- What happened: [brief description]
+- When it started: [date]
+- What I’ve already tried (if any): [1 line]
+
+Could you please confirm the next step and the expected timeline for [repair/response/approval]?
+
+Thank you,
+[Your Name]
+[Unit / Address]
+[Phone, optional]
+
+
+Make it yours: Keep it factual and short — it works better than a long message.
+
+
+### C) 2-minute quiz fallback
+```markdown
+## 2-Minute Quiz: Are You Handling This Like a Pro?
+1) When you contact your landlord, you usually…
+- A) Call or text and hope it works out  
+- B) Send a short email/message so it’s in writing  
+- C) Send a written message with dates + a clear next step  
+
+2) Before you sign or agree to anything, you…
+- A) Skim and move on  
+- B) Read the key parts  
+- C) Read key parts + confirm fees/deadlines in writing  
+
+3) If a fee shows up, you…
+- A) Pay it to avoid conflict  
+- B) Ask what it’s for  
+- C) Ask for a written breakdown and where it’s in the lease  
+
+4) When you’re trying to save money, you focus on…
+- A) Random cuts  
+- B) The biggest line items  
+- C) The biggest line items + negotiation timing  
+
+5) Your “paper trail” is…
+- A) Mostly memory  
+- B) Some screenshots  
+- C) Organized (folder, dates, receipts)
+
+### Results
+**Quick Fix:** You’re close — you just need one clean system (checklist + written trail).  
+Shareable line: “I got ‘Quick Fix’ on the RentingExplained quiz — worth checking.”
+
+**Solid:** You’re doing most things right — tighten one weak spot and you’ll feel way more in control.  
+Shareable line: “I got ‘Solid’ on the RentingExplained quiz — worth checking.”
+
+**Locked In:** You’re playing this smart — you’re organized, clear, and hard to confuse.  
+Shareable line: “I got ‘Locked In’ on the RentingExplained quiz — worth checking.”
