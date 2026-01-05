@@ -8,6 +8,7 @@ import ToolCallout from '@/components/article/ToolCallout';
 export default function FirstApartmentChecklistGuide2025() {
   return (
     <>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">First Apartment Checklist: A Practical Move-In Guide (2025)</h1>
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
         Your first apartment is exciting and a little overwhelming. It is also the moment many renters accidentally
         overspend: you want the place to feel “done” immediately, so you buy everything at once and then realize you
@@ -41,6 +42,11 @@ export default function FirstApartmentChecklistGuide2025() {
       <nav aria-label="Table of contents" className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-10">
         <h3 className="text-xl font-bold text-gray-900 mb-4">Table of contents</h3>
         <ul className="space-y-2 text-gray-700">
+          <li>
+            <a href="#key-takeaways" className="text-blue-600 hover:underline">
+              Key takeaways
+            </a>
+          </li>
           <li>
             <a href="#what-landlords-provide" className="text-blue-600 hover:underline">
               What landlords usually provide
@@ -471,7 +477,7 @@ UPGRADES (month 2+)
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
         <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
         <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 2023+</li>
+          <li>Word Count: 3135+</li>
           <li>SEO Expansion: COMPLETE</li>
           <li>Structure &amp; Readability: PASSED</li>
           <li>Eligible for AdSense Monetization: YES</li>
