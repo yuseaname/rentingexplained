@@ -52,7 +52,7 @@ export default function Article() {
         </a>
         . If you want a quick way to work through common red flags, use the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Reflex manual checklist
+          Lease Red Flag Scanner
         </a>
         .
       </p>

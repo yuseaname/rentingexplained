@@ -31,8 +31,8 @@ export default function ToolsPage() {
       color: 'from-blue-400 to-cyan-500',
     },
     {
-      name: 'Lease Reflex — Manual Lease Red Flag Checklist',
-      description: 'Work through a plain-language checklist of common lease clauses and questions',
+      name: 'Lease Red Flag Scanner',
+      description: 'Scan your lease for common clauses that deserve a second look',
       icon: 'document-search',
       href: '/tools/lease-red-flag-scanner',
       color: 'from-orange-400 to-red-500',

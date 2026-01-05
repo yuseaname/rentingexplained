@@ -136,7 +136,7 @@ export default function Article() {
       <p>
         If you are unsure about a clause, use the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Reflex manual checklist
+          Lease Red Flag Scanner
         </a>
         {' '}before you sign.
       </p>

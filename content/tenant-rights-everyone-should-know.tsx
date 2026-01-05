@@ -74,7 +74,7 @@ export default function Article() {
       <p>
         Put the issue in writing and keep records. Many states require specific steps before you can withhold rent or end a lease, so check local rules first. If you are unsure, the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Reflex manual checklist
+          Lease Red Flag Scanner
         </a>
         {' '}can help you spot repair clauses and notice rules.
       </p>
@@ -143,7 +143,7 @@ export default function Article() {
       <p>
         If you need help understanding lease language, use the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Reflex manual checklist
+          Lease Red Flag Scanner
         </a>
         .
       </p>
@@ -207,7 +207,7 @@ export default function Article() {
       <p className="text-lg font-semibold text-gray-900 mt-12">
         If you are unsure about a lease or a fee, start with the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">
-          Lease Reflex manual checklist
+          Lease Red Flag Scanner
         </a>
         {' '}and keep your requests in writing.
       </p>

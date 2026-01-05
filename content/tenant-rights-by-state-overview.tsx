@@ -159,7 +159,7 @@ export default function Article() {
       <p>
         If you want a practical way to review your lease, try the{' '}
         <a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-medium">
-          Lease Reflex manual checklist
+          Lease Red Flag Scanner
         </a>
         . For move-in documentation, see the{' '}
         <a href="/resources" className="text-blue-600 hover:underline font-medium">

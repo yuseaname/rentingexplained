@@ -159,7 +159,7 @@ export default function Article() {
       <ul>
         <li><a href="/tools/rent-budget-checker" className="text-blue-600 hover:underline font-semibold">Rent Budget Calculator</a> - Determine affordable rent based on your income</li>
         <li><a href="/tools/hidden-fees-estimator" className="text-blue-600 hover:underline font-semibold">Hidden Fees Estimator</a> - Calculate true rental costs including all fees</li>
-        <li><a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">Lease Reflex manual checklist</a> - Work through lease clauses in plain language</li>
+        <li><a href="/tools/lease-red-flag-scanner" className="text-blue-600 hover:underline font-semibold">Lease Red Flag Scanner</a> - Work through lease clauses in plain language</li>
       </ul>
       <p>
         Combine these with <a href="/blog/how-to-save-money-renting-2025" className="text-blue-600 hover:underline font-medium">strategies to save money on rent</a> for maximum impact.
