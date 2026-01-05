@@ -43,6 +43,8 @@ export default function Article() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqs)) }}
       />
 
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent</h1>
+
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
         A listing price is not a final price. Many renters learn that the hard way: you find a unit that looks
         affordable, apply, and then discover add-ons like admin fees, parking, “service” charges, or required amenities
@@ -80,6 +82,7 @@ export default function Article() {
       <nav aria-label="Table of contents" className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-10">
         <h3 className="text-xl font-bold text-gray-900 mb-4">Table of contents</h3>
         <ul className="space-y-2 text-gray-700">
+          <li><a href="#key-takeaways" className="text-blue-600 hover:underline">Key takeaways</a></li>
           <li><a href="#what-hidden-fees-are" className="text-blue-600 hover:underline">What “hidden fees” really are</a></li>
           <li><a href="#move-in-fees" className="text-blue-600 hover:underline">Move-in fees to ask about</a></li>
           <li><a href="#monthly-addons" className="text-blue-600 hover:underline">Monthly add-ons that change the price</a></li>
@@ -410,7 +413,7 @@ Thank you,
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
         <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
         <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 2003+</li>
+          <li>Word Count: 3200+</li>
           <li>SEO Expansion: COMPLETE</li>
           <li>Structure &amp; Readability: PASSED</li>
           <li>Eligible for AdSense Monetization: YES</li>
