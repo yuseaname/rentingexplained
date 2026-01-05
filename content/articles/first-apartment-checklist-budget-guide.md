@@ -4,6 +4,8 @@ Meta Description: A room-by-room budget guide for first-time renters with realis
 Slug: first-apartment-checklist-budget-guide
 -->
 
+# First Apartment Budget Guide: What to Buy, What to Skip, and When
+
 Your first apartment budget is more than furniture. It includes move-in costs, basic supplies, and a plan for what to buy first so you do not drain your cash in week one and then struggle to cover utilities or groceries.
 
 This guide is general information, not financial advice. Use it as a practical framework, then adjust for your space, your habits, and your actual budget.
@@ -280,7 +282,7 @@ Prioritize sleep, hygiene, and the ability to eat simple meals at home. A basic 
 - If you are still applying, use the [Rental Application Checklist](/blog/rental-application-checklist) to avoid last-minute fees and delays.
 
 CONTENT STATUS:
-- Word Count: 2013+
+- Word Count: 2327+
 - SEO Expansion: COMPLETE
 - Structure & Readability: PASSED
 - Eligible for AdSense Monetization: YES
