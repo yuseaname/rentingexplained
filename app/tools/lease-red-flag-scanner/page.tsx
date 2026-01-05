@@ -264,9 +264,9 @@ export default function LeaseRedFlagScanner() {
     setScanResults(null);
 
     try {
-      const pdfjs = await import('pdfjs-dist/legacy/build/pdf');
+      const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
       const arrayBuffer = await file.arrayBuffer();
-      const loadingTask = pdfjs.getDocument({ data: arrayBuffer, disableWorker: true });
+      const loadingTask = pdfjs.getDocument({ data: arrayBuffer, disableWorker: true } as any);
       const pdf = await loadingTask.promise;
 
       let extracted = '';
@@ -274,7 +274,7 @@ export default function LeaseRedFlagScanner() {
         const page = await pdf.getPage(pageNumber);
         const textContent = await page.getTextContent();
         const pageText = textContent.items
-          .map((item: { str?: string }) => item.str || '')
+          .map((item: any) => (typeof item?.str === 'string' ? item.str : ''))
           .join(' ');
         extracted += `${pageText}\n`;
       }
