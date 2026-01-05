@@ -42,6 +42,8 @@ export default function Article() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(faqs)) }}
       />
 
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">How to Break a Lease Early: Legal Options and Safer Steps</h1>
+
       <p className="text-lg text-gray-700 leading-relaxed mb-4">
         Breaking a lease early is stressful because it mixes personal urgency with contract rules. You might need to
         move for work, health, family, or safety—while your lease still expects rent on a schedule. The good news is
@@ -77,6 +79,7 @@ export default function Article() {
       <nav aria-label="Table of contents" className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-10">
         <h3 className="text-xl font-bold text-gray-900 mb-4">Table of contents</h3>
         <ul className="space-y-2 text-gray-700">
+          <li><a href="#key-takeaways" className="text-blue-600 hover:underline">Key takeaways</a></li>
           <li><a href="#understand-your-lease" className="text-blue-600 hover:underline">Start with your lease</a></li>
           <li><a href="#legal-exits" className="text-blue-600 hover:underline">Legal exits (high-level)</a></li>
           <li><a href="#negotiation-options" className="text-blue-600 hover:underline">Negotiation options</a></li>
@@ -387,7 +390,7 @@ Thank you,
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
         <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
         <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 2078+</li>
+          <li>Word Count: 3203+</li>
           <li>SEO Expansion: COMPLETE</li>
           <li>Structure &amp; Readability: PASSED</li>
           <li>Eligible for AdSense Monetization: YES</li>
