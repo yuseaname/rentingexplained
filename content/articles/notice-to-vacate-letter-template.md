@@ -1,9 +1,3 @@
-<!--
-SEO Title: Notice to Vacate Letter Template: What to Include (2026)
-Meta Description: Get a clean notice to vacate letter template, a checklist of what to include, and a calm plan for timing your move-out.
-Slug: notice-to-vacate-letter-template
--->
-
 # Notice to Vacate Letter Template: What to Include
 
 Giving notice to move out should be simple, but most renters worry about missing a detail that costs them money later. The good news: a notice to vacate letter is just a short, clear statement with the right dates and a few key details.
@@ -12,7 +6,7 @@ This guide is general information, not legal advice. Notice rules vary by state 
 
 ![Apartment keys on a table near a lease](/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-keys.webp)
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - A notice to vacate is a short, written heads-up with the right dates.
 - The deadline matters more than the format.
@@ -20,27 +14,7 @@ This guide is general information, not legal advice. Notice rules vary by state 
 - Send it in writing and keep proof of delivery.
 - If you are leaving early, compare your options first.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#lease-timeline">Read your lease and the notice timeline</a></li>
-  <li><a href="#what-to-include">What to include in a notice to vacate letter</a></li>
-  <li><a href="#timing-mistakes">Timing mistakes to avoid</a></li>
-  <li><a href="#delivery-options">Delivery options and proof</a></li>
-  <li><a href="#roommates">Roommates and co-tenants: who should sign</a></li>
-  <li><a href="#send-notice">Step-by-step: how to send your notice</a></li>
-  <li><a href="#final-rent">Final rent and prorated charges</a></li>
-  <li><a href="#after-notice">After you send notice: next steps</a></li>
-  <li><a href="#template">Copy/Paste Template: Notice to Vacate Letter</a></li>
-  <li><a href="#early-vs-normal">If you are moving early vs ending normally</a></li>
-  <li><a href="#notice-quiz">2-Minute Quiz: Are you ready to give notice?</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="lease-timeline">Read your lease and the notice timeline</h2>
+## Read your lease and the notice timeline
 
 Your lease usually says how much notice you need to give. That might be a set number of days before the lease ends or a specific day of the month. The timeline is the most important part of your letter.
 
@@ -58,7 +32,7 @@ If you are unsure about your rights, start with [tenant rights basics](/blog/ten
 
 ![Wall calendar with a highlighted date](/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-calendar.webp)
 
-<h2 id="what-to-include">What to include in a notice to vacate letter</h2>
+## What to include in a notice to vacate letter
 
 A good notice is short and complete. This list covers the essentials most landlords need.
 
@@ -89,7 +63,7 @@ Write the exact move-out date, not just the month. If your lease ends on the las
 
 For a full deposit overview, see [security deposits and evictions](/blog/security-deposits-and-evictions-overview).
 
-<h2 id="timing-mistakes">Timing mistakes to avoid</h2>
+## Timing mistakes to avoid
 
 Most problems come from timing, not wording. Watch out for these common errors.
 
@@ -105,7 +79,7 @@ Some leases require written notice by email, mail, or a portal. Follow the requi
 
 If you are moving out instead of renewing, compare the options in the [rent increase renewal guide](/blog/rent-increase-renewal-guide). It helps you decide whether moving is worth the total cost.
 
-<h2 id="delivery-options">Delivery options and proof</h2>
+## Delivery options and proof
 
 How you deliver the notice matters because it creates your proof.
 ### Email notice
@@ -124,7 +98,7 @@ Warning: A phone call is not enough. Always send a written notice so there is a 
 
 If you hand-deliver a notice, ask for a signed receipt or follow up with an email confirming delivery.
 
-<h2 id="roommates">Roommates and co-tenants: who should sign</h2>
+## Roommates and co-tenants: who should sign
 
 If you share the lease, your notice should match the lease structure.
 
@@ -140,7 +114,7 @@ Pick one person to send the notice and keep the proof. A single clear notice avo
 
 If one person wants to stay, the landlord may require a new application or a lease addendum. That is different from a normal notice, so get the requirements in writing.
 
-<h2 id="send-notice">Step-by-step: how to send your notice</h2>
+## Step-by-step: how to send your notice
 
 Use this quick process so your notice is clear and documented.
 
@@ -152,7 +126,7 @@ Use this quick process so your notice is clear and documented.
 If you plan to move, compare your total move-out and move-in costs with the [move-in cost guide](/blog/apartment-move-in-costs).
 Affiliate note: If you use a moving quote marketplace to compare services, we may earn a commission if you use this service (at no cost to you).
 
-<h2 id="final-rent">Final rent and prorated charges</h2>
+## Final rent and prorated charges
 
 Your last rent payment can be different from your usual amount. It depends on your move-out date and how your lease handles proration.
 ### Ask about final billing
@@ -163,7 +137,7 @@ If you are moving mid-month, ask how the final rent will be calculated and when 
 
 Some leases include move-out fees or cleaning charges. Confirm those in advance so they are not a surprise. The [Hidden Fees Estimator](/tools/hidden-fees-estimator) can help you see the true total.
 
-<h2 id="after-notice">After you send notice: next steps</h2>
+## After you send notice: next steps
 
 Once the notice is sent, shift to move-out preparation. A short checklist keeps you on track.
 
@@ -188,7 +162,7 @@ Use the [apartment utility costs guide](/blog/apartment-utility-costs) to cancel
 If you are moving to a new place, update your policy or compare rates using the [renters insurance cost guide](/blog/renters-insurance-cost-2025).
 Affiliate note: If you compare renters insurance policies for your next place, we may earn a commission if you use this service (at no cost to you).
 
-<h2 id="template">Copy/Paste Template: Notice to Vacate Letter</h2>
+## Copy/Paste Template: Notice to Vacate Letter
 
 **When to use this:** When you are ending your lease at the normal end date and need a clean written notice.
 
@@ -214,7 +188,7 @@ Thank you,
 
 **Make it yours:** Keep the tone short and professional. Clear dates and a forwarding address matter most.
 
-<h2 id="early-vs-normal">If you are moving early vs ending normally</h2>
+## If you are moving early vs ending normally
 
 Leaving early is different from a normal notice. It can trigger fees or special rules, depending on your lease.
 
@@ -230,7 +204,7 @@ If you want a room-by-room plan, use the [move-out checklist](/blog/apartment-mo
 
 Pro tip: If you are setting up a new place, compare renters insurance options early so coverage starts on move-in day. Disclosure: We may earn a commission if you use this service (at no cost to you).
 
-<h2 id="notice-quiz">2-Minute Quiz: Are you ready to give notice?</h2>
+## 2-Minute Quiz: Are you ready to give notice?
 
 1) You know your notice deadline...
 - A) Not yet
@@ -268,7 +242,7 @@ Shareable line: "I got Solid on the RentingExplained quiz -- worth checking."
 **Locked In:** You are ready. Send your notice and start the move-out checklist.
 Shareable line: "I got Locked In on the RentingExplained quiz -- worth checking."
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### What if my lease is month-to-month?
 
@@ -290,21 +264,10 @@ You do not need to. A short, polite notice is usually best.
 
 Follow up in writing and keep proof. The key is that you sent your notice on time.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 A notice to vacate letter is short, but timing and documentation matter. Confirm your deadline, include the right details, and keep proof of delivery.
 
 If you want a full move-out plan, use the [apartment move-out checklist](/blog/apartment-move-out-checklist), track timelines with the [security deposit return guide](/blog/security-deposit-return-timeline), and compare total costs using the [Hidden Fees Estimator](/tools/hidden-fees-estimator). A calm plan now saves stress later and avoids missed deadlines.
 
-<!--
-Schema markup suggestions:
-- Article schema
-- FAQ schema
--->
 
-CONTENT STATUS:
-- Word Count: 2315+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

@@ -1,9 +1,3 @@
-<!--
-SEO Title: Security Deposit Return Timeline: What to Expect (2026)
-Meta Description: Learn how security deposit return timelines work, what affects delays, and how to follow up without drama.
-Slug: security-deposit-return-timeline
--->
-
 # Security Deposit Return Timeline: What to Expect (2026)
 
 Waiting for a security deposit refund can be frustrating, especially when you are already paying for a new place. The key is knowing the process, keeping your documentation organized, and following up clearly if the timeline drags.
@@ -12,7 +6,7 @@ This guide is general information, not legal advice. Timelines vary by state and
 
 ![Mailbox with an envelope and keys nearby](/images/legal-rights/security-deposit-return-timeline/security-deposit-mailbox.webp)
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - Deposit return timelines vary by state and lease terms.
 - The deposit statement matters as much as the refund.
@@ -20,29 +14,7 @@ This guide is general information, not legal advice. Timelines vary by state and
 - A calm follow-up letter can speed up a response.
 - A checklist helps you avoid common deductions.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#timeline-basics">How security deposit return timelines work</a></li>
-  <li><a href="#deposit-checklist">Printable Checklist: Deposit protection basics</a></li>
-  <li><a href="#before-move-out">Before you move out: set yourself up for a clean return</a></li>
-  <li><a href="#documentation">Documentation folder: what to save</a></li>
-  <li><a href="#delays">What can delay a deposit return</a></li>
-  <li><a href="#find-rules">Where to find your local timeline</a></li>
-  <li><a href="#follow-up">How to follow up if your deposit is late</a></li>
-  <li><a href="#refund-delivery">How refunds are usually delivered</a></li>
-  <li><a href="#deadline-tracking">Tracking the deadline: postmark vs received</a></li>
-  <li><a href="#template">Copy/Paste Template: Deposit return follow-up</a></li>
-  <li><a href="#deductions-basics">What landlords can deduct vs normal wear</a></li>
-  <li><a href="#deductions">What to do if deductions look wrong</a></li>
-  <li><a href="#deposit-quiz">2-Minute Quiz: Are you protected?</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="timeline-basics">How security deposit return timelines work</h2>
+## How security deposit return timelines work
 
 Most states require landlords to return a deposit and an itemized statement within a set timeline. The exact timeline varies by state and sometimes by city.
 
@@ -59,7 +31,7 @@ Pro tip: Keep your move-out photos and walkthrough notes in a single folder. It 
 If you need a big-picture overview, start with [security deposits and evictions](/blog/security-deposits-and-evictions-overview).
 Example: Priya moves out on June 30, returns keys on July 1, and sends a forwarding address the same day. She keeps photos and a copy of her notice in one folder so follow-up is simple if needed.
 
-<h2 id="deposit-checklist">Printable Checklist: Deposit protection basics</h2>
+## Printable Checklist: Deposit protection basics
 
 ### Before you move out
 
@@ -82,7 +54,7 @@ Example: Priya moves out on June 30, returns keys on July 1, and sends a forward
 
 Tip: Save this page or screenshot this checklist for later.
 
-<h2 id="before-move-out">Before you move out: set yourself up for a clean return</h2>
+## Before you move out: set yourself up for a clean return
 
 A few early steps can make the return process smoother.
 
@@ -97,7 +69,7 @@ Use the [apartment move-out checklist](/blog/apartment-move-out-checklist) to pl
 
 Include it in your notice and confirm it again when you return keys. This is one of the most common causes of delays.
 
-<h2 id="documentation">Documentation folder: what to save</h2>
+## Documentation folder: what to save
 
 A simple folder keeps everything in one place and makes follow-up easy.
 
@@ -112,7 +84,7 @@ A simple folder keeps everything in one place and makes follow-up easy.
 
 One folder on your phone or computer is enough. Name files by room so you can find them quickly if a dispute comes up.
 
-<h2 id="delays">What can delay a deposit return</h2>
+## What can delay a deposit return
 
 Delays are common, but you can reduce them by staying organized.
 
@@ -132,7 +104,7 @@ Outstanding balances or fees can slow down the process. Use [hidden rental fees 
 
 Warning: If you are missing paperwork, it becomes harder to challenge deductions later.
 
-<h2 id="find-rules">Where to find your local timeline</h2>
+## Where to find your local timeline
 
 Because timelines vary by state and city, use reliable local sources for the exact rule.
 
@@ -146,7 +118,7 @@ If your lease states a timeline, compare it to the local rule and follow the str
 
 If you need a general orientation, use [tenant rights basics](/blog/tenant-rights-everyone-should-know) and the [state overview guide](/blog/tenant-rights-by-state-overview).
 
-<h2 id="follow-up">How to follow up if your deposit is late</h2>
+## How to follow up if your deposit is late
 
 Start with a short, calm message that includes your move-out date and forwarding address. Keep the tone neutral.
 
@@ -169,7 +141,7 @@ If the stated timeline has passed, send a written follow-up. If you are unsure a
 
 ![Folder with receipts and a lease document](/images/legal-rights/security-deposit-return-timeline/security-deposit-docs.webp)
 
-<h2 id="refund-delivery">How refunds are usually delivered</h2>
+## How refunds are usually delivered
 
 Refunds are typically sent by mail or handled through a property portal, depending on your lease and landlord's process.
 
@@ -183,7 +155,7 @@ Some landlords use online portals or payment systems. If you used an online paym
 
 Pro tip: Keep an eye on your portal messages. Refund notices can be easy to miss.
 
-<h2 id="deadline-tracking">Tracking the deadline: postmark vs received</h2>
+## Tracking the deadline: postmark vs received
 
 One common source of confusion is whether the deadline is based on when the landlord sends the refund or when you receive it. Some jurisdictions allow a refund that is postmarked by the deadline, while others require delivery by a specific date. Your lease may also describe how notices are deemed delivered. This is why checking local rules matters.
 
@@ -200,7 +172,7 @@ If your local rule is not clear, ask a local tenant resource to point you to the
 
 Pro tip: If you mail a letter, take a photo of the envelope or postmark. It is a simple way to document when you sent a follow-up.
 
-<h2 id="template">Copy/Paste Template: Deposit return follow-up</h2>
+## Copy/Paste Template: Deposit return follow-up
 
 **When to use this:** When the timeline has passed and you need a written request.
 
@@ -222,7 +194,7 @@ Thank you,
 
 ![Email draft on a laptop screen](/images/legal-rights/security-deposit-return-timeline/security-deposit-email.webp)
 
-<h2 id="deductions-basics">What landlords can deduct vs normal wear</h2>
+## What landlords can deduct vs normal wear
 
 Rules vary by location, but most states separate normal wear from damage.
 
@@ -239,7 +211,7 @@ Rules vary by location, but most states separate normal wear from damage.
 - Stains that require replacement
 
 If you are unsure, keep the discussion focused on photos and the itemized statement.
-<h2 id="deductions">What to do if deductions look wrong</h2>
+## What to do if deductions look wrong
 
 You do not need to argue in circles. Start with documentation and a clear request.
 
@@ -259,7 +231,7 @@ If you need help with documentation, use the [move-out checklist](/blog/apartmen
 
 Affiliate note: If you use a document storage tool to organize photos and receipts, we may earn a commission if you use this service (at no cost to you).
 
-<h2 id="deposit-quiz">2-Minute Quiz: Are you protected?</h2>
+## 2-Minute Quiz: Are you protected?
 
 1) Your move-out photos are...
 - A) None yet
@@ -297,7 +269,7 @@ Shareable line: "I got Solid on the RentingExplained quiz -- worth checking."
 **Locked In:** You are organized and ready to follow up if needed.
 Shareable line: "I got Locked In on the RentingExplained quiz -- worth checking."
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### How long do landlords have to return a security deposit?
 
@@ -319,21 +291,10 @@ Send a second written request and keep copies. If needed, consult a local tenant
 
 Start by asking for a clear breakdown and receipts if needed. Keep the tone calm and stick to documented facts.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 Security deposit returns are easier when your documentation is organized and your follow-up is clear. Keep photos, save proof of key return, and send a short request if the timeline passes.
 
 For your next move, use the [apartment move-out checklist](/blog/apartment-move-out-checklist), confirm deadlines with the [notice to vacate template](/blog/notice-to-vacate-letter-template), and compare costs with the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
 
-<!--
-Schema markup suggestions:
-- Article schema
-- FAQ schema
--->
 
-CONTENT STATUS:
-- Word Count: 2229+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

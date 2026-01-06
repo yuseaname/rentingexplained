@@ -1,9 +1,3 @@
-<!--
-SEO Title: Rental Scams Explained: How to Spot Fake Listings and Stay Safe
-Meta Description: Learn how rental scams work, warning signs to watch for, and simple steps to verify listings before sending money.
-Slug: rental-scams-how-to-avoid
--->
-
 # Rental Scams Explained: How to Spot Fake Listings and Stay Safe
 
 Rental scams are common because renters are often in a rush. When a move date is close and listings are disappearing fast, it is easy to skip steps that would normally keep you safe.
@@ -12,7 +6,7 @@ This guide is general information, not legal advice. It explains how rental scam
 
 If you have ever felt pushed to apply without a tour or to send money to \"hold\" a unit, you already know how the pressure feels. Scammers use that pressure to override your caution. The goal here is to give you a simple process you can repeat every time.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways {#key-takeaways}
 
 - Scammers use urgency and emotion to push quick decisions.
 - Most scams share a small set of warning signs.
@@ -20,22 +14,7 @@ If you have ever felt pushed to apply without a tour or to send money to \"hold\
 - Do not send money until you confirm the listing and the owner.
 - Keep communication in writing and save everything.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#why-common">Why rental scams are so common</a></li>
-  <li><a href="#scam-types">The most common rental scam types</a></li>
-  <li><a href="#red-flags">Rental scam red flags to watch for</a></li>
-  <li><a href="#verify">How to verify a rental listing step by step</a></li>
-  <li><a href="#checklist">Printable Checklist: Scam safety checks</a></li>
-  <li><a href="#what-to-do">What to do if you suspect a scam</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="why-common">Why rental scams are so common</h2>
+## Why rental scams are so common {#why-common}
 
 Scams are common because the rental market is competitive and fast. Scammers rely on speed and stress to get people to act before they verify.
 
@@ -59,7 +38,7 @@ They also target renters who are relocating and cannot tour in person. If you ar
 
 Pro tip: If a listing feels rushed or confusing, slow down. A real landlord will answer basic questions and provide documentation.
 
-<h2 id="scam-types">The most common rental scam types</h2>
+## The most common rental scam types {#scam-types}
 
 Most scams follow a few predictable patterns. If you know these patterns, you can spot them early.
 
@@ -89,7 +68,7 @@ Some scams focus on collecting application fees or personal data. They may ask y
 
 The listing looks great, but the unit is \"no longer available\" and you are pushed toward a different unit with worse terms. This is a common way to pressure renters into fast decisions.
 
-<h2 id="red-flags">Rental scam red flags to watch for</h2>
+## Rental scam red flags to watch for {#red-flags}
 
 A single red flag is not always proof of a scam, but multiple red flags mean you should stop and verify.
 
@@ -119,7 +98,7 @@ Poor grammar alone is not proof, but aggressive, evasive, or overly pushy commun
 
 If the conversation moves off-platform quickly or the person refuses to use email, consider that a red flag. Written communication protects you and helps you document the process.
 
-<h2 id="verify">How to verify a rental listing step by step</h2>
+## How to verify a rental listing step by step {#verify}
 
 Use this simple sequence before you send money. It is easier than it looks.
 
@@ -161,7 +140,7 @@ If you are asked for sensitive information before you tour or verify the propert
 If you want a normal flow to compare against, use the [Apartment Tour Checklist](/blog/apartment-tour-checklist-questions-red-flags) and the [Rental Application Checklist](/blog/rental-application-checklist).
 If the listing checks out, confirm affordability with the [Rent Budget Checker](/tools/rent-budget-checker).
 
-<h2 id="checklist">Printable Checklist: Scam safety checks</h2>
+## Printable Checklist: Scam safety checks {#checklist}
 
 ### Listing verification
 
@@ -187,7 +166,7 @@ Tip: Save this page or screenshot this checklist for later.
 
 Example: Jordan finds a listing that looks perfect and priced lower than other units in the area. The \"owner\" says they are traveling and asks for a deposit to hold it. Jordan asks for a live video tour and the owner refuses. Jordan checks the address online and finds the same photos in a different listing with a different contact name. Jordan stops communication and avoids a likely scam.
 
-<h2 id="what-to-do">What to do if you suspect a scam</h2>
+## What to do if you suspect a scam {#what-to-do}
 
 If something feels wrong, stop and protect yourself. You do not owe anyone a fast decision.
 
@@ -216,7 +195,7 @@ You can also report suspected scams to local consumer protection offices or the 
 If you want to understand typical screening steps, review [Tenant Screening and Credit Checks for Renters](/blog/tenant-screening-credit-checks-for-renters).
 Knowing the normal flow makes scam signals much easier to spot.
 
-<h2 id="faq">FAQ</h2>
+## FAQ {#faq}
 
 ### Are rental scams common?
 
@@ -242,7 +221,7 @@ No. Always see the exact unit or a verified unit in the same building with docum
 
 Bring the listing details, questions about utilities and fees, and a phone to take notes. Compare what you see to the listing description before you apply.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps {#next-steps}
 
 - Use the [Apartment Tour Checklist](/blog/apartment-tour-checklist-questions-red-flags) to prepare for tours.
 - Gather documents with the [Rental Application Checklist](/blog/rental-application-checklist).
@@ -250,10 +229,3 @@ Bring the listing details, questions about utilities and fees, and a phone to ta
 
 Rental scams thrive on pressure. A calm, repeatable verification process is your best defense.
 If something feels off, slow down, verify, and trust the checklist.
-
-CONTENT STATUS:
-- Word Count: 2132+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

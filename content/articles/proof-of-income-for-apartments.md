@@ -1,16 +1,10 @@
-<!--
-SEO Title: Proof of Income for Apartments: What Counts and How to Prepare
-Meta Description: Learn what counts as proof of income for apartments, which documents landlords accept, and how to organize them.
-Slug: proof-of-income-for-apartments
--->
-
 # Proof of Income for Apartments: What Counts and How to Prepare
 
 Proof of income is one of the most confusing parts of renting. Many renters are not sure what counts, what is required, or how to present documents without feeling exposed.
 
 This guide is general information, not legal advice. It explains what landlords typically accept, how to organize your documents, and how to explain non-traditional income in a calm, professional way.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - Proof of income is about showing reliable cash flow.
 - Pay stubs are common, but they are not the only option.
@@ -18,28 +12,7 @@ This guide is general information, not legal advice. It explains what landlords 
 - Organization matters as much as the documents.
 - A short explanation note can reduce confusion.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#why">Why proof of income matters</a></li>
-  <li><a href="#what-counts">What documents count as proof of income</a></li>
-  <li><a href="#pay-stubs">Pay stubs and W-2 income</a></li>
-  <li><a href="#bank-statements">Bank statements and deposit history</a></li>
-  <li><a href="#offer-letters">Offer letters and employment verification</a></li>
-  <li><a href="#self-employed">Self-employed and gig work income</a></li>
-  <li><a href="#students">Students and non-traditional income</a></li>
-  <li><a href="#organize">Step-by-step: how to organize your documents</a></li>
-  <li><a href="#template">Copy/Paste Template: Income explanation note</a></li>
-  <li><a href="#checklist">Printable Checklist: Proof of income documents</a></li>
-  <li><a href="#mistakes">Common proof-of-income mistakes</a></li>
-  <li><a href="#examples">Example documentation scenarios</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="why">Why proof of income matters</h2>
+## Why proof of income matters
 
 Landlords want to know that you can pay rent on time. Proof of income is the most direct way to show that you have consistent cash flow.
 
@@ -59,7 +32,7 @@ If you want to understand the broader approval process, start with [Apartment Ap
 
 If any detail is unclear, landlords may pause your application. That is why clear documents and a short summary note can help speed up the process.
 
-<h2 id="what-counts">What documents count as proof of income</h2>
+## What documents count as proof of income
 
 There is no single universal list, but these are the most common documents landlords accept.
 
@@ -75,7 +48,7 @@ Pro tip: Ask what documents the landlord prefers before you apply. It can save t
 
 You can combine documents. For example, a self-employed renter might submit bank statements and a recent tax return, plus a short income summary note.
 
-<h2 id="pay-stubs">Pay stubs and W-2 income</h2>
+## Pay stubs and W-2 income
 
 Pay stubs are the most common form of proof of income. They show your employer, pay rate, and year-to-date earnings.
 
@@ -93,7 +66,7 @@ If your pay recently changed, include a short note or an updated offer letter so
 
 If you are paid hourly, include a brief note about your average weekly hours so the landlord can estimate your monthly income.
 
-<h2 id="bank-statements">Bank statements and deposit history</h2>
+## Bank statements and deposit history
 
 Bank statements can help if you are paid in cash, work irregular hours, or do gig work. They show deposit patterns and average income.
 
@@ -111,7 +84,7 @@ Make sure the statement shows your name and account details so it is verifiable.
 
 Pro tip: If you are worried about privacy, redact everything except your name, account number (leave only the last four digits), and income deposits. This keeps the statement readable while protecting sensitive details.
 
-<h2 id="offer-letters">Offer letters and employment verification</h2>
+## Offer letters and employment verification
 
 If you are starting a new job, an offer letter can be enough. It should include your role, start date, and salary.
 
@@ -126,7 +99,7 @@ Some landlords also accept an employment verification letter. If the landlord re
 
 If your job starts in the future, include a plan for how you will cover rent until your first paycheck.
 
-<h2 id="self-employed">Self-employed and gig work income</h2>
+## Self-employed and gig work income
 
 Self-employed renters have more flexible income but more documentation needs. The goal is to show stable earnings over time.
 
@@ -151,7 +124,7 @@ Pro tip: If you have strong savings, you can mention that as a cushion, but keep
 
 Example: Sam is a freelance designer. Sam includes two years of tax returns, the last three months of bank statements, and a one-paragraph income summary. The landlord approves because the documents show consistent earnings.
 
-<h2 id="students">Students and non-traditional income</h2>
+## Students and non-traditional income
 
 Students and renters with non-traditional income can still qualify. You just need to show the sources clearly.
 
@@ -168,7 +141,7 @@ Some students can use stipend letters or assistantship contracts. If your school
 
 If family support is part of your budget, ask whether a signed support letter is acceptable. Requirements vary by landlord, so confirm first.
 
-<h2 id="organize">Step-by-step: how to organize your documents</h2>
+## Step-by-step: how to organize your documents
 
 A clean packet makes the process faster for the landlord and easier for you.
 
@@ -206,7 +179,7 @@ If you scan documents, make sure they are readable and complete. Blurry scans ar
 
 If you want a full preparation checklist, use the [Rental Application Checklist](/blog/rental-application-checklist).
 
-<h2 id="template">Copy/Paste Template: Income explanation note</h2>
+## Copy/Paste Template: Income explanation note
 
 **When to use this:** When your income is variable, self-employed, or not reflected by standard pay stubs.
 
@@ -226,7 +199,7 @@ Thank you,
 
 **Make it yours:** Keep it short and factual. Do not overshare personal details.
 
-<h2 id="checklist">Printable Checklist: Proof of income documents</h2>
+## Printable Checklist: Proof of income documents
 
 ### Common documents
 
@@ -243,7 +216,7 @@ Thank you,
 
 Tip: Save this page or screenshot this checklist for later.
 
-<h2 id="mistakes">Common proof-of-income mistakes</h2>
+## Common proof-of-income mistakes
 
 Avoid these issues before you apply:
 
@@ -256,7 +229,7 @@ Avoid these issues before you apply:
 
 Fixing these small issues can speed up approval and reduce follow-up questions.
 
-<h2 id="examples">Example documentation scenarios</h2>
+## Example documentation scenarios
 
 ### W-2 employee with steady income
 
@@ -270,7 +243,7 @@ Jordan submits two years of tax returns, three months of bank statements, and a 
 
 Riley provides a stipend letter, two pay stubs from a campus job, and a cosigner. The landlord approves with a standard deposit.
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### What if I do not have pay stubs?
 
@@ -300,7 +273,7 @@ Most landlords want documents from the last 30 to 60 days. If your documents are
 
 Savings can be helpful as a backup, but most landlords still want monthly income proof.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 - Start with [Apartment Approval Requirements](/blog/apartment-approval-requirements) to see the full approval picture.
 - Use the [Rental Application Checklist](/blog/rental-application-checklist) to assemble your packet.
@@ -308,10 +281,3 @@ Savings can be helpful as a backup, but most landlords still want monthly income
 
 Proof of income is not about perfect paperwork. It is about showing stable, predictable cash flow in a clear format.
 When your documents are ready, you can move faster and apply with confidence. Clarity beats complexity for most landlords.
-
-CONTENT STATUS:
-- Word Count: 2170+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

@@ -1,8 +1,3 @@
-/*
-SEO Title: First Apartment Checklist: A Practical Move-In Guide for 2025
-Meta Description: A renter-first checklist covering landlord-provided items, room-by-room essentials, and a simple buying timeline.
-Slug: first-apartment-checklist-guide-2025
-*/
 import ToolCallout from '@/components/article/ToolCallout';
 
 export default function FirstApartmentChecklistGuide2025() {
@@ -473,17 +468,6 @@ UPGRADES (month 2+)
           </a>
         </li>
       </ul>
-
-      <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
-        <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
-        <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 3135+</li>
-          <li>SEO Expansion: COMPLETE</li>
-          <li>Structure &amp; Readability: PASSED</li>
-          <li>Eligible for AdSense Monetization: YES</li>
-          <li>Last Updated: 2026-01-04</li>
-        </ul>
-      </div>
     </>
   );
 }

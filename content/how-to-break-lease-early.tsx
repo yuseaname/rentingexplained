@@ -1,8 +1,3 @@
-/*
-SEO Title: How to Break a Lease Early: Legal Options and Safer Steps
-Meta Description: A renter-first guide to ending a lease early, including legal options, negotiation tips, and how to protect your credit.
-Slug: how-to-break-lease-early
-*/
 import Image from 'next/image';
 import ToolCallout from '@/components/article/ToolCallout';
 import { generateFAQSchema } from '@/lib/schema';
@@ -387,16 +382,6 @@ Thank you,
         </li>
       </ul>
 
-      <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
-        <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
-        <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 3203+</li>
-          <li>SEO Expansion: COMPLETE</li>
-          <li>Structure &amp; Readability: PASSED</li>
-          <li>Eligible for AdSense Monetization: YES</li>
-          <li>Last Updated: 2026-01-04</li>
-        </ul>
-      </div>
     </>
   );
 }

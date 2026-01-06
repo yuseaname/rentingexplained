@@ -1,9 +1,3 @@
-<!--
-SEO Title: Renting With Bad Credit: Options, Cosigners, and What Helps
-Meta Description: Learn how renters with bad credit get approved, when cosigners help, and how to strengthen an application.
-Slug: renting-with-bad-credit-options
--->
-
 # Renting With Bad Credit: Options, Cosigners, and What Helps
 
 Credit anxiety is common. Many renters worry that a low score will block them from finding a safe place to live. The good news is that approval is still possible when you understand what landlords look for and how to present your application clearly.
@@ -14,7 +8,7 @@ If you have ever felt embarrassed or stuck because of a credit score, you are no
 
 Think of this as a positioning guide. You are presenting the best version of your rental history and your current stability in a format that is easy to review.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways {#key-takeaways}
 
 - Landlords look at credit history and payment patterns, not just a score.
 - Income stability can matter more than a number on a report.
@@ -22,22 +16,7 @@ Think of this as a positioning guide. You are presenting the best version of you
 - A strong application packet reduces uncertainty for landlords.
 - Honest, calm communication works better than panic.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#evaluate">How landlords typically evaluate credit</a></li>
-  <li><a href="#options">Renting options if your credit is not great</a></li>
-  <li><a href="#strengthen">How to strengthen a rental application</a></li>
-  <li><a href="#packet-checklist">Printable Checklist: Application packet</a></li>
-  <li><a href="#avoid">What to avoid when applying</a></li>
-  <li><a href="#scenarios">Example approval scenarios</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="evaluate">How landlords typically evaluate credit</h2>
+## How landlords typically evaluate credit {#evaluate}
 
 Landlords use credit as a risk signal, but it is not the only signal. Many decisions are based on patterns and context, not just a score.
 
@@ -79,7 +58,7 @@ Pro tip: Ask about screening criteria before you apply. It can save you time and
 
 If you are denied, ask for the reason and use it to improve the next application. The goal is to target places where your application fits.
 
-<h2 id="options">Renting options if your credit is not great</h2>
+## Renting options if your credit is not great {#options}
 
 There are multiple paths to approval. The best path depends on your income, history, and local market.
 
@@ -115,7 +94,7 @@ Timing can help too. Applying early in the month or when inventory is higher may
 
 Warning: Do not overpay fees just to apply everywhere. Pick places where you are more likely to be approved.
 
-<h2 id="strengthen">How to strengthen a rental application</h2>
+## How to strengthen a rental application {#strengthen}
 
 A strong application packet reduces uncertainty for the landlord and shows that you are organized and responsible.
 
@@ -151,7 +130,7 @@ Pro tip: A short cover note with your move-in date, income, and contact info mak
 
 If you are applying in person, print the packet or have it ready on your phone. Being prepared can make the process feel smoother for everyone.
 
-<h2 id="packet-checklist">Printable Checklist: Application packet</h2>
+## Printable Checklist: Application packet {#packet-checklist}
 
 ### Core documents
 
@@ -168,7 +147,7 @@ If you are applying in person, print the packet or have it ready on your phone. 
 
 Tip: Save this page or screenshot this checklist for later.
 
-<h2 id="avoid">What to avoid when applying</h2>
+## What to avoid when applying {#avoid}
 
 Some moves can hurt your chances even more. Avoid these common mistakes.
 
@@ -192,7 +171,7 @@ Pro tip: Use the [Apartment Tour Checklist](/blog/apartment-tour-checklist-quest
 
 If you cannot tour in person, ask for a live video tour before you apply.
 
-<h2 id="scenarios">Example approval scenarios</h2>
+## Example approval scenarios {#scenarios}
 
 These examples are hypothetical, but they show how different paths can work.
 
@@ -214,7 +193,7 @@ Casey applies with a roommate who has strong credit and stable income. The landl
 
 If you are planning your first place, the [First Apartment Checklist](/blog/first-apartment-checklist-guide-2025) can help you prepare.
 
-<h2 id="faq">FAQ</h2>
+## FAQ {#faq}
 
 ### What credit score do apartments require?
 
@@ -240,7 +219,7 @@ Ask for the reason and focus your next application on places with more flexible 
 
 Meaningful changes take time, but small steps like paying down balances and fixing errors can help. In the short term, focus on strong documentation and income stability.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps {#next-steps}
 
 - Learn the process in [Tenant Screening and Credit Checks for Renters](/blog/tenant-screening-credit-checks-for-renters).
 - Build your packet with the [Rental Application Checklist](/blog/rental-application-checklist).
@@ -250,10 +229,3 @@ Meaningful changes take time, but small steps like paying down balances and fixi
 Bad credit does not end your search. A clear application, steady income proof, and the right landlord fit can make approval possible.
 Focus on the parts you can control: documentation, affordability, and calm communication. Those steps often matter more than a single score.
 You can do this.
-
-CONTENT STATUS:
-- Word Count: 2139+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

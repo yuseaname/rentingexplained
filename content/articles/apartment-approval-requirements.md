@@ -1,16 +1,10 @@
-<!--
-SEO Title: Apartment Approval Requirements: What Landlords Look For (2026)
-Meta Description: Learn what landlords look for in an apartment application, from credit and income to rental history and complete paperwork.
-Slug: apartment-approval-requirements
--->
-
 # Apartment Approval Requirements: What Landlords Look For (2026)
 
 Getting approved for an apartment can feel like a black box. You submit an application, pay a fee, and then wait. If you do not get approved, you are left guessing why.
 
 This guide is general information, not legal advice. It breaks down what landlords typically look for and how you can prepare a complete, low-stress application that shows you are reliable.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - Approval is about risk, not perfection.
 - Credit, income, and rental history matter most.
@@ -18,26 +12,7 @@ This guide is general information, not legal advice. It breaks down what landlor
 - Background checks are common but vary by location.
 - A calm prep plan beats last-minute scrambling.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#why-confusing">Why approval feels confusing</a></li>
-  <li><a href="#credit">Credit: what matters and what does not</a></li>
-  <li><a href="#income">Income requirements: gross vs net</a></li>
-  <li><a href="#rental-history">Rental history: what landlords verify</a></li>
-  <li><a href="#background">Background checks: high-level basics</a></li>
-  <li><a href="#completeness">Application completeness: the hidden factor</a></li>
-  <li><a href="#where-to-apply">Where to apply: matching your profile</a></li>
-  <li><a href="#after-apply">After you apply: follow-up steps</a></li>
-  <li><a href="#approval-checklist">Printable Checklist: Approval requirements</a></li>
-  <li><a href="#approval-quiz">2-Minute Quiz: Are you ready to apply?</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="why-confusing">Why approval feels confusing</h2>
+## Why approval feels confusing
 
 Approval standards vary by landlord, city, and market. Some landlords use strict checklists. Others use a more flexible, full-picture review. That is why a clear plan helps.
 Even a small prep plan can save you weeks of back-and-forth.
@@ -57,7 +32,7 @@ If you understand those goals, the rest of the process becomes easier to navigat
 If you want a deeper dive on screening steps, start with [Tenant Screening and Credit Checks for Renters](/blog/tenant-screening-credit-checks-for-renters).
 If you are in the search phase, protect yourself from fraud with the [Rental Scams guide](/blog/rental-scams-how-to-avoid) and the [Apartment Tour Checklist](/blog/apartment-tour-checklist-questions-red-flags).
 
-<h2 id="credit">Credit: what matters and what does not</h2>
+## Credit: what matters and what does not
 
 Credit is often the first filter, but the story is more nuanced than a single score.
 
@@ -86,7 +61,7 @@ If you are considering a cosigner, ask about their income and credit requirement
 
 Warning: Avoid applying to many units without asking about credit thresholds. It can cost you money and add unnecessary inquiries.
 
-<h2 id="income">Income requirements: gross vs net</h2>
+## Income requirements: gross vs net
 
 Most landlords want to see that your income is enough to cover rent and basic expenses. Many use the "3x rent" rule, but some use 2.5x or 3.5x depending on the market.
 
@@ -115,7 +90,7 @@ If you need a full checklist, see [Proof of Income for Apartments](/blog/proof-o
 
 Keep your documents in one folder and label them clearly. If a landlord asks for something quickly, you can respond without delays.
 
-<h2 id="rental-history">Rental history: what landlords verify</h2>
+## Rental history: what landlords verify
 
 Rental history is a strong signal because it shows how you behaved in a previous lease.
 
@@ -133,7 +108,7 @@ Example: Casey is a first-time renter with limited credit history. Casey brings 
 
 If you have gaps in rental history, explain them briefly and focus on your current stability.
 
-<h2 id="background">Background checks: high-level basics</h2>
+## Background checks: high-level basics
 
 Many landlords run background checks, but what they review varies by location and property type. This is general information, not legal advice.
 
@@ -151,7 +126,7 @@ If a landlord requires extra verification, keep the process in writing so you ha
 
 If you are unsure what a landlord can or cannot ask for, focus on providing accurate information and keeping a copy of everything you submit. This is general information, not legal advice.
 
-<h2 id="completeness">Application completeness: the hidden factor</h2>
+## Application completeness: the hidden factor
 
 A strong application can lose to a complete application. Missing documents slow the process and make you look less prepared.
 
@@ -179,7 +154,7 @@ If two applicants are similar, the one with complete documents often wins. Prepa
 
 If you fix these before you apply, you remove a common source of delay.
 
-<h2 id="where-to-apply">Where to apply: matching your profile</h2>
+## Where to apply: matching your profile
 
 Not every listing is a good fit for your profile. A smarter approach is to target places where your application is likely to be competitive.
 
@@ -197,7 +172,7 @@ Listings are more competitive during peak move months. If you can, apply early o
 
 Example: A unit that has been listed for two weeks may have fewer applicants than a brand-new listing. That can make a complete application stand out faster.
 
-<h2 id="after-apply">After you apply: follow-up steps</h2>
+## After you apply: follow-up steps
 
 Once you submit, do a few simple follow-ups to stay organized and reduce delays.
 
@@ -215,7 +190,7 @@ If you do not hear back and the landlord will not respond, it is OK to keep look
 
 If you receive a denial, ask for the general reason so you can improve your next application. A simple explanation can save you time on future applications.
 
-<h2 id="approval-checklist">Printable Checklist: Approval requirements</h2>
+## Printable Checklist: Approval requirements
 
 ### Credit and history
 
@@ -242,7 +217,7 @@ If you receive a denial, ask for the general reason so you can improve your next
 
 Tip: Save this page or screenshot this checklist for later.
 
-<h2 id="approval-quiz">2-Minute Quiz: Are you ready to apply?</h2>
+## 2-Minute Quiz: Are you ready to apply?
 
 1) Your income documents are...
 - A) Not ready
@@ -280,7 +255,7 @@ Shareable line: "I got Solid on the RentingExplained quiz -- worth checking."
 **Locked In:** You are prepared and organized. Apply early and keep your documents ready.
 Shareable line: "I got Locked In on the RentingExplained quiz -- worth checking."
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### What credit score do I need to get approved?
 
@@ -302,7 +277,7 @@ Provide strong income proof and references. First-time renters are approved ever
 
 Yes. A complete packet, clear move-in date, and stable income proof are the fastest improvements you can make.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 - Use the [Rental Application Checklist](/blog/rental-application-checklist) to build your packet.
 - Compare your budget with [How Much Rent Can I Afford?](/blog/how-much-rent-can-i-afford).
@@ -310,10 +285,3 @@ Yes. A complete packet, clear move-in date, and stable income proof are the fast
 
 Approval is not about perfection. It is about showing you are ready and reliable.
 Use the checklist and keep your documents organized so you can apply quickly when the right unit appears.
-
-CONTENT STATUS:
-- Word Count: 2153+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

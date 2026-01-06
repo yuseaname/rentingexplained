@@ -1,9 +1,3 @@
-/*
-SEO Title: Tenant Rights Basics: Core Rights Every Renter Should Know
-Meta Description: Understand core tenant rights, common lease issues, and how to handle repairs, deposits, and privacy concerns.
-Slug: tenant-rights-everyone-should-know
-*/
-
 export default function Article() {
   return (
     <>
@@ -313,16 +307,6 @@ Thank you,
         </li>
       </ul>
 
-      <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-10">
-        <p className="text-sm text-gray-700 font-semibold">CONTENT STATUS:</p>
-        <ul className="text-sm text-gray-700 mt-2">
-          <li>Word Count: 2039+</li>
-          <li>SEO Expansion: COMPLETE</li>
-          <li>Structure &amp; Readability: PASSED</li>
-          <li>Eligible for AdSense Monetization: YES</li>
-          <li>Last Updated: 2026-01-04</li>
-        </ul>
-      </div>
     </>
   );
 }

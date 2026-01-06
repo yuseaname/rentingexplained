@@ -1,9 +1,3 @@
-<!--
-SEO Title: Apartment Move-Out Checklist: Photos, Cleaning, Utilities
-Meta Description: A renter-first move-out checklist covering photos, cleaning, walkthroughs, and utilities so you protect your deposit.
-Slug: apartment-move-out-checklist
--->
-
 # Apartment Move-Out Checklist: Photos, Cleaning, Utilities
 
 Moving out is where most deposit problems start. The fix is not a perfect clean, it is a clear plan: document the unit, finish the basics, and leave a paper trail.
@@ -12,7 +6,7 @@ This guide is general information, not legal advice. Use it as a practical check
 
 ![Moving boxes in an empty apartment living room](/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp)
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - Photos and a walkthrough matter more than a deep-cleaning spree.
 - A simple timeline keeps you from forgetting utility and key steps.
@@ -20,29 +14,7 @@ This guide is general information, not legal advice. Use it as a practical check
 - Return keys the right way and keep proof.
 - Use a short checklist to avoid last-minute surprises.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#timeline">Move-out timeline in three phases</a></li>
-  <li><a href="#printable-checklist">Printable Checklist: Move-Out Protection Plan</a></li>
-  <li><a href="#photos-video">Photos and video: your deposit armor</a></li>
-  <li><a href="#cleaning">Cleaning checklist: what matters most</a></li>
-  <li><a href="#room-by-room">Room-by-room checklist highlights</a></li>
-  <li><a href="#walkthrough">Walkthrough day: what to bring and ask</a></li>
-  <li><a href="#utilities">Utilities and services: cancel or transfer</a></li>
-  <li><a href="#move-out-kit">Move-out day kit</a></li>
-  <li><a href="#keys">Keys, access, and final proof</a></li>
-  <li><a href="#in-writing">Communicate in writing</a></li>
-  <li><a href="#common-deductions">Common deductions and how to avoid them</a></li>
-  <li><a href="#after-move-out">After move-out: track your deposit</a></li>
-  <li><a href="#move-out-quiz">2-Minute Quiz: Did you do enough to protect your deposit?</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="timeline">Move-out timeline in three phases</h2>
+## Move-out timeline in three phases
 
 A timeline keeps the work small and manageable.
 
@@ -61,13 +33,14 @@ If you are leaving before your lease ends, review [breaking a lease without pena
 - Clean the biggest surfaces first: floors, kitchen, and bathroom.
 
 Example: Jordan schedules photos on Saturday, cleans on Sunday, and does the walkthrough on Monday. The staggered plan keeps the last two days calm.
+
 ### Phase 3: Move-out day
 
 - Take final photos and video after cleaning.
 - Return keys the way your lease requires.
 - Save proof of return and any walkthrough notes.
 
-<h2 id="printable-checklist">Printable Checklist: Move-Out Protection Plan</h2>
+## Printable Checklist: Move-Out Protection Plan
 
 ### Documentation first
 
@@ -94,7 +67,7 @@ Tip: Save this page or screenshot this checklist for later.
 
 ![Clipboard with a simple checklist](/images/legal-rights/apartment-move-out-checklist/move-out-checklist.webp)
 
-<h2 id="photos-video">Photos and video: your deposit armor</h2>
+## Photos and video: your deposit armor
 
 Photos and video protect you if there is a dispute. You do not need fancy gear, just a calm walkthrough.
 
@@ -113,7 +86,7 @@ Use simple names like "Kitchen-1" or "Bedroom-Closet." This makes it easier to m
 
 ![Phone taking photos in a bright apartment](/images/legal-rights/apartment-move-out-checklist/move-out-photos.webp)
 
-<h2 id="cleaning">Cleaning checklist: what matters most</h2>
+## Cleaning checklist: what matters most
 
 Focus on the areas landlords usually inspect. Perfect is not required, but visible grime can lead to deductions.
 
@@ -130,7 +103,7 @@ If you want to compare likely charges, review [hidden rental fees explained](/bl
 
 Affiliate note: If you use a move-out cleaning service marketplace to compare quotes, we may earn a commission if you use this service (at no cost to you).
 
-<h2 id="room-by-room">Room-by-room checklist highlights</h2>
+## Room-by-room checklist highlights
 
 Use this quick list to prioritize the most common inspection areas.
 
@@ -158,7 +131,8 @@ Use this quick list to prioritize the most common inspection areas.
 - Remove any personal items from balconies or patios.
 
 Pro tip: Take photos before and after cleaning to show the full timeline of work.
-<h2 id="walkthrough">Walkthrough day: what to bring and ask</h2>
+
+## Walkthrough day: what to bring and ask
 
 A walkthrough gives you a chance to note issues and confirm expectations.
 
@@ -178,7 +152,7 @@ If your landlord does not do walkthroughs, document everything yourself and save
 
 Warning: Do not rely on verbal walkthrough comments. Get any notes in writing if possible.
 
-<h2 id="utilities">Utilities and services: cancel or transfer</h2>
+## Utilities and services: cancel or transfer
 
 Utilities can cause surprise bills after you move out if they are not canceled.
 
@@ -196,7 +170,7 @@ If you are unsure about the exact shutoff date, schedule it for the day after yo
 
 Affiliate note: If you use a moving quote marketplace to compare moving services, we may earn a commission if you use this service (at no cost to you).
 
-<h2 id="move-out-kit">Move-out day kit</h2>
+## Move-out day kit
 
 Having a small kit on move-out day keeps you from scrambling for basic supplies.
 
@@ -210,7 +184,8 @@ Having a small kit on move-out day keeps you from scrambling for basic supplies.
 
 Pro tip: Keep receipts for any supplies you buy in case the landlord asks for proof of repairs.
 Label boxes as you pack so you can clean faster.
-<h2 id="keys">Keys, access, and final proof</h2>
+
+## Keys, access, and final proof
 
 Keys are the last step and one of the easiest to document.
 
@@ -224,7 +199,7 @@ If you have multiple keys, fobs, or parking passes, write down what you returned
 
 Your security deposit and statement should go to your forwarding address. If you need a template for follow-up, see [security deposits and evictions](/blog/security-deposits-and-evictions-overview).
 
-<h2 id="in-writing">Communicate in writing</h2>
+## Communicate in writing
 
 Written communication prevents misunderstandings and gives you a record if anything goes sideways.
 
@@ -242,7 +217,7 @@ Pro tip: If you had a walkthrough, ask for a quick written summary of any issues
 
 If you agree to any repairs or fees, ask the landlord to confirm the amount and reason in writing so there are no surprises on the final statement.
 
-<h2 id="common-deductions">Common deductions and how to avoid them</h2>
+## Common deductions and how to avoid them
 
 Landlords often deduct for a few predictable reasons. These steps reduce the risk.
 
@@ -260,7 +235,7 @@ Remove all belongings, including items in closets and under sinks. Even a small 
 
 Return every key, fob, and garage opener. If something is missing, ask for the replacement cost in writing so you can compare it to the statement later.
 
-<h2 id="after-move-out">After move-out: track your deposit</h2>
+## After move-out: track your deposit
 
 After you turn in keys, track the deposit timeline and keep your documentation together.
 
@@ -276,7 +251,7 @@ If the timeline has passed, use the [security deposit return timeline guide](/bl
 
 Write down the move-out date, key return date, and the date you sent your forwarding address. If you follow up, keep those emails in the same folder.
 
-<h2 id="move-out-quiz">2-Minute Quiz: Did you do enough to protect your deposit?</h2>
+## 2-Minute Quiz: Did you do enough to protect your deposit?
 
 1) Your move-out photos are...
 - A) None yet
@@ -314,7 +289,7 @@ Shareable line: "I got Solid on the RentingExplained quiz -- worth checking."
 **Locked In:** You are prepared and protected. Finish strong.
 Shareable line: "I got Locked In on the RentingExplained quiz -- worth checking."
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### Do I need to schedule a walkthrough?
 
@@ -336,21 +311,8 @@ Schedule cancellations for the day after you move out to avoid overlap and shuto
 
 Use the [move-in cost guide](/blog/apartment-move-in-costs) to understand your total housing costs on both ends.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 A strong move-out checklist protects your deposit and your time. Focus on photos, a targeted clean, and proof of key return. Print the checklist, mark your dates, and keep photos saved after you move.
 
 If you need a notice template, start with the [notice to vacate letter](/blog/notice-to-vacate-letter-template). Track deposit timelines with the [security deposit return guide](/blog/security-deposit-return-timeline) and compare total costs using the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
-
-<!--
-Schema markup suggestions:
-- Article schema
-- FAQ schema
--->
-
-CONTENT STATUS:
-- Word Count: 2183+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

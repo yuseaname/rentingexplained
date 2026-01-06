@@ -1,9 +1,3 @@
-<!--
-SEO Title: First Apartment Budget Guide: What to Buy, What to Skip, and When
-Meta Description: A room-by-room budget guide for first-time renters with realistic tiers, shopping tips, and a simple buying timeline.
-Slug: first-apartment-checklist-budget-guide
--->
-
 # First Apartment Budget Guide: What to Buy, What to Skip, and When
 
 Your first apartment budget is more than furniture. It includes move-in costs, basic supplies, and a plan for what to buy first so you do not drain your cash in week one and then struggle to cover utilities or groceries.
@@ -12,7 +6,7 @@ This guide is general information, not financial advice. Use it as a practical f
 
 If you want a “do this first” mindset: pay for the move-in costs, cover the essentials that keep you healthy and functional, and postpone the upgrades until you have lived in the space for a few weeks.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways {#key-takeaways}
 
 > - Start with move-in costs and recurring bills before you buy decor.
 > - Pick a budget tier and avoid mixing “cheap now” with “premium later” purchases.
@@ -20,24 +14,7 @@ If you want a “do this first” mindset: pay for the move-in costs, cover the 
 > - Used items can save money, but prioritize health and safety for certain categories.
 > - A simple timeline and tracker prevents stress spending.
 
-<nav aria-label="Table of contents">
-  <p><strong>Table of contents</strong></p>
-  <ul>
-    <li><a href="#key-takeaways">Key takeaways</a></li>
-    <li><a href="#move-in-costs">Add up total move-in costs (the real starting line)</a></li>
-    <li><a href="#budget-tier">Choose a budget tier you can sustain</a></li>
-    <li><a href="#room-by-room">Room-by-room essentials (what to buy first)</a></li>
-    <li><a href="#used-vs-new">Used vs. new: where to save safely</a></li>
-    <li><a href="#shopping-tips">Shopping tips that prevent overspending</a></li>
-    <li><a href="#buying-timeline">A simple buying timeline (week 1 to month 3)</a></li>
-    <li><a href="#track-spending">Track spending without stress</a></li>
-    <li><a href="#budget-template">Copy/paste first apartment budget tracker</a></li>
-    <li><a href="#faq">FAQ</a></li>
-    <li><a href="#next-steps">Next steps</a></li>
-  </ul>
-</nav>
-
-<h2 id="move-in-costs">Add up total move-in costs (the real starting line)</h2>
+## Add up total move-in costs (the real starting line) {#move-in-costs}
 
 Furniture is optional in the short term. Move-in costs are not. Before you buy anything, list the expenses that must be paid to get the keys and keep the unit running.
 
@@ -53,7 +30,7 @@ If you want a full checklist of what can show up on move-in day, start with [Apa
 
 Pro tip: Separate “must pay to move in” from “nice to have.” Your budget becomes easier when the non-negotiables are clearly listed first.
 
-<h2 id="budget-tier">Choose a budget tier you can sustain</h2>
+## Choose a budget tier you can sustain {#budget-tier}
 
 Picking a tier keeps you consistent. The biggest budget leaks usually happen when you buy a few items “cheap for now” and then replace them immediately, or when you buy one premium item and then cut essentials to afford it.
 
@@ -67,7 +44,7 @@ If you are unsure which tier fits, start with essentials for the first month and
 
 Watch out: If you are stretching to cover rent, do not finance a lifestyle upgrade at move-in. Start smaller, then build.
 
-<h2 id="room-by-room">Room-by-room essentials (what to buy first)</h2>
+## Room-by-room essentials (what to buy first) {#room-by-room}
 
 Use this checklist as your “buy in order” guide. The goal is not to fill the apartment. The goal is to cover sleep, hygiene, basic food, and basic cleaning so your first two weeks feel stable.
 
@@ -120,7 +97,7 @@ Optional upgrades:
 
 For a full “move-in essentials” list that includes documentation and utilities, see the [First Apartment Checklist](/blog/first-apartment-checklist-guide-2025).
 
-<h2 id="used-vs-new">Used vs. new: where to save safely</h2>
+## Used vs. new: where to save safely {#used-vs-new}
 
 Used items can cut costs quickly. The key is knowing which categories are usually safe to buy used and which categories are worth buying new for health, safety, and reliability.
 
@@ -142,7 +119,7 @@ Practical inspection tips:
 - Measure your space before pickup.
 - Avoid “final sale” on items you cannot test.
 
-<h2 id="shopping-tips">Shopping tips that prevent overspending</h2>
+## Shopping tips that prevent overspending {#shopping-tips}
 
 Most first-apartment overspending is not about one big purchase. It is about stacking small purchases quickly: delivery fees, duplicate kitchen gadgets, last-minute storage bins, and “temporary” items that get replaced a month later.
 
@@ -166,7 +143,7 @@ If you buy new items, keep receipts and note return deadlines. Test items quickl
 
 Pro tip: If you are moving soon and deciding between two apartments, estimate the full cost (rent + utilities + fees + move-in) before you set a furniture budget. The [Rent Budget Checker](/tools/rent-budget-checker) and [Hidden Fees Estimator](/tools/hidden-fees-estimator) help you see the total picture.
 
-<h2 id="buying-timeline">A simple buying timeline (week 1 to month 3)</h2>
+## A simple buying timeline (week 1 to month 3) {#buying-timeline}
 
 The fastest way to blow a budget is buying everything at once. A timeline helps you spend intentionally and learn what the space actually needs.
 
@@ -209,7 +186,7 @@ If you are unsure whether you can afford upgrades, wait until you have paid at l
 
 Treat upgrades as a reward for stability, not a requirement for move-in.
 
-<h2 id="track-spending">Track spending without stress</h2>
+## Track spending without stress {#track-spending}
 
 A simple list beats a complicated spreadsheet. The goal is not perfect budgeting. The goal is knowing where the money went so you can adjust before you feel squeezed.
 
@@ -222,7 +199,7 @@ A simple list beats a complicated spreadsheet. The goal is not perfect budgeting
 
 If you need ways to lower costs while you settle in, review [How to Save Money Renting](/blog/how-to-save-money-renting-2025) for practical, renter-first moves.
 
-<h2 id="budget-template">Copy/paste first apartment budget tracker</h2>
+## Copy/paste first apartment budget tracker {#budget-template}
 
 Paste this into a note and update it weekly. Keeping it simple makes it easier to stick with.
 
@@ -253,7 +230,7 @@ NOTES
 - Items to buy later:
 ```
 
-<h2 id="faq">FAQ</h2>
+## FAQ {#faq}
 
 ### How much should I spend on my first apartment?
 
@@ -275,15 +252,8 @@ That is a budget advantage. Remove those items from your list and spend intentio
 
 Prioritize sleep, hygiene, and the ability to eat simple meals at home. A basic bed setup, bathroom essentials, and a minimal kitchen kit cover most daily needs. After that, add storage and lighting. Decor can wait. If you need help deciding what is essential, use the [First Apartment Checklist](/blog/first-apartment-checklist-guide-2025) as your baseline.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps {#next-steps}
 
 - Estimate your upfront cash with [Apartment Move-In Costs](/blog/apartment-move-in-costs) and the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
 - Confirm your rent range with the [Rent Budget Checker](/tools/rent-budget-checker).
 - If you are still applying, use the [Rental Application Checklist](/blog/rental-application-checklist) to avoid last-minute fees and delays.
-
-CONTENT STATUS:
-- Word Count: 2327+
-- SEO Expansion: COMPLETE
-- Structure & Readability: PASSED
-- Eligible for AdSense Monetization: YES
-- Last Updated: 2026-01-04

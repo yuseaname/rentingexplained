@@ -1,16 +1,10 @@
-<!--
-SEO Title: Rent Increase Notice: How to Respond at Renewal (2025)
-Meta Description: A renter-first guide to rent increase notices, renewal options, negotiation scripts, and a calm plan for your next step.
-Slug: rent-increase-renewal-guide
--->
-
 # Rent Increase Notice: How to Respond at Renewal (2025)
 
 A rent increase notice can feel like a surprise, even when you expect one. The real question is not just whether the number is higher. It is whether the total cost still fits your budget and whether the renewal terms make sense for your life right now.
 
 This guide is general information, not legal advice. Rules vary by state and city, so confirm local notice rules if you are unsure. The goal here is simple: help you make a clear, calm decision at renewal.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - Read the notice carefully and track the response deadline.
 - Break the increase into base rent and add-on fees.
@@ -18,26 +12,7 @@ This guide is general information, not legal advice. Rules vary by state and cit
 - A polite counteroffer can work, especially with good timing.
 - If you plan to move, map the real move-in costs first.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#notice-basics">Read the notice and timeline first</a></li>
-  <li><a href="#increase-breakdown">Break down the increase</a></li>
-  <li><a href="#printable-checklist">Printable Checklist: Renewal rent increase response</a></li>
-  <li><a href="#market-check">Check the market without overthinking it</a></li>
-  <li><a href="#response-options">Choose the right response path</a></li>
-  <li><a href="#negotiate">Negotiate a renewal increase without drama</a></li>
-  <li><a href="#template">Copy/Paste Template: Renewal rent increase response</a></li>
-  <li><a href="#move-plan">If you decide to move, plan it now</a></li>
-  <li><a href="#budget-plan">Build a renewal budget you can live with</a></li>
-  <li><a href="#renewal-quiz">2-Minute Quiz: Are you ready to respond?</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="notice-basics">Read the notice and timeline first</h2>
+## Read the notice and timeline first
 
 Start with the basics. Renewal timing matters more than the size of the increase.
 
@@ -57,7 +32,7 @@ Keep a copy of the notice or email. If you negotiate, you will need the exact da
 
 If you are unsure about notice rules in your area, start with the [tenant rights basics](/blog/tenant-rights-everyone-should-know) and the [state overview](/blog/tenant-rights-by-state-overview). This is general information, not legal advice.
 
-<h2 id="increase-breakdown">Break down the increase</h2>
+## Break down the increase
 
 A renewal increase is not just the base rent. Look for changes to fees, utilities, or add-ons.
 
@@ -75,7 +50,7 @@ Use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to see the real mo
 
 Pro tip: A small fee change can be as important as a rent increase. Focus on the total, not just the base rate.
 
-<h2 id="printable-checklist">Printable Checklist: Renewal rent increase response</h2>
+## Printable Checklist: Renewal rent increase response
 
 ### Before you reply
 
@@ -104,7 +79,7 @@ Pro tip: A small fee change can be as important as a rent increase. Focus on the
 
 Tip: Save this page or screenshot this checklist for later.
 
-<h2 id="market-check">Check the market without overthinking it</h2>
+## Check the market without overthinking it
 
 You do not need perfect data. You need a realistic snapshot.
 
@@ -120,7 +95,7 @@ If you see waived fees or a lower deposit on similar units, that is useful lever
 
 If your unit includes parking or utilities, only compare listings with similar perks. Use the [apartment utility costs guide](/blog/apartment-utility-costs) to estimate what those add-ons are worth.
 
-<h2 id="response-options">Choose the right response path</h2>
+## Choose the right response path
 
 Your best response depends on timing, budget, and how much you like the unit.
 
@@ -140,7 +115,7 @@ If the rent itself will not move, ask for a fee waiver, parking included, or a l
 
 If the total cost no longer makes sense, map the full move-out and move-in cost before you decide. Use the [move-in cost guide](/blog/apartment-move-in-costs) to avoid surprises.
 
-<h2 id="negotiate">Negotiate a renewal increase without drama</h2>
+## Negotiate a renewal increase without drama
 
 Keep it short, calm, and specific. Your goal is a clear yes or no.
 
@@ -160,7 +135,7 @@ Pro tip: A concession can be just as valuable as a rent cut if it lowers your to
 
 Warning: Avoid long emails or emotional arguments. A short message gets a faster answer.
 
-<h2 id="template">Copy/Paste Template: Renewal rent increase response</h2>
+## Copy/Paste Template: Renewal rent increase response
 
 **When to use this:** When you want to request a smaller increase or a concession at renewal.
 
@@ -183,7 +158,7 @@ Thank you,
 
 **Make it yours:** Keep the tone calm and make one clear request.
 
-<h2 id="move-plan">If you decide to move, plan it now</h2>
+## If you decide to move, plan it now
 
 Moving is often the fastest way to reset your monthly cost, but it has real up-front expenses.
 
@@ -203,7 +178,7 @@ If you move, you may need to update or shop your policy. For a clear breakdown, 
 
 If you have flexibility, off-season or mid-month moves can reduce costs and competition.
 
-<h2 id="budget-plan">Build a renewal budget you can live with</h2>
+## Build a renewal budget you can live with
 
 A renewal decision is easier when you see the full monthly picture.
 
@@ -223,7 +198,7 @@ Compare your current total to the new total. If the increase is manageable and y
 
 Shop renters insurance annually or review your monthly subscriptions. A budgeting app can help you track changes. Disclosure: We may earn a commission if you use this service (at no cost to you).
 
-<h2 id="renewal-quiz">2-Minute Quiz: Are you ready to respond?</h2>
+## 2-Minute Quiz: Are you ready to respond?
 
 1) When you get a renewal notice, you...
 - A) Focus on the new rent only
@@ -261,7 +236,7 @@ Shareable line: "I got Solid on the RentingExplained quiz - worth checking."
 **Locked In:** You are ready. Your plan is clear and your costs are mapped.
 Shareable line: "I got Locked In on the RentingExplained quiz - worth checking."
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### Can I negotiate a rent increase at renewal?
 
@@ -283,26 +258,8 @@ It depends on your timeline. A longer lease can reduce uncertainty, but only if 
 
 Fees can change at renewal, but the lease should clearly list them. Ask for a written breakdown if anything is unclear.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 A rent increase notice does not have to derail your plans. Start with the deadline, break down the total cost, and choose a response path that fits your budget. If you want to negotiate, keep it short and specific.
 
 If you plan to move, map your full move-in costs first. Review the [rent negotiation guide](/blog/how-to-negotiate-rent-guide), check your budget with the [Rent Budget Checker](/tools/rent-budget-checker), and compare add-ons in the [hidden fees guide](/blog/hidden-rental-fees-explained).
-
-<!--
-Image suggestions:
-1) Featured image: Renter reviewing renewal notice at a kitchen table (alt: "rent increase notice")
-2) Infographic: Renewal decision flowchart (alt: "renewal rent increase decision flow")
-3) Checklist image: Rent increase response checklist (alt: "rent increase checklist")
-
-Schema markup suggestions:
-- Article schema
-- FAQ schema
--->
-
-CONTENT STATUS:
-- Word Count: 2204+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04

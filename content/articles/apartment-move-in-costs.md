@@ -1,16 +1,10 @@
-<!--
-SEO Title: Apartment Move-In Costs: Checklist and Budget Guide (2025)
-Meta Description: A renter-first breakdown of apartment move-in costs, common fees, and a simple checklist to budget before you get the keys.
-Slug: apartment-move-in-costs
--->
-
 # Apartment Move-In Costs: Checklist and Budget Guide (2025)
 
 Moving into a new apartment is exciting, but the costs can feel confusing. Rent is only one piece. You also have deposits, fees, utility setup, and the basics you need to live comfortably. If you do not plan for those early, you can end up scrambling in your first week.
 
 This guide is general information, not legal or financial advice. It will help you build a realistic move-in budget, ask the right questions, and avoid the most common surprises.
 
-<h2 id="key-takeaways">Key takeaways</h2>
+## Key takeaways
 
 - Move-in costs include one-time fees and the first month or two of bills.
 - Deposits and fees vary by state, building, and tenant profile.
@@ -18,25 +12,7 @@ This guide is general information, not legal or financial advice. It will help y
 - You can often reduce costs by asking for fee breakdowns early.
 - Budget for essentials first, then upgrade over time.
 
-<nav aria-label="Table of contents">
-<strong>Table of contents</strong>
-<ul>
-  <li><a href="#key-takeaways">Key takeaways</a></li>
-  <li><a href="#move-in-basics">What counts as move-in costs</a></li>
-  <li><a href="#big-three">The big three payments</a></li>
-  <li><a href="#checklist">Printable Checklist: Move-In Cost Prep</a></li>
-  <li><a href="#fees-addons">One-time fees and common add-ons</a></li>
-  <li><a href="#utilities-setup">Utilities and setup costs</a></li>
-  <li><a href="#moving-setup">Moving and setup costs you control</a></li>
-  <li><a href="#budget-plan">Build a simple move-in budget</a></li>
-  <li><a href="#reduce-costs">How to reduce move-in costs</a></li>
-  <li><a href="#move-in-quiz">2-Minute Quiz: Are You Ready to Budget for Move-In?</a></li>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#next-steps">Next steps</a></li>
-</ul>
-</nav>
-
-<h2 id="move-in-basics">What counts as move-in costs</h2>
+## What counts as move-in costs
 
 Move-in costs are everything you pay before and right after you get the keys. They usually fall into two buckets: one-time payments and early monthly costs.
 
@@ -52,7 +28,7 @@ Your first month of rent is usually due before move-in. You may also see prorate
 
 Small fees add up fast. A checklist keeps you from forgetting the little charges that can push you over budget.
 
-<h2 id="big-three">The big three payments</h2>
+## The big three payments
 
 These are the most common and usually the largest up-front costs.
 
@@ -70,7 +46,7 @@ Pro tip: Ask for a written receipt for any deposit you pay and store it with you
 
 Some properties collect last month rent up front, while others do not. Ask whether it is required so you do not get surprised at signing.
 
-<h2 id="checklist">Printable Checklist: Move-In Cost Prep</h2>
+## Printable Checklist: Move-In Cost Prep
 
 ### Before you apply
 - [ ] Estimate your monthly rent range with the [Rent Budget Checker](/tools/rent-budget-checker)
@@ -92,7 +68,7 @@ Some properties collect last month rent up front, while others do not. Ask wheth
 
 Tip: Save this page or screenshot this checklist for later.
 
-<h2 id="fees-addons">One-time fees and common add-ons</h2>
+## One-time fees and common add-ons
 
 After the big three, these are the costs that catch renters off guard. Ask for the full list before you pay anything.
 
@@ -139,7 +115,7 @@ Thank you,
 
 **Make it yours:** Keep it short and send it before you pay anything.
 
-<h2 id="utilities-setup">Utilities and setup costs</h2>
+## Utilities and setup costs
 
 Utilities can add a few small charges right away, so ask about them early.
 
@@ -156,7 +132,7 @@ For a deeper breakdown, see the [apartment utility costs guide](/blog/apartment-
 
 Many landlords require renters insurance. For a full breakdown, see the [renters insurance cost guide](/blog/renters-insurance-cost-2025). If you plan to compare policies, you can use a renters insurance comparison tool. Disclosure: We may earn a commission if you use this service (at no cost to you).
 
-<h2 id="moving-setup">Moving and setup costs you control</h2>
+## Moving and setup costs you control
 
 These costs are more flexible. You can save money by choosing what to buy and when to buy it.
 
@@ -184,7 +160,7 @@ Here is a simple example to show how totals add up. Your numbers will be differe
 
 Total: $3,900
 
-<h2 id="budget-plan">Build a simple move-in budget</h2>
+## Build a simple move-in budget
 
 You do not need a complex spreadsheet. Use a two-column list and keep it updated.
 
@@ -207,7 +183,7 @@ If the total is higher than expected, adjust your move-in date, choose a cheaper
 
 For a quick total-cost check, compare rent and fees with the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
 
-<h2 id="reduce-costs">How to reduce move-in costs</h2>
+## How to reduce move-in costs
 
 You can often lower costs without harming your application. The key is asking early and being specific.
 
@@ -233,7 +209,7 @@ Off-season or mid-month move-ins can sometimes come with better terms. If you ar
 
 A lower base rent is not always the best deal. Compare total monthly cost and fees before deciding.
 
-<h2 id="move-in-quiz">2-Minute Quiz: Are You Ready to Budget for Move-In?</h2>
+## 2-Minute Quiz: Are You Ready to Budget for Move-In?
 
 1) Before you tour, you usually...
 - A) Focus on monthly rent only
@@ -271,7 +247,7 @@ Shareable line: "I got Solid on the RentingExplained quiz - worth checking."
 **Locked In:** You are organized and clear. You are ready to move in without surprises.
 Shareable line: "I got Locked In on the RentingExplained quiz - worth checking."
 
-<h2 id="faq">FAQ</h2>
+## FAQ
 
 ### How much should I budget for move-in costs?
 
@@ -293,26 +269,8 @@ Look for lower-fee buildings, consider a later move-in date, or focus on a small
 
 Some landlords require proof before keys are handed over. Ask when it must be active so you can time it correctly.
 
-<h2 id="next-steps">Next steps</h2>
+## Next steps
 
 Move-in costs feel big, but they are manageable with a simple plan. Start with the big three payments, ask for a full fee list in writing, and buy essentials first.
 
 If you want a broader checklist, review the [first apartment checklist](/blog/first-apartment-checklist-guide-2025), compare totals with the [Rent Budget Checker](/tools/rent-budget-checker), and scan add-ons with the [hidden rental fees guide](/blog/hidden-rental-fees-explained).
-
-<!--
-Image suggestions:
-1) Featured image: Moving boxes and a lease on a table (alt: "apartment move-in costs checklist")
-2) Infographic: Breakdown of move-in cost categories (alt: "move-in cost categories")
-3) Checklist image: Move-in cost prep checklist (alt: "move-in cost checklist")
-
-Schema markup suggestions:
-- Article schema
-- FAQ schema
--->
-
-CONTENT STATUS:
-- Word Count: 2226+
-- Review Status: PASSED (No Rewrite Needed)
-- Structure & Readability: VERIFIED
-- Eligible for AdSense Monetization: YES
-- Last Checked: 2026-01-04
