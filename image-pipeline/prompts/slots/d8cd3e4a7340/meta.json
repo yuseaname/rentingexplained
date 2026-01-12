@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 7,
+  "anchor_selector": "h3",
+  "anchor_text": "Our Affiliate Partners May Include:",
+  "insertion_mode": "after",
+  "page_path": "/app/disclosure/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "d8cd3e4a7340",
+  "slot_key": "inline-7"
+}

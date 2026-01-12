@@ -13,6 +13,7 @@ export default function GuidesPage() {
       <div className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Renting Guides</h1>
+<picture data-slot-id="61f1e745a320"><source type="image/webp" srcset="/images/rentingexplained-appguidespagetsx-hero-61f1e745a320.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appguidespagetsx-hero-61f1e745a320.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
           <p className="text-xl text-primary-100 max-w-2xl">
             Comprehensive how-to guides for every stage of your renting journey
           </p>

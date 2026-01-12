@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 1,
+  "anchor_selector": "h2",
+  "anchor_text": "Enter Your Information",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/rent-budget-checker/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "79c43efbe2ef",
+  "slot_key": "inline-1"
+}

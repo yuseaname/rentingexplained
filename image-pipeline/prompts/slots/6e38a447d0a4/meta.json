@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 8,
+  "anchor_selector": "h3",
+  "anchor_text": "Apartment Move-Out Checklist",
+  "insertion_mode": "after",
+  "page_path": "/app/laws/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "6e38a447d0a4",
+  "slot_key": "inline-8"
+}

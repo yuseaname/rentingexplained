@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 5,
+  "anchor_selector": "h2",
+  "anchor_text": "Affiliate Relationships",
+  "insertion_mode": "after",
+  "page_path": "/app/disclosure/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "7516510c7ccd",
+  "slot_key": "inline-5"
+}

@@ -1,0 +1,18 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 0,
+  "anchor_selector": "h1",
+  "anchor_text": "Page Not Found",
+  "insertion_mode": "after",
+  "page_path": "/app/not-found.tsx",
+  "priority_level": 1,
+  "prompt": "Photorealistic hero image for RentingExplained.com, a rental housing website helping tenants with apartment renting, lease agreements, and tenant rights.\nTopic: Page Not Found\nVisual scenario: A person navigating the apartment rental process, looking for answers and information\nFirst, interpret the topic within the rental housing context. Then create a realistic moment showing someone in this rental-related situation.\nThe scene must depict a believable, real-life rental scenario where the topic would naturally apply: apartment hunting, lease review, move-in inspection, budgeting for rent, dealing with maintenance, tenant-landlord interactions, etc.\nShow a single, specific moment that clearly relates to apartment renting or being a tenant (viewing an apartment, reading a lease, inspecting a unit, reviewing rental costs, talking with landlord, etc.).\nInclude subtle rental context cues: apartment interiors, lease documents (no readable text), keys, rental applications, maintenance issues, moving boxes, etc.\nAvoid generic office/desk setups unrelated to renting.\nCamera:\nFull-frame camera, 35mm lens. Natural perspective, slight imperfections allowed. Human eye-level or contextual angle (not overhead).\nLighting:\nNatural or practical indoor lighting typical of apartments. Time-of-day cues allowed. No dramatic, cinematic, or studio lighting.\nStrict constraints:\n\u2022 No visible text.\n\u2022 No UI elements or readable screens.\n\u2022 No diagrams, icons, or symbols.\n\u2022 No branding, logos, or overlays.\n\u2022 No symmetry-heavy or stock-photo compositions.\nStyle:\nStrict photorealism. No CGI, no illustration, no surreal elements.\nThe image should feel like a real photograph taken during an authentic rental-related moment, clearly understandable without explanation.\nUnique composition guardrail:\nDo not reuse visual compositions, object groupings, or scene layouts from previous images. Each image must feel like a different household and a different moment.",
+  "prompt_hash": "9aed1a4f49f9817916c4efa903497c99aa21c419b71e18accdfed02dc9a38f17",
+  "risk_factors": [
+    "thin_content",
+    "above_fold"
+  ],
+  "risk_score": 2,
+  "slot_id": "c07510ec6488",
+  "slot_key": "hero"
+}

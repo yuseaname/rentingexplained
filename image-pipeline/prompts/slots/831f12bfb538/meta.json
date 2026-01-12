@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 3,
+  "anchor_selector": "h2",
+  "anchor_text": "Add Custom Fee",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/hidden-fees-estimator/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "831f12bfb538",
+  "slot_key": "inline-3"
+}

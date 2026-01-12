@@ -1,0 +1,21 @@
+slot_id,page_path,slot_key,anchor_text,prompt_hash,status
+d1162e5819dd,/app/about/page.tsx,hero,We're Here to Guide You,6403d4879003ae8fe0c3bc5ba7215c99da6fa8324509eef5bf5f9946caee7580,PROMPT_READY
+18f0f96cfacd,/app/contact/page.tsx,hero,Contact Us,d0af20eb7995563cae569e6122ce0bc2436698c74f13286bc945dadb9b19d072,PROMPT_READY
+e5b8c1d4b153,/app/corrections/page.tsx,hero,Corrections,970f4b2b24ec9ea9926c4d3714d35f08f0bc8cb83dd63715c170652f521ffc14,PROMPT_READY
+03d24de1aaff,/app/costs/page.tsx,hero,Costs & Savings,7667b97cda44342eb05974a2a713ef3d8a4bba973b462d8f0958102c3dcc9887,PROMPT_READY
+b7d0e8766f71,/app/disclosure/page.tsx,hero,Disclosure,dbe0eb1d126986747d0d9a2fce7bffeb75105359542d052eb2f4914d80b67970,PROMPT_READY
+ea0bd60f0fe3,/app/editorial-policy/page.tsx,hero,Editorial Policy,c18ba3fdce5e2d01599235cd021d47d8e00a4f097ca69c4baff73db38e90773a,PROMPT_READY
+61f1e745a320,/app/guides/page.tsx,hero,Renting Guides,4730e8223b88437f1355b078f0a1bda33b42d09c1251b7b39ea9884d892f7196,PROMPT_READY
+4964fa93b82d,/app/laws/page.tsx,hero,Tenant Rights & Laws,2e82d147290235f8ff60a2c4675b9c7ee6b0c071df4b397ee2598d0638c52bbd,PROMPT_READY
+c07510ec6488,/app/not-found.tsx,hero,Page Not Found,9aed1a4f49f9817916c4efa903497c99aa21c419b71e18accdfed02dc9a38f17,PROMPT_READY
+b6f319927ea0,/app/page.tsx,hero,Ready to Take Control of Your Renting,11f4d9feb404bfaef744b078d644246cb482c9e2c9051bdf8eafcfbf84dea16e,PROMPT_READY
+daa00c36c4f4,/app/resources/page.tsx,hero,Resources,8be6a0c533f8b561db6fd0412d0ccf6bcab3564b5c4260ff256269a292a46de6,PROMPT_READY
+d541b29569b4,/app/sitemap/page.tsx,hero,Sitemap,861a9a172ec048d6211b60c0158d821afdc6e2d5aa5d7c5e0d428d25dfe58333,PROMPT_READY
+ce5f731a2063,/app/tools/hidden-fees-estimator/page.tsx,hero,Hidden Fees Estimator,98a66afaceb8fa6c99fc4865fce8e41ceb686bd9158e1091da7108f6e7502cd3,PROMPT_READY
+00709d673314,/app/tools/lease-red-flag-scanner/page.tsx,hero,Lease Red Flag Scanner,461b1ca3709a5d79df76fa21ab671b6c4dd78805b3db828584f6d94449fd3f35,PROMPT_READY
+763296c69d60,/app/tools/page.tsx,hero,Rent Toolbelt,c869abcf35d3c037f0c1801980124ac60b5a0ddef0d3237c966763749940aafe,PROMPT_READY
+3c475e1219a9,/app/tools/rent-budget-checker/page.tsx,hero,Rent Budget Checker,1793a62ad512a25827cefbb7c565ce86cd1661299cd74265400948e020dc6cc3,PROMPT_READY
+1e64bf30dda2,/app/about/page.tsx,inline-6,"10,000+ Contracts Analyzed",810f438ca3e87fa85b820df0e581395dce4b3306439641461170a0256b5b0026,PROMPT_READY
+26d01f7685ab,/app/about/page.tsx,inline-7,Our Promise to You,44f443e851b12f3299c7e867c91191455c35ab1454c2e0581111f5bfd9570c26,PROMPT_READY
+2a4d5a3f6292,/app/about/page.tsx,inline-10,Independent and renter-first,5247722748a188da692d1b1507b67c200cd7ba034639d17e0b32d9be6cf9ec39,PROMPT_READY
+405e9ea29c84,/app/about/page.tsx,inline-1,We Know What It's Like,c72ed76cc8f92a4a02668adab0edd711f6192be6e7970a6d244d29d4c2bced91,PROMPT_READY

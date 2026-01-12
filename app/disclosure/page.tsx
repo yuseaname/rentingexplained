@@ -11,6 +11,7 @@ export default function DisclosurePage() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <h1 className="text-4xl font-bold mb-8">Disclosure</h1>
+<picture data-slot-id="b7d0e8766f71"><source type="image/webp" srcset="/images/rentingexplained-appdisclosurepagetsx-hero-b7d0e8766f71.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appdisclosurepagetsx-hero-b7d0e8766f71.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-sm text-gray-500">Last updated: January 2025</p>
           

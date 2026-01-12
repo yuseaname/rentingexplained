@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 5,
+  "anchor_selector": "h3",
+  "anchor_text": "Cost Summary",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/hidden-fees-estimator/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "e1d2c12256a1",
+  "slot_key": "inline-5"
+}

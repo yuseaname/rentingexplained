@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 16,
+  "anchor_selector": "h2",
+  "anchor_text": "Advertising & Monetization",
+  "insertion_mode": "after",
+  "page_path": "/app/editorial-policy/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "a440f946e8f0",
+  "slot_key": "inline-16"
+}

@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 6,
+  "anchor_selector": "h3",
+  "anchor_text": "Security Deposits and Evictions",
+  "insertion_mode": "after",
+  "page_path": "/app/laws/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "fc5d75545510",
+  "slot_key": "inline-6"
+}

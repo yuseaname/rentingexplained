@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 1,
+  "anchor_selector": "h2",
+  "anchor_text": "Get in Touch",
+  "insertion_mode": "after",
+  "page_path": "/app/contact/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "b57860490271",
+  "slot_key": "inline-1"
+}

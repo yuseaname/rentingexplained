@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 1,
+  "anchor_selector": "h2",
+  "anchor_text": "What Tenant Rights Cover",
+  "insertion_mode": "after",
+  "page_path": "/app/laws/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "f1fd8df739fd",
+  "slot_key": "inline-1"
+}

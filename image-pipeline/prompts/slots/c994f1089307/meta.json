@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 1,
+  "anchor_selector": "h2",
+  "anchor_text": "{tool.name}",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "c994f1089307",
+  "slot_key": "inline-1"
+}

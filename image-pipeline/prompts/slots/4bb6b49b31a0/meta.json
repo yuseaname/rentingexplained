@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 11,
+  "anchor_selector": "h2",
+  "anchor_text": "Free Products & Services",
+  "insertion_mode": "after",
+  "page_path": "/app/disclosure/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "4bb6b49b31a0",
+  "slot_key": "inline-11"
+}

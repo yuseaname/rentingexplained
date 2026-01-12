@@ -1,0 +1,164 @@
+{
+  "slots": [
+    {
+      "anchor_text": "We're Here to Guide You",
+      "page_path": "/app/about/page.tsx",
+      "prompt_hash": "6403d4879003ae8fe0c3bc5ba7215c99da6fa8324509eef5bf5f9946caee7580",
+      "slot_id": "d1162e5819dd",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Contact Us",
+      "page_path": "/app/contact/page.tsx",
+      "prompt_hash": "d0af20eb7995563cae569e6122ce0bc2436698c74f13286bc945dadb9b19d072",
+      "slot_id": "18f0f96cfacd",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Corrections",
+      "page_path": "/app/corrections/page.tsx",
+      "prompt_hash": "970f4b2b24ec9ea9926c4d3714d35f08f0bc8cb83dd63715c170652f521ffc14",
+      "slot_id": "e5b8c1d4b153",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Costs & Savings",
+      "page_path": "/app/costs/page.tsx",
+      "prompt_hash": "7667b97cda44342eb05974a2a713ef3d8a4bba973b462d8f0958102c3dcc9887",
+      "slot_id": "03d24de1aaff",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Disclosure",
+      "page_path": "/app/disclosure/page.tsx",
+      "prompt_hash": "dbe0eb1d126986747d0d9a2fce7bffeb75105359542d052eb2f4914d80b67970",
+      "slot_id": "b7d0e8766f71",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Editorial Policy",
+      "page_path": "/app/editorial-policy/page.tsx",
+      "prompt_hash": "c18ba3fdce5e2d01599235cd021d47d8e00a4f097ca69c4baff73db38e90773a",
+      "slot_id": "ea0bd60f0fe3",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Renting Guides",
+      "page_path": "/app/guides/page.tsx",
+      "prompt_hash": "4730e8223b88437f1355b078f0a1bda33b42d09c1251b7b39ea9884d892f7196",
+      "slot_id": "61f1e745a320",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Tenant Rights & Laws",
+      "page_path": "/app/laws/page.tsx",
+      "prompt_hash": "2e82d147290235f8ff60a2c4675b9c7ee6b0c071df4b397ee2598d0638c52bbd",
+      "slot_id": "4964fa93b82d",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Page Not Found",
+      "page_path": "/app/not-found.tsx",
+      "prompt_hash": "9aed1a4f49f9817916c4efa903497c99aa21c419b71e18accdfed02dc9a38f17",
+      "slot_id": "c07510ec6488",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Ready to Take Control of Your Renting",
+      "page_path": "/app/page.tsx",
+      "prompt_hash": "11f4d9feb404bfaef744b078d644246cb482c9e2c9051bdf8eafcfbf84dea16e",
+      "slot_id": "b6f319927ea0",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Resources",
+      "page_path": "/app/resources/page.tsx",
+      "prompt_hash": "8be6a0c533f8b561db6fd0412d0ccf6bcab3564b5c4260ff256269a292a46de6",
+      "slot_id": "daa00c36c4f4",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Sitemap",
+      "page_path": "/app/sitemap/page.tsx",
+      "prompt_hash": "861a9a172ec048d6211b60c0158d821afdc6e2d5aa5d7c5e0d428d25dfe58333",
+      "slot_id": "d541b29569b4",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Hidden Fees Estimator",
+      "page_path": "/app/tools/hidden-fees-estimator/page.tsx",
+      "prompt_hash": "98a66afaceb8fa6c99fc4865fce8e41ceb686bd9158e1091da7108f6e7502cd3",
+      "slot_id": "ce5f731a2063",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Lease Red Flag Scanner",
+      "page_path": "/app/tools/lease-red-flag-scanner/page.tsx",
+      "prompt_hash": "461b1ca3709a5d79df76fa21ab671b6c4dd78805b3db828584f6d94449fd3f35",
+      "slot_id": "00709d673314",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Rent Toolbelt",
+      "page_path": "/app/tools/page.tsx",
+      "prompt_hash": "c869abcf35d3c037f0c1801980124ac60b5a0ddef0d3237c966763749940aafe",
+      "slot_id": "763296c69d60",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Rent Budget Checker",
+      "page_path": "/app/tools/rent-budget-checker/page.tsx",
+      "prompt_hash": "1793a62ad512a25827cefbb7c565ce86cd1661299cd74265400948e020dc6cc3",
+      "slot_id": "3c475e1219a9",
+      "slot_key": "hero",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "10,000+ Contracts Analyzed",
+      "page_path": "/app/about/page.tsx",
+      "prompt_hash": "810f438ca3e87fa85b820df0e581395dce4b3306439641461170a0256b5b0026",
+      "slot_id": "1e64bf30dda2",
+      "slot_key": "inline-6",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Our Promise to You",
+      "page_path": "/app/about/page.tsx",
+      "prompt_hash": "44f443e851b12f3299c7e867c91191455c35ab1454c2e0581111f5bfd9570c26",
+      "slot_id": "26d01f7685ab",
+      "slot_key": "inline-7",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "Independent and renter-first",
+      "page_path": "/app/about/page.tsx",
+      "prompt_hash": "5247722748a188da692d1b1507b67c200cd7ba034639d17e0b32d9be6cf9ec39",
+      "slot_id": "2a4d5a3f6292",
+      "slot_key": "inline-10",
+      "status": "PROMPT_READY"
+    },
+    {
+      "anchor_text": "We Know What It's Like",
+      "page_path": "/app/about/page.tsx",
+      "prompt_hash": "c72ed76cc8f92a4a02668adab0edd711f6192be6e7970a6d244d29d4c2bced91",
+      "slot_id": "405e9ea29c84",
+      "slot_key": "inline-1",
+      "status": "PROMPT_READY"
+    }
+  ]
+}

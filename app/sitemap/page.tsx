@@ -48,6 +48,7 @@ export default function SitemapPage() {
       <div className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Sitemap</h1>
+<picture data-slot-id="d541b29569b4"><source type="image/webp" srcset="/images/rentingexplained-appsitemappagetsx-hero-d541b29569b4.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appsitemappagetsx-hero-d541b29569b4.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
           <p className="text-xl text-primary-100 max-w-2xl">
             Complete index of all content on RentingExplained.com
           </p>

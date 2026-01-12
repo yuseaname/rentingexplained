@@ -77,6 +77,7 @@ function RentBudgetCheckerContent() {
       <div className="bg-gradient-to-br from-green-600 to-emerald-700 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Rent Budget Checker</h1>
+<picture data-slot-id="3c475e1219a9"><source type="image/webp" srcset="/images/rentingexplained-apptoolsrent-budget-checkerpagetsx-hero-3c475e1219a9.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-apptoolsrent-budget-checkerpagetsx-hero-3c475e1219a9.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
           <p className="text-xl text-green-100 max-w-2xl">
             Estimate a rent range that fits your income and goals
           </p>

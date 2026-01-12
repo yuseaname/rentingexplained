@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 4,
+  "anchor_selector": "h3",
+  "anchor_text": "Corrections",
+  "insertion_mode": "after",
+  "page_path": "/app/contact/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "aaa923c00595",
+  "slot_key": "inline-4"
+}

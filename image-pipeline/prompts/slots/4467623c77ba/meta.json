@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 6,
+  "anchor_selector": "h2",
+  "anchor_text": "Manual Lease Checklist",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/lease-red-flag-scanner/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "4467623c77ba",
+  "slot_key": "inline-6"
+}

@@ -25,6 +25,9 @@ yarn-error.log*
 # local env files
 .env*.local
 .env.production
+.env
+.env.*
+!.env.example
 
 # vercel
 .vercel
@@ -73,3 +76,7 @@ scripts/__pycache__/
 *.pyo
 *.bak
 youtube_embed_report.json
+
+# Image pipeline
+/image-pipeline/generated/
+__pycache__/

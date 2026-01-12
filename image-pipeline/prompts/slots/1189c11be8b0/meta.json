@@ -1,0 +1,15 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 1,
+  "anchor_selector": "h2",
+  "anchor_text": "Popular Resources",
+  "insertion_mode": "after",
+  "page_path": "/app/not-found.tsx",
+  "priority_level": 2,
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 1,
+  "slot_id": "1189c11be8b0",
+  "slot_key": "inline-1"
+}

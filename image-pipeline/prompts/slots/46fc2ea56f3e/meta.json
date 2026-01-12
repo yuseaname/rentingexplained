@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 10,
+  "anchor_selector": "h2",
+  "anchor_text": "Product Reviews",
+  "insertion_mode": "after",
+  "page_path": "/app/disclosure/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "46fc2ea56f3e",
+  "slot_key": "inline-10"
+}

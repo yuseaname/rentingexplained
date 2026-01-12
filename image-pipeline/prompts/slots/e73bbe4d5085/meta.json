@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 6,
+  "anchor_selector": "h3",
+  "anchor_text": "Not Considered Errors:",
+  "insertion_mode": "after",
+  "page_path": "/app/corrections/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "e73bbe4d5085",
+  "slot_key": "inline-6"
+}

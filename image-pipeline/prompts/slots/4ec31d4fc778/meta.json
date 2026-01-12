@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 2,
+  "anchor_selector": "h2",
+  "anchor_text": "How to Report an Error",
+  "insertion_mode": "after",
+  "page_path": "/app/corrections/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "4ec31d4fc778",
+  "slot_key": "inline-2"
+}

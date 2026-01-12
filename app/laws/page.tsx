@@ -13,6 +13,7 @@ export default function LawsPage() {
       <div className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Tenant Rights & Laws</h1>
+<picture data-slot-id="4964fa93b82d"><source type="image/webp" srcset="/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
           <p className="text-xl text-primary-100 max-w-2xl">
             Know your rights and legal protections as a renter
           </p>

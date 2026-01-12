@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 2,
+  "anchor_selector": "h2",
+  "anchor_text": "Add Your Lease Text",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/lease-red-flag-scanner/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "e0d008e72d12",
+  "slot_key": "inline-2"
+}

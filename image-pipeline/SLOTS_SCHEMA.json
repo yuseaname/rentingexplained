@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "slot_id": {"type": "string"},
+    "page_path": {"type": "string"},
+    "anchor_text": {"type": "string"},
+    "anchor_selector": {"type": "string"},
+    "anchor_index": {"type": "integer"},
+    "insertion_mode": {"type": "string"},
+    "slot_key": {"type": "string"},
+    "priority_level": {"type": "integer"},
+    "ad_proximity_risk": {"type": "boolean"},
+    "risk_score": {"type": "integer"},
+    "risk_factors": {"type": "array", "items": {"type": "string"}},
+    "prompt": {"type": "string"},
+    "prompt_hash": {"type": "string"}
+  },
+  "required": ["slot_id", "page_path", "anchor_text", "anchor_selector", "anchor_index", "insertion_mode", "slot_key"]
+}

@@ -308,6 +308,7 @@ export default function LeaseRedFlagScanner() {
       <div className="bg-gradient-to-br from-orange-600 to-red-700 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Lease Red Flag Scanner</h1>
+<picture data-slot-id="00709d673314"><source type="image/webp" srcset="/images/rentingexplained-apptoolslease-red-flag-scannerpagetsx-hero-00709d673314.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-apptoolslease-red-flag-scannerpagetsx-hero-00709d673314.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
           <p className="text-xl text-orange-100 max-w-2xl">
             Paste your lease or upload a PDF to flag common clauses that deserve a second look.
           </p>

@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 9,
+  "anchor_selector": "h3",
+  "anchor_text": "After Publication",
+  "insertion_mode": "after",
+  "page_path": "/app/editorial-policy/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "f9610f4c4bbd",
+  "slot_key": "inline-9"
+}

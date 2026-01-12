@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 13,
+  "anchor_selector": "h3",
+  "anchor_text": "Hidden Fees Estimator",
+  "insertion_mode": "after",
+  "page_path": "/app/costs/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "01a2a1ef60b0",
+  "slot_key": "inline-13"
+}

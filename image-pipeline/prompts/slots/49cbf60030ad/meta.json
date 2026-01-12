@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 14,
+  "anchor_selector": "h2",
+  "anchor_text": "Ready to Take Control",
+  "insertion_mode": "after",
+  "page_path": "/app/about/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "49cbf60030ad",
+  "slot_key": "inline-14"
+}

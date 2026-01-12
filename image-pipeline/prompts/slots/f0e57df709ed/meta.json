@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 3,
+  "anchor_selector": "h3",
+  "anchor_text": "Upload a PDF",
+  "insertion_mode": "after",
+  "page_path": "/app/tools/lease-red-flag-scanner/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "f0e57df709ed",
+  "slot_key": "inline-3"
+}

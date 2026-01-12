@@ -13,6 +13,7 @@ export default function AboutPage() {
       <div className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">We're Here to Guide You</h1>
+<picture data-slot-id="d1162e5819dd"><source type="image/webp" srcset="/images/rentingexplained-appaboutpagetsx-hero-d1162e5819dd.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appaboutpagetsx-hero-d1162e5819dd.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
           <p className="text-xl text-primary-100 max-w-2xl">
             Because every renter deserves clear, honest information and protection from predatory practices
           </p>
@@ -38,6 +39,7 @@ export default function AboutPage() {
           {/* Authority & Promise */}
           <div className="bg-gradient-to-br from-primary-50 to-blue-50 rounded-xl p-8 mb-8 border-2 border-primary-200">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Why You Can Trust Us</h2>
+<picture data-slot-id="405e9ea29c84"><source type="image/webp" srcset="/images/rentingexplained-appaboutpagetsx-inline-1-405e9ea29c84.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appaboutpagetsx-inline-1-405e9ea29c84.png" width="1792" height="1024" loading="lazy" decoding="async"  /></picture>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div className="flex items-start">
                 <Icon name="user" size={32} className="text-primary-700 mr-4 flex-shrink-0" />
@@ -73,6 +75,7 @@ export default function AboutPage() {
           {/* Our Promise (Agreement Plan) */}
           <div className="bg-white rounded-xl shadow-md p-8 mb-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Promise to You</h2>
+<picture data-slot-id="26d01f7685ab"><source type="image/webp" srcset="/images/rentingexplained-appaboutpagetsx-inline-7-26d01f7685ab.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appaboutpagetsx-inline-7-26d01f7685ab.png" width="1792" height="1024" loading="lazy" decoding="async"  /></picture>
             <div className="space-y-4">
               <div className="flex items-start">
                 <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -98,6 +101,8 @@ export default function AboutPage() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Independent and renter-first</h3>
+<picture data-slot-id="2a4d5a3f6292"><source type="image/webp" srcset="/images/rentingexplained-appaboutpagetsx-inline-10-2a4d5a3f6292.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appaboutpagetsx-inline-10-2a4d5a3f6292.png" width="1792" height="1024" loading="lazy" decoding="async"  /></picture>
+<picture data-slot-id="1e64bf30dda2"><source type="image/webp" srcset="/images/rentingexplained-appaboutpagetsx-inline-6-1e64bf30dda2.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appaboutpagetsx-inline-6-1e64bf30dda2.png" width="1792" height="1024" loading="lazy" decoding="async"  /></picture>
                   <p className="text-gray-700">We are funded by ethical affiliate partners, not landlords. Your interests come first.</p>
                 </div>
               </div>

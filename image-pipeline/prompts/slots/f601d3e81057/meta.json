@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": true,
+  "anchor_index": 2,
+  "anchor_selector": "h2",
+  "anchor_text": "Advertising",
+  "insertion_mode": "after",
+  "page_path": "/app/disclosure/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "f601d3e81057",
+  "slot_key": "inline-2"
+}

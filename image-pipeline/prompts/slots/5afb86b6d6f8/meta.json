@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 2,
+  "anchor_selector": "h2",
+  "anchor_text": "All Articles",
+  "insertion_mode": "after",
+  "page_path": "/app/sitemap/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "5afb86b6d6f8",
+  "slot_key": "inline-2"
+}

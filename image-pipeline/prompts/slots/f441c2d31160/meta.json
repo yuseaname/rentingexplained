@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 10,
+  "anchor_selector": "h3",
+  "anchor_text": "Rent Increase Notice Response",
+  "insertion_mode": "after",
+  "page_path": "/app/costs/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "f441c2d31160",
+  "slot_key": "inline-10"
+}

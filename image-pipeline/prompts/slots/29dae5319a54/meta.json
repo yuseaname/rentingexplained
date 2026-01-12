@@ -1,0 +1,13 @@
+{
+  "ad_proximity_risk": false,
+  "anchor_index": 1,
+  "anchor_selector": "h2",
+  "anchor_text": "Your Rental Financial Hub",
+  "insertion_mode": "after",
+  "page_path": "/app/costs/page.tsx",
+  "priority_level": 2,
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "29dae5319a54",
+  "slot_key": "inline-1"
+}

@@ -1,0 +1,75 @@
+content_roots:
+  - app
+build_dirs:
+  - .next
+  - out
+  - build
+  - dist
+  - coverage
+exclude_dirs:
+  - .git
+  - node_modules
+  - .next
+  - out
+  - build
+  - dist
+  - coverage
+  - image-pipeline
+  - content
+  - content-planning
+  - prompts-transformed
+ad_marker_patterns:
+  - ad
+  - ads
+  - sponsor
+  - sponsored
+  - affiliate
+  - promotion
+images_dest_candidates:
+  - public/images
+  - public/assets/images
+  - assets/images
+pipeline:
+  top_n: 20
+allow_markdown_placement: plan-only
+brand:
+  site_slug: rentingexplained
+  style_keywords:
+    - photorealistic
+    - natural lighting
+  prohibited_keywords:
+    - logo
+    - brand
+    - watermark
+output_formats:
+  - webp
+  - png
+max_inline_images_per_1200_words: 2
+exclude_page_path_patterns:
+  - /privacy
+  - /terms
+  - /blog/
+  - /content/
+  - /ARTICLES-COMPLETE.md
+exclude_page_heading_patterns:
+  - /legal
+unique_composition_guardrail: true
+default_model: gpt-image-1
+default_quality: medium
+default_size: 1536x1024
+domain_constraints:
+  alarms:
+    enabled: true
+    keywords:
+      - smoke alarm
+      - carbon monoxide
+      - co alarm
+      - fire alarm
+      - alarm beeping
+      - detector
+    constraints:
+      - alarms are ceiling/wall mounted
+      - no alarms placed on ovens/stoves/counters
+      - alarms are realistic white plastic devices
+      - if kitchen visible, alarm high on wall/ceiling
+      - avoid ad-like imagery and staged product shots
