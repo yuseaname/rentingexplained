@@ -11,7 +11,7 @@ export default function EditorialPolicyPage() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <h1 className="text-4xl font-bold mb-8">Editorial Policy</h1>
-<picture data-slot-id="ea0bd60f0fe3"><source type="image/webp" srcset="/images/rentingexplained-appeditorial-policypagetsx-hero-ea0bd60f0fe3.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appeditorial-policypagetsx-hero-ea0bd60f0fe3.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
+<picture data-slot-id="ea0bd60f0fe3"><source type="image/webp" srcSet="/images/rentingexplained-appeditorial-policypagetsx-hero-ea0bd60f0fe3.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appeditorial-policypagetsx-hero-ea0bd60f0fe3.png" width="1792" height="1024" loading="eager" decoding="auto" fetchPriority="high" /></picture>
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-sm text-gray-500">Last updated: January 2025</p>
           

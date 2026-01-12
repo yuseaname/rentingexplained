@@ -77,7 +77,7 @@ export default function HiddenFeesEstimator() {
       <div className="bg-gradient-to-br from-blue-600 to-cyan-700 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Hidden Fees Estimator</h1>
-<picture data-slot-id="ce5f731a2063"><source type="image/webp" srcset="/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
+<picture data-slot-id="ce5f731a2063"><source type="image/webp" srcSet="/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.png" width="1792" height="1024" loading="eager" decoding="auto" fetchPriority="high" /></picture>
           <p className="text-xl text-blue-100 max-w-2xl">
             Discover the true cost of renting with all fees included
           </p>

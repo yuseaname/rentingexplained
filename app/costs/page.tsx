@@ -14,7 +14,7 @@ export default function CostsPage() {
       <div className="bg-gradient-to-br from-green-600 to-emerald-700 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Costs & Savings</h1>
-<picture data-slot-id="03d24de1aaff"><source type="image/webp" srcset="/images/rentingexplained-appcostspagetsx-hero-03d24de1aaff.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appcostspagetsx-hero-03d24de1aaff.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
+<picture data-slot-id="03d24de1aaff"><source type="image/webp" srcSet="/images/rentingexplained-appcostspagetsx-hero-03d24de1aaff.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appcostspagetsx-hero-03d24de1aaff.png" width="1792" height="1024" loading="eager" decoding="auto" fetchPriority="high" /></picture>
           <p className="text-xl text-green-100 max-w-2xl">
             Money-saving strategies and cost breakdowns for smart renters
           </p>

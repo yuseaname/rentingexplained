@@ -47,7 +47,7 @@ export default function ResourcesPage() {
       <div className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Resources</h1>
-<picture data-slot-id="daa00c36c4f4"><source type="image/webp" srcset="/images/rentingexplained-appresourcespagetsx-hero-daa00c36c4f4.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appresourcespagetsx-hero-daa00c36c4f4.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
+<picture data-slot-id="daa00c36c4f4"><source type="image/webp" srcSet="/images/rentingexplained-appresourcespagetsx-hero-daa00c36c4f4.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appresourcespagetsx-hero-daa00c36c4f4.png" width="1792" height="1024" loading="eager" decoding="auto" fetchPriority="high" /></picture>
           <p className="text-xl text-primary-100 max-w-2xl">
             Free downloads, templates, and tools to help you rent smarter
           </p>

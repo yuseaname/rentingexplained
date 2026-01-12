@@ -11,7 +11,7 @@ export default function CorrectionsPage() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <h1 className="text-4xl font-bold mb-8">Corrections</h1>
-<picture data-slot-id="e5b8c1d4b153"><source type="image/webp" srcset="/images/rentingexplained-appcorrectionspagetsx-hero-e5b8c1d4b153.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appcorrectionspagetsx-hero-e5b8c1d4b153.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
+<picture data-slot-id="e5b8c1d4b153"><source type="image/webp" srcSet="/images/rentingexplained-appcorrectionspagetsx-hero-e5b8c1d4b153.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appcorrectionspagetsx-hero-e5b8c1d4b153.png" width="1792" height="1024" loading="eager" decoding="auto" fetchPriority="high" /></picture>
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-sm text-gray-500">Last updated: January 2025</p>
           

@@ -50,15 +50,25 @@ def filename_from_path(path_str: str) -> str:
     return Path(path_str).name
 
 
-def build_picture_tag(slot_id: str, src_webp: str, src_png: str, width: int, height: int, eager: bool) -> str:
+def build_picture_tag(
+    slot_id: str,
+    src_webp: str,
+    src_png: str,
+    width: int,
+    height: int,
+    eager: bool,
+    jsx: bool,
+) -> str:
     loading = "eager" if eager else "lazy"
     decoding = "auto" if eager else "async"
-    fetchpriority = "fetchpriority=\"high\"" if eager else ""
+    fetch_attr = "fetchPriority" if jsx else "fetchpriority"
+    srcset_attr = "srcSet" if jsx else "srcset"
+    fetchpriority = f" {fetch_attr}=\"high\"" if eager else ""
     sizes = "(min-width: 960px) 960px, 100vw"
     return (
         f"<picture data-slot-id=\"{slot_id}\">"
-        f"<source type=\"image/webp\" srcset=\"{src_webp}\" sizes=\"{sizes}\" />"
-        f"<img src=\"{src_png}\" width=\"{width}\" height=\"{height}\" loading=\"{loading}\" decoding=\"{decoding}\" {fetchpriority} />"
+        f"<source type=\"image/webp\" {srcset_attr}=\"{src_webp}\" sizes=\"{sizes}\" />"
+        f"<img src=\"{src_png}\" width=\"{width}\" height=\"{height}\" loading=\"{loading}\" decoding=\"{decoding}\"{fetchpriority} />"
         f"</picture>"
     )
 
@@ -185,6 +195,7 @@ def main() -> None:
         src_webp_url = f"{public_prefix}/{dest_webp.name}"
         src_png_url = f"{public_prefix}/{dest_png.name}"
 
+        jsx = ext in {".jsx", ".tsx", ".js", ".ts", ".mdx"}
         picture = build_picture_tag(
             slot_id=slot_id,
             src_webp=src_webp_url,
@@ -192,9 +203,14 @@ def main() -> None:
             width=gen_meta.get("width", 1024),
             height=gen_meta.get("height", 768),
             eager=eager,
+            jsx=jsx,
         )
 
-        planned_text = text[: match.end()] + "\n" + picture + text[match.end() :]
+        existing_pattern = re.compile(rf"<picture data-slot-id=\"{slot_id}\">.*?</picture>", re.DOTALL)
+        if existing_pattern.search(text):
+            planned_text = existing_pattern.sub(picture, text)
+        else:
+            planned_text = text[: match.end()] + "\n" + picture + text[match.end() :]
 
         placements.append({
             "slot_id": slot_id,

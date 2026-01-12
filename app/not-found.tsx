@@ -6,7 +6,7 @@ export default function NotFound() {
       <div className="max-w-2xl mx-auto text-center">
         <div className="text-9xl font-bold text-primary-600 mb-4">404</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Page Not Found</h1>
-<picture data-slot-id="c07510ec6488"><source type="image/webp" srcset="/images/rentingexplained-appnot-foundtsx-hero-c07510ec6488.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appnot-foundtsx-hero-c07510ec6488.png" width="1792" height="1024" loading="eager" decoding="auto" fetchpriority="high" /></picture>
+<picture data-slot-id="c07510ec6488"><source type="image/webp" srcSet="/images/rentingexplained-appnot-foundtsx-hero-c07510ec6488.webp" sizes="(min-width: 960px) 960px, 100vw" /><img src="/images/rentingexplained-appnot-foundtsx-hero-c07510ec6488.png" width="1792" height="1024" loading="eager" decoding="auto" fetchPriority="high" /></picture>
         <p className="text-xl text-gray-600 mb-8">
           Sorry, we couldn't find the page you're looking for. It may have been moved or deleted.
         </p>
