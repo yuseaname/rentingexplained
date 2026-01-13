@@ -3,6 +3,22 @@ import Link from 'next/link';
 export default function HeroSection() {
   return (
     <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white overflow-hidden">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 opacity-20">
+        <picture data-slot-id="home-hero-main">
+          <source type="image/webp" srcSet="/images/rentingexplained-home-hero.webp" sizes="100vw" />
+          <img 
+            src="/images/rentingexplained-home-hero.png" 
+            alt="Professional renting guidance and tools"
+            className="w-full h-full object-cover"
+            width="1792" 
+            height="1024" 
+            loading="eager" 
+            decoding="auto" 
+            fetchPriority="high"
+          />
+        </picture>
+      </div>
       <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:30px_30px]" />
       <div className="relative container mx-auto px-4 py-20 md:py-28">
         <div className="max-w-4xl mx-auto text-center">
