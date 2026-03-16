@@ -32,30 +32,17 @@ jobs:
       - name: Create deployment package
         run: |
           mkdir -p deploy-package
-          
-          # Copy standalone build (this includes server.js)
           cp -r .next/standalone/* deploy-package/
-          
-          # CRITICAL: Copy static files to the correct location for standalone
-          # Standalone needs static files at .next/static relative to server
           mkdir -p deploy-package/.next
           cp -r .next/static deploy-package/.next/static
-          
-          # Copy public folder
           if [ -d "public" ]; then
             cp -r public deploy-package/public
           fi
-          
-          # Keep the standalone server.js so Next uses the baked config
-          
-          # Copy ecosystem config for PM2
           cp ecosystem.config.js deploy-package/
-          
-          # Create .env.production
           cat > deploy-package/.env.production << EOF
           NODE_ENV=production
           NEXT_PUBLIC_SITE_URL=${{ secrets.SITE_URL }}
-          PORT=${{ secrets.HOSTINGER_PORT || '3000' }}
+          PORT=${{ secrets.HOSTINGER_PORT }}
           EOF
 
       - name: Create deployment archive
@@ -69,6 +56,7 @@ jobs:
         with:
           username: ${{ secrets.HOSTINGER_SSH_USER }}
           server: ${{ secrets.HOSTINGER_SSH_HOST }}
+          port: ${{ secrets.HOSTINGER_SSH_PORT }}
           ssh_private_key: ${{ secrets.HOSTINGER_SSH_KEY }}
           local_path: './deployment.tar.gz'
           remote_path: ${{ secrets.HOSTINGER_REMOTE_PATH }}
@@ -80,32 +68,20 @@ jobs:
           host: ${{ secrets.HOSTINGER_SSH_HOST }}
           username: ${{ secrets.HOSTINGER_SSH_USER }}
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
+          port: ${{ secrets.HOSTINGER_SSH_PORT }}
           script: |
+            mkdir -p ${{ secrets.HOSTINGER_APP_PATH }}
             cd ${{ secrets.HOSTINGER_APP_PATH }}
-            
-            # Backup current deployment
             if [ -d "current" ]; then
               mv current backup-$(date +%Y%m%d-%H%M%S)
             fi
-            
-            # Create new deployment directory
             mkdir -p current
-            
-            # Extract deployment
             tar -xzf ${{ secrets.HOSTINGER_REMOTE_PATH }}/deployment.tar.gz -C current/
-            
-            # Install production dependencies
             cd current
             npm ci --omit=dev
-            
-            # Restart application with PM2
             pm2 restart ecosystem.config.js --env production || pm2 start ecosystem.config.js --env production
-            
-            # Clean up old backups (keep last 3)
             cd ..
             ls -t | grep backup | tail -n +4 | xargs -r rm -rf
-            
-            echo "Deployment completed successfully!"
 
       - name: Health check
         run: |
