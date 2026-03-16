@@ -421,6 +421,21 @@ export const articles: Article[] = [
     imageAlt: 'Modern house with for sale sign',
     imageCredit: 'Photo by Breno Assis on Unsplash',
   },
+  {
+    slug: 'apartment-lease-agreement-explained',
+    title: 'Apartment Lease Agreement Explained: Key Clauses Every Renter Should Know',
+    description: 'Understand every section of your apartment lease before signing. This plain-English guide explains key clauses, red flags, and what to negotiate.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-03-15T10:00:00Z',
+    lastModified: '2026-03-15T10:00:00Z',
+    category: 'Legal Rights',
+    tags: ['lease-agreement', 'tenant-rights', 'signing-lease', 'apartment-hunting', 'legal'],
+    readingTime: 9,
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop',
+    imageAlt: 'Person carefully reading a lease agreement document at a desk',
+    imageCredit: 'Photo by Scott Graham on Unsplash',
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
