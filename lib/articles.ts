@@ -466,6 +466,21 @@ export const articles: Article[] = [
     imageAlt: 'Landlord knocking on apartment door with clipboard',
     imageCredit: 'Photo by Unsplash',
   },
+  {
+    slug: 'section-8-housing-vouchers-explained',
+    title: 'Section 8 Housing Vouchers Explained: How to Apply and What to Expect',
+    description: 'Everything you need to know about Section 8 housing vouchers: how they work, how to apply, waitlist times, and finding an apartment.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-03-16T10:00:00Z',
+    lastModified: '2026-03-16T10:00:00Z',
+    category: 'Affordable Housing',
+    tags: ['section-8', 'housing-vouchers', 'affordable-housing', 'tenant-rights', 'government-assistance'],
+    readingTime: 11,
+    image: '/images/affordable-housing/section-8-housing-vouchers/section-8-housing-vouchers-hero.webp',
+    imageAlt: 'Affordable housing apartment building with rental voucher concept',
+    imageCredit: 'Photo by Unsplash',
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
