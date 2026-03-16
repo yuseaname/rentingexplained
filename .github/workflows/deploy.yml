@@ -32,12 +32,15 @@ jobs:
       - name: Create deployment package
         run: |
           mkdir -p deploy-package
-          cp -r .next/standalone/* deploy-package/
-          mkdir -p deploy-package/.next
+          # Use tar to copy standalone including hidden dirs (.next/)
+          tar cf - -C .next/standalone . | tar xf - -C deploy-package/
+          # Add static assets (not included in standalone)
           cp -r .next/static deploy-package/.next/static
+          # Add public folder
           [ -d "public" ] && cp -r public deploy-package/public
           cp ecosystem.config.js deploy-package/
           printf 'NODE_ENV=production\nNEXT_PUBLIC_SITE_URL=${{ secrets.SITE_URL }}\nPORT=${{ secrets.HOSTINGER_PORT }}\n' > deploy-package/.env.production
+          echo "=== Build ID ===" && cat .next/BUILD_ID
           tar -czf deployment.tar.gz -C deploy-package .
 
       - name: Setup SSH key
@@ -71,6 +74,7 @@ jobs:
             mkdir -p tmp
             touch tmp/restart.txt
             rm -f ~/deployment.tar.gz
+            cat .next/BUILD_ID
             echo "Deployment completed successfully!"
 
       - name: Health check
