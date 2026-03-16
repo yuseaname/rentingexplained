@@ -40,6 +40,7 @@ import ApartmentApprovalRequirements from '@/content/apartment-approval-requirem
 import ProofOfIncomeForApartments from '@/content/proof-of-income-for-apartments';
 import MinimumIncomeToRentApartment from '@/content/minimum-income-to-rent-apartment';
 import ApartmentLeaseAgreementExplained from '@/content/apartment-lease-agreement-explained';
+import LandlordEntryNoticeRequirements from '@/content/landlord-entry-notice-requirements';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -71,6 +72,7 @@ const contentComponents: Record<string, React.ComponentType> = {
   'proof-of-income-for-apartments': ProofOfIncomeForApartments,
   'minimum-income-to-rent-apartment': MinimumIncomeToRentApartment,
   'apartment-lease-agreement-explained': ApartmentLeaseAgreementExplained,
+  'landlord-entry-notice-requirements': LandlordEntryNoticeRequirements,
 };
 
 export async function generateStaticParams() {

@@ -451,6 +451,21 @@ export const articles: Article[] = [
     imageAlt: 'Person carefully reading a lease agreement document at a desk',
     imageCredit: 'Photo by Scott Graham on Unsplash',
   },
+  {
+    slug: 'landlord-entry-notice-requirements',
+    title: 'Landlord Notice to Enter: How Much Notice Is Required? (2026)',
+    description: 'Learn how much notice your landlord must give before entering your apartment, when emergency entry is allowed, and what to do if they violate your rights.',
+    content: '',
+    author: 'RentingExplained Editorial Team',
+    publishDate: '2026-03-15T10:00:00Z',
+    lastModified: '2026-03-15T10:00:00Z',
+    category: 'Legal Rights',
+    tags: ['tenant-rights', 'landlord-entry', 'notice-to-enter', 'legal', 'lease-agreement'],
+    readingTime: 10,
+    image: '/images/legal-rights/landlord-entry-notice-requirements/landlord-entry-notice-hero.webp',
+    imageAlt: 'Landlord knocking on apartment door with clipboard',
+    imageCredit: 'Photo by Unsplash',
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
