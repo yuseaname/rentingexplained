@@ -8,7 +8,7 @@ Please note that this information is for educational purposes. Landlord-tenant l
 
 Before you even get to the lease, ensure your paperwork is ready. A strong background starts with a well-prepared [rental application](/blog/rental-application-checklist).
 
-<!-- IMAGE: hero — 1200x630 — renter sitting at a desk carefully reading a lease document, natural light, calm focus -->
+![Young renter carefully reading an apartment lease agreement at a clean desk with natural light](/images/apartment-lease-agreement-explained/hero.jpg)
 
 ## Key Takeaways
 
@@ -80,7 +80,7 @@ This is one of the most costly sections. It outlines the fees or penalties if yo
 
 Some leases allow termination without penalty under specific circumstances, like job relocation or military deployment. Knowing the exact cost of [breaking a lease early](/blog/breaking-a-lease-without-penalty-2025) prevents financial surprises. Always negotiate this clause if you foresee instability in your living situation.
 
-<!-- IMAGE: comparison-infographic — 1200x800 — cheat sheet of the 10 key lease clauses with icons -->
+![Infographic showing 5 key sections of an apartment lease agreement](/images/apartment-lease-agreement-explained/infographic.jpg)
 
 ## Red Flags in a Lease Agreement
 
@@ -108,7 +108,7 @@ Reviewing a lease takes time. Do not rush through it during the office visit. Ta
 4.  **Check State Laws:** Compare the lease terms with your local tenant rights resources. Ensure the contract does not violate local regulations.
 5.  **Sign Carefully:** Sign only the name on the lease. Initial every page and page number to confirm you have read the whole document.
 
-<!-- IMAGE: process-diagram — 800x600 — 5-step process for reviewing a lease before signing -->
+![5-step process diagram for reviewing an apartment lease before signing](/images/apartment-lease-agreement-explained/process-diagram.jpg)
 
 ## Frequently Asked Questions
 
@@ -124,7 +124,7 @@ If a lease clause violates state or federal law, that specific clause is usually
 **How long should I keep my signed lease?**
 Keep a copy of your signed lease and all related correspondence for the entire duration of your tenancy. You should retain these documents for at least one year after you move out. This is useful for proving deposit deductions were incorrect or disputing lease violations later.
 
-<!-- IMAGE: faq-illustration — 800x600 — close-up of fine print with a magnifying glass, illustrating what to look for -->
+![Renter asking a landlord questions about a lease agreement](/images/apartment-lease-agreement-explained/faq.jpg)
 
 ## Conclusion
 
