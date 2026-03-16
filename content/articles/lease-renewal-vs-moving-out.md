@@ -2,7 +2,7 @@
 
 Deciding whether to renew your lease or move is primarily a math problem wrapped in lifestyle choices. Staying makes sense if your current rent is below market rate even after an increase, while moving is better if the savings outweigh the hassle and upfront costs of relocation. Ultimately, the right call balances your budget against your need for stability and comfort.
 
-<!-- IMAGE: hero — 1200x630 — Person sitting at a table reviewing lease documents with a pen, warm apartment background, thoughtful expression -->
+![Renter reviewing lease renewal documents at kitchen table in a modern apartment](/images/lease-renewal/hero.jpg)
 
 ## The Key Factors to Weigh Before Deciding
 
@@ -17,7 +17,7 @@ Money isn't everything. Consider your commute time, proximity to work, and neigh
 **Lease Terms and Negotiation Potential**
 Sometimes the rent is the same, but the terms change. A new lease might add strict guest policies, pet fees, or parking rules that didn't exist before. Review the proposed renewal carefully. If the terms are fair and the landlord is responsive, staying is low-risk. If the landlord has been unresponsive to repairs, a new lease locks you into a difficult relationship for another year.
 
-<!-- IMAGE: comparison-infographic — 1200x800 — Side-by-side comparison: "Renew Lease" vs "Move Out" with cost breakdown columns -->
+![Comparison infographic showing the cost difference between renewing a lease and moving out](/images/lease-renewal/comparison.jpg)
 
 ## How Much Does Moving Out Actually Cost?
 
@@ -45,7 +45,7 @@ Beyond the line items above, consider the "lost productivity" cost. Moving takes
 **The Break-Even Point**
 To justify moving, the monthly rent savings must cover these upfront costs. If moving saves you $200 a month, it will take over 20 months to recoup a $4,350 moving cost. You need a savings of at least $300–$400 per month to make the move financially viable within a single lease year.
 
-<!-- IMAGE: process-diagram — 900x600 — Step-by-step decision flowchart: factors pointing to Renew or Move -->
+![Decision flowchart for deciding whether to renew your lease or move out](/images/lease-renewal/flowchart.jpg)
 
 ## Is Your Rent Increase Worth Fighting?
 
@@ -101,7 +101,7 @@ Don't negotiate blind. Have three or four links to similar apartments in the are
 **What Not to Do**
 Never threaten to move out immediately unless you are truly ready to do it. Landlords can sense bluffing, and it damages the relationship. Be polite but firm. For more scripts and tactics, see our [how to negotiate rent](/blog/how-to-negotiate-rent-guide) article.
 
-<!-- IMAGE: illustration — 800x600 — Renter and landlord shaking hands at a desk with lease papers, modern apartment visible through window -->
+![Renter and landlord shaking hands after successful lease renewal negotiation](/images/lease-renewal/negotiation.jpg)
 
 ## How to Give Notice If You're Moving Out
 
@@ -150,7 +150,7 @@ If they refuse, you can counter with a longer lease term (18-24 months) or reque
 **Is it worth moving to save $100/month?**
 Probably not after moving costs, which often range from $800 to $3,500. Savings of $200+ per month usually justify the move within a year.
 
-<!-- IMAGE: faq-illustration — 800x600 — Close-up of lease renewal paperwork on a desk, calculator, pen, and keys — calm and organized -->
+![Lease renewal paperwork with calculator, pen, and keys on a clean desk](/images/lease-renewal/faq.jpg)
 
 ## The Bottom Line
 
