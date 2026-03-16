@@ -10,7 +10,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,32 +35,25 @@ jobs:
           cp -r .next/standalone/* deploy-package/
           mkdir -p deploy-package/.next
           cp -r .next/static deploy-package/.next/static
-          if [ -d "public" ]; then
-            cp -r public deploy-package/public
-          fi
+          [ -d "public" ] && cp -r public deploy-package/public
           cp ecosystem.config.js deploy-package/
-          cat > deploy-package/.env.production << EOF
-          NODE_ENV=production
-          NEXT_PUBLIC_SITE_URL=${{ secrets.SITE_URL }}
-          PORT=${{ secrets.HOSTINGER_PORT }}
-          EOF
+          printf 'NODE_ENV=production\nNEXT_PUBLIC_SITE_URL=${{ secrets.SITE_URL }}\nPORT=${{ secrets.HOSTINGER_PORT }}\n' > deploy-package/.env.production
+          tar -czf deployment.tar.gz -C deploy-package .
 
-      - name: Create deployment archive
+      - name: Setup SSH key
         run: |
-          cd deploy-package
-          tar -czf ../deployment.tar.gz .
-          cd ..
+          mkdir -p ~/.ssh
+          printf '%s' '${{ secrets.HOSTINGER_SSH_KEY }}' > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p ${{ secrets.HOSTINGER_SSH_PORT }} -H ${{ secrets.HOSTINGER_SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
 
-      - name: Deploy to Hostinger via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          username: ${{ secrets.HOSTINGER_SSH_USER }}
-          server: ${{ secrets.HOSTINGER_SSH_HOST }}
-          port: ${{ secrets.HOSTINGER_SSH_PORT }}
-          ssh_private_key: ${{ secrets.HOSTINGER_SSH_KEY }}
-          local_path: './deployment.tar.gz'
-          remote_path: ${{ secrets.HOSTINGER_REMOTE_PATH }}
-          sftp_only: true
+      - name: Upload via SCP
+        run: |
+          scp -P ${{ secrets.HOSTINGER_SSH_PORT }} \
+              -i ~/.ssh/deploy_key \
+              -o StrictHostKeyChecking=no \
+              deployment.tar.gz \
+              ${{ secrets.HOSTINGER_SSH_USER }}@${{ secrets.HOSTINGER_SSH_HOST }}:~/deployment.tar.gz
 
       - name: Extract and restart application
         uses: appleboy/ssh-action@v1.0.0
@@ -70,20 +63,21 @@ jobs:
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
           script: |
-            mkdir -p ${{ secrets.HOSTINGER_APP_PATH }}
-            cd ${{ secrets.HOSTINGER_APP_PATH }}
-            if [ -d "current" ]; then
-              mv current backup-$(date +%Y%m%d-%H%M%S)
-            fi
+            APP="${{ secrets.HOSTINGER_APP_PATH }}"
+            mkdir -p "$APP"
+            cd "$APP"
+            [ -d current ] && mv current backup-$(date +%Y%m%d-%H%M%S)
             mkdir -p current
-            tar -xzf ${{ secrets.HOSTINGER_REMOTE_PATH }}/deployment.tar.gz -C current/
+            tar -xzf ~/deployment.tar.gz -C current/
             cd current
             npm ci --omit=dev
             pm2 restart ecosystem.config.js --env production || pm2 start ecosystem.config.js --env production
             cd ..
             ls -t | grep backup | tail -n +4 | xargs -r rm -rf
+            rm -f ~/deployment.tar.gz
+            echo "Deployment completed successfully!"
 
       - name: Health check
         run: |
-          sleep 10
+          sleep 15
           curl -f ${{ secrets.SITE_URL }} || exit 1
