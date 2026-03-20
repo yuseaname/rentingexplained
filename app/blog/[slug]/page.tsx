@@ -42,6 +42,8 @@ import MinimumIncomeToRentApartment from '@/content/minimum-income-to-rent-apart
 import ApartmentLeaseAgreementExplained from '@/content/apartment-lease-agreement-explained';
 import LandlordEntryNoticeRequirements from '@/content/landlord-entry-notice-requirements';
 import Section8HousingVouchersExplained from '@/content/section-8-housing-vouchers-explained';
+import HiddenApartmentFees from '@/content/hidden-apartment-fees';
+import HowToReportRentToCreditBureaus from '@/content/how-to-report-rent-to-credit-bureaus';
 
 const contentComponents: Record<string, React.ComponentType> = {
   'how-to-save-money-renting-2025': HowToSaveMoneyRenting2025,
@@ -75,6 +77,8 @@ const contentComponents: Record<string, React.ComponentType> = {
   'apartment-lease-agreement-explained': ApartmentLeaseAgreementExplained,
   'landlord-entry-notice-requirements': LandlordEntryNoticeRequirements,
   'section-8-housing-vouchers-explained': Section8HousingVouchersExplained,
+  'hidden-apartment-fees': HiddenApartmentFees,
+  'how-to-report-rent-to-credit-bureaus': HowToReportRentToCreditBureaus,
 };
 
 export async function generateStaticParams() {
