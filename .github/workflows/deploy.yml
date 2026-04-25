@@ -68,44 +68,28 @@ jobs:
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
           script: |
-            APP="${{ secrets.HOSTINGER_APP_PATH }}"
-            PORT="${{ secrets.HOSTINGER_PORT }}"
+            # Hostinger uses Phusion Passenger. Inspecting public_html/.htaccess
+            # shows: PassengerAppRoot /home/.../nodejs (sibling of public_html).
+            # So the app code must live in nodejs/, NOT public_html/. The
+            # HOSTINGER_APP_PATH secret currently points at public_html — derive
+            # the real Passenger app dir from it.
+            APP_HTML="${{ secrets.HOSTINGER_APP_PATH }}"
+            APP="$(dirname "$APP_HTML")/nodejs"
+            mkdir -p "$APP" "$APP/tmp" "$APP/logs"
             cd "$APP"
+            # Wipe everything except tmp/ and logs/ so old artifacts don't shadow
+            # the new build.
+            find "$APP" -mindepth 1 -maxdepth 1 ! -name 'tmp' ! -name 'logs' -exec rm -rf {} + 2>/dev/null || true
             tar -xzf ~/deployment.tar.gz -C "$APP/"
-            mkdir -p tmp logs
-            touch tmp/restart.txt
+            touch "$APP/tmp/restart.txt"
             rm -f ~/deployment.tar.gz
-            echo "=== BUILD_ID ===" && cat .next/BUILD_ID && echo
-            echo "=== .htaccess (proxy target) ==="
-            grep -E "RewriteRule|PassengerNodejs|PassengerAppRoot|PassengerStartupFile" .htaccess 2>/dev/null | sed "s/localhost:[0-9]\+/localhost:REDACTED/g" || true
-            echo "=== node processes for this user ==="
-            ps -u "$(id -un)" -o pid,etime,cmd 2>/dev/null | grep -E "node|npm" | grep -v grep || echo "none"
-            echo "=== port listeners ==="
-            (lsof -nP -i :"$PORT" 2>/dev/null || ss -ltnp 2>/dev/null | grep ":$PORT " || netstat -ltnp 2>/dev/null | grep ":$PORT ") | sed "s/$PORT/REDACTED/g" || echo "none"
-            echo "=== local probe ==="
-            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:${PORT}/" || echo "curl failed"
-            # If nothing is listening, manually spawn the standalone server
-            # detached from this SSH session via setsid + nohup.
-            if ! curl -sf -o /dev/null --max-time 5 "http://127.0.0.1:${PORT}/" 2>/dev/null; then
-              echo "=== Nothing on port; spawning node manually ==="
-              NODE_BIN=""
-              for c in /opt/alt/alt-nodejs18/root/bin/node /opt/alt/alt-nodejs20/root/bin/node /usr/bin/node node; do
-                if command -v "$c" >/dev/null 2>&1 || [ -x "$c" ]; then NODE_BIN="$c"; break; fi
-              done
-              echo "Using node: $NODE_BIN"
-              "$NODE_BIN" --version 2>&1 || true
-              cd "$APP"
-              # Double-fork to fully detach from sshd.
-              ( setsid nohup env NODE_ENV=production PORT="$PORT" HOSTNAME=127.0.0.1 \
-                  "$NODE_BIN" server.js < /dev/null > "$APP/logs/server.log" 2>&1 & ) &
-              sleep 6
-              echo "=== after spawn, port listeners ==="
-              (lsof -nP -i :"$PORT" 2>/dev/null || ss -ltnp 2>/dev/null | grep ":$PORT " ) | sed "s/$PORT/REDACTED/g" || echo "none"
-              echo "=== probe again ==="
-              curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:${PORT}/" || true
-              echo "=== last 30 lines server.log ==="
-              tail -n 30 "$APP/logs/server.log" 2>/dev/null || true
-            fi
+            echo "=== Deployed to: $APP ==="
+            echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
+            echo "=== top-level files ===" && ls -la "$APP" | head -20
+            # Give Passenger a moment to pick up restart.txt and warm up.
+            sleep 4
+            echo "=== local probe via Apache (real proxy path) ==="
+            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
             echo "Deployment completed successfully!"
 
       - name: Health check
