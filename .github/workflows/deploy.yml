@@ -68,20 +68,19 @@ jobs:
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
           script: |
-            # ROOT CAUSE of the prior 503: public_html/.htaccess had Passenger
-            # directives (PassengerAppRoot, PassengerStartupFile, ...) AND a
-            # SetEnv NODE_OPTIONS pointing at a missing .builds/config/preload-
-            # timestamp.js. Passenger spawned a worker that owned $PORT (so our
-            # manual node hit EADDRINUSE), but every request through Passenger
-            # 503'd because the missing preload broke its node startup. The fix
-            # is to disable Passenger and let our manually-managed node own the
-            # port, with .htaccess proxying to it.
+            # ROOT CAUSE of the 503: Hostinger's LiteSpeed routes requests
+            # through Passenger (the [P,L] rewrite is inert under LiteSpeed —
+            # mod_passenger intercepts before mod_rewrite). The original
+            # .htaccess set NODE_OPTIONS to --require a missing
+            # .builds/config/preload-timestamp.js, so every Passenger spawn of
+            # server.js crashed → LiteSpeed returned 503. Fix: write a
+            # Passenger-managed .htaccess WITHOUT that broken preload, and
+            # touch tmp/restart.txt so Passenger respawns clean.
             set -u
             APP_HTML="${{ secrets.HOSTINGER_APP_PATH }}"
             APP="$(dirname "$APP_HTML")/nodejs"
             PORT="${{ secrets.HOSTINGER_PORT }}"
             NODE_BIN="/opt/alt/alt-nodejs18/root/bin/node"
-            PIDFILE="$APP/tmp/app.pid"
 
             mkdir -p "$APP" "$APP/tmp" "$APP/logs"
             find "$APP" -mindepth 1 -maxdepth 1 ! -name 'tmp' ! -name 'logs' -exec rm -rf {} + 2>/dev/null || true
@@ -93,103 +92,72 @@ jobs:
             echo "=== Deployed to: $APP ==="
             echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
 
-            # Back up the original Hostinger-managed .htaccess once so we can
-            # roll back if needed.
+            # Back up the original Hostinger-managed .htaccess once.
             if [ -f "$APP_HTML/.htaccess" ] && [ ! -f "$APP_HTML/.htaccess.hostinger-original" ]; then
               cp -f "$APP_HTML/.htaccess" "$APP_HTML/.htaccess.hostinger-original"
             fi
 
-            echo "=== writing minimal .htaccess (Passenger disabled, mod_proxy to our node) ==="
+            echo "=== writing Passenger-managed .htaccess (no broken NODE_OPTIONS preload) ==="
             cat > "$APP_HTML/.htaccess" <<HTACCESS
             # Managed by GitHub Actions deploy. Do not edit by hand.
-            # Disable Passenger; our node daemon owns $PORT and we proxy to it.
-            PassengerEnabled off
             DirectoryIndex disabled
             RewriteEngine On
-            # Hostinger build artifacts must not be web-accessible.
-            RewriteRule ^\.builds - [F,L]
-            # Proxy every request to the long-running node bound to localhost:$PORT.
             RewriteRule (.*) http://localhost:$PORT/\$1 [P,L]
+            PassengerAppRoot $APP
+            PassengerAppType node
+            PassengerNodejs $NODE_BIN
+            PassengerStartupFile server.js
+            PassengerBaseURI /
+            PassengerRestartDir $APP/tmp
+            SetEnv LSNODE_CONSOLE_LOG console.log
+            SetEnv TOKIO_WORKER_THREADS 2
+            SetEnv NODE_ENV production
+            SetEnv PORT $PORT
+            SetEnv HOSTNAME 0.0.0.0
+            RewriteRule ^\.builds - [F,L]
             HTACCESS
             chmod 644 "$APP_HTML/.htaccess"
-            # Touch Passenger's restart trigger in case it's still watching, so
-            # any existing Passenger worker is asked to exit.
-            touch "$APP/tmp/restart.txt" 2>/dev/null || true
 
-            # Kill any node we manage (pidfile) and any node visible to our uid
-            # (ours OR Passenger's worker, if it runs as us). pgrep -x matches
-            # the exact comm "node" so we don't accidentally SIGTERM this very
-            # script.
-            echo "=== killing existing node processes ==="
-            if [ -f "$PIDFILE" ]; then
-              OLD_PID=$(cat "$PIDFILE" 2>/dev/null || true)
-              if [ -n "$OLD_PID" ] && kill -0 "$OLD_PID" 2>/dev/null; then
-                kill "$OLD_PID" 2>/dev/null || true
-              fi
-            fi
+            # Trigger Passenger reload by touching restart.txt. Passenger
+            # watches PassengerRestartDir for this file and restarts the app
+            # on the next request. Also kill any node we own so a fully fresh
+            # worker spawns.
+            echo "=== triggering Passenger restart ==="
+            touch "$APP/tmp/restart.txt"
             for pid in $(pgrep -u "$(id -u)" -x node 2>/dev/null || true); do
-              echo "TERM node pid $pid"
+              echo "TERM node pid $pid (so Passenger respawns clean)"
               kill "$pid" 2>/dev/null || true
             done
             sleep 3
-            for pid in $(pgrep -u "$(id -u)" -x node 2>/dev/null || true); do
-              echo "KILL node pid $pid"
-              kill -9 "$pid" 2>/dev/null || true
-            done
-            # Wait up to 15s for $PORT to be free (handles Passenger worker
-            # exiting under another uid that we can't see/kill directly).
-            for i in $(seq 1 15); do
-              if ! curl -sS -o /dev/null --max-time 1 "http://127.0.0.1:$PORT/" 2>/dev/null; then
-                echo "Port $PORT appears free after ${i}s"
-                break
-              fi
-              sleep 1
+
+            # Warm Passenger by hitting the proxy port from inside, so it
+            # spawns the worker now and we can capture errors.
+            echo "=== warming Passenger (curl localhost:$PORT) ==="
+            for i in $(seq 1 20); do
+              CODE=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 5 "http://127.0.0.1:$PORT/" 2>/dev/null || echo "000")
+              echo "  attempt $i: $CODE"
+              if [ "$CODE" = "200" ]; then break; fi
+              sleep 2
             done
 
-            # Spawn the new node detached from this SSH session. Double-fork
-            # via setsid so it survives SSH disconnect; redirect all fds so
-            # nohup doesn't get reaped.
-            echo "=== starting new node (PORT=$PORT) ==="
-            (
-              cd "$APP"
-              setsid nohup env \
-                PORT="$PORT" \
-                HOSTNAME="0.0.0.0" \
-                NODE_ENV="production" \
-                "$NODE_BIN" server.js \
-                < /dev/null \
-                > "$APP/logs/app.log" 2>&1 &
-              echo $! > "$PIDFILE"
-            ) &
-            disown 2>/dev/null || true
-
-            # Wait up to 30s for the new node to bind.
-            UP=0
-            for i in $(seq 1 30); do
-              if curl -sS -o /dev/null --max-time 2 "http://127.0.0.1:$PORT/" 2>/dev/null; then
-                echo "Node responded on $PORT after ${i}s"
-                UP=1
-                break
-              fi
-              sleep 1
-            done
-
-            echo "=== pidfile ==="
-            cat "$PIDFILE" 2>/dev/null; echo
-            echo "=== direct probe to node ==="
-            curl -sS -o /dev/null -w "Direct HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:$PORT/" || true
             echo "=== external HTTPS probe ==="
-            sleep 3
+            sleep 5
             curl -sS -o /dev/null -w "External HTTPS %{http_code}\n" --max-time 20 "https://rentingexplained.com/" || true
-            echo "=== app.log tail ==="
-            tail -n 40 "$APP/logs/app.log" 2>/dev/null || true
+            echo "=== Passenger / app log tail ==="
+            tail -n 40 "$APP/logs/app.log" 2>/dev/null || echo "(no app.log — Passenger logs elsewhere)"
+            for f in \
+              "$HOME/logs/error_log" \
+              "$HOME/logs/rentingexplained.com.error.log" \
+              "$HOME/domains/rentingexplained.com/logs/error_log" \
+              "$(dirname "$APP_HTML")/logs/error_log"; do
+              if [ -f "$f" ]; then
+                echo "--- $f ---"
+                tail -n 30 "$f" 2>/dev/null || true
+              fi
+            done
             echo "=== .htaccess in use ==="
             sed -n '1,40p' "$APP_HTML/.htaccess"
-            if [ "$UP" != "1" ]; then
-              echo "ERROR: node never bound to $PORT" >&2
-              exit 1
-            fi
-            echo "Deployment completed successfully!"
+            echo "Deployment completed."
 
       - name: Health check
         run: |
