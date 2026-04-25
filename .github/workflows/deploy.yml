@@ -94,64 +94,78 @@ jobs:
             echo "=== Deployed to: $APP ==="
             echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
 
-            # Find and kill whatever owns $PORT. We must target by PID, not by
-            # process-name pattern: appleboy/ssh-action runs this script as a
-            # child of the user's login shell, and `pkill -f node` kills that
-            # parent too, severing the SSH session before the rest can run.
-            echo "=== killing old node on port $PORT ==="
-            OLD_PIDS=$(ss -lntp 2>/dev/null | awk -v p=":$PORT" '$4 ~ p {print $0}' | grep -oP 'pid=\K[0-9]+' | sort -u)
-            if [ -z "$OLD_PIDS" ]; then
-              # Fallback: fuser scans /proc and works without ss capability
-              OLD_PIDS=$(fuser -n tcp "$PORT" 2>/dev/null | tr -s ' ')
-            fi
-            echo "Old PIDs on $PORT: '$OLD_PIDS'"
-            for pid in $OLD_PIDS; do
-              # Only kill if it's our own process (safety: avoid killing root
-              # services if anything is misreported).
-              owner=$(stat -c %U "/proc/$pid" 2>/dev/null || echo "")
-              if [ "$owner" = "$(whoami)" ]; then
-                kill "$pid" 2>/dev/null || true
-              fi
+            # Kill any node we own (regardless of port detection). On CloudLinux
+            # CageFS, `ss -p` and `fuser` often can't list PIDs of other shells'
+            # processes, so port-based detection returned empty PIDs and the
+            # old node kept running on $PORT. Use `pgrep -u <me>` instead — and
+            # since this script runs under appleboy/ssh-action (a non-login,
+            # short-lived bash invocation), our own shell PID is NOT a `node`
+            # process, so killing all our `node` processes is safe here.
+            echo "=== killing old node processes (own user) ==="
+            OWN_PIDS=$(pgrep -u "$(id -u)" -f 'node.*server\.js' 2>/dev/null || true)
+            echo "Own node PIDs: '$OWN_PIDS'"
+            for pid in $OWN_PIDS; do
+              kill "$pid" 2>/dev/null || true
             done
-            # Give graceful shutdown a moment, then SIGKILL stragglers.
             sleep 2
-            for pid in $OLD_PIDS; do
+            for pid in $OWN_PIDS; do
+              kill -0 "$pid" 2>/dev/null && kill -9 "$pid" 2>/dev/null || true
+            done
+            # Belt-and-braces: also try port-based kill via ss/fuser.
+            PORT_PIDS=$(ss -lntp 2>/dev/null | awk -v p=":$PORT" '$4 ~ p {print $0}' | grep -oP 'pid=\K[0-9]+' | sort -u)
+            [ -z "$PORT_PIDS" ] && PORT_PIDS=$(fuser -n tcp "$PORT" 2>/dev/null | tr -s ' ')
+            for pid in $PORT_PIDS; do
               owner=$(stat -c %U "/proc/$pid" 2>/dev/null || echo "")
-              if [ "$owner" = "$(whoami)" ] && kill -0 "$pid" 2>/dev/null; then
-                kill -9 "$pid" 2>/dev/null || true
-              fi
+              [ "$owner" = "$(whoami)" ] && kill -9 "$pid" 2>/dev/null || true
             done
             sleep 1
+
+            # Next.js standalone `server.js` reads PORT/HOSTNAME from the
+            # process environment — it does NOT auto-load .env.production.
+            # The previous run started node successfully but on the default
+            # 3000, so the proxy on $PORT had no listener. Export them here
+            # before the double-fork so the daemon inherits them.
+            export PORT="$PORT"
+            export HOSTNAME="0.0.0.0"
+            export NODE_ENV="production"
 
             # Double-fork via setsid+nohup so the spawned node is reparented to
             # init and is NOT killed when this SSH session ends. The outer
             # subshell + `&` is critical — without it, appleboy/ssh-action waits
             # on child stdio and hangs the workflow step.
-            echo "=== starting new node ==="
-            cd "$APP"
+            echo "=== starting new node (PORT=$PORT) ==="
             (
               cd "$APP"
-              setsid nohup "$NODE_BIN" server.js \
+              setsid nohup env \
+                PORT="$PORT" \
+                HOSTNAME="0.0.0.0" \
+                NODE_ENV="production" \
+                "$NODE_BIN" server.js \
                 < /dev/null \
                 > "$APP/logs/app.log" 2>&1 &
             ) &
             disown 2>/dev/null || true
 
-            # Wait for the port to come up (up to ~20s).
-            for i in $(seq 1 20); do
+            # Wait for the port to come up (up to ~25s).
+            for i in $(seq 1 25); do
               if ss -lnt "sport = :$PORT" 2>/dev/null | grep -q LISTEN; then
                 echo "Port $PORT is LISTENING after ${i}s"
+                break
+              fi
+              # Fallback: probe directly. Works even when ss can't see the PID.
+              if curl -sS -o /dev/null --max-time 2 "http://127.0.0.1:$PORT/" 2>/dev/null; then
+                echo "Port $PORT responded to direct probe after ${i}s"
                 break
               fi
               sleep 1
             done
 
+            echo "=== direct probe to node ==="
+            curl -sS -o /dev/null -w "Direct HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:$PORT/" || true
             echo "=== local probe via Apache ==="
             curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
-            echo "=== port listeners ==="
-            ss -lntp 2>/dev/null | grep ":$PORT " || echo "(no listener on $PORT)"
             echo "=== app.log tail ==="
-            tail -n 25 "$APP/logs/app.log" 2>/dev/null || true
+            tail -n 30 "$APP/logs/app.log" 2>/dev/null || true
             echo "Deployment completed successfully!"
 
       - name: Health check
