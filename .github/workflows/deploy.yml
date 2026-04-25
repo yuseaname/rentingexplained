@@ -107,11 +107,31 @@ jobs:
             # Trigger Passenger restart on the new build via the path
             # declared in PassengerRestartDir.
             touch "$APP/tmp/restart.txt"
-            # Warm up the app so Passenger spawns the worker now (HCDN
-            # will otherwise hit a cold app and may serve 503 briefly).
-            sleep 4
+            # Passenger isn't actually installed on this Hostinger plan
+            # (passenger-config: not available, no node procs running).
+            # Apache's .htaccess does mod_proxy to localhost:PORT, so we
+            # need a persistent node listener on PORT that survives the
+            # SSH disconnect (plain nohup is reaped). Use setsid to fully
+            # detach into a new session.
+            NODE_BIN="/opt/alt/alt-nodejs18/root/bin/node"
+            [ -x "$NODE_BIN" ] || NODE_BIN="$(ls -1 /opt/alt/alt-nodejs*/root/usr/bin/node 2>/dev/null | sort -V | tail -n1)"
+            [ -x "$NODE_BIN" ] || NODE_BIN="$(ls -1 /opt/alt/alt-nodejs*/root/bin/node 2>/dev/null | sort -V | tail -n1)"
+            echo "=== Using node: $NODE_BIN ($("$NODE_BIN" -v 2>&1)) ==="
+            mkdir -p "$APP/logs"
+            cd "$APP"
+            # setsid + nohup so the process survives the SSH session and
+            # is not reaped when appleboy/ssh-action disconnects.
+            NODE_ENV=production PORT="$PORT" HOSTNAME=127.0.0.1 \
+              setsid nohup "$NODE_BIN" server.js \
+              < /dev/null > "$APP/logs/server.log" 2>&1 &
+            disown || true
+            sleep 8
             echo "=== Local warmup ==="
             curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" "http://127.0.0.1:${PORT}/" || true
+            echo "=== node process check ==="
+            ps -u "$USER" -o pid,ppid,sid,etime,cmd 2>/dev/null | grep -E "node server.js" | grep -v grep || true
+            echo "=== Last 30 lines of server log ==="
+            tail -n 30 "$APP/logs/server.log" || true
             echo "Deployment completed."
 
       - name: Health check
