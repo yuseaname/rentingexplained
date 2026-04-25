@@ -68,63 +68,90 @@ jobs:
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
           script: |
-            # Hostinger uses Phusion Passenger. Inspecting public_html/.htaccess
-            # shows: PassengerAppRoot /home/.../nodejs (sibling of public_html).
-            # So the app code must live in nodejs/, NOT public_html/. The
-            # HOSTINGER_APP_PATH secret currently points at public_html — derive
-            # the real Passenger app dir from it.
+            # The .htaccess for this site uses mod_rewrite + mod_proxy:
+            #   RewriteRule (.*) http://localhost:PORT/$1 [P,L]
+            # i.e. it manually proxies to a long-running node process bound to
+            # $PORT. (The PassengerAppRoot directive above it is leftover from a
+            # previous setup — Passenger is NOT actually managing the app.)
+            # That means the deploy must:
+            #   1. Replace the code in nodejs/ (where the script lives).
+            #   2. Kill whatever node is bound to $PORT (old build).
+            #   3. Start a fresh node, detached so it survives SSH disconnect.
             APP_HTML="${{ secrets.HOSTINGER_APP_PATH }}"
             APP="$(dirname "$APP_HTML")/nodejs"
+            PORT="${{ secrets.HOSTINGER_PORT }}"
+            NODE_BIN="/opt/alt/alt-nodejs18/root/bin/node"
+
             mkdir -p "$APP" "$APP/tmp" "$APP/logs"
-            cd "$APP"
-            # Wipe everything except tmp/ and logs/ so old artifacts don't shadow
-            # the new build.
+            # Wipe everything except tmp/ and logs/ so old artifacts don't
+            # shadow the new build.
             find "$APP" -mindepth 1 -maxdepth 1 ! -name 'tmp' ! -name 'logs' -exec rm -rf {} + 2>/dev/null || true
             tar -xzf ~/deployment.tar.gz -C "$APP/"
-            touch "$APP/tmp/restart.txt"
             rm -f ~/deployment.tar.gz
-            echo "=== Deployed to: $APP ==="
-            echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
-            echo "=== top-level files ===" && ls -la "$APP" | head -20
-
-            # Permissions matter on CloudLinux/Passenger: $HOME must be 711+ or
-            # 755, the app dir 755, server.js 644, etc. Normalize them so a
-            # restrictive umask on the SSH user can't trip the spawner.
             chmod 755 "$APP" 2>/dev/null || true
             [ -f "$APP/server.js" ] && chmod 644 "$APP/server.js"
 
-            # Give Passenger a moment to pick up restart.txt and warm up.
-            sleep 4
-            echo "=== local probe via Apache (real proxy path) ==="
-            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
+            echo "=== Deployed to: $APP ==="
+            echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
 
-            # If Passenger 403'd or didn't spawn, surface diagnostics so the
-            # next iteration has data to work with rather than guessing.
-            echo "=== home & domain perms ==="
-            ls -ld "$HOME" "$HOME/domains" "$(dirname "$APP")" "$APP_HTML" "$APP" 2>/dev/null || true
-            echo "=== server.js head ==="
-            head -5 "$APP/server.js" 2>/dev/null || echo "server.js MISSING"
-            echo "=== passenger / apache error logs ==="
-            for f in "$APP/logs/passenger.log" \
-                     "$APP_HTML/../logs/error_log" \
-                     "$HOME/logs/error_log" \
-                     "$HOME/logs/passenger.log"; do
-              if [ -f "$f" ]; then
-                echo "--- $f (last 30) ---"
-                tail -n 30 "$f" 2>/dev/null || true
+            # Find and kill whatever owns $PORT. We must target by PID, not by
+            # process-name pattern: appleboy/ssh-action runs this script as a
+            # child of the user's login shell, and `pkill -f node` kills that
+            # parent too, severing the SSH session before the rest can run.
+            echo "=== killing old node on port $PORT ==="
+            OLD_PIDS=$(ss -lntp 2>/dev/null | awk -v p=":$PORT" '$4 ~ p {print $0}' | grep -oP 'pid=\K[0-9]+' | sort -u)
+            if [ -z "$OLD_PIDS" ]; then
+              # Fallback: fuser scans /proc and works without ss capability
+              OLD_PIDS=$(fuser -n tcp "$PORT" 2>/dev/null | tr -s ' ')
+            fi
+            echo "Old PIDs on $PORT: '$OLD_PIDS'"
+            for pid in $OLD_PIDS; do
+              # Only kill if it's our own process (safety: avoid killing root
+              # services if anything is misreported).
+              owner=$(stat -c %U "/proc/$pid" 2>/dev/null || echo "")
+              if [ "$owner" = "$(whoami)" ]; then
+                kill "$pid" 2>/dev/null || true
               fi
             done
-            echo "=== ~/logs listing ==="
-            ls -la "$HOME/logs" 2>/dev/null | head -20 || true
-            echo "=== try spawning server.js directly to capture error ==="
-            (
-              cd "$APP" && \
-              timeout 6 /opt/alt/alt-nodejs18/root/bin/node server.js \
-                > "$APP/logs/spawn-test.log" 2>&1 || true
-            )
-            echo "--- spawn-test.log ---"
-            tail -n 40 "$APP/logs/spawn-test.log" 2>/dev/null || true
+            # Give graceful shutdown a moment, then SIGKILL stragglers.
+            sleep 2
+            for pid in $OLD_PIDS; do
+              owner=$(stat -c %U "/proc/$pid" 2>/dev/null || echo "")
+              if [ "$owner" = "$(whoami)" ] && kill -0 "$pid" 2>/dev/null; then
+                kill -9 "$pid" 2>/dev/null || true
+              fi
+            done
+            sleep 1
 
+            # Double-fork via setsid+nohup so the spawned node is reparented to
+            # init and is NOT killed when this SSH session ends. The outer
+            # subshell + `&` is critical — without it, appleboy/ssh-action waits
+            # on child stdio and hangs the workflow step.
+            echo "=== starting new node ==="
+            cd "$APP"
+            (
+              cd "$APP"
+              setsid nohup "$NODE_BIN" server.js \
+                < /dev/null \
+                > "$APP/logs/app.log" 2>&1 &
+            ) &
+            disown 2>/dev/null || true
+
+            # Wait for the port to come up (up to ~20s).
+            for i in $(seq 1 20); do
+              if ss -lnt "sport = :$PORT" 2>/dev/null | grep -q LISTEN; then
+                echo "Port $PORT is LISTENING after ${i}s"
+                break
+              fi
+              sleep 1
+            done
+
+            echo "=== local probe via Apache ==="
+            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
+            echo "=== port listeners ==="
+            ss -lntp 2>/dev/null | grep ":$PORT " || echo "(no listener on $PORT)"
+            echo "=== app.log tail ==="
+            tail -n 25 "$APP/logs/app.log" 2>/dev/null || true
             echo "Deployment completed successfully!"
 
       - name: Health check
