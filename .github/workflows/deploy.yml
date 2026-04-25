@@ -67,83 +67,31 @@ jobs:
           username: ${{ secrets.HOSTINGER_SSH_USER }}
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
-          command_timeout: 5m
           script: |
-            set -e
-            # HOSTINGER_APP_PATH points at public_html/, but Hostinger's
-            # Passenger config (in public_html/.htaccess) sets
-            # PassengerAppRoot to the SIBLING nodejs/ directory.
-            # All previous deploys were silently writing to the wrong
-            # tree, which is why "Local HTTP 200" succeeded (we briefly
-            # ran the new build with nohup) yet the public CDN kept
-            # serving 503 (Passenger was launching the stale code in
-            # nodejs/, or failing because nodejs/ was out of sync).
-            APP_HTML="${{ secrets.HOSTINGER_APP_PATH }}"
-            DOMAIN_ROOT="$(dirname "$APP_HTML")"
-            APP="$DOMAIN_ROOT/nodejs"
+            APP="${{ secrets.HOSTINGER_APP_PATH }}"
             PORT="${{ secrets.HOSTINGER_PORT }}"
-            mkdir -p "$APP"
-            cd "$APP"
-            # Wipe stale build artefacts but keep tmp/ (Passenger restart
-            # marker dir) and any local-only files Passenger relies on.
-            find "$APP" -mindepth 1 -maxdepth 1 \
-              ! -name 'tmp' \
-              ! -name '.builds' \
-              -exec rm -rf {} + || true
-            tar -xzf ~/deployment.tar.gz -C "$APP/"
-            rm -f ~/deployment.tar.gz
-            mkdir -p "$APP/tmp"
-            echo "=== Deployed BUILD_ID ==="
-            cat "$APP/.next/BUILD_ID" || true
-            # Clean up any stray manual nohup node processes from earlier
-            # debugging runs that may still hold $PORT.
-            OLD_PID="$(lsof -ti:"$PORT" 2>/dev/null || true)"
-            if [ -n "$OLD_PID" ]; then
-              echo "=== Killing stray listener(s) on port $PORT: $OLD_PID ==="
-              kill $OLD_PID 2>/dev/null || true
-              sleep 2
-              kill -9 $OLD_PID 2>/dev/null || true
+            # One-time cleanup: kill any stray non-Passenger node holding the
+            # app port from earlier debugging deploys. Passenger will respawn
+            # via tmp/restart.txt below.
+            STRAY=$(lsof -ti:"$PORT" 2>/dev/null || true)
+            if [ -n "$STRAY" ]; then
+              echo "Killing stray PIDs on port $PORT: $STRAY"
+              kill -9 $STRAY 2>/dev/null || true
             fi
-            # Trigger Passenger restart on the new build via the path
-            # declared in PassengerRestartDir.
-            touch "$APP/tmp/restart.txt"
-            # Passenger isn't actually installed on this Hostinger plan
-            # (passenger-config: not available, no node procs running).
-            # Apache's .htaccess does mod_proxy to localhost:PORT, so we
-            # need a persistent node listener on PORT that survives the
-            # SSH disconnect (plain nohup is reaped). Use setsid to fully
-            # detach into a new session.
-            NODE_BIN="/opt/alt/alt-nodejs18/root/bin/node"
-            [ -x "$NODE_BIN" ] || NODE_BIN="$(ls -1 /opt/alt/alt-nodejs*/root/usr/bin/node 2>/dev/null | sort -V | tail -n1)"
-            [ -x "$NODE_BIN" ] || NODE_BIN="$(ls -1 /opt/alt/alt-nodejs*/root/bin/node 2>/dev/null | sort -V | tail -n1)"
-            echo "=== Using node: $NODE_BIN ($("$NODE_BIN" -v 2>&1)) ==="
-            mkdir -p "$APP/logs"
+            # Also clean the sibling nodejs/ dir we mistakenly populated.
+            NODEJS_DIR="$(dirname "$APP")/nodejs"
+            if [ -d "$NODEJS_DIR" ]; then
+              find "$NODEJS_DIR" -mindepth 1 -maxdepth 1 ! -name 'tmp' ! -name '.builds' -exec rm -rf {} + 2>/dev/null || true
+            fi
             cd "$APP"
-            # setsid + nohup so the process survives the SSH session and
-            # is not reaped when appleboy/ssh-action disconnects.
-            NODE_ENV=production PORT="$PORT" HOSTNAME=127.0.0.1 \
-              setsid nohup "$NODE_BIN" server.js \
-              < /dev/null > "$APP/logs/server.log" 2>&1 &
-            disown || true
-            sleep 8
-            echo "=== Local warmup ==="
-            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" "http://127.0.0.1:${PORT}/" || true
-            echo "=== node process check ==="
-            ps -u "$USER" -o pid,ppid,sid,etime,cmd 2>/dev/null | grep -E "node server.js" | grep -v grep || true
-            echo "=== Last 30 lines of server log ==="
-            tail -n 30 "$APP/logs/server.log" || true
-            echo "Deployment completed."
+            tar -xzf ~/deployment.tar.gz -C "$APP/"
+            mkdir -p tmp
+            touch tmp/restart.txt
+            rm -f ~/deployment.tar.gz
+            cat .next/BUILD_ID
+            echo "Deployment completed successfully!"
 
       - name: Health check
         run: |
-          # Passenger cold-start on Hostinger can take a while; retry for ~2 min.
-          for i in $(seq 1 12); do
-            sleep 10
-            CODE=$(curl -s -o /dev/null -w "%{http_code}" "${{ secrets.SITE_URL }}" || echo "000")
-            echo "[$i] HTTP $CODE"
-            if [ "$CODE" = "200" ] || [ "$CODE" = "301" ] || [ "$CODE" = "302" ]; then
-              exit 0
-            fi
-          done
-          echo "Site did not return 200/30x within ~2 minutes"
-          exit 1
+          sleep 15
+          curl -f ${{ secrets.SITE_URL }} || exit 1
