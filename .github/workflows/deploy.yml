@@ -86,10 +86,45 @@ jobs:
             echo "=== Deployed to: $APP ==="
             echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
             echo "=== top-level files ===" && ls -la "$APP" | head -20
+
+            # Permissions matter on CloudLinux/Passenger: $HOME must be 711+ or
+            # 755, the app dir 755, server.js 644, etc. Normalize them so a
+            # restrictive umask on the SSH user can't trip the spawner.
+            chmod 755 "$APP" 2>/dev/null || true
+            [ -f "$APP/server.js" ] && chmod 644 "$APP/server.js"
+
             # Give Passenger a moment to pick up restart.txt and warm up.
             sleep 4
             echo "=== local probe via Apache (real proxy path) ==="
             curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
+
+            # If Passenger 403'd or didn't spawn, surface diagnostics so the
+            # next iteration has data to work with rather than guessing.
+            echo "=== home & domain perms ==="
+            ls -ld "$HOME" "$HOME/domains" "$(dirname "$APP")" "$APP_HTML" "$APP" 2>/dev/null || true
+            echo "=== server.js head ==="
+            head -5 "$APP/server.js" 2>/dev/null || echo "server.js MISSING"
+            echo "=== passenger / apache error logs ==="
+            for f in "$APP/logs/passenger.log" \
+                     "$APP_HTML/../logs/error_log" \
+                     "$HOME/logs/error_log" \
+                     "$HOME/logs/passenger.log"; do
+              if [ -f "$f" ]; then
+                echo "--- $f (last 30) ---"
+                tail -n 30 "$f" 2>/dev/null || true
+              fi
+            done
+            echo "=== ~/logs listing ==="
+            ls -la "$HOME/logs" 2>/dev/null | head -20 || true
+            echo "=== try spawning server.js directly to capture error ==="
+            (
+              cd "$APP" && \
+              timeout 6 /opt/alt/alt-nodejs18/root/bin/node server.js \
+                > "$APP/logs/spawn-test.log" 2>&1 || true
+            )
+            echo "--- spawn-test.log ---"
+            tail -n 40 "$APP/logs/spawn-test.log" 2>/dev/null || true
+
             echo "Deployment completed successfully!"
 
       - name: Health check
