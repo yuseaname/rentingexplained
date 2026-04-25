@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Standalone output: required by deploy workflow (tar .next/standalone)
+  // and by package.json "start": "node server.js" (server.js is generated
+  // only in standalone mode). Removing this breaks Hostinger deploys.
+  output: 'standalone',
+
   // Compress output
   compress: true,
 
