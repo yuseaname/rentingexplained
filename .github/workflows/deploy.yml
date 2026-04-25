@@ -94,45 +94,46 @@ jobs:
             echo "=== Deployed to: $APP ==="
             echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
 
-            # Kill any node we own (regardless of port detection). On CloudLinux
-            # CageFS, `ss -p` and `fuser` often can't list PIDs of other shells'
-            # processes, so port-based detection returned empty PIDs and the
-            # old node kept running on $PORT. Use `pgrep -u <me>` instead — and
-            # since this script runs under appleboy/ssh-action (a non-login,
-            # short-lived bash invocation), our own shell PID is NOT a `node`
-            # process, so killing all our `node` processes is safe here.
-            echo "=== killing old node processes (own user) ==="
-            OWN_PIDS=$(pgrep -u "$(id -u)" -f 'node.*server\.js' 2>/dev/null || true)
-            echo "Own node PIDs: '$OWN_PIDS'"
-            for pid in $OWN_PIDS; do
+            # Kill the previous node, if any. We MUST NOT use `pgrep -f
+            # 'node.*server.js'`: that pattern matches the very bash process
+            # running this deploy script (because the script text contains
+            # those literal characters in its argv), which causes it to SIGTERM
+            # itself. Instead, persist the PID at $APP/tmp/app.pid and only
+            # kill that.
+            PIDFILE="$APP/tmp/app.pid"
+            echo "=== killing previous node (from pidfile) ==="
+            if [ -f "$PIDFILE" ]; then
+              OLD_PID=$(cat "$PIDFILE" 2>/dev/null || true)
+              echo "Pidfile says: $OLD_PID"
+              if [ -n "$OLD_PID" ] && kill -0 "$OLD_PID" 2>/dev/null; then
+                # Sanity check: only kill if it actually owns our port. This
+                # guards against pid recycling — another process with that PID
+                # might exist if our old node died and got GCed.
+                if ss -lntp 2>/dev/null | grep -q "pid=$OLD_PID,"; then
+                  kill "$OLD_PID" 2>/dev/null || true
+                  sleep 2
+                  kill -0 "$OLD_PID" 2>/dev/null && kill -9 "$OLD_PID" 2>/dev/null || true
+                fi
+              fi
+            fi
+            # Bootstrap kill: on the first deploy after this change there is
+            # no pidfile, but a stale node from a previous deploy may still
+            # own $PORT. Find it by exact `comm` match (not `pgrep -f`, which
+            # would match this very script's argv and SIGTERM ourselves).
+            echo "=== bootstrap kill of stray node processes ==="
+            STRAY=$(pgrep -u "$(id -u)" -x node 2>/dev/null || true)
+            echo "Stray node comm PIDs: '$STRAY'"
+            for pid in $STRAY; do
               kill "$pid" 2>/dev/null || true
             done
             sleep 2
-            for pid in $OWN_PIDS; do
+            for pid in $STRAY; do
               kill -0 "$pid" 2>/dev/null && kill -9 "$pid" 2>/dev/null || true
             done
-            # Belt-and-braces: also try port-based kill via ss/fuser.
-            PORT_PIDS=$(ss -lntp 2>/dev/null | awk -v p=":$PORT" '$4 ~ p {print $0}' | grep -oP 'pid=\K[0-9]+' | sort -u)
-            [ -z "$PORT_PIDS" ] && PORT_PIDS=$(fuser -n tcp "$PORT" 2>/dev/null | tr -s ' ')
-            for pid in $PORT_PIDS; do
-              owner=$(stat -c %U "/proc/$pid" 2>/dev/null || echo "")
-              [ "$owner" = "$(whoami)" ] && kill -9 "$pid" 2>/dev/null || true
-            done
-            sleep 1
 
             # Next.js standalone `server.js` reads PORT/HOSTNAME from the
             # process environment — it does NOT auto-load .env.production.
-            # The previous run started node successfully but on the default
-            # 3000, so the proxy on $PORT had no listener. Export them here
-            # before the double-fork so the daemon inherits them.
-            export PORT="$PORT"
-            export HOSTNAME="0.0.0.0"
-            export NODE_ENV="production"
-
-            # Double-fork via setsid+nohup so the spawned node is reparented to
-            # init and is NOT killed when this SSH session ends. The outer
-            # subshell + `&` is critical — without it, appleboy/ssh-action waits
-            # on child stdio and hangs the workflow step.
+            # Pass them explicitly so the daemon binds to the proxied port.
             echo "=== starting new node (PORT=$PORT) ==="
             (
               cd "$APP"
@@ -143,6 +144,7 @@ jobs:
                 "$NODE_BIN" server.js \
                 < /dev/null \
                 > "$APP/logs/app.log" 2>&1 &
+              echo $! > "$PIDFILE"
             ) &
             disown 2>/dev/null || true
 
@@ -160,6 +162,8 @@ jobs:
               sleep 1
             done
 
+            echo "=== pidfile ==="
+            cat "$PIDFILE" 2>/dev/null && echo " (running: $(kill -0 $(cat "$PIDFILE" 2>/dev/null) 2>/dev/null && echo yes || echo no))" || echo "(no pidfile)"
             echo "=== direct probe to node ==="
             curl -sS -o /dev/null -w "Direct HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:$PORT/" || true
             echo "=== local probe via Apache ==="
