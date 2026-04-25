@@ -92,26 +92,35 @@ jobs:
             fi
             # Trigger Passenger restart on the new build.
             touch tmp/restart.txt
-            echo "=== Diagnostic: app dir ==="
-            ls -la "$APP" | head -30
-            echo "=== Diagnostic: tmp dir ==="
-            ls -la "$APP/tmp" || true
-            echo "=== Diagnostic: .htaccess in public_html ==="
-            PUBHTML="$(dirname "$APP")"
-            ls -la "$PUBHTML" | head -20
-            echo "--- .htaccess content (if any) ---"
-            cat "$PUBHTML/.htaccess" 2>/dev/null || echo "(no .htaccess)"
-            echo "=== Diagnostic: node processes for this user ==="
-            ps -u "$USER" -o pid,ppid,etime,cmd | grep -E "node|passenger|Passenger" | grep -v grep || echo "(none)"
-            echo "=== Diagnostic: listening ports ==="
-            (ss -tlnp 2>/dev/null || netstat -tlnp 2>/dev/null) | head -30 || true
-            echo "=== Diagnostic: passenger-config (if available) ==="
-            command -v passenger-config && passenger-config restart-app "$APP" 2>&1 || echo "(passenger-config not available)"
-            echo "=== Diagnostic: Hostinger app status files ==="
-            ls -la ~/.nodevenv 2>/dev/null | head -10 || true
-            find ~/nodevenv -maxdepth 3 -type d 2>/dev/null | head -20 || true
-            echo "=== Diagnostic: warmup curl from inside server ==="
-            curl -sS -o /dev/null -w "Local HTTP %{http_code} on port $PORT\n" "http://127.0.0.1:${PORT}/" || true
+            echo "=== App's own .htaccess (584 bytes seen earlier) ==="
+            cat "$APP/.htaccess" 2>/dev/null || echo "(none)"
+            echo "=== Sibling dirs to APP (nodejs/ + public_html/ visible) ==="
+            DOMAIN_ROOT="$(dirname "$APP")"
+            for d in "$DOMAIN_ROOT"/*/; do
+              echo "--- $d ---"
+              ls -la "$d" 2>/dev/null | head -10
+              [ -f "${d}.htaccess" ] && { echo "--- ${d}.htaccess ---"; cat "${d}.htaccess"; }
+            done
+            echo "=== Look for any .htaccess under domain root ==="
+            find "$DOMAIN_ROOT" -maxdepth 3 -name ".htaccess" 2>/dev/null | while read F; do
+              echo ">>> $F"
+              head -30 "$F"
+            done
+            echo "=== Hostinger application config (if any) ==="
+            find ~/.hostinger ~/.cpanel ~/conf 2>/dev/null | head -20 || true
+            cat ~/passenger.json 2>/dev/null || true
+            echo "=== nodevenv presence ==="
+            ls -la ~/nodevenv 2>/dev/null | head -10 || echo "(no ~/nodevenv)"
+            find ~/nodevenv -maxdepth 4 -name "passenger_wsgi*" -o -name "package.json" 2>/dev/null | head -10
+            echo "=== PORT we bound vs. what Hostinger expects ==="
+            echo "PORT secret value (masked): $PORT"
+            echo "Local HTTP on bound port:"
+            curl -sS -o /dev/null -w "  port=$PORT code=%{http_code}\n" "http://127.0.0.1:${PORT}/" || true
+            for p in 3000 8080 8000 4000 5000; do
+              [ "$p" = "$PORT" ] && continue
+              code=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 3 "http://127.0.0.1:$p/" 2>/dev/null || echo "-")
+              [ "$code" != "-" ] && [ "$code" != "000" ] && echo "  port=$p code=$code"
+            done
             echo "Deployment completed."
 
       - name: Health check
