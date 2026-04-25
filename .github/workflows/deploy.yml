@@ -168,6 +168,26 @@ jobs:
             curl -sS -o /dev/null -w "Direct HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:$PORT/" || true
             echo "=== local probe via Apache ==="
             curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
+            echo "=== public_html/.htaccess (full) ==="
+            sed -n '1,200p' "$APP_HTML/.htaccess" 2>/dev/null || echo "(no .htaccess)"
+            echo "=== public_html listing ==="
+            ls -la "$APP_HTML" 2>/dev/null | head -30
+            echo "=== nodejs listing ==="
+            ls -la "$APP" 2>/dev/null | head -30
+            echo "=== Apache error log (best effort) ==="
+            for f in \
+              "$HOME/logs/error_log" \
+              "$HOME/logs/rentingexplained.com.error.log" \
+              "$HOME/domains/rentingexplained.com/logs/error_log" \
+              "$(dirname "$APP_HTML")/logs/error_log"; do
+              if [ -f "$f" ]; then
+                echo "--- $f ---"
+                tail -n 30 "$f" 2>/dev/null || true
+              fi
+            done
+            echo "=== probe via real hostname over HTTPS ==="
+            curl -sS -o /dev/null -w "External HTTPS %{http_code}\n" --max-time 20 "https://rentingexplained.com/" || true
+            curl -sS -o /dev/null -w "External HTTP %{http_code}\n" --max-time 20 "http://rentingexplained.com/" || true
             echo "=== app.log tail ==="
             tail -n 30 "$APP/logs/app.log" 2>/dev/null || true
             echo "Deployment completed successfully!"
