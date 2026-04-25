@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Output configuration for Node.js hosting (Hostinger compatible)
-  output: 'standalone',
-
   // Compress output
   compress: true,
 
