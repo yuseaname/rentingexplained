@@ -67,17 +67,38 @@ jobs:
           username: ${{ secrets.HOSTINGER_SSH_USER }}
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
+          command_timeout: 5m
           script: |
+            set -e
             APP="${{ secrets.HOSTINGER_APP_PATH }}"
+            PORT="${{ secrets.HOSTINGER_PORT }}"
             cd "$APP"
             tar -xzf ~/deployment.tar.gz -C "$APP/"
-            mkdir -p tmp
-            touch tmp/restart.txt
             rm -f ~/deployment.tar.gz
-            cat .next/BUILD_ID
-            echo "Deployment completed successfully!"
+            mkdir -p tmp logs
+            touch tmp/restart.txt
+            echo "=== Deployed BUILD_ID ==="
+            cat .next/BUILD_ID || true
+            echo "=== server.js present? ==="
+            ls -la server.js || true
+            echo "=== Killing any stale node server.js on port $PORT ==="
+            # Kill any process listening on the app port (Passenger restart often
+            # doesn't take on Hostinger; force a fresh node process).
+            (fuser -k "${PORT}/tcp" 2>/dev/null || true)
+            pkill -f "node server.js" 2>/dev/null || true
+            sleep 2
+            echo "=== Starting server.js with nohup ==="
+            NODE_ENV=production PORT="$PORT" \
+              nohup node server.js > logs/server.log 2>&1 &
+            disown || true
+            sleep 5
+            echo "=== Local health check ==="
+            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" "http://127.0.0.1:${PORT}/" || true
+            echo "=== Last 40 lines of server log ==="
+            tail -n 40 logs/server.log || true
+            echo "Deployment completed."
 
       - name: Health check
         run: |
-          sleep 15
+          sleep 20
           curl -f ${{ secrets.SITE_URL }} || exit 1
