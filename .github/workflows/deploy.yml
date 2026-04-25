@@ -92,6 +92,26 @@ jobs:
             fi
             # Trigger Passenger restart on the new build.
             touch tmp/restart.txt
+            echo "=== Diagnostic: app dir ==="
+            ls -la "$APP" | head -30
+            echo "=== Diagnostic: tmp dir ==="
+            ls -la "$APP/tmp" || true
+            echo "=== Diagnostic: .htaccess in public_html ==="
+            PUBHTML="$(dirname "$APP")"
+            ls -la "$PUBHTML" | head -20
+            echo "--- .htaccess content (if any) ---"
+            cat "$PUBHTML/.htaccess" 2>/dev/null || echo "(no .htaccess)"
+            echo "=== Diagnostic: node processes for this user ==="
+            ps -u "$USER" -o pid,ppid,etime,cmd | grep -E "node|passenger|Passenger" | grep -v grep || echo "(none)"
+            echo "=== Diagnostic: listening ports ==="
+            (ss -tlnp 2>/dev/null || netstat -tlnp 2>/dev/null) | head -30 || true
+            echo "=== Diagnostic: passenger-config (if available) ==="
+            command -v passenger-config && passenger-config restart-app "$APP" 2>&1 || echo "(passenger-config not available)"
+            echo "=== Diagnostic: Hostinger app status files ==="
+            ls -la ~/.nodevenv 2>/dev/null | head -10 || true
+            find ~/nodevenv -maxdepth 3 -type d 2>/dev/null | head -20 || true
+            echo "=== Diagnostic: warmup curl from inside server ==="
+            curl -sS -o /dev/null -w "Local HTTP %{http_code} on port $PORT\n" "http://127.0.0.1:${PORT}/" || true
             echo "Deployment completed."
 
       - name: Health check
