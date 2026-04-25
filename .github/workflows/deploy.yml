@@ -70,19 +70,33 @@ jobs:
           command_timeout: 5m
           script: |
             set -e
-            APP="${{ secrets.HOSTINGER_APP_PATH }}"
+            # HOSTINGER_APP_PATH points at public_html/, but Hostinger's
+            # Passenger config (in public_html/.htaccess) sets
+            # PassengerAppRoot to the SIBLING nodejs/ directory.
+            # All previous deploys were silently writing to the wrong
+            # tree, which is why "Local HTTP 200" succeeded (we briefly
+            # ran the new build with nohup) yet the public CDN kept
+            # serving 503 (Passenger was launching the stale code in
+            # nodejs/, or failing because nodejs/ was out of sync).
+            APP_HTML="${{ secrets.HOSTINGER_APP_PATH }}"
+            DOMAIN_ROOT="$(dirname "$APP_HTML")"
+            APP="$DOMAIN_ROOT/nodejs"
             PORT="${{ secrets.HOSTINGER_PORT }}"
+            mkdir -p "$APP"
             cd "$APP"
+            # Wipe stale build artefacts but keep tmp/ (Passenger restart
+            # marker dir) and any local-only files Passenger relies on.
+            find "$APP" -mindepth 1 -maxdepth 1 \
+              ! -name 'tmp' \
+              ! -name '.builds' \
+              -exec rm -rf {} + || true
             tar -xzf ~/deployment.tar.gz -C "$APP/"
             rm -f ~/deployment.tar.gz
-            mkdir -p tmp
+            mkdir -p "$APP/tmp"
             echo "=== Deployed BUILD_ID ==="
-            cat .next/BUILD_ID || true
+            cat "$APP/.next/BUILD_ID" || true
             # Clean up any stray manual nohup node processes from earlier
-            # debugging runs — they would hold $PORT and stop Passenger from
-            # binding a fresh worker on the next request. Match by listening
-            # port only, never by command name (the SSH session's argv
-            # contains this script verbatim).
+            # debugging runs that may still hold $PORT.
             OLD_PID="$(lsof -ti:"$PORT" 2>/dev/null || true)"
             if [ -n "$OLD_PID" ]; then
               echo "=== Killing stray listener(s) on port $PORT: $OLD_PID ==="
@@ -90,37 +104,14 @@ jobs:
               sleep 2
               kill -9 $OLD_PID 2>/dev/null || true
             fi
-            # Trigger Passenger restart on the new build.
-            touch tmp/restart.txt
-            echo "=== App's own .htaccess (584 bytes seen earlier) ==="
-            cat "$APP/.htaccess" 2>/dev/null || echo "(none)"
-            echo "=== Sibling dirs to APP (nodejs/ + public_html/ visible) ==="
-            DOMAIN_ROOT="$(dirname "$APP")"
-            for d in "$DOMAIN_ROOT"/*/; do
-              echo "--- $d ---"
-              ls -la "$d" 2>/dev/null | head -10
-              [ -f "${d}.htaccess" ] && { echo "--- ${d}.htaccess ---"; cat "${d}.htaccess"; }
-            done
-            echo "=== Look for any .htaccess under domain root ==="
-            find "$DOMAIN_ROOT" -maxdepth 3 -name ".htaccess" 2>/dev/null | while read F; do
-              echo ">>> $F"
-              head -30 "$F"
-            done
-            echo "=== Hostinger application config (if any) ==="
-            find ~/.hostinger ~/.cpanel ~/conf 2>/dev/null | head -20 || true
-            cat ~/passenger.json 2>/dev/null || true
-            echo "=== nodevenv presence ==="
-            ls -la ~/nodevenv 2>/dev/null | head -10 || echo "(no ~/nodevenv)"
-            find ~/nodevenv -maxdepth 4 -name "passenger_wsgi*" -o -name "package.json" 2>/dev/null | head -10
-            echo "=== PORT we bound vs. what Hostinger expects ==="
-            echo "PORT secret value (masked): $PORT"
-            echo "Local HTTP on bound port:"
-            curl -sS -o /dev/null -w "  port=$PORT code=%{http_code}\n" "http://127.0.0.1:${PORT}/" || true
-            for p in 3000 8080 8000 4000 5000; do
-              [ "$p" = "$PORT" ] && continue
-              code=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 3 "http://127.0.0.1:$p/" 2>/dev/null || echo "-")
-              [ "$code" != "-" ] && [ "$code" != "000" ] && echo "  port=$p code=$code"
-            done
+            # Trigger Passenger restart on the new build via the path
+            # declared in PassengerRestartDir.
+            touch "$APP/tmp/restart.txt"
+            # Warm up the app so Passenger spawns the worker now (HCDN
+            # will otherwise hit a cold app and may serve 503 briefly).
+            sleep 4
+            echo "=== Local warmup ==="
+            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" "http://127.0.0.1:${PORT}/" || true
             echo "Deployment completed."
 
       - name: Health check
