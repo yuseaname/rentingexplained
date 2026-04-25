@@ -68,23 +68,22 @@ jobs:
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           port: ${{ secrets.HOSTINGER_SSH_PORT }}
           script: |
-            # The .htaccess for this site uses mod_rewrite + mod_proxy:
-            #   RewriteRule (.*) http://localhost:PORT/$1 [P,L]
-            # i.e. it manually proxies to a long-running node process bound to
-            # $PORT. (The PassengerAppRoot directive above it is leftover from a
-            # previous setup — Passenger is NOT actually managing the app.)
-            # That means the deploy must:
-            #   1. Replace the code in nodejs/ (where the script lives).
-            #   2. Kill whatever node is bound to $PORT (old build).
-            #   3. Start a fresh node, detached so it survives SSH disconnect.
+            # ROOT CAUSE of the prior 503: public_html/.htaccess had Passenger
+            # directives (PassengerAppRoot, PassengerStartupFile, ...) AND a
+            # SetEnv NODE_OPTIONS pointing at a missing .builds/config/preload-
+            # timestamp.js. Passenger spawned a worker that owned $PORT (so our
+            # manual node hit EADDRINUSE), but every request through Passenger
+            # 503'd because the missing preload broke its node startup. The fix
+            # is to disable Passenger and let our manually-managed node own the
+            # port, with .htaccess proxying to it.
+            set -u
             APP_HTML="${{ secrets.HOSTINGER_APP_PATH }}"
             APP="$(dirname "$APP_HTML")/nodejs"
             PORT="${{ secrets.HOSTINGER_PORT }}"
             NODE_BIN="/opt/alt/alt-nodejs18/root/bin/node"
+            PIDFILE="$APP/tmp/app.pid"
 
             mkdir -p "$APP" "$APP/tmp" "$APP/logs"
-            # Wipe everything except tmp/ and logs/ so old artifacts don't
-            # shadow the new build.
             find "$APP" -mindepth 1 -maxdepth 1 ! -name 'tmp' ! -name 'logs' -exec rm -rf {} + 2>/dev/null || true
             tar -xzf ~/deployment.tar.gz -C "$APP/"
             rm -f ~/deployment.tar.gz
@@ -94,46 +93,62 @@ jobs:
             echo "=== Deployed to: $APP ==="
             echo "=== BUILD_ID ===" && cat "$APP/.next/BUILD_ID" && echo
 
-            # Kill the previous node, if any. We MUST NOT use `pgrep -f
-            # 'node.*server.js'`: that pattern matches the very bash process
-            # running this deploy script (because the script text contains
-            # those literal characters in its argv), which causes it to SIGTERM
-            # itself. Instead, persist the PID at $APP/tmp/app.pid and only
-            # kill that.
-            PIDFILE="$APP/tmp/app.pid"
-            echo "=== killing previous node (from pidfile) ==="
+            # Back up the original Hostinger-managed .htaccess once so we can
+            # roll back if needed.
+            if [ -f "$APP_HTML/.htaccess" ] && [ ! -f "$APP_HTML/.htaccess.hostinger-original" ]; then
+              cp -f "$APP_HTML/.htaccess" "$APP_HTML/.htaccess.hostinger-original"
+            fi
+
+            echo "=== writing minimal .htaccess (Passenger disabled, mod_proxy to our node) ==="
+            cat > "$APP_HTML/.htaccess" <<HTACCESS
+            # Managed by GitHub Actions deploy. Do not edit by hand.
+            # Disable Passenger; our node daemon owns $PORT and we proxy to it.
+            PassengerEnabled off
+            DirectoryIndex disabled
+            RewriteEngine On
+            # Hostinger build artifacts must not be web-accessible.
+            RewriteRule ^\.builds - [F,L]
+            # Proxy every request to the long-running node bound to localhost:$PORT.
+            RewriteRule (.*) http://localhost:$PORT/\$1 [P,L]
+            HTACCESS
+            chmod 644 "$APP_HTML/.htaccess"
+            # Touch Passenger's restart trigger in case it's still watching, so
+            # any existing Passenger worker is asked to exit.
+            touch "$APP/tmp/restart.txt" 2>/dev/null || true
+
+            # Kill any node we manage (pidfile) and any node visible to our uid
+            # (ours OR Passenger's worker, if it runs as us). pgrep -x matches
+            # the exact comm "node" so we don't accidentally SIGTERM this very
+            # script.
+            echo "=== killing existing node processes ==="
             if [ -f "$PIDFILE" ]; then
               OLD_PID=$(cat "$PIDFILE" 2>/dev/null || true)
-              echo "Pidfile says: $OLD_PID"
               if [ -n "$OLD_PID" ] && kill -0 "$OLD_PID" 2>/dev/null; then
-                # Sanity check: only kill if it actually owns our port. This
-                # guards against pid recycling — another process with that PID
-                # might exist if our old node died and got GCed.
-                if ss -lntp 2>/dev/null | grep -q "pid=$OLD_PID,"; then
-                  kill "$OLD_PID" 2>/dev/null || true
-                  sleep 2
-                  kill -0 "$OLD_PID" 2>/dev/null && kill -9 "$OLD_PID" 2>/dev/null || true
-                fi
+                kill "$OLD_PID" 2>/dev/null || true
               fi
             fi
-            # Bootstrap kill: on the first deploy after this change there is
-            # no pidfile, but a stale node from a previous deploy may still
-            # own $PORT. Find it by exact `comm` match (not `pgrep -f`, which
-            # would match this very script's argv and SIGTERM ourselves).
-            echo "=== bootstrap kill of stray node processes ==="
-            STRAY=$(pgrep -u "$(id -u)" -x node 2>/dev/null || true)
-            echo "Stray node comm PIDs: '$STRAY'"
-            for pid in $STRAY; do
+            for pid in $(pgrep -u "$(id -u)" -x node 2>/dev/null || true); do
+              echo "TERM node pid $pid"
               kill "$pid" 2>/dev/null || true
             done
-            sleep 2
-            for pid in $STRAY; do
-              kill -0 "$pid" 2>/dev/null && kill -9 "$pid" 2>/dev/null || true
+            sleep 3
+            for pid in $(pgrep -u "$(id -u)" -x node 2>/dev/null || true); do
+              echo "KILL node pid $pid"
+              kill -9 "$pid" 2>/dev/null || true
+            done
+            # Wait up to 15s for $PORT to be free (handles Passenger worker
+            # exiting under another uid that we can't see/kill directly).
+            for i in $(seq 1 15); do
+              if ! curl -sS -o /dev/null --max-time 1 "http://127.0.0.1:$PORT/" 2>/dev/null; then
+                echo "Port $PORT appears free after ${i}s"
+                break
+              fi
+              sleep 1
             done
 
-            # Next.js standalone `server.js` reads PORT/HOSTNAME from the
-            # process environment — it does NOT auto-load .env.production.
-            # Pass them explicitly so the daemon binds to the proxied port.
+            # Spawn the new node detached from this SSH session. Double-fork
+            # via setsid so it survives SSH disconnect; redirect all fds so
+            # nohup doesn't get reaped.
             echo "=== starting new node (PORT=$PORT) ==="
             (
               cd "$APP"
@@ -148,48 +163,32 @@ jobs:
             ) &
             disown 2>/dev/null || true
 
-            # Wait for the port to come up (up to ~25s).
-            for i in $(seq 1 25); do
-              if ss -lnt "sport = :$PORT" 2>/dev/null | grep -q LISTEN; then
-                echo "Port $PORT is LISTENING after ${i}s"
-                break
-              fi
-              # Fallback: probe directly. Works even when ss can't see the PID.
+            # Wait up to 30s for the new node to bind.
+            UP=0
+            for i in $(seq 1 30); do
               if curl -sS -o /dev/null --max-time 2 "http://127.0.0.1:$PORT/" 2>/dev/null; then
-                echo "Port $PORT responded to direct probe after ${i}s"
+                echo "Node responded on $PORT after ${i}s"
+                UP=1
                 break
               fi
               sleep 1
             done
 
             echo "=== pidfile ==="
-            cat "$PIDFILE" 2>/dev/null && echo " (running: $(kill -0 $(cat "$PIDFILE" 2>/dev/null) 2>/dev/null && echo yes || echo no))" || echo "(no pidfile)"
+            cat "$PIDFILE" 2>/dev/null; echo
             echo "=== direct probe to node ==="
             curl -sS -o /dev/null -w "Direct HTTP %{http_code}\n" --max-time 10 "http://127.0.0.1:$PORT/" || true
-            echo "=== local probe via Apache ==="
-            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" --max-time 15 -H "Host: rentingexplained.com" "http://127.0.0.1/" || true
-            echo "=== public_html/.htaccess (full) ==="
-            sed -n '1,200p' "$APP_HTML/.htaccess" 2>/dev/null || echo "(no .htaccess)"
-            echo "=== public_html listing ==="
-            ls -la "$APP_HTML" 2>/dev/null | head -30
-            echo "=== nodejs listing ==="
-            ls -la "$APP" 2>/dev/null | head -30
-            echo "=== Apache error log (best effort) ==="
-            for f in \
-              "$HOME/logs/error_log" \
-              "$HOME/logs/rentingexplained.com.error.log" \
-              "$HOME/domains/rentingexplained.com/logs/error_log" \
-              "$(dirname "$APP_HTML")/logs/error_log"; do
-              if [ -f "$f" ]; then
-                echo "--- $f ---"
-                tail -n 30 "$f" 2>/dev/null || true
-              fi
-            done
-            echo "=== probe via real hostname over HTTPS ==="
+            echo "=== external HTTPS probe ==="
+            sleep 3
             curl -sS -o /dev/null -w "External HTTPS %{http_code}\n" --max-time 20 "https://rentingexplained.com/" || true
-            curl -sS -o /dev/null -w "External HTTP %{http_code}\n" --max-time 20 "http://rentingexplained.com/" || true
             echo "=== app.log tail ==="
-            tail -n 30 "$APP/logs/app.log" 2>/dev/null || true
+            tail -n 40 "$APP/logs/app.log" 2>/dev/null || true
+            echo "=== .htaccess in use ==="
+            sed -n '1,40p' "$APP_HTML/.htaccess"
+            if [ "$UP" != "1" ]; then
+              echo "ERROR: node never bound to $PORT" >&2
+              exit 1
+            fi
             echo "Deployment completed successfully!"
 
       - name: Health check
