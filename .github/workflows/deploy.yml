@@ -79,19 +79,22 @@ jobs:
             touch tmp/restart.txt
             echo "=== Deployed BUILD_ID ==="
             cat .next/BUILD_ID || true
-            echo "=== server.js present? ==="
-            ls -la server.js || true
-            echo "=== Killing any stale node server.js on port $PORT ==="
-            # Kill any process listening on the app port (Passenger restart often
-            # doesn't take on Hostinger; force a fresh node process).
-            (fuser -k "${PORT}/tcp" 2>/dev/null || true)
-            pkill -f "node server.js" 2>/dev/null || true
-            sleep 2
+            echo "=== Killing any process on port $PORT ==="
+            # Only kill by port. Do NOT pkill by command name — the SSH
+            # action passes this whole script as bash's argv, so any
+            # pattern that matches the script text would kill our own
+            # session (signal 143 / SIGTERM).
+            OLD_PID="$(lsof -ti:"$PORT" 2>/dev/null || true)"
+            if [ -n "$OLD_PID" ]; then
+              kill "$OLD_PID" 2>/dev/null || true
+              sleep 2
+              kill -9 "$OLD_PID" 2>/dev/null || true
+            fi
             echo "=== Starting server.js with nohup ==="
             NODE_ENV=production PORT="$PORT" \
               nohup node server.js > logs/server.log 2>&1 &
             disown || true
-            sleep 5
+            sleep 6
             echo "=== Local health check ==="
             curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" "http://127.0.0.1:${PORT}/" || true
             echo "=== Last 40 lines of server log ==="
