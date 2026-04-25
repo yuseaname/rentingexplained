@@ -264,7 +264,7 @@ export default function LeaseRedFlagScanner() {
     setScanResults(null);
 
     try {
-      const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
+      const pdfjs = await import('pdfjs-dist/build/pdf.js');
       const arrayBuffer = await file.arrayBuffer();
       const loadingTask = pdfjs.getDocument({ data: arrayBuffer, disableWorker: true } as any);
       const pdf = await loadingTask.promise;

@@ -27,6 +27,15 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
+  // Ignore canvas dependency (pdfjs-dist uses it optionally, not needed in browser)
+  webpack: (config) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      canvas: false,
+    };
+    return config;
+  },
+
   // Performance optimizations
   experimental: {
     optimizePackageImports: ['framer-motion'],
