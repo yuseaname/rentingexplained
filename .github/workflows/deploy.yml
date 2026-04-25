@@ -75,56 +75,35 @@ jobs:
             cd "$APP"
             tar -xzf ~/deployment.tar.gz -C "$APP/"
             rm -f ~/deployment.tar.gz
-            mkdir -p tmp logs
-            touch tmp/restart.txt
+            mkdir -p tmp
             echo "=== Deployed BUILD_ID ==="
             cat .next/BUILD_ID || true
-
-            # Locate node — non-interactive SSH on Hostinger doesn't have
-            # node on PATH. Try NVM, then common Hostinger Alt-PHP/Node
-            # locations, then bash login shell as a last resort.
-            NODE_BIN=""
-            if [ -s "$HOME/.nvm/nvm.sh" ]; then
-              # shellcheck disable=SC1091
-              . "$HOME/.nvm/nvm.sh" >/dev/null 2>&1 || true
-              NODE_BIN="$(command -v node || true)"
-            fi
-            if [ -z "$NODE_BIN" ]; then
-              NODE_BIN="$(ls -1 /opt/alt/alt-nodejs*/root/usr/bin/node 2>/dev/null | sort -V | tail -n1 || true)"
-            fi
-            if [ -z "$NODE_BIN" ]; then
-              NODE_BIN="$(bash -lc 'command -v node' 2>/dev/null || true)"
-            fi
-            if [ -z "$NODE_BIN" ]; then
-              echo "ERROR: node binary not found on server"
-              exit 1
-            fi
-            echo "=== Using node: $NODE_BIN ($("$NODE_BIN" -v)) ==="
-
-            echo "=== Killing any process on port $PORT ==="
-            # Only kill by port. Do NOT pkill by command name — the SSH
-            # action passes this whole script as bash's argv, so any
-            # pattern that matches the script text would kill our own
-            # session (signal 143 / SIGTERM).
+            # Clean up any stray manual nohup node processes from earlier
+            # debugging runs — they would hold $PORT and stop Passenger from
+            # binding a fresh worker on the next request. Match by listening
+            # port only, never by command name (the SSH session's argv
+            # contains this script verbatim).
             OLD_PID="$(lsof -ti:"$PORT" 2>/dev/null || true)"
             if [ -n "$OLD_PID" ]; then
+              echo "=== Killing stray listener(s) on port $PORT: $OLD_PID ==="
               kill $OLD_PID 2>/dev/null || true
               sleep 2
               kill -9 $OLD_PID 2>/dev/null || true
             fi
-
-            echo "=== Starting server.js with nohup ==="
-            NODE_ENV=production PORT="$PORT" \
-              nohup "$NODE_BIN" server.js > logs/server.log 2>&1 &
-            disown || true
-            sleep 6
-            echo "=== Local health check ==="
-            curl -sS -o /dev/null -w "Local HTTP %{http_code}\n" "http://127.0.0.1:${PORT}/" || true
-            echo "=== Last 40 lines of server log ==="
-            tail -n 40 logs/server.log || true
+            # Trigger Passenger restart on the new build.
+            touch tmp/restart.txt
             echo "Deployment completed."
 
       - name: Health check
         run: |
-          sleep 20
-          curl -f ${{ secrets.SITE_URL }} || exit 1
+          # Passenger cold-start on Hostinger can take a while; retry for ~2 min.
+          for i in $(seq 1 12); do
+            sleep 10
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" "${{ secrets.SITE_URL }}" || echo "000")
+            echo "[$i] HTTP $CODE"
+            if [ "$CODE" = "200" ] || [ "$CODE" = "301" ] || [ "$CODE" = "302" ]; then
+              exit 0
+            fi
+          done
+          echo "Site did not return 200/30x within ~2 minutes"
+          exit 1
