@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Standalone output: required by deploy workflow (tar .next/standalone)
-  // and by package.json "start": "node server.js" (server.js is generated
-  // only in standalone mode). Removing this breaks Hostinger deploys.
-  output: 'standalone',
+  // NOTE: 'output: standalone' removed because Hostinger's hPanel-managed
+  // Next.js deployment expects the default .next/ output directory and runs
+  // `next start`. Standalone mode put the runnable server at .next/standalone/
+  // which Hostinger's Passenger config could not find -> 503.
 
   // Compress output
   compress: true,
