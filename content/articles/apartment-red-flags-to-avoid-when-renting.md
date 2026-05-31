@@ -2,7 +2,7 @@
 
 <strong>The most critical apartment red flags to avoid when renting are requests for wire transfers or gift cards, unusually low rent compared to market rates, and landlords who refuse to show the unit in person.</strong> In 2026, rental scams have evolved, making financial vigilance and property inspection essential before signing any lease. Tenants should never pay an application fee without viewing the property, and any listing omitting details like utility costs or the exact address should be treated with extreme caution. By identifying these warning signs early, renters can prevent financial loss and ensure they secure a safe, habitable home.
 
-<figure class="article-image article-image--hero"><img src="/assets/images/apartment-red-flags-to-avoid-when-renting/apartment-red-flags-to-avoid-when-renting-hero.jpg" alt="Main image apartment red flags to avoid when renting" loading="eager" fetchpriority="high" decoding="async"></figure>
+<figure class="article-image article-image--hero"><img src="/images/apartment-red-flags-to-avoid-when-renting/apartment-red-flags-to-avoid-when-renting-hero.jpg" alt="Main image apartment red flags to avoid when renting" loading="eager" fetchpriority="high" decoding="async"></figure>
 
 <p>Finding a new home is stressful enough without the added risk of falling victim to a rental scam or moving into a property with hidden liabilities. The rental market in 2026 remains competitive, with average security deposits in major metropolitan areas hovering around $1,800 to $2,200. This financial pressure makes renters desperate, which is exactly when scammers thrive. Understanding the specific warning signs is your first line of defense. Whether you are looking for a luxury condo or a modest studio, the principles of safety remain the same. This guide breaks down the financial, physical, and legal red flags you must spot to protect your security deposit and your future.</p>
 
@@ -39,7 +39,7 @@
 
 <p>Furthermore, check the exterior of the building. Are the lights working? Are the doors locking properly? Is the trash area clean? These small details reflect the overall management quality. A building with broken locks and dark hallways poses a security risk that no amount of interior renovation can fix. Tenants should prioritize properties with 24/7 emergency maintenance lines and clear protocols for safety breaches.</p>
 
-<figure class="article-image article-image--process"><img src="/assets/images/apartment-red-flags-to-avoid-when-renting/apartment-red-flags-to-avoid-when-renting-process.jpg" alt="Process apartment red flags to avoid when renting" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--process"><img src="/images/apartment-red-flags-to-avoid-when-renting/apartment-red-flags-to-avoid-when-renting-process.jpg" alt="Process apartment red flags to avoid when renting" loading="lazy" decoding="async"></figure>
 
 <h3>Testing Appliances and Systems</h3>
 <p>Do not rely on the landlord's word that everything works. Turn on the water faucets to check for pressure and temperature. Flush the toilets. Test the air conditioning or heating system if the season allows. In 2026, many units come with smart appliances, but ensure they are connected and functional. If a refrigerator is humming loudly or an oven has uneven heating, negotiate for repairs before you sign.</p>
@@ -117,7 +117,7 @@
 
 <p>Never pay an "application fee" via email or text message without a formal portal. Use official platforms like Apartments.com or Zillow. If the landlord asks for a fee via Venmo or CashApp to "hold the unit," it is a scam.</p>
 
-<figure class="article-image article-image--comparison"><img src="/assets/images/apartment-red-flags-to-avoid-when-renting/apartment-red-flags-to-avoid-when-renting-comparison.jpg" alt="Comparison apartment red flags to avoid when renting" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--comparison"><img src="/images/apartment-red-flags-to-avoid-when-renting/apartment-red-flags-to-avoid-when-renting-comparison.jpg" alt="Comparison apartment red flags to avoid when renting" loading="lazy" decoding="async"></figure>
 
 <h2>Comparison: Legitimate vs. Scam Rental Listings</h2>
 

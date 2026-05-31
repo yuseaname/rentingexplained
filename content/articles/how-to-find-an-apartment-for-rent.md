@@ -2,7 +2,7 @@
 
 <p>To find an apartment for rent efficiently in 2026, you must prepare your financial documentation beforehand, utilize aggregator sites with instant alerts to beat the competition, and verify listings through rent data tools before applying. The modern rental market is highly competitive, with specific neighborhoods like the West Village and Williamsburg seeing intense demand, requiring a strategy that balances speed with due diligence. By organizing your budget, understanding the 40x rent income rule, and leveraging platforms with verified listings, you can secure a lease without falling victim to scams or paying above-market rates.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/how-to-find-an-apartment-for-rent/how-to-find-apartment-for-rent-hero.jpg" alt="Couple holding keys outside modern apartment building for rent" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/how-to-find-an-apartment-for-rent/how-to-find-apartment-for-rent-hero.jpg" alt="Couple holding keys outside modern apartment building for rent" loading="lazy" decoding="async"></figure>
 
 <h2>Prepare Your Financial Profile and Documentation</h2>
 
@@ -24,7 +24,7 @@
 
 <p>Having a digital "rental packet" ready is the single most effective way to win a bidding war. Most property management software allows you to upload documents directly during the application process. Delays in uploading these files can cost you the unit.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/how-to-find-an-apartment-for-rent/rental-document-checklist-infographic.jpg" alt="Infographic checklist of required rental application documents" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/how-to-find-an-apartment-for-rent/rental-document-checklist-infographic.jpg" alt="Infographic checklist of required rental application documents" loading="lazy" decoding="async"></figure>
 
 <p>You should have the following documents scanned, saved as PDFs, and stored in a secure cloud folder:</p>
 <ol>
@@ -67,7 +67,7 @@
 
 <p>Once you have your finances in order and your search engine selected, you must define what you actually need. The 2026 market is defined by high competition for specific neighborhoods and amenities. Prioritizing your search criteria prevents "analysis paralysis" and ensures you don't waste time viewing properties that won't work for you.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/how-to-find-an-apartment-for-rent/rental-neighborhood-map-illustration.jpg" alt="Map illustration highlighting popular rental neighborhoods and amenities" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/how-to-find-an-apartment-for-rent/rental-neighborhood-map-illustration.jpg" alt="Map illustration highlighting popular rental neighborhoods and amenities" loading="lazy" decoding="async"></figure>
 
 <h3>Prioritizing Neighborhoods and Commute Times</h3>
 
@@ -155,7 +155,7 @@
 <li>  <strong>Fees:</strong> Ask to waive the pet deposit or application fee if you have a strong financial profile.</li>
 </ul>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/how-to-find-an-apartment-for-rent/how-to-find-apartment-for-rent-hero.jpg" alt="Couple holding keys outside modern apartment building for rent" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/how-to-find-an-apartment-for-rent/how-to-find-apartment-for-rent-hero.jpg" alt="Couple holding keys outside modern apartment building for rent" loading="lazy" decoding="async"></figure>
 
 <h2>Identify Red Flags and Avoid Rental Scams</h2>
 
@@ -181,7 +181,7 @@
 
 <p>The FTC rental scam guidelines recommend that you never send money before signing a lease and seeing the property. If you must send a deposit, use a method that offers buyer protection.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/how-to-find-an-apartment-for-rent/rental-neighborhood-map-illustration.jpg" alt="Map illustration highlighting popular rental neighborhoods and amenities" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/how-to-find-an-apartment-for-rent/rental-neighborhood-map-illustration.jpg" alt="Map illustration highlighting popular rental neighborhoods and amenities" loading="lazy" decoding="async"></figure>
 
 <h2>Frequently Asked Questions</h2>
 

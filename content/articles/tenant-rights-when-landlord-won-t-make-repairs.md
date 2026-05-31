@@ -15,7 +15,7 @@
 <h3>Legal Basis for Tenant Protection</h3>
 <p>The Warranty of Habitability is based on the idea that a tenant is renting a home, not a piece of land. In 2026, most states have codified this in their Residential Landlord-Tenant Acts. For instance, California Civil Code § 1941.2 explicitly outlines the standards for habitability. Similarly, the Texas Property Code requires landlords to maintain premises in a safe condition. If you need to reference the legal standards for your specific jurisdiction, you can review resources like the <a href="https://www.nolo.com/legal-encyclopedia/california-tenant-rights-withhold-rent-repair-deduct.html">Link to Nolo on Habitability Standards</a> or search for specific state codes on <a href="https://www.justia.com/real-estate/landlord-tenant/information-for-tenants/major-repairs-and-maintenance/">Link to Justia on Major Repairs</a>.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
 
 <h2>How to Properly Request Repairs in Writing</h2>
 
@@ -30,7 +30,7 @@
 <h3>Keeping Records of Communication</h3>
 <p>Create a dedicated folder for all communications regarding the property. Save copies of the repair notice letter, the postal receipt, email threads, and text messages. If you hire a plumber or electrician to assess the problem before the landlord does, keep those invoices. These records are essential if you proceed to small claims court. For state-specific advice on documentation, tenants can consult resources such as <a href="https://texaslawhelp.org/article/right-to-repairs-as-a-tenant">Link to Texas Law Help on Asking for Repairs</a> or <a href="https://www.lawny.org/page/612/when-landlord-wont-make-repairs">Link to Legal Assistance of Western New York</a>.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
 
 <h2>Remedy 1: The Repair and Deduct Option</h2>
 
@@ -45,7 +45,7 @@
 <h3>Hiring Licensed Contractors</h3>
 <p>You cannot hire a friend or family member to do the work if state law requires a licensed professional. In many jurisdictions, the work must be performed by a licensed contractor to qualify for the deduction. You should obtain at least three estimates for the repair to prove the cost is reasonable. Keep all receipts and proof of payment. If the landlord disputes the repair at a later date, having a licensed invoice protects you. For detailed guides on state limits, refer to <a href="https://www.nolo.com/legal-encyclopedia/california-tenant-rights-withhold-rent-repair-deduct.html">Link to California Tenant Rights (Nolo)</a> or <a href="https://ipropertymanagement.com/laws/renters-rights-for-repairs">Link to iPropertyManagement on Repair and Deduct</a>.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
 
 <h3>State Repair and Deduct Limits Comparison (2026)</h3>
 
@@ -64,7 +64,7 @@
 <h3>State-Specific Rules on Rent Withholding</h3>
 <p>Not all states allow rent withholding. For example, some states only allow repair and deduct, while others allow withholding only if the issue is life-threatening. In Texas, you can terminate the lease or seek repairs, but withholding rent is complex and requires specific filings. In California, you can withhold rent if the landlord fails to fix habitability issues, but you must notify the landlord of your intent to withhold. Always verify the rules on platforms like <a href="https://guides.sll.texas.gov/landlord-tenant-law/failure-to-repair">Link to Texas State Law Library on Failure to Repair</a> or check <a href="https://ipropertymanagement.com/laws/california-renters-rights-for-repairs">Link to California Renter's Rights FAQs</a>.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/rent-withholding-warning-icon.png" alt="Warning icon about rent withholding risks for tenants" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/tenant-rights-when-landlord-won-t-make-repairs/rent-withholding-warning-icon.png" alt="Warning icon about rent withholding risks for tenants" loading="lazy" decoding="async"></figure>
 
 <h2>Remedy 3: Breaking the Lease or Moving Out</h2>
 
@@ -79,7 +79,7 @@
 <h3>Temporary vs. Permanent Relocation</h3>
 <p>In some cases, you may be able to relocate temporarily to a hotel or another unit while the repairs are made, and the landlord may be required to cover these costs. This is more common in cases of extreme emergencies like fire or major flooding. Permanent relocation terminates the lease entirely. For guidance on moving out options, consult <a href="https://www.nolo.com/legal-encyclopedia/free-books/renters-rights-book/chapter7-5.html">Link to Nolo on Moving Out Options</a> or <a href="https://www.tenantadviser.org/">Link to Texas Tenant Advisor</a>.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/tenant-rights-landlord-repairs-hero.jpg" alt="Tenant holding wrench near leaking pipe illustrating landlord repair issues" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/tenant-rights-when-landlord-won-t-make-repairs/tenant-rights-landlord-repairs-hero.jpg" alt="Tenant holding wrench near leaking pipe illustrating landlord repair issues" loading="lazy" decoding="async"></figure>
 
 <h2>Legal Recourse: Small Claims Court & Legal Aid</h2>
 

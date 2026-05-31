@@ -2,7 +2,7 @@
 
 <p>If you are renting an apartment or house, a <strong>renters insurance guide</strong> is essential because your landlord's policy does not protect your personal belongings or liability. In 2026, the average cost for a standard policy ranges from $15 to $30 per month, covering personal property, liability protection, and additional living expenses if your home becomes uninhabitable. Securing this coverage is one of the most affordable financial safety nets available to tenants today.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/renters-insurance-guide/renters-insurance-guide-hero-apartment-couple.jpg" alt="Happy couple reviewing renters insurance policy on tablet in their apartment living room" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/renters-insurance-guide/renters-insurance-guide-hero-apartment-couple.jpg" alt="Happy couple reviewing renters insurance policy on tablet in their apartment living room" loading="lazy" decoding="async"></figure>
 
 <p>Navigating the insurance market can be complex, but understanding the basics empowers you to protect your assets without overspending. This comprehensive guide breaks down coverage types, 2026 pricing trends, top provider comparisons, and the claims process so you can move forward with confidence.</p>
 
@@ -18,7 +18,7 @@
 
 <p>A common misconception among tenants is that the landlord's insurance policy covers the tenant's belongings. This is incorrect. Landlord insurance typically covers the physical building structure, common areas, and the landlord's liability. It does not extend to the personal property of the residents. If a fire destroys the apartment, the landlord's policy pays to rebuild the walls and roof, but you are left responsible for replacing your furniture and electronics. Without a separate policy, you would have to pay out of pocket for all lost items.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/renters-insurance-guide/landlord-vs-renters-insurance-coverage-comparison.jpg" alt="Infographic comparing landlord insurance coverage versus renters insurance personal property coverage" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/renters-insurance-guide/landlord-vs-renters-insurance-coverage-comparison.jpg" alt="Infographic comparing landlord insurance coverage versus renters insurance personal property coverage" loading="lazy" decoding="async"></figure>
 
 <h3>The Financial Risks of Going Uninsured</h3>
 
@@ -36,7 +36,7 @@
 
 <p>If your rental unit becomes uninhabitable due to a covered loss, such as a severe fire or water damage, the landlord cannot simply kick you out without a plan. Renters insurance includes "Loss of Use" or "Additional Living Expenses" (ALE) coverage. This pays for hotel stays, restaurant meals, and other necessary living costs while your apartment is being repaired or replaced. In 2026, with housing costs rising, this coverage is more critical than ever. It ensures you are not homeless while waiting for the property to be safe to re-enter.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/renters-insurance-guide/renters-insurance-coverage-categories-diagram.jpg" alt="Diagram illustrating the three main categories of renters insurance coverage" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/renters-insurance-guide/renters-insurance-coverage-categories-diagram.jpg" alt="Diagram illustrating the three main categories of renters insurance coverage" loading="lazy" decoding="async"></figure>
 
 <h3>Personal Liability and Medical Payments</h3>
 
@@ -54,7 +54,7 @@
 
 <p>As of early 2026, the national average for renters insurance is between $15 and $30 per month, or roughly $180 to $360 annually for standard limits. This pricing assumes a $30,000 personal property limit and a $1,000 deductible. State-to-state variations exist; for instance, states with higher crime rates or stricter weather regulations may see premiums creep toward the higher end of this spectrum. Despite these variations, it remains significantly cheaper than most monthly utility bills, making it an accessible expense for nearly all renters.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/renters-insurance-guide/landlord-vs-renters-insurance-coverage-comparison.jpg" alt="Infographic comparing landlord insurance coverage versus renters insurance personal property coverage" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/renters-insurance-guide/landlord-vs-renters-insurance-coverage-comparison.jpg" alt="Infographic comparing landlord insurance coverage versus renters insurance personal property coverage" loading="lazy" decoding="async"></figure>
 
 <h3>Factors That Influence Your Premium</h3>
 
@@ -108,7 +108,7 @@
 
 <p>The first step is to contact your insurer immediately. Most companies offer 24/7 claims hotlines and mobile apps for reporting. You will need to provide the date, time, and cause of the loss. Do not attempt to dispose of damaged items until the insurer has authorized it, as this can jeopardize your claim. If the loss involves criminal activity, such as theft, you must also file a police report and provide the report number to your adjuster.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/renters-insurance-guide/renters-insurance-coverage-categories-diagram.jpg" alt="Diagram illustrating the three main categories of renters insurance coverage" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/renters-insurance-guide/renters-insurance-coverage-categories-diagram.jpg" alt="Diagram illustrating the three main categories of renters insurance coverage" loading="lazy" decoding="async"></figure>
 
 <h3>Documentation and Inventory Requirements</h3>
 

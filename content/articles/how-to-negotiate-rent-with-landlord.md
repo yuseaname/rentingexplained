@@ -18,7 +18,7 @@
 
 <p>Before initiating a conversation, you must understand the local vacancy rate. If the vacancy rate in your city is high, landlords are competing for tenants, which shifts power to you. Research from Fidelity suggests that before negotiating, you must research property availability in the area. If you see multiple similar listings available for a lower price than your current unit, this is your ammunition. However, if the market is tight with low vacancy, you will need to focus on your reliability as a tenant rather than market rates. Always check local housing reports or platforms like Zumper to gauge the current supply and demand in your specific zip code.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/how-to-negotiate-rent-with-landlord/rent-negotiation-hero-2026.jpg" alt="Tenant and landlord shaking hands during rent negotiation" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/how-to-negotiate-rent-with-landlord/rent-negotiation-hero-2026.jpg" alt="Tenant and landlord shaking hands during rent negotiation" loading="lazy" decoding="async"></figure>
 
 <h2>Preparing Your Case: Research and Comparables</h2>
 
@@ -36,7 +36,7 @@
 
 <p>Landlords think in terms of net operating income. When you present your case, frame the reduction in terms of total value. For instance, Skybriz notes that even a $50/month reduction saves you $600 a year. However, for the landlord, a $50 reduction over a two-year lease is only $1,200 less in total revenue. If avoiding tenant turnover saves them $3,000 in vacancy costs and cleaning fees, the deal makes sense. Calculate these figures so you can explain the math during the negotiation. Show them that keeping you at a slightly lower rate is more profitable than risking a vacancy.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/how-to-negotiate-rent-with-landlord/rent-research-comps-infographic.jpg" alt="Laptop showing rental market comparison research" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/how-to-negotiate-rent-with-landlord/rent-research-comps-infographic.jpg" alt="Laptop showing rental market comparison research" loading="lazy" decoding="async"></figure>
 
 <h2>Crafting the Perfect Negotiation Proposal</h2>
 
@@ -69,7 +69,7 @@
 <p>> Sincerely,</p>
 <p>> [Your Name]</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/how-to-negotiate-rent-with-landlord/rent-proposal-email-illustration.svg" alt="Illustration of drafting a rent negotiation email" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/how-to-negotiate-rent-with-landlord/rent-proposal-email-illustration.svg" alt="Illustration of drafting a rent negotiation email" loading="lazy" decoding="async"></figure>
 
 <h2>Key Negotiation Tactics and Concessions</h2>
 
@@ -125,7 +125,7 @@
 
 <p>Coordinate with the landlord on how the payment change will be processed. If you pay online through a portal, ensure the new amount is updated in the system to avoid late fees. If you pay by check, confirm the new amount for the next payment cycle. If you prepaid rent as part of the negotiation, ensure you receive a receipt for that transaction. Proper financial record-keeping helps in case of any tax deductions or disputes down the line.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/how-to-negotiate-rent-with-landlord/rent-negotiation-hero-2026.jpg" alt="Tenant and landlord shaking hands during rent negotiation" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/how-to-negotiate-rent-with-landlord/rent-negotiation-hero-2026.jpg" alt="Tenant and landlord shaking hands during rent negotiation" loading="lazy" decoding="async"></figure>
 
 <h2>Common Mistakes to Avoid in Rent Negotiations</h2>
 
@@ -139,7 +139,7 @@
 
 <p>One of the most common mistakes is assuming a verbal agreement is binding. If a landlord says, "Sure, we can do that," and you do not get it in writing, they can change their mind before the lease is signed. Always follow up verbal conversations with an email summary or a formal addendum. Do not pay the new rate until the documents are signed. Verbal agreements are not enforceable in most jurisdictions when it comes to lease modifications.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/how-to-negotiate-rent-with-landlord/rent-research-comps-infographic.jpg" alt="Laptop showing rental market comparison research" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/how-to-negotiate-rent-with-landlord/rent-research-comps-infographic.jpg" alt="Laptop showing rental market comparison research" loading="lazy" decoding="async"></figure>
 
 <h3>Failing to Check the Market</h3>
 

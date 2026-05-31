@@ -18,7 +18,7 @@
 
 <p>Many tenants view the lease as a tool used by landlords to control them, but it actually protects both parties. For the landlord, it guarantees rent payments and sets boundaries for property use. For the tenant, it guarantees the right to quiet enjoyment and limits the landlord's ability to enter the property without notice. It also specifies the duration of the tenancy, preventing the landlord from evicting the tenant without cause during the lease term. A well-drafted lease ensures that both parties understand the timeline, financial obligations, and maintenance responsibilities, creating a stable living environment.</p>
 
-<figure class="article-image article-image--featured_image"><img src="/assets/images/understanding-a-lease-agreement/understanding-lease-agreement-hero.jpg" alt="Handshake over a lease agreement document symbolizing mutual understanding" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--featured_image"><img src="/images/understanding-a-lease-agreement/understanding-lease-agreement-hero.jpg" alt="Handshake over a lease agreement document symbolizing mutual understanding" loading="lazy" decoding="async"></figure>
 
 <h2>Essential Elements Found in Every Residential Lease</h2>
 
@@ -36,7 +36,7 @@
 
 <p>The "Term" section defines the start and end dates of the tenancy. A standard lease often runs for 12 months, but terms can vary from month-to-month to several years. The lease should also state what happens when the term expires. Does it automatically renew? Does it revert to a month-to-month tenancy? Some leases include "holdover" clauses, which charge a penalty if the tenant stays past the end date without renewing. Knowing these dates is essential for planning your move or negotiating a renewal. In 2026, with housing supply fluctuating, knowing your end date helps you secure future housing in advance.</p>
 
-<figure class="article-image article-image--inline_image"><img src="/assets/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--inline_image"><img src="/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
 
 <h2>Financial Terms: Rent, Security Deposits, and Fees</h2>
 
@@ -50,7 +50,7 @@
 
 <p>Security deposits are funds held by the landlord to cover damages beyond normal wear and tear. State laws vary significantly regarding these limits. For example, under North Carolina rental lease agreement laws in 2026, landlords are permitted to charge security deposits up to two months' rent for leases over a month. The lease must detail the conditions for returning this deposit. Typically, landlords have a specific timeframe (often 30 to 60 days after move-out) to return the deposit or provide an itemized list of deductions. Tenants should ensure the lease explicitly states the deadline for deposit returns to hold the landlord accountable.</p>
 
-<figure class="article-image article-image--inline_image"><img src="/assets/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--inline_image"><img src="/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
 
 <h3>Late Fees, Application Fees, and Other Charges</h3>
 
@@ -72,7 +72,7 @@
 
 <p>Property rules regarding pets, smoking, and noise are strictly enforced through lease clauses. If you have a pet, the lease will likely require a pet addendum detailing breed restrictions, weight limits, and extra fees. Smoking restrictions are also common; many leases ban smoking anywhere on the property, including balconies. Quiet hours are often defined to prevent disturbances to neighbors, typically between 10 PM and 7 AM. Violating these rules can result in warnings, fines, or eviction. Tenants must read these sections carefully to ensure their lifestyle complies with the property's regulations before signing.</p>
 
-<figure class="article-image article-image--inline_image"><img src="/assets/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--inline_image"><img src="/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
 
 <h2>Lease Agreement vs. Month-to-Month Rental Agreement</h2>
 
@@ -86,7 +86,7 @@
 
 <p>Terminating a lease early is difficult and often comes with penalties. If you break a 12-month lease, you may be liable for the remaining rent until the unit is re-rented. In contrast, ending a month-to-month agreement requires providing written notice, often 30 days before the intended move-out date. The lease or rental agreement must specify this notice period. Failing to provide adequate notice can result in being charged for an additional month of rent. Tenants should understand these notice requirements to avoid legal liability when moving out.</p>
 
-<figure class="article-image article-image--inline_image"><img src="/assets/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--inline_image"><img src="/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
 
 <h3>When to Choose a Lease Over Month-to-Month</h3>
 
@@ -106,7 +106,7 @@
 
 <p>If you find a clause you cannot accept, you can negotiate. Do not sign the lease immediately. Instead, request an amendment or addendum to modify the specific term. For example, you might ask to reduce a late fee or add a clause allowing a specific pet. Landlords are often willing to negotiate to secure a tenant quickly. However, all changes must be written into the lease. Verbal agreements to change terms are not legally binding. If the landlord agrees to a modification, ensure they sign the addendum before you finalize the lease.</p>
 
-<figure class="article-image article-image--inline_image"><img src="/assets/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--inline_image"><img src="/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
 
 <h3>The Importance of Getting Verbal Promises in Writing</h3>
 
@@ -124,7 +124,7 @@
 
 <p>Laws vary by state and city. While the lease outlines your contract, it cannot override local laws. For example, some cities have rent control or specific eviction moratoriums. Before signing, research your local tenant rights. There are often non-profit organizations or government agencies that provide free resources on tenant rights. Understanding these laws ensures you can identify illegal clauses in the lease. For instance, if a lease waives your right to a habitable dwelling, it violates state law regardless of what you signed.</p>
 
-<figure class="article-image article-image--inline_image"><img src="/assets/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--inline_image"><img src="/images/understanding-a-lease-agreement/lease-agreement-financial-terms.jpg" alt="Calculator and coins representing rent budget and financial terms" loading="lazy" decoding="async"></figure>
 
 <h3>Keeping a Signed Copy for Your Records</h3>
 

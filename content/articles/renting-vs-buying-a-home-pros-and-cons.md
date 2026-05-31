@@ -17,7 +17,7 @@
 <h3>Why 2026 is a Turning Point for Homeownership</h3>
 <p>The case for buying is strengthening as the market normalizes, according to the Discount Property Investor's 2026 beginner’s guide. Historically, renting was the default during economic uncertainty, but 2026 marks a shift where stability is returning to the housing sector. With inflation cooling and wage growth beginning to outpace housing costs in select sectors, the barrier to entry is lowering. This makes 2026 a potential turning point for homeownership, as the "lock-in" effect of low rates from 2021 is fading, bringing more inventory to the market and giving buyers more negotiating power.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/renting-vs-buying-a-home-pros-and-cons/renting-vs-buying-hero-2026.jpg" alt="Split view of rental apartment and for sale house sign representing renting vs buying decision" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/renting-vs-buying-a-home-pros-and-cons/renting-vs-buying-hero-2026.jpg" alt="Split view of rental apartment and for sale house sign representing renting vs buying decision" loading="lazy" decoding="async"></figure>
 
 <h2>Upfront Financial Commitments: Deposits vs Down Payments</h2>
 
@@ -32,7 +32,7 @@
 <h3>The Liquidity Impact of Large Upfront Payments</h3>
 <p>The liquidity impact of large upfront payments cannot be overstated. Tying up $50,000 or more in a down payment reduces your ability to react to market opportunities or handle emergencies. Financial advisors often recommend keeping 3-6 months of expenses in liquid savings. Buying a home can drain these reserves, leaving homeowners vulnerable to job loss or unexpected repairs. Renters maintain higher liquidity, which can be crucial in a volatile job market. However, homeowners should weigh this against the opportunity cost of not building equity.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/renting-vs-buying-a-home-pros-and-cons/upfront-costs-rent-vs-buy-infographic.jpg" alt="Infographic comparing security deposits and down payments for renters and buyers" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/renting-vs-buying-a-home-pros-and-cons/upfront-costs-rent-vs-buy-infographic.jpg" alt="Infographic comparing security deposits and down payments for renters and buyers" loading="lazy" decoding="async"></figure>
 
 <table class="comparison-table"><thead><tr><th>Cost Component</th><th>Renting (Annualized)</th><th>Buying (Annualized)</th></tr></thead><tbody><tr><td><strong>Upfront Capital</strong></td><td>1-2 Months Rent (Deposit)</td><td>3.5% - 20% Down Payment + Closing Costs</td></tr><tr><td><strong>Monthly Payment</strong></td><td>Rent (Variable/Lease Term)</td><td>Mortgage P&I + Taxes + Insurance</td></tr><tr><td><strong>Maintenance</strong></td><td>$0 (Landlord Responsibility)</td><td>1% - 3% of Home Value</td></tr><tr><td><strong>Equity Build</strong></td><td>$0</td><td>Principal Paydown + Appreciation</td></tr><tr><td><strong>Flexibility</strong></td><td>High (Move with 30-60 days notice)</td><td>Low (Selling process takes months)</td></tr><tr><td><strong>Tax Benefits</strong></td><td>None</td><td>Mortgage Interest & Property Tax Deductions</td></tr></tbody></table>
 
@@ -62,7 +62,7 @@
 <h3>Security of Tenure and Eviction Risks</h3>
 <p>Owning provides security of tenure that renting cannot match. As long as you make your mortgage payments and maintain the property, no one can kick you out. Renting introduces the risk of lease non-renewal or eviction due to property sale. While tenant rights guides offer protections against wrongful eviction, the uncertainty remains. In a tight rental market, landlords may choose not to renew leases to capitalize on higher rents or sell the property, forcing tenants to uproot their lives.</p>
 
-<figure class="article-image article-image--photo"><img src="/assets/images/renting-vs-buying-a-home-pros-and-cons/renting-vs-buying-hero-2026.jpg" alt="Split view of rental apartment and for sale house sign representing renting vs buying decision" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photo"><img src="/images/renting-vs-buying-a-home-pros-and-cons/renting-vs-buying-hero-2026.jpg" alt="Split view of rental apartment and for sale house sign representing renting vs buying decision" loading="lazy" decoding="async"></figure>
 
 <h2>Hidden Costs and Risk Management</h2>
 
@@ -90,7 +90,7 @@
 <h3>Impact of Long-Term Interest Rates on Affordability</h3>
 <p>Long-term interest rates are the swing factor in this equation. If rates rise significantly, monthly mortgage payments increase, extending the break-even timeline. Conversely, if rates drop, buying becomes more attractive. The Economist notes that much depends on long-term interest rates. In 2026, if rates remain elevated, the monthly cost of owning may exceed renting, pushing the break-even point further out.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/renting-vs-buying-a-home-pros-and-cons/upfront-costs-rent-vs-buy-infographic.jpg" alt="Infographic comparing security deposits and down payments for renters and buyers" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/renting-vs-buying-a-home-pros-and-cons/upfront-costs-rent-vs-buy-infographic.jpg" alt="Infographic comparing security deposits and down payments for renters and buyers" loading="lazy" decoding="async"></figure>
 
 <h2>Decision Framework: Assessing Your Personal Situation</h2>
 
@@ -105,7 +105,7 @@
 <h3>Emotional Factors and Home Ownership Goals</h3>
 <p>Finally, consider emotional factors. Home ownership goals often include stability for children, the ability to renovate, or community involvement. Renting may feel transient. However, the stress of home maintenance can be a burden. Balancing the emotional desire for ownership with the practical reality of your financial situation is the final step in the decision framework.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/renting-vs-buying-a-home-pros-and-cons/home-buyer-readiness-checklist-illustration.jpg" alt="Illustration checklist for assessing home buyer readiness and financial situation" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/renting-vs-buying-a-home-pros-and-cons/home-buyer-readiness-checklist-illustration.jpg" alt="Illustration checklist for assessing home buyer readiness and financial situation" loading="lazy" decoding="async"></figure>
 
 <h2>FAQ</h2>
 

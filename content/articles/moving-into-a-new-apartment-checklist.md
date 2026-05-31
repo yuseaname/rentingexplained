@@ -18,7 +18,7 @@
 <p>Before packing, you must determine what you are actually moving. The 2026 rental market favors smaller living spaces, meaning you should not bring items that do not fit or serve a purpose. Create three piles: Keep, Donate/Sell, and Discard. Inventory management software or simple spreadsheets can help you track boxes and high-value items. Labeling boxes by room and content is crucial for efficiency.</p>
 <p>Research from Capitol Relocation & Logistics emphasizes that labeling helps movers know exactly where to place items, saving time during unpacking. Write the destination room on each box in large, bold letters. For high-value items like electronics, create a separate inventory list with serial numbers. This not only helps with organization but also provides documentation for renters' insurance claims in case of theft or damage during transit.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/moving-into-a-new-apartment-checklist/moving-apartment-checklist-hero.jpg" alt="Wall calendar with moving tasks marked for apartment checklist" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--infographic"><img src="/images/moving-into-a-new-apartment-checklist/moving-apartment-checklist-hero.jpg" alt="Wall calendar with moving tasks marked for apartment checklist" loading="lazy" decoding="async"></figure>
 
 <h2>Packing the Essential First 24-Hour Box</h2>
 
@@ -36,7 +36,7 @@
 <p>You will not want to order takeout for every meal if your kitchen is not set up. Pack a small set of basic kitchen supplies for the first 24 hours. This should include a microwave-safe plate, a mug, a fork, knife, and spoon. Include a roll of paper towels, a trash bag, and a box of tissues.</p>
 <p>Essential tools are equally important. Pack a box cutter or scissors to open moving boxes, a screwdriver for assembling furniture, and a roll of duct tape for temporary repairs. If you have a coffee habit, bring your coffee maker, a bag of coffee, and a carafe. Having the ability to make a hot beverage immediately can be a great comfort. For a full list of items you should consider buying immediately after moving, visit our <a href="https://rentingexplained.com/essential-kitchen-items">essential kitchen items</a> guide.</p>
 
-<figure class="article-image article-image--photorealistic"><img src="/assets/images/moving-into-a-new-apartment-checklist/moving-essentials-box.jpg" alt="Packed suitcase with essential items for moving day" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photorealistic"><img src="/images/moving-into-a-new-apartment-checklist/moving-essentials-box.jpg" alt="Packed suitcase with essential items for moving day" loading="lazy" decoding="async"></figure>
 
 <h2>Comprehensive Move-In Inspection and Documentation</h2>
 
@@ -54,7 +54,7 @@
 <p>Writing down damages is good, but photographing them is better. Use your smartphone to take high-resolution photos of every defect found during the inspection. Zoom in on scratches, stains, and holes. Take wide shots of the room to show the context of the damage.</p>
 <p>Ensure the timestamp on your photos is visible, or use a photo app that embeds the date. Send these photos to your landlord or property manager via email immediately after the inspection. This creates a digital paper trail. Keep a copy of the signed move-in inspection form provided by the property management. If the landlord refuses to sign the form, email them your findings and request a signed confirmation. For more details on protecting your deposit, read our <a href="https://rentingexplained.com/security-deposit-guide">security deposit guide</a> and <a href="https://rentingexplained.com/lease-inspection-requirements">lease inspection requirements</a>.</p>
 
-<figure class="article-image article-image--photorealistic"><img src="/assets/images/moving-into-a-new-apartment-checklist/moving-essentials-box.jpg" alt="Packed suitcase with essential items for moving day" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photorealistic"><img src="/images/moving-into-a-new-apartment-checklist/moving-essentials-box.jpg" alt="Packed suitcase with essential items for moving day" loading="lazy" decoding="async"></figure>
 
 <h2>Setting Up Utilities and Digital Services</h2>
 
@@ -90,7 +90,7 @@
 <p>Do not let the unpacking mess build up. Establish a cleaning routine immediately to maintain a fresh living environment. Wipe down the counters and floors after unpacking each box to remove dust and debris from the moving process.</p>
 <p>Change the air filters in your HVAC system if they are old. This improves air quality and reduces energy costs. Vacuum the carpets immediately to remove any dust or debris left by the previous tenants or during the move. Keeping the apartment clean from day one helps you maintain the property in good condition, which is essential for getting your security deposit back when you move out. For more organization ideas, check our <a href="https://rentingexplained.com/small-space-organization">small space organization</a> tips.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/moving-into-a-new-apartment-checklist/small-space-storage-illustration.jpg" alt="Illustration of organized closet with vertical storage solutions" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--illustration"><img src="/images/moving-into-a-new-apartment-checklist/small-space-storage-illustration.jpg" alt="Illustration of organized closet with vertical storage solutions" loading="lazy" decoding="async"></figure>
 
 <h2>Post-Move Administrative Updates and Security</h2>
 
@@ -108,7 +108,7 @@
 <p>Building a rapport with your neighbors can be beneficial. They can look out for your property and alert you to any building maintenance issues. Introduce yourself to the people living next door or in the hallway.</p>
 <p>Finally, locate the building's emergency exits and fire escape routes. Know the location of the main water shut-off valve in case of a burst pipe. Familiarize yourself with the trash and recycling protocols for your complex to avoid fines. Being aware of your surroundings and the building's infrastructure is the final step in becoming a responsible tenant. For more safety tips, review our <a href="https://rentingexplained.com/apartment-safety-tips">apartment safety tips</a>.</p>
 
-<figure class="article-image article-image--photorealistic"><img src="/assets/images/moving-into-a-new-apartment-checklist/moving-essentials-box.jpg" alt="Packed suitcase with essential items for moving day" loading="lazy" decoding="async"></figure>
+<figure class="article-image article-image--photorealistic"><img src="/images/moving-into-a-new-apartment-checklist/moving-essentials-box.jpg" alt="Packed suitcase with essential items for moving day" loading="lazy" decoding="async"></figure>
 
 <h2>FAQ: Moving Into a New Apartment Checklist</h2>
 
