@@ -1,0 +1,76 @@
+baseURL = 'https://rentingexplained.com/'
+languageCode = 'en-us'
+title = 'Renting Explained'
+theme = 'adsense-base'
+
+[params]
+  site_name = 'Renting Explained'
+  description = 'Clear, practical guides for renters: know your rights, avoid hidden fees, and make smart housing decisions.'
+  tagline = 'Renting, explained.'
+  author = 'RentingExplained Editorial Team'
+  favicon = '/favicon.ico'
+  og_image = '/favicon.ico'
+  google_site_verification = ''
+
+  [params.adsense]
+    client_id = 'ca-pub-5566942094411042'
+    [params.adsense.slots]
+      below_title = { id = '', format = 'auto', responsive = 'true' }
+      mid_article = { id = '', format = 'auto', responsive = 'true' }
+      end_article = { id = '', format = 'auto', responsive = 'true' }
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[permalinks]
+  blog = '/blog/:slug'
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+  [[menus.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+  [[menus.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+
+  [[menus.footer]]
+    name = "Privacy Policy"
+    url = "/privacy-policy/"
+    weight = 10
+  [[menus.footer]]
+    name = "Terms"
+    url = "/terms-of-service/"
+    weight = 20
+  [[menus.footer]]
+    name = "Disclosure"
+    url = "/disclosure/"
+    weight = 30
