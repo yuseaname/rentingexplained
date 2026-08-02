@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/costs/apartment-move-in-costs/apartment-move-in-costs.webp"
 ---
 
 <h1>Renting vs Buying a Home Pros and Cons: The 2026 Financial Guide</h1>

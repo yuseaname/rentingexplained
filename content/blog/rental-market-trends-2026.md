@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/rental-market-trends-2026/rental-market-trends-2026_hero_00003_.png"
 ---
 
 ---

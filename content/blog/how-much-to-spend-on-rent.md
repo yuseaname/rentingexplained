@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/costs/apartment-move-in-costs/apartment-move-in-costs.webp"
 ---
 
 ---

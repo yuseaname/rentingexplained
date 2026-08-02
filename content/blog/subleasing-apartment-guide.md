@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease-agreement-explained-hero.webp"
 ---
 
 Subleasing an apartment allows you to rent out your current leased unit to another tenant for a portion of your lease term while retaining your legal responsibility to the landlord. To do this legally and safely, you must review your original lease for subletting clauses, obtain written landlord approval, screen potential subtenants thoroughly, and draft a formal sublease agreement that outlines all financial and utility responsibilities. This process protects your credit score and ensures compliance with 2026 rental laws.

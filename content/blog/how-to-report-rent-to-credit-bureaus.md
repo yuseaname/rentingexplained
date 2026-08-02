@@ -6,7 +6,7 @@ date: 2026-03-19
 author: "RentingExplained Editorial Team"
 category: "Credit"
 tags: ["credit-score", "rent-reporting", "credit-building", "tenant-tips", "financial-health"]
-image: "/static/images/how-to-report-rent-to-credit-bureaus-hero.webp"
+image: "/images/how-to-report-rent-to-credit-bureaus-hero.webp"
 readingTime: 12
 ---
 

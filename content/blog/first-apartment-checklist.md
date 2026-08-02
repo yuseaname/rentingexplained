@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/first-apartment-checklist/first-apartment-checklist_hero_00001_.png"
 ---
 
 ---

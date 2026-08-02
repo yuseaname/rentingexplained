@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/how-to-negotiate-rent-2026/how-to-negotiate-rent-2026_hero_00001_.png"
 ---
 
 ---

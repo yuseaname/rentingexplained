@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/apartment-hunting/apartment-tour-checklist-questions-red-flags/apartment-tour-checklist-questions-red-flags-hero.webp"
 ---
 
 <h1>How to Find an Apartment for Rent</h1>

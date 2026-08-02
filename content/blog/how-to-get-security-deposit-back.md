@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/how-to-get-security-deposit-back/how-to-get-security-deposit-back_hero_00001_.png"
 ---
 
 ---

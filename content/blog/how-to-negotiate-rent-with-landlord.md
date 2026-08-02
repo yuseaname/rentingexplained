@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/how-to-negotiate-rent/how-to-negotiate-rent_hero_00001_.png"
 ---
 
 <h1>How to Negotiate Rent with Landlord: A Complete 2026 Strategy Guide</h1>

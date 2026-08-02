@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 author: "RentingExplained Editorial Team"
 draft: true
+image: "/images/apartment-hunting/apartment-tour-checklist-questions-red-flags/apartment-tour-checklist-questions-red-flags-hero.webp"
 ---
 
 <h1>The Ultimate Moving Into a New Apartment Checklist for 2026</h1>
