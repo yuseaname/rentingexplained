@@ -4,9 +4,9 @@
   {{ partial "breadcrumbs.html" . }}
 
   <!-- Page Header -->
-  <header class="mb-10">
-    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">{{ .Title }}</h1>
-    {{ with .Params.description }}<p class="text-lg text-gray-600 mt-2 max-w-2xl">{{ . }}</p>{{ end }}
+  <header class="page-header mb-10">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="page-sub">{{ . }}</p>{{ end }}
   </header>
 
   {{/* Ad: top of list */}}

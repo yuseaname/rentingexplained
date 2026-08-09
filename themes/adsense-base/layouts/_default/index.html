@@ -1,49 +1,53 @@
 {{ define "main" }}
 <div class="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
 
-  <!-- Hero Section -->
-  <section class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900 mb-12 p-8 sm:p-12 lg:p-16">
-    <div class="relative z-10 max-w-3xl">
+  <!-- Hero Section — editorial parchment statement -->
+  <section class="hero-home mb-12 reveal">
+    <div class="hero-home-inner">
       {{ with .Site.Params.tagline }}
-      <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white/90 text-xs font-semibold uppercase tracking-wider mb-4">
-        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
-        </svg>
-        {{ . }}
-      </span>
+      <span class="eyebrow">{{ . }}</span>
       {{ end }}
 
-      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
+      <h1 class="hero-home-title">
         {{ .Site.Params.site_name | default .Site.Title }}
       </h1>
 
       {{ with .Site.Params.description }}
-      <p class="text-lg sm:text-xl text-primary-200 mt-4 max-w-2xl leading-relaxed">
+      <p class="hero-home-sub">
         {{ . }}
       </p>
       {{ end }}
 
       <!-- Quick access CTA -->
       <div class="mt-8 flex flex-col sm:flex-row gap-3">
-        <a href="/blog/" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-primary-700 font-semibold rounded-xl hover:bg-primary-50 transition-colors shadow-lg">
-          Browse All Guides
+        <a href="/blog/" class="btn btn-primary">
+          Browse all guides
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
           </svg>
         </a>
+        <a href="/categories/" class="btn btn-ghost">
+          Browse by topic
+        </a>
       </div>
     </div>
 
-    <!-- Decorative background pattern -->
-    <div class="absolute inset-0 opacity-10" aria-hidden="true">
-      <svg class="w-full h-full" viewBox="0 0 1000 600" preserveAspectRatio="none">
-        <defs>
-          <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5"/>
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#hero-grid)"/>
-      </svg>
+    <!-- Honest stat strip — real numbers only -->
+    <div class="hero-stat-strip">
+      <div class="hero-stat">
+        <span class="hero-stat-num">{{ len (where .Site.RegularPages ".Kind" "page") }}</span>
+        <span class="hero-stat-label">Guides</span>
+      </div>
+      <div class="hero-stat-divider" aria-hidden="true"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">{{ len .Site.Taxonomies.categories }}</span>
+        <span class="hero-stat-label">Topics</span>
+      </div>
+      <div class="hero-stat-divider" aria-hidden="true"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">2026</span>
+        <span class="hero-stat-label">Updated</span>
+      </div>
     </div>
   </section>
 
@@ -51,31 +55,36 @@
   {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
 
   <!-- Trust Indicators -->
-  <div class="trust-bar mb-12">
+  <div class="trust-bar mb-12 reveal">
     <div class="trust-item">
-      <svg class="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
       </svg>
-      <span>Expert-reviewed guides</span>
+      <span>Researched against primary sources</span>
     </div>
     <div class="trust-item">
-      <svg class="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
       </svg>
-      <span>{{ len (where .Site.RegularPages ".Kind" "page") }}+ troubleshooting guides</span>
+      <span>Jurisdiction noted, never guessed</span>
     </div>
     <div class="trust-item">
-      <svg class="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
       </svg>
-      <span>Quick solutions, no fluff</span>
+      <span>Plain language, no fluff</span>
     </div>
   </div>
 
   <!-- Categories Grid -->
   {{ if .Site.Taxonomies.categories }}
-  <section class="mb-12" aria-label="Categories">
-    <h2 class="text-2xl font-bold text-gray-900 mb-6">Browse by Topic</h2>
+  <section class="mb-12 reveal" aria-label="Categories">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">The renting lifecycle</span>
+        <h2 class="section-heading-title">Browse by topic</h2>
+      </div>
+    </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {{ range $name, $pages := .Site.Taxonomies.categories }}
         {{ $count := len $pages }}
@@ -100,10 +109,10 @@
   {{ end }}
 
   <!-- Latest Articles -->
-  <section aria-label="Latest articles">
-    <div class="flex items-center justify-between mb-6">
-      <h2 class="text-2xl font-bold text-gray-900">Latest Guides</h2>
-      <a href="/blog/" class="text-sm font-medium text-primary-600 hover:text-primary-800 transition-colors">
+  <section class="reveal" aria-label="Latest articles">
+    <div class="section-heading">
+      <h2 class="section-heading-title">Latest guides</h2>
+      <a href="/blog/" class="section-heading-link">
         View all →
       </a>
     </div>

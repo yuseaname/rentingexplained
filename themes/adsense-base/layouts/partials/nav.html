@@ -1,12 +1,15 @@
 <nav class="nav-container sticky top-0 z-50" id="main-nav" role="navigation" aria-label="Main navigation">
   <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div class="flex items-center justify-between h-14">
-      <!-- Logo with icon -->
-      <a href="{{ .Site.BaseURL | relURL }}" class="flex items-center gap-2 text-lg font-bold text-gray-900 hover:text-primary-600 transition-colors">
-        <svg class="w-6 h-6 text-primary-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+    <div class="flex items-center justify-between h-15" style="height: var(--nav-height);">
+      <!-- Wordmark — brass key mark + serif name -->
+      <a href="{{ .Site.BaseURL | relURL }}" class="brand-wordmark">
+        <svg class="brand-key" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="8" cy="15" r="4"/>
+          <path d="M10.85 12.15 19 4"/>
+          <path d="m18 5 2 2"/>
+          <path d="m15 8 2 2"/>
         </svg>
-        <span>{{ .Site.Params.site_name | default .Site.Title }}</span>
+        <span class="brand-name">{{ .Site.Params.site_name | default .Site.Title }}</span>
       </a>
 
       <!-- Desktop nav -->
@@ -17,14 +20,13 @@
           {{ range $menuItems }}
             {{ $isActive := or (eq $currentPage.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $currentPage.RelPermalink .URL)) }}
             <a href="{{ .URL }}"
-               class="px-3 py-2 text-sm font-medium rounded-lg transition-colors
-               {{ if $isActive }}bg-primary-50 text-primary-700{{ else }}text-gray-600 hover:text-gray-900 hover:bg-gray-50{{ end }}">
+               class="nav-link {{ if $isActive }}nav-link-active{{ end }}">
               {{ .Name }}
             </a>
           {{ end }}
         {{ else }}
           {{ range .Site.Sections }}
-            <a href="{{ .RelPermalink }}" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}" class="nav-link">{{ .Title }}</a>
           {{ end }}
         {{ end }}
 
