@@ -4,7 +4,7 @@ slug: "apartment-lease-agreement-explained"
 description: "Understand every section of your apartment lease before signing. This plain-English guide explains key clauses, red flags, and what to negotiate."
 date: 2026-03-15
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["lease-agreement", "tenant-rights", "signing-lease", "apartment-hunting", "legal"]
 image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease-agreement-explained-hero.webp"
 imageAlt: "Person carefully reading a lease agreement document at a desk"

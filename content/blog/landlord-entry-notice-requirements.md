@@ -4,10 +4,10 @@ slug: "landlord-entry-notice-requirements"
 description: "Learn how much notice your landlord must give before entering your apartment, when emergency entry is allowed, and what to do if they violate your rights."
 date: 2026-03-15
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["tenant-rights", "landlord-entry", "notice-to-enter", "legal", "lease-agreement"]
-image: "/images/legal-rights/landlord-entry-notice-requirements/landlord-entry-notice-hero.webp"
-imageAlt: "Landlord knocking on apartment door with clipboard"
+image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
+imageAlt: "Apartment door with a notice of entry, representing a landlord's legal notice requirement"
 readingTime: 10
 ---
 

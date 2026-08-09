@@ -4,7 +4,7 @@ slug: "how-to-negotiate-rent-guide"
 description: "A renter-first guide to asking for lower rent or better terms with simple scripts and smart timing."
 date: 2025-01-27
 author: "RentingExplained Editorial Team"
-category: "Money Saving"
+categories: ["Money Saving"]
 tags: ["rent-negotiation", "saving-money", "lease-negotiation", "rent-increase", "apartment-hunting"]
 image: "/images/money-saving/how-to-negotiate-rent-guide/how-to-negotiate-rent-guide-hero.webp"
 imageAlt: "Person reviewing budget and negotiating rent terms"
@@ -41,7 +41,7 @@ Renewals are about retention. A landlord may accept a smaller increase to avoid 
 
 Mid-lease changes are harder. Focus on a small concession instead of a full rent cut, such as a parking adjustment, a waived amenity fee, or a minor upgrade before renewal.
 
-Pro tip: If you are unsure about the best moment to negotiate, check your budget first with the [Rent Budget Checker](/tools/rent-budget-checker). A clear number keeps you grounded.
+Pro tip: If you are unsure about the best moment to negotiate, check your budget first with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford). A clear number keeps you grounded.
 
 ## Build leverage with quick research
 
@@ -61,7 +61,7 @@ Vacancies cost money: cleaning, paint, marketing, and lost rent. If you can move
 
 ### Focus on total monthly cost
 
-A lower base rent is not the only deal. If parking, trash, or amenity fees are negotiable, the total matters more than the line item. Use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) if you want a quick total.
+A lower base rent is not the only deal. If parking, trash, or amenity fees are negotiable, the total matters more than the line item. Use the [Hidden Fees Estimator](/blog/hidden-apartment-fees) if you want a quick total.
 
 Watch out: Do not use comps from totally different buildings or neighborhoods. A weak comparison makes your request feel unreliable.
 
@@ -159,13 +159,13 @@ If you can move sooner, a faster move-in date can be valuable to the landlord. A
 
 ### Compare alternatives
 
-If the total cost still does not work, consider other listings or a different move-in date. The [How to Save Money Renting](/blog/how-to-save-money-renting-2025) guide lists other cost levers.
+If the total cost still does not work, consider other listings or a different move-in date. The [How to Save Money Renting](/blog/how-to-negotiate-rent-guide) guide lists other cost levers.
 
 ## Printable Checklist: Rent negotiation prep
 
 ### Before you reach out
 
-- [ ] Run your budget with the [Rent Budget Checker](/tools/rent-budget-checker)
+- [ ] Run your budget with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford)
 - [ ] Save 3 to 5 comparable listings
 - [ ] Note listing age or current specials
 - [ ] Decide your best ask (rent, fee, or term)
@@ -258,7 +258,7 @@ You can still ask for fee adjustments, parking changes, or other small concessio
 
 A calm, specific request is the most effective. Keep your ask clear, tie it to timing or comps, and confirm the result in writing.
 
-- Validate your numbers with the [Rent Budget Checker](/tools/rent-budget-checker).
-- Compare add-ons using the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+- Validate your numbers with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
+- Compare add-ons using the [Hidden Fees Estimator](/blog/hidden-apartment-fees).
 - If you are still searching, use the [Apartment Tour Checklist](/blog/apartment-tour-checklist-questions-red-flags).
-- For deeper savings, read [How to Save Money Renting](/blog/how-to-save-money-renting-2025).
+- For deeper savings, read [How to Save Money Renting](/blog/how-to-negotiate-rent-guide).

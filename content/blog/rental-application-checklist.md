@@ -4,7 +4,7 @@ slug: "rental-application-checklist"
 description: "A calm checklist of rental application documents, fees, and timing so you can apply fast and avoid delays."
 date: 2025-02-05
 author: "RentingExplained Editorial Team"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "rental-application", "background-check", "first-apartment", "moving"]
 image: "/images/apartment-hunting/rental-application-checklist/rental-application-checklist-hero.webp"
 imageAlt: "Person reviewing rental application documents"
@@ -49,7 +49,7 @@ Income verification is often the biggest gate. Typical documents include:
 - Benefit statements if you receive retirement or disability income.
 - Bank statements if you are self-employed.
 
-If you want a quick affordability check before you apply, use the [Rent Budget Checker](/tools/rent-budget-checker).
+If you want a quick affordability check before you apply, use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
 
 ### Rental history and references
 
@@ -66,7 +66,7 @@ Some landlords ask for:
 
 If you have questions about what is allowed or required, review [tenant rights basics](/blog/tenant-rights-everyone-should-know) and the [state overview guide](/blog/tenant-rights-by-state-overview). This is general education, not legal advice.
 
-You can also browse the [tenant laws hub](/laws) for state-specific resources.
+You can also browse the [tenant laws hub](/blog/tenant-rights-by-state-overview) for state-specific resources.
 
 ## Step-by-step: build a clean application packet {#application-packet}
 
@@ -156,9 +156,9 @@ Ask for a total cost view, not just base rent. Common add-ons include:
 - Monthly utility or service fees.
 - Parking, storage, or amenity fees.
 
-For a breakdown of hidden costs, read the [hidden rental fees guide](/blog/hidden-rental-fees-explained). Then use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to compare two units on equal footing.
+For a breakdown of hidden costs, read the [hidden rental fees guide](/blog/hidden-rental-fees-explained). Then use the [Hidden Fees Estimator](/blog/hidden-apartment-fees) to compare two units on equal footing.
 
-If the rent is close to your limit, consider reading the [how to save money renting guide](/blog/how-to-save-money-renting-2025) before you apply. It can help you decide whether the unit is realistic.
+If the rent is close to your limit, consider reading the [how to save money renting guide](/blog/how-to-negotiate-rent-guide) before you apply. It can help you decide whether the unit is realistic.
 
 > **Warning:** Do not pay multiple application fees at once unless you can afford to lose them. Prioritize the units that best fit your budget and needs.
 
@@ -225,7 +225,7 @@ Simple ways to protect yourself:
 - Tour the unit before paying any fees when possible.
 - Use official payment methods.
 
-If you want to review a lease for common red flags before signing, use the [Lease Red Flag Scanner](/tools/lease-red-flag-scanner).
+If you want to review a lease for common red flags before signing, use the [Lease Red Flag Scanner](/blog/apartment-tour-checklist-questions-red-flags).
 
 ## Quick application checklist {#quick-checklist}
 
@@ -269,7 +269,7 @@ Only if you can afford the fees and the units meet your needs. A targeted approa
 
 If you are preparing to apply, use the [apartment tour checklist](/blog/apartment-tour-checklist-questions-red-flags) to evaluate units first. Then read the [tenant screening guide](/blog/tenant-screening-credit-checks-for-renters) so you understand how approvals work.
 
-For affordability, run the [Rent Budget Checker](/tools/rent-budget-checker) and the [Hidden Fees Estimator](/tools/hidden-fees-estimator). If you want a full, step-by-step path, start at the [Renting Guides hub](/guides).
+For affordability, run the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) and the [Hidden Fees Estimator](/blog/hidden-apartment-fees). If you want a full, step-by-step path, start at the [Renting Guides hub](/blog/).
 
 **Disclosure:** Some resources mentioned in this guide may include affiliate partnerships. See our [disclosure](/disclosure) for details.
 

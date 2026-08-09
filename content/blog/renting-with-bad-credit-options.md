@@ -4,7 +4,7 @@ slug: "renting-with-bad-credit-options"
 description: "Learn how renters with bad credit get approved, when cosigners help, and how to strengthen an application."
 date: 2026-01-10
 author: "RentingExplained Editorial Team"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["bad-credit", "rental-application", "tenant-screening", "apartment-hunting", "cosigner"]
 image: "/images/apartment-hunting/renting-with-bad-credit-options/renting-with-bad-credit-options-hero.webp"
 imageAlt: "Person reviewing credit paperwork at a desk"
@@ -117,7 +117,7 @@ If you are self-employed, consider providing bank statements or contracts that s
 
 If you can show a stable history of on-time bill payments, include it. A simple note that you have never missed rent can be helpful when paired with proof.
 
-If you want to show affordability, use the [Rent Budget Checker](/tools/rent-budget-checker) and keep your rent target realistic. A rent number that fits your budget is a strong signal.
+If you want to show affordability, use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) and keep your rent target realistic. A rent number that fits your budget is a strong signal.
 
 ### References and rental history
 

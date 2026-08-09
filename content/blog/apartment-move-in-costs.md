@@ -4,7 +4,7 @@ slug: "apartment-move-in-costs"
 description: "A renter-first breakdown of move-in costs, fees, and a checklist to budget before you get the keys."
 date: 2026-01-04
 author: "RentingExplained Editorial Team"
-category: "Costs"
+categories: ["Costs"]
 tags: ["move-in-costs", "budgeting", "apartment-hunting", "rental-fees", "first-apartment"]
 image: "/images/costs/apartment-move-in-costs/apartment-move-in-costs-hero.webp"
 imageAlt: "Moving boxes in a bright apartment living room"
@@ -60,7 +60,7 @@ Some properties collect last month rent up front, while others do not. Ask wheth
 ## Printable Checklist: Move-In Cost Prep
 
 ### Before you apply
-- [ ] Estimate your monthly rent range with the [Rent Budget Checker](/tools/rent-budget-checker)
+- [ ] Estimate your monthly rent range with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford)
 - [ ] Ask about application and admin fees in writing
 - [ ] Confirm whether a holding fee is required
 - [ ] Ask if last month rent is collected up front
@@ -192,7 +192,7 @@ List what must be paid before you get keys, then list what can be paid in the fi
 
 If the total is higher than expected, adjust your move-in date, choose a cheaper unit, or delay non-essential purchases.
 
-For a quick total-cost check, compare rent and fees with the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+For a quick total-cost check, compare rent and fees with the [Hidden Fees Estimator](/blog/hidden-apartment-fees).
 
 ## How to reduce move-in costs
 
@@ -284,4 +284,4 @@ Some landlords require proof before keys are handed over. Ask when it must be ac
 
 Move-in costs feel big, but they are manageable with a simple plan. Start with the big three payments, ask for a full fee list in writing, and buy essentials first.
 
-If you want a broader checklist, review the [first apartment checklist](/blog/first-apartment-checklist-guide-2025), compare totals with the [Rent Budget Checker](/tools/rent-budget-checker), and scan add-ons with the [hidden rental fees guide](/blog/hidden-rental-fees-explained).
+If you want a broader checklist, review the [first apartment checklist](/blog/first-apartment-checklist-guide-2025), compare totals with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford), and scan add-ons with the [hidden rental fees guide](/blog/hidden-rental-fees-explained).

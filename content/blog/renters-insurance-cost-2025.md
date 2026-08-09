@@ -4,7 +4,7 @@ slug: "renters-insurance-cost-2025"
 description: "A renter-first guide to renters insurance costs, coverage choices, and ways to lower your premium."
 date: 2026-01-06
 author: "RentingExplained Editorial Team"
-category: "Costs"
+categories: ["Costs"]
 tags: ["renters-insurance", "insurance", "budgeting", "costs", "protection"]
 image: "/images/costs/renters-insurance-cost-2025/renters-insurance-cost-2025-hero.webp"
 imageAlt: "Person reviewing insurance documents at a desk"
@@ -132,7 +132,7 @@ Example: If your bedroom, living room, and electronics total around $12,000 and 
 
 ### Keep your budget in view
 
-Use the [Rent Budget Checker](/tools/rent-budget-checker) to make sure your premium fits your overall monthly costs.
+Use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to make sure your premium fits your overall monthly costs.
 
 ## Optional add-ons and upgrades
 
@@ -172,7 +172,7 @@ Bundling can reduce cost, but only if the total premium still fits your budget. 
 
 Raising the deductible can lower your premium. Make sure the deductible is still manageable in an emergency.
 
-For more monthly savings ideas, review [how to save money renting](/blog/how-to-save-money-renting-2025).
+For more monthly savings ideas, review [how to save money renting](/blog/how-to-negotiate-rent-guide).
 Review your policy every year.
 
 ### Ask about safety discounts

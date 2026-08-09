@@ -4,7 +4,7 @@ slug: "how-to-report-rent-to-credit-bureaus"
 description: "Learn how to report your rent payments to credit bureaus using third-party services. Compare costs, bureau coverage, and whether rent reporting can improve your credit score."
 date: 2026-03-19
 author: "RentingExplained Editorial Team"
-category: "Credit"
+categories: ["Credit"]
 tags: ["credit-score", "rent-reporting", "credit-building", "tenant-tips", "financial-health"]
 image: "/images/how-to-report-rent-to-credit-bureaus-hero.webp"
 readingTime: 12

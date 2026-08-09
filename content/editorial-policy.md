@@ -1,208 +1,63 @@
 ---
 title: "Editorial Policy"
 slug: "editorial-policy"
-description: ""
+description: "How Renting Explained researches, writes, fact-checks, and updates its guides — and the sources we rely on for rental and legal information."
 date: 2025-01-01
+lastmod: 2026-08-09
 layout: "single"
 ---
 
-export const metadata = genMeta();
+Last updated: August 9, 2026
 
-    
+Renting Explained is committed to publishing accurate, useful, and unbiased information for renters. This policy describes how we research, write, review, and maintain our guides.
 
-      
+## Our mission
 
-        # Editorial Policy
+We help US renters understand leases, deposits, tenant rights, and the real costs of renting — in plain language, with primary-source grounding. We write for the renter, not the landlord.
 
-        
+## How we choose topics
 
-          Last updated: January 2025
+We build coverage around the questions renters actually ask, organized around the renting lifecycle: finding a rental, applying, signing a lease, paying deposits, moving in, dealing with repairs and rent changes, and moving out. We prioritize topics where the information is hard to find, easy to get wrong, or where a renter's money and housing are at stake.
 
-          
-          ## Our Mission
+## Our sources
 
-          
-            RentingExplained.com is committed to providing accurate, unbiased, and helpful information to renters. 
-            Our editorial standards ensure that every piece of content meets the highest quality benchmarks.
-          
+For factual and legal claims, we prioritize current **primary sources**:
 
-          ## Editorial Standards
+1. Government agencies (e.g., HUD, the CFPB, state attorney general offices);
+2. State statutes and local ordinances;
+3. City and county housing departments and tenant-landlord offices;
+4. Court self-help centers and published court rules; and
+5. Official regulatory guidance.
 
-          
-          ### 1. Accuracy & Fact-Checking
+We may also cite established, reputable secondary sources to explain or contextualize primary law. We avoid anonymous, unverified, or low-quality sources.
 
-          
-            - All factual claims are verified against multiple credible sources
+## Handling jurisdiction
 
-            - Legal and financial information is reviewed by subject matter experts when possible
+Landlord-tenant law in the United States varies by state, county, city, property type, and date. We do not pretend a single national answer exists where it does not. When a rule depends on jurisdiction, we say so, give the general principle where one exists, and point you to where the local answer lives.
 
-            - Statistics and data are cited with links to original sources
+## Accuracy and fact-checking
 
-            - We update articles when laws, regulations, or best practices change
+- Factual claims are checked against the credible sources listed above.
+- Where we cite a number, deadline, or rule, we link the source so you can verify it.
+- When we cannot verify a claim, we either label it as general information or we do not publish it.
+- We never fabricate statistics, studies, or testimonials.
 
-          
+## Updates
 
-          ### 2. Expertise & Authority
+Laws, fees, and procedures change. We review and update guides on a rolling basis, and we update immediately when a reader, a source change, or our own review surfaces something out of date. Articles display a publish date and, where relevant, an updated date.
 
-          
-            - Articles are written or reviewed by individuals with relevant expertise
+## Independence from advertising
 
-            - Authors disclose their qualifications and experience
+Our editorial content is produced independently of our advertising and affiliate relationships. Advertisers and affiliate partners cannot choose topics, approve articles, or suppress coverage. Full details are on our [Disclosure](/disclosure) page.
 
-            - We consult with tenant rights attorneys, financial advisors, and industry professionals
+## Corrections
 
-            - Personal experiences are clearly labeled as anecdotal
+When we get something wrong, we correct it promptly and transparently, and we note significant corrections on the affected article. The process is described in full on our [Corrections](/corrections) page.
 
-          
+## Not legal advice
 
-          ### 3. Independence & Objectivity
+Everything we publish is general educational information, not legal advice, and does not create an attorney-client relationship. For your specific situation, consult a qualified attorney or a local tenant-rights organization in your jurisdiction.
 
-          
-            - Editorial content is never influenced by advertisers or sponsors
+## Contact
 
-            - Product recommendations are based on merit, not compensation
-
-            - Affiliate relationships are clearly disclosed
-
-            - We maintain a strict separation between advertising and editorial content
-
-          
-
-          ### 4. Transparency
-
-          
-            - Every article includes publish and last-modified dates
-
-            - Significant updates are noted at the top of articles
-
-            - Sources are cited and linked
-
-            - Conflicts of interest are disclosed
-
-          
-
-          ## Content Review Process
-
-          
-          ### Before Publication
-
-          
-            **Research:** Writers research using credible sources (government sites, legal databases, academic studies)
-            **First Draft:** Article is written following our style guide
-            **Fact-Checking:** All claims are verified independently
-            **Expert Review:** Subject matter experts review when appropriate
-            **Editorial Review:** Editor checks for clarity, accuracy, and completeness
-            **Final Approval:** Article is approved for publication
-          
-
-          ### After Publication
-
-          
-            - Articles are reviewed quarterly for accuracy
-
-            - Reader feedback is monitored and addressed
-
-            - Updates are made when laws or best practices change
-
-            - Significant errors are corrected immediately with disclosure
-
-          
-
-          ## Corrections Policy
-
-          
-            We take accuracy seriously. When we make a mistake:
-          
-
-          
-            - We correct it as quickly as possible
-
-            - We clearly note the correction at the top of the article
-
-            - We explain what was wrong and what changed
-
-            - We maintain transparency about our errors
-
-          
-          
-            Report errors at [corrections@rentingexplained.com](/corrections)
-          
-
-          ## Source Standards
-
-          
-          ### Acceptable Sources
-
-          
-            - Government websites (.gov)
-
-            - Legal databases and court documents
-
-            - Academic research and studies
-
-            - Established news organizations
-
-            - Industry reports from reputable organizations
-
-            - Direct interviews with experts
-
-          
-
-          ### Unacceptable Sources
-
-          
-            - Anonymous sources without verification
-
-            - Unverified social media claims
-
-            - Partisan advocacy sites without balance
-
-            - Content mills or low-quality sites
-
-          
-
-          ## Diversity & Inclusion
-
-          
-            We strive to represent diverse renter experiences and perspectives. Our content acknowledges that 
-            renters face different challenges based on location, income, family status, and other factors.
-          
-
-          ## User-Generated Content
-
-          
-            When we feature user stories or comments:
-          
-
-          
-            - We verify the user's identity when possible
-
-            - We clearly label content as user-generated
-
-            - We moderate for accuracy and appropriateness
-
-            - We do not edit user content except for clarity or length
-
-          
-
-          ## Advertising & Monetization
-
-          
-            While we monetize through advertising and affiliate links:
-          
-
-          
-            - Ads are clearly labeled and visually distinct from content
-
-            - Advertisers have no influence over editorial decisions
-
-            - We only recommend products/services we believe are valuable
-
-            - Affiliate relationships are disclosed
-
-          
-
-          ## Contact Us
-
-          
-            Questions about our editorial policy? Contact editorial@rentingexplained.com
+Questions about this policy can be sent to **editorial@rentingexplained.com**.

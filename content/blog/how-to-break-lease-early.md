@@ -4,7 +4,7 @@ slug: "how-to-break-lease-early"
 description: "A renter-first guide to ending a lease early, with legal options, negotiation tips, and credit-safe steps."
 date: 2025-01-22
 author: "Michael Chen"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["lease-termination", "tenant-rights", "legal", "lease-break", "early-termination"]
 image: "/images/legal-rights/how-to-break-lease-early/how-to-break-lease-early-hero.webp"
 readingTime: 16
@@ -55,7 +55,7 @@ required notice format, delivery method, and deadlines. That short list becomes 
 Then confirm the general legal landscape where you live using reputable local resources. Start at the 
 [
 tenant rights and laws hub
-](/laws) 
+](/blog/tenant-rights-by-state-overview) 
 and the 
 [
 tenant rights by state overview
@@ -63,7 +63,7 @@ tenant rights by state overview
 . If you want a quick way to spot clauses that deserve a second look, use the 
 [
 Lease Red Flag Scanner
-](/tools/lease-red-flag-scanner)
+](/blog/apartment-tour-checklist-questions-red-flags)
 .
 ## Legal exits (high-level, location-specific)
 Some situations can create legal protections that may allow an early exit. The details vary by location, so
@@ -136,11 +136,11 @@ If you are deciding between paying a fee vs finding a replacement tenant, it hel
 monthly costs. The 
 [
 Hidden Fees Estimator
-](/tools/hidden-fees-estimator) 
+](/blog/hidden-apartment-fees) 
 can help you list add-ons and compare true totals, and the 
 [
 Rent Budget Checker
-](/tools/rent-budget-checker) 
+](/blog/how-much-rent-can-i-afford) 
 can help you sanity-check what you can afford during the transition.
 ## Move-out proof (protect yourself)
 Even if your lease end date changes, your move-out documentation still matters. Take photos and video on

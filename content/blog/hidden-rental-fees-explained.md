@@ -4,7 +4,7 @@ slug: "hidden-rental-fees-explained"
 description: "A clear guide to move-in fees, monthly add-ons, and how to spot and negotiate surprise charges."
 date: 2025-01-13
 author: "Jessica Torres"
-category: "Costs"
+categories: ["Costs"]
 tags: ["rental-fees", "hidden-costs", "budgeting", "transparency"]
 image: "/images/costs/hidden-rental-fees-explained/hidden-rental-fees-explained-hero.webp"
 readingTime: 10
@@ -120,7 +120,7 @@ control cost surprises.
 If you want a quick way to scan common “deserves a second look” clauses, use the 
 [
 Lease Red Flag Scanner
-](/tools/lease-red-flag-scanner)
+](/blog/apartment-tour-checklist-questions-red-flags)
 .
 ## How to get a fee schedule in writing
 A calm, direct request works better than a complaint. You are not accusing anyone—you are asking for clarity so
@@ -136,7 +136,7 @@ that the unit is not a fit—before you sink time and money into applications.
 For broader money-saving tactics, see 
 [
 How to Save Money Renting
-](/blog/how-to-save-money-renting-2025)
+](/blog/how-to-negotiate-rent-guide)
 .
 ### Simple script
 “I like the unit and can move quickly. If rent is fixed, is there flexibility on the admin fee or can parking
@@ -151,11 +151,11 @@ month. The “true monthly cost” method makes that difference obvious before y
 Start with your rent range using the 
 [
 Rent Budget Checker
-](/tools/rent-budget-checker)
+](/blog/how-much-rent-can-i-afford)
 . Then build the full monthly total with the 
 [
 Hidden Fees Estimator
-](/tools/hidden-fees-estimator)
+](/blog/hidden-apartment-fees)
 .
 ## 2-minute quiz: is this listing fee-transparent?
 Use this quick quiz to decide whether a unit is “clear enough” to compare. Choose the answer that fits what you
@@ -213,6 +213,6 @@ the apartment fits your budget.
 - 
 Build your rent range: [How Much Rent Can I Afford?](/blog/how-much-rent-can-i-afford)
 - 
-Estimate true totals: [Hidden Fees Estimator](/tools/hidden-fees-estimator)
+Estimate true totals: [Hidden Fees Estimator](/blog/hidden-apartment-fees)
 - 
 Plan move-in cash: [Apartment Move-In Costs](/blog/apartment-move-in-costs)

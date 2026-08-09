@@ -1,189 +1,59 @@
 ---
 title: "Disclosure"
 slug: "disclosure"
-description: ""
+description: "How Renting Explained makes money: Google AdSense advertising and affiliate relationships, and our commitment to editorial independence."
 date: 2025-01-01
+lastmod: 2026-08-09
 layout: "single"
 ---
 
-export const metadata = genMeta();
+Last updated: August 9, 2026
 
-    
+Renting Explained is a free resource for renters. To keep the site running and continue publishing guides, we earn revenue through advertising and, where relevant, affiliate partnerships. This page explains how that works and how it does — and does not — affect our content.
 
-      
+## Advertising: Google AdSense
 
-        # Disclosure
+We participate in the **Google AdSense** program, which displays ads throughout the site. AdSense ads are:
 
-        
+- Selected by Google based on page content and, where permitted, your browsing activity;
+- Clearly labeled as advertisements or sponsored;
+- Not endorsed or controlled by Renting Explained; and
+- Subject to Google's advertising policies.
 
-          Last updated: January 2025
+Third-party vendors and ad networks, including Google, may use cookies (such as the DoubleClick DART cookie) to serve and measure ads based on your visits to this and other websites. See our [Privacy Policy](/privacy-policy) for how to opt out of personalized ads.
 
-          
-          ## How We Make Money
+## Affiliate links
 
-          
-            RentingExplained.com is a free resource for renters. To keep the site running and continue creating 
-            valuable content, we earn revenue through advertising and affiliate partnerships. This page explains 
-            how we make money and how it affects our content.
-          
+Some links on the site may be **affiliate links**. If you click one and sign up for or buy a product or service, we may earn a commission at no additional cost to you.
 
-          ## Advertising
+Affiliate links may relate to services renters use, such as:
 
-          
-          ### Google AdSense
+- Apartment listing and search services;
+- Renters insurance providers and comparison tools;
+- Credit-building and rent-reporting services; and
+- Moving and storage services.
 
-          
-            We participate in the Google AdSense program, which displays contextual advertisements throughout 
-            the site. These ads are:
-          
+When a link is affiliate and we are able to mark it, we disclose it. Where disclosure at the link level isn't practical, this page serves as our standing disclosure that we may earn commissions on recommended services.
 
-          
-            - Automatically selected by Google based on page content and your browsing history
+## Editorial independence
 
-            - Clearly labeled as advertisements
+Revenue does not decide what we write or how we rate anything. Specifically:
 
-            - Not endorsed or controlled by RentingExplained.com
+- Advertisers and affiliate partners have no input on article topics, conclusions, or ratings;
+- They cannot review or approve articles before publication;
+- They cannot request changes to editorial content; and
+- They cannot suppress negative coverage of their products.
 
-            - Subject to Google's advertising policies
+We only recommend products and services we believe are genuinely useful to renters, based on research and real assessment — not commission.
 
-          
+## Sponsored content
 
-          ### Display Advertising
+If we ever publish sponsored content or paid promotions, it will be clearly labeled as "Sponsored," "Advertisement," or "Promoted," and the relationship will be disclosed at the top of the piece. We maintain editorial control and will not publish content we believe is misleading.
 
-          
-            We may also display ads from other advertising networks. All advertising is clearly marked and 
-            separated from editorial content.
-          
+## FTC compliance
 
-          ## Affiliate Relationships
+This disclosure is provided in accordance with the U.S. Federal Trade Commission's guidelines on the disclosure of affiliate relationships and sponsored content. We believe in transparency and want you to understand how the site is funded.
 
-          
-          ### What Are Affiliate Links?
+## Contact
 
-          
-            Some links on this site are "affiliate links," which means we may earn a commission if you click 
-            the link and make a purchase or sign up for a service. This comes at no additional cost to you.
-          
-
-          ### Our Affiliate Partners May Include:
-
-          
-            **Apartment listing services** (Apartments.com, Zillow, etc.)
-            **Moving services** (MoveBuddha, U-Haul, etc.)
-            **Financial services** (Credit Karma, NerdWallet, etc.)
-            **Insurance providers** (Renters insurance comparison sites)
-            **Software and apps** (Budgeting tools, productivity apps)
-          
-
-          ### Our Commitment
-
-          
-            We only recommend products and services that:
-          
-
-          
-            - We genuinely believe will help renters
-
-            - We would recommend regardless of commission
-
-            - Have been researched and vetted
-
-            - Provide real value to our audience
-
-          
-          
-            **We never let affiliate commissions influence our editorial judgment.** Our recommendations 
-            are based on merit, user reviews, and our assessment of value.
-          
-
-          ## Sponsored Content
-
-          
-            From time to time, we may publish sponsored content or work with brands on promotional campaigns. 
-            When we do:
-          
-
-          
-            - Sponsored content is clearly labeled as "Sponsored," "Advertisement," or "Promoted"
-
-            - We only accept sponsorships from brands we believe align with our values
-
-            - We maintain editorial control and will not publish misleading content
-
-            - We disclose the sponsorship relationship at the top of the article
-
-          
-
-          ## Product Reviews
-
-          
-            When we review products or services:
-          
-
-          
-            - Reviews are based on research, testing, or expert analysis
-
-            - We provide honest assessments, including negatives
-
-            - If a product link is an affiliate link, we disclose it
-
-            - We do not accept payment for positive reviews
-
-          
-
-          ## Free Products & Services
-
-          
-            Occasionally, companies may provide free products, services, or access for review purposes. 
-            This does not guarantee a positive review or coverage. We disclose when products were provided 
-            for free.
-          
-
-          ## Editorial Independence
-
-          
-            Our editorial team operates independently from our business operations. Advertisers and 
-            affiliate partners:
-          
-
-          
-            - Do not have input on article topics or content
-
-            - Cannot review articles before publication
-
-            - Cannot request changes to editorial content
-
-            - Cannot suppress negative coverage
-
-          
-
-          ## Your Privacy
-
-          
-            Some advertising and affiliate partners may use cookies and tracking technologies. Please see 
-            our [Privacy Policy](/privacy-policy) for details on how your data is used.
-          
-
-          ## FTC Compliance
-
-          
-            RentingExplained.com complies with the Federal Trade Commission's guidelines on disclosure of 
-            affiliate relationships and sponsored content. We believe in transparency and want you to understand 
-            how we make money.
-          
-
-          ## Questions
-
-          
-            If you have questions about our monetization practices, advertising, or affiliate relationships, 
-            please contact us at disclosure@rentingexplained.com
-          
-
-          
-
-            ### Our Promise
-
-            
-              Your trust is our most valuable asset. We promise to always prioritize your interests over revenue, 
-              maintain editorial independence, and clearly disclose all financial relationships. If you ever feel 
-              we've fallen short of this promise, please let us know.
+Questions about our monetization practices can be sent to **disclosure@rentingexplained.com**.

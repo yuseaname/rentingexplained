@@ -4,7 +4,7 @@ slug: "first-apartment-checklist-budget-guide"
 description: "A room-by-room budget guide for first-time renters with realistic tiers and a simple buying timeline."
 date: 2025-01-26
 author: "RentingExplained Editorial Team"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["first-apartment", "first-time-renter", "apartment-checklist", "budgeting", "moving"]
 image: "/images/apartment-hunting/first-apartment-checklist-budget-guide/first-apartment-checklist-budget-guide-hero.webp"
 imageAlt: "Moving boxes in a new apartment for a first apartment checklist"
@@ -152,7 +152,7 @@ It is easy to buy for the person you want to be: a full bar cart, specialty appl
 
 If you buy new items, keep receipts and note return deadlines. Test items quickly (lighting, small appliances, storage) so you can return what does not work. A short “trial period” prevents you from keeping purchases that create clutter or frustration.
 
-Pro tip: If you are moving soon and deciding between two apartments, estimate the full cost (rent + utilities + fees + move-in) before you set a furniture budget. The [Rent Budget Checker](/tools/rent-budget-checker) and [Hidden Fees Estimator](/tools/hidden-fees-estimator) help you see the total picture.
+Pro tip: If you are moving soon and deciding between two apartments, estimate the full cost (rent + utilities + fees + move-in) before you set a furniture budget. The [Rent Budget Checker](/blog/how-much-rent-can-i-afford) and [Hidden Fees Estimator](/blog/hidden-apartment-fees) help you see the total picture.
 
 ## A simple buying timeline (week 1 to month 3) {#buying-timeline}
 
@@ -208,7 +208,7 @@ A simple list beats a complicated spreadsheet. The goal is not perfect budgeting
 - Save receipts and note return windows.
 - Review once a week, not every day.
 
-If you need ways to lower costs while you settle in, review [How to Save Money Renting](/blog/how-to-save-money-renting-2025) for practical, renter-first moves.
+If you need ways to lower costs while you settle in, review [How to Save Money Renting](/blog/how-to-negotiate-rent-guide) for practical, renter-first moves.
 
 ## Copy/paste first apartment budget tracker {#budget-template}
 
@@ -265,6 +265,6 @@ Prioritize sleep, hygiene, and the ability to eat simple meals at home. A basic 
 
 ## Next steps {#next-steps}
 
-- Estimate your upfront cash with [Apartment Move-In Costs](/blog/apartment-move-in-costs) and the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
-- Confirm your rent range with the [Rent Budget Checker](/tools/rent-budget-checker).
+- Estimate your upfront cash with [Apartment Move-In Costs](/blog/apartment-move-in-costs) and the [Hidden Fees Estimator](/blog/hidden-apartment-fees).
+- Confirm your rent range with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
 - If you are still applying, use the [Rental Application Checklist](/blog/rental-application-checklist) to avoid last-minute fees and delays.

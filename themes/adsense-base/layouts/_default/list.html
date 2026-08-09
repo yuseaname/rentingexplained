@@ -17,9 +17,11 @@
     {{ range .RegularPages }}
       <article class="card">
         <a href="{{ .RelPermalink }}" class="block">
+          {{ $title := .Title }}
+          {{ $alt := .Params.imageAlt | default $title }}
           {{ with .Params.image }}
             <div class="overflow-hidden">
-              <img src="{{ . }}" alt="{{ $.Title }}" class="card-image" loading="lazy">
+              <img src="{{ . }}" alt="{{ $alt }}" class="card-image" loading="lazy">
             </div>
           {{ end }}
           <div class="card-body">

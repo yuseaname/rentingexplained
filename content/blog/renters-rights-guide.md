@@ -1,11 +1,19 @@
 ---
 title: "Renter's Rights: What Your Landlord Cannot Legally Do"
 slug: "renters-rights-guide"
-description: ""
-date: 2025-01-01
+description: "The core rights every US renter has, the landlord actions that are illegal, and what to do when your rights are violated."
+date: 2026-04-18
+lastmod: 2026-08-09
 author: "RentingExplained Editorial Team"
-draft: true
-image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease-agreement-explained-hero.webp"
+categories: ["Legal Rights"]
+tags: 
+  - "tenant-rights"
+  - "renter-protections"
+  - "legal"
+  - "lease-agreement"
+  - "safety"
+image: "/images/rentingexplained-appeditorial-policypagetsx-hero-ea0bd60f0fe3.webp"
+imageAlt: "Renter reviewing a list of tenant rights and landlord obligations"
 ---
 
 ---
@@ -347,30 +355,3 @@ Sincerely,
 ---
 
 Know your rights. Landlords who violate them are betting you don't know better. Prove them wrong.
-
----
-
-*Related Articles:*
-- [First-Time Renter's Guide](#)
-- [Security Deposits: How to Get Yours Back](#)
-- [How to Break a Lease Without Destroying Your Credit](#)
-
-
-## Related Articles
-
-- [Complete Guide for Beginners](/blog/complete-beginners-guide)
-- [Common Mistakes to Avoid](/blog/common-mistakes-guide)
-- [Tips and Best Practices](/blog/tips-best-practices)
-
-## What Most People Miss  
-1. **Landlords can’t retaliate for reporting code violations** – In many states, evicting or raising rent in response to a tenant filing a complaint about health/safety issues (e.g., broken HVAC, mold) is illegal. This “retaliation” protection is often overlooked but critical.  
-2. **Service animals aren’t pets—they’re medical accommodations** – Under the ADA, landlords can’t charge extra fees for service animals (unlike emotional support animals). Many mistakenly treat them as regular pets, leading to unfair costs or denial of access.  
-3. **Normal wear and tear isn’t a deductible** – Security deposit deductions for routine damage (e.g., faded paint, minor floor scratches) are often invalid. Landlords must distinguish between “damage” and “wear and tear” to avoid misusing deposits.  
-4. **Subletting isn’t always banned** – While leases often prohibit subletting without written consent, some states (e.g., California) allow tenants to sublet if the landlord unreasonably refuses or the lease is silent. Always check local laws before assuming a ban.
-
-## Conclusion  
-Understanding your rights as a renter is crucial to maintaining a fair and respectful landlord-tenant relationship. Key takeaways include:  
-- **Unlawful entry**: Landlords must provide notice (typically 24–48 hours) before entering your unit, except in emergencies.  
-- **Withholding necessary repairs**: You can withhold rent or hire a contractor for critical fixes if your landlord neglects responsibilities.  
-- **Retaliation or discrimination**: Landlords cannot evict, raise rent, or discriminate against tenants based on protected characteristics like race, family status, or disability.  
-If you suspect your rights are being violated, document all interactions and consult your local housing authority or legal aid. Knowledge is your strongest tool—use it to advocate for yourself and ensure a safe, equitable living environment.

@@ -1,11 +1,19 @@
 ---
-title: "Free Roommate Agreement Template: The Complete Guide for Shared Housing"
+title: "Roommate Agreement Template: What to Include"
 slug: "roommate-agreement-template"
-description: ""
-date: 2025-01-01
+description: "A practical roommate agreement template plus what to include, so rent, bills, chores, and disputes are settled before they start."
+date: 2026-06-02
+lastmod: 2026-08-09
 author: "RentingExplained Editorial Team"
-draft: true
-image: "/images/costs/apartment-move-in-costs/apartment-move-in-costs.webp"
+categories: ["Apartment Hunting"]
+tags: 
+  - "templates"
+  - "apartment-life"
+  - "lease-agreement"
+  - "tenant-tips"
+  - "apartment-hunting"
+image: "/images/rentingexplained-apptoolspagetsx-hero-763296c69d60.webp"
+imageAlt: "Two roommates discussing a shared living agreement at a table"
 ---
 
 <!-- IMAGE: photo — Diverse roommates reviewing a roommate agreement template at a dining table -->
@@ -19,7 +27,7 @@ Shared housing has become increasingly common in major US metropolitan areas due
 <!-- IMAGE: infographic — Infographic showing benefits of roommate agreement including financial and legal protection -->
 
 ### Defining the Roommate Contract
-A roommate agreement, often referred to as a room rental agreement, is a written contract between individuals sharing a residential property. Unlike a master lease signed with a landlord, this document governs the relationship between the tenants themselves. It specifies how the property will be used, who is responsible for specific areas, and how financial burdens are distributed. According to 2026 data from eForms, these agreements outline duties such as cleaning, bills, and other items to avoid financial disputes. They create guidelines for noise, guests, and pets, which help maintain daily harmony.
+A roommate agreement, often referred to as a room rental agreement, is a written contract between individuals sharing a residential property. Unlike a master lease signed with a landlord, this document governs the relationship between the tenants themselves. It specifies how the property will be used, who is responsible for specific areas, and how financial burdens are distributed. These agreements outline duties such as cleaning, bills, and other shared responsibilities to avoid financial disputes. They also set guidelines for noise, guests, and pets, which help maintain daily harmony.
 
 In many cases, roommates sign a joint lease with the landlord, meaning they are "jointly and severally" liable for the full rent. If one roommate fails to pay, the others are legally responsible for covering the difference. A roommate agreement template provides an internal framework to ensure that if one person defaults, the others have a pre-agreed method for recourse, such as a penalty fee or a requirement for the defaulting party to cover the shortfall.
 
@@ -46,7 +54,7 @@ The foundation of any valid contract is the identification of the parties involv
 In 2026, digital identity verification is becoming more common, but the written agreement should still list physical addresses for service of notice. If one roommate is the primary leaseholder and others are subtenants, this distinction must be clearly stated. This protects the primary leaseholder by ensuring subtenants understand their secondary status regarding the landlord relationship.
 
 ### Duration and Termination Clauses
-The agreement must match the term of the master lease. If the lease runs from March 17, 2026, to March 17, 2026, the roommate agreement should reflect these dates. However, it should also include clauses for early termination. What happens if a roommate loses their job or needs to relocate for work?
+The agreement should match the term of the master lease. If the lease runs for a fixed 12-month term, the roommate agreement should reflect those same start and end dates. However, it should also include clauses for early termination. What happens if a roommate loses their job or needs to relocate for work?
 
 A standard clause might require a 30-day notice period before a tenant leaves. It should also specify if the departing tenant is responsible for finding a replacement roommate to take over their portion of the rent. Without this clause, the remaining roommates could be stuck paying the departed roommate's share for the remainder of the lease term. This is a common point of contention in shared housing disputes.
 

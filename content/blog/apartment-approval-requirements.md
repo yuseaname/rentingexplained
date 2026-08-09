@@ -4,7 +4,7 @@ slug: "apartment-approval-requirements"
 description: "Learn what landlords look for in an apartment application, from credit and income to rental history and complete paperwork."
 date: 2026-01-11
 author: "RentingExplained Editorial Team"
-category: "Rental Approval & Eligibility"
+categories: ["Rental Approval"]
 tags: ["rental-approval", "tenant-screening", "application", "income", "rental-history"]
 image: "/images/rental-approval/apartment-approval-requirements/apartment-approval-requirements-hero.webp"
 imageAlt: "Person reviewing rental application documents"
@@ -175,7 +175,7 @@ It is OK to ask about credit thresholds, income ratios, and required documents b
 
 ### Choose listings that fit your budget
 
-If you are stretching to meet a rent ratio, look for units with fewer fees or utilities included. Use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to compare two units on equal footing.
+If you are stretching to meet a rent ratio, look for units with fewer fees or utilities included. Use the [Hidden Fees Estimator](/blog/hidden-apartment-fees) to compare two units on equal footing.
 
 ### Consider timing and competition
 

@@ -4,7 +4,7 @@ slug: "first-apartment-checklist-guide-2025"
 description: "A renter-first checklist covering landlord-provided items, room-by-room essentials, and a simple buying timeline."
 date: 2025-01-20
 author: "Sarah Mitchell"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["first-apartment", "apartment-checklist", "budgeting", "moving", "first-time-renter"]
 image: "/images/apartment-hunting/first-apartment-checklist-guide-2025/first-apartment-checklist-guide-2025-hero.webp"
 readingTime: 18
@@ -139,7 +139,7 @@ security deposit return timeline
 If you want a structured template to organize photos and notes, use the 
 [
 Security Deposit Documentation Template
-](/resources) 
+](/blog/) 
 in Resources.
 ## Utilities and setup checklist
 First apartments often come with “admin tasks” that do not feel urgent until the day you need internet, power,
@@ -223,7 +223,7 @@ is the full cost. These quick fixes keep the move-in calm.
 **Skipping the full cost check:** Add utilities and fees before you commit. Use the 
 [
 Hidden Fees Estimator
-](/tools/hidden-fees-estimator)
+](/blog/hidden-apartment-fees)
 .
 - 
 **Buying large furniture first:** Measure the space and live in it for a couple of weeks before
@@ -291,11 +291,11 @@ Start by calculating a realistic rent range based on your cash flow, not just a 
 recurring fees and utilities that make up your true monthly total. The 
 [
 Rent Budget Checker
-](/tools/rent-budget-checker) 
+](/blog/how-much-rent-can-i-afford) 
 and 
 [
 Hidden Fees Estimator
-](/tools/hidden-fees-estimator) 
+](/blog/hidden-apartment-fees) 
 help you see the full picture before you commit.
 ## Next steps
 If you want the simplest path, focus on the move-in costs first, then buy essentials, then upgrade slowly. A

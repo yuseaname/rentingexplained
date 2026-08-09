@@ -1,201 +1,57 @@
 ---
 title: "Corrections"
 slug: "corrections"
-description: ""
+description: "How to report an error to Renting Explained, what counts as a correctable error, and how we handle corrections transparently."
 date: 2025-01-01
+lastmod: 2026-08-09
 layout: "single"
 ---
 
-export const metadata = genMeta();
+Last updated: August 9, 2026
 
-    
+We work hard to get things right, but when we get something wrong we want to know — and we want you to be able to see that we fixed it. This page explains how to report an error and what happens next.
 
-      
+## How to report an error
 
-        # Corrections
+Email us at **corrections@rentingexplained.com** with as much of the following as possible:
 
-        
+- The URL of the article in question;
+- The specific statement that is wrong;
+- What is correct, with a source if you have one (a government site, statute, or court rule is ideal); and
+- Your contact information if you're open to follow-up (optional).
 
-          Last updated: January 2025
+## What we correct
 
-          
-          ## Our Commitment to Accuracy
+We treat the following as correctable errors:
 
-          
-            At RentingExplained.com, we strive for accuracy in every article we publish. Despite our best efforts, 
-            errors can occur. When they do, we correct them quickly and transparently.
-          
+- **Factual errors** — incorrect statistics, dates, dollar amounts, or other verifiable facts.
+- **Legal inaccuracies** — misstatements of statutes, deadlines, tenant rights, or landlord obligations.
+- **Calculation errors** — incorrect math in examples.
+- **Misleading statements** — claims that are technically true but misleading in context.
+- **Outdated information** — content that was accurate when written but has since changed.
+- **Broken links** — links to sources that no longer resolve.
 
-          ## How to Report an Error
+We generally do **not** treat the following as errors:
 
-          
-            If you believe you've found an error in any of our content, please let us know:
-          
+- Reasonable differences of opinion or editorial judgment;
+- Forward-looking predictions or commentary;
+- Minor typos that don't affect meaning; and
+- Stylistic or formatting preferences.
 
-          
-          
+## Our process
 
-            ### Email Us
+1. **Review.** We review every request, usually within a few business days, and verify the claim against credible sources — prioritizing primary sources like statutes and government guidance.
+2. **Prioritize.** If an error is confirmed, we prioritize by severity. Legal or financial misinformation is corrected fastest; minor issues are batched.
+3. **Fix and disclose.** We update the article, refresh the "updated" date, and, for significant corrections, add a dated correction note at the top of the article explaining what changed.
 
-            
-              **corrections@rentingexplained.com**
-            
-            
-              Please include:
-            
+A correction note looks roughly like this:
 
-            
-              - The URL of the article
+> *Correction (date): An earlier version of this article stated [X]. The correct information is [Y], per [source]. We have updated the article.*
 
-              - The specific error or inaccuracy
+## Transparency
 
-              - The correct information (with sources if available)
+We do not silently delete or hide corrections. Significant corrections to material claims are disclosed on the affected article, and the record of the change stays visible.
 
-              - Your contact information (optional, but helpful for follow-up)
+## Contact
 
-            
-          
-
-          ## What Constitutes an Error?
-
-          
-          ### Errors We Correct:
-
-          
-            **Factual errors:** Incorrect statistics, dates, or verifiable facts
-            **Legal inaccuracies:** Misstatements of law or tenant rights
-            **Mathematical errors:** Incorrect calculations in examples or tools
-            **Misleading statements:** Claims that are technically true but misleading
-            **Outdated information:** Content that was accurate but is now obsolete
-            **Broken links:** Links to external resources that no longer work
-          
-
-          ### Not Considered Errors:
-
-          
-            **Differences of opinion:** Editorial judgment or subjective recommendations
-            **Predictions:** Forward-looking statements that didn't pan out
-            **Minor typos:** Small spelling or grammar issues that don't affect meaning
-            **Style choices:** Formatting or presentation preferences
-          
-
-          ## Our Correction Process
-
-          
-          ### Step 1: Review
-
-          
-            We review all correction requests within 48 hours. Our editorial team investigates the claim and 
-            verifies the information against credible sources.
-          
-
-          ### Step 2: Decision
-
-          
-            If we determine an error has occurred, we prioritize corrections based on severity:
-          
-
-          
-            **Critical errors** (legal or financial misinformation): Corrected within 24 hours
-            **Significant errors** (factual mistakes): Corrected within 3 business days
-            **Minor errors** (typos, broken links): Corrected within 1 week
-          
-
-          ### Step 3: Correction & Disclosure
-
-          
-            When we make a correction:
-          
-
-          
-            - We update the article immediately
-
-            - We add a correction notice at the top of the article
-
-            - We update the "Last Modified" date
-
-            - For significant errors, we explain what was wrong and what changed
-
-          
-
-          ### Example Correction Notice:
-
-          
-
-            Correction: January 15, 2025
-
-            
-              An earlier version of this article incorrectly stated that security deposits must be returned 
-              within 14 days in Texas. The correct timeframe is 30 days. We regret the error.
-            
-
-          
-
-          ## Recent Corrections
-
-          
-            We maintain transparency by listing significant corrections here:
-          
-
-          
-          
-
-            
-              No corrections have been made to date.
-            
-
-          
-
-          ## Prevention
-
-          
-            To minimize errors, we:
-          
-
-          
-            - Fact-check all articles before publication
-
-            - Cite sources for all factual claims
-
-            - Consult with subject matter experts when appropriate
-
-            - Review and update articles quarterly
-
-            - Monitor reader feedback continuously
-
-            - Update content when laws or best practices change
-
-          
-
-          ## Accountability
-
-          
-            We believe in accountability. When we make mistakes:
-          
-
-          
-            - We own them publicly
-
-            - We correct them promptly
-
-            - We learn from them to improve our processes
-
-            - We never delete or hide corrections
-
-          
-
-          ## Questions
-
-          
-            If you have questions about our corrections policy or process, contact us at 
-            editorial@rentingexplained.com
-          
-
-          
-
-            ### Thank You
-
-            
-              Your vigilance helps us maintain the highest standards of accuracy. We appreciate readers who 
-              take the time to help us get things right. Every correction makes RentingExplained.com a better 
-              resource for all renters.
+Questions about this process can be sent to **editorial@rentingexplained.com**.

@@ -4,7 +4,7 @@ slug: "notice-to-vacate-letter-template"
 description: "Get a clean notice to vacate letter template, a checklist of what to include, and a calm plan for timing your move-out."
 date: 2026-01-04
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["notice-to-vacate", "move-out", "tenant-rights", "lease-termination", "templates"]
 image: "/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-keys.webp"
 imageAlt: "Apartment keys on a table near a lease"
@@ -146,7 +146,7 @@ If you are moving mid-month, ask how the final rent will be calculated and when 
 
 ### Watch for extra move-out fees
 
-Some leases include move-out fees or cleaning charges. Confirm those in advance so they are not a surprise. The [Hidden Fees Estimator](/tools/hidden-fees-estimator) can help you see the true total.
+Some leases include move-out fees or cleaning charges. Confirm those in advance so they are not a surprise. The [Hidden Fees Estimator](/blog/hidden-apartment-fees) can help you see the true total.
 
 ## After you send notice: next steps
 
@@ -279,4 +279,4 @@ Follow up in writing and keep proof. The key is that you sent your notice on tim
 
 A notice to vacate letter is short, but timing and documentation matter. Confirm your deadline, include the right details, and keep proof of delivery.
 
-If you want a full move-out plan, use the [apartment move-out checklist](/blog/apartment-move-out-checklist), track timelines with the [security deposit return guide](/blog/security-deposit-return-timeline), and compare total costs using the [Hidden Fees Estimator](/tools/hidden-fees-estimator). A calm plan now saves stress later and avoids missed deadlines.
+If you want a full move-out plan, use the [apartment move-out checklist](/blog/apartment-move-out-checklist), track timelines with the [security deposit return guide](/blog/security-deposit-return-timeline), and compare total costs using the [Hidden Fees Estimator](/blog/hidden-apartment-fees). A calm plan now saves stress later and avoids missed deadlines.

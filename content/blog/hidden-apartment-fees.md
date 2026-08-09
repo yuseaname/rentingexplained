@@ -4,9 +4,10 @@ slug: "hidden-apartment-fees"
 description: "Discover the hidden apartment fees landlords do not advertise. Learn to identify admin charges, amenity fees, and utility pass-throughs before you sign your lease."
 date: 2026-03-19
 author: "RentingExplained Editorial Team"
-category: "Costs"
+categories: ["Costs"]
 tags: ["hidden-fees", "apartment-costs", "budgeting", "lease-signing", "move-in-costs"]
-image: "/images/costs/hidden-apartment-fees/hidden-apartment-fees-hero.webp"
+image: "/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.webp"
+imageAlt: "Clipboard and calculator representing a breakdown of hidden apartment fees"
 readingTime: 12
 ---
 

@@ -4,7 +4,7 @@ slug: "how-much-rent-can-i-afford"
 description: "Learn how much rent you can realistically afford based on income, debt, and lifestyle without relying on rigid rules."
 date: 2026-01-08
 author: "RentingExplained Editorial Team"
-category: "Financial Planning"
+categories: ["Financial Planning"]
 tags: ["rent-budget", "affordability", "financial-planning", "budgeting", "rent-costs"]
 image: "/images/financial-planning/how-much-rent-can-i-afford/how-much-rent-can-i-afford-hero.webp"
 imageAlt: "Calculator and budget notes on a desk"
@@ -110,7 +110,7 @@ Then test the number. If you still feel tight, lower it. If you want more room f
 
 If you want a quick check from another angle, compare your total housing cost to your after-tax income. If your total housing cost feels like it is taking over your budget, lower the rent target.
 
-If you want a quick check, start with the [Rent Budget Checker](/tools/rent-budget-checker).
+If you want a quick check, start with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
 
 Pro tip: Include utilities in the rent number you compare, not after the fact. It keeps the decision honest.
 
@@ -183,7 +183,7 @@ Rent becomes risky when you cannot save, cover essentials, or handle small surpr
 
 Warning: If rent is forcing you to skip savings every month, that is a stress signal, not a temporary dip.
 
-If you feel stuck, look for small ways to lower costs: review utilities, negotiate fees, or pick a unit with fewer add-ons. [How to Save Money Renting](/blog/how-to-save-money-renting-2025) is a good place to start.
+If you feel stuck, look for small ways to lower costs: review utilities, negotiate fees, or pick a unit with fewer add-ons. [How to Save Money Renting](/blog/how-to-negotiate-rent-guide) is a good place to start.
 
 ## Common rent budgeting mistakes
 
@@ -192,7 +192,7 @@ If you feel stuck, look for small ways to lower costs: review utilities, negotia
 - **Skipping the buffer.** A small buffer protects you from late fees or surprise costs. Without a buffer, one small issue can throw the whole month off.
 - **Assuming income growth will fix a tight budget.** Count only income you already have. A budget that relies on future raises is a risky budget.
 - **Forgetting long-term goals.** If rent blocks debt payoff or savings, the number is too high. Progress on goals is part of affordability.
-- **Not comparing total monthly cost.** Use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to compare two units on equal footing, then add utilities for the full picture.
+- **Not comparing total monthly cost.** Use the [Hidden Fees Estimator](/blog/hidden-apartment-fees) to compare two units on equal footing, then add utilities for the full picture.
 - **Choosing the maximum instead of the sustainable.** The right rent is the one you can pay without stress. Choosing the maximum leaves no room for life changes.
 
 If you want a longer-term view, compare affordability with [Renting vs Buying in 2025](/blog/renting-vs-buying-2025).
@@ -238,8 +238,8 @@ Roommates can reduce your rent, but only if the arrangement is stable and expect
 
 ## Next steps
 
-- Run the [Rent Budget Checker](/tools/rent-budget-checker) to test a few rent options.
+- Run the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to test a few rent options.
 - Compare total costs with [Hidden Rental Fees Explained](/blog/hidden-rental-fees-explained).
-- If you need more room, review [How to Save Money Renting](/blog/how-to-save-money-renting-2025).
+- If you need more room, review [How to Save Money Renting](/blog/how-to-negotiate-rent-guide).
 
 A calm rent decision is one you can pay without stress. Focus on your real cash flow, not the biggest number a rule allows.

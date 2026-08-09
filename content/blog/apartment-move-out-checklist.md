@@ -4,7 +4,7 @@ slug: "apartment-move-out-checklist"
 description: "A renter-first move-out checklist covering photos, cleaning, walkthroughs, and utilities so you protect your deposit."
 date: 2026-01-04
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["move-out", "security-deposit", "checklist", "tenant-rights", "moving"]
 image: "/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp"
 imageAlt: "Moving boxes in an empty apartment living room"
@@ -326,4 +326,4 @@ Use the [move-in cost guide](/blog/apartment-move-in-costs) to understand your t
 
 A strong move-out checklist protects your deposit and your time. Focus on photos, a targeted clean, and proof of key return. Print the checklist, mark your dates, and keep photos saved after you move.
 
-If you need a notice template, start with the [notice to vacate letter](/blog/notice-to-vacate-letter-template). Track deposit timelines with the [security deposit return guide](/blog/security-deposit-return-timeline) and compare total costs using the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+If you need a notice template, start with the [notice to vacate letter](/blog/notice-to-vacate-letter-template). Track deposit timelines with the [security deposit return guide](/blog/security-deposit-return-timeline) and compare total costs using the [Hidden Fees Estimator](/blog/hidden-apartment-fees).

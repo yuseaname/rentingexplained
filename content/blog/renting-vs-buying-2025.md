@@ -4,7 +4,7 @@ slug: "renting-vs-buying-2025"
 description: "Compare renting and buying using real-life trade-offs like time horizon, total monthly cost, and flexibility."
 date: 2025-01-11
 author: "Emily Watson"
-category: "Financial Planning"
+categories: ["Financial Planning"]
 tags: ["renting-vs-buying", "real-estate", "investment", "financial-planning"]
 image: "/images/financial-planning/renting-vs-buying-2025/renting-vs-buying-2025-hero.webp"
 readingTime: 13
@@ -85,11 +85,11 @@ To compare both sides on equal footing, start with your rent range using
 the 
 [
 Rent Budget Checker
-](/tools/rent-budget-checker)
+](/blog/how-much-rent-can-i-afford)
 . Then track any add-ons with a quick estimate using the 
 [
 Hidden Fees Estimator
-](/tools/hidden-fees-estimator)
+](/blog/hidden-apartment-fees)
 .
 ### Example comparison
 Example only: If rent plus utilities is $2,000 and total ownership costs
@@ -177,7 +177,7 @@ you can keep momentum toward future goals.
 Start with the strategies in 
 [
 How to Save Money Renting
-](/blog/how-to-save-money-renting-2025) 
+](/blog/how-to-negotiate-rent-guide) 
 and look for fees you can reduce or avoid. Small monthly changes can add
 up over a year.
 ## If buying is the better fit for now
@@ -258,8 +258,8 @@ If you want a clear starting point, set a rent range you can live with and
 compare total housing costs side by side. A calm decision is usually the
 one that keeps your budget steady and your options open.
 - 
-Use the [Rent Budget Checker](/tools/rent-budget-checker) to set a realistic range.
+Use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to set a realistic range.
 - 
 Review [Hidden Rental Fees Explained](/blog/hidden-rental-fees-explained) to avoid surprise add-ons.
 - 
-If renting makes sense for now, start with [How to Save Money Renting](/blog/how-to-save-money-renting-2025) for practical savings steps.
+If renting makes sense for now, start with [How to Save Money Renting](/blog/how-to-negotiate-rent-guide) for practical savings steps.

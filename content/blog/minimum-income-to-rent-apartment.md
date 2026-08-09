@@ -5,7 +5,7 @@ description: "How much do you need to earn to rent? City-by-city 2026 data, the 
 date: 2026-01-13
 lastmod: 2026-04-25
 author: "RentingExplained Editorial Team"
-category: "Rental Approval & Eligibility"
+categories: ["Rental Approval"]
 tags: ["income-requirements", "3x-rent-rule", "rent-to-income-ratio", "rent-budget", "approval", "financial-planning", "minimum-income", "apartment-income", "2026-rent-data", "how-much-income-to-rent", "landlord-income-requirements", "gross-vs-net-income", "cosigner-guarantor"]
 image: "/images/blog/minimum-income-to-rent-apartment/hero-calculate-budget.jpg"
 imageAlt: "Budget calculator, rental listings, and apartment search documents arranged on a wooden desk"
@@ -187,7 +187,7 @@ html{scroll-behavior:smooth;}
 </tbody>
 </table>
 
-<p style="margin-bottom:0;font-size:0.9rem;color:#64748b;"><em>💡 The 3× column (bolded) is the most common requirement. For a personalized estimate, try our <a href="/tools/rent-budget-checker">Rent Budget Checker</a>.</em></p>
+<p style="margin-bottom:0;font-size:0.9rem;color:#64748b;"><em>💡 The 3× column (bolded) is the most common requirement. To see how rent fits your overall budget, read our <a href="/blog/how-much-rent-can-i-afford">how much rent can I afford</a> guide.</em></p>
 </div>
 
 ---

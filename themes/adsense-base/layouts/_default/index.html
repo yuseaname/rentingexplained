@@ -73,20 +73,20 @@
   </div>
 
   <!-- Categories Grid -->
-  {{ if .Site.Sections }}
+  {{ if .Site.Taxonomies.categories }}
   <section class="mb-12" aria-label="Categories">
     <h2 class="text-2xl font-bold text-gray-900 mb-6">Browse by Topic</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {{ range .Site.Sections }}
-        {{ $count := len (where .RegularPages ".Kind" "page") }}
+      {{ range $name, $pages := .Site.Taxonomies.categories }}
+        {{ $count := len $pages }}
         {{ if gt $count 0 }}
         {{ $iconSVG := `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>` }}
-        <a href="{{ .RelPermalink }}" class="category-card">
+        <a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" class="category-card">
           <div class="category-card-icon">
             {{ $iconSVG | safeHTML }}
           </div>
           <div class="category-card-content">
-            <div class="category-card-title">{{ .Title }}</div>
+            <div class="category-card-title">{{ $name }}</div>
             <div class="category-card-count">{{ $count }} guide{{ if ne $count 1 }}s{{ end }}</div>
           </div>
           <svg class="w-4 h-4 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -111,9 +111,11 @@
       {{ range first 9 .Site.RegularPages.ByDate.Reverse }}
         <article class="card">
           <a href="{{ .RelPermalink }}" class="block">
+            {{ $title := .Title }}
+            {{ $alt := .Params.imageAlt | default $title }}
             {{ with .Params.image }}
               <div class="overflow-hidden">
-                <img src="{{ . }}" alt="{{ $.Title }}" class="card-image" loading="lazy">
+                <img src="{{ . }}" alt="{{ $alt }}" class="card-image" loading="lazy">
               </div>
             {{ end }}
             <div class="card-body">

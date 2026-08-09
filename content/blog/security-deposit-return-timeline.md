@@ -4,7 +4,7 @@ slug: "security-deposit-return-timeline"
 description: "Learn how security deposit return timelines work, what affects delays, and how to follow up without drama."
 date: 2026-01-04
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["security-deposit", "tenant-rights", "move-out", "deposit-return", "templates"]
 image: "/images/legal-rights/security-deposit-return-timeline/security-deposit-mailbox.webp"
 imageAlt: "Mailbox with an envelope and keys nearby"
@@ -306,4 +306,4 @@ Start by asking for a clear breakdown and receipts if needed. Keep the tone calm
 
 Security deposit returns are easier when your documentation is organized and your follow-up is clear. Keep photos, save proof of key return, and send a short request if the timeline passes.
 
-For your next move, use the [apartment move-out checklist](/blog/apartment-move-out-checklist), confirm deadlines with the [notice to vacate template](/blog/notice-to-vacate-letter-template), and compare costs with the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+For your next move, use the [apartment move-out checklist](/blog/apartment-move-out-checklist), confirm deadlines with the [notice to vacate template](/blog/notice-to-vacate-letter-template), and compare costs with the [Hidden Fees Estimator](/blog/hidden-apartment-fees).

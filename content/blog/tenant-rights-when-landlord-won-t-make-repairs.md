@@ -1,11 +1,19 @@
 ---
-title: "tenant rights when landlord won t make repairs"
+title: "Tenant Rights When Your Landlord Won't Make Repairs"
 slug: "tenant-rights-when-landlord-won-t-make-repairs"
-description: ""
-date: 2025-01-01
+description: "What to do when your landlord ignores repair requests: your habitability rights, repair-and-deduct, rent withholding, and how to document everything."
+date: 2026-07-08
+lastmod: 2026-08-09
 author: "RentingExplained Editorial Team"
-draft: true
-image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease-agreement-explained-hero.webp"
+categories: ["Legal Rights"]
+tags: 
+  - "tenant-rights"
+  - "legal"
+  - "landlord-entry"
+  - "renter-protections"
+  - "lease-agreement"
+image: "/images/rentingexplained-appcorrectionspagetsx-hero-e5b8c1d4b153.webp"
+imageAlt: "Leaking pipe and repair request representing a landlord's duty to fix habitability issues"
 ---
 
 <h1>Tenant Rights When Landlord Won't Make Repairs: A Complete Guide</h1>
@@ -25,8 +33,6 @@ image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease
 <h3>Legal Basis for Tenant Protection</h3>
 <p>The Warranty of Habitability is based on the idea that a tenant is renting a home, not a piece of land. In 2026, most states have codified this in their Residential Landlord-Tenant Acts. For instance, California Civil Code § 1941.2 explicitly outlines the standards for habitability. Similarly, the Texas Property Code requires landlords to maintain premises in a safe condition. If you need to reference the legal standards for your specific jurisdiction, you can review resources like the <a href="https://www.nolo.com/legal-encyclopedia/california-tenant-rights-withhold-rent-repair-deduct.html">Link to Nolo on Habitability Standards</a> or search for specific state codes on <a href="https://www.justia.com/real-estate/landlord-tenant/information-for-tenants/major-repairs-and-maintenance/">Link to Justia on Major Repairs</a>.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
-
 <h2>How to Properly Request Repairs in Writing</h2>
 
 <p>Before taking any drastic action, you must prove that you notified the landlord of the issue. Verbal requests are often insufficient because they are difficult to prove in court. The most effective way to protect your rights is to document everything in writing. This creates a paper trail that demonstrates you fulfilled your obligations as a tenant.</p>
@@ -39,8 +45,6 @@ image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease
 
 <h3>Keeping Records of Communication</h3>
 <p>Create a dedicated folder for all communications regarding the property. Save copies of the repair notice letter, the postal receipt, email threads, and text messages. If you hire a plumber or electrician to assess the problem before the landlord does, keep those invoices. These records are essential if you proceed to small claims court. For state-specific advice on documentation, tenants can consult resources such as <a href="https://texaslawhelp.org/article/right-to-repairs-as-a-tenant">Link to Texas Law Help on Asking for Repairs</a> or <a href="https://www.lawny.org/page/612/when-landlord-wont-make-repairs">Link to Legal Assistance of Western New York</a>.</p>
-
-<figure class="article-image article-image--infographic"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
 
 <h2>Remedy 1: The Repair and Deduct Option</h2>
 
@@ -55,11 +59,9 @@ image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease
 <h3>Hiring Licensed Contractors</h3>
 <p>You cannot hire a friend or family member to do the work if state law requires a licensed professional. In many jurisdictions, the work must be performed by a licensed contractor to qualify for the deduction. You should obtain at least three estimates for the repair to prove the cost is reasonable. Keep all receipts and proof of payment. If the landlord disputes the repair at a later date, having a licensed invoice protects you. For detailed guides on state limits, refer to <a href="https://www.nolo.com/legal-encyclopedia/california-tenant-rights-withhold-rent-repair-deduct.html">Link to California Tenant Rights (Nolo)</a> or <a href="https://ipropertymanagement.com/laws/renters-rights-for-repairs">Link to iPropertyManagement on Repair and Deduct</a>.</p>
 
-<figure class="article-image article-image--infographic"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/habitability-issues-infographic.jpg" alt="Infographic showing examples of habitability issues like leaks heat and pests" loading="lazy" decoding="async"></figure>
+<h3>Repair-and-deduct rules vary by state</h3>
 
-<h3>State Repair and Deduct Limits Comparison (2026)</h3>
-
-<table class="comparison-table"><thead><tr><th>State</th><th>Maximum Deduction Limit</th><th>Waiting Period After Notice</th><th>Requirements</th></tr></thead><tbody><tr><td><strong>California</strong></td><td>1 month's rent</td><td>7 days (emergency), 14 days (non-emergency)</td><td>Must be habitability issue; limit 2x per year</td></tr><tr><td><strong>Texas</strong></td><td>$1,000 or 1 month's rent</td><td>7 days</td><td>Must give notice; cannot do this if rent is late</td></tr><tr><td><strong>New York</strong></td><td>Varies by city (NYC specific)</td><td>7-14 days</td><td>Often requires Housing Court approval first</td></tr><tr><td><strong>Washington</strong></td><td>1 month's rent</td><td>10 days</td><td>Must notify landlord of intent to deduct</td></tr><tr><td><strong>Florida</strong></td><td>No specific statutory limit</td><td>7 days</td><td>Must deduct proportion of rent relative to value</td></tr></tbody></table>
+<p>The exact rules for repair and deduct — how much you can spend, how long you must wait after giving notice, and what conditions qualify — are set by each state, and in some cities they differ again. Some states (such as California and Texas) have specific repair-and-deduct statutes; others do not allow it at all or require you to go through a court or housing agency first. Because the deadlines and dollar limits change and depend on your location, do not rely on a general summary. Before you deduct anything, look up your state's landlord-tenant statute or contact a local tenant-rights organization or legal aid office for the current rules that apply to you.</p>
 
 <h2>Remedy 2: Withholding Rent Safely</h2>
 
@@ -74,8 +76,6 @@ image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease
 <h3>State-Specific Rules on Rent Withholding</h3>
 <p>Not all states allow rent withholding. For example, some states only allow repair and deduct, while others allow withholding only if the issue is life-threatening. In Texas, you can terminate the lease or seek repairs, but withholding rent is complex and requires specific filings. In California, you can withhold rent if the landlord fails to fix habitability issues, but you must notify the landlord of your intent to withhold. Always verify the rules on platforms like <a href="https://guides.sll.texas.gov/landlord-tenant-law/failure-to-repair">Link to Texas State Law Library on Failure to Repair</a> or check <a href="https://ipropertymanagement.com/laws/california-renters-rights-for-repairs">Link to California Renter's Rights FAQs</a>.</p>
 
-<figure class="article-image article-image--illustration"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/rent-withholding-warning-icon.png" alt="Warning icon about rent withholding risks for tenants" loading="lazy" decoding="async"></figure>
-
 <h2>Remedy 3: Breaking the Lease or Moving Out</h2>
 
 <p>If the living conditions are severe and the landlord refuses to act, you may have the right to move out without penalty. This is often referred to as "Constructive Eviction." However, you cannot simply walk out and stop paying rent. You must follow a strict legal termination process to ensure you do not owe the remaining lease balance.</p>
@@ -88,8 +88,6 @@ image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease
 
 <h3>Temporary vs. Permanent Relocation</h3>
 <p>In some cases, you may be able to relocate temporarily to a hotel or another unit while the repairs are made, and the landlord may be required to cover these costs. This is more common in cases of extreme emergencies like fire or major flooding. Permanent relocation terminates the lease entirely. For guidance on moving out options, consult <a href="https://www.nolo.com/legal-encyclopedia/free-books/renters-rights-book/chapter7-5.html">Link to Nolo on Moving Out Options</a> or <a href="https://www.tenantadviser.org/">Link to Texas Tenant Advisor</a>.</p>
-
-<figure class="article-image article-image--photo"><img src="/assets/images/tenant-rights-when-landlord-won-t-make-repairs/tenant-rights-landlord-repairs-hero.jpg" alt="Tenant holding wrench near leaking pipe illustrating landlord repair issues" loading="lazy" decoding="async"></figure>
 
 <h2>Legal Recourse: Small Claims Court & Legal Aid</h2>
 

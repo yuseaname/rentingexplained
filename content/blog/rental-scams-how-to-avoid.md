@@ -4,7 +4,7 @@ slug: "rental-scams-how-to-avoid"
 description: "Learn how rental scams work, warning signs to watch for, and simple steps to verify listings before sending money."
 date: 2026-01-09
 author: "RentingExplained Editorial Team"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["rental-scams", "apartment-hunting", "safety", "rental-listings", "moving"]
 image: "/images/apartment-hunting/rental-scams-how-to-avoid/rental-scams-how-to-avoid-hero.webp"
 imageAlt: "Person reviewing rental application documents"
@@ -149,7 +149,7 @@ A real application includes a clear list of requirements and a written explanati
 If you are asked for sensitive information before you tour or verify the property, do not send it. It is OK to say you will submit information after a tour.
 
 If you want a normal flow to compare against, use the [Apartment Tour Checklist](/blog/apartment-tour-checklist-questions-red-flags) and the [Rental Application Checklist](/blog/rental-application-checklist).
-If the listing checks out, confirm affordability with the [Rent Budget Checker](/tools/rent-budget-checker).
+If the listing checks out, confirm affordability with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
 
 ## Printable Checklist: Scam safety checks {#checklist}
 

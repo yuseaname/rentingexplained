@@ -4,7 +4,7 @@ slug: "tenant-rights-by-state-overview"
 description: "Learn how tenant rights vary by state, what rules change most often, and how to find local information."
 date: 2025-02-02
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["tenant-rights", "state-laws", "renter-protections", "legal"]
 image: "/images/legal-rights/tenant-rights-by-state-overview/tenant-rights-by-state-overview-hero.webp"
 readingTime: 12
@@ -21,7 +21,7 @@ later.
 If you want a quick starting point, visit the 
 [
 tenant rights and laws hub
-](/laws)
+](/blog/tenant-rights-by-state-overview)
 . It is the fastest way to find official sources by location.
 ## 
 Key takeaways
@@ -137,7 +137,7 @@ Start with official sources. Government or court sites are usually the most accu
 change. The 
 [
 tenant rights and laws hub
-](/laws)
+](/blog/tenant-rights-by-state-overview)
 is a good first stop.
 - State housing department or consumer protection office.
 - City or county housing department (especially in major metros).
@@ -146,7 +146,7 @@ is a good first stop.
 If you are comparing leases, use the 
 [
 Lease Red Flag Scanner
-](/tools/lease-red-flag-scanner)
+](/blog/apartment-tour-checklist-questions-red-flags)
 to spot clauses that deserve a second look.
 Watch out
 Many blogs summarize laws but do not update them. Always verify the rule with an official source or local
@@ -193,7 +193,7 @@ City rules usually add protections but do not replace state rules. When both app
 Start with the 
 [
 tenant rights and laws hub
-](/laws)
+](/blog/tenant-rights-by-state-overview)
 and then check your city housing department if you live in a major metro area.
 ### Can a lease waive my state protections?
 Usually not for core protections. If a clause seems aggressive, verify your local rules and ask questions in

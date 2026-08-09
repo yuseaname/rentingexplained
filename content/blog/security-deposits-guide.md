@@ -1,11 +1,19 @@
 ---
-title: "Security Deposits: How to Get Yours Back (Complete Guide)"
+title: "Security Deposits: How to Get Yours Back"
 slug: "security-deposits-guide"
-description: ""
-date: 2025-01-01
+description: "What a landlord can and can't deduct from your security deposit, how to protect it from day one, and how to get it returned."
+date: 2026-05-10
+lastmod: 2026-08-09
 author: "RentingExplained Editorial Team"
-draft: true
-image: "/images/how-to-get-security-deposit-back/how-to-get-security-deposit-back_hero_00001_.webp"
+categories: ["Legal Rights"]
+tags: 
+  - "security-deposit"
+  - "deposit-return"
+  - "move-out"
+  - "tenant-rights"
+  - "legal"
+image: "/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.png"
+imageAlt: "Money and a move-out checklist representing a security deposit refund"
 ---
 
 ---
@@ -329,35 +337,3 @@ Landlord can deduct:
 ---
 
 Your security deposit is your money. Document everything, know your rights, and don't be afraid to fight for what's yours.
-
----
-
-*Related Articles:*
-- [First-Time Renter's Guide](#)
-- [Renter's Rights: What Landlords Can't Do](#)
-- [How to Break a Lease Without Destroying Your Credit](#)
-
-
-## Related Articles
-
-- [Complete Guide for Beginners](/blog/complete-beginners-guide)
-- [Common Mistakes to Avoid](/blog/common-mistakes-guide)
-- [Tips and Best Practices](/blog/tips-best-practices)
-
-## What Most People Miss  
-
-1. **Itemized Deductions Must Be Legally Justified** – While most guides mention itemized lists, they rarely emphasize that deductions must be tied to *specific lease violations* (e.g., pet damage clauses). If your landlord deducts for "cleaning" without proof, you may be entitled to a refund.  
-
-2. **State-Specific Notice Deadlines** – Many assume landlords have 30 days to return deposits, but some states (e.g., Texas, Michigan) require returns within 14 days of lease termination. Failing to document the exact timeline in your lease can cost you time and money.  
-
-3. **The "Normal Wear and Tear" Loophole** – Landlords often misuse this term. Normal wear and tear (e.g., faded paint, squeaky floorboards) is the landlord’s responsibility. Only chargeable are damages beyond this (e.g., broken tiles from misuse). Few tenants challenge vague deductions, but you can dispute these with photos and receipts.  
-
-4. **Interest on Long-Held Deposits** – In some states (e.g., California, New York), landlords must pay interest on security deposits after a set period. If yours has been held for over 3-5 years, you may be owed more than just the original amount.
-
-## Conclusion  
-Securing your security deposit back requires understanding your lease terms, thorough documentation, and proactive communication with your landlord. Key steps include:  
-- Reviewing your lease agreement for specific refund conditions.  
-- Capturing detailed photos and written notes of the property’s condition before and after moving out.  
-- Submitting a formal request and following up if your deposit is delayed or withheld unfairly.  
-
-Remember, state laws vary—research your rights and don’t hesitate to escalate disputes through mediation or legal channels if necessary. Your final tip: **start the process early** to avoid last-minute stress. The sooner you act, the higher your chances of recovering your full deposit. Stay organized, stay informed, and protect your money.

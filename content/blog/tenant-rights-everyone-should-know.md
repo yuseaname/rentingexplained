@@ -5,7 +5,7 @@ description: "Understand core tenant rights, common lease issues, and how to han
 date: 2025-01-14
 lastmod: 2025-02-02
 author: "David Chen"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["tenant-rights", "legal", "lease-agreement", "protection"]
 image: "/images/legal-rights/tenant-rights-everyone-should-know/tenant-rights-everyone-should-know-hero.webp"
 readingTime: 15
@@ -20,7 +20,7 @@ common protections, then confirm the local details before you act.
 If you need local sources, start with the 
 [
 tenant rights and laws hub
-](/laws)
+](/blog/tenant-rights-by-state-overview)
 .
 ## 
 Key takeaways
@@ -93,7 +93,7 @@ Start with a written request and keep copies. Many states require specific steps
 action, so confirm local rules first. If you need help interpreting a lease clause, use the 
 [
 Lease Red Flag Scanner
-](/tools/lease-red-flag-scanner)
+](/blog/apartment-tour-checklist-questions-red-flags)
 .
 Practical tip: keep a simple repair log with dates, photos, and the exact wording used in your requests. A clean
 timeline helps more than a long explanation.

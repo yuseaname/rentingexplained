@@ -4,7 +4,7 @@ slug: "apartment-tour-checklist-questions-red-flags"
 description: "A practical tour checklist with questions to ask, red flags to notice, and notes to take before you apply."
 date: 2025-02-04
 author: "RentingExplained Editorial Team"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "apartment-tour", "rental-inspection", "moving", "first-apartment"]
 image: "/images/apartment-hunting/apartment-tour-checklist-questions-red-flags/apartment-tour-checklist-questions-red-flags-hero.webp"
 imageAlt: "Bright apartment living room during a tour"
@@ -177,7 +177,7 @@ If you work from home, natural light can affect your daily comfort. Visit when y
 
 A clean unit with low rent can still be expensive once you add fees. The best way to compare is to calculate the total monthly cost.
 
-Use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to total rent plus add-ons. Then verify affordability with the [Rent Budget Checker](/tools/rent-budget-checker).
+Use the [Hidden Fees Estimator](/blog/hidden-apartment-fees) to total rent plus add-ons. Then verify affordability with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
 
 If you are choosing between a budget unit and a higher-quality building, include commute time and convenience in your comparison. A slightly higher rent can be cheaper when you factor in time and transportation costs.
 
@@ -217,7 +217,7 @@ Red flags do not always mean you should walk away, but they should prompt more q
 - **Broken locks or lights:** Ask if repairs will happen before move-in.
 - **No copy of the lease:** Ask for a sample lease or ask when you can review it.
 
-If a manager avoids written answers, consider looking elsewhere. If you do get a lease, review it with the [Lease Red Flag Scanner](/tools/lease-red-flag-scanner).
+If a manager avoids written answers, consider looking elsewhere. If you do get a lease, review it with the [Lease Red Flag Scanner](/blog/apartment-tour-checklist-questions-red-flags).
 
 ## Real-life renter scenarios {#renter-scenarios}
 
@@ -277,7 +277,7 @@ Unclear fees, weak maintenance answers, strong deodorizing smells, and broken lo
 
 If a unit passes your tour checklist, move to the [rental application checklist](/blog/rental-application-checklist) to prepare your documents. Then read the [tenant screening guide](/blog/tenant-screening-credit-checks-for-renters) so you understand how approvals work.
 
-For a broader renting path, visit the [Renting Guides hub](/guides). If you want to build a long-term plan, review the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
+For a broader renting path, visit the [Renting Guides hub](/blog/). If you want to build a long-term plan, review the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
 
 **Disclosure:** Some resources mentioned in this guide may include affiliate partnerships. See our [disclosure](/disclosure) for details.
 

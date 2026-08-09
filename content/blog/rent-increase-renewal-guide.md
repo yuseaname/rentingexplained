@@ -4,7 +4,7 @@ slug: "rent-increase-renewal-guide"
 description: "A renter-first guide to renewal rent increases with clear options, scripts, and budget steps."
 date: 2026-01-07
 author: "RentingExplained Editorial Team"
-category: "Costs"
+categories: ["Costs"]
 tags: ["rent-increase", "renewal", "budgeting", "costs", "rent-negotiation"]
 image: "/images/costs/rent-increase-renewal-guide/rent-increase-renewal-guide-hero.webp"
 imageAlt: "Person reviewing paperwork and a calculator at a desk"
@@ -57,7 +57,7 @@ Example: Your rent goes from $1,500 to $1,650. Parking increases from $25 to $35
 
 ### Compare against your total budget
 
-Use the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to see the real monthly cost with add-ons.
+Use the [Hidden Fees Estimator](/blog/hidden-apartment-fees) to see the real monthly cost with add-ons.
 
 Pro tip: A small fee change can be as important as a rent increase. Focus on the total, not just the base rate.
 
@@ -78,7 +78,7 @@ Pro tip: A small fee change can be as important as a rent increase. Focus on the
 
 ### Decision prep
 
-- [ ] Run your numbers with the [Rent Budget Checker](/tools/rent-budget-checker)
+- [ ] Run your numbers with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford)
 - [ ] Identify one ideal outcome and one backup option
 - [ ] Draft a short response or counteroffer
 
@@ -112,7 +112,7 @@ Your best response depends on timing, budget, and how much you like the unit.
 
 ### Option 1: Accept the renewal
 
-Accepting can be the right call if the total cost still fits your budget and moving would be more expensive. Use the [how to save money renting guide](/blog/how-to-save-money-renting-2025) to offset the increase.
+Accepting can be the right call if the total cost still fits your budget and moving would be more expensive. Use the [how to save money renting guide](/blog/how-to-negotiate-rent-guide) to offset the increase.
 
 ### Option 2: Negotiate the increase
 
@@ -175,7 +175,7 @@ Moving is often the fastest way to reset your monthly cost, but it has real up-f
 
 ### Step 1: Estimate total move-in costs
 
-Use the [move-in cost guide](/blog/apartment-move-in-costs) and the [Hidden Fees Estimator](/tools/hidden-fees-estimator) to compare your true monthly total.
+Use the [move-in cost guide](/blog/apartment-move-in-costs) and the [Hidden Fees Estimator](/blog/hidden-apartment-fees) to compare your true monthly total.
 
 ### Step 2: Price your move
 
@@ -195,7 +195,7 @@ A renewal decision is easier when you see the full monthly picture.
 
 ### Step 1: Set a rent range
 
-Use the [Rent Budget Checker](/tools/rent-budget-checker) to confirm what fits your monthly cash flow.
+Use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to confirm what fits your monthly cash flow.
 
 ### Step 2: Add utilities and fees
 
@@ -259,7 +259,7 @@ Notice requirements vary by state and city. Check your local rules or the [tenan
 
 ### What if I cannot afford the increase?
 
-If the total cost no longer fits your budget, compare your options, ask for a concession, or plan a move. Use the [Rent Budget Checker](/tools/rent-budget-checker) to decide.
+If the total cost no longer fits your budget, compare your options, ask for a concession, or plan a move. Use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to decide.
 
 ### Should I accept a larger increase for a longer lease?
 
@@ -273,4 +273,4 @@ Fees can change at renewal, but the lease should clearly list them. Ask for a wr
 
 A rent increase notice does not have to derail your plans. Start with the deadline, break down the total cost, and choose a response path that fits your budget. If you want to negotiate, keep it short and specific.
 
-If you plan to move, map your full move-in costs first. Review the [rent negotiation guide](/blog/how-to-negotiate-rent-guide), check your budget with the [Rent Budget Checker](/tools/rent-budget-checker), and compare add-ons in the [hidden fees guide](/blog/hidden-rental-fees-explained).
+If you plan to move, map your full move-in costs first. Review the [rent negotiation guide](/blog/how-to-negotiate-rent-guide), check your budget with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford), and compare add-ons in the [hidden fees guide](/blog/hidden-rental-fees-explained).

@@ -4,7 +4,7 @@ slug: "apartment-utility-costs"
 description: "A renter-first guide to understanding utility bills, quick savings, and a simple audit checklist."
 date: 2026-01-05
 author: "RentingExplained Editorial Team"
-category: "Costs"
+categories: ["Costs"]
 tags: ["utilities", "budgeting", "costs", "saving-money", "apartment-life"]
 image: "/images/costs/apartment-utility-costs/apartment-utility-costs-hero.webp"
 imageAlt: "Desk with notes and a calculator for utility budgeting"
@@ -61,7 +61,7 @@ If a broken seal, HVAC issue, or leak is driving costs up, that is often a maint
 
 ### Match billing cycles to your budget
 
-If bills land at awkward times, set a reminder so they do not turn into late fees. The [Rent Budget Checker](/tools/rent-budget-checker) can help you map your total monthly cost.
+If bills land at awkward times, set a reminder so they do not turn into late fees. The [Rent Budget Checker](/blog/how-much-rent-can-i-afford) can help you map your total monthly cost.
 
 ## Printable Checklist: 30-Minute Utility Audit
 
@@ -136,7 +136,7 @@ Warning: Portable heaters can raise costs quickly and may be restricted in some 
 - Run the dishwasher when full, not half full.
 - Let leftovers cool before refrigerating to reduce fridge load.
 
-If you want more ways to cut monthly costs, see [how to save money renting](/blog/how-to-save-money-renting-2025).
+If you want more ways to cut monthly costs, see [how to save money renting](/blog/how-to-negotiate-rent-guide).
 
 ## Plan for seasonal spikes
 
@@ -221,8 +221,8 @@ Save a screenshot of your usage graph each month. It makes it easier to spot pat
 
 ### Related tools on RentingExplained
 
-- [Hidden Fees Estimator](/tools/hidden-fees-estimator) to see total monthly cost
-- [Rent Budget Checker](/tools/rent-budget-checker) to confirm affordability
+- [Hidden Fees Estimator](/blog/hidden-apartment-fees) to see total monthly cost
+- [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to confirm affordability
 - [Hidden rental fees guide](/blog/hidden-rental-fees-explained) to spot add-ons
 
 If insurance is part of your monthly budget, review the [renters insurance cost guide](/blog/renters-insurance-cost-2025).

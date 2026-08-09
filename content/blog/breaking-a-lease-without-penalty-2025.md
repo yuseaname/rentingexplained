@@ -4,7 +4,7 @@ slug: "breaking-a-lease-without-penalty-2025"
 description: "A renter-first guide to legal lease exits, documentation tips, and negotiating a clean release."
 date: 2025-01-25
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["lease-termination", "tenant-rights", "legal", "lease-break", "moving"]
 image: "/images/legal-rights/breaking-a-lease-without-penalty-2025/breaking-a-lease-without-penalty-2025-hero.webp"
 imageAlt: "Lease document and pen representing breaking a lease without penalty"
@@ -35,9 +35,9 @@ Start with the contract you already signed. Look for headings like “Early term
 - What are the move-out steps (keys, cleaning, walk-through, forwarding address)?
 - How does the lease describe unpaid balances and collections?
 
-Then confirm the general legal landscape where you live. Start at the [tenant rights and laws hub](/laws) and the [tenant rights by state overview](/blog/tenant-rights-by-state-overview). This is still not legal advice, but it helps you locate reputable, local resources.
+Then confirm the general legal landscape where you live. Start at the [tenant rights and laws hub](/blog/tenant-rights-by-state-overview) and the [tenant rights by state overview](/blog/tenant-rights-by-state-overview). This is still not legal advice, but it helps you locate reputable, local resources.
 
-If you want help spotting clauses that deserve a second look, use the [Lease Red Flag Scanner](/tools/lease-red-flag-scanner).
+If you want help spotting clauses that deserve a second look, use the [Lease Red Flag Scanner](/blog/apartment-tour-checklist-questions-red-flags).
 
 ## Check for a legal exit (high-level)
 
@@ -179,7 +179,7 @@ Most long-term damage comes from unresolved money issues, not from the act of le
 - You stop paying without a documented agreement or approved process.
 - The landlord sends an unpaid balance to collections.
 
-The safer approach is to keep your communication calm and written, and make sure you understand your final balance rules before you leave. If you need to see how fees and add-ons change your monthly total, use the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+The safer approach is to keep your communication calm and written, and make sure you understand your final balance rules before you leave. If you need to see how fees and add-ons change your monthly total, use the [Hidden Fees Estimator](/blog/hidden-apartment-fees).
 
 ## 2-minute quiz: which path fits you?
 

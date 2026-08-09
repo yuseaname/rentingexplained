@@ -5,7 +5,7 @@ description: "What documents count as proof of income? Pay stubs, bank statement
 date: 2026-01-12
 lastmod: 2026-04-25
 author: "RentingExplained Editorial Team"
-category: "Rental Approval & Eligibility"
+categories: ["Rental Approval"]
 tags: ["proof-of-income", "rental-application", "tenant-screening", "income-docs", "approval", "pay-stubs", "income-verification", "self-employed-renting", "automated-income-verification", "bank-statement-rental", "offer-letter-apartment"]
 image: "/images/rental-approval/proof-of-income-for-apartments/hero-organizing-documents.jpg"
 imageAlt: "Person organizing financial documents including pay stubs, bank statements, and tax forms at a home office desk"

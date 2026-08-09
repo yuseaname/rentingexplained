@@ -1,27 +1,13 @@
 ---
-title: "how to get security deposit back"
+title: "How to Get Your Security Deposit Back"
 slug: "how-to-get-security-deposit-back"
-description: ""
-date: 2025-01-01
-author: "RentingExplained Editorial Team"
-draft: true
-image: "/images/how-to-get-security-deposit-back/how-to-get-security-deposit-back_hero_00001_.png"
----
-
----
-title: "How to get security deposit back: Complete Guide (2026)"
-description: "Learn everything about how to get security deposit back in 2026. Costs, comparisons, expert tips for US homeowners."
-slug: "how-to-get-security-deposit-back"
+description: "How to get your full security deposit back: documenting the unit, what landlords can and can't deduct, state timelines, and what to do if it isn't returned."
 date: 2026-05-29
-draft: false
-author: "Renting Explained"
-section: "articles"
-keywords:
-  - "security deposit laws by state"
-  - "security deduction checklist"
-  - "move out inspection guide"
-  - "landlord security deposit rights"
-  - "security demand letter template"
+lastmod: 2026-08-09
+author: "RentingExplained Editorial Team"
+categories: ["Legal Rights"]
+tags: ["security-deposit", "deposit-return", "move-out", "tenant-rights", "legal"]
+image: "/images/how-to-get-security-deposit-back/how-to-get-security-deposit-back_hero_00001_.png"
 ---
 
 <div class="quick-answer">
@@ -46,7 +32,7 @@ keywords:
 
 <h3>Security Deposit Laws by State</h3>
 
-<p>One of the most confusing aspects of renting is the variation in state laws. Some states offer robust protections for tenants, while others provide more leeway to landlords. For example, California limits security deposits to two months' rent for unfurnished units, whereas Texas does not cap the amount a landlord can charge. Furthermore, the timeframe for returning the deposit varies significantly. In some states, landlords have as little as 14 days to return funds, while others allow up to 30 or even 60 days.</p>
+<p>One of the most confusing aspects of renting is the variation in state laws. Some states offer robust protections for tenants, while others provide more leeway to landlords. For example, California limits security deposits to one month's rent, whereas Texas does not cap the amount a landlord can charge. Furthermore, the timeframe for returning the deposit varies significantly. In some states, landlords have as little as 14 days to return funds, while others allow up to 30 or even 60 days.</p>
 
 <p>It is essential to research <strong>security deposit laws by state</strong> specific to your location before signing a lease. This knowledge helps you identify if your landlord is violating statutes from day one. If your landlord charges more than the state limit, you may be able to recover the excess. If they fail to provide an itemized list of deductions within the legal timeframe, they may be liable for penalties, sometimes up to double the amount wrongfully withheld. Always keep a copy of your state's residential landlord-tenant handbook handy during your tenancy.</p>
 
@@ -62,7 +48,7 @@ keywords:
 <tbody>
 <tr>
 <td>California</td>
-<td>2 Months' Rent</td>
+<td>1 Month's Rent</td>
 <td>21 Days</td>
 <td>Yes (if held >1 year)</td>
 </tr>
@@ -196,6 +182,6 @@ keywords:
 
 <p>Recovering your security deposit is a proactive process that begins the moment you sign your lease and ends only when the money hits your bank account. By understanding your legal rights, documenting the condition of your rental unit meticulously, and communicating clearly with your landlord, you significantly increase your chances of a full refund. Remember that landlords are legally bound to follow state statutes, and ignorance of the law is not an excuse for them.</p>
 
-<p>Do not let fear or apathy cause you to lose hard-earned money. Utilize the <strong>move out inspection guide</strong> and <strong>security deduction checklist</strong> provided in this article to prepare your unit. If disputes arise, rely on your documentation and be prepared to send a formal demand letter. For further assistance with specific lease clauses or eviction prevention, please review our guide on <a href="/lease-agreement-tips">Understanding Lease Agreements</a> or our section on <a href="/tenant-rights">Tenant Rights by State</a>.</p>
+<p>Do not let fear or apathy cause you to lose hard-earned money. Use the move-out inspection checklist and security-deduction checklist provided in this article to prepare your unit. If disputes arise, rely on your documentation and be prepared to send a formal demand letter. For further help with specific lease clauses, review our guide on <a href="/blog/understanding-a-lease-agreement">Understanding a Lease Agreement</a>, and for tenant protections in your state, see our <a href="/blog/tenant-rights-by-state-overview">Tenant Rights by State Overview</a>.</p>
 
 <p>Take action today. Review your lease, gather your photos, and ensure you are leaving your rental home in the best possible condition. You worked hard for that deposit; protect it with knowledge and persistence.</p>

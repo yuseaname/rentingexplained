@@ -4,7 +4,7 @@ slug: "security-deposits-and-evictions-overview"
 description: "A plain-language overview of security deposits and eviction basics, including documentation tips."
 date: 2025-02-01
 author: "RentingExplained Editorial Team"
-category: "Legal Rights"
+categories: ["Legal Rights"]
 tags: ["security-deposit", "eviction", "tenant-rights", "legal"]
 image: "/images/legal-rights/security-deposits-and-evictions-overview/security-deposits-and-evictions-overview-hero.webp"
 readingTime: 11
@@ -28,7 +28,7 @@ tenant resources.
 If you want a starting point for local resources, begin with the 
 [
 tenant rights and laws hub
-](/laws)
+](/blog/tenant-rights-by-state-overview)
 .
 ## 
 Key takeaways
@@ -77,7 +77,7 @@ written note often prevents disputes later because everyone has the same baselin
 If you want a structured way to organize photos and notes, use the 
 [
 Security Deposit Documentation Template
-](/resources) 
+](/blog/) 
 in Resources.
 ## Move-out documentation habits (mirror the move-in)
 Move-out is the moment to mirror your move-in proof. Try to take photos from the same angles and document what
@@ -139,7 +139,7 @@ clearly and seek local guidance with accurate details.
 **Confirm local rules.** Use reputable local resources; start with 
 [
 tenant rights and laws
-](/laws)
+](/blog/tenant-rights-by-state-overview)
 .
 - 
 **Communicate in writing.** If you respond, keep it short, factual, and saved.

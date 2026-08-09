@@ -1,11 +1,19 @@
 ---
-title: "The Ultimate Subleasing Apartment Guide: Steps, Rights, and Agreements"
+title: "Subleasing an Apartment: How It Works and Your Rights"
 slug: "subleasing-apartment-guide"
-description: ""
-date: 2025-01-01
+description: "How to sublet your apartment legally: checking your lease, getting landlord approval, screening a subtenant, and writing the agreement."
+date: 2026-06-15
+lastmod: 2026-08-09
 author: "RentingExplained Editorial Team"
-draft: true
-image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease-agreement-explained-hero.webp"
+categories: ["Legal Rights"]
+tags: 
+  - "lease-agreement"
+  - "lease-termination"
+  - "tenant-rights"
+  - "legal"
+  - "apartment-life"
+image: "/images/rentingexplained-home-hero.webp"
+imageAlt: "Apartment keys being handed over representing a sublease arrangement"
 ---
 
 Subleasing an apartment allows you to rent out your current leased unit to another tenant for a portion of your lease term while retaining your legal responsibility to the landlord. To do this legally and safely, you must review your original lease for subletting clauses, obtain written landlord approval, screen potential subtenants thoroughly, and draft a formal sublease agreement that outlines all financial and utility responsibilities. This process protects your credit score and ensures compliance with 2026 rental laws.
@@ -31,7 +39,7 @@ For most temporary absences, subleasing is the preferred route, but for permanen
 
 ### Common Reasons for Subletting in 2026
 
-The 2026 rental landscape is driven by mobility and remote work trends. Many tenants seek sublets due to short-term job assignments, internships, or academic semesters. For example, on-campus housing often sees high demand for subleases during the 2026-2027 school year as students exchange rooms for spring or summer terms. According to industry trends, approximately 15% of residential leases involve some form of subletting annually, driven by inflation-adjusted rent costs that make holding a vacant unit financially painful for primary tenants.
+Subletting has become more common as remote work and short-term relocations increase. Many tenants seek sublets due to short-term job assignments, internships, or academic semesters. For example, on-campus housing often sees high demand for subleases during the school year as students exchange rooms for spring or summer terms. Subletting lets a primary tenant cover rent during an absence instead of paying for a vacant unit or breaking the lease.
 
 ### Understanding Your Role as Primary Tenant
 
@@ -121,7 +129,7 @@ Money management is the backbone of a successful sublease. You must ensure you a
 
 ### Setting the Right Sublet Price
 
-You should charge the subtenant the same amount you pay the landlord, or slightly more to cover administrative costs. However, market rates apply. In 2026, average monthly rent for a studio in major US metros ranges from $1,800 to $2,500, but sublets often command a premium for furnished units. For example, a listing on a campus portal might show rent of $875 with a $35 utility fee, totaling $910. Price your unit competitively to ensure quick occupancy.
+You should charge the subtenant the same amount you pay the landlord, or slightly more to cover administrative costs or the value of furnished items and utilities you include. Check current local listings for comparable units to set a fair market price — rents vary widely by city and neighborhood. Price your unit competitively to ensure quick occupancy.
 
 ### Handling Security Deposits and Refunds
 

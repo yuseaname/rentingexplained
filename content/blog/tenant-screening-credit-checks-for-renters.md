@@ -4,7 +4,7 @@ slug: "tenant-screening-credit-checks-for-renters"
 description: "A clear guide to tenant screening, credit checks, and how landlords evaluate applications."
 date: 2025-02-03
 author: "RentingExplained Editorial Team"
-category: "Apartment Hunting"
+categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "tenant-screening", "credit-check", "rental-application", "first-apartment"]
 image: "/images/apartment-hunting/tenant-screening-credit-checks-for-renters/tenant-screening-credit-checks-for-renters-hero.webp"
 imageAlt: "Person reviewing credit and screening paperwork"
@@ -68,7 +68,7 @@ Collections can raise questions, even if they are small. If a collection is inac
 
 High balances compared to limits can signal financial stress. If you are close to the limit, paying down a small amount before applying can help.
 
-If you want a cost-focused plan to keep rent affordable, review the [how to save money renting guide](/blog/how-to-save-money-renting-2025) and confirm your range with the [Rent Budget Checker](/tools/rent-budget-checker).
+If you want a cost-focused plan to keep rent affordable, review the [how to save money renting guide](/blog/how-to-negotiate-rent-guide) and confirm your range with the [Rent Budget Checker](/blog/how-much-rent-can-i-afford).
 
 ## A 30-day prep plan before you apply {#prep-plan}
 
@@ -88,7 +88,7 @@ Create a one-page summary with your move-in date, income range, and references. 
 
 ### Week 4: shortlist units you can afford
 
-Use the [Rent Budget Checker](/tools/rent-budget-checker) and [Hidden Fees Estimator](/tools/hidden-fees-estimator) to avoid units that are out of reach. This protects your budget and reduces unnecessary fees.
+Use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) and [Hidden Fees Estimator](/blog/hidden-apartment-fees) to avoid units that are out of reach. This protects your budget and reduces unnecessary fees.
 
 ## Step-by-step: prepare for screening {#prepare-for-screening}
 
@@ -128,7 +128,7 @@ You can ask for a clear explanation of the decision and whether there are option
 
 If you need help understanding your rights, review the [tenant rights basics](/blog/tenant-rights-everyone-should-know) and the [state overview guide](/blog/tenant-rights-by-state-overview).
 
-For state-specific links, visit the [tenant laws hub](/laws).
+For state-specific links, visit the [tenant laws hub](/blog/tenant-rights-by-state-overview).
 
 ## How screening vendors work (and why timing varies) {#screening-vendors}
 
@@ -194,7 +194,7 @@ Missing documents create delays. A complete packet keeps the process moving.
 
 ### Apply to units you can truly afford
 
-Screening often includes an affordability review. If the rent is too high, you may be denied even with good credit. Use the [Rent Budget Checker](/tools/rent-budget-checker) to confirm your range, then total fees with the [Hidden Fees Estimator](/tools/hidden-fees-estimator).
+Screening often includes an affordability review. If the rent is too high, you may be denied even with good credit. Use the [Rent Budget Checker](/blog/how-much-rent-can-i-afford) to confirm your range, then total fees with the [Hidden Fees Estimator](/blog/hidden-apartment-fees).
 
 ## A simple affordability rule that most landlords use {#affordability-rule}
 
@@ -277,7 +277,7 @@ Often yes. They may call your employer or request a letter. Providing clear docu
 
 If you are still touring units, use the [apartment tour checklist](/blog/apartment-tour-checklist-questions-red-flags) first. When you are ready to apply, follow the [rental application checklist](/blog/rental-application-checklist).
 
-For broader guidance, visit the [Renting Guides hub](/guides). If you need help with move-in costs, read the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
+For broader guidance, visit the [Renting Guides hub](/blog/). If you need help with move-in costs, read the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
 
 **Disclosure:** Some resources mentioned in this guide may include affiliate partnerships. See our [disclosure](/disclosure) for details.
 
