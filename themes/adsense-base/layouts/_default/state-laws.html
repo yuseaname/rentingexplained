@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  {{ partial "breadcrumbs.html" . }}
+
+  <header class="page-header mb-10">
+    <span class="eyebrow">State reference</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="page-sub">{{ . }}</p>{{ end }}
+  </header>
+
+  {{ $pathBase := path.Base .RelPermalink }}
+  {{ $abbr := .Params.abbr | default ($pathBase | upper) }}
+  {{ $state := index .Site.Data.state_laws $abbr }}
+
+  {{ if $state }}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+    <div class="card">
+      <div class="card-body">
+        <span class="stamp mb-2">Security deposit</span>
+        <p class="font-semibold text-lg">{{ $state.deposit_limit }}</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <span class="stamp mb-2">Notice to enter</span>
+        <p class="font-semibold text-lg">{{ $state.notice_to_enter }}</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <span class="stamp mb-2">Notice to vacate</span>
+        <p class="font-semibold text-lg">{{ $state.notice_to_vacate }}</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <span class="stamp mb-2">Rent control / increases</span>
+        <p class="font-semibold text-lg">{{ $state.rent_control }}</p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+
+  <div class="callout callout-info mt-10">
+    <svg class="callout-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+    </svg>
+    <div class="callout-content">
+      <p class="callout-title">Not legal advice</p>
+      <p>This page summarizes general rules for {{ .Title }}. Local ordinances may add stronger protections, and laws change. For your specific situation, consult a local tenant-rights organization or qualified attorney.</p>
+    </div>
+  </div>
+
+  <div class="mt-10">
+    <a href="/state_laws/" class="btn btn-ghost">← All states</a>
+  </div>
+</div>
+{{ end }}

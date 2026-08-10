@@ -4,13 +4,27 @@
   {{ partial "breadcrumbs.html" . }}
 
   <!-- Category Hero -->
-  <div class="category-hero -mx-4 sm:-mx-6 px-4 sm:px-6 rounded-b-2xl">
+  <div class="category-hero -mx-4 sm:-mx-6 px-4 sm:px-6 rounded-b-2xl mb-10">
     <header class="max-w-7xl mx-auto">
-      <h1 class="text-3xl sm:text-4xl font-bold">{{ .Title }}</h1>
+      <span class="eyebrow" style="color: var(--color-neutral-300);">Topic</span>
+      <h1 class="text-3xl sm:text-4xl font-bold mt-3">{{ .Title }}</h1>
       {{ with .Params.description }}<p class="text-lg mt-2 max-w-2xl">{{ . }}</p>{{ end }}
       {{ $count := len (where .RegularPages ".Kind" "page") }}
       <p class="text-sm mt-3 opacity-80">{{ $count }} guide{{ if ne $count 1 }}s{{ end }} available</p>
     </header>
+  </div>
+
+  <!-- Lifecycle badge -->
+  <div class="flex flex-wrap gap-2 mb-8">
+    <span class="stamp">Topic</span>
+    {{ $cat := .Title }}
+    {{ if or (eq $cat "Apartment Hunting") (eq $cat "Rental Approval") (eq $cat "Affordable Housing") (eq $cat "Credit") }}
+      <span class="stamp badge-primary" style="background: var(--color-primary-50); color: var(--color-primary-800); border-color: var(--color-primary-200);">Applying stage</span>
+    {{ else if or (eq $cat "Legal Rights") (eq $cat "Technology") }}
+      <span class="stamp badge-secondary" style="background: var(--color-secondary-50); color: var(--color-secondary-800); border-color: var(--color-secondary-200);">Living stage</span>
+    {{ else if or (eq $cat "Costs") (eq $cat "Financial Planning") (eq $cat "Money Saving") }}
+      <span class="stamp" style="background: var(--color-accent-50); color: var(--color-accent-700); border-color: var(--color-accent-200);">Money / moving stage</span>
+    {{ end }}
   </div>
 
   {{/* Show sub-sections if they exist */}}
@@ -35,6 +49,27 @@
   </div>
   {{ end }}
 
+  {{/* Ad: top of category */}}
+  {{ if .Site.Params.adsense.client_id }}
+  <div class="ad-zone ad-zone-sm">
+    {{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}
+  </div>
+  {{ end }}
+
+  <!-- Featured article from this category -->
+  {{ $pages := where .Pages ".Kind" "page" }}
+  {{ if gt (len $pages) 0 }}
+    {{ $featured := index ($pages.ByDate.Reverse) 0 }}
+    <a href="{{ $featured.RelPermalink }}" class="featured-card mb-8 reveal">
+      <span class="featured-card-num">★</span>
+      <div class="featured-card-content">
+        <span class="stamp stamp-featured mb-2">Featured in {{ .Title }}</span>
+        <span class="featured-card-title">{{ $featured.Title }}</span>
+        <p class="featured-card-desc">{{ $featured.Params.description | default (truncate 140 $featured.Plain) }}</p>
+      </div>
+    </a>
+  {{ end }}
+
   <!-- Articles Grid -->
   <div class="section-grid">
     {{ range where .Pages ".Kind" "page" }}
@@ -56,6 +91,24 @@
         </a>
       </article>
     {{ end }}
+  </div>
+
+  {{/* Mid-list ad */}}
+  {{ if and .Site.Params.adsense.client_id (gt (len (where .Pages ".Kind" "page")) 6) }}
+  <div class="ad-zone ad-zone-md mt-10">
+    {{ partial "adsense.html" (dict "position" "mid_article" "ctx" .) }}
+  </div>
+  {{ end }}
+
+  <!-- Related tools / next category cross-link -->
+  <div class="callout callout-info mt-12">
+    <svg class="callout-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+    </svg>
+    <div class="callout-content">
+      <p class="callout-title">Next steps</p>
+      <p>Explore related topics: <a href="/categories/apartment-hunting/">Apartment Hunting</a>, <a href="/categories/legal-rights/">Legal Rights</a>, or <a href="/categories/costs/">Costs</a>. Or use our <a href="/tools/">renter tools</a>.</p>
+    </div>
   </div>
 
   {{ template "_internal/pagination.html" . }}

@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  {{ partial "breadcrumbs.html" . }}
+
+  <header class="page-header mb-10">
+    <span class="eyebrow">{{ .Params.eyebrow | default "Resources" }}</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="page-sub">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="article-content max-w-4xl">
+    {{ .Content }}
+  </div>
+
+  {{ if .Site.Params.adsense.client_id }}
+  <div class="ad-zone ad-zone-md">
+    {{ partial "adsense.html" (dict "position" "end_article" "ctx" .) }}
+  </div>
+  {{ end }}
+
+  <section class="newsletter-band mt-12 reveal" aria-label="Newsletter">
+    <div class="newsletter-band-inner">
+      <div class="flex justify-center">
+        <div class="keyline keyline-center mb-4"></div>
+      </div>
+      <span class="eyebrow" style="justify-content: center; margin-bottom: var(--space-4);">Stay prepared</span>
+      <h2 class="section-heading-title" style="justify-content: center; text-align: center; margin-bottom: var(--space-4);">Get one clear renting tip per week</h2>
+      <form class="newsletter-form" action="https://buttondown.email/api/emails/embed-subscribe/rentingexplained" method="post" target="_blank">
+        <label for="page-email" class="visually-hidden">Email address</label>
+        <input id="page-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="newsletter-note">We respect your inbox. Unsubscribe anytime.</p>
+    </div>
+  </section>
+</div>
+{{ end }}

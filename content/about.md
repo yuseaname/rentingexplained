@@ -25,7 +25,7 @@ Our guides follow the full renting lifecycle:
 - **Living in the unit** — repairs, landlord entry, rent increases, and your right to a habitable home.
 - **Moving out** — notice timelines, move-out checklists, and disputes.
 
-We focus on US renters because landlord-tenant law in the United States is set at the state level — and often at the city level on top of that. We always tell you when a rule depends on your jurisdiction so you know where to look next.
+We focus on US renters because landlord-tenant law in the United States is set at the state level — and often at the city level on top of that. We always tell you when a rule depends on your jurisdiction so you know where to look next. See our [State Laws](/state-laws/) reference for a starting point.
 
 ## Our editorial standards
 
@@ -44,3 +44,7 @@ Renting Explained is published by a small, independent editorial team in the Uni
 ## Get in touch
 
 If you have a question, a content suggestion, or want to report an error, see our [Contact](/contact) page. We read everything, and corrections are handled through the process on our [Corrections](/corrections) page.
+
+## Start here
+
+New to renting? Begin with our [Start Here](/start-here/) hub, or use our free [renter tools](/tools/).

@@ -1,0 +1,874 @@
+[
+  {
+    "title": "Search",
+    "description": "Search all guides, tools, and state law pages on Renting Explained.",
+    "url": "/search/",
+    "content": "",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Editorial Policy",
+    "description": "How Renting Explained researches, writes, fact-checks, and updates its guides \u2014 and the sources we rely on for rental and legal information.",
+    "url": "/editorial-policy/",
+    "content": "Last updated: August 9, 2026 Renting Explained is committed to publishing accurate, useful, and unbiased information for renters. This policy describes how we research, write, review, and maintain our guides. ## Our mission We help US renters understand leases, deposits, tenant rights, and the real costs of renting \u2014 in plain language, with primary-source grounding. We write for the renter, not the landlord. ## How we choose topics We build coverage around the questions renters actually ask, org",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Privacy Policy",
+    "description": "How Renting Explained handles data, cookies, and tracking, including Google AdSense and third-party advertising vendors, and how you can opt out.",
+    "url": "/privacy-policy/",
+    "content": "Last updated: August 9, 2026 This Privacy Policy explains what information is collected when you use Renting Explained (rentingexplained.com), how it is used, and the choices you have. By using the site, you agree to the practices described here. ## The short version We run a lightweight, privacy-respecting site. We use privacy-friendly analytics to count visits and we show ads through Google AdSense. We do not sell your personal data, and we do not require you to create an account to read anyth",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Corrections",
+    "description": "How to report an error to Renting Explained, what counts as a correctable error, and how we handle corrections transparently.",
+    "url": "/corrections/",
+    "content": "Last updated: August 9, 2026 We work hard to get things right, but when we get something wrong we want to know \u2014 and we want you to be able to see that we fixed it. This page explains how to report an error and what happens next. ## How to report an error Email us at **corrections@rentingexplained.com** with as much of the following as possible: - The URL of the article in question; - The specific statement that is wrong; - What is correct, with a source if you have one (a government site, statu",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Renter Tools",
+    "description": "Free calculators, estimators, and checklists to help you budget, compare costs, and spot lease red flags before you sign.",
+    "url": "/tools/",
+    "content": "# Free renter tools These tools do the math and flag the warning signs so you can walk into a lease with confidence. No account required. Rent Budget Calculator See what you can afford and what move-in really costs. Hidden-Fees Estimator Estimate deposits, utilities, insurance, and move-in fees. Lease Red-Flag Scanner Paste a clause and spot common warning signs. Move-Out Checklist A printable, interactive checklist for moving out. ## How these tools help - **Budget before you browse.** Knowing ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Start Here",
+    "description": "Never rented before? Follow this step-by-step path through budgeting, documents, apartment hunting, lease signing, and move-in day.",
+    "url": "/start-here/",
+    "content": "# Your first apartment, step by step Renting for the first time can feel like everyone else already knows the rules. This hub gathers everything you need in the order you actually need it. Not a first-time renter? Jump straight to our all guides page , topics , or renter tools . ## The five steps 1. Figure out what you can afford The 30% rule is a starting point, but the real cost of renting includes deposits, utilities, insurance, and moving expenses. Use our Rent Budget Calculator to see the f",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Terms of Service",
+    "description": "The terms that govern your use of Renting Explained, including our educational-content-only disclaimer and limitation of liability.",
+    "url": "/terms-of-service/",
+    "content": "Last updated: August 9, 2026 These Terms of Service govern your use of Renting Explained (rentingexplained.com). By accessing or using the site, you agree to these terms. If you do not agree, please do not use the site. ## 1. Educational content only All content on Renting Explained is provided for general educational and informational purposes only. It is **not legal, financial, or professional advice**, and it is not a substitute for advice from a qualified professional. Rental law in the Unit",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Contact Us",
+    "description": "How to reach Renting Explained for general questions, editorial feedback, corrections, or partnership inquiries.",
+    "url": "/contact/",
+    "content": "# Contact us We'd love to hear from you. Whether you have a question, a content suggestion, or feedback on a guide, this page tells you how to reach us. ## Send a message Use the form below to route your message to the right inbox. We read everything and aim to respond within a few business days. Name Email Topic Select a topic... General inquiry Editorial & content suggestions Report an error Privacy question Partnership & business Message Send message This form uses Formspree. Replace YOUR_FOR",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "State Renting Laws",
+    "description": "Find your state's rules on security deposits, landlord entry, notice to vacate, rent control, and tenant rights resources.",
+    "url": "/state-laws/",
+    "content": "# State renting laws Renter-landlord law in the United States is mostly state law \u2014 and often city law on top of that. Choose your state to see the key rules and where to go next. Important This is a general reference, not legal advice. Laws change, and local ordinances may add stronger protections. For your exact situation, contact a local tenant-rights organization or a qualified attorney. Search states {{ range sort .Site.Data.state_laws \"name\" }} {{ .name }} {{ .abbr }} {{ end }} No states m",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Disclosure",
+    "description": "How Renting Explained makes money: Google AdSense advertising and affiliate relationships, and our commitment to editorial independence.",
+    "url": "/disclosure/",
+    "content": "Last updated: August 9, 2026 Renting Explained is a free resource for renters. To keep the site running and continue publishing guides, we earn revenue through advertising and, where relevant, affiliate partnerships. This page explains how that works and how it does \u2014 and does not \u2014 affect our content. ## Advertising: Google AdSense We participate in the **Google AdSense** program, which displays ads throughout the site. AdSense ads are: - Selected by Google based on page content and, where perm",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "About Renting Explained",
+    "description": "Renting Explained is an independent resource that helps US renters understand leases, deposits, tenant rights, and the real costs of renting \u2014 in plain language.",
+    "url": "/about/",
+    "content": "Renting Explained is an independent education resource for renters. We break down leases, security deposits, tenant rights, and the real costs of renting into plain-language guides you can actually use. ## Why we exist Most renters first meet the rules of renting at the worst possible moment \u2014 when a lease is already in front of them, a deposit is at risk, or a landlord has stopped responding. The information exists, but it is scattered across state statutes, housing-court websites, and lease cl",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "First Apartment Checklist: A Practical Move-In Guide (2025)",
+    "description": "A renter-first checklist covering landlord-provided items, room-by-room essentials, and a simple buying timeline.",
+    "url": "/blog/first-apartment-checklist-guide-2025/",
+    "content": "<> # First Apartment Checklist: A Practical Move-In Guide (2025) Your first apartment is exciting and a little overwhelming. It is also the moment many renters accidentally overspend: you want the place to feel \u201cdone\u201d immediately, so you buy everything at once and then realize you still have utility setup fees, deposits, and a grocery budget to cover. This guide is general information, not financial or legal advice. It is designed to help you avoid expensive surprises, prioritize essentials, and",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Tenant Rights When Your Landlord Won't Make Repairs",
+    "description": "What to do when your landlord ignores repair requests: your habitability rights, repair-and-deduct, rent withholding, and how to document everything.",
+    "url": "/blog/tenant-rights-when-landlord-won-t-make-repairs/",
+    "content": "Tenant Rights When Landlord Won't Make Repairs: A Complete Guide If your landlord refuses to make necessary repairs, you generally have the right to withhold rent, deduct repair costs, or break your lease under the legal doctrine known as the Warranty of Habitability. However, these rights are not automatic; you must first provide written notice, allow a reasonable time for the fix, and follow specific state procedures to avoid eviction. Acting without following the correct legal steps can put y",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Rent Increase Notice: How to Respond at Renewal (2025)",
+    "description": "A renter-first guide to renewal rent increases with clear options, scripts, and budget steps.",
+    "url": "/blog/rent-increase-renewal-guide/",
+    "content": "A rent increase notice can feel like a surprise, even when you expect one. The real question is not just whether the number is higher. It is whether the total cost still fits your budget and whether the renewal terms make sense for your life right now. This guide is general information, not legal advice. Rules vary by state and city, so confirm local notice rules if you are unsure. The goal here is simple: help you make a clear, calm decision at renewal. ## Key takeaways - Read the notice carefu",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Apartment Approval Requirements: What Landlords Look For (2026)",
+    "description": "Learn what landlords look for in an apartment application, from credit and income to rental history and complete paperwork.",
+    "url": "/blog/apartment-approval-requirements/",
+    "content": "Getting approved for an apartment can feel like a black box. You submit an application, pay a fee, and then wait. If you do not get approved, you are left guessing why. This guide is general information, not legal advice. It breaks down what landlords typically look for and how you can prepare a complete, low-stress application that shows you are reliable. ## Key takeaways - Approval is about risk, not perfection. - Credit, income, and rental history matter most. - A complete application can imp",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Understanding a Lease Agreement: A Guide for Tenants",
+    "description": "The parts of a residential lease every renter should understand, the clauses that matter, and what to negotiate before you sign.",
+    "url": "/blog/understanding-a-lease-agreement/",
+    "content": "Understanding a Lease Agreement: A Guide for Tenants A lease agreement is a legally binding contract between a landlord and a tenant that outlines the terms, conditions, and rights regarding the rental property for a specific period. Understanding your lease is critical for protecting your financial interests, keeping your housing stable, and avoiding legal disputes. Signing a lease without a thorough review can lead to unexpected fees, eviction risks, or a lost security deposit. This guide walk",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Subleasing an Apartment: How It Works and Your Rights",
+    "description": "How to sublet your apartment legally: checking your lease, getting landlord approval, screening a subtenant, and writing the agreement.",
+    "url": "/blog/subleasing-apartment-guide/",
+    "content": "Subleasing an apartment allows you to rent out your current leased unit to another tenant for a portion of your lease term while retaining your legal responsibility to the landlord. To do this legally and safely, you must review your original lease for subletting clauses, obtain written landlord approval, screen potential subtenants thoroughly, and draft a formal sublease agreement that outlines all financial and utility responsibilities. This process protects your credit score and ensures compl",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Tenant Rights Basics: Core Rights Every Renter Should Know",
+    "description": "Understand core tenant rights, common lease issues, and how to handle repairs, deposits, and privacy concerns.",
+    "url": "/blog/tenant-rights-everyone-should-know/",
+    "content": "<> # Tenant Rights Basics: Core Rights Every Renter Should Know Most renter problems get worse when expectations are unclear. Knowing your core rights helps you avoid bad lease terms, request repairs with confidence, and protect your deposit without turning every issue into a fight. This guide is general information, not legal advice. Rules vary by state and city. Use this page to understand common protections, then confirm the local details before you act. If you need local sources, start with ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How to Break a Lease Without Ruining Your Credit",
+    "description": "How to break a lease early the right way: legal reasons, negotiating with your landlord, subletting, and protecting your credit.",
+    "url": "/blog/how-to-break-lease/",
+    "content": "--- title: \"How to Break a Lease Without Destroying Your Credit\" description: \"Need to move before your lease ends? Here's how to do it legally, minimize penalties, and protect your rental history and credit score.\" --- # How to Break a Lease Without Destroying Your Credit Life happens. Job loss, relocation, relationship changes \u2014 sometimes you need to leave before your lease ends. Here's how to do it right. ## Table of Contents - [Valid Reasons to Break a Lease](#valid-reasons-to-break-a-lease)",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How Much Should You Spend on Rent?",
+    "description": "How to figure out how much rent you can actually afford, beyond the 30% rule, using your real income and expenses.",
+    "url": "/blog/how-much-to-spend-on-rent/",
+    "content": "--- title: \"How Much Should You Spend on Rent? The Real Answer\" description: \"The 30% rule is outdated. Here's how to calculate what you can actually afford based on your real income, debts, and lifestyle.\" --- # How Much Should You Spend on Rent? The Real Answer The old advice is \"30% of income.\" But that ignores your student loans, your city's cost of living, and your actual life. Here's how to figure out what YOU can afford. ## Table of Contents - [Why the 30% Rule Is Wrong](#why-the-30-rule-",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Section 8 Housing Vouchers Explained: How to Apply and What to Expect",
+    "description": "Everything you need to know about Section 8 housing vouchers: how they work, how to apply, waitlist times, and finding an apartment.",
+    "url": "/blog/section-8-housing-vouchers-explained/",
+    "content": "Section 8 \u2014 officially the Housing Choice Voucher Program \u2014 is the largest federal housing assistance program in the United States. It helps low-income families, seniors, and people with disabilities afford rental housing in the private market. This guide explains how Section 8 works, how to apply, how long the waitlist is, and what landlords and tenants need to know. ## Quick Summary - Section 8 vouchers pay a portion of your rent directly to your landlord - Your income, not your assets, determ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Apartment Move-Out Checklist: Photos, Cleaning, Utilities",
+    "description": "A renter-first move-out checklist covering photos, cleaning, walkthroughs, and utilities so you protect your deposit.",
+    "url": "/blog/apartment-move-out-checklist/",
+    "content": "Moving out is where most deposit problems start. The fix is not a perfect clean, it is a clear plan: document the unit, finish the basics, and leave a paper trail. This guide is general information, not legal advice. Use it as a practical checklist for your next move-out. ![Moving boxes in an empty apartment living room](/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp) ## Key takeaways - Photos and a walkthrough matter more than a deep-cleaning spree. - A simple timeline ke",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Security Deposits: How to Get Yours Back",
+    "description": "What a landlord can and can't deduct from your security deposit, how to protect it from day one, and how to get it returned.",
+    "url": "/blog/security-deposits-guide/",
+    "content": "--- title: \"Security Deposits: How to Get Yours Back (Complete Guide)\" description: \"Your landlord is holding hundreds or thousands of your dollars. Here's exactly how to protect your security deposit and get it returned in full.\" --- # Security Deposits: How to Get Yours Back (Complete Guide) Your security deposit could be $1,000, $2,000, or more. Don't lose it to \"cleaning fees\" or questionable deductions. Here's how to protect yourself. ## Table of Contents - [What Is a Security Deposit?](#wh",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How to Negotiate Rent in 2025: Practical Scripts and Timing Tips",
+    "description": "A renter-first guide to asking for lower rent or better terms with simple scripts and smart timing.",
+    "url": "/blog/how-to-negotiate-rent-guide/",
+    "content": "Rent negotiations work best when you are clear, calm, and realistic. You are not asking for a favor. You are asking for terms that fit your budget and the market. This guide is general information, not legal advice. It helps you choose the right timing, gather simple proof, and make a request a landlord can actually say yes to. Use the sections below as a step-by-step playbook. You do not need a script for every scenario, just a clear ask and a paper trail. ## Key takeaways - Your best leverage ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Renter's Rights: What Your Landlord Cannot Legally Do",
+    "description": "The core rights every US renter has, the landlord actions that are illegal, and what to do when your rights are violated.",
+    "url": "/blog/renters-rights-guide/",
+    "content": "--- title: \"Renter's Rights: What Your Landlord Cannot Legally Do\" description: \"Landlords have rules too. Here's what they're forbidden from doing \u2014 from entering without notice to retaliating against complaints.\" --- # Renter's Rights: What Your Landlord Cannot Legally Do Landlords have power, but they also have limits. Here's what they're legally forbidden from doing \u2014 and what to do if they cross the line. ## Table of Contents - [Illegal Entry and Privacy](#illegal-entry-and-privacy) - [Reta",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How to Get Your Security Deposit Back",
+    "description": "How to get your full security deposit back: documenting the unit, what landlords can and can't deduct, state timelines, and what to do if it isn't returned.",
+    "url": "/blog/how-to-get-security-deposit-back/",
+    "content": "To get your security deposit back, document the condition of the unit before you move in and after you move out, follow your state's specific timeline laws, and provide a forwarding address in writing. Landlords can only deduct for damages beyond normal wear and tear or unpaid rent, and they usually must return your deposit within 14 to 30 days depending on your location. There is nothing quite as frustrating as moving into a new home, only to have a chunk of your savings vanish when you move ou",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent",
+    "description": "A clear guide to move-in fees, monthly add-ons, and how to spot and negotiate surprise charges.",
+    "url": "/blog/hidden-rental-fees-explained/",
+    "content": "export default function Article() , , , , , ]; return ( <> # Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent A listing price is not a final price. Many renters learn that the hard way: you find a unit that looks affordable, apply, and then discover add-ons like admin fees, parking, \u201cservice\u201d charges, or required amenities that change the real monthly total. This guide is general information, not legal or financial advice. It will help you spot common fee categories, ask the right",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Security Deposit Return Timeline: What to Expect (2026)",
+    "description": "Learn how security deposit return timelines work, what affects delays, and how to follow up without drama.",
+    "url": "/blog/security-deposit-return-timeline/",
+    "content": "Waiting for a security deposit refund can be frustrating, especially when you are already paying for a new place. The key is knowing the process, keeping your documentation organized, and following up clearly if the timeline drags. This guide is general information, not legal advice. Timelines vary by state and city, so always check local rules. ![Mailbox with an envelope and keys nearby](/images/legal-rights/security-deposit-return-timeline/security-deposit-mailbox.webp) ## Key takeaways - Depo",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Apartment Lease Agreement Explained: Key Clauses Every Renter Should Know",
+    "description": "Understand every section of your apartment lease before signing. This plain-English guide explains key clauses, red flags, and what to negotiate.",
+    "url": "/blog/apartment-lease-agreement-explained/",
+    "content": "Signing a lease is one of the most significant financial commitments you will make. Many renters focus on finding the perfect unit while rushing through the paperwork. They sign because they trust the leasing agent or feel pressured to secure the deal quickly. This approach often leads to unexpected fees, confusion over repairs, or disputes when it is time to move out. This guide breaks down the apartment lease agreement explained in plain English. You will learn exactly what each clause means, ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Landlord Notice to Enter: How Much Notice Is Required? (2026)",
+    "description": "Learn how much notice your landlord must give before entering your apartment, when emergency entry is allowed, and what to do if they violate your rights.",
+    "url": "/blog/landlord-entry-notice-requirements/",
+    "content": "If a landlord wants to enter your apartment, they typically can't just show up \u2014 most states require advance written notice. This guide explains how much notice is legally required, when landlords can enter without notice, and what to do if your landlord ignores these rules. **This guide is general information, not legal advice.** Specific rules vary significantly by state. Always check your local laws. ## Key Takeaways - Most US states require 24 hours advance notice before landlord entry. - Ca",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease",
+    "description": "A renter-first guide to understanding utility bills, quick savings, and a simple audit checklist.",
+    "url": "/blog/apartment-utility-costs/",
+    "content": "Utility costs can feel unpredictable, especially in your first year in a new place. The good news is that most renters have more control than they think. You can reduce bills with a few quick wins, a simple routine, and clear communication when something is not working. This guide is general information, not legal advice. It will help you understand your billing setup, reduce waste, and avoid common mistakes that drive costs up. ## Key takeaways - Your utility setup (included, submetered, or sha",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Notice to Vacate Letter Template: What to Include (2026)",
+    "description": "Get a clean notice to vacate letter template, a checklist of what to include, and a calm plan for timing your move-out.",
+    "url": "/blog/notice-to-vacate-letter-template/",
+    "content": "Giving notice to move out should be simple, but most renters worry about missing a detail that costs them money later. The good news: a notice to vacate letter is just a short, clear statement with the right dates and a few key details. This guide is general information, not legal advice. Notice rules vary by state and by lease, so always check your lease and local rules before you send your letter. ![Apartment keys on a table near a lease](/images/legal-rights/notice-to-vacate-letter-template/n",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Renting With Bad Credit: Options, Cosigners, and What Helps",
+    "description": "Learn how renters with bad credit get approved, when cosigners help, and how to strengthen an application.",
+    "url": "/blog/renting-with-bad-credit-options/",
+    "content": "Credit anxiety is common. Many renters worry that a low score will block them from finding a safe place to live. The good news is that approval is still possible when you understand what landlords look for and how to present your application clearly. This guide is general information, not legal or financial advice. It explains realistic approval paths for renters with bad credit and how to strengthen your application without desperation. If you have ever felt embarrassed or stuck because of a cr",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How Much Rent Can I Afford? A Realistic Budget Guide (2026)",
+    "description": "Learn how much rent you can realistically afford based on income, debt, and lifestyle without relying on rigid rules.",
+    "url": "/blog/how-much-rent-can-i-afford/",
+    "content": "Rent affordability feels confusing because the advice is all over the place. One person says the 30% rule. A landlord says you need three times the rent. A friend says to stretch for the \"nice\" place. The result is stress, not clarity. This guide is general information, not financial advice. It will help you build a realistic rent range based on your cash flow, fixed obligations, and lifestyle so you can choose a number that does not make you rent-poor. If you have ever signed a lease and then f",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How to Report Rent to Credit Bureaus: Complete 2026 Guide",
+    "description": "Learn how to report your rent payments to credit bureaus using third-party services. Compare costs, bureau coverage, and whether rent reporting can improve your credit score.",
+    "url": "/blog/how-to-report-rent-to-credit-bureaus/",
+    "content": "export default function Article() , , , , , ]; return ( <> # How to Report Rent to Credit Bureaus: Complete 2026 Guide To report rent to credit bureaus, you must utilize a third-party rent reporting service, as tenants cannot submit payment data directly to Equifax, Experian, or TransUnion. These services verify your rental payments with your landlord or through bank account connections, then report the verified payments to credit bureaus on your behalf. In 2026, several services offer this for ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How to Break a Lease Early: Legal Options and Safer Steps",
+    "description": "A renter-first guide to ending a lease early, with legal options, negotiation tips, and credit-safe steps.",
+    "url": "/blog/how-to-break-lease-early/",
+    "content": "export default function Article() , , , , , , ]; return ( <> # How to Break a Lease Early: Legal Options and Safer Steps Breaking a lease early is stressful because it mixes personal urgency with contract rules. You might need to move for work, health, family, or safety\u2014while your lease still expects rent on a schedule. The good news is there are safer ways to handle an early exit if you slow down, read your lease carefully, and keep the process in writing. This guide is general information, not",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Apartment Move-In Costs: Checklist and Budget Guide (2025)",
+    "description": "A renter-first breakdown of move-in costs, fees, and a checklist to budget before you get the keys.",
+    "url": "/blog/apartment-move-in-costs/",
+    "content": "Moving into a new apartment is exciting, but the costs can feel confusing. Rent is only one piece. You also have deposits, fees, utility setup, and the basics you need to live comfortably. If you do not plan for those early, you can end up scrambling in your first week. This guide is general information, not legal or financial advice. It will help you build a realistic move-in budget, ask the right questions, and avoid the most common surprises. ## Key takeaways - Move-in costs include one-time ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Minimum Income to Rent an Apartment (2026 Data)",
+    "description": "How much do you need to earn to rent? City-by-city 2026 data, the 3x rule explained, gross vs. net income traps, and real strategies when you fall short.",
+    "url": "/blog/minimum-income-to-rent-apartment/",
+    "content": "Minimum Income to Rent an Apartment in 2026: Everything You Need to Know .re-article{--re-accent:#3b82f6;--re-success:#22c55e;--re-warning:#f59e0b;--re-danger:#ef4444;--re-gray:#94a3b8;font-size:1.05rem;line-height:1.8;color:#1e293b;max-width:72ch;margin:0 auto;} .re-article h1{font-size:2.2rem;line-height:1.2;margin-bottom:0.5rem;letter-spacing:-0.02em;} .re-article h2{font-size:1.5rem;line-height:1.3;margin-top:2.5rem;padding-bottom:0.5rem;border-bottom:2px solid #e2e8f0;} .re-article h3{font-",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Breaking a Lease Without Penalty: Legal Options and Safer Steps (2025)",
+    "description": "A renter-first guide to legal lease exits, documentation tips, and negotiating a clean release.",
+    "url": "/blog/breaking-a-lease-without-penalty-2025/",
+    "content": "Breaking a lease can feel like a trap: you have a move you need to make, a contract that says you cannot, and a fear that one wrong step will wreck your finances. The good news is that there are safer paths if you slow down, read your lease carefully, and keep everything in writing. This guide is general information, not legal advice. Laws vary by state and city, and the details matter. Before you take action, confirm local requirements using reputable state or city resources and keep copies of ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Rental Scams Explained: How to Spot Fake Listings and Stay Safe",
+    "description": "Learn how rental scams work, warning signs to watch for, and simple steps to verify listings before sending money.",
+    "url": "/blog/rental-scams-how-to-avoid/",
+    "content": "Rental scams are common because renters are often in a rush. When a move date is close and listings are disappearing fast, it is easy to skip steps that would normally keep you safe. This guide is general information, not legal advice. It explains how rental scams work, the most common red flags, and a calm, step-by-step way to verify a listing before you send money. If you have ever felt pushed to apply without a tour or to send money to \\\"hold\\\" a unit, you already know how the pressure feels.",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "First Apartment Budget Guide: What to Buy and What to Skip",
+    "description": "A room-by-room budget guide for first-time renters with realistic tiers and a simple buying timeline.",
+    "url": "/blog/first-apartment-checklist-budget-guide/",
+    "content": "Your first apartment budget is more than furniture. It includes move-in costs, basic supplies, and a plan for what to buy first so you do not drain your cash in week one and then struggle to cover utilities or groceries. This guide is general information, not financial advice. Use it as a practical framework, then adjust for your space, your habits, and your actual budget. If you want a \u201cdo this first\u201d mindset: pay for the move-in costs, cover the essentials that keep you healthy and functional,",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Rental Application Checklist: Documents, Fees, and Timing",
+    "description": "A calm checklist of rental application documents, fees, and timing so you can apply fast and avoid delays.",
+    "url": "/blog/rental-application-checklist/",
+    "content": "Rental applications move quickly and can cost more than expected. A clear checklist keeps you from paying fees before you know the requirements or the real decision timeline. This guide is general information, not legal or financial advice. It walks through the documents, fees, and timing questions that help you apply calmly and avoid unnecessary costs. If you are still touring, bring the [apartment tour checklist](/blog/apartment-tour-checklist-questions-red-flags) so you only apply to places t",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Understanding Security Deposits and Evictions: A General Education Guide",
+    "description": "A plain-language overview of security deposits and eviction basics, including documentation tips.",
+    "url": "/blog/security-deposits-and-evictions-overview/",
+    "content": "export default function Article() , , , , , ]; return ( <> # Understanding Security Deposits and Evictions: A General Education Guide Security deposits and evictions are two of the most stressful moments in a renter\u2019s journey. They are also two of the most misunderstood. A lot of renter stress comes from not knowing what the process usually looks like until you are already in it. This guide is general education, not legal advice. Rules vary by state and city, and the details matter. Use this pag",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Proof of Income for Apartments (2026 Guide)",
+    "description": "What documents count as proof of income? Pay stubs, bank statements, tax returns, and more \u2014 plus automated verification tools and templates for every income type.",
+    "url": "/blog/proof-of-income-for-apartments/",
+    "content": "Proof of Income for Apartments: Complete Guide (2026) .re-article{--re-accent:#3b82f6;--re-success:#22c55e;--re-warning:#f59e0b;--re-danger:#ef4444;--re-gray:#94a3b8;font-size:1.05rem;line-height:1.8;color:#1e293b;max-width:72ch;margin:0 auto;} .re-article h1{font-size:2.2rem;line-height:1.2;margin-bottom:0.5rem;letter-spacing:-0.02em;} .re-article h2{font-size:1.5rem;line-height:1.3;margin-top:2.5rem;padding-bottom:0.5rem;border-bottom:2px solid #e2e8f0;} .re-article h3{font-size:1.2rem;margin-",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Hidden Apartment Fees: The Complete Guide to Avoiding Surprise Costs in 2026",
+    "description": "Discover the hidden apartment fees landlords do not advertise. Learn to identify admin charges, amenity fees, and utility pass-throughs before you sign your lease.",
+    "url": "/blog/hidden-apartment-fees/",
+    "content": "export default function Article() , , , , , ]; return ( <> # Hidden Apartment Fees: The Complete Guide to Avoiding Surprise Costs in 2026 Hidden apartment fees are additional charges levied by landlords or property management companies that are not immediately apparent in the advertised rent price. These fees can add **$50 to $300+ per month** to your actual housing costs, turning what seemed like an affordable unit into a budget strain. Understanding these fees before you sign a lease helps you",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Tenant Screening and Credit Checks for Renters: What Landlords Look For",
+    "description": "A clear guide to tenant screening, credit checks, and how landlords evaluate applications.",
+    "url": "/blog/tenant-screening-credit-checks-for-renters/",
+    "content": "Tenant screening can feel like a black box, especially when you are paying fees and waiting on a decision. This guide breaks down what landlords typically review so you can prepare with confidence. This guide is general information, not legal advice. It explains common screening factors, how to read your own credit report, and the steps that make an application easier to approve. If you are still touring units, start with the [apartment tour checklist](/blog/apartment-tour-checklist-questions-re",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Roommate Agreement Template: What to Include",
+    "description": "A practical roommate agreement template plus what to include, so rent, bills, chores, and disputes are settled before they start.",
+    "url": "/blog/roommate-agreement-template/",
+    "content": "A roommate agreement template is a customizable legal document used by co-tenants to outline shared living responsibilities, financial obligations, and house rules. While not always legally binding against a landlord, it serves as a contract between roommates to prevent disputes and clarify expectations regarding rent, utilities, and behavior. You can download a free roommate agreement template in PDF or Word format from reputable providers like DocuSign, LawDepot, or eForms to customize it for ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Renters Insurance Cost in 2025: Coverage Basics and Ways to Save",
+    "description": "A renter-first guide to renters insurance costs, coverage choices, and ways to lower your premium.",
+    "url": "/blog/renters-insurance-cost-2025/",
+    "content": "Renters insurance is one of the most confusing line items for new renters. You are told to buy it, but the price, coverage, and proof requirements are rarely explained clearly. That leads to overpaying or buying coverage that does not match your situation. This guide is general information, not insurance or legal advice. It will help you understand what renters insurance covers, how pricing works, and how to choose a policy that fits your budget. ## Key takeaways - Renters insurance covers perso",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "How Tenant Rights Differ by State: An Overview Guide",
+    "description": "Learn how tenant rights vary by state, what rules change most often, and how to find local information.",
+    "url": "/blog/tenant-rights-by-state-overview/",
+    "content": "<> # How Tenant Rights Differ by State: An Overview Guide Two renters can sign similar leases and still have different rights because they live in different states. State and local laws fill in the gaps for deposits, repairs, entry notice, and move-out timelines. Knowing where rules come from helps you understand what your lease can change and what it cannot. This guide is general information, not legal advice. Use it to map the topics you should confirm locally, then check official state or cit",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "First-Time Renter's Guide: What to Know Before You Sign",
+    "description": "A plain-language walkthrough for first-time renters: budget, documents, the lease, the walk-through, and move-in day.",
+    "url": "/blog/first-time-renters-guide/",
+    "content": "--- title: \"First-Time Renter's Guide: Everything You Need to Know Before Signing a Lease\" description: \"Never rented before? Here's your complete guide: how much to budget, what documents you need, how to inspect an apartment, and what to watch for in a lease.\" --- # First-Time Renter's Guide: Everything You Need to Know Before Signing a Lease Your first apartment is exciting \u2014 and overwhelming. Here's everything you need to know to avoid costly mistakes and find a place you'll actually love. #",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Apartment Tour Checklist: Questions to Ask and Red Flags to Spot",
+    "description": "A practical tour checklist with questions to ask, red flags to notice, and notes to take before you apply.",
+    "url": "/blog/apartment-tour-checklist-questions-red-flags/",
+    "content": "Apartment tours move fast, and it is easy to miss the issues that matter day to day. A consistent checklist keeps you focused on livability and total cost, not just first impressions. This guide is general information, not legal or financial advice. It helps you spot common red flags, ask clear questions, and document what you see so you can compare units fairly. Use it whether you are touring one unit or five. The goal is to leave each tour with clear notes and a confident next step. ## Key tak",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Renting vs Buying in 2025: A Practical Decision Guide",
+    "description": "Compare renting and buying using real-life trade-offs like time horizon, total monthly cost, and flexibility.",
+    "url": "/blog/renting-vs-buying-2025/",
+    "content": "<> # Renting vs Buying in 2025: A Practical, Renter-First Decision Guide Renting vs buying is not a debate to win. It is a personal decision about time horizon, cash flow, and how much flexibility you need right now. The best choice is the one that supports your daily life without draining your budget or adding avoidable stress. This guide is general information, not financial or legal advice. It is designed to help you compare real costs and trade-offs so you can make a calm, informed decision ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Best Apps and Tools for Renters in 2025: Complete Comparison Guide",
+    "description": "Compare the top rental apps and digital tools that make apartment hunting, rent payment, and tenant communication easier than ever.",
+    "url": "/blog/best-apps-and-tools-for-renters/",
+    "content": "<> # Best Apps and Tools for Renters in 2025 The rental process is now digital end to end, from touring to paying rent to requesting repairs. The right tools can save you time, reduce missed deadlines, and make documentation easier when something goes wrong. This guide is general information, not legal or financial advice. It highlights practical apps and workflows that help renters compare options, track costs, and keep a clean paper trail. ## Key takeaways - Best rental apps save hours during ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Lease Renewal vs. Moving Out: How to Make the Right Call",
+    "description": "Should you renew your lease or move out? Compare the real costs of staying vs. moving, learn how to negotiate your renewal, and make the right call.",
+    "url": "/blog/lease-renewal-vs-moving-out/",
+    "content": "Deciding whether to renew your lease or move is primarily a math problem wrapped in lifestyle choices. Staying makes sense if your current rent is below market rate even after an increase, while moving is better if the savings outweigh the hassle and upfront costs of relocation. Ultimately, the right call balances your budget against your need for stability and comfort. ![Renter reviewing lease renewal documents at kitchen table in a modern apartment](/images/lease-renewal/hero.jpg) ## The Key F",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Nebraska Renting Laws",
+    "description": "Key renting laws for Nebraska: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ne/",
+    "content": "# Nebraska renting laws This page summarizes the key landlord-tenant rules for **Nebraska**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Nebraska. - Co",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Minnesota Renting Laws",
+    "description": "Key renting laws for Minnesota: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/mn/",
+    "content": "# Minnesota renting laws This page summarizes the key landlord-tenant rules for **Minnesota**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Minnesot",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Vermont Renting Laws",
+    "description": "Key renting laws for Vermont: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/vt/",
+    "content": "# Vermont renting laws This page summarizes the key landlord-tenant rules for **Vermont**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases Burlington has rent stabilization. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Verm",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Nevada Renting Laws",
+    "description": "Key renting laws for Nevada: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/nv/",
+    "content": "# Nevada renting laws This page summarizes the key landlord-tenant rules for **Nevada**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 3 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Nevada. - Contact",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Indiana Renting Laws",
+    "description": "Key renting laws for Indiana: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/in/",
+    "content": "# Indiana renting laws This page summarizes the key landlord-tenant rules for **Indiana**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Indiana. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Michigan Renting Laws",
+    "description": "Key renting laws for Michigan: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/mi/",
+    "content": "# Michigan renting laws This page summarizes the key landlord-tenant rules for **Michigan**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1.5 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Michigan. -",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "New Jersey Renting Laws",
+    "description": "Key renting laws for New Jersey: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/nj/",
+    "content": "# New Jersey renting laws This page summarizes the key landlord-tenant rules for **New Jersey**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1.5 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases Local rent control common. ## Where to get help - Search for a local tenant-rights organization or legal aid society in New Jer",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Illinois Renting Laws",
+    "description": "Key renting laws for Illinois: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/il/",
+    "content": "# Illinois renting laws This page summarizes the key landlord-tenant rules for **Illinois**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Illinois. ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "New York Renting Laws",
+    "description": "Key renting laws for New York: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ny/",
+    "content": "# New York renting laws This page summarizes the key landlord-tenant rules for **New York**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate 30 days (varies by tenancy length). ## Rent control / rent increases Rent stabilization in NYC and some localities. ## Where to get help - Search for a local tenant-rights organizati",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Florida Renting Laws",
+    "description": "Key renting laws for Florida: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/fl/",
+    "content": "# Florida renting laws This page summarizes the key landlord-tenant rules for **Florida**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry 12 hours for repairs, reasonable notice generally. ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Florida. -",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Ohio Renting Laws",
+    "description": "Key renting laws for Ohio: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/oh/",
+    "content": "# Ohio renting laws This page summarizes the key landlord-tenant rules for **Ohio**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Ohio. - Contact yo",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Wyoming Renting Laws",
+    "description": "Key renting laws for Wyoming: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/wy/",
+    "content": "# Wyoming renting laws This page summarizes the key landlord-tenant rules for **Wyoming**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Wyoming. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Rhode Island Renting Laws",
+    "description": "Key renting laws for Rhode Island: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ri/",
+    "content": "# Rhode Island renting laws This page summarizes the key landlord-tenant rules for **Rhode Island**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Rhode ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Tennessee Renting Laws",
+    "description": "Key renting laws for Tennessee: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/tn/",
+    "content": "# Tennessee renting laws This page summarizes the key landlord-tenant rules for **Tennessee**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Tennesse",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Iowa Renting Laws",
+    "description": "Key renting laws for Iowa: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ia/",
+    "content": "# Iowa renting laws This page summarizes the key landlord-tenant rules for **Iowa**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Iowa. - Contact your ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Connecticut Renting Laws",
+    "description": "Key renting laws for Connecticut: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ct/",
+    "content": "# Connecticut renting laws This page summarizes the key landlord-tenant rules for **Connecticut**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent (for tenants 62+, 1 month). ## Landlord entry Reasonable notice. ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Connecticu",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Alabama Renting Laws",
+    "description": "Key renting laws for Alabama: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/al/",
+    "content": "# Alabama renting laws This page summarizes the key landlord-tenant rules for **Alabama**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Alabama. - Conta",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Hawaii Renting Laws",
+    "description": "Key renting laws for Hawaii: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/hi/",
+    "content": "# Hawaii renting laws This page summarizes the key landlord-tenant rules for **Hawaii**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Hawaii. - Contact ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "District of Columbia Renting Laws",
+    "description": "Key renting laws for District of Columbia: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/dc/",
+    "content": "# District of Columbia renting laws This page summarizes the key landlord-tenant rules for **District of Columbia**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases District rent control applies. ## Where to get help - Search for a local tenant-rights organization or legal a",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Mississippi Renting Laws",
+    "description": "Key renting laws for Mississippi: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ms/",
+    "content": "# Mississippi renting laws This page summarizes the key landlord-tenant rules for **Mississippi**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Miss",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "South Dakota Renting Laws",
+    "description": "Key renting laws for South Dakota: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/sd/",
+    "content": "# South Dakota renting laws This page summarizes the key landlord-tenant rules for **South Dakota**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in South ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Maine Renting Laws",
+    "description": "Key renting laws for Maine: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/me/",
+    "content": "# Maine renting laws This page summarizes the key landlord-tenant rules for **Maine**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Maine. - Contact yo",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Virginia Renting Laws",
+    "description": "Key renting laws for Virginia: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/va/",
+    "content": "# Virginia renting laws This page summarizes the key landlord-tenant rules for **Virginia**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Virginia. - Contact you",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Pennsylvania Renting Laws",
+    "description": "Key renting laws for Pennsylvania: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/pa/",
+    "content": "# Pennsylvania renting laws This page summarizes the key landlord-tenant rules for **Pennsylvania**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Pe",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "South Carolina Renting Laws",
+    "description": "Key renting laws for South Carolina: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/sc/",
+    "content": "# South Carolina renting laws This page summarizes the key landlord-tenant rules for **South Carolina**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society i",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Wisconsin Renting Laws",
+    "description": "Key renting laws for Wisconsin: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/wi/",
+    "content": "# Wisconsin renting laws This page summarizes the key landlord-tenant rules for **Wisconsin**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Wisconsi",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "West Virginia Renting Laws",
+    "description": "Key renting laws for West Virginia: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/wv/",
+    "content": "# West Virginia renting laws This page summarizes the key landlord-tenant rules for **West Virginia**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Arizona Renting Laws",
+    "description": "Key renting laws for Arizona: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/az/",
+    "content": "# Arizona renting laws This page summarizes the key landlord-tenant rules for **Arizona**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1.5 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Arizona. - Co",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "North Dakota Renting Laws",
+    "description": "Key renting laws for North Dakota: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/nd/",
+    "content": "# North Dakota renting laws This page summarizes the key landlord-tenant rules for **North Dakota**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent or 2 months for pets. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Massachusetts Renting Laws",
+    "description": "Key renting laws for Massachusetts: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ma/",
+    "content": "# Massachusetts renting laws This page summarizes the key landlord-tenant rules for **Massachusetts**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent. ## Landlord entry Reasonable notice. ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Massachusetts. - Contact your city",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Montana Renting Laws",
+    "description": "Key renting laws for Montana: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/mt/",
+    "content": "# Montana renting laws This page summarizes the key landlord-tenant rules for **Montana**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Montana. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Oregon Renting Laws",
+    "description": "Key renting laws for Oregon: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/or/",
+    "content": "# Oregon renting laws This page summarizes the key landlord-tenant rules for **Oregon**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry 24 hours. ## Notice to vacate Typically 30 days. ## Rent control / rent increases Statewide rent increase limits (no-cause eviction rules). ## Where to get help - Search for a local tenant-rights organization or legal aid society in Oregon. - Contact your",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "California Renting Laws",
+    "description": "Key renting laws for California: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ca/",
+    "content": "# California renting laws This page summarizes the key landlord-tenant rules for **California**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent for unfurnished, 3 for furnished. ## Landlord entry 24 hours written notice. ## Notice to vacate Typically 30 days. ## Rent control / rent increases Local rent control in many cities. ## Where to get help - Search for a local tenant-rights organization or legal aid soc",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Texas Renting Laws",
+    "description": "Key renting laws for Texas: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/tx/",
+    "content": "# Texas renting laws This page summarizes the key landlord-tenant rules for **Texas**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry No specific statute. ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Texas. - Contact your city or county housing",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "New Mexico Renting Laws",
+    "description": "Key renting laws for New Mexico: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/nm/",
+    "content": "# New Mexico renting laws This page summarizes the key landlord-tenant rules for **New Mexico**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent for leases under 1 year. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal a",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Alaska Renting Laws",
+    "description": "Key renting laws for Alaska: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ak/",
+    "content": "# Alaska renting laws This page summarizes the key landlord-tenant rules for **Alaska**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Alaska. - Contact",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Maryland Renting Laws",
+    "description": "Key renting laws for Maryland: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/md/",
+    "content": "# Maryland renting laws This page summarizes the key landlord-tenant rules for **Maryland**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Maryland. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Kentucky Renting Laws",
+    "description": "Key renting laws for Kentucky: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ky/",
+    "content": "# Kentucky renting laws This page summarizes the key landlord-tenant rules for **Kentucky**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Kentucky. ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Georgia Renting Laws",
+    "description": "Key renting laws for Georgia: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ga/",
+    "content": "# Georgia renting laws This page summarizes the key landlord-tenant rules for **Georgia**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Georgia. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Washington Renting Laws",
+    "description": "Key renting laws for Washington: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/wa/",
+    "content": "# Washington renting laws This page summarizes the key landlord-tenant rules for **Washington**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry 48 hours. ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Washington. - Contact your city or county hou",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Oklahoma Renting Laws",
+    "description": "Key renting laws for Oklahoma: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ok/",
+    "content": "# Oklahoma renting laws This page summarizes the key landlord-tenant rules for **Oklahoma**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Oklahoma. ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Missouri Renting Laws",
+    "description": "Key renting laws for Missouri: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/mo/",
+    "content": "# Missouri renting laws This page summarizes the key landlord-tenant rules for **Missouri**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Missouri. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "North Carolina Renting Laws",
+    "description": "Key renting laws for North Carolina: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/nc/",
+    "content": "# North Carolina renting laws This page summarizes the key landlord-tenant rules for **North Carolina**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 weeks for week-to-week, 1.5 months for month-to-month, 2 months for longer. ## Landlord entry No specific statute. ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights org",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Idaho Renting Laws",
+    "description": "Key renting laws for Idaho: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/id/",
+    "content": "# Idaho renting laws This page summarizes the key landlord-tenant rules for **Idaho**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Idaho. - Contact",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "New Hampshire Renting Laws",
+    "description": "Key renting laws for New Hampshire: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/nh/",
+    "content": "# New Hampshire renting laws This page summarizes the key landlord-tenant rules for **New Hampshire**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent or $100, whichever is greater. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organizatio",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Kansas Renting Laws",
+    "description": "Key renting laws for Kansas: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ks/",
+    "content": "# Kansas renting laws This page summarizes the key landlord-tenant rules for **Kansas**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent for unfurnished, 1.5 for furnished. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or lega",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Utah Renting Laws",
+    "description": "Key renting laws for Utah: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ut/",
+    "content": "# Utah renting laws This page summarizes the key landlord-tenant rules for **Utah**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Utah. - Contact yo",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Louisiana Renting Laws",
+    "description": "Key renting laws for Louisiana: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/la/",
+    "content": "# Louisiana renting laws This page summarizes the key landlord-tenant rules for **Louisiana**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Louisian",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Colorado Renting Laws",
+    "description": "Key renting laws for Colorado: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/co/",
+    "content": "# Colorado renting laws This page summarizes the key landlord-tenant rules for **Colorado**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit No statewide cap. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Colorado. ",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Arkansas Renting Laws",
+    "description": "Key renting laws for Arkansas: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/ar/",
+    "content": "# Arkansas renting laws This page summarizes the key landlord-tenant rules for **Arkansas**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 2 months rent. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society in Arkansas. - C",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Delaware Renting Laws",
+    "description": "Key renting laws for Delaware: security deposits, notice rules, rent control, and tenant rights resources.",
+    "url": "/state-laws/de/",
+    "content": "# Delaware renting laws This page summarizes the key landlord-tenant rules for **Delaware**. Local laws may add additional protections, so check your city or county housing department as well. ## Security deposit 1 month rent for 1-year leases. ## Landlord entry Generally reasonable notice (often 24\u201348 hours). ## Notice to vacate Typically 30 days. ## Rent control / rent increases No statewide rent control. ## Where to get help - Search for a local tenant-rights organization or legal aid society",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Lease Red-Flag Scanner",
+    "description": "Paste a lease clause and quickly identify common warning signs and unfair terms.",
+    "url": "/tools/lease-red-flag-scanner/",
+    "content": "# Lease Red-Flag Scanner Paste a lease clause below. This tool highlights common warning signs and explains why they matter. It does not replace a lawyer \u2014 it helps you ask better questions before signing. Lease clause Scan for red flags Potential issues found: 0 (function() { var textarea = document.getElementById('lease-clause'); var btn = document.getElementById('scan-clause'); var result = document.getElementById('scan-result'); var flagCount = document.getElementById('flag-count'); var flag",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Move-Out Checklist",
+    "description": "An interactive checklist to protect your security deposit and document the condition of your rental when you leave.",
+    "url": "/tools/move-out-checklist/",
+    "content": "# Move-Out Checklist Use this interactive checklist to document your move-out and improve your chances of getting your full security deposit back. (function() { var container = document.getElementById('checklist-app'); var items = [ { id: 'notice', label: 'Gave proper written move-out notice' }, { id: 'photos', label: 'Took dated photos/videos of every room' }, { id: 'damage', label: 'Documented pre-existing damage and normal wear' }, { id: 'cleaning', label: 'Cleaned unit to the standard in you",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Hidden-Fees Estimator",
+    "description": "Estimate the real move-in cost for an apartment, including rent, deposit, utilities, insurance, parking, and fees.",
+    "url": "/tools/hidden-fees-estimator/",
+    "content": "# Hidden-Fees Estimator Rent is only part of the picture. Use this calculator to estimate what you'll actually pay to move in and live somewhere for the first month. Monthly rent Security deposit Application fee Estimated monthly utilities Renter's insurance (monthly) Parking (monthly) One-time moving cost Estimate total cost First month total One-time move-in costs Monthly total (rent + extras) (function() { var rent = document.getElementById('monthly-rent'); var deposit = document.getElementBy",
+    "categories": [],
+    "tags": []
+  },
+  {
+    "title": "Rent Budget Calculator",
+    "description": "Estimate how much rent you can afford based on your income and see the total cost of moving in.",
+    "url": "/tools/rent-budget-calculator/",
+    "content": "# Rent Budget Calculator Enter your monthly gross income and a few estimated costs to see what rent level fits your budget. Monthly gross income Rent rule 30% of gross income (common guideline) 25% of gross income (conservative) 35% of gross income (stretch) Security deposit (months of rent) 1 month 2 months Half month Estimated one-time move-in costs (moving, fees, etc.) Calculate budget Recommended max monthly rent Move-in total Deposit Remember This is an estimate. Your actual budget depends ",
+    "categories": [],
+    "tags": []
+  }
+]

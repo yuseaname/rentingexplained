@@ -5,12 +5,39 @@
 
   <!-- Page Header -->
   <header class="page-header mb-10">
+    <span class="eyebrow">{{ if eq .RelPermalink "/blog/" }}All guides{{ else if eq .RelPermalink "/categories/" }}Topics{{ else }}Explore{{ end }}</span>
     <h1 class="page-title">{{ .Title }}</h1>
     {{ with .Params.description }}<p class="page-sub">{{ . }}</p>{{ end }}
+
+    <!-- Lifecycle filter tabs -->
+    <div class="flex flex-wrap gap-2 mt-6">
+      <a href="/blog/" class="badge {{ if eq .RelPermalink "/blog/" }}badge-primary{{ else }}badge-neutral{{ end }}">All guides</a>
+      <a href="/categories/apartment-hunting/" class="badge {{ if eq .RelPermalink "/categories/apartment-hunting/" }}badge-primary{{ else }}badge-neutral{{ end }}">Applying</a>
+      <a href="/categories/legal-rights/" class="badge {{ if eq .RelPermalink "/categories/legal-rights/" }}badge-primary{{ else }}badge-neutral{{ end }}">Living / Rights</a>
+      <a href="/categories/costs/" class="badge {{ if eq .RelPermalink "/categories/costs/" }}badge-primary{{ else }}badge-neutral{{ end }}">Money / Moving</a>
+      <a href="/categories/" class="badge {{ if eq .RelPermalink "/categories/" }}badge-primary{{ else }}badge-neutral{{ end }}">All topics</a>
+    </div>
   </header>
 
   {{/* Ad: top of list */}}
-  {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
+  {{ if .Site.Params.adsense.client_id }}
+  <div class="ad-zone ad-zone-sm">
+    {{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}
+  </div>
+  {{ end }}
+
+  <!-- Featured guide -->
+  {{ if and (eq .RelPermalink "/blog/") (gt (len .RegularPages) 0) }}
+  {{ $featured := index .RegularPages.ByDate.Reverse 0 }}
+  <a href="{{ $featured.RelPermalink }}" class="featured-card mb-8 reveal">
+    <span class="featured-card-num">★</span>
+    <div class="featured-card-content">
+      <span class="stamp stamp-featured mb-2">Latest guide</span>
+      <span class="featured-card-title">{{ $featured.Title }}</span>
+      <p class="featured-card-desc">{{ $featured.Params.description | default (truncate 140 $featured.Plain) }}</p>
+    </div>
+  </a>
+  {{ end }}
 
   <!-- Articles Grid -->
   <div class="section-grid">
@@ -25,6 +52,11 @@
             </div>
           {{ end }}
           <div class="card-body">
+            {{ with .Params.categories }}
+              {{ range first 1 . }}
+                <span class="badge badge-primary mb-2 inline-block">{{ . }}</span>
+              {{ end }}
+            {{ end }}
             <h2 class="card-title">{{ .Title }}</h2>
             <p class="card-text">{{ .Params.description | default (truncate 120 .Plain) }}</p>
             <div class="flex items-center justify-between mt-3">
@@ -36,6 +68,13 @@
       </article>
     {{ end }}
   </div>
+
+  {{/* Mid-list ad on paginated views */}}
+  {{ if and .Site.Params.adsense.client_id (gt (len .RegularPages) 6) }}
+  <div class="ad-zone ad-zone-md mt-10">
+    {{ partial "adsense.html" (dict "position" "mid_article" "ctx" .) }}
+  </div>
+  {{ end }}
 
   {{ template "_internal/pagination.html" . }}
 </div>

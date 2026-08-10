@@ -2,37 +2,43 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
 
   <!-- Hero Section — editorial parchment statement -->
-  <section class="hero-home mb-12 reveal">
-    <div class="hero-home-inner">
-      {{ with .Site.Params.tagline }}
-      <span class="eyebrow">{{ . }}</span>
-      {{ end }}
+  <section class="hero-home mb-12 reveal" aria-label="Introduction">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
+      <div class="hero-home-inner">
+        {{ with .Site.Params.tagline }}
+        <span class="eyebrow">{{ . }}</span>
+        {{ end }}
 
-      <h1 class="hero-home-title">
-        {{ .Site.Params.site_name | default .Site.Title }}
-      </h1>
+        <h1 class="hero-home-title">
+          {{ .Site.Params.site_name | default .Site.Title }}
+        </h1>
 
-      {{ with .Site.Params.description }}
-      <p class="hero-home-sub">
-        {{ . }}
-      </p>
-      {{ end }}
+        {{ with .Site.Params.description }}
+        <p class="hero-home-sub">
+          {{ . }}
+        </p>
+        {{ end }}
 
-      <!-- Quick access CTA -->
-      <div class="mt-8 flex flex-col sm:flex-row gap-3">
-        <a href="/blog/" class="btn btn-primary">
-          Browse all guides
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-          </svg>
-        </a>
-        <a href="/categories/" class="btn btn-ghost">
-          Browse by topic
-        </a>
+        <!-- Quick access CTA -->
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="/start-here/" class="btn btn-primary">
+            Start here
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+          <a href="/blog/" class="btn btn-ghost">
+            Browse all guides
+          </a>
+        </div>
+      </div>
+
+      <div class="hidden lg:flex items-center justify-center p-8">
+        <img src="/images/makeover/home-hero.webp" alt="A clean renter's desk with lease documents, brass keys, and a notebook" class="rounded-2xl shadow-lg max-h-[320px] object-cover">
       </div>
     </div>
 
-    <!-- Honest stat strip — real numbers only -->
+    <!-- Honest stat strip -->
     <div class="hero-stat-strip">
       <div class="hero-stat">
         <span class="hero-stat-num">{{ len (where .Site.RegularPages ".Kind" "page") }}</span>
@@ -51,11 +57,15 @@
     </div>
   </section>
 
-  {{/* Ad slot: homepage top */}}
-  {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
+  {{/* Ad slot: homepage below hero (not above fold) */}}
+  {{ if .Site.Params.adsense.client_id }}
+  <div class="ad-zone ad-zone-sm">
+    {{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}
+  </div>
+  {{ end }}
 
   <!-- Trust Indicators -->
-  <div class="trust-bar mb-12 reveal">
+  <div class="trust-bar mb-12 reveal" aria-label="Trust signals">
     <div class="trust-item">
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
@@ -76,48 +86,139 @@
     </div>
   </div>
 
-  <!-- Categories Grid -->
-  {{ if .Site.Taxonomies.categories }}
-  <section class="mb-12 reveal" aria-label="Categories">
+  <!-- Lifecycle Stage Selector — "Choose your doorway" -->
+  <section class="mb-16 reveal" aria-label="Renting lifecycle">
     <div class="section-heading">
       <div>
         <span class="eyebrow">The renting lifecycle</span>
-        <h2 class="section-heading-title">Browse by topic</h2>
+        <h2 class="section-heading-title">Choose your doorway</h2>
       </div>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {{ range $name, $pages := .Site.Taxonomies.categories }}
-        {{ $count := len $pages }}
-        {{ if gt $count 0 }}
-        {{ $iconSVG := `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>` }}
-        <a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" class="category-card">
-          <div class="category-card-icon">
-            {{ $iconSVG | safeHTML }}
-          </div>
-          <div class="category-card-content">
-            <div class="category-card-title">{{ $name }}</div>
-            <div class="category-card-count">{{ $count }} guide{{ if ne $count 1 }}s{{ end }}</div>
-          </div>
-          <svg class="w-4 h-4 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+    <div class="doorway-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <a href="/categories/apartment-hunting/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
           </svg>
+        </div>
+        <span class="doorway-card-title">Applying</span>
+        <p class="doorway-card-desc">Find a rental, prepare documents, and avoid scams.</p>
+        <span class="doorway-card-link">Explore <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+      </a>
+      <a href="/categories/legal-rights/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+          </svg>
+        </div>
+        <span class="doorway-card-title">Living</span>
+        <p class="doorway-card-desc">Know your rights, repairs, privacy, and rent rules.</p>
+        <span class="doorway-card-link">Explore <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+      </a>
+      <a href="/categories/costs/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <span class="doorway-card-title">Moving</span>
+        <p class="doorway-card-desc">Budget move-out costs, notices, and deposit returns.</p>
+        <span class="doorway-card-link">Explore <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+      </a>
+      <a href="/categories/legal-rights/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+          </svg>
+        </div>
+        <span class="doorway-card-title">In a dispute</span>
+        <p class="doorway-card-desc">Handle deposits, repairs, entry, and retaliation.</p>
+        <span class="doorway-card-link">Explore <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Featured Guides -->
+  <section class="mb-16 reveal" aria-label="Featured guides">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">Start with the essentials</span>
+        <h2 class="section-heading-title">Featured guides</h2>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      {{ $featured := slice "first-time-renters-guide" "renters-rights-guide" "hidden-rental-fees-explained" }}
+      {{ range $i, $slug := $featured }}
+        {{ $page := $.Site.GetPage (printf "/blog/%s" $slug) }}
+        {{ with $page }}
+        <a href="{{ .RelPermalink }}" class="featured-card">
+          <span class="featured-card-num">{{ add 1 $i }}</span>
+          <div class="featured-card-content">
+            <span class="featured-card-title">{{ .Title }}</span>
+            <p class="featured-card-desc">{{ .Params.description | default (truncate 110 .Plain) }}</p>
+          </div>
         </a>
         {{ end }}
       {{ end }}
     </div>
   </section>
+
+  <!-- Tools Preview -->
+  <section class="mb-16 reveal" aria-label="Tools">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">Do the math</span>
+        <h2 class="section-heading-title">Free renter tools</h2>
+      </div>
+      <a href="/tools/" class="section-heading-link">See all tools →</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <a href="/tools/rent-budget-calculator/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 7h6m0 3.666V13H9v-2.334M9 14h6m-6 3h6m-6-9h6m3 9.5V19a2 2 0 01-2 2H8a2 2 0 01-2-2v-8.5a2 2 0 01.504-1.33l5-5.5a2 2 0 012.992 0l5 5.5A2 2 0 0120 11.5z"/>
+          </svg>
+        </div>
+        <span class="doorway-card-title">Rent Budget Calculator</span>
+        <p class="doorway-card-desc">See what you can afford and what move-in really costs.</p>
+      </a>
+      <a href="/tools/hidden-fees-estimator/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <span class="doorway-card-title">Hidden-Fees Estimator</span>
+        <p class="doorway-card-desc">Estimate deposits, utilities, insurance, and move-in fees.</p>
+      </a>
+      <a href="/tools/lease-red-flag-scanner/" class="doorway-card">
+        <div class="doorway-card-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+        </div>
+        <span class="doorway-card-title">Lease Red-Flag Scanner</span>
+        <p class="doorway-card-desc">Paste a clause and spot common warning signs.</p>
+      </a>
+    </div>
+  </section>
+
+  {{/* Ad slot: homepage mid-page */}}
+  {{ if .Site.Params.adsense.client_id }}
+  <div class="ad-zone ad-zone-md">
+    {{ partial "adsense.html" (dict "position" "mid_article" "ctx" .) }}
+  </div>
   {{ end }}
 
   <!-- Latest Articles -->
-  <section class="reveal" aria-label="Latest articles">
+  <section class="reveal mb-16" aria-label="Latest articles">
     <div class="section-heading">
       <h2 class="section-heading-title">Latest guides</h2>
-      <a href="/blog/" class="section-heading-link">
-        View all →
-      </a>
+      <a href="/blog/" class="section-heading-link">View all →</a>
     </div>
     <div class="section-grid">
-      {{ range first 9 .Site.RegularPages.ByDate.Reverse }}
+      {{ range first 6 .Site.RegularPages.ByDate.Reverse }}
         <article class="card">
           <a href="{{ .RelPermalink }}" class="block">
             {{ $title := .Title }}
@@ -128,9 +229,9 @@
               </div>
             {{ end }}
             <div class="card-body">
-              {{ with .CurrentSection }}
-                {{ if and (not .IsHome) (ne .Title "Blog") }}
-                  <span class="badge badge-primary mb-2 inline-block">{{ .Title }}</span>
+              {{ with .Params.categories }}
+                {{ range first 1 . }}
+                  <span class="badge badge-primary mb-2 inline-block">{{ . }}</span>
                 {{ end }}
               {{ end }}
               <h3 class="card-title">{{ .Title }}</h3>
@@ -144,4 +245,22 @@
   </section>
 
 </div>
+
+<!-- Newsletter Band -->
+<section class="newsletter-band reveal" aria-label="Newsletter">
+  <div class="newsletter-band-inner">
+    <div class="flex justify-center">
+      <div class="keyline keyline-center mb-4"></div>
+    </div>
+    <span class="eyebrow" style="justify-content: center; margin-bottom: var(--space-4);">Stay prepared</span>
+    <h2 class="section-heading-title" style="justify-content: center; text-align: center; margin-bottom: var(--space-4);">Get one clear renting tip per week</h2>
+    <p class="text-center" style="color: var(--color-text-muted); max-width: 32rem; margin: 0 auto;">No spam. One short email with practical guidance for renters — plus a heads up when we publish a new guide.</p>
+    <form class="newsletter-form" action="https://buttondown.email/api/emails/embed-subscribe/rentingexplained" method="post" target="_blank">
+      <label for="home-email" class="visually-hidden">Email address</label>
+      <input id="home-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+    <p class="newsletter-note">We respect your inbox. Unsubscribe anytime.</p>
+  </div>
+</section>
 {{ end }}

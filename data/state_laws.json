@@ -1,0 +1,512 @@
+{
+  "AL": {
+    "name": "Alabama",
+    "abbr": "AL",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "AK": {
+    "name": "Alaska",
+    "abbr": "AK",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "AZ": {
+    "name": "Arizona",
+    "abbr": "AZ",
+    "deposit_limit": "1.5 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "AR": {
+    "name": "Arkansas",
+    "abbr": "AR",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "CA": {
+    "name": "California",
+    "abbr": "CA",
+    "deposit_limit": "2 months rent for unfurnished, 3 for furnished",
+    "notice_to_enter": "24 hours written notice",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "Local rent control in many cities",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "CO": {
+    "name": "Colorado",
+    "abbr": "CO",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "CT": {
+    "name": "Connecticut",
+    "abbr": "CT",
+    "deposit_limit": "2 months rent (for tenants 62+, 1 month)",
+    "notice_to_enter": "Reasonable notice",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "DE": {
+    "name": "Delaware",
+    "abbr": "DE",
+    "deposit_limit": "1 month rent for 1-year leases",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "FL": {
+    "name": "Florida",
+    "abbr": "FL",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "12 hours for repairs, reasonable notice generally",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "GA": {
+    "name": "Georgia",
+    "abbr": "GA",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "HI": {
+    "name": "Hawaii",
+    "abbr": "HI",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "ID": {
+    "name": "Idaho",
+    "abbr": "ID",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "IL": {
+    "name": "Illinois",
+    "abbr": "IL",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "IN": {
+    "name": "Indiana",
+    "abbr": "IN",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "IA": {
+    "name": "Iowa",
+    "abbr": "IA",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "KS": {
+    "name": "Kansas",
+    "abbr": "KS",
+    "deposit_limit": "1 month rent for unfurnished, 1.5 for furnished",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "KY": {
+    "name": "Kentucky",
+    "abbr": "KY",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "LA": {
+    "name": "Louisiana",
+    "abbr": "LA",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "ME": {
+    "name": "Maine",
+    "abbr": "ME",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MD": {
+    "name": "Maryland",
+    "abbr": "MD",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "abbr": "MA",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Reasonable notice",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MI": {
+    "name": "Michigan",
+    "abbr": "MI",
+    "deposit_limit": "1.5 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MN": {
+    "name": "Minnesota",
+    "abbr": "MN",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MS": {
+    "name": "Mississippi",
+    "abbr": "MS",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MO": {
+    "name": "Missouri",
+    "abbr": "MO",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "MT": {
+    "name": "Montana",
+    "abbr": "MT",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NE": {
+    "name": "Nebraska",
+    "abbr": "NE",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NV": {
+    "name": "Nevada",
+    "abbr": "NV",
+    "deposit_limit": "3 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "abbr": "NH",
+    "deposit_limit": "1 month rent or $100, whichever is greater",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "abbr": "NJ",
+    "deposit_limit": "1.5 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "Local rent control common",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NM": {
+    "name": "New Mexico",
+    "abbr": "NM",
+    "deposit_limit": "1 month rent for leases under 1 year",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NY": {
+    "name": "New York",
+    "abbr": "NY",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "30 days (varies by tenancy length)",
+    "rent_control": "Rent stabilization in NYC and some localities",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "NC": {
+    "name": "North Carolina",
+    "abbr": "NC",
+    "deposit_limit": "2 weeks for week-to-week, 1.5 months for month-to-month, 2 months for longer",
+    "notice_to_enter": "No specific statute",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "ND": {
+    "name": "North Dakota",
+    "abbr": "ND",
+    "deposit_limit": "1 month rent or 2 months for pets",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "OH": {
+    "name": "Ohio",
+    "abbr": "OH",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "OK": {
+    "name": "Oklahoma",
+    "abbr": "OK",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "OR": {
+    "name": "Oregon",
+    "abbr": "OR",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "24 hours",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "Statewide rent increase limits (no-cause eviction rules)",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "abbr": "PA",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "RI": {
+    "name": "Rhode Island",
+    "abbr": "RI",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "SC": {
+    "name": "South Carolina",
+    "abbr": "SC",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "SD": {
+    "name": "South Dakota",
+    "abbr": "SD",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "TN": {
+    "name": "Tennessee",
+    "abbr": "TN",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "TX": {
+    "name": "Texas",
+    "abbr": "TX",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "No specific statute",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "UT": {
+    "name": "Utah",
+    "abbr": "UT",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "VT": {
+    "name": "Vermont",
+    "abbr": "VT",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "Burlington has rent stabilization",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "VA": {
+    "name": "Virginia",
+    "abbr": "VA",
+    "deposit_limit": "2 months rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "WA": {
+    "name": "Washington",
+    "abbr": "WA",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "48 hours",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "WV": {
+    "name": "West Virginia",
+    "abbr": "WV",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "WI": {
+    "name": "Wisconsin",
+    "abbr": "WI",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "WY": {
+    "name": "Wyoming",
+    "abbr": "WY",
+    "deposit_limit": "No statewide cap",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "No statewide rent control",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  },
+  "DC": {
+    "name": "District of Columbia",
+    "abbr": "DC",
+    "deposit_limit": "1 month rent",
+    "notice_to_enter": "Generally reasonable notice (often 24\u201348 hours)",
+    "notice_to_vacate": "Typically 30 days",
+    "rent_control": "District rent control applies",
+    "help_link": "",
+    "help_text": "tenant rights organization"
+  }
+}
