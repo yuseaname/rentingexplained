@@ -1,0 +1,252 @@
+{
+  "competitors": [
+    {
+      "competitor": "Nolo.com",
+      "domain_authority_estimate": 85,
+      "estimated_indexed_pages": 500000,
+      "top_content_categories": [
+        "Legal Rights",
+        "Leases",
+        "Eviction",
+        "Small Claims",
+        "Property Management"
+      ],
+      "content_gaps_we_can_exploit": [
+        "Plain-language explanations",
+        "State-by-state comparisons",
+        "Practical checklists",
+        "Cost calculators",
+        "Beginner-friendly guides"
+      ],
+      "their_strengths": [
+        "Legal authority",
+        "Comprehensive coverage",
+        "Brand trust",
+        "Strong backlinks"
+      ],
+      "their_weaknesses": [
+        "Dry, intimidating tone",
+        "Paywalled content",
+        "No interactive tools",
+        "Not mobile-optimized",
+        "Ads heavy"
+      ],
+      "keywords_they_rank_for_that_we_dont": [
+        "eviction process",
+        "security deposit laws by state",
+        "lease breaking legal grounds",
+        "tenant rights state comparison",
+        "habitability laws",
+        "landlord tenant law overview",
+        "renters rights overview",
+        "lease agreement clauses",
+        "small claims court security deposit",
+        "noise nuisance laws"
+      ]
+    },
+    {
+      "competitor": "Apartments.com (advice section)",
+      "domain_authority_estimate": 90,
+      "estimated_indexed_pages": 5000000,
+      "top_content_categories": [
+        "Apartment Hunting",
+        "Moving",
+        "Rental Costs",
+        "Roommates",
+        "First Apartment"
+      ],
+      "content_gaps_we_can_exploit": [
+        "Legal depth",
+        "State-specific law coverage",
+        "Security deposit guides",
+        "Lease analysis",
+        "Renter rights advocacy",
+        "Budget tools"
+      ],
+      "their_strengths": [
+        "Massive brand",
+        "Listing integration",
+        "Budget traffic",
+        "Video content"
+      ],
+      "their_weaknesses": [
+        "Thin SEO content",
+        "Listing-first UX",
+        "No legal depth",
+        "Generic advice",
+        "No state law data"
+      ],
+      "keywords_they_rank_for_that_we_dont": [
+        "how much rent can i afford",
+        "first apartment checklist",
+        "apartment application requirements",
+        "moving cost calculator",
+        "what to bring to apartment viewing",
+        "how to rent an apartment",
+        "apartment utilities guide",
+        "roommate rules",
+        "renting with pets guide",
+        "apartment lease basics"
+      ]
+    },
+    {
+      "competitor": "ApartmentTherapy.com",
+      "domain_authority_estimate": 78,
+      "estimated_indexed_pages": 200000,
+      "top_content_categories": [
+        "Decorating",
+        "Small Space Living",
+        "Cleaning",
+        "DIY",
+        "Organization"
+      ],
+      "content_gaps_we_can_exploit": [
+        "Legal and financial content",
+        "Lease education",
+        "Cost guides",
+        "State law coverage",
+        "Tenant rights"
+      ],
+      "their_strengths": [
+        "Strong visual content",
+        "Community engagement",
+        "Social media presence",
+        "Design inspiration"
+      ],
+      "their_weaknesses": [
+        "No legal content",
+        "No financial tools",
+        "Surface-level advice",
+        "Sponsored content heavy"
+      ],
+      "keywords_they_rank_for_that_we_dont": [
+        "apartment decorating ideas",
+        "small apartment storage",
+        "how to clean apartment",
+        "studio apartment ideas",
+        "renter friendly upgrades",
+        "apartment organization",
+        "first apartment essentials",
+        "how to make apartment feel like home",
+        "balcony ideas apartment",
+        "apartment friendly plants"
+      ]
+    }
+  ],
+  "moat_strategy": {
+    "priority_gaps_to_close": [
+      {
+        "keyword": "eviction process",
+        "effort": "high",
+        "impact": "critical"
+      },
+      {
+        "keyword": "normal wear and tear",
+        "effort": "medium",
+        "impact": "high"
+      },
+      {
+        "keyword": "rent control by state",
+        "effort": "high",
+        "impact": "high"
+      },
+      {
+        "keyword": "habitability rights",
+        "effort": "medium",
+        "impact": "high"
+      },
+      {
+        "keyword": "pet rent costs",
+        "effort": "low",
+        "impact": "high"
+      },
+      {
+        "keyword": "fair housing act renters",
+        "effort": "medium",
+        "impact": "high"
+      },
+      {
+        "keyword": "month to month lease rights",
+        "effort": "medium",
+        "impact": "medium"
+      },
+      {
+        "keyword": "cosigner requirements",
+        "effort": "low",
+        "impact": "medium"
+      },
+      {
+        "keyword": "mold landlord responsibility",
+        "effort": "medium",
+        "impact": "high"
+      },
+      {
+        "keyword": "prorated rent",
+        "effort": "low",
+        "impact": "medium"
+      },
+      {
+        "keyword": "lease addendums",
+        "effort": "medium",
+        "impact": "medium"
+      },
+      {
+        "keyword": "late fee laws by state",
+        "effort": "high",
+        "impact": "medium"
+      },
+      {
+        "keyword": "grace period by state",
+        "effort": "medium",
+        "impact": "medium"
+      },
+      {
+        "keyword": "rental assistance programs",
+        "effort": "high",
+        "impact": "high"
+      },
+      {
+        "keyword": "landlord retaliation",
+        "effort": "medium",
+        "impact": "high"
+      },
+      {
+        "keyword": "ADA accommodation renters",
+        "effort": "medium",
+        "impact": "medium"
+      },
+      {
+        "keyword": "breaking lease domestic violence",
+        "effort": "medium",
+        "impact": "high"
+      },
+      {
+        "keyword": "eviction expungement",
+        "effort": "medium",
+        "impact": "medium"
+      },
+      {
+        "keyword": "security deposit interest",
+        "effort": "low",
+        "impact": "low"
+      },
+      {
+        "keyword": "coliving pros and cons",
+        "effort": "low",
+        "impact": "low"
+      }
+    ],
+    "blue_ocean_topics": [
+      "Interactive state-by-state security deposit calculator",
+      "Lease clause red-flag database (searchable)",
+      "Rent reporting credit-building guide for renters",
+      "Renter-specific tax credit state directory",
+      "Move-out photo documentation guide with templates",
+      "Tenant-Landlord communication log template system",
+      "Rent vs buy decision tree with local market data",
+      "Eviction defense preparation checklist",
+      "Roommate compatibility and lease structure guide",
+      "Renter's first-year financial timeline"
+    ]
+  }
+}

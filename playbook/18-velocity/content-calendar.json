@@ -1,0 +1,509 @@
+{
+  "calendar_metadata": {
+    "system_name": "RentingExplained 30-Day Content Calendar",
+    "cheat_code": "#18 Velocity Hack",
+    "version": "1.0.0",
+    "created": "2026-08-10",
+    "owner": "Editorial Lead + Velocity Subagent",
+    "start_date": "2026-08-11",
+    "end_date": "2026-09-09",
+    "total_days": 30,
+    "total_planned_articles": 32,
+    "publishing_channels": ["rentingexplained.com", "Medium (cross-posted)", "Beehiiv newsletter", "LinkedIn"]
+  },
+  "weekly_themes": [
+    {
+      "week_number": 1,
+      "start_date": "2026-08-11",
+      "end_date": "2026-08-17",
+      "theme": "Back-to-School Renting & First-Time Apartment Surge",
+      "rationale": "August is peak leasing season. College students and first-job renters are signing leases.",
+      "focus_cheat_codes": ["#03 Content Cascade", "#05 SERP Parasite", "#09 Atomizer"],
+      "expected_publish_count": 8,
+      "key_topics": ["first apartment", "renter budget", "lease signing", "renter's insurance", "roommate selection"]
+    },
+    {
+      "week_number": 2,
+      "start_date": "2026-08-18",
+      "end_date": "2026-08-24",
+      "theme": "Lease Renewal & Negotiation Season",
+      "rationale": "Late summer = lease renewal notices. Many tenants unaware of negotiation rights.",
+      "focus_cheat_codes": ["#05 SERP Parasite", "#06 Void Finder", "#18 Velocity Hack"],
+      "expected_publish_count": 9,
+      "key_topics": ["rent negotiation", "renewal vs moving", "rent increase", "move-out planning"]
+    },
+    {
+      "week_number": 3,
+      "start_date": "2026-08-25",
+      "end_date": "2026-08-31",
+      "theme": "Tenant Rights & Data Study Cadence",
+      "rationale": "End-of-month cluster of disputes. Use data-driven studies to generate backlinks.",
+      "focus_cheat_codes": ["#07 Entity Heist (data studies)", "#11 Community Infiltrator", "#15 Link Magnet"],
+      "expected_publish_count": 8,
+      "key_topics": ["deposit caps by state", "landlord entry laws", "habitability rights", "fair housing"]
+    },
+    {
+      "week_number": 4,
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-09",
+      "theme": "Winter Moving Prep + Pet-Friendly Rentals",
+      "rationale": "September kicks off winter moving prep. Pet-friendly rentals are a fast-growing search vertical.",
+      "focus_cheat_codes": ["#03 Content Cascade", "#09 Atomizer", "#16 Cannibalizer refresh"],
+      "expected_publish_count": 7,
+      "key_topics": ["winter moving", "pet-friendly rentals", "moving costs", "renter's checklist updates"]
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-08-11",
+      "weekday": "Tuesday",
+      "planned_articles": [
+        {"slug": "first-time-renter-budget-2026", "title": "First-Time Renter Budget: 2026 Numbers", "topic": "first apartment", "target_word_count": 2200, "type": "new"}
+      ],
+      "topics": ["first-time renter", "renter budget"],
+      "assigned_persona": "Maria (first-time renter, 23, just graduated)",
+      "status": "planned",
+      "primary_keyword": "first time renter budget",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-12",
+      "weekday": "Wednesday",
+      "planned_articles": [
+        {"slug": "what-landlords-look-for-rental-application", "title": "What Landlords Look For on a Rental Application", "topic": "rental application", "target_word_count": 2000, "type": "new"}
+      ],
+      "topics": ["rental application", "approval"],
+      "assigned_persona": "Marcus (renter, 29, second apartment)",
+      "status": "planned",
+      "primary_keyword": "what landlords look for on rental application",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-13",
+      "weekday": "Thursday",
+      "planned_articles": [
+        {"slug": "deposit-caps-by-state-2026", "title": "Security Deposit Caps by State (2026 Update)", "topic": "data study", "target_word_count": 2800, "type": "data_study"}
+      ],
+      "topics": ["security deposit", "state law"],
+      "assigned_persona": "Editorial Team (data journalism)",
+      "status": "planned",
+      "primary_keyword": "security deposit limit by state",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-14",
+      "weekday": "Friday",
+      "planned_articles": [
+        {"slug": "rental-application-fee-harvesting", "title": "Are Rental Application Fees a Scam? Inside the $30–$75 Money Grab", "topic": "rental fees", "target_word_count": 1800, "type": "new"}
+      ],
+      "topics": ["rental application", "fees"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "rental application fee scam",
+      "snippet_target": "paragraph",
+      "publishing_window": "12:00 ET"
+    },
+    {
+      "date": "2026-08-15",
+      "weekday": "Saturday",
+      "planned_articles": [
+        {"slug": "first-weekend-as-a-renter", "title": "Your First Weekend in a New Apartment: 12 Things to Do", "topic": "first apartment", "target_word_count": 1600, "type": "new"}
+      ],
+      "topics": ["first apartment", "move-in"],
+      "assigned_persona": "Maria (first-time renter, 23)",
+      "status": "planned",
+      "primary_keyword": "first weekend in new apartment",
+      "snippet_target": "list",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-08-16",
+      "weekday": "Sunday",
+      "planned_articles": [
+        {"slug": "renter-rights-infographic-2026", "title": "Renter's Rights Infographic: 50-State Visual Guide", "topic": "data study", "target_word_count": 1200, "type": "data_study"}
+      ],
+      "topics": ["renter rights", "data study"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "renter rights by state",
+      "snippet_target": "table",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-08-17",
+      "weekday": "Monday",
+      "planned_articles": [
+        {"slug": "first-apartment-furniture-on-budget", "title": "First Apartment Furniture: $1,200 Starter Kit (2026)", "topic": "first apartment", "target_word_count": 2000, "type": "new"},
+        {"slug": "rental-screening-credit-checks-explained", "title": "Rental Screening & Credit Checks: A Renter's Guide", "topic": "rental application", "target_word_count": 1800, "type": "pillar_update"}
+      ],
+      "topics": ["first apartment", "furniture", "credit"],
+      "assigned_persona": "Maria (first-time renter, 23)",
+      "status": "planned",
+      "primary_keyword": "first apartment furniture on a budget",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-18",
+      "weekday": "Tuesday",
+      "planned_articles": [
+        {"slug": "lease-renewal-vs-moving-out-2026", "title": "Lease Renewal vs Moving Out: The 2026 Decision Matrix", "topic": "renewal", "target_word_count": 2200, "type": "pillar_update"}
+      ],
+      "topics": ["lease renewal", "moving"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "lease renewal vs moving out",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-19",
+      "weekday": "Wednesday",
+      "planned_articles": [
+        {"slug": "how-to-negotiate-rent-2026", "title": "How to Negotiate Rent in 2026 (When Landlords Have Leverage)", "topic": "negotiation", "target_word_count": 2400, "type": "pillar_update"}
+      ],
+      "topics": ["rent negotiation"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "how to negotiate rent",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-20",
+      "weekday": "Thursday",
+      "planned_articles": [
+        {"slug": "rent-increase-notice-laws-by-state", "title": "Rent Increase Notice Laws by State (50-State Cheat Sheet)", "topic": "data study", "target_word_count": 2600, "type": "data_study"}
+      ],
+      "topics": ["rent increase", "state law"],
+      "assigned_persona": "Editorial Team (data journalism)",
+      "status": "planned",
+      "primary_keyword": "rent increase notice law",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-21",
+      "weekday": "Friday",
+      "planned_articles": [
+        {"slug": "is-it-time-to-move-quiz", "title": "Should You Renew Your Lease? The 10-Question Diagnostic", "topic": "renewal", "target_word_count": 1500, "type": "new"}
+      ],
+      "topics": ["lease renewal", "decision making"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "should I renew my lease",
+      "snippet_target": "list",
+      "publishing_window": "12:00 ET"
+    },
+    {
+      "date": "2026-08-22",
+      "weekday": "Saturday",
+      "planned_articles": [
+        {"slug": "moving-tips-for-couples", "title": "Moving in Together: 7 Renter Conversations Couples Should Have First", "topic": "renters", "target_word_count": 1800, "type": "new"}
+      ],
+      "topics": ["moving", "couples"],
+      "assigned_persona": "Maria (first-time renter, 23)",
+      "status": "planned",
+      "primary_keyword": "moving in together",
+      "snippet_target": "list",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-08-23",
+      "weekday": "Sunday",
+      "planned_articles": [
+        {"slug": "moving-cost-calculator-2026", "title": "Real Cost of Moving in 2026: A Free Calculator", "topic": "moving", "target_word_count": 1400, "type": "new"}
+      ],
+      "topics": ["moving costs"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "moving cost calculator",
+      "snippet_target": "paragraph",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-08-24",
+      "weekday": "Monday",
+      "planned_articles": [
+        {"slug": "notice-to-vacate-template-2026", "title": "Notice to Vacate Letter: Free 2026 Template for All 50 States", "topic": "move-out", "target_word_count": 2000, "type": "pillar_update"}
+      ],
+      "topics": ["notice to vacate", "move-out"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "notice to vacate letter template",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-25",
+      "weekday": "Tuesday",
+      "planned_articles": [
+        {"slug": "landlord-entry-notice-laws-by-state", "title": "Landlord Entry Notice Laws by State (How Long Until They Can Walk In?)", "topic": "data study", "target_word_count": 2400, "type": "data_study"}
+      ],
+      "topics": ["landlord entry", "state law"],
+      "assigned_persona": "Editorial Team (data journalism)",
+      "status": "planned",
+      "primary_keyword": "landlord entry notice by state",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-26",
+      "weekday": "Wednesday",
+      "planned_articles": [
+        {"slug": "tenant-rights-by-state-2026", "title": "Tenant Rights by State: The 2026 Master Guide", "topic": "tenant rights", "target_word_count": 3200, "type": "pillar_update"}
+      ],
+      "topics": ["tenant rights", "state law"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "tenant rights by state",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-27",
+      "weekday": "Thursday",
+      "planned_articles": [
+        {"slug": "habitability-rights-by-state", "title": "Habitability Rights: What Your Landlord Must Provide (By State)", "topic": "habitability", "target_word_count": 2200, "type": "new"}
+      ],
+      "topics": ["habitability", "state law"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "habitability rights by state",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-08-28",
+      "weekday": "Friday",
+      "planned_articles": [
+        {"slug": "fair-housing-act-explained-renters", "title": "Fair Housing Act: What Every Renter Should Know in 2026", "topic": "fair housing", "target_word_count": 2000, "type": "new"}
+      ],
+      "topics": ["fair housing", "discrimination"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "fair housing act for renters",
+      "snippet_target": "paragraph",
+      "publishing_window": "12:00 ET"
+    },
+    {
+      "date": "2026-08-29",
+      "weekday": "Saturday",
+      "planned_articles": [
+        {"slug": "demand-letter-for-security-deposit-template", "title": "Demand Letter for Security Deposit: Free Template + State Citations", "topic": "deposit", "target_word_count": 1800, "type": "new"}
+      ],
+      "topics": ["security deposit", "templates"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "security deposit demand letter",
+      "snippet_target": "list",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-08-30",
+      "weekday": "Sunday",
+      "planned_articles": [
+        {"slug": "renters-revolution-2026-data-study", "title": "The Renters' Revolution: 2026 Data Study of Tenant Organizing", "topic": "data study", "target_word_count": 2400, "type": "data_study"}
+      ],
+      "topics": ["tenant organizing", "data study"],
+      "assigned_persona": "Editorial Team (data journalism)",
+      "status": "planned",
+      "primary_keyword": "tenant organizing 2026",
+      "snippet_target": "table",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-08-31",
+      "weekday": "Monday",
+      "planned_articles": [
+        {"slug": "best-apps-for-renters-2026", "title": "Best Apps for Renters in 2026 (Updated Picks)", "topic": "tools", "target_word_count": 2200, "type": "pillar_update"},
+        {"slug": "saving-for-first-apartment-2026", "title": "Saving for Your First Apartment: The 12-Month Plan", "topic": "first apartment", "target_word_count": 1800, "type": "new"}
+      ],
+      "topics": ["first apartment", "apps", "savings"],
+      "assigned_persona": "Maria (first-time renter, 23)",
+      "status": "planned",
+      "primary_keyword": "best apps for renters",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "planned_articles": [
+        {"slug": "winter-moving-checklist-2026", "title": "Winter Moving Checklist: 25 Things to Plan (2026)", "topic": "moving", "target_word_count": 2000, "type": "new"}
+      ],
+      "topics": ["winter moving", "moving"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "winter moving checklist",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "Wednesday",
+      "planned_articles": [
+        {"slug": "pet-friendly-rentals-guide-2026", "title": "Pet-Friendly Rentals: 2026 Guide to Pet Rent, Deposits, and Breed Restrictions", "topic": "pets", "target_word_count": 2400, "type": "new"}
+      ],
+      "topics": ["pets", "rentals"],
+      "assigned_persona": "Maria (first-time renter, 23)",
+      "status": "planned",
+      "primary_keyword": "pet friendly rentals",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "Thursday",
+      "planned_articles": [
+        {"slug": "renters-insurance-cost-2026-data-study", "title": "Renters Insurance Cost: 2026 State-by-State Data Study", "topic": "data study", "target_word_count": 2200, "type": "data_study_pillar_update"}
+      ],
+      "topics": ["renters insurance", "data study"],
+      "assigned_persona": "Editorial Team (data journalism)",
+      "status": "planned",
+      "primary_keyword": "renters insurance cost by state",
+      "snippet_target": "table",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "Friday",
+      "planned_articles": [
+        {"slug": "renting-with-bad-credit-2026", "title": "Renting with Bad Credit in 2026: 7 Strategies That Work", "topic": "rental application", "target_word_count": 2000, "type": "pillar_update"}
+      ],
+      "topics": ["bad credit", "rental application"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "renting with bad credit",
+      "snippet_target": "list",
+      "publishing_window": "12:00 ET"
+    },
+    {
+      "date": "2026-09-05",
+      "weekday": "Saturday",
+      "planned_articles": [
+        {"slug": "renters-rights-vs-homeowners-2026", "title": "Renter's Rights vs Homeowners: Where Each Has the Edge", "topic": "comparison", "target_word_count": 1800, "type": "new"}
+      ],
+      "topics": ["renting vs buying", "comparison"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "renting vs buying 2026",
+      "snippet_target": "table",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-09-06",
+      "weekday": "Sunday",
+      "planned_articles": [
+        {"slug": "first-apartment-gift-guide-2026", "title": "First Apartment Gift Guide: 25 Things Renters Actually Want", "topic": "first apartment", "target_word_count": 1600, "type": "new"}
+      ],
+      "topics": ["first apartment", "gifts"],
+      "assigned_persona": "Maria (first-time renter, 23)",
+      "status": "planned",
+      "primary_keyword": "first apartment gift guide",
+      "snippet_target": "list",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-09-07",
+      "weekday": "Sunday",
+      "planned_articles": [
+        {"slug": "renters-rights-faq-2026", "title": "Renter's Rights FAQ: 50 Questions Answered", "topic": "tenant rights", "target_word_count": 2800, "type": "pillar_update"}
+      ],
+      "topics": ["tenant rights", "FAQ"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "renter rights FAQ",
+      "snippet_target": "FAQ",
+      "publishing_window": "10:00 ET"
+    },
+    {
+      "date": "2026-09-08",
+      "weekday": "Tuesday",
+      "planned_articles": [
+        {"slug": "moving-out-in-30-days-checklist", "title": "Moving Out in 30 Days: The Day-by-Day Checklist", "topic": "moving", "target_word_count": 2200, "type": "new"}
+      ],
+      "topics": ["moving out", "checklist"],
+      "assigned_persona": "Marcus (renter, 29)",
+      "status": "planned",
+      "primary_keyword": "moving out checklist",
+      "snippet_target": "list",
+      "publishing_window": "09:00 ET"
+    },
+    {
+      "date": "2026-09-09",
+      "weekday": "Wednesday",
+      "planned_articles": [
+        {"slug": "30-day-content-velocity-review", "title": "30-Day Velocity Review: What We Learned About Renting Content", "topic": "internal", "target_word_count": 1200, "type": "internal_review"}
+      ],
+      "topics": ["content strategy", "review"],
+      "assigned_persona": "Editorial Team",
+      "status": "planned",
+      "primary_keyword": "internal review",
+      "snippet_target": "internal",
+      "publishing_window": "15:00 ET",
+      "notes": "Internal-only doc; not published. Use to review cheat codes #01, #03, #05, #09, #18 performance."
+    }
+  ],
+  "content_mix": {
+    "new_articles": 22,
+    "pillar_updates": 7,
+    "data_studies": 6,
+    "internal_reviews": 1,
+    "total_published": 32,
+    "target_publish_cadence": "1.07 articles per day average"
+  },
+  "publishing_cadence_targets": {
+    "tuesday": 4,
+    "wednesday": 5,
+    "thursday": 5,
+    "friday": 4,
+    "saturday": 4,
+    "sunday": 5,
+    "monday": 4
+  },
+  "snippet_distribution": {
+    "list": 14,
+    "paragraph": 4,
+    "table": 9,
+    "faq": 1,
+    "internal": 1
+  },
+  "seasonal_pillars_covered": [
+    "back-to-school renting (week 1)",
+    "lease renewal season (week 2)",
+    "tenant rights data studies (week 3)",
+    "winter moving prep (week 4)"
+  ],
+  "cross_pillar_balance": {
+    "first_apartment": 6,
+    "financial_planning": 3,
+    "legal_rights": 8,
+    "move_in_move_out": 7,
+    "data_studies": 4,
+    "tools_and_apps": 2,
+    "internal": 1
+  },
+  "automation_hooks": {
+    "publishing_platform": "Hugo + GitHub Actions",
+    "social_distribution": "Buffer (connected to Twitter, LinkedIn, FB) auto-publishes atomized assets 24h after article",
+    "newsletter": "Beehiiv draft auto-created from article RSS feed",
+    "analytics": "Search Console + GA4 + Looker Studio dashboard refreshes daily at 06:00 ET"
+  },
+  "velocity_metrics": {
+    "target_articles_per_week": 8,
+    "target_total_publishes_in_30d": 32,
+    "target_short_form_social_assets_in_30d": 192,
+    "target_newsletter_mentions_in_30d": 8,
+    "target_backlinks_attributable_in_30d": 30
+  },
+  "review_checkpoints": [
+    {"date": "2026-08-17", "what": "Week 1 retrospective — review Search Console + social engagement"},
+    {"date": "2026-08-24", "what": "Week 2 retrospective — velocity check, rebalance calendar"},
+    {"date": "2026-08-31", "what": "Week 3 retrospective — data study performance"},
+    {"date": "2026-09-09", "what": "30-day retrospective — generate next 30-day plan"}
+  ]
+}

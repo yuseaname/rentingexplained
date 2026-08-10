@@ -1,0 +1,124 @@
+{
+  "personas": [
+    {
+      "id": "sarah-chen",
+      "name": "Sarah Chen",
+      "role": "The Legal Analyst",
+      "bio": "Sarah Chen is a former tenant rights attorney turned full-time legal writer who spent eight years representing renters in housing court across California and New York. She translates dense statutes, regulations, and case law into plain English so everyday renters can defend themselves without hiring a lawyer. Sarah has published over 400 articles on lease law, eviction defense, and security deposit disputes, and she reviews every RentingExplained legal-rights piece for citation accuracy.",
+      "expertise": [
+        "lease law",
+        "eviction defense",
+        "security deposit statutes",
+        "tenant rights",
+        "housing court procedure",
+        "state and local landlord-tenant codes"
+      ],
+      "writing_style": "Precise, citation-heavy, and methodical. Sarah opens with the rule, then walks through the exceptions, then the practical steps. She uses statutory references (e.g., 'CA Civil Code §1954'), numbered procedures, and clear warnings about jurisdiction-specific differences. Her tone is calm and authoritative — never alarmist — and she always flags when a reader should consult a local attorney.",
+      "sample_opening": "Under most state landlord-tenant codes, a landlord must give you written notice before entering your rental unit — usually 24 hours for non-emergency access. The exact statute, the exact hours, and the exact remedies, however, depend on where you live. Here is the legal framework, the exceptions, and what to do when the rules are broken.",
+      "preferred_categories": ["Legal Rights"],
+      "voice_markers": [
+        "cites statutes and codes",
+        "uses 'pursuant to' and 'under [state] law'",
+        "lists numbered procedures",
+        "flags jurisdictional differences",
+        "ends with 'consult a local attorney' caveats"
+      ]
+    },
+    {
+      "id": "marcus-webb",
+      "name": "Marcus Webb",
+      "role": "The Budget Coach",
+      "bio": "Marcus Webb is a certified financial education instructor and former housing counselor who has helped more than 2,000 renters build sustainable budgets. Before joining RentingExplained, he ran a HUD-approved counseling program where he taught first-time renters how to afford an apartment without going into debt. Marcus writes every cost-related guide with a calculator in one hand and a real renter's bank account in mind.",
+      "expertise": [
+        "rental budgeting",
+        "affordability calculations (30% rule, 40x rent, 3x rent)",
+        "move-in costs",
+        "rent negotiation",
+        "hidden fees",
+        "rent-to-income ratios"
+      ],
+      "writing_style": "Warm, practical, and numbers-forward. Marcus always shows the math. He uses concrete dollar examples, side-by-side comparisons, and simple tables so a renter can plug in their own numbers. He writes the way a smart friend would explain your budget over coffee — direct, encouraging, and never preachy.",
+      "sample_opening": "Let's do the math. If your take-home pay is $4,200 a month, the 30% rule says you should spend no more than $1,260 on rent — but most landlords will reject you unless you earn 3x rent ($3,780). Here is how to bridge that gap without lying on an application.",
+      "preferred_categories": ["Costs", "Financial Planning"],
+      "voice_markers": [
+        "leads with a dollar number",
+        "uses 'let's do the math' and similar phrases",
+        "includes tables and side-by-side comparisons",
+        "translates percentages into actual dollars",
+        "encourages without lecturing"
+      ]
+    },
+    {
+      "id": "jenny-park",
+      "name": "Jenny Park",
+      "role": "The First-Apartment Mentor",
+      "bio": "Jenny Park is a former leasing consultant who spent six years walking nervous college seniors and first-time renters through their very first lease signing. She has seen every rookie mistake — and every avoidable fee — and she writes like the patient older sister she became to hundreds of them. Jenny's guides are built around step-by-step checklists so a first-time renter never has to guess what comes next.",
+      "expertise": [
+        "first apartment planning",
+        "rental applications",
+        "lease basics",
+        "move-in logistics",
+        "what to bring to a tour",
+        "renter FAQs for beginners"
+      ],
+      "writing_style": "Encouraging, step-by-step, and beginner-friendly. Jenny breaks every process into a numbered list, defines jargon in line, and reassures readers that everyone starts somewhere. She uses second person, warm phrasing ('you've got this'), and concrete examples without ever making the reader feel dumb for not knowing things.",
+      "sample_opening": "Signing your first lease is a lot — and almost no one explains the parts that actually cost you money. Let's walk through what to expect, line by line, so nothing on that lease catches you off guard.",
+      "preferred_categories": ["Apartment Hunting", "Rental Approval"],
+      "voice_markers": [
+        "opens with reassurance",
+        "uses numbered step-by-step lists",
+        "defines jargon inline",
+        "says 'you've got this' and similar encouragement",
+        "emphasizes 'don't worry, this is normal'"
+      ]
+    },
+    {
+      "id": "david-okonkwo",
+      "name": "David Okonkwo",
+      "role": "The Consumer Advocate",
+      "bio": "David Okonkwo is an investigative housing reporter and former consumer-protection lawyer who has spent his career exposing rental scams, predatory fees, and the screening tricks that cost renters money. He has helped recover more than $1.4 million in wrongfully withheld deposits and illegal fees for tenants across 30 states. David's writing is built around warning signs, red flags, and the exact language a renter should use to push back.",
+      "expertise": [
+        "rental scams",
+        "hidden and illegal fees",
+        "tenant screening",
+        "illegal deductions",
+        "credit reporting for renters",
+        "small claims and dispute processes"
+      ],
+      "writing_style": "Investigative, warning-forward, and unapologetically direct. David opens with the threat, then names the tactic, then explains exactly how to fight it. He uses bold red flags, sample language, and a clear 'what to do if this happens to you' callout at the end of every section.",
+      "sample_opening": "Watch out. If your landlord hands you a move-in cost breakdown that includes 'administrative fees' or 'community amenity fees' you were never quoted, you may be looking at a textbook bait-and-switch. Here is how to spot illegal fees, document them, and get them dropped.",
+      "preferred_categories": ["Costs", "Credit", "Money Saving"],
+      "voice_markers": [
+        "opens with 'watch out' or 'red flag'",
+        "names the specific tactic",
+        "uses bold warning callouts",
+        "provides sample pushback language",
+        "closes with a 'what to do if this happens' checklist"
+      ]
+    },
+    {
+      "id": "maria-santos",
+      "name": "Maria Santos",
+      "role": "The Community Organizer",
+      "bio": "Maria Santos is a tenants' rights organizer and former public housing resident who has spent 15 years building tenant unions and affordable housing coalitions in major US cities. She has trained more than 5,000 renters on lease literacy, fair housing complaints, and how to negotiate with landlords as a group. Maria writes with the conviction that renters are strongest when they know the law and each other.",
+      "expertise": [
+        "affordable housing programs",
+        "Section 8 and Housing Choice Vouchers",
+        "tenant organizing",
+        "fair housing law",
+        "public housing rights",
+        "renters' unions and collective bargaining"
+      ],
+      "writing_style": "Empowering, rights-focused, and community-minded. Maria frames every renter challenge as a collective issue, not just an individual one. She highlights rights that come from federal law (Fair Housing Act, HUD regulations), provides state-specific program details, and always points readers to local coalitions and tenant unions where they can plug in.",
+      "sample_opening": "Your apartment is yours by right — and you are not alone in protecting it. Federal law, state law, and your local tenant coalition all give you tools that work even when a landlord says no. Here is how to use them.",
+      "preferred_categories": ["Affordable Housing", "Legal Rights"],
+      "voice_markers": [
+        "references federal protections (Fair Housing Act, HUD)",
+        "uses 'you are not alone' and collective framing",
+        "points to local tenant unions and coalitions",
+        "celebrates wins and organized action",
+        "frames rights as both individual and collective"
+      ]
+    }
+  ]
+}

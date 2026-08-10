@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "first-time-renters-guide",
+    "current_title": "First-Time Renter's Guide: What to Know Before You Sign",
+    "variant_a_title": "First-Time Renter's Guide: Everything to Know Before Signing",
+    "variant_b_title": "7 Things Every First-Time Renter Must Know (2026)",
+    "current_description": "",
+    "variant_a_description": "Complete walkthrough for first-time renters: budget, documents, lease red flags, and move-in day.",
+    "variant_b_description": "The essential first-time renter checklist: budget rules, documents, and mistakes to avoid in 2026.",
+    "hypothesis": "Definitive guide angle vs Listicle with year bracket"
+  },
+  {
+    "slug": "how-much-rent-can-i-afford",
+    "current_title": "How Much Rent Can I Afford? A Realistic Budget Guide (2026)",
+    "variant_a_title": "How Much Rent Can You Actually Afford? (Real Numbers)",
+    "variant_b_title": "Rent Affordability Calculator: What Should You Spend?",
+    "current_description": "",
+    "variant_a_description": "Stop guessing. Here's exactly how much rent you can afford based on income, debts, and real costs.",
+    "variant_b_description": "Use our rent affordability framework to calculate your true budget, including hidden costs.",
+    "hypothesis": "Question with specificity vs Tool-forward angle"
+  },
+  {
+    "slug": "understanding-a-lease-agreement",
+    "current_title": "Understanding a Lease Agreement: A Guide for Tenants",
+    "variant_a_title": "Lease Agreement Explained: Every Clause in Plain English",
+    "variant_b_title": "12 Lease Clauses That Could Cost You Thousands",
+    "current_description": "",
+    "variant_a_description": "Your lease decoded: every important clause explained in language you can understand.",
+    "variant_b_description": "These lease clauses are designed to cost you money. Here's what to watch for before signing.",
+    "hypothesis": "Clarity promise vs Fear-based listicle"
+  },
+  {
+    "slug": "how-to-get-security-deposit-back",
+    "current_title": "How to Get Your Security Deposit Back",
+    "variant_a_title": "How to Get Your Full Security Deposit Back (Step by Step)",
+    "variant_b_title": "Security Deposit Recovery: The Complete Playbook",
+    "current_description": "",
+    "variant_a_description": "Follow these proven steps to document, clean, and demand your full deposit refund.",
+    "variant_b_description": "Everything you need to recover your security deposit, from move-in documentation to small claims.",
+    "hypothesis": "Step-by-step promise vs Authority angle"
+  },
+  {
+    "slug": "renters-rights-guide",
+    "current_title": "Renter's Rights: What Your Landlord Cannot Legally Do",
+    "variant_a_title": "Renter's Rights: 15 Things Your Landlord Can't Legally Do",
+    "variant_b_title": "Your Rights as a Renter: A State-by-State Guide",
+    "current_description": "",
+    "variant_a_description": "Know your rights: the 15 things your landlord cannot legally do, from entry to eviction.",
+    "variant_b_description": "Renter rights vary by state. Find your state's specific protections in our comprehensive guide.",
+    "hypothesis": "Listicle with authority vs Geographic specificity"
+  },
+  {
+    "slug": "hidden-apartment-fees",
+    "current_title": "Hidden Apartment Fees: The Complete Guide to Avoiding Surprise Costs in 2026",
+    "variant_a_title": "11 Hidden Apartment Fees (And How to Avoid Each One)",
+    "variant_b_title": "Hidden Rental Fees Exposed: What You're Really Paying",
+    "current_description": "",
+    "variant_a_description": "These 11 hidden fees can add hundreds to your monthly costs. Here's how to spot and avoid them.",
+    "variant_b_description": "Your landlord isn't telling you about these fees. We break down every hidden cost of renting.",
+    "hypothesis": "Numbered listicle vs Investigative angle"
+  },
+  {
+    "slug": "rental-scams-how-to-avoid",
+    "current_title": "Rental Scams Explained: How to Spot Fake Listings and Stay Safe",
+    "variant_a_title": "Rental Scams: 9 Red Flags and How to Verify a Listing",
+    "variant_b_title": "How to Avoid Rental Scams in 2026 (Real Examples)",
+    "current_description": "",
+    "variant_a_description": "Don't get scammed. These 9 warning signs separate real listings from fake ones.",
+    "variant_b_description": "Rental scams are getting smarter. Here's how to protect yourself with real 2026 examples.",
+    "hypothesis": "Numbered red flags vs Year + examples"
+  },
+  {
+    "slug": "apartment-move-in-costs",
+    "current_title": "Apartment Move-In Costs: Checklist and Budget Guide (2025)",
+    "variant_a_title": "First Apartment Costs: The Complete Move-In Budget",
+    "variant_b_title": "How Much Does It Really Cost to Move Into an Apartment?",
+    "current_description": "",
+    "variant_a_description": "Rent is just the start. Here's every cost you'll face on move-in day, with real numbers.",
+    "variant_b_description": "Your true move-in cost is 3-4x your monthly rent. Here's the complete breakdown.",
+    "hypothesis": "Comprehensive promise vs Question format"
+  },
+  {
+    "slug": "how-to-break-lease",
+    "current_title": "How to Break a Lease Without Ruining Your Credit",
+    "variant_a_title": "How to Break a Lease: Legal Options That Actually Work",
+    "variant_b_title": "Breaking a Lease: 7 Legal Ways to Get Out Early",
+    "current_description": "",
+    "variant_a_description": "You CAN break your lease legally. Here are the options that protect your credit and wallet.",
+    "variant_b_description": "From military clauses to habitability violations, these 7 legal grounds let you break a lease.",
+    "hypothesis": "Authority promise vs Numbered listicle"
+  },
+  {
+    "slug": "how-to-negotiate-rent-guide",
+    "current_title": "How to Negotiate Rent in 2025: Practical Scripts and Timing Tips",
+    "variant_a_title": "How to Negotiate Rent: Scripts That Actually Work",
+    "variant_b_title": "Rent Negotiation: What to Say to Get a Lower Price",
+    "current_description": "",
+    "variant_a_description": "Use these proven negotiation scripts to lower your rent \u2014 word-for-word examples included.",
+    "variant_b_description": "Stop overpaying. Here's exactly what to say to negotiate lower rent on renewal.",
+    "hypothesis": "Practical scripts vs Specificity promise"
+  },
+  {
+    "slug": "apartment-lease-agreement-explained",
+    "current_title": "Apartment Lease Agreement Explained: Key Clauses Every Renter Should Know",
+    "variant_a_title": "Apartment Lease Agreement: Key Clauses Explained",
+    "variant_b_title": "What's in Your Apartment Lease? 10 Clauses to Check",
+    "current_description": "",
+    "variant_a_description": "Every important clause in your apartment lease, explained without legal jargon.",
+    "variant_b_description": "Don't sign until you've checked these 10 lease clauses that protect (or trap) you.",
+    "hypothesis": "Comprehensive angle vs Numbered checklist"
+  },
+  {
+    "slug": "renting-vs-buying-2025",
+    "current_title": "Renting vs Buying in 2025: A Practical Decision Guide",
+    "variant_a_title": "Renting vs Buying in 2026: The Honest Math",
+    "variant_b_title": "Should You Rent or Buy? A Decision Framework",
+    "current_description": "",
+    "variant_a_description": "We ran the numbers on renting vs buying in 2026. The answer might surprise you.",
+    "variant_b_description": "Use our decision framework to determine if renting or buying is right for your situation.",
+    "hypothesis": "Year update + honesty vs Framework angle"
+  },
+  {
+    "slug": "security-deposit-return-timeline",
+    "current_title": "Security Deposit Return Timeline: What to Expect (2026)",
+    "variant_a_title": "Security Deposit Return Timeline: How Long Does It Take?",
+    "variant_b_title": "When Will You Get Your Deposit Back? State Deadlines",
+    "current_description": "",
+    "variant_a_description": "Your landlord has a legal deadline to return your deposit. Here's how long by state.",
+    "variant_b_description": "Each state sets a deadline for deposit returns. Find yours and know your rights.",
+    "hypothesis": "Question format vs State specificity"
+  },
+  {
+    "slug": "apartment-tour-checklist-questions-red-flags",
+    "current_title": "Apartment Tour Checklist: Questions to Ask and Red Flags to Spot",
+    "variant_a_title": "Apartment Tour Checklist: 25 Questions to Ask",
+    "variant_b_title": "15 Apartment Tour Red Flags You Should Never Ignore",
+    "current_description": "",
+    "variant_a_description": "Print this checklist: 25 essential questions to ask during your apartment tour.",
+    "variant_b_description": "These 15 red flags mean you should walk away from an apartment immediately.",
+    "hypothesis": "Numbered checklist vs Numbered warnings"
+  },
+  {
+    "slug": "proof-of-income-for-apartments",
+    "current_title": "Proof of Income for Apartments (2026 Guide)",
+    "variant_a_title": "Proof of Income for Apartments: 8 Documents That Work",
+    "variant_b_title": "How to Prove Your Income for an Apartment (Complete Guide)",
+    "current_description": "",
+    "variant_a_description": "Not sure what counts as proof of income? These 8 documents are universally accepted.",
+    "variant_b_description": "Everything landlords accept as proof of income, plus what to do if you're self-employed.",
+    "hypothesis": "Numbered list vs Comprehensive guide"
+  },
+  {
+    "slug": "minimum-income-to-rent-apartment",
+    "current_title": "Minimum Income to Rent an Apartment (2026 Data)",
+    "variant_a_title": "Minimum Income to Rent: The 3x Rule Explained",
+    "variant_b_title": "How Much Income Do You Need to Rent? (2026 Requirements)",
+    "current_description": "",
+    "variant_a_description": "The 3x rent rule explained: why landlords use it and how to get around it.",
+    "variant_b_description": "2026 income requirements for apartments, including how to qualify with a cosigner.",
+    "hypothesis": "Concept explanation vs Year-specific requirements"
+  },
+  {
+    "slug": "tenant-screening-credit-checks-for-renters",
+    "current_title": "Tenant Screening and Credit Checks for Renters: What Landlords Look For",
+    "variant_a_title": "Tenant Screening: What Landlords Check (and What They See)",
+    "variant_b_title": "Credit Checks for Renting: What Score Do You Need?",
+    "current_description": "",
+    "variant_a_description": "See exactly what landlords see when they screen you \u2014 and how to prepare.",
+    "variant_b_description": "What credit score do landlords require? Here's what matters most in tenant screening.",
+    "hypothesis": "Transparency promise vs Specific question"
+  },
+  {
+    "slug": "renting-with-bad-credit-options",
+    "current_title": "Renting With Bad Credit: Options, Cosigners, and What Helps",
+    "variant_a_title": "Renting With Bad Credit: 7 Ways to Get Approved",
+    "variant_b_title": "How to Rent an Apartment With Bad Credit (2026)",
+    "current_description": "",
+    "variant_a_description": "Bad credit doesn't mean you can't rent. These 7 strategies actually work.",
+    "variant_b_description": "Yes, you can rent with bad credit. Here's how to get approved in 2026.",
+    "hypothesis": "Numbered solutions vs Year-specific"
+  },
+  {
+    "slug": "rent-increase-renewal-guide",
+    "current_title": "Rent Increase Notice: How to Respond at Renewal (2025)",
+    "variant_a_title": "Rent Increase at Renewal: How to Respond",
+    "variant_b_title": "Your Rent Went Up: How to Negotiate or Fight It",
+    "current_description": "",
+    "variant_a_description": "Got a rent increase notice? Here's how to negotiate, fight, or decide whether to stay.",
+    "variant_b_description": "Don't just accept a rent hike. These are your options when your landlord raises the rent.",
+    "hypothesis": "Action-oriented vs Emotional hook + action"
+  },
+  {
+    "slug": "subleasing-apartment-guide",
+    "current_title": "Subleasing an Apartment: How It Works and Your Rights",
+    "variant_a_title": "Subleasing an Apartment: How to Do It Legally",
+    "variant_b_title": "Sublease Guide: How to Sublet Without Getting Burned",
+    "current_description": "",
+    "variant_a_description": "Everything you need to sublease legally, from getting permission to screening subtenants.",
+    "variant_b_description": "Subleasing can save your lease \u2014 or cost you. Here's how to do it right.",
+    "hypothesis": "Legal authority vs Protection angle"
+  }
+]

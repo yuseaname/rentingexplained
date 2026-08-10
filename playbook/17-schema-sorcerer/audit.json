@@ -1,0 +1,317 @@
+{
+  "audit_metadata": {
+    "site": "rentingexplained.com",
+    "audit_date": "2026-08-10",
+    "auditor": "Technical SEO & Distribution Subagent",
+    "playbook_cheat_code": "#17 Schema Sorcerer",
+    "site_platform": "Hugo (static site generator)",
+    "schema_origin": "themes/adsense-base/layouts/partials/head.schema.html",
+    "shortcode_origin": "themes/adsense-base/layouts/shortcodes/",
+    "total_blog_articles_audited": 43
+  },
+  "current_schema_types": [
+    {
+      "type": "Article",
+      "scope": "all non-home, non-node pages",
+      "implementation": "head.schema.html (Article block)",
+      "properties_emitted": ["headline", "mainEntityOfPage", "description", "image", "author", "publisher", "datePublished", "dateModified"],
+      "status": "active",
+      "rich_result_eligible": false,
+      "notes": "Generic Article; NOT NewsArticle or BlogPosting subtypes. Missing author URL, image dimensions, articleSection, keywords."
+    },
+    {
+      "type": "BreadcrumbList",
+      "scope": "all pages except home",
+      "implementation": "head.schema.html (BreadcrumbList block)",
+      "properties_emitted": ["itemListElement (position, name, item)"],
+      "status": "active",
+      "rich_result_eligible": true,
+      "notes": "Working correctly. Eligible for breadcrumb rich results."
+    },
+    {
+      "type": "FAQPage",
+      "scope": "only pages that use the {{< faq >}} shortcode",
+      "implementation": "head.schema.html + shortcodes/faq-schema.html (collected via Page.Store \"faqs\")",
+      "properties_emitted": ["mainEntity (Question, acceptedAnswer)"],
+      "status": "dormant — shortcode exists but is used in 0 of 43 articles",
+      "rich_result_eligible": false,
+      "notes": "CRITICAL: zero articles currently invoke the {{< faq >}} shortcode. Every article with an FAQ heading is therefore missing FAQ rich-result eligibility."
+    },
+    {
+      "type": "WebSite",
+      "scope": "homepage only",
+      "implementation": "head.schema.html (WebSite block)",
+      "properties_emitted": ["name", "url", "description", "publisher"],
+      "status": "active",
+      "rich_result_eligible": false,
+      "notes": "Missing SearchAction (sitelinks searchbox), inLanguage, potentialAction for sitelinks."
+    }
+  ],
+  "missing_schema_types": [
+    {
+      "type": "HowTo",
+      "impact": "high",
+      "rationale": "Many articles (security deposit, breaking lease, applying, touring) are step-by-step tutorials that already enumerate procedures but lack HowTo markup. Google surfaces HowTo rich results with image, time, and step carousel.",
+      "fix": "Deploy the newly created {{< howto >}} and {{< step >}} shortcodes plus howto-schema.html partial."
+    },
+    {
+      "type": "Organization",
+      "impact": "high",
+      "rationale": "Brand entity for E-E-A-T signals and Knowledge Panel eligibility. Currently WebSite.publisher is the only Organization reference; it is inline and lacks logo, sameAs, contactPoint, foundingDate.",
+      "fix": "Add a sitewide Organization JSON-LD (sameAs: social profiles, contactPoint, logo URL) referenced from head.schema.html."
+    },
+    {
+      "type": "WebPage",
+      "impact": "medium",
+      "rationale": "Individual page-level entity that ties Article to BreadcrumbList to SiteNavigationElement. Improves entity disambiguation.",
+      "fix": "Emit WebPage (with @id) on every single page and reference it via Article.mainEntityOfPage['@id'] (already partially done) and BreadcrumbList.item."
+    },
+    {
+      "type": "SiteNavigationElement",
+      "impact": "medium",
+      "rationale": "Surfacing nav links as schema can yield sitelinks enhancement. Currently navigation lives in themes/adsense-base/data/navigation.yaml but no schema is emitted.",
+      "fix": "Generate SiteNavigationElement JSON-LD from data/navigation.yaml and inject into head.schema.html when present."
+    },
+    {
+      "type": "Person (author)",
+      "impact": "medium",
+      "rationale": "Author byline is just a string (\"RentingExplained Editorial Team\"). Google prefers a Person entity with url, sameAs, jobTitle.",
+      "fix": "Promote Editorial Team to a Person/Organization entity with sameAs links to editorial profiles."
+    },
+    {
+      "type": "ItemList (blog index)",
+      "impact": "low",
+      "rationale": "Listicle pages and /blog index can win carousel slots.",
+      "fix": "Add ItemList to /blog list template referencing the 10 most recent posts."
+    },
+    {
+      "type": "VideoObject",
+      "impact": "medium",
+      "rationale": "Future video scripts (Cheat Code #09) will require this; laying the groundwork now keeps velocity high.",
+      "fix": "Build a {{< video >}} shortcode that collects VideoObject fields."
+    }
+  ],
+  "pages_missing_faq_schema": [
+    "apartment-approval-requirements",
+    "apartment-lease-agreement-explained",
+    "apartment-move-in-costs",
+    "apartment-move-out-checklist",
+    "apartment-tour-checklist-questions-red-flags",
+    "apartment-utility-costs",
+    "best-apps-and-tools-for-renters",
+    "breaking-a-lease-without-penalty-2025",
+    "first-apartment-checklist-budget-guide",
+    "first-apartment-checklist-guide-2025",
+    "first-time-renters-guide",
+    "hidden-apartment-fees",
+    "hidden-rental-fees-explained",
+    "how-much-rent-can-i-afford",
+    "how-much-to-spend-on-rent",
+    "how-to-break-lease-early",
+    "how-to-break-lease",
+    "how-to-get-security-deposit-back",
+    "how-to-negotiate-rent-guide",
+    "how-to-report-rent-to-credit-bureaus",
+    "landlord-entry-notice-requirements",
+    "lease-renewal-vs-moving-out",
+    "minimum-income-to-rent-apartment",
+    "notice-to-vacate-letter-template",
+    "proof-of-income-for-apartments",
+    "rent-increase-renewal-guide",
+    "rental-application-checklist",
+    "rental-scams-how-to-avoid",
+    "renters-insurance-cost-2025",
+    "renters-rights-guide",
+    "renting-vs-buying-2025",
+    "renting-with-bad-credit-options",
+    "roommate-agreement-template",
+    "section-8-housing-vouchers-explained",
+    "security-deposit-return-timeline",
+    "security-deposits-and-evictions-overview",
+    "security-deposits-guide",
+    "subleasing-apartment-guide",
+    "tenant-rights-by-state-overview",
+    "tenant-rights-everyone-should-know",
+    "tenant-rights-when-landlord-won-t-make-repairs",
+    "tenant-screening-credit-checks-for-renters",
+    "understanding-a-lease-agreement"
+  ],
+  "pages_missing_faq_schema_count": 43,
+  "pages_missing_faq_schema_note": "Audit grep confirmed that all 43 blog articles contain at least one '## FAQ' or '## Frequently Asked' heading, but ZERO articles invoke the {{< faq >}} shortcode. Every article needs conversion from plain FAQ headings to shortcode-based FAQ entries so Page.Store is populated and FAQPage JSON-LD is emitted.",
+  "pages_needing_howto_schema": [
+    {
+      "slug": "how-to-get-security-deposit-back",
+      "reason": "Tutorial with linear steps (document, photograph, send letter, follow up). Maps directly to HowTo.",
+      "expected_rich_result": "HowTo rich result with 5–7 step carousel."
+    },
+    {
+      "slug": "how-to-break-lease-early",
+      "reason": "Step-by-step process (read clause, document, negotiate, mitigate, write notice).",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "how-to-break-lease",
+      "reason": "Variant of the above; same template.",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "how-to-negotiate-rent-guide",
+      "reason": "Sequential negotiation tactics with measurable outcomes.",
+      "expected_rich_result": "HowTo rich result with optional 'totalTime' of 2 weeks."
+    },
+    {
+      "slug": "how-to-report-rent-to-credit-bureaus",
+      "reason": "Enrollment workflow with multiple bureau-specific steps.",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "apartment-move-out-checklist",
+      "reason": "Chronological move-out procedures (30/14/7/1 day tasks).",
+      "expected_rich_result": "HowTo rich result with totalTime PT30D."
+    },
+    {
+      "slug": "apartment-tour-checklist-questions-red-flags",
+      "reason": "Tour checklist with ordered tasks (questions to ask, tests to run).",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "rental-application-checklist",
+      "reason": "Document preparation and submission sequence.",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "first-time-renters-guide",
+      "reason": "End-to-end onboarding workflow for first-time renters.",
+      "expected_rich_result": "HowTo rich result (high impression potential)."
+    },
+    {
+      "slug": "first-apartment-checklist-guide-2025",
+      "reason": "Sequential move-in checklist.",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "first-apartment-checklist-budget-guide",
+      "reason": "Budget + checklist hybrid; the checklist portion qualifies.",
+      "expected_rich_result": "HowTo rich result with cost breakdown."
+    },
+    {
+      "slug": "notice-to-vacate-letter-template",
+      "reason": "Template creation workflow (gather facts, draft, deliver, confirm).",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "rental-scams-how-to-avoid",
+      "reason": "Verification steps (research listing, walk, check documents).",
+      "expected_rich_result": "HowTo rich result."
+    },
+    {
+      "slug": "subleasing-apartment-guide",
+      "reason": "Sublet approval and onboarding steps.",
+      "expected_rich_result": "HowTo rich result."
+    }
+  ],
+  "pages_needing_howto_schema_count": 14,
+  "priority_fixes": [
+    {
+      "page_type": "all_articles",
+      "issue": "FAQPage schema is never emitted because no article uses the {{< faq >}} shortcode. 43/43 articles have FAQ sections rendered as plain markdown headings.",
+      "fix_description": "Convert each FAQ heading + Q/A bullet pattern into {{< faq \"Question\" >}}Answer{{< /faq >}} shortcode pairs. Page.Store then feeds faq-schema.html automatically.",
+      "impact": "high",
+      "estimated_uplift_pct": 18
+    },
+    {
+      "page_type": "tutorial_articles",
+      "issue": "HowTo schema is absent. 14 articles follow a step-by-step format that Google explicitly highlights.",
+      "fix_description": "Wrap existing enumerated procedures with {{< howto title=\"...\" totalTime=\"...\" >}}{{< step title=\"...\" >}}...{{< /step >}}{{< /howto >}}. The new howto-schema.html partial emits HowTo JSON-LD.",
+      "impact": "high",
+      "estimated_uplift_pct": 14
+    },
+    {
+      "page_type": "homepage",
+      "issue": "WebSite schema lacks SearchAction so Google cannot surface the sitelinks searchbox.",
+      "fix_description": "Add potentialAction with target 'search?q={search_term_string}' to WebSite JSON-LD in head.schema.html.",
+      "impact": "medium",
+      "estimated_uplift_pct": 3
+    },
+    {
+      "page_type": "sitewide",
+      "issue": "No Organization schema with sameAs, contactPoint, logo.",
+      "fix_description": "Add an Organization JSON-LD block to head.schema.html sourced from .Site.Params.org_* and a new data/org.yaml containing social profile sameAs URLs.",
+      "impact": "medium",
+      "estimated_uplift_pct": 4
+    },
+    {
+      "page_type": "all_singles",
+      "issue": "Article schema uses generic 'Article' instead of 'BlogPosting' subtype (better suited for editorial blogs).",
+      "fix_description": "Switch @type from Article to BlogPosting and add articleSection (from categories), keywords (from tags), wordCount, inLanguage.",
+      "impact": "medium",
+      "estimated_uplift_pct": 5
+    },
+    {
+      "page_type": "all_singles",
+      "issue": "Author emitted as Person with only 'name'. Google prefers url and sameAs.",
+      "fix_description": "Add author.url and author.sameAs in front-matter (or fall back to a sitewide editorial-team page URL).",
+      "impact": "low",
+      "estimated_uplift_pct": 2
+    },
+    {
+      "page_type": "navigation",
+      "issue": "Top navigation is not exposed as SiteNavigationElement schema.",
+      "fix_description": "Generate SiteNavigationElement from themes/adsense-base/data/navigation.yaml and append to head.schema.html output.",
+      "impact": "low",
+      "estimated_uplift_pct": 1
+    },
+    {
+      "page_type": "listicle_pages",
+      "issue": "No ItemList markup on /blog index or listicles like best-apps-and-tools-for-renters.",
+      "fix_description": "Add ItemList JSON-LD in list.html referencing the first 10 items with ListItem + position + url + name.",
+      "impact": "low",
+      "estimated_uplift_pct": 1
+    },
+    {
+      "page_type": "future_video_articles",
+      "issue": "Cheat Code #09 will generate video scripts that need VideoObject schema to win video rich results.",
+      "fix_description": "Build a {{< video >}} shortcode now (collects name, description, thumbnailUrl, uploadDate, duration, contentUrl) and add VideoObject JSON-LD partial.",
+      "impact": "future",
+      "estimated_uplift_pct": 6
+    },
+    {
+      "page_type": "blog_index",
+      "issue": "Blog homepage lacks WebPage + ItemList pair to compete with rotating post carousels.",
+      "fix_description": "Add WebPage (with @id) + ItemList on /blog/.",
+      "impact": "low",
+      "estimated_uplift_pct": 1
+    }
+  ],
+  "schema_implementation_blueprint": {
+    "shortcodes_created_in_this_cheat_code": [
+      "themes/adsense-base/layouts/shortcodes/howto.html",
+      "themes/adsense-base/layouts/shortcodes/step.html"
+    ],
+    "partials_created_in_this_cheat_code": [
+      "themes/adsense-base/layouts/partials/howto-schema.html"
+    ],
+    "usage_examples": {
+      "howto_block": "{{< howto title=\"How to Get Your Security Deposit Back\" totalTime=\"PT30D\" >}}{{< step title=\"Document the unit's condition at move-in\" >}}Take timestamped photos and complete the move-in checklist. Keep a copy. {{< /step >}}{{< step title=\"Keep records throughout the lease\" >}}Save every repair request, rent payment, and landlord communication. {{< /step >}}{{< step title=\"Send a written move-out notice\" >}}Email and mail a dated notice using the template in our move-out checklist. {{< /step >}}{{< /howto >}}",
+      "faq_item": "{{< faq \"How long does my landlord have to return the deposit?\" >}}Most states require 14–30 days. See our [security deposit return timeline guide](/blog/security-deposit-return-timeline/). {{< /faq >}}"
+    },
+    "head_schema_integration": "Append the howto-schema.html partial call to themes/adsense-base/layouts/partials/head.schema.html after the FAQ block, OR include it via a [markup] block in head.html that runs unconditionally."
+  },
+  "estimated_rich_result_uplift": {
+    "method": "Conservative weighted blend of CTR uplift per rich-result type from public Google and SEO Click studies.",
+    "scenarios": {
+      "faq_only_rollout": 18,
+      "howto_only_rollout": 14,
+      "full_rollout_with_organization_and_blogposting": 35,
+      "full_rollout_plus_video_and_itemlist": 42
+    },
+    "recommended_target_pct": 35,
+    "notes": "The 35% target assumes FAQ + HowTo + Organization + BlogPosting subtype + SearchAction all ship in the first iteration. VideoObject and ItemList push the ceiling higher in subsequent months."
+  },
+  "rollout_plan": [
+    {"week": 1, "scope": "Add Organization, SearchAction, BlogPosting subtype. Convert FAQs in top 10 articles."},
+    {"week": 2, "scope": "Convert FAQs in remaining 33 articles."},
+    {"week": 3, "scope": "Wrap tutorial procedures in HowTo shortcodes for top 14 articles."},
+    {"week": 4, "scope": "Validate with Google Rich Results Test, Schema.org validator, and Search Console URL Inspection."}
+  ]
+}

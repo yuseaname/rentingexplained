@@ -1,0 +1,769 @@
+[
+  {
+    "name": "Security Deposit",
+    "type": "financial_term",
+    "description": "Money held by landlord to cover unpaid rent or damages",
+    "related_entities": [
+      "Lease Agreement",
+      "Normal Wear and Tear",
+      "Itemized Deductions",
+      "Small Claims Court"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": " MonetaryAmount",
+    "suggested_internal_links": [
+      "/blog/security-deposits-guide/",
+      "/blog/how-to-get-security-deposit-back/"
+    ]
+  },
+  {
+    "name": "Lease Agreement",
+    "type": "document",
+    "description": "Legal contract between landlord and tenant",
+    "related_entities": [
+      "Security Deposit",
+      "Lease Term",
+      "Rent",
+      "Lease Addendum",
+      "Breaking a Lease"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": [
+      "/blog/understanding-a-lease-agreement/",
+      "/blog/apartment-lease-agreement-explained/"
+    ]
+  },
+  {
+    "name": "Eviction",
+    "type": "process",
+    "description": "Legal process to remove a tenant from a rental property",
+    "related_entities": [
+      "Unlawful Detainer",
+      "Notice to Quit",
+      "Sheriff Sale",
+      "Tenant Rights"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "LegalService",
+    "suggested_internal_links": [
+      "/blog/renters-rights-guide/"
+    ]
+  },
+  {
+    "name": "Rent",
+    "type": "financial_term",
+    "description": "Periodic payment from tenant to landlord for use of property",
+    "related_entities": [
+      "Lease Agreement",
+      "Rent Control",
+      "Late Fee",
+      "Prorated Rent"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": [
+      "/blog/how-much-rent-can-i-afford/"
+    ]
+  },
+  {
+    "name": "Tenant Rights",
+    "type": "legal_concept",
+    "description": "Legal protections afforded to renters",
+    "related_entities": [
+      "Fair Housing Act",
+      "Habitability",
+      "Quiet Enjoyment",
+      "Retaliation"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/renters-rights-guide/",
+      "/blog/tenant-rights-everyone-should-know/"
+    ]
+  },
+  {
+    "name": "Landlord",
+    "type": "role",
+    "description": "Property owner who rents to tenants",
+    "related_entities": [
+      "Tenant",
+      "Property Manager",
+      "Lease Agreement",
+      "Security Deposit"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Organization",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Tenant",
+    "type": "role",
+    "description": "Person who rents property from a landlord",
+    "related_entities": [
+      "Landlord",
+      "Lease Agreement",
+      "Tenant Rights",
+      "Roommate"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Person",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Section 8 Housing",
+    "type": "program",
+    "description": "Federal housing choice voucher program",
+    "related_entities": [
+      "HUD",
+      "Affordable Housing",
+      "Housing Authority",
+      "Fair Market Rent"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "GovernmentService",
+    "suggested_internal_links": [
+      "/blog/section-8-housing-vouchers-explained/"
+    ]
+  },
+  {
+    "name": "Fair Housing Act",
+    "type": "legal_concept",
+    "description": "Federal law prohibiting housing discrimination",
+    "related_entities": [
+      "Protected Classes",
+      "HUD",
+      "Disability Accommodation",
+      "Tenant Rights"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Legislation",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Habitability",
+    "type": "legal_concept",
+    "description": "Legal requirement that rentals be fit for human habitation",
+    "related_entities": [
+      "Implied Warranty",
+      "Repair and Deduct",
+      "Code Enforcement",
+      "Mold"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/tenant-rights-when-landlord-won-t-make-repairs/"
+    ]
+  },
+  {
+    "name": "Quiet Enjoyment",
+    "type": "legal_concept",
+    "description": "Tenant's right to use property without landlord interference",
+    "related_entities": [
+      "Tenant Rights",
+      "Landlord Entry",
+      "Lease Agreement"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/landlord-entry-notice-requirements/"
+    ]
+  },
+  {
+    "name": "Normal Wear and Tear",
+    "type": "legal_concept",
+    "description": "Expected deterioration from normal use, not chargeable to tenant",
+    "related_entities": [
+      "Security Deposit",
+      "Itemized Deductions",
+      "Move-Out Inspection"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/how-to-get-security-deposit-back/"
+    ]
+  },
+  {
+    "name": "Renter's Insurance",
+    "type": "financial_term",
+    "description": "Insurance covering tenant's personal property and liability",
+    "related_entities": [
+      "Liability Coverage",
+      "Personal Property",
+      "Deductible",
+      "Loss of Use"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "FinancialProduct",
+    "suggested_internal_links": [
+      "/blog/renters-insurance-cost-2025/"
+    ]
+  },
+  {
+    "name": "Credit Score",
+    "type": "financial_term",
+    "description": "Numerical representation of creditworthiness affecting rental approval",
+    "related_entities": [
+      "Tenant Screening",
+      "Credit Report",
+      "Cosigner",
+      "Rent Reporting"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/tenant-screening-credit-checks-for-renters/",
+      "/blog/how-to-report-rent-to-credit-bureaus/"
+    ]
+  },
+  {
+    "name": "Roommate",
+    "type": "role",
+    "description": "Person sharing a rental with another tenant",
+    "related_entities": [
+      "Roommate Agreement",
+      "Joint Liability",
+      "Subleasing"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Person",
+    "suggested_internal_links": [
+      "/blog/roommate-agreement-template/"
+    ]
+  },
+  {
+    "name": "Property Manager",
+    "type": "role",
+    "description": "Person or company managing rental property for owner",
+    "related_entities": [
+      "Landlord",
+      "Lease Agreement",
+      "Maintenance Requests"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "Organization",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Sublease",
+    "type": "process",
+    "description": "Transferring part of a lease to another person",
+    "related_entities": [
+      "Lease Agreement",
+      "Lease Takeover",
+      "Sublessor",
+      "Sublessee"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/subleasing-apartment-guide/"
+    ]
+  },
+  {
+    "name": "HUD",
+    "type": "organization",
+    "description": "US Department of Housing and Urban Development",
+    "related_entities": [
+      "Section 8 Housing",
+      "Fair Housing Act",
+      "Affordable Housing"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "GovernmentOrganization",
+    "suggested_internal_links": [
+      "/blog/section-8-housing-vouchers-explained/"
+    ]
+  },
+  {
+    "name": "Rent Control",
+    "type": "legal_concept",
+    "description": "Government regulation limiting rent increases",
+    "related_entities": [
+      "Rent Stabilization",
+      "Eviction Protection",
+      "Lease Renewal"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Legislation",
+    "suggested_internal_links": [
+      "/blog/rent-increase-renewal-guide/"
+    ]
+  },
+  {
+    "name": "Cosigner",
+    "type": "role",
+    "description": "Person who guarantees lease obligations if tenant defaults",
+    "related_entities": [
+      "Credit Score",
+      "Lease Agreement",
+      "Tenant Screening"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "Person",
+    "suggested_internal_links": [
+      "/blog/renting-with-bad-credit-options/"
+    ]
+  },
+  {
+    "name": "Move-In Inspection",
+    "type": "process",
+    "description": "Documenting rental condition at start of tenancy",
+    "related_entities": [
+      "Security Deposit",
+      "Move-Out Checklist",
+      "Normal Wear and Tear",
+      "Photos"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/apartment-move-out-checklist/"
+    ]
+  },
+  {
+    "name": "Notice to Vacate",
+    "type": "document",
+    "description": "Written notice that tenant will leave the rental",
+    "related_entities": [
+      "Lease Termination",
+      "Lease Renewal",
+      "Move-Out"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": [
+      "/blog/notice-to-vacate-letter-template/"
+    ]
+  },
+  {
+    "name": "Late Fee",
+    "type": "financial_term",
+    "description": "Charge for paying rent after the due date",
+    "related_entities": [
+      "Rent",
+      "Grace Period",
+      "Lease Agreement"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Grace Period",
+    "type": "legal_concept",
+    "description": "Time after rent due date before late fees apply",
+    "related_entities": [
+      "Late Fee",
+      "Rent",
+      "Lease Agreement"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Prorated Rent",
+    "type": "financial_term",
+    "description": "Rent calculated for partial month based on daily rate",
+    "related_entities": [
+      "Rent",
+      "Move-In Costs",
+      "Lease Start Date"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Lease Addendum",
+    "type": "document",
+    "description": "Additional document modifying or adding to lease terms",
+    "related_entities": [
+      "Lease Agreement",
+      "Pet Policy",
+      "Lead Paint Disclosure"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Pet Rent",
+    "type": "financial_term",
+    "description": "Monthly fee for keeping a pet in rental",
+    "related_entities": [
+      "Pet Deposit",
+      "Pet Fee",
+      "Lease Agreement",
+      "ESA"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Breaking a Lease",
+    "type": "process",
+    "description": "Terminating a lease before its end date",
+    "related_entities": [
+      "Lease Agreement",
+      "Early Termination Clause",
+      "Buyout",
+      "Sublease"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/how-to-break-lease/",
+      "/blog/breaking-a-lease-without-penalty-2025/"
+    ]
+  },
+  {
+    "name": "Small Claims Court",
+    "type": "organization",
+    "description": "Court for resolving disputes involving limited dollar amounts",
+    "related_entities": [
+      "Security Deposit",
+      "Itemized Deductions",
+      "Tenant Rights"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "GovernmentOrganization",
+    "suggested_internal_links": [
+      "/blog/how-to-get-security-deposit-back/"
+    ]
+  },
+  {
+    "name": "Itemized Deductions",
+    "type": "legal_concept",
+    "description": "Itemized list of charges taken from security deposit",
+    "related_entities": [
+      "Security Deposit",
+      "Normal Wear and Tear",
+      "Move-Out Inspection"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Affordable Housing",
+    "type": "concept",
+    "description": "Housing deemed affordable to households below area median income",
+    "related_entities": [
+      "Section 8 Housing",
+      "HUD",
+      "Low-Income Housing Tax Credit",
+      "Fair Market Rent"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/section-8-housing-vouchers-explained/"
+    ]
+  },
+  {
+    "name": "Apartment",
+    "type": "property_type",
+    "description": "Self-contained housing unit in a building",
+    "related_entities": [
+      "Studio",
+      "One-Bedroom",
+      "Two-Bedroom",
+      "Lease Agreement"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Accommodation",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Studio Apartment",
+    "type": "property_type",
+    "description": "Small apartment combining living and sleeping areas",
+    "related_entities": [
+      "Apartment",
+      "Efficiency Apartment"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "Accommodation",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Lease Renewal",
+    "type": "process",
+    "description": "Extending a lease for another term",
+    "related_entities": [
+      "Lease Agreement",
+      "Rent Increase",
+      "Month-to-Month"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/lease-renewal-vs-moving-out/"
+    ]
+  },
+  {
+    "name": "Rental Application",
+    "type": "document",
+    "description": "Form submitted to apply for rental housing",
+    "related_entities": [
+      "Credit Check",
+      "Proof of Income",
+      "Application Fee",
+      "Tenant Screening"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": [
+      "/blog/rental-application-checklist/"
+    ]
+  },
+  {
+    "name": "Proof of Income",
+    "type": "document",
+    "description": "Documentation showing sufficient income to rent",
+    "related_entities": [
+      "Pay Stub",
+      "Tax Return",
+      "Bank Statement",
+      "Rental Application"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": [
+      "/blog/proof-of-income-for-apartments/"
+    ]
+  },
+  {
+    "name": "Retaliation",
+    "type": "legal_concept",
+    "description": "Landlord's adverse action against tenant for exercising rights",
+    "related_entities": [
+      "Tenant Rights",
+      "Eviction",
+      "Habitability",
+      "Fair Housing Act"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Disability Accommodation",
+    "type": "legal_concept",
+    "description": "Required modifications for tenants with disabilities",
+    "related_entities": [
+      "Fair Housing Act",
+      "ADA",
+      "Reasonable Accommodation",
+      "ESA"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Emergency Repair",
+    "type": "process",
+    "description": "Urgent repair needed for health/safety (no heat, water leak, etc.)",
+    "related_entities": [
+      "Habitability",
+      "Landlord",
+      "Code Enforcement"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/tenant-rights-when-landlord-won-t-make-repairs/"
+    ]
+  },
+  {
+    "name": "Tenant Screening",
+    "type": "process",
+    "description": "Landlord's evaluation of prospective tenant",
+    "related_entities": [
+      "Credit Check",
+      "Background Check",
+      "Rental History",
+      "Eviction Records"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/tenant-screening-credit-checks-for-renters/"
+    ]
+  },
+  {
+    "name": "Rent Reporting",
+    "type": "process",
+    "description": "Reporting rent payments to credit bureaus",
+    "related_entities": [
+      "Credit Score",
+      "Credit Bureau",
+      "Experian RentBureau"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": [
+      "/blog/how-to-report-rent-to-credit-bureaus/"
+    ]
+  },
+  {
+    "name": "Lead Paint Disclosure",
+    "type": "document",
+    "description": "Required disclosure for pre-1978 housing about lead hazards",
+    "related_entities": [
+      "Lease Addendum",
+      "EPA",
+      "Health and Safety"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Mold Remediation",
+    "type": "process",
+    "description": "Professional removal of mold from rental property",
+    "related_entities": [
+      "Habitability",
+      "Landlord Responsibility",
+      "Health and Safety"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Fair Market Rent",
+    "type": "financial_term",
+    "description": "HUD-estimated rent for an area, used for voucher programs",
+    "related_entities": [
+      "Section 8 Housing",
+      "HUD",
+      "Affordable Housing"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": [
+      "/blog/section-8-housing-vouchers-explained/"
+    ]
+  },
+  {
+    "name": "Eviction Record",
+    "type": "document",
+    "description": "Court record of eviction filing visible on background checks",
+    "related_entities": [
+      "Eviction",
+      "Tenant Screening",
+      "Background Check",
+      "Expungement"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Thing",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Code Enforcement",
+    "type": "organization",
+    "description": "Local government office that inspects building code violations",
+    "related_entities": [
+      "Habitability",
+      "Emergency Repair",
+      "Health and Safety"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "GovernmentOrganization",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Lease Buyout",
+    "type": "financial_term",
+    "description": "Payment to landlord to terminate lease early",
+    "related_entities": [
+      "Breaking a Lease",
+      "Lease Agreement",
+      "Early Termination"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": [
+      "/blog/how-to-break-lease-early/"
+    ]
+  },
+  {
+    "name": "Security Deposit Interest",
+    "type": "financial_term",
+    "description": "Interest earned on security deposit in applicable states",
+    "related_entities": [
+      "Security Deposit",
+      "State Law"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "MonetaryAmount",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Unlawful Detainer",
+    "type": "process",
+    "description": "Lawsuit filed by landlord to regain possession and collect rent",
+    "related_entities": [
+      "Eviction",
+      "Notice to Quit",
+      "Court Summons"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "LegalService",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Move-Out Checklist",
+    "type": "document",
+    "description": "List of cleaning and repair tasks before vacating",
+    "related_entities": [
+      "Move-In Inspection",
+      "Security Deposit",
+      "Normal Wear and Tear"
+    ],
+    "existing_coverage": "covered",
+    "recommended_schema_type": "DigitalDocument",
+    "suggested_internal_links": [
+      "/blog/apartment-move-out-checklist/"
+    ]
+  },
+  {
+    "name": "Rent Stabilization",
+    "type": "legal_concept",
+    "description": "Form of rent control limiting increases for sitting tenants",
+    "related_entities": [
+      "Rent Control",
+      "Lease Renewal",
+      "Eviction Protection"
+    ],
+    "existing_coverage": "uncovered",
+    "recommended_schema_type": "Legislation",
+    "suggested_internal_links": []
+  },
+  {
+    "name": "Housing Authority",
+    "type": "organization",
+    "description": "Local agency administering housing assistance programs",
+    "related_entities": [
+      "Section 8 Housing",
+      "HUD",
+      "Voucher Program",
+      "Waitlist"
+    ],
+    "existing_coverage": "partial",
+    "recommended_schema_type": "GovernmentOrganization",
+    "suggested_internal_links": [
+      "/blog/section-8-housing-vouchers-explained/"
+    ]
+  }
+]

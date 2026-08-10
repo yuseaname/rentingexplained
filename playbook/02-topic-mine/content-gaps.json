@@ -1,0 +1,322 @@
+[
+  {
+    "keyword": "eviction process timeline",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 18000,
+    "difficulty": "medium",
+    "suggested_title": "The Eviction Process Explained: Timeline and Defenses",
+    "suggested_category": "Legal Rights",
+    "priority_score": 10,
+    "rationale": "Core tenant fear; zero coverage; high-volume keyword"
+  },
+  {
+    "keyword": "pet rent and pet deposits",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 12000,
+    "difficulty": "low",
+    "suggested_title": "Pet Rent Explained: What Renters Pay for Pets",
+    "suggested_category": "Costs",
+    "priority_score": 9,
+    "rationale": "Universal renter concern; no existing article"
+  },
+  {
+    "keyword": "renters tax deductions",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 8100,
+    "difficulty": "medium",
+    "suggested_title": "Tax Deductions for Renters: What You Can Claim",
+    "suggested_category": "Financial Planning",
+    "priority_score": 8,
+    "rationale": "Seasonal search spike; original data opportunity"
+  },
+  {
+    "keyword": "habitability and implied warranty",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 5400,
+    "difficulty": "medium",
+    "suggested_title": "Habitability Standards: Your Right to a Livable Home",
+    "suggested_category": "Legal Rights",
+    "priority_score": 9,
+    "rationale": "Fundamental tenant right; no dedicated article"
+  },
+  {
+    "keyword": "landlord retaliation",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 4400,
+    "difficulty": "medium",
+    "suggested_title": "Landlord Retaliation: What It Is and How to Prove It",
+    "suggested_category": "Legal Rights",
+    "priority_score": 8,
+    "rationale": "Common post-complaint scenario; no coverage"
+  },
+  {
+    "keyword": "quiet enjoyment rights",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 3600,
+    "difficulty": "medium",
+    "suggested_title": "Quiet Enjoyment: What It Means for Renters",
+    "suggested_category": "Legal Rights",
+    "priority_score": 8,
+    "rationale": "Covenant in every lease; not explained"
+  },
+  {
+    "keyword": "lease addendum explained",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 6600,
+    "difficulty": "low",
+    "suggested_title": "Lease Addendums: Common Types and What They Mean",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "Practical need; addendums confuse renters"
+  },
+  {
+    "keyword": "furnished vs unfurnished apartment",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 9900,
+    "difficulty": "low",
+    "suggested_title": "Furnished vs Unfurnished: Cost Comparison and Pros/Cons",
+    "suggested_category": "Apartment Hunting",
+    "priority_score": 7,
+    "rationale": "Decision-point content; clear comparison table"
+  },
+  {
+    "keyword": "prorated rent calculation",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 8200,
+    "difficulty": "low",
+    "suggested_title": "How Prorated Rent Works (With Calculator)",
+    "suggested_category": "Costs",
+    "priority_score": 7,
+    "rationale": "Searchable math question; tool opportunity"
+  },
+  {
+    "keyword": "late rent fees by state",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 4800,
+    "difficulty": "medium",
+    "suggested_title": "Late Rent Fees: What's Legal in Your State",
+    "suggested_category": "Legal Rights",
+    "priority_score": 8,
+    "rationale": "State-by-state data; matches our state-laws strength"
+  },
+  {
+    "keyword": "noise complaints apartment",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 14000,
+    "difficulty": "low",
+    "suggested_title": "Apartment Noise Complaints: How to Handle Them",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "High-volume; practical problem-solving"
+  },
+  {
+    "keyword": "guest policy lease",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 5400,
+    "difficulty": "low",
+    "suggested_title": "Guest Policies in Rentals: What Your Lease Can and Can't Say",
+    "suggested_category": "Legal Rights",
+    "priority_score": 6,
+    "rationale": "Common dispute area; informational"
+  },
+  {
+    "keyword": "lease takeover vs sublease",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 3900,
+    "difficulty": "low",
+    "suggested_title": "Lease Takeover vs Sublease: Which Is Right for You?",
+    "suggested_category": "Apartment Hunting",
+    "priority_score": 6,
+    "rationale": "Decision content; extends subleasing coverage"
+  },
+  {
+    "keyword": "emergency repairs landlord responsibility",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 7200,
+    "difficulty": "medium",
+    "suggested_title": "Emergency Repairs: When and How to Contact Your Landlord",
+    "suggested_category": "Legal Rights",
+    "priority_score": 8,
+    "rationale": "Urgent need content; expands repair rights"
+  },
+  {
+    "keyword": "rent control by city",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 12000,
+    "difficulty": "high",
+    "suggested_title": "Rent Control Laws by City and State (2026)",
+    "suggested_category": "Legal Rights",
+    "priority_score": 9,
+    "rationale": "High-volume; state-by-state data play"
+  },
+  {
+    "keyword": "corporate housing vs apartment",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 2900,
+    "difficulty": "low",
+    "suggested_title": "Corporate Housing vs Traditional Apartments",
+    "suggested_category": "Apartment Hunting",
+    "priority_score": 5,
+    "rationale": "Niche but growing; low competition"
+  },
+  {
+    "keyword": "coliving spaces pros and cons",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 8100,
+    "difficulty": "medium",
+    "suggested_title": "Co-Living Spaces: Is It Right for You?",
+    "suggested_category": "Apartment Hunting",
+    "priority_score": 6,
+    "rationale": "Trend topic; younger demographic"
+  },
+  {
+    "keyword": "rental assistance programs",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 18000,
+    "difficulty": "medium",
+    "suggested_title": "Emergency Rental Assistance Programs: How to Apply",
+    "suggested_category": "Affordable Housing",
+    "priority_score": 9,
+    "rationale": "High-volume; financial stress audience"
+  },
+  {
+    "keyword": "mold in apartment landlord responsibility",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 9900,
+    "difficulty": "medium",
+    "suggested_title": "Mold in Your Apartment: Who's Responsible?",
+    "suggested_category": "Legal Rights",
+    "priority_score": 8,
+    "rationale": "Health concern; clear liability question"
+  },
+  {
+    "keyword": "ADA accommodations for renters",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 5400,
+    "difficulty": "medium",
+    "suggested_title": "Renters with Disabilities: ADA and Fair Housing Rights",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "Important rights content; under-covered"
+  },
+  {
+    "keyword": "security deposit interest by state",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 3600,
+    "difficulty": "medium",
+    "suggested_title": "Do You Earn Interest on Your Security Deposit? State Laws",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "State-by-state data; extends deposit coverage"
+  },
+  {
+    "keyword": "breaking lease for domestic violence",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 4400,
+    "difficulty": "medium",
+    "suggested_title": "Breaking a Lease Due to Domestic Violence: Your Rights",
+    "suggested_category": "Legal Rights",
+    "priority_score": 8,
+    "rationale": "Critical safety resource; legal protection"
+  },
+  {
+    "keyword": "military clause lease SCRA",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 2900,
+    "difficulty": "low",
+    "suggested_title": "Military Clause: SCRA Protections for Service Members",
+    "suggested_category": "Legal Rights",
+    "priority_score": 6,
+    "rationale": "Specific audience; clear legal framework"
+  },
+  {
+    "keyword": "renters insurance claim process",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 6600,
+    "difficulty": "low",
+    "suggested_title": "How to File a Renters Insurance Claim: Step by Step",
+    "suggested_category": "Costs",
+    "priority_score": 7,
+    "rationale": "Extends insurance coverage; actionable guide"
+  },
+  {
+    "keyword": "apartment parking rules disputes",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 3900,
+    "difficulty": "low",
+    "suggested_title": "Apartment Parking: Rules, Fees, and Dispute Resolution",
+    "suggested_category": "Costs",
+    "priority_score": 5,
+    "rationale": "Practical problem; extends costs coverage"
+  },
+  {
+    "keyword": "rent increase during lease legal",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 8100,
+    "difficulty": "medium",
+    "suggested_title": "Can Your Landlord Raise Rent During Your Lease?",
+    "suggested_category": "Legal Rights",
+    "priority_score": 9,
+    "rationale": "Direct question; high intent"
+  },
+  {
+    "keyword": "what is a cosigner for apartment",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 9900,
+    "difficulty": "low",
+    "suggested_title": "Cosigner for an Apartment: Requirements and Risks",
+    "suggested_category": "Rental Approval",
+    "priority_score": 7,
+    "rationale": "Extends approval coverage; beginner question"
+  },
+  {
+    "keyword": "eviction expungement",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 4400,
+    "difficulty": "medium",
+    "suggested_title": "Eviction Records: How Long They Last and How to Seal Them",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "Post-eviction concern; second-chance renting"
+  },
+  {
+    "keyword": "rent grace period by state",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 5400,
+    "difficulty": "low",
+    "suggested_title": "Rent Grace Periods by State: What You Need to Know",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "State-by-state data; practical"
+  },
+  {
+    "keyword": "tenant association rights",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 1900,
+    "difficulty": "medium",
+    "suggested_title": "Tenant Associations: Your Right to Organize",
+    "suggested_category": "Legal Rights",
+    "priority_score": 5,
+    "rationale": "Community angle; empowerment content"
+  },
+  {
+    "keyword": "utility shut off landlord responsibility",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 3600,
+    "difficulty": "medium",
+    "suggested_title": "Utility Shut-Off: When Is It the Landlord's Problem?",
+    "suggested_category": "Legal Rights",
+    "priority_score": 7,
+    "rationale": "Emergency scenario; legal clarity needed"
+  },
+  {
+    "keyword": "rentback after selling home",
+    "search_intent": "informational",
+    "estimated_monthly_volume": 1600,
+    "difficulty": "low",
+    "suggested_title": "Rent-Back Agreements: What Sellers-Turned-Renters Need to Know",
+    "suggested_category": "Apartment Hunting",
+    "priority_score": 4,
+    "rationale": "Niche crossover; market trend"
+  }
+]

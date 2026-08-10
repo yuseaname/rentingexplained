@@ -1,0 +1,200 @@
+[
+  {
+    "keyword": "eviction process steps",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No article on eviction process timeline",
+    "estimated_volume": 18000,
+    "opportunity_score": 10,
+    "recommended_action": "Create comprehensive 2000+ word guide"
+  },
+  {
+    "keyword": "normal wear and tear definition",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No article defining wear and tear for deposits",
+    "estimated_volume": 9900,
+    "opportunity_score": 10,
+    "recommended_action": "Create article with examples table"
+  },
+  {
+    "keyword": "pet rent average cost",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No pet-related content",
+    "estimated_volume": 8100,
+    "opportunity_score": 9,
+    "recommended_action": "Create pet costs guide"
+  },
+  {
+    "keyword": "rent increase during lease",
+    "current_ranking_url": "rent-increase-renewal-guide",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Article covers renewal increases, not mid-lease",
+    "estimated_volume": 8100,
+    "opportunity_score": 9,
+    "recommended_action": "Add section on fixed-term lease protections"
+  },
+  {
+    "keyword": "security deposit deductions list",
+    "current_ranking_url": "how-to-get-security-deposit-back",
+    "void_type": "thin_content",
+    "content_gap_description": "Article mentions deductions but lacks itemized list",
+    "estimated_volume": 6600,
+    "opportunity_score": 8,
+    "recommended_action": "Add comprehensive deductions table"
+  },
+  {
+    "keyword": "what is prorated rent",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No proration explanation",
+    "estimated_volume": 8200,
+    "opportunity_score": 8,
+    "recommended_action": "Create with calculation formula"
+  },
+  {
+    "keyword": "lease break fee calculator",
+    "current_ranking_url": "how-to-break-lease",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "No cost calculator or fee table",
+    "estimated_volume": 5400,
+    "opportunity_score": 8,
+    "recommended_action": "Add interactive cost breakdown"
+  },
+  {
+    "keyword": "renters insurance claim steps",
+    "current_ranking_url": "renters-insurance-cost-2025",
+    "void_type": "thin_content",
+    "content_gap_description": "Covers costs but not claim process",
+    "estimated_volume": 6600,
+    "opportunity_score": 7,
+    "recommended_action": "Add step-by-step claim filing section"
+  },
+  {
+    "keyword": "landlord retaliation examples",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No article on landlord retaliation",
+    "estimated_volume": 4400,
+    "opportunity_score": 8,
+    "recommended_action": "Create with real-world examples"
+  },
+  {
+    "keyword": "month to month lease rights",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No month-to-month coverage",
+    "estimated_volume": 7200,
+    "opportunity_score": 9,
+    "recommended_action": "Create comprehensive guide"
+  },
+  {
+    "keyword": "cosigner requirements apartment",
+    "current_ranking_url": "renting-with-bad-credit-options",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Mentions cosigners but no dedicated coverage",
+    "estimated_volume": 9900,
+    "opportunity_score": 7,
+    "recommended_action": "Create standalone cosigner guide"
+  },
+  {
+    "keyword": "section 8 waiting list time",
+    "current_ranking_url": "section-8-housing-vouchers-explained",
+    "void_type": "thin_content",
+    "content_gap_description": "Brief mention but no timeline detail",
+    "estimated_volume": 5400,
+    "opportunity_score": 7,
+    "recommended_action": "Expand wait time section"
+  },
+  {
+    "keyword": "security deposit interest law",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No coverage of interest-bearing deposits",
+    "estimated_volume": 3600,
+    "opportunity_score": 7,
+    "recommended_action": "Create state-by-state guide"
+  },
+  {
+    "keyword": "apartment application denial reasons",
+    "current_ranking_url": "apartment-approval-requirements",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Lists requirements but not denial reasons",
+    "estimated_volume": 4400,
+    "opportunity_score": 7,
+    "recommended_action": "Add denial section with remedies"
+  },
+  {
+    "keyword": "rent grace period law",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No grace period content",
+    "estimated_volume": 5400,
+    "opportunity_score": 7,
+    "recommended_action": "Create state-by-state guide"
+  },
+  {
+    "keyword": "sublet vs sublease difference",
+    "current_ranking_url": "subleasing-apartment-guide",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Uses terms interchangeably without distinction",
+    "estimated_volume": 2900,
+    "opportunity_score": 6,
+    "recommended_action": "Add clarifying section"
+  },
+  {
+    "keyword": "breaking lease for job relocation",
+    "current_ranking_url": "breaking-a-lease-without-penalty-2025",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Mentions job relocation briefly",
+    "estimated_volume": 3600,
+    "opportunity_score": 7,
+    "recommended_action": "Expand job relocation clause section"
+  },
+  {
+    "keyword": "roommate lease responsibility",
+    "current_ranking_url": "roommate-agreement-template",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Template exists but joint/several liability not explained",
+    "estimated_volume": 2900,
+    "opportunity_score": 6,
+    "recommended_action": "Add liability explanation"
+  },
+  {
+    "keyword": "rent control states 2026",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No rent control article",
+    "estimated_volume": 12000,
+    "opportunity_score": 9,
+    "recommended_action": "Create comprehensive state guide"
+  },
+  {
+    "keyword": "fair housing act protected classes",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No Fair Housing Act coverage",
+    "estimated_volume": 8100,
+    "opportunity_score": 8,
+    "recommended_action": "Create civil rights for renters guide"
+  },
+  {
+    "keyword": "mold landlord responsibility",
+    "current_ranking_url": "none",
+    "void_type": "no_coverage",
+    "content_gap_description": "No mold/habitability content",
+    "estimated_volume": 9900,
+    "opportunity_score": 8,
+    "recommended_action": "Create mold responsibility guide"
+  },
+  {
+    "keyword": "apartment utility setup guide",
+    "current_ranking_url": "apartment-utility-costs",
+    "void_type": "missing_subtopic",
+    "content_gap_description": "Costs covered but not setup process",
+    "estimated_volume": 3600,
+    "opportunity_score": 6,
+    "recommended_action": "Add utility setup checklist"
+  }
+]

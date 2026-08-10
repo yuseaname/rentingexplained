@@ -1,0 +1,353 @@
+{
+  "config_metadata": {
+    "system_name": "RentingExplained Social Listening & Response System",
+    "version": "1.0.0",
+    "cheat_code": "#10 Social Echo Chamber",
+    "created": "2026-08-10",
+    "owner": "Technical SEO & Distribution Subagent",
+    "operator_role": "Community + Distribution pod",
+    "rotation_schedule": "1-week shifts; primary responder + secondary backup",
+    "sla_targets": {
+      "reddit_response_minutes": 90,
+      "quora_response_hours": 6,
+      "facebook_group_response_hours": 12,
+      "twitter_response_minutes": 30,
+      "linkedin_response_hours": 8
+    }
+  },
+  "objectives": [
+    "Detect rising renting-related questions within 24 hours of trending.",
+    "Convert high-intent threads into qualified traffic for RentingExplained articles.",
+    "Build community-driven authority signals (mentions, citations, backlinks).",
+    "Feed content gaps directly to Cheat Code #01 (Content Hydra) and #02 (Topic Mine).",
+    "Identify 'trigger events' (rent strike, deposit lawsuit, new state law) within 6 hours."
+  ],
+  "monitored_keywords": [
+    "how much rent can i afford",
+    "first apartment checklist",
+    "security deposit not returned",
+    "landlord wont return deposit",
+    "landlord wont make repairs",
+    "tenant rights",
+    "renter rights",
+    "broken lease",
+    "break lease without penalty",
+    "early lease termination",
+    "rent increase notice",
+    "rent hike",
+    "renters insurance",
+    "rental application",
+    "apartment approval",
+    "rental scam",
+    "apartment scam",
+    "lease agreement",
+    "sublet agreement",
+    "subleasing",
+    "roommate agreement",
+    "rental application denied",
+    "minimum income apartment",
+    "rent to own",
+    "section 8 voucher",
+    "housing voucher",
+    "first time renter",
+    "moving out checklist",
+    "move out inspection",
+    "apartment move out",
+    "landlord entry notice",
+    "landlord entered without notice",
+    "right to enter",
+    "eviction notice",
+    "renters insurance cost",
+    "renters insurance worth it",
+    "security deposit limit",
+    "security deposit laws",
+    "lease renewal",
+    "month to month lease",
+    "tenant rights by state",
+    "renters rights by state",
+    "pet rent",
+    "pet deposit",
+    "rent negotiation",
+    "renters tax credit",
+    "rent reported to credit bureaus"
+  ],
+  "monitored_keywords_count": 46,
+  "monitored_hashtags": [
+    "#renting",
+    "#renterlife",
+    "#apartmenthunting",
+    "#firstapartment",
+    "#tenantrights",
+    "#securitydeposit",
+    "#leaseagreement",
+    "#rentersinsurance",
+    "#renters",
+    "#firsttimerenter",
+    "#apartments",
+    "#apartmentliving",
+    "#movingout",
+    "#movingin",
+    "#leasebreak",
+    "#landlordproblems",
+    "#renthelp",
+    "#rentaltips",
+    "#tenantadvocate",
+    "#rentingexplained",
+    "#rentersrights",
+    "#fairhousing",
+    "#apartmentscams"
+  ],
+  "monitored_hashtags_count": 23,
+  "target_subreddits": [
+    {
+      "name": "r/Renters",
+      "subscribers_estimate": "300K+",
+      "rules_summary": "no promotion, must disclose affiliation, answer-first",
+      "primary_use": "Tenant-rights questions; deposit, lease-break, repairs"
+    },
+    {
+      "name": "r/Tenant",
+      "subscribers_estimate": "smaller, focused",
+      "rules_summary": "n/a",
+      "primary_use": "Diversification; same topics"
+    },
+    {
+      "name": "r/RealEstate",
+      "subscribers_estimate": "1M+",
+      "rules_summary": "no spam, citations preferred, mod approval required for links",
+      "primary_use": "Educational threads, market commentary, data studies"
+    },
+    {
+      "name": "r/PersonalFinance",
+      "subscribers_estimate": "3M+",
+      "rules_summary": "wiki-cited answers, no self-promotion",
+      "primary_use": "Affordability, budgeting, salary-to-rent math"
+    },
+    {
+      "name": "r/Landlord",
+      "subscribers_estimate": "40K+",
+      "rules_summary": "n/a",
+      "primary_use": "Reverse intel — what landlords look for during screening"
+    },
+    {
+      "name": "r/apartmentliving",
+      "subscribers_estimate": "100K+",
+      "rules_summary": "lifestyle-focused, light moderation",
+      "primary_use": "Move-in/move-out, community norms, roommate advice"
+    },
+    {
+      "name": "r/povertyfinance",
+      "subscribers_estimate": "1M+",
+      "rules_summary": "supportive tone, no promotion in posts",
+      "primary_use": "Affordability crisis, voucher questions"
+    },
+    {
+      "name": "r/legaladvice",
+      "subscribers_estimate": "1M+",
+      "rules_summary": "must include jurisdiction, no legal advice claims",
+      "primary_use": "Tenant rights enforcement, deposit lawsuits"
+    },
+    {
+      "name": "r/FirstTimeHomeBuyer",
+      "subscribers_estimate": "100K+",
+      "rules_summary": "n/a",
+      "primary_use": "Renting-vs-buying comments; rent-to-save calculations"
+    },
+    {
+      "name": "r/firstapartment",
+      "subscribers_estimate": "smaller",
+      "rules_summary": "n/a",
+      "primary_use": "First-time renter questions"
+    }
+  ],
+  "target_subreddits_count": 10,
+  "target_facebook_groups": [
+    "First-Time Renters (multiple regional)",
+    "Apartment Hunting & Rental Tips",
+    "Tenant Rights Advocacy (multiple)",
+    "Landlord-Tenant Mediation groups",
+    "Personal Finance for Renters"
+  ],
+  "target_quora_spaces": [
+    "Renting & Leasing",
+    "Personal Finance — Renting",
+    "Tenant Rights",
+    "Real Estate Law",
+    "Moving & Relocation"
+  ],
+  "target_platforms": [
+    "Reddit",
+    "Quora",
+    "Facebook Groups",
+    "Twitter/X",
+    "LinkedIn",
+    "TikTok Comments",
+    "YouTube Comments (rental/DIY channels)",
+    "Nextdoor (targeted neighborhoods)",
+    "Hacker News (when landlord laws change)"
+  ],
+  "alerting_thresholds": {
+    "keyword_mentions_per_hour": {
+      "low_priority": 5,
+      "medium_priority": 15,
+      "high_priority": 40,
+      "spike_alert": 100
+    },
+    "subreddit_post_velocity": {
+      "viral_post_min_upvotes": 500,
+      "rising_post_min_upvotes_per_hour": 50
+    }
+  },
+  "response_templates": [
+    {
+      "scenario": "tenant_rights_question_reddit",
+      "tone": "informative, plain-language, no legal disclaimer needed in casual subreddits",
+      "template_text": "Great question. [1–2 sentence direct answer]. I wrote a longer breakdown of the [topic] at RentingExplained that walks through state-by-state rules and a sample letter you can adapt: [link]. One caveat: I'm not a lawyer, and rules vary by state — your local legal aid society (free) will know the specific statute for [State].",
+      "cta_type": "contextual_link",
+      "linking_article_hint": "Map question topic to nearest /blog/{slug}/ article.",
+      "followup_commitment": "Offer to clarify in replies without further linking."
+    },
+    {
+      "scenario": "deposit_question_facebook",
+      "tone": "empathetic + action-oriented",
+      "template_text": "Sorry you're dealing with this — a landlord withholding a deposit is one of the most common renter disputes. Three quick things:\n1. Send a demand letter citing your state's deadline (most are 14–30 days).\n2. Many states allow 2–3× damages for bad-faith withholding.\n3. Small claims court handles amounts under $5K–$10K, no lawyer needed.\nRentingExplained has a sample demand letter + state-by-state deadlines: [link].",
+      "cta_type": "contextual_link",
+      "linking_article_hint": "/blog/how-to-get-security-deposit-back/",
+      "followup_commitment": "Ask if they'd like help drafting their specific demand letter."
+    },
+    {
+      "scenario": "first_apartment_question_twitter",
+      "tone": "helpful, light, link-friendly",
+      "template_text": "Big move! 🎉 The three things most first-timers skip: (1) document the unit on move-in day with timestamped photos, (2) budget 3–4× monthly rent in cash before signing, (3) read sections 8 and 9 of your lease. Full first-renter guide → [link]",
+      "cta_type": "contextual_link",
+      "linking_article_hint": "/blog/first-time-renters-guide/",
+      "followup_commitment": "Engage with any follow-up question on-thread."
+    },
+    {
+      "scenario": "rent_too_high_question_linkedin",
+      "tone": "professional, data-driven",
+      "template_text": "Short answer: if all-in housing cost exceeds 35% of net (after-tax) income, the apartment is unaffordable, full stop. We updated our affordability guide in 2026 with calculator and 4 budget scenarios:\n[link]\n\nQuick rule: net income × 0.25 = sustainable rent ceiling.",
+      "cta_type": "contextual_link",
+      "linking_article_hint": "/blog/how-much-rent-can-i-afford/",
+      "followup_commitment": "Engage with professional discussion in comments."
+    },
+    {
+      "scenario": "lease_clause_question_quora",
+      "tone": "educational, citation-friendly",
+      "template_text": "Section [X] of your lease is one of the most negotiated clauses. In plain language: [explanation]. The clause you described is enforceable in [N] states and unenforceable in [M]. Best practice: [negotiation tip]. A longer breakdown of the 8 lease sections every renter should read: [link]",
+      "cta_type": "contextual_link",
+      "linking_article_hint": "/blog/understanding-a-lease-agreement/",
+      "followup_commitment": "Offer to review the specific clause (redacted) in replies."
+    }
+  ],
+  "response_templates_count": 5,
+  "trending_alert_keywords": [
+    "rent strike",
+    "rent control",
+    "eviction moratorium",
+    "security deposit lawsuit",
+    "class action landlord",
+    "fair housing violation",
+    "new rent law",
+    "rent stabilization",
+    "interest rate cut mortgage",
+    "renters insurance law change",
+    "voucher discrimination ban",
+    "landlord registration",
+    "bedbug law",
+    "lead paint disclosure",
+    "mold disclosure",
+    "Section 8 expansion",
+    "renters tax credit",
+    "build-to-rent",
+    "apartment rent cap",
+    "renters bill of rights",
+    "tenant protection act",
+    "housing court reform"
+  ],
+  "trending_alert_keywords_count": 22,
+  "trending_alert_workflow": {
+    "trigger": "Mention velocity > X/hour OR keyword in headline on Hacker News / major news.",
+    "step_1_detect": "Mention Web or Brand24 sets alert.",
+    "step_2_route": "Slack #trending-alerts channel + email to content lead.",
+    "step_3_respond": "If news cycle, publish a 'state of the law' update article within 48 hours via Cheat Code #14 (Trend Surfer).",
+    "step_4_distribute": "Within 24 hours, atomize the update via Cheat Code #09 across the channels defined here.",
+    "step_5_engage": "Lead 3–5 community threads on the topic; reference the new article as the canonical guide."
+  },
+  "posting_schedule": {
+    "Twitter": {
+      "optimal_times_local": ["08:00", "12:30", "17:30", "21:00"],
+      "frequency_per_day": 4,
+      "best_days": ["Tuesday", "Wednesday", "Thursday"],
+      "content_mix": "0.5 evergreen + 0.3 atomized + 0.2 engagement-only"
+    },
+    "LinkedIn": {
+      "optimal_times_local": ["07:30", "12:00", "17:00"],
+      "frequency_per_day": 1,
+      "best_days": ["Tuesday", "Wednesday", "Thursday"],
+      "content_mix": "0.6 long-form + 0.4 atomized"
+    },
+    "Reddit": {
+      "optimal_times_local": ["09:00", "13:00", "20:00"],
+      "frequency_per_day": "2 replies, 1 original per week",
+      "best_days": ["Saturday", "Sunday", "Monday"],
+      "content_mix": "Engagement-first; 90% answers, 10% original helpful threads."
+    },
+    "Facebook_Groups": {
+      "optimal_times_local": ["08:00", "12:00", "19:00"],
+      "frequency_per_day": 1,
+      "best_days": ["Wednesday", "Thursday", "Sunday"],
+      "content_mix": "Mostly answers; original posts gated by group rules."
+    },
+    "Quora": {
+      "optimal_times_local": ["10:00", "15:00", "21:00"],
+      "frequency_per_day": 2,
+      "best_days": ["Tuesday", "Thursday"],
+      "content_mix": "Topical answers to high-follower questions, link in followup profile, not body."
+    },
+    "TikTok_Reels_Shorts": {
+      "optimal_times_local": ["11:00", "19:00", "22:00"],
+      "frequency_per_day": 1,
+      "best_days": ["Tuesday", "Wednesday", "Saturday", "Sunday"],
+      "content_mix": "Atomized how-to scripts from Cheat Code #09."
+    },
+    "YouTube_Long_Form": {
+      "optimal_times_local": ["14:00 Saturday", "11:00 Sunday"],
+      "frequency_per_week": 1,
+      "best_days": ["Saturday", "Sunday"],
+      "content_mix": "Atomizer's long-form scripts when Cheat Code #04 ghost writers ship."
+    }
+  },
+  "monitoring_tools_stack": {
+    "primary_social_listening": ["Brand24", "Mention", "Talkwalker"],
+    "reddit_native_tools": ["Reddit Listento (RSS)", "ModTools", "iffiff"],
+    "subreddit_engagement": ["Late Night IM", "narrow"],
+    "alerting": ["Slack incoming webhook", "PagerDuty low-tier", "Email digest 09:00 daily"],
+    "analytics_dash": "Looker Studio connecting Search Console + GA4 + social referral"
+  },
+  "engagement_policies": {
+    "no_promotion_in_first_post": true,
+    "must_answer_first_link_second": true,
+    "max_links_per_response": 1,
+    "self_disclosure_required_on_first_reply": "I work on RentingExplained, a free renter education site.",
+    "disclosure_examples": {
+      "reddit": "I'm one of the writers at RentingExplained. We make money through ads, so the content has to be useful on its own. I tried to keep the answer useful even without the link.",
+      "facebook_group": "Author of a renter-ed site — happy to share the page if helpful.",
+      "quora": "Disclosure: I write for a renter-education site. Free, no email gate."
+    },
+    "handle_negative_sentiment": "Acknowledge, never argue, offer to escalate privately; never publish landlord names or addresses.",
+    "antagonist_handling": "If challenged on self-promotion, offer to remove the link; preserve the goodwill for future."
+  },
+  "kpis": {
+    "monthly_qualified_visits": 5000,
+    "monthly_brand_mentions": 200,
+    "monthly_backlinks_attributable": 25,
+    "trending_alert_response_time_hours": 6,
+    "average_response_rate_pct": 95
+  },
+  "feedback_loop": {
+    "weekly_review": "Monday 10:00 — last 7d mentions, sentiment, top questions, content gaps.",
+    "hand_off_to_hydra": "If the same question appears in 5+ threads, queue an article for Cheat Code #01.",
+    "hand_off_to_atlas": "If a data point is asked 5+ times, queue a data study for Cheat Code #07 (Entity Heist)."
+  }
+}

@@ -1,0 +1,10 @@
+{{- /* step.html — Individual step inside a howto wrapper; collects into Page.Store for HowTo JSON-LD */ -}}
+{{- /* Usage: {{< step title="Step Title" >}}Description body here{{< /step >}} */ -}}
+{{- $title := .Get "title" | default (.Get 0) | default "" -}}
+{{- $body := .Inner | strings.TrimSpace -}}
+{{- /* Append to Page.Store "howto-steps" slice for later JSON-LD rendering */ -}}
+{{- .Page.Store.Add "howto-steps" (slice (dict "name" $title "text" $body)) -}}
+<li class="howto-step">
+  <strong class="block text-gray-900 font-semibold">{{ $title }}</strong>
+  <div class="text-gray-700 text-sm leading-relaxed mt-1">{{ $body | markdownify }}</div>
+</li>

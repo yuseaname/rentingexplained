@@ -1,0 +1,20 @@
+{{- /* howto.html — HowTo wrapper shortcode that collects steps into Page.Store */ -}}
+{{- /* Usage: {{< howto title="How to Do X" totalTime="PT30M" >}}{{< step title="Step 1" >}}Desc{{< /step >}}{{< /howto >}} */ -}}
+{{- $title := .Get "title" | default (.Get 0) | default .Page.Title -}}
+{{- $totalTime := .Get "totalTime" | default "" -}}
+{{- $steps := .Page.Store.Get "howto" -}}
+{{- if not $steps -}}
+  {{- $steps := slice -}}
+{{- end -}}
+{{- $inner := .Inner | strings.TrimSpace | markdownify -}}
+<div class="howto-block my-6 rounded-lg border border-emerald-200 bg-emerald-50/40 p-5">
+  <h2 class="text-xl font-bold text-gray-900 mb-3">📘 {{ $title }}</h2>
+  <ol class="howto-steps list-decimal pl-5 space-y-3">
+    {{ .Inner | safeHTML }}
+  </ol>
+</div>
+{{- .Page.Store.Add "howto-title" $title -}}
+{{- if $totalTime -}}
+  {{- .Page.Store.Add "howto-time" $totalTime -}}
+{{- end -}}
+{{- .Page.Store.Add "howto-rendered" true -}}

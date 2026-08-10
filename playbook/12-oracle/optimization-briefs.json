@@ -1,0 +1,1040 @@
+[
+  {
+    "slug": "2025-rental-cost-index-by-state",
+    "current_title": "2025 Rental Cost Index by State: Average Rent, Deposits, and Move-In Costs",
+    "issues": [
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "apartment-approval-requirements",
+    "current_title": "Apartment Approval Requirements: What Landlords Look For (2026)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "apartment-lease-agreement-explained",
+    "current_title": "Apartment Lease Agreement Explained: Key Clauses Every Renter Should Know",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "apartment-move-in-costs",
+    "current_title": "Apartment Move-In Costs: Checklist and Budget Guide (2025)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "apartment-move-out-checklist",
+    "current_title": "Apartment Move-Out Checklist: Photos, Cleaning, Utilities",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "apartment-tour-checklist-questions-red-flags",
+    "current_title": "Apartment Tour Checklist: Questions to Ask and Red Flags to Spot",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "apartment-utility-costs",
+    "current_title": "Apartment Utility Costs: How to Lower Monthly Bills Without Breaking Your Lease",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "best-apps-and-tools-for-renters",
+    "current_title": "Best Apps and Tools for Renters in 2025: Complete Comparison Guide",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1255 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "breaking-a-lease-without-penalty-2025",
+    "current_title": "Breaking a Lease Without Penalty: Legal Options and Safer Steps (2025)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "eviction-process-explained",
+    "current_title": "The Eviction Process Explained: Timeline, Rights, and Defenses",
+    "issues": [
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "first-apartment-checklist-budget-guide",
+    "current_title": "First Apartment Budget Guide: What to Buy and What to Skip",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "first-apartment-checklist-guide-2025",
+    "current_title": "First Apartment Checklist: A Practical Move-In Guide (2025)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "first-time-renters-guide",
+    "current_title": "First-Time Renter's Guide: What to Know Before You Sign",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "hidden-apartment-fees",
+    "current_title": "Hidden Apartment Fees: The Complete Guide to Avoiding Surprise Costs in 2026",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1128 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "hidden-rental-fees-explained",
+    "current_title": "Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-much-rent-can-i-afford",
+    "current_title": "How Much Rent Can I Afford? A Realistic Budget Guide (2026)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-much-to-spend-on-rent",
+    "current_title": "How Much Should You Spend on Rent?",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-to-break-lease-early",
+    "current_title": "How to Break a Lease Early: Legal Options and Safer Steps",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-to-break-lease",
+    "current_title": "How to Break a Lease Without Ruining Your Credit",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-to-get-security-deposit-back",
+    "current_title": "How to Get Your Security Deposit Back",
+    "issues": [
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-to-negotiate-rent-guide",
+    "current_title": "How to Negotiate Rent in 2025: Practical Scripts and Timing Tips",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "how-to-report-rent-to-credit-bureaus",
+    "current_title": "How to Report Rent to Credit Bureaus: Complete 2026 Guide",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1019 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "landlord-entry-notice-requirements",
+    "current_title": "Landlord Notice to Enter: How Much Notice Is Required? (2026)",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1382 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "lease-renewal-vs-moving-out",
+    "current_title": "Lease Renewal vs. Moving Out: How to Make the Right Call",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "minimum-income-to-rent-apartment",
+    "current_title": "Minimum Income to Rent an Apartment (2026 Data)",
+    "issues": [
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "month-to-month-lease-guide",
+    "current_title": "Month-to-Month Leases: Rights, Risks, and When It Makes Sense",
+    "issues": [
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "normal-wear-and-tear-vs-damage",
+    "current_title": "Normal Wear and Tear vs. Damage: What Landlords Can Charge For",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "notice-to-vacate-letter-template",
+    "current_title": "Notice to Vacate Letter Template: What to Include (2026)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "proof-of-income-for-apartments",
+    "current_title": "Proof of Income for Apartments (2026 Guide)",
+    "issues": [
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "rent-increase-renewal-guide",
+    "current_title": "Rent Increase Notice: How to Respond at Renewal (2025)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "rental-application-checklist",
+    "current_title": "Rental Application Checklist: Documents, Fees, and Timing",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "rental-scams-how-to-avoid",
+    "current_title": "Rental Scams Explained: How to Spot Fake Listings and Stay Safe",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "renters-insurance-cost-2025",
+    "current_title": "Renters Insurance Cost in 2025: Coverage Basics and Ways to Save",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "renters-rights-guide",
+    "current_title": "Renter's Rights: What Your Landlord Cannot Legally Do",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "renting-vs-buying-2025",
+    "current_title": "Renting vs Buying in 2025: A Practical Decision Guide",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "outdated_data",
+        "recommendation": "Update title and content references from 2025 to 2026",
+        "priority": "high",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "renting-with-bad-credit-options",
+    "current_title": "Renting With Bad Credit: Options, Cosigners, and What Helps",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "roommate-agreement-template",
+    "current_title": "Roommate Agreement Template: What to Include",
+    "issues": [
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "section-8-housing-vouchers-explained",
+    "current_title": "Section 8 Housing Vouchers Explained: How to Apply and What to Expect",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "security-deposit-deductions-explained",
+    "current_title": "Security Deposit Deductions Explained: What's Legal and What's Not",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "security-deposit-return-timeline",
+    "current_title": "Security Deposit Return Timeline: What to Expect (2026)",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "security-deposits-and-evictions-overview",
+    "current_title": "Understanding Security Deposits and Evictions: A General Education Guide",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "security-deposits-complete-guide",
+    "current_title": "Security Deposits: The Complete Guide for Renters",
+    "issues": [
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "security-deposits-guide",
+    "current_title": "Security Deposits: How to Get Yours Back",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1393 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "subleasing-apartment-guide",
+    "current_title": "Subleasing an Apartment: How It Works and Your Rights",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "tenant-rights-by-state-overview",
+    "current_title": "How Tenant Rights Differ by State: An Overview Guide",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1433 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "tenant-rights-everyone-should-know",
+    "current_title": "Tenant Rights Basics: Core Rights Every Renter Should Know",
+    "issues": [
+      {
+        "issue": "short_content",
+        "recommendation": "Expand from 1232 to 1800+ words with examples, FAQ, and state-specific details",
+        "priority": "high",
+        "estimated_effort_hours": 2
+      },
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "tenant-rights-when-landlord-won-t-make-repairs",
+    "current_title": "Tenant Rights When Your Landlord Won't Make Repairs",
+    "issues": [
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "tenant-screening-credit-checks-for-renters",
+    "current_title": "Tenant Screening and Credit Checks for Renters: What Landlords Look For",
+    "issues": [
+      {
+        "issue": "thin_section",
+        "recommendation": "Add comparison tables, FAQ section, and practical examples to increase depth",
+        "priority": "medium",
+        "estimated_effort_hours": 1.5
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  },
+  {
+    "slug": "understanding-a-lease-agreement",
+    "current_title": "Understanding a Lease Agreement: A Guide for Tenants",
+    "issues": [
+      {
+        "issue": "missing_faq",
+        "recommendation": "Add 3-5 FAQ items using shortcode for FAQPage schema",
+        "priority": "high",
+        "estimated_effort_hours": 1
+      },
+      {
+        "issue": "missing_internal_links",
+        "recommendation": "Verify and add internal links to related articles within same category",
+        "priority": "low",
+        "estimated_effort_hours": 0.5
+      },
+      {
+        "issue": "missing_schema",
+        "recommendation": "Add HowTo schema if article contains step-by-step instructions",
+        "priority": "medium",
+        "estimated_effort_hours": 0.5
+      }
+    ]
+  }
+]
