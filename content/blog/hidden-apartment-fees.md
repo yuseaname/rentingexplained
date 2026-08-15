@@ -6,8 +6,8 @@ date: 2026-03-19
 author: "RentingExplained Editorial Team"
 categories: ["Costs"]
 tags: ["hidden-fees", "apartment-costs", "budgeting", "lease-signing", "move-in-costs"]
-image: "/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.webp"
-imageAlt: "Clipboard and calculator representing a breakdown of hidden apartment fees"
+image: "/images/makeover/art-hidden-apartment-fees.webp"
+imageAlt: "Magnifying glass revealing suspicious fee tags on an oversized invoice"
 readingTime: 12
 ---
 

@@ -4,6 +4,8 @@ slug: "start-here"
 description: "Never rented before? Follow this step-by-step path through budgeting, documents, apartment hunting, lease signing, and move-in day."
 date: 2026-08-10
 lastmod: 2026-08-10
+image: "/images/makeover/start-here-hero.webp"
+imageAlt: "Illustrated first steps of the renting journey with a map, keys, and moving box"
 layout: "single"
 ---
 

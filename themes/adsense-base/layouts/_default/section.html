@@ -11,6 +11,11 @@
       {{ with .Params.description }}<p class="text-lg mt-2 max-w-2xl">{{ . }}</p>{{ end }}
       {{ $count := len (where .RegularPages ".Kind" "page") }}
       <p class="text-sm mt-3 opacity-80">{{ $count }} guide{{ if ne $count 1 }}s{{ end }} available</p>
+      {{ with .Params.image }}
+      <div class="mt-5 overflow-hidden rounded-2xl shadow-md max-w-3xl">
+        <img src="{{ . }}" alt="{{ $.Params.imageAlt | default $.Title }}" class="w-full max-h-64 object-cover" loading="lazy" width="1536" height="1024">
+      </div>
+      {{ end }}
     </header>
   </div>
 

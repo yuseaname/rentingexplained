@@ -4,6 +4,8 @@ slug: "lease-red-flag-scanner"
 description: "Paste a lease clause and quickly identify common warning signs and unfair terms."
 date: 2026-08-10
 lastmod: 2026-08-10
+image: "/images/makeover/tool-lease-scanner.webp"
+imageAlt: "Flat icon of a document under a scanning beam with a flag marker"
 layout: "single-wide"
 eyebrow: "Tool"
 ---

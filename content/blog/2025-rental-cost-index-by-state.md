@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "Marcus Webb"
 categories: ["Financial Planning"]
 tags: ["rent-budget", "apartment-costs", "financial-planning", "hidden-costs", "rent-costs"]
-image: "/images/rentingexplained-appcostspagetsx-hero-03d24de1aaff.webp"
-imageAlt: "Stack of bills and a lease representing rental cost analysis"
+image: "/images/makeover/art-rental-cost-index-map.webp"
+imageAlt: "Stylized US map with house icons and coin stacks by state"
 readingTime: 16
 ---
 

@@ -7,6 +7,8 @@ lastmod: 2026-08-10
 layout: "single-wide"
 eyebrow: "Reference"
 aliases: ["/laws"]
+image: "/images/makeover/rights-hero.webp"
+imageAlt: "Illustrated set of renter rights reference documents and a balance scale"
 ---
 
 # State renting laws

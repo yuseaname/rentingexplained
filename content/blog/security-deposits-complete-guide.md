@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "tenant-rights", "move-out", "legal", "renter-protections"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Hand signing a lease with a security deposit check on the table"
+image: "/images/makeover/art-security-deposits-complete.webp"
+imageAlt: "Landlord and renter shaking hands over key and envelope on move-in day"
 readingTime: 22
 ---
 

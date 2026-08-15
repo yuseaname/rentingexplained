@@ -4,28 +4,23 @@ slug: "security-deposits-guide"
 description: "What a landlord can and can't deduct from your security deposit, how to protect it from day one, and how to get it returned."
 date: 2026-05-10
 lastmod: 2026-08-09
+image: "/images/makeover/art-security-deposit-return.webp"
+imageAlt: "Renter receiving a returned deposit envelope with coins and keys on the table"
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
-tags: 
+tags:
   - "security-deposit"
   - "deposit-return"
   - "move-out"
   - "tenant-rights"
   - "legal"
-image: "/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.webp"
-imageAlt: "Money and a move-out checklist representing a security deposit refund"
----
-
----
-title: "Security Deposits: How to Get Yours Back (Complete Guide)"
-description: "Your landlord is holding hundreds or thousands of your dollars. Here's exactly how to protect your security deposit and get it returned in full."
 ---
 
 # Security Deposits: How to Get Yours Back (Complete Guide)
 
 Your security deposit could be $1,000, $2,000, or more. Don't lose it to "cleaning fees" or questionable deductions. Here's how to protect yourself.
 
-<img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&h=630&fit=crop&q=80" alt="Money being returned for security deposit" width="1200" height="630" loading="lazy" />
+<img src="/images/makeover/art-security-deposit-return.webp" alt="Renter receiving a returned deposit envelope with coins and keys on the table" width="1536" height="1024" loading="lazy" />
 
 ## Table of Contents
 

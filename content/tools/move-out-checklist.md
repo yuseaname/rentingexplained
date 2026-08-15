@@ -4,6 +4,8 @@ slug: "move-out-checklist"
 description: "An interactive checklist to protect your security deposit and document the condition of your rental when you leave."
 date: 2026-08-10
 lastmod: 2026-08-10
+image: "/images/makeover/tool-move-out.webp"
+imageAlt: "Flat icon of a moving box with checklist clipboard and key on top"
 layout: "single-wide"
 eyebrow: "Tool"
 ---

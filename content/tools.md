@@ -4,6 +4,8 @@ slug: "tools"
 description: "Free calculators, estimators, and checklists to help you budget, compare costs, and spot lease red flags before you sign."
 date: 2026-08-10
 lastmod: 2026-08-10
+image: "/images/makeover/tools-hero.webp"
+imageAlt: "Illustrated set of renter tools: calculator, checklist, and measuring tape on a workbench"
 layout: "single-wide"
 eyebrow: "Free tools"
 ---

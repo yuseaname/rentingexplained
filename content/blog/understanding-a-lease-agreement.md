@@ -12,8 +12,8 @@ tags:
   - "first-time-renter"
   - "tenant-rights"
   - "legal"
-image: "/images/rentingexplained-appaboutpagetsx-hero-d1162e5819dd.webp"
-imageAlt: "Lease agreement document with key clauses highlighted for a tenant to review"
+image: "/images/makeover/art-understanding-a-lease.webp"
+imageAlt: "Renter reading a lease through a glowing magnifying glass at a desk"
 ---
 
 <h1>Understanding a Lease Agreement: A Guide for Tenants</h1>

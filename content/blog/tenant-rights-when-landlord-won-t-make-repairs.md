@@ -12,8 +12,8 @@ tags:
   - "landlord-entry"
   - "renter-protections"
   - "lease-agreement"
-image: "/images/rentingexplained-appcorrectionspagetsx-hero-e5b8c1d4b153.webp"
-imageAlt: "Leaking pipe and repair request representing a landlord's duty to fix habitability issues"
+image: "/images/makeover/art-landlord-wont-repair.webp"
+imageAlt: "Renter holding a written repair request beside a dripping faucet"
 ---
 
 <h1>Tenant Rights When Landlord Won't Make Repairs: A Complete Guide</h1>

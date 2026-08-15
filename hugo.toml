@@ -9,7 +9,7 @@ theme = 'adsense-base'
   tagline = 'Renting, explained.'
   author = 'RentingExplained Editorial Team'
   favicon = '/favicon.ico'
-  og_image = '/images/makeover/home-hero.webp'
+  og_image = '/images/makeover/home-hero-v2.webp'
   google_site_verification = ''
 
   [params.adsense]

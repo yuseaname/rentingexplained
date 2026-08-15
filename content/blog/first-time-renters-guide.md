@@ -12,8 +12,8 @@ tags:
   - "apartment-hunting"
   - "lease-signing"
   - "checklist"
-image: "/images/rentingexplained-appguidespagetsx-hero-61f1e745a320.webp"
-imageAlt: "Person reviewing a first apartment checklist and lease documents"
+image: "/images/makeover/art-first-time-renters-guide.webp"
+imageAlt: "Excited first-time renter carrying a box into a sunlit empty apartment"
 ---
 
 ---
@@ -25,7 +25,7 @@ description: "Never rented before? Here's your complete guide: how much to budge
 
 Your first apartment is exciting — and overwhelming. Here's everything you need to know to avoid costly mistakes and find a place you'll actually love.
 
-<img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=630&fit=crop&q=80" alt="First apartment keys and welcome mat" width="1200" height="630" loading="lazy" />
+<img src="/images/makeover/art-first-time-renters-guide.webp" alt="Excited first-time renter carrying a box into a sunlit empty apartment" width="1536" height="1024" loading="lazy" />
 
 ## Table of Contents
 

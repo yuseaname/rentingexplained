@@ -12,8 +12,8 @@ tags:
   - "affordability"
   - "rent-to-income-ratio"
   - "financial-planning"
-image: "/images/rentingexplained-apptoolsrent-budget-checkerpagetsx-hero-3c475e1219a9.webp"
-imageAlt: "Calculator and budget worksheet for figuring out how much rent you can afford"
+image: "/images/makeover/art-how-much-to-spend-on-rent.webp"
+imageAlt: "Person allocating coins into labeled budget jars at a kitchen table"
 ---
 
 ---
@@ -25,7 +25,7 @@ description: "The 30% rule is outdated. Here's how to calculate what you can act
 
 The old advice is "30% of income." But that ignores your student loans, your city's cost of living, and your actual life. Here's how to figure out what YOU can afford.
 
-<img src="https://images.unsplash.com/photo-1560518883-ce090a451d58?w=1200&h=630&fit=crop&q=80" alt="Budgeting and rent affordability concept" width="1200" height="630" loading="lazy" />
+<img src="/images/makeover/art-how-much-to-spend-on-rent.webp" alt="Person allocating coins into labeled budget jars at a kitchen table" width="1536" height="1024" loading="lazy" />
 
 ## Table of Contents
 

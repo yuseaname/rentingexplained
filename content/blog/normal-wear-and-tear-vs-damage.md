@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "tenant-rights", "move-out", "legal"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Comparing a worn but clean apartment to a damaged apartment"
+image: "/images/makeover/art-normal-wear-and-tear.webp"
+imageAlt: "Side-by-side of normal wear versus real damage in an apartment"
 readingTime: 8
 ---
 

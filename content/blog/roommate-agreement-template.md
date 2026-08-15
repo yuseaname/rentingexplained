@@ -12,8 +12,8 @@ tags:
   - "lease-agreement"
   - "tenant-tips"
   - "apartment-hunting"
-image: "/images/rentingexplained-apptoolspagetsx-hero-763296c69d60.webp"
-imageAlt: "Two roommates discussing a shared living agreement at a table"
+image: "/images/makeover/art-roommate-agreement.webp"
+imageAlt: "Two roommates dividing chores at a kitchen chalkboard"
 ---
 
 <!-- IMAGE: photo — Diverse roommates reviewing a roommate agreement template at a dining table -->

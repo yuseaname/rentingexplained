@@ -12,8 +12,8 @@ tags:
   - "early-termination"
   - "tenant-rights"
   - "legal"
-image: "/images/rentingexplained-apptoolslease-red-flag-scannerpagetsx-hero-00709d673314.webp"
-imageAlt: "Tenant reviewing a lease agreement to find an early termination clause"
+image: "/images/makeover/art-how-to-break-lease.webp"
+imageAlt: "Scissors carefully cutting a paper lease on a desk, door glowing behind"
 ---
 
 ---
@@ -25,7 +25,7 @@ description: "Need to move before your lease ends? Here's how to do it legally, 
 
 Life happens. Job loss, relocation, relationship changes — sometimes you need to leave before your lease ends. Here's how to do it right.
 
-<img src="https://images.unsplash.com/photo-1560518883-ce090a451d58?w=1200&h=630&fit=crop&q=80" alt="Moving boxes and lease termination concept" width="1200" height="630" loading="lazy" />
+<img src="/images/makeover/art-how-to-break-lease.webp" alt="Scissors carefully cutting a paper lease on a desk, door glowing behind" width="1536" height="1024" loading="lazy" />
 
 ## Table of Contents
 

@@ -6,8 +6,8 @@ date: 2026-03-16
 author: "RentingExplained Editorial Team"
 categories: ["Affordable Housing"]
 tags: ["section-8", "housing-vouchers", "affordable-housing", "tenant-rights", "government-assistance"]
-image: "/images/rentingexplained-appresourcespagetsx-hero-daa00c36c4f4.webp"
-imageAlt: "Affordable housing apartment building representing the Section 8 housing voucher program"
+image: "/images/makeover/art-section-8-vouchers.webp"
+imageAlt: "Parent and child receiving a house-shaped voucher from a housing counselor"
 readingTime: 11
 ---
 

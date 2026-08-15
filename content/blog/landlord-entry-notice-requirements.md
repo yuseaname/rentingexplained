@@ -6,8 +6,8 @@ date: 2026-03-15
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["tenant-rights", "landlord-entry", "notice-to-enter", "legal", "lease-agreement"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Apartment door with a notice of entry, representing a landlord's legal notice requirement"
+image: "/images/makeover/art-landlord-entry-notice.webp"
+imageAlt: "Wall calendar with circled date beside a notice and front door"
 readingTime: 10
 ---
 

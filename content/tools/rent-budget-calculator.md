@@ -4,6 +4,8 @@ slug: "rent-budget-calculator"
 description: "Estimate how much rent you can afford based on your income and see the total cost of moving in."
 date: 2026-08-10
 lastmod: 2026-08-10
+image: "/images/makeover/tool-rent-budget.webp"
+imageAlt: "Flat icon of a calculator with a small house on its screen, coins beside it"
 layout: "single-wide"
 eyebrow: "Tool"
 ---

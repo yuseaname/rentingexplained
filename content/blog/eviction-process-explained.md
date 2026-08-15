@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["eviction", "tenant-rights", "lease-termination", "legal", "renter-protections"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Gavel and lease agreement representing eviction court process"
+image: "/images/makeover/art-eviction-process.webp"
+imageAlt: "Family with documents standing respectfully before a courthouse"
 readingTime: 12
 ---
 

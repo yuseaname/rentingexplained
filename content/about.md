@@ -4,6 +4,8 @@ slug: "about"
 description: "Renting Explained is an independent resource that helps US renters understand leases, deposits, tenant rights, and the real costs of renting — in plain language."
 date: 2025-01-01
 lastmod: 2026-08-09
+image: "/images/makeover/about-hero.webp"
+imageAlt: "Warm illustrated desk with lease documents, keys, and coffee — the Renting Explained editorial desk"
 layout: "single"
 ---
 

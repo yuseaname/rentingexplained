@@ -8,6 +8,11 @@
     <span class="eyebrow">{{ if eq .RelPermalink "/blog/" }}All guides{{ else if eq .RelPermalink "/categories/" }}Topics{{ else }}Explore{{ end }}</span>
     <h1 class="page-title">{{ .Title }}</h1>
     {{ with .Params.description }}<p class="page-sub">{{ . }}</p>{{ end }}
+    {{ with .Params.image }}
+    <div class="mt-6 overflow-hidden rounded-2xl shadow-md">
+      <img src="{{ . }}" alt="{{ $.Params.imageAlt | default $.Title }}" class="w-full max-h-64 object-cover" loading="lazy" width="1536" height="1024">
+    </div>
+    {{ end }}
 
     <!-- Lifecycle filter tabs -->
     <div class="flex flex-wrap gap-2 mt-6">

@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "David Okonkwo"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "tenant-rights", "legal", "consumer-protection"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Pile of receipts representing itemized security deposit deductions"
+image: "/images/makeover/art-security-deposit-deductions.webp"
+imageAlt: "Itemized deduction checklist with coins, magnifying glass, and tools"
 readingTime: 9
 ---
 

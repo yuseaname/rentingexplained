@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "Jenny Park"
 categories: ["Apartment Hunting"]
 tags: ["lease-agreement", "apartment-hunting", "renter-decisions", "lease-renewal", "tenant-tips"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Calendar with lease dates and a key on a desk"
+image: "/images/makeover/art-month-to-month-lease.webp"
+imageAlt: "Loose calendar pages drifting by a windowsill with coffee and plant"
 readingTime: 12
 ---
 

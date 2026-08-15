@@ -6,8 +6,8 @@ date: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["landlord-entry", "tenant-rights", "notice-to-enter", "legal", "renter-protections"]
-image: "/images/rentingexplained-applawspagetsx-hero-4964fa93b82d.webp"
-imageAlt: "Apartment door with a notice of entry taped to it"
+image: "/images/makeover/art-can-landlord-enter.webp"
+imageAlt: "Landlord sliding a written entry notice under an apartment door"
 readingTime: 12
 ---
 

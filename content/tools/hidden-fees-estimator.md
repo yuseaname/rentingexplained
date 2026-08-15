@@ -4,6 +4,8 @@ slug: "hidden-fees-estimator"
 description: "Estimate the real move-in cost for an apartment, including rent, deposit, utilities, insurance, parking, and fees."
 date: 2026-08-10
 lastmod: 2026-08-10
+image: "/images/makeover/tool-hidden-fees.webp"
+imageAlt: "Flat icon of a magnifying glass over a price tag with an alert triangle"
 layout: "single-wide"
 eyebrow: "Tool"
 ---

@@ -12,8 +12,8 @@ tags:
   - "legal"
   - "lease-agreement"
   - "safety"
-image: "/images/rentingexplained-appeditorial-policypagetsx-hero-ea0bd60f0fe3.webp"
-imageAlt: "Renter reviewing a list of tenant rights and landlord obligations"
+image: "/images/makeover/art-renters-rights-guide.webp"
+imageAlt: "Confident renter with balance scale and house shield in a doorway"
 ---
 
 ---
@@ -25,7 +25,7 @@ description: "Landlords have rules too. Here's what they're forbidden from doing
 
 Landlords have power, but they also have limits. Here's what they're legally forbidden from doing — and what to do if they cross the line.
 
-<img src="https://images.unsplash.com/photo-1560518883-ce090a451d58?w=1200&h=630&fit=crop&q=80" alt="Tenant rights and landlord boundaries" width="1200" height="630" loading="lazy" />
+<img src="/images/makeover/art-renters-rights-guide.webp" alt="Confident renter with balance scale and house shield in a doorway" width="1536" height="1024" loading="lazy" />
 
 ## Table of Contents
 
