@@ -1,0 +1,13 @@
+{{- $asin := .Get "asin" -}}
+{{- $name := .Get "name" -}}
+{{- $label := .Get "label" -}}
+{{- $desc := .Get "description" -}}
+{{- $btn := .Get "button" | default "Check price on Amazon" -}}
+{{- $tag := .Site.Params.amazon_tag | default "litwd-20" -}}
+<div class="product-box">
+  {{ with $label }}<span class="product-box-label">{{ . }}</span>{{ end }}
+  <strong class="product-box-name">{{ $name }}</strong>
+  {{ with $desc }}<p>{{ . }}</p>{{ end }}
+  <a class="product-box-cta" href="https://www.amazon.com/dp/{{ $asin }}?tag={{ $tag }}" rel="sponsored nofollow noopener" target="_blank">{{ $btn }}</a>
+  <span class="product-box-note">Price &amp; availability shown on Amazon.com — we may earn a commission.</span>
+</div>

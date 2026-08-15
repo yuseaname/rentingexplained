@@ -1948,3 +1948,17 @@ label {
 .insurance-cta-note{display:block;margin-top:10px;color:var(--color-text-muted,#6b645c);font-size:.72rem;line-height:1.4}
 .insurance-cta-note a{color:inherit;text-decoration:underline}
 @media(max-width:620px){.insurance-cta{padding:18px 16px 20px}.insurance-cta-button{display:block;width:100%;text-align:center}}
+
+/* ===== Affiliate product box (2026-08-15) ===== */
+.product-box{position:relative;margin:34px 0;padding:22px 24px 24px;border:1px solid var(--color-border);border-radius:12px;background:var(--color-parchment)}
+.product-box-label{display:inline-block;margin-bottom:10px;padding:3px 10px;border-radius:999px;background:var(--color-ink);font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--color-surface)}
+.product-box-name{display:block;margin:0 0 8px;font-size:1.25rem;line-height:1.2;color:var(--color-ink)}
+.product-box p{margin:0 0 16px;max-width:560px;color:var(--color-text);font-size:.92rem;line-height:1.55}
+.product-box-cta{display:inline-block;padding:10px 20px;border-radius:8px;background:var(--color-ink);color:var(--color-surface);font-weight:600;font-size:.95rem;text-decoration:none}
+.product-box-cta:hover{opacity:.85}
+.product-box-note{display:block;margin-top:10px;color:var(--color-text-muted,#6b645c);font-size:.72rem;line-height:1.4}
+@media(max-width:620px){.product-box{padding:18px 16px 20px}.product-box-cta{display:block;width:100%;text-align:center}}
+
+/* ===== Affiliate disclosure (2026-08-15) ===== */
+.affiliate-disclosure{margin:18px 0;padding:10px 14px;border-left:3px solid var(--color-ink);background:var(--color-parchment);font-size:.85rem;color:var(--color-text);border-radius:0 8px 8px 0}
+.affiliate-disclosure a{color:inherit;text-decoration:underline}

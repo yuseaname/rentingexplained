@@ -34,6 +34,8 @@ No statewide rent control.
 - Contact your city or county housing department for local ordinances.
 - For disputes, consider a qualified tenant-landlord attorney in your jurisdiction.
 
+{{< insurance-cta label="Renters insurance in Michigan" text="A typical policy in Michigan runs $12–20/month and covers your belongings against theft, fire, and water damage. Many leases now require proof of coverage before move-in." button="Check renters insurance rates" >}}
+
 ## Related guides
 
 - [Renter's Rights: What Your Landlord Cannot Legally Do](/blog/renters-rights-guide/)

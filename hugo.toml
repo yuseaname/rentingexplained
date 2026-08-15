@@ -4,6 +4,8 @@ title = 'Renting Explained'
 theme = 'adsense-base'
 
 [params]
+  # Central affiliate swap-point — change here, every Amazon link updates sitewide.
+  amazon_tag = 'litwd-20'
   # Insurance affiliate swap-point — set the tracked URL here once approved; every CTA updates sitewide.
   insurance_affiliate_url = 'https://www.lemonade.com/renters'
   site_name = 'Renting Explained'

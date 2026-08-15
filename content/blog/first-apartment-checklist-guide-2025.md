@@ -10,6 +10,8 @@ image: "/images/apartment-hunting/first-apartment-checklist-guide-2025/first-apa
 readingTime: 18
 ---
 
+
+{{< affiliate-disclosure >}}
 <>
 # First Apartment Checklist: A Practical Move-In Guide (2025)
 Your first apartment is exciting and a little overwhelming. It is also the moment many renters accidentally
@@ -176,6 +178,11 @@ you feel stable in week one. Upgrades can wait until you understand the space.
 - Trash bags, paper towels, and a multi-surface cleaner.
 - Vacuum or broom depending on your floors.
 - A basic tool kit for small fixes (screwdriver, measuring tape).
+
+{{< product-box asin="B07712H557" name="Command Damage-Free Hanging Variety Kit" label="Renter-safe walls" description="Hooks and picture strips for up to 19 items — hang everything without a single drilled hole or lost deposit dollar. The single most-recommended first-apartment purchase for renters." button="Check price on Amazon" >}}
+
+{{< product-box asin="B01GUDO2S6" name="Amazon Basics 65-Piece Home Tool Kit" label="The one-box fix" description="Hammer, tape measure, screwdrivers, hex keys, level — everything a first apartment throws at you, in one cheap bag. Skip the trips to borrow tools from neighbors." button="Check price on Amazon" >}}
+
 ## First-week setup plan (keep it calm)
 A simple plan prevents “stress shopping.” Your first week should focus on documenting the unit, setting up
 essentials, and learning what the apartment needs.
