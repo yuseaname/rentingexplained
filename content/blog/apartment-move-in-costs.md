@@ -163,7 +163,7 @@ Budget for boxes, cleaning supplies, and basic tools. They are cheap individuall
 
 ### Start with essentials
 
-Use the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide/) to avoid overbuying in week one.
+Use the [first apartment budget guide](/blog/first-apartment-checklist-guide-2025/) to avoid overbuying in week one.
 
 ### Example move-in budget
 

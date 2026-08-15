@@ -277,7 +277,7 @@ Unclear fees, weak maintenance answers, strong deodorizing smells, and broken lo
 
 If a unit passes your tour checklist, move to the [rental application checklist](/blog/rental-application-checklist) to prepare your documents. Then read the [tenant screening guide](/blog/tenant-screening-credit-checks-for-renters) so you understand how approvals work.
 
-For a broader renting path, visit the [Renting Guides hub](/blog/). If you want to build a long-term plan, review the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
+For a broader renting path, visit the [Renting Guides hub](/blog/). If you want to build a long-term plan, review the [first apartment budget guide](/blog/first-apartment-checklist-guide-2025/).
 
 **Disclosure:** Some resources mentioned in this guide may include affiliate partnerships. See our [disclosure](/disclosure) for details.
 

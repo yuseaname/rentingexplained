@@ -277,7 +277,7 @@ Often yes. They may call your employer or request a letter. Providing clear docu
 
 If you are still touring units, use the [apartment tour checklist](/blog/apartment-tour-checklist-questions-red-flags) first. When you are ready to apply, follow the [rental application checklist](/blog/rental-application-checklist).
 
-For broader guidance, visit the [Renting Guides hub](/blog/). If you need help with move-in costs, read the [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
+For broader guidance, visit the [Renting Guides hub](/blog/). If you need help with move-in costs, read the [first apartment budget guide](/blog/first-apartment-checklist-guide-2025/).
 
 **Disclosure:** Some resources mentioned in this guide may include affiliate partnerships. See our [disclosure](/disclosure) for details.
 

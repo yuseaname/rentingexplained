@@ -207,7 +207,7 @@ The deposit and first month's rent are not the full picture. There are several h
 | Moving costs | $200–$1,500 | Move-in day |
 | New furniture | $500–$3,000+ | First month |
 
-For a complete list, see our [hidden rental fees guide](/blog/hidden-rental-fees-explained) and our [first apartment budget guide](/blog/first-apartment-checklist-budget-guide).
+For a complete list, see our [hidden rental fees guide](/blog/hidden-rental-fees-explained) and our [first apartment budget guide](/blog/first-apartment-checklist-guide-2025/).
 
 ## How to Reduce Your Move-In Cost
 
