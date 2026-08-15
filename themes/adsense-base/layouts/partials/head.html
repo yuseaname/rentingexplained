@@ -86,6 +86,9 @@
 {{- end -}}
 
 {{/* Schema.org structured data */}}
+{{/* Force content render so shortcode Page.Store data (FAQ/HowTo) exists when head.schema reads it */}}
+{{- if not .IsSection }}{{ with .RawContent }}{{ end }}{{ end -}}
+{{- $content := .Content }}{{ with $content }}{{ end -}}
 {{- partial "head.schema.html" . -}}
 
 {{/* Google AdSense */}}
