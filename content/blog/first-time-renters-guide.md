@@ -312,6 +312,8 @@ Cons:
 
 ---
 
+{{< insurance-cta >}}
+
 ## Checklist: Before You Sign
 
 - [ ] You've seen the actual unit

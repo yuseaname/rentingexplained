@@ -263,6 +263,8 @@ That is a budget advantage. Remove those items from your list and spend intentio
 
 Prioritize sleep, hygiene, and the ability to eat simple meals at home. A basic bed setup, bathroom essentials, and a minimal kitchen kit cover most daily needs. After that, add storage and lighting. Decor can wait. If you need help deciding what is essential, use the [First Apartment Checklist](/blog/first-apartment-checklist-guide-2025) as your baseline.
 
+{{< insurance-cta label="Landlords require this" text="Most leases now make renters insurance a move-in condition — and the move-in cost stack (deposit, first month, fees) is exactly when to bundle it. ~$12–20/month, proof in minutes." button="Check renters insurance rates" >}}
+
 ## Next steps {#next-steps}
 
 - Estimate your upfront cash with [Apartment Move-In Costs](/blog/apartment-move-in-costs) and the [Hidden Fees Estimator](/blog/hidden-apartment-fees).

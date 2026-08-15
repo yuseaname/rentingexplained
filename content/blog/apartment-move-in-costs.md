@@ -338,6 +338,8 @@ Some landlords require proof before keys are handed over. Ask when it must be ac
 
 </script>
 
+{{< insurance-cta label="Landlords require this" text="Most leases now make renters insurance a move-in condition — and the move-in cost stack (deposit, first month, fees) is exactly when to bundle it. ~$12–20/month, proof in minutes." button="Check renters insurance rates" >}}
+
 ## Next steps
 
 Move-in costs feel big, but they are manageable with a simple plan. Start with the big three payments, ask for a full fee list in writing, and buy essentials first.

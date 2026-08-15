@@ -346,6 +346,8 @@ Yes. A complete packet, clear move-in date, and stable income proof are the fast
 
 </script>
 
+{{< insurance-cta label="Approval tip" text="Many landlords ask for proof of renters insurance with your application. Having a policy quote ready makes your application file complete — ~$12–20/month." button="Get a quote ready" >}}
+
 ## Next steps
 
 - Use the [Rental Application Checklist](/blog/rental-application-checklist/) to build your packet.

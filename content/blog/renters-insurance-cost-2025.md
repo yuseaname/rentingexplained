@@ -273,6 +273,8 @@ Shareable line: "I got Solid on the RentingExplained quiz - worth checking."
 **Locked In:** You are organized and ready to buy with confidence.
 Shareable line: "I got Locked In on the RentingExplained quiz - worth checking."
 
+{{< insurance-cta >}}
+
 ## FAQ
 
 ### Is renters insurance required?

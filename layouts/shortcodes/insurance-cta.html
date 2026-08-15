@@ -1,0 +1,10 @@
+{{- $url := .Site.Params.insurance_affiliate_url | default "https://www.lemonade.com/renters" -}}
+{{- $label := .Get "label" | default "Renters insurance, fast" -}}
+{{- $text := .Get "text" | default "A typical policy runs $12–20/month and most landlords now require proof before move-in. Get a quote in about 90 seconds." -}}
+{{- $btn := .Get "button" | default "Get a renters insurance quote" -}}
+<div class="insurance-cta">
+  <span class="insurance-cta-label">{{ $label }}</span>
+  <p>{{ $text }}</p>
+  <a class="insurance-cta-button" href="{{ $url }}" rel="sponsored nofollow noopener" target="_blank">{{ $btn }} →</a>
+  <span class="insurance-cta-note">We may earn a commission if you get a quote through this link — the price stays the same for you. See our <a href="/disclosure/">disclosure</a>.</span>
+</div>
