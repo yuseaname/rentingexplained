@@ -6,6 +6,7 @@ date: 2026-08-10
 lastmod: 2026-08-10
 layout: "single-wide"
 eyebrow: "Reference"
+aliases: ["/laws"]
 ---
 
 # State renting laws

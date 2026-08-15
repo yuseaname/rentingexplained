@@ -6,6 +6,7 @@ date: 2026-08-10
 lastmod: 2026-08-10
 layout: "single-wide"
 eyebrow: "Tool"
+aliases: ["/tools/rent-budget-checker"]
 ---
 
 # Rent Budget Calculator

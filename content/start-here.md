@@ -66,7 +66,7 @@ Renting for the first time can feel like everyone else already knows the rules. 
     <div class="step-content">
       <h3>5. Document and move in</h3>
       <p>Protect your security deposit by photographing the unit at move-in, keeping receipts, and knowing how to report problems in writing.</p>
-      <p><a href="/blog/apartment-move-in-checklist/">Read: Apartment Move-In Checklist →</a></p>
+      <p><a href="/blog/first-apartment-checklist-guide-2025/">Read: Apartment Move-In Checklist →</a></p>
     </div>
   </div>
 </div>

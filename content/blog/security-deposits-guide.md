@@ -12,7 +12,7 @@ tags:
   - "move-out"
   - "tenant-rights"
   - "legal"
-image: "/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.png"
+image: "/images/rentingexplained-apptoolshidden-fees-estimatorpagetsx-hero-ce5f731a2063.webp"
 imageAlt: "Money and a move-out checklist representing a security deposit refund"
 ---
 

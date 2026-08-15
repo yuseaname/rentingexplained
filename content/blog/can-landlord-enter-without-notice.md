@@ -259,7 +259,7 @@ In some states, you can sue for:
 
 For straightforward cases, small claims court allows you to sue for damages without an attorney.
 
-For a broader overview of your rights, see our [tenant rights guide](/blog/renters-rights-everyone-should-know) and our [renters rights guide](/blog/renters-rights-guide).
+For a broader overview of your rights, see our [tenant rights guide](/blog/tenant-rights-everyone-should-know) and our [renters rights guide](/blog/renters-rights-guide).
 
 ## Special Cases
 
