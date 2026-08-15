@@ -12,7 +12,6 @@
     {{- $clean = strings.Replace $clean `</nav>` "" 1 -}}
     {{- $clean = strings.TrimSpace $clean -}}
     {{- $clean = strings.Replace $clean "<ul>" "<ul>" 1 -}}
-    {{- $clean | strings.TrimSpace -}}
     {{- $clean | safeHTML -}}
   </div>
 </nav>

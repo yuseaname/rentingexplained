@@ -536,3 +536,52 @@ Typically: salary/wages, self-employment income, Social Security, disability ben
 - Understand every approval factor in [Apartment Approval Requirements](/blog/apartment-approval-requirements/).
 
 <p><em>This guide is for general informational purposes only and does not constitute legal, financial, or tax advice. Rental requirements vary by property, market, and jurisdiction. Consult a qualified professional for advice specific to your situation. Data sourced from U.S. Census Bureau, Visual Capitalist, Zillow, RentCafe, Apartment List, NELP, NLIHC, DOL, and iPropertyManagement — compiled April 2026.</em></p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the 3x rent rule based on gross or net income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Almost always gross income (before taxes). But your personal budget should always be based on net income (what you actually take home). The gap between the two is where renters get into trouble."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do all landlords use the 3x rent rule?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It's the most common standard, but individual landlords may use 2.5x or have no set formula. Corporate-managed properties are the most likely to enforce strict 3x or 3.5x. Always ask before applying."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I still get approved if I don't meet the 3x income requirement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — especially with private landlords. A cosigner, larger deposit, strong savings, excellent rental history, or a well-written cover letter can make the difference. In 2026's cooling market, landlords have more incentive to be flexible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What income do I need for a $1,800 apartment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the standard 3x rule, you need $5,400/month gross income ($64,800/year) to qualify for a $1,800/month apartment. However, after taxes and deductions, that rent may consume 40-50% of your actual take-home pay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What counts as income for a rental application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically: salary/wages, self-employment income, Social Security, disability benefits, veterans benefits, alimony, child support, investment income, and housing vouchers (in jurisdictions with source-of-income protections)."
+      }
+    }
+  ]
+}
+</script>
