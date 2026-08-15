@@ -178,6 +178,8 @@ deposit return timeline guide
 as a starting point, then verify locally.
 ### Should I put everything in writing?
 Yes. Written communication creates a record and reduces misunderstandings.
+Deep-dive your state: [California tenant rights](/blog/california-tenant-rights/), [New York tenant rights](/blog/new-york-tenant-rights/), or [Texas tenant rights](/blog/texas-tenant-rights/).
+
 ## Next steps
 The goal is calm, factual communication backed by documentation. Use the resources below to plan your next move
 and confirm the rules where you live.

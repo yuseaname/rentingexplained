@@ -122,6 +122,8 @@ imageAlt: "Budget calculator, rental listings, and apartment search documents ar
 *The 3× column (bolded) is the most common requirement. To see how rent fits your overall budget, read [How Much Rent Can I Afford?](/blog/how-much-rent-can-i-afford/) or use the [Rent Budget Calculator](/tools/rent-budget-calculator/).*
 </div>
 
+<p><strong>Want your number, not the table's?</strong> The <a href="/tools/rent-budget-calculator/">Rent Budget Calculator</a> turns your actual take-home pay into a rent range in about 30 seconds — including the utilities and fees most landlords won't mention until move-in. It's the same math landlords use, pointed in your favor.</p>
+
 ---
 
 ## How to Calculate Your Minimum Income {#how-to-calculate}
@@ -418,7 +420,7 @@ imageAlt: "Budget calculator, rental listings, and apartment search documents ar
 <p>Don't start blasting applications and burning application fees. Take a strategic approach:</p>
 
 <h3>1. Calculate the total monthly cost, not just rent</h3>
-<p>An apartment at $1,600/month with all utilities included often costs less than a $1,400/month place where you pay electric, gas, water, trash, parking, and pet fees separately. Always compare <strong>total monthly housing cost</strong>, not just the listed rent.</p> Our [Hidden-Fees Estimator](/tools/hidden-fees-estimator/) helps you add up utilities, parking, pet fees, and other monthly charges.</p>
+<p>An apartment at $1,600/month with all utilities included often costs less than a $1,400/month place where you pay electric, gas, water, trash, parking, and pet fees separately. Always compare <strong>total monthly housing cost</strong>, not just the listed rent.</p> Our [Hidden-Fees Estimator](/tools/hidden-fees-estimator/) helps you add up utilities, parking, pet fees, and other monthly charges.
 
 <h3>2. Build a killer application package</h3>
 <p>Even if you're slightly under the income threshold, a polished application can win over individual landlords:</p>
@@ -518,6 +520,10 @@ Use a conservative average of your last 3–6 months. Bring bank statements and 
 It depends on the landlord. Some combine all incomes and apply the rule to the total. Others evaluate each applicant individually. Ask upfront.
 {{< /faq >}}
 
+{{< faq "What income do I need for a $1,800 apartment?" >}}
+Under the standard 3× rule, $5,400/month gross income ($64,800/year). But run the net-income version before you sign: after taxes, $1,800 in rent can consume 40–50% of what actually lands in your bank account. The [Rent Budget Calculator](/tools/rent-budget-calculator/) shows both numbers side by side.
+{{< /faq >}}
+
 {{< faq "Can a landlord ask how much I make?" >}}
 Yes, income verification is standard. Some jurisdictions limit *how* landlords verify or what sources they must accept.
 {{< /faq >}}
@@ -537,51 +543,3 @@ Typically: salary/wages, self-employment income, Social Security, disability ben
 
 <p><em>This guide is for general informational purposes only and does not constitute legal, financial, or tax advice. Rental requirements vary by property, market, and jurisdiction. Consult a qualified professional for advice specific to your situation. Data sourced from U.S. Census Bureau, Visual Capitalist, Zillow, RentCafe, Apartment List, NELP, NLIHC, DOL, and iPropertyManagement — compiled April 2026.</em></p>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is the 3x rent rule based on gross or net income?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Almost always gross income (before taxes). But your personal budget should always be based on net income (what you actually take home). The gap between the two is where renters get into trouble."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do all landlords use the 3x rent rule?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. It's the most common standard, but individual landlords may use 2.5x or have no set formula. Corporate-managed properties are the most likely to enforce strict 3x or 3.5x. Always ask before applying."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I still get approved if I don't meet the 3x income requirement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — especially with private landlords. A cosigner, larger deposit, strong savings, excellent rental history, or a well-written cover letter can make the difference. In 2026's cooling market, landlords have more incentive to be flexible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What income do I need for a $1,800 apartment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under the standard 3x rule, you need $5,400/month gross income ($64,800/year) to qualify for a $1,800/month apartment. However, after taxes and deductions, that rent may consume 40-50% of your actual take-home pay."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What counts as income for a rental application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typically: salary/wages, self-employment income, Social Security, disability benefits, veterans benefits, alimony, child support, investment income, and housing vouchers (in jurisdictions with source-of-income protections)."
-      }
-    }
-  ]
-}
-</script>

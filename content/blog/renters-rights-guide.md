@@ -334,6 +334,8 @@ Sincerely,
 
 ---
 
+Deep-dive your state: [California tenant rights](/blog/california-tenant-rights/), [New York tenant rights](/blog/new-york-tenant-rights/), or [Texas tenant rights](/blog/texas-tenant-rights/).
+
 ## Quick Reference
 
 **Illegal landlord actions:**

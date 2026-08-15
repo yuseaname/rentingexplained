@@ -201,6 +201,8 @@ writing.
 ### How do I keep track of the rules I find?
 Save the link, the date you checked it, and a short note about what it says. A simple note on your phone is
 enough.
+Deep-dive your state: [California tenant rights](/blog/california-tenant-rights/), [New York tenant rights](/blog/new-york-tenant-rights/), or [Texas tenant rights](/blog/texas-tenant-rights/).
+
 ## Next steps
 Use this guide as your map, then confirm the details locally before you take action. A little research helps you
 communicate clearly and avoid costly mistakes.
