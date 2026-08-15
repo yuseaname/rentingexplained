@@ -3,14 +3,19 @@ title: "Landlord Notice to Enter: How Much Notice Is Required? (2026)"
 slug: "landlord-entry-notice-requirements"
 description: "Learn how much notice your landlord must give before entering your apartment, when emergency entry is allowed, and what to do if they violate your rights."
 date: 2026-03-15
+lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["tenant-rights", "landlord-entry", "notice-to-enter", "legal", "lease-agreement"]
 image: "/images/makeover/art-landlord-entry-notice.webp"
 imageAlt: "Wall calendar with circled date beside a notice and front door"
-readingTime: 10
 ---
 
+> **Quick Answer**
+>
+> Most US states require **24 hours’ written notice** before a landlord may enter for non-emergency reasons. Emergencies (fire, flooding, gas leak) allow immediate entry. Your lease cannot waive the notice your state law gives you.
+>
+> Check your state’s exact rule in our [tenant rights by state overview](/blog/tenant-rights-by-state-overview/).
 If a landlord wants to enter your apartment, they typically can't just show up — most states require advance written notice. This guide explains how much notice is legally required, when landlords can enter without notice, and what to do if your landlord ignores these rules.
 
 **This guide is general information, not legal advice.** Specific rules vary significantly by state. Always check your local laws.
@@ -116,7 +121,7 @@ In states with strong tenant protections (California, Washington, New York), rep
 - Create liability for damages
 - Constitute landlord harassment under local ordinances
 
-For more on tenant rights, see our guide to [Tenant Rights Everyone Should Know](/blog/tenant-rights-everyone-should-know).
+For more on tenant rights, see our guide to [Tenant Rights Everyone Should Know](/blog/tenant-rights-everyone-should-know/).
 
 ## Your Lease and Notice Requirements
 
@@ -124,7 +129,7 @@ Your lease may specify notice requirements — but it cannot go below what state
 
 Conversely, your lease can give you *more* protection than state law. A lease clause requiring 48 hours written notice is enforceable even if state law only requires 24.
 
-**When reviewing any lease**, look for entry provisions in sections titled "Landlord's Right to Entry," "Inspection Rights," or "Access." See our complete guide to [apartment lease agreements](/blog/apartment-lease-agreement-explained) for what to look for.
+**When reviewing any lease**, look for entry provisions in sections titled "Landlord's Right to Entry," "Inspection Rights," or "Access." See our complete guide to [apartment lease agreements](/blog/apartment-lease-agreement-explained/) for what to look for.
 
 ## Frequently Asked Questions
 
@@ -147,3 +152,60 @@ This depends on your lease and state law. Many leases prohibit changing locks wi
 **Does the 24-hour notice apply to my lease's end when the landlord shows the apartment?**
 
 Yes. Showings to prospective tenants or buyers are subject to the same notice requirements as any other entry. However, if you're in your last 30 days and the landlord needs to show frequently, courts generally find that multiple showings per week with proper notice each time is reasonable.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can my landlord enter without my permission for repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with proper notice. Most states allow entry for necessary repairs after the required advance notice — typically 24 hours. You cannot unreasonably refuse legitimate repair entry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I’m not home when the landlord enters?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most states landlords may enter if you were given proper notice, even if you are absent. Keep a log of entries — you are entitled to know who entered and why."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my landlord use a master key to enter at any time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Having a key is not the same as having the legal right to enter. Using a master key without proper notice is still a violation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change my locks to prevent unauthorized entry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually not without landlord consent — many leases prohibit it. Document unauthorized entries and pursue remedies instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the notice requirement apply to apartment showings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Showings to prospective tenants or buyers follow the same notice rules as any other entry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much notice does a landlord have to give before entering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most US states require 24 hours’ written notice for non-emergency entry, though some require 48 hours (Illinois, Washington) and others only require \"reasonable\" notice (New York, Texas, Georgia)."
+      }
+    }
+  ]
+}
+</script>

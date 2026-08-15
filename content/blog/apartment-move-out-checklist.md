@@ -3,14 +3,19 @@ title: "Apartment Move-Out Checklist: Photos, Cleaning, Utilities"
 slug: "apartment-move-out-checklist"
 description: "A renter-first move-out checklist covering photos, cleaning, walkthroughs, and utilities so you protect your deposit."
 date: 2026-01-04
+lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["move-out", "security-deposit", "checklist", "tenant-rights", "moving"]
 image: "/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp"
 imageAlt: "Moving boxes in an empty apartment living room"
-readingTime: 12
 ---
 
+> **Quick Answer**
+>
+> Photos, a slow walkthrough video, and a targeted clean protect your deposit more than anything else. Document the unit empty, return keys the way your lease requires, and keep proof after you hand them over.
+>
+> Work through the full checklist with the [Move-Out Checklist tool](/tools/move-out-checklist/).
 Moving out is where most deposit problems start. The fix is not a perfect clean, it is a clear plan: document the unit, finish the basics, and leave a paper trail.
 
 This guide is general information, not legal advice. Use it as a practical checklist for your next move-out.
@@ -31,11 +36,11 @@ A timeline keeps the work small and manageable.
 
 ### Phase 1: Two to four weeks out
 
-- Give notice on time. Use the [notice to vacate template](/blog/notice-to-vacate-letter-template).
+- Give notice on time. Use the [notice to vacate template](/blog/notice-to-vacate-letter-template/).
 - Schedule a walkthrough if your landlord allows one.
 - Start a move-out folder for photos and receipts.
 
-If you are leaving before your lease ends, review [breaking a lease without penalty](/blog/breaking-a-lease-without-penalty-2025) so you understand the extra steps.
+If you are leaving before your lease ends, review [breaking a lease without penalty](/blog/breaking-a-lease-without-penalty-2025/) so you understand the extra steps.
 
 ### Phase 2: One week out
 
@@ -110,7 +115,7 @@ Focus on the areas landlords usually inspect. Perfect is not required, but visib
 
 Warning: Leaving a few trash bags behind can trigger removal fees.
 
-If you want to compare likely charges, review [hidden rental fees explained](/blog/hidden-rental-fees-explained).
+If you want to compare likely charges, review [hidden rental fees explained](/blog/hidden-rental-fees-explained/).
 
 Affiliate note: If you use a move-out cleaning service marketplace to compare quotes, we may earn a commission if you use this service (at no cost to you).
 
@@ -174,7 +179,7 @@ Utilities can cause surprise bills after you move out if they are not canceled.
 - Internet and cable
 - Renter insurance policy updates
 
-Use the [apartment utility costs guide](/blog/apartment-utility-costs) for a quick checklist of what to cancel or transfer.
+Use the [apartment utility costs guide](/blog/apartment-utility-costs/) for a quick checklist of what to cancel or transfer.
 
 Pro tip: Ask for a final meter reading or confirmation email from the utility provider when possible. It helps if a bill shows up after you leave.
 If you are unsure about the exact shutoff date, schedule it for the day after you move out so you do not lose service early.
@@ -208,7 +213,7 @@ If you have multiple keys, fobs, or parking passes, write down what you returned
 
 ### Confirm forwarding address
 
-Your security deposit and statement should go to your forwarding address. If you need a template for follow-up, see [security deposits and evictions](/blog/security-deposits-and-evictions-overview).
+Your security deposit and statement should go to your forwarding address. If you need a template for follow-up, see [security deposits and evictions](/blog/security-deposits-and-evictions-overview/).
 
 ## Communicate in writing
 
@@ -256,7 +261,7 @@ The itemized statement is the key record of deductions. Save it with your photos
 
 ### Follow up if needed
 
-If the timeline has passed, use the [security deposit return timeline guide](/blog/security-deposit-return-timeline) for a calm follow-up plan.
+If the timeline has passed, use the [security deposit return timeline guide](/blog/security-deposit-return-timeline/) for a calm follow-up plan.
 
 ### Keep a simple timeline log
 
@@ -320,10 +325,59 @@ Schedule cancellations for the day after you move out to avoid overlap and shuto
 
 ### How do I compare move-in and move-out costs?
 
-Use the [move-in cost guide](/blog/apartment-move-in-costs) to understand your total housing costs on both ends.
+Use the [move-in cost guide](/blog/apartment-move-in-costs/) to understand your total housing costs on both ends.
 
 ## Next steps
 
 A strong move-out checklist protects your deposit and your time. Focus on photos, a targeted clean, and proof of key return. Print the checklist, mark your dates, and keep photos saved after you move.
 
-If you need a notice template, start with the [notice to vacate letter](/blog/notice-to-vacate-letter-template). Track deposit timelines with the [security deposit return guide](/blog/security-deposit-return-timeline) and compare total costs using the [Hidden Fees Estimator](/blog/hidden-apartment-fees).
+If you need a notice template, start with the [notice to vacate letter](/blog/notice-to-vacate-letter-template/). Track deposit timelines with the [security deposit return guide](/blog/security-deposit-return-timeline/) and compare total costs using the [Hidden Fees Estimator](/blog/hidden-apartment-fees/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to schedule a move-out walkthrough?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your landlord and lease. If offered, take it — otherwise your photos and video serve as your record."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most common reason for deposit deductions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cleaning and damage beyond normal wear and tear. Focus on visible surfaces and document everything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I hire professional cleaners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on budget and condition. A thorough DIY clean of floors, kitchen, and bathroom is often enough."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I cancel utilities when moving out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Schedule cancellations for the day after you move out to avoid overlap fees and shutoff surprises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I compare move-in and move-out costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the move-in cost guide to total your housing costs on both ends of the tenancy."
+      }
+    }
+  ]
+}
+</script>
