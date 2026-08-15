@@ -271,3 +271,5 @@ For more detail, see:
 - Our [normal wear and tear vs. damage guide](/blog/normal-wear-and-tear-vs-damage)
 - Our [security deposit return timeline guide](/blog/security-deposit-return-timeline)
 - Our [how to get your deposit back guide](/blog/how-to-get-security-deposit-back)
+
+For your state’s exact cap and refund deadline, see the [security deposit limits by state](/blog/security-deposit-limits-by-state/) table.

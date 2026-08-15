@@ -185,3 +185,5 @@ image: "/images/how-to-get-security-deposit-back/how-to-get-security-deposit-bac
 <p>Do not let fear or apathy cause you to lose hard-earned money. Use the move-out inspection checklist and security-deduction checklist provided in this article to prepare your unit. If disputes arise, rely on your documentation and be prepared to send a formal demand letter. For further help with specific lease clauses, review our guide on <a href="/blog/understanding-a-lease-agreement">Understanding a Lease Agreement</a>, and for tenant protections in your state, see our <a href="/blog/tenant-rights-by-state-overview">Tenant Rights by State Overview</a>.</p>
 
 <p>Take action today. Review your lease, gather your photos, and ensure you are leaving your rental home in the best possible condition. You worked hard for that deposit; protect it with knowledge and persistence.</p>
+
+<p>Every state caps deposits and sets its own refund deadline — <a href="/blog/security-deposit-limits-by-state/">security deposit limits by state</a> lists all 51.</p>

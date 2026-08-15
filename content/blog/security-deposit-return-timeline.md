@@ -117,6 +117,8 @@ Warning: If you are missing paperwork, it becomes harder to challenge deductions
 
 ## Where to find your local timeline
 
+Every state sets its own cap and refund deadline — the [security deposit limits by state](/blog/security-deposit-limits-by-state/) table has all 51, statute-cited.
+
 Because timelines vary by state and city, use reliable local sources for the exact rule.
 
 ### Start with official resources

@@ -34,6 +34,8 @@ imageAlt: "Person organizing financial documents including pay stubs, bank state
 
 <p>That's it. They're not judging your career choice or your income level — they're checking that the numbers add up and the pattern is reliable. If you can demonstrate those three things, you're in good shape regardless of how you earn money.</p>
 
+<p><strong>Not sure if your income clears the bar?</strong> Run your numbers through the <a href="/tools/rent-budget-calculator/">Rent Budget Calculator</a> first — it applies the same 3× math landlords use to your actual take-home pay, so you know which rent range you qualify for before you pay a single application fee.</p>
+
 <p>→ For the full approval picture, see <a href="/blog/apartment-approval-requirements/">Apartment Approval Requirements</a>.</p>
 
 ---

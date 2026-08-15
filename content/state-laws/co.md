@@ -3,7 +3,7 @@ title: "Colorado Renting Laws"
 slug: "co"
 description: "Key renting laws for Colorado: security deposits, notice rules, rent control, and tenant rights resources."
 date: 2026-08-10
-lastmod: 2026-08-10
+lastmod: 2026-08-15
 layout: "state-laws"
 abbr: "CO"
 ---
@@ -14,7 +14,7 @@ This page summarizes the key landlord-tenant rules for **Colorado**. Local laws 
 
 ## Security deposit
 
-No statewide cap.
+2 months' rent (C.R.S. §38-12-102.5, since 2023). Refund due within 30 days (60 if tenant can only be reached by mail); bad-faith withholding = 3x penalty after written demand.
 
 ## Landlord entry
 

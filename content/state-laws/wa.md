@@ -3,7 +3,7 @@ title: "Washington Renting Laws"
 slug: "wa"
 description: "Key renting laws for Washington: security deposits, notice rules, rent control, and tenant rights resources."
 date: 2026-08-10
-lastmod: 2026-08-10
+lastmod: 2026-08-15
 layout: "state-laws"
 abbr: "WA"
 ---
@@ -14,7 +14,7 @@ This page summarizes the key landlord-tenant rules for **Washington**. Local law
 
 ## Security deposit
 
-No statewide cap.
+No cap, but a fixed 30-day return deadline applies since July 2023; deposit must be held in a trust account with receipt.
 
 ## Landlord entry
 

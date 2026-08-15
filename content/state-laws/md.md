@@ -3,7 +3,7 @@ title: "Maryland Renting Laws"
 slug: "md"
 description: "Key renting laws for Maryland: security deposits, notice rules, rent control, and tenant rights resources."
 date: 2026-08-10
-lastmod: 2026-08-10
+lastmod: 2026-08-15
 layout: "state-laws"
 abbr: "MD"
 ---
@@ -14,7 +14,7 @@ This page summarizes the key landlord-tenant rules for **Maryland**. Local laws 
 
 ## Security deposit
 
-2 months rent.
+1 month's rent (since Oct 1, 2024 — Renters' Rights and Stabilization Act; was 2 months). Refund due within 45 days with itemized statement.
 
 ## Landlord entry
 

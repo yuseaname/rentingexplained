@@ -55,7 +55,7 @@ Most leases collect the first month before move-in. If you move in mid-month, yo
 
 ### Security deposit basics
 
-Security deposits vary by state and building policy. Some landlords charge a flat amount, while others base it on one month of rent. For a plain-language overview, see [security deposits and evictions](/blog/security-deposits-and-evictions-overview/).
+Security deposits vary by state and building policy. Some landlords charge a flat amount, while others base it on one month of rent. In about two-thirds of states the amount is legally capped — and caps changed recently in California, Maryland, and Colorado — so check the exact limit where you live in our [security deposit limits by state table](/blog/security-deposit-limits-by-state/). For a plain-language overview, see [security deposits and evictions](/blog/security-deposits-and-evictions-overview/).
 
 Pro tip: Ask for a written receipt for any deposit you pay and store it with your lease. It makes move-out conversations much easier later.
 

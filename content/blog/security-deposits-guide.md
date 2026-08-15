@@ -70,6 +70,8 @@ Some states cap deposits:
 
 ## State-by-State Rules
 
+Every state sets its own cap and refund deadline — the [security deposit limits by state](/blog/security-deposit-limits-by-state/) table has all 51, statute-cited.
+
 ### Return Deadlines
 
 | State | Days to Return |
