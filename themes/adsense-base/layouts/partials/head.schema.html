@@ -150,7 +150,7 @@
 
 {{/* ── Output combined JSON-LD ── */}}
 {{- if gt (len $schemas) 0 -}}
-<script type="application/ld+json">
-{{- $schemas | jsonify | safeJS -}}
-</script>
+{{- $json := $schemas | jsonify -}}
+{{- $script := printf "\u003cscript type=\"application/ld+json\"\u003e%s\u003c/script\u003e" $json -}}
+{{- $script | safeHTML -}}
 {{- end -}}
