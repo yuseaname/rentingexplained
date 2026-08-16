@@ -39,6 +39,9 @@ Any of these actions is a "self-help" eviction, and in most states it is illegal
 
 ## The Eviction Timeline at a Glance
 
+{{< figure src="/images/makeover/art-eviction-flow.webp" alt="Winding dotted path connecting five vignettes of the eviction process: sealed envelope, hourglass, courthouse, scales of justice, and key with open door" caption="The five stages of an eviction: notice, waiting period, court filing, judgment, and enforcement — each step takes weeks, and self-help shortcuts are illegal at every stage." >}}
+
+
 The table below shows the typical stages of an eviction. Times vary by state and by whether you contest the case.
 
 | Stage | Typical Duration | What Happens |

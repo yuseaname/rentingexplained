@@ -155,6 +155,9 @@ Before exploring third-party apps, start with our free [rent budget calculator](
 
 ## Our Complete App Stack Recommendations
 
+{{< figure src="/images/makeover/art-apps-compare.webp" alt="Three smartphone cards showing map-and-pins, coins-and-receipt, and wrench-and-speech-bubble screens connected by a ribbon with check and cross medallions" caption="The right stack depends on your situation: hunting (listings + map apps), paying (payment apps), and maintaining (request trackers) are three different jobs." >}}
+
+
 ### RentingExplained.com Free Tools (Start Here)
 
 Before downloading third-party apps, use our free tools built specifically for renters:

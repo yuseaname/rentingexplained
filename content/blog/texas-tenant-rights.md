@@ -92,6 +92,9 @@ If you're facing an increase, our [rent increase and renewal guide](/blog/rent-i
 
 ## Repairs: The Texas Repair Process
 
+{{< figure src="/images/makeover/art-tx-repair-sequence.webp" alt="Four vignettes of the repair sequence: dripping faucet, sealed written notice, golden wrench, and repaired faucet with a check medallion" caption="Texas repair remedies unlock in sequence: written notice first, then the landlord’s diligent-effort window, then repair-and-deduct or lease termination if the delay continues." >}}
+
+
 Texas doesn't use a general "warranty of habitability" phrase, but §92.052 requires landlords to make a **diligent effort to repair any condition that materially affects the physical health or safety of an ordinary tenant** — once you've given notice and you're not delinquent on rent (your rent must be current to use the repair remedies).
 
 The statutory sequence (§92.056):

@@ -71,6 +71,9 @@ Ask specifically how each utility is billed. A "utilities included" apartment is
 
 ## Questions to ask before signing
 
+{{< figure src="/images/makeover/art-hidden-fees-xray.webp" alt="Lease document under a magnifying lens turning translucent to reveal hidden coins and warning tags between the text lines" caption="Many fees only become visible after you sign: ask for the complete fee schedule in writing before you apply, and compare total monthly cost — not just rent." >}}
+
+
 Before you commit to an apartment, get answers to these questions in writing:
 
 - What is the complete fee schedule, including all move-in and monthly charges?

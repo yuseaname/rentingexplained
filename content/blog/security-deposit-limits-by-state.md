@@ -50,6 +50,9 @@ This guide is general information, not legal advice. Statutes amend frequently �
 
 ## The complete state-by-state table
 
+{{< figure src="/images/makeover/art-deposit-timeline.webp" alt="Golden coin traveling a dotted timeline from a move-out door through a calendar and envelope to a returned coin in an open palm" caption="After you hand back the keys, the clock starts — but the deadline varies from 14 to 60 days depending on your state. The table below has your exact number." >}}
+
+
 Sorted alphabetically. "No cap" means no statutory maximum — the lease controls. Deadlines are the standard residential rule; some states vary them by building size or tenancy length (noted where verified).
 
 | State | Deposit cap | Return deadline |

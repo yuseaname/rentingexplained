@@ -101,6 +101,9 @@ Outside NYC, cities and towns can opt in to the state's Good Cause framework. Al
 
 ## Good Cause Eviction in NYC
 
+{{< figure src="/images/makeover/art-exemption-shield.webp" alt="Indigo umbrella arching over a row of apartment buildings with coverage fading at the edges where two homes stand outside the protection" caption="Good Cause covers many market-rate apartments, but whole categories sit outside it — small landlords, condos and co-ops, newer buildings, and high-rent units." >}}
+
+
 Good Cause Eviction (RPL Article 6-A, adopted by NYC as Local Law 49 of 2024, in effect for cases filed on or after April 20, 2024) covers **unregulated ("market rate") apartments** — the ones stabilization never reached.
 
 ### What it gives covered tenants
