@@ -13,8 +13,8 @@ tags:
   - "tenant-rights"
   - "move-out"
   - "legal"
-image: "/images/makeover/art-security-deposit-return.webp"
-imageAlt: "United States map with security deposit rules by state and a refund check"
+image: "/images/makeover/art-security-deposit-limits.webp"
+imageAlt: "Stylized United States map on cream parchment with soft indigo boundaries, scattered gold coins, and an envelope returning a coin"
 ---
 
 # Security Deposit Limits by State (2026): Caps and Return Deadlines

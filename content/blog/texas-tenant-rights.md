@@ -13,8 +13,8 @@ tags:
   - "late-fees"
   - "eviction"
   - "legal"
-image: "/images/makeover/art-renters-rights-guide.webp"
-imageAlt: "Texas renter reviewing tenant rights documents at a kitchen table with keys nearby"
+image: "/images/makeover/art-texas-tenant-rights.webp"
+imageAlt: "Terracotta ranch house with a wide porch under a lone star glow, bluebonnets and a golden key on the porch bench"
 ---
 
 # Texas Tenant Rights in 2026: The Complete Guide

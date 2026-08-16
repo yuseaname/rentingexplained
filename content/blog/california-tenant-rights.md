@@ -13,8 +13,8 @@ tags:
   - "rent-control"
   - "eviction"
   - "legal"
-image: "/images/makeover/art-renters-rights-guide.webp"
-imageAlt: "California renter reviewing tenant rights protections with documents and keys on a desk"
+image: "/images/makeover/art-california-tenant-rights.webp"
+imageAlt: "Indigo suspension bridge above a cream craftsman apartment building with a golden key and umbrella shield, orange poppies in the foreground"
 ---
 
 # California Tenant Rights in 2026: The Complete Guide

@@ -7,8 +7,8 @@ lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Rental Approval"]
 tags: ["income-requirements", "3x-rent-rule", "rent-to-income-ratio", "rent-budget", "approval", "financial-planning", "minimum-income", "apartment-income", "2026-rent-data", "how-much-income-to-rent", "landlord-income-requirements", "gross-vs-net-income", "cosigner-guarantor"]
-image: "/images/blog/minimum-income-to-rent-apartment/hero-calculate-budget.jpg"
-imageAlt: "Budget calculator, rental listings, and apartment search documents arranged on a wooden desk"
+image: "/images/makeover/art-minimum-income-hero.webp"
+imageAlt: "Balance scale weighing a tall stack of gold coins against a small indigo apartment building, illustrating the 3x rent income rule"
 ---
 
 

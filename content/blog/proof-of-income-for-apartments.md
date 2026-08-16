@@ -7,8 +7,8 @@ lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Rental Approval"]
 tags: ["proof-of-income", "rental-application", "tenant-screening", "income-docs", "approval", "pay-stubs", "income-verification", "self-employed-renting", "automated-income-verification", "bank-statement-rental", "offer-letter-apartment"]
-image: "/images/rental-approval/proof-of-income-for-apartments/hero-organizing-documents.jpg"
-imageAlt: "Person organizing financial documents including pay stubs, bank statements, and tax forms at a home office desk"
+image: "/images/makeover/art-proof-of-income-hero.webp"
+imageAlt: "Fanned rental income documents on a cream desk - pay slip, bank statement, sealed envelope, and calculator leading toward an apartment door"
 ---
 > **Quick Answer**
 > 

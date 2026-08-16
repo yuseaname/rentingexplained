@@ -13,8 +13,8 @@ tags:
   - "good-cause-eviction"
   - "fare-act"
   - "legal"
-image: "/images/makeover/art-renters-rights-guide.webp"
-imageAlt: "New York renter reviewing tenant rights documents in an apartment with city light through the window"
+image: "/images/makeover/art-new-york-tenant-rights.webp"
+imageAlt: "Terracotta and indigo brownstone rowhouses with stoops, one door open with golden light and a large key on the top step"
 ---
 
 # New York Tenant Rights in 2026: The Complete Guide
