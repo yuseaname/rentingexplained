@@ -1,5 +1,5 @@
 ---
-title: "How to Negotiate Rent in 2025: Practical Scripts and Timing Tips"
+title: "How to Negotiate Rent in 2026: Practical Scripts and Timing Tips"
 slug: "how-to-negotiate-rent-guide"
 description: "A renter-first guide to asking for lower rent or better terms with simple scripts and smart timing."
 date: 2025-01-27
@@ -34,6 +34,18 @@ Use the sections below as a step-by-step playbook. You do not need a script for 
 ## Set your goal and timing
 
 The outcome you want depends on when you are negotiating. Pick the timing and the ask that fit the situation so your request feels reasonable.
+
+<div class="decision-tree" role="img" aria-label="Decision tree: when to negotiate rent and what to ask for">
+  <div class="dt-node"><strong>Where are you in the lease process?</strong></div>
+  <div class="dt-arrow">▼</div>
+  <div class="dt-branch">
+    <div class="dt-node dt-yes"><strong>Before signing</strong><br>Strongest leverage. Ask for lower rent or waived fees — you can still walk away.</div>
+    <div class="dt-node"><strong>At renewal</strong><br>Ask for a smaller increase, a longer term at the same rate, or a fee reduction.</div>
+    <div class="dt-node dt-no"><strong>Mid-lease</strong><br>Hardest. Ask for a small concession, not a rent cut.</div>
+  </div>
+  <div class="dt-arrow">▼</div>
+  <div class="dt-node"><strong>One specific ask</strong> — tied to comps, listing age, or your track record. One change at a time.</div>
+</div>
 
 ### Before signing a new lease
 
@@ -75,6 +87,14 @@ Watch out: Do not use comps from totally different buildings or neighborhoods. A
 
 Match the request to the market and the building. A clear, reasonable request is easier to approve.
 
+| Your situation | Best ask | Typical win |
+|---|---|---|
+| Similar units listed cheaper | Lower base rent | 3–5% off, or match the comp |
+| Unit has sat vacant for weeks | Lower rent or move-in credit | One month free or $50–100/mo off |
+| Rent is firm | Fee concessions | Waived admin/parking/amenity fee |
+| You can commit longer | Longer term, same rate | 18–24 months locked |
+| Good tenant history | Smaller renewal increase | Cap at 2–4% vs proposed hike |
+
 ### Ask for a lower rent
 
 Best when similar listings are cheaper or the unit has been available for a while. Keep the request modest and tie it to a clear reason.
@@ -107,17 +127,21 @@ Short messages are easier to read and easier to approve. Keep the tone respectfu
 
 ### Scripts you can adapt
 
-**New lease script**
+<div class="script-card">
+  <span class="script-card-label">New lease script</span>
+  <p>"I like the unit and can move quickly. If we can reduce the admin fee or include parking, I can sign this week."</p>
+</div>
 
-"I like the unit and can move quickly. If we can reduce the admin fee or include parking, I can sign this week."
+<div class="script-card">
+  <span class="script-card-label">Renewal script</span>
+  <p>"I have enjoyed living here and would like to renew. I noticed similar units listed for less and would appreciate keeping the rate the same for another year."</p>
+</div>
 
-**Renewal script**
-
-"I have enjoyed living here and would like to renew. I noticed similar units listed for less and would appreciate keeping the rate the same for another year."
-
-**Fee swap script**
-
-"If the rent cannot change, can we remove the amenity fee so the total monthly cost fits my budget?"
+<div class="script-card">
+  <span class="script-card-label">Fee swap script</span>
+  <p>"If the rent cannot change, can we remove the amenity fee so the total monthly cost fits my budget?"</p>
+  <p class="script-note">Works because landlords protect base rent for comps — fees are the flexible layer.</p>
+</div>
 
 Pro tip: Ask for one change at a time. A single, specific request is more likely to get a yes.
 

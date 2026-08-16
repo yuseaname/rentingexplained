@@ -577,10 +577,11 @@ p { color: var(--color-text); }
   font-size: 0.9em;
 }
 
-/* Sticky TOC wrapper */
+/* Sticky behavior is applied ONLY to the desktop sidebar TOC (see
+   .article-sidebar .toc-wrapper below). The in-flow/mobile TOC is never
+   sticky — a tall pinned block overlaying the article body is a P0 bug. */
 .toc-wrapper {
-  position: sticky;
-  top: calc(var(--nav-height) + var(--space-8));
+  position: static;
 }
 
 /* ── Breadcrumbs ── */
@@ -1962,3 +1963,213 @@ label {
 /* ===== Affiliate disclosure (2026-08-15) ===== */
 .affiliate-disclosure{margin:18px 0;padding:10px 14px;border-left:3px solid var(--color-ink);background:var(--color-parchment);font-size:.85rem;color:var(--color-text);border-radius:0 8px 8px 0}
 .affiliate-disclosure a{color:inherit;text-decoration:underline}
+
+/* ===== Article UX overhaul (2026-08-15): TOC, hero, trust, layout ===== */
+
+/* Desktop sidebar: shows at >=1024px, carries TOC + ad. Was dead markup
+   before ("hidden lg:block" compiled as permanently hidden), which left the
+   has-sidebar grid with a phantom empty 300px column. */
+.article-sidebar {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .article-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    min-width: 0;
+    /* NO align-self:start — the grid default (stretch) keeps the aside as
+       tall as the article column, which is what gives the sticky TOC room
+       to travel while the reader scrolls. */
+  }
+  /* Sticky TOC rail in the sidebar: short H2-only list, own scroll if tall */
+  .article-sidebar .toc-wrapper {
+    position: sticky;
+    top: calc(var(--nav-height) + var(--space-6));
+    max-height: calc(100vh - var(--nav-height) - var(--space-12));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  /* Sticky ad below TOC stays pinned without covering anything */
+  .article-sidebar .ad-zone-sidebar {
+    position: static;
+    margin: 0;
+  }
+  /* adsense.html wrapper carries Tailwind "sticky top-4" — that utility IS
+     compiled in tailwind.css, so it must be explicitly overridden here or the
+     ad pins in the sidebar and drags over the TOC as it exits. */
+  .article-sidebar .ad-zone-sidebar > div {
+    position: static !important;
+    top: auto !important;
+  }
+}
+
+/* Mobile/inline TOC: collapsible <details>, never sticky, never overlays */
+.toc-mobile {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-surface);
+  margin-bottom: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+.toc-mobile > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: var(--space-4) var(--space-5);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-key);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.toc-mobile > summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  transition: transform var(--transition-fast);
+}
+.toc-mobile[open] > summary::after { content: "−"; }
+.toc-mobile > summary::-webkit-details-marker { display: none; }
+.toc-mobile .toc {
+  border: none;
+  border-top: 1px solid var(--color-rule);
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  box-shadow: none;
+  padding: var(--space-4) var(--space-3) var(--space-3);
+  margin: 0;
+}
+.toc-mobile .toc-title { display: none; }
+@media (min-width: 1024px) {
+  .toc-mobile { display: none; }
+}
+
+/* Hero image: below the header, capped so headline+answer lead the page */
+.hero-figure {
+  margin: 0 0 var(--space-8);
+}
+.hero-figure img {
+  width: 100%;
+  max-height: clamp(240px, 34vh, 420px);
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+.hero-figure figcaption {
+  font-size: 0.82rem;
+  color: var(--color-neutral-600);
+  margin-top: var(--space-2);
+  text-align: center;
+}
+
+/* Trust strip: real, visible editorial markers */
+.trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+  margin-top: var(--space-5);
+}
+.trust-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-parchment);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  color: var(--color-neutral-700, #4d463d);
+  background-image: none;
+  text-decoration: none;
+}
+.trust-chip svg { flex: none; color: var(--color-key); }
+a.trust-chip:hover { border-color: var(--color-key); }
+
+/* Contrast fixes: ad label + footer copy were washed out */
+.ad-label { color: var(--color-neutral-600); font-size: 0.66rem; }
+.footer-copy { color: var(--color-neutral-600); font-size: 0.72rem; }
+
+/* Decision tree (native HTML/CSS flowchart — no baked-in image text) */
+.decision-tree {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: var(--space-6) 0;
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-parchment);
+}
+.dt-node {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  font-size: 0.92rem;
+  color: var(--color-text);
+}
+.dt-node strong { color: var(--color-ink); }
+.dt-branch {
+  display: flex;
+  gap: var(--space-2);
+}
+.dt-branch .dt-node { flex: 1; }
+.dt-label {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-key);
+  margin: var(--space-1) 0 var(--space-1) 0.35rem;
+}
+.dt-arrow {
+  text-align: center;
+  color: var(--color-neutral-500);
+  font-size: 0.85rem;
+  line-height: 1;
+  margin: var(--space-1) 0;
+}
+.dt-node.dt-yes { border-left: 3px solid var(--color-key); }
+.dt-node.dt-no { border-left: 3px solid var(--color-neutral-400); }
+@media (max-width: 639px) {
+  .dt-branch { flex-direction: column; }
+}
+
+/* Script cards: copy-paste negotiation lines */
+.script-card {
+  margin: var(--space-4) 0;
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-key);
+  border-radius: 0 var(--radius-xl) var(--radius-xl) 0;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+.script-card-label {
+  display: inline-block;
+  margin-bottom: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-key);
+}
+.script-card p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--color-ink);
+}
+.script-card .script-note {
+  margin-top: var(--space-2);
+  font-size: 0.82rem;
+  color: var(--color-neutral-600);
+}
