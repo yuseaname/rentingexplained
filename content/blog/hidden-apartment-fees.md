@@ -9,6 +9,9 @@ tags: ["hidden-fees", "apartment-costs", "budgeting", "lease-signing", "move-in-
 image: "/images/makeover/art-hidden-apartment-fees.webp"
 imageAlt: "Magnifying glass revealing suspicious fee tags on an oversized invoice"
 readingTime: 12
+sources:
+  - label: "CFPB Ask CFPB — renting and fees questions"
+    url: "https://www.consumerfinance.gov/ask-cfpb/"
 ---
 
 # Hidden Apartment Fees: The Complete Guide to Avoiding Surprise Costs in 2026

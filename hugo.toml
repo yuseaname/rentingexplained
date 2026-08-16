@@ -16,6 +16,43 @@ theme = 'adsense-base'
   og_image = '/images/makeover/home-hero-v2.webp'
   google_site_verification = ''
 
+  # Editorial team — used by reviewer-card partial on every article.
+  # Honest defaults; swap 'name' for a real person when one is available
+  # (one-line change, updates sitewide).
+  [params.team]
+    [params.team.author]
+      name = 'Renting Explained Editorial Team'
+      role = 'Independent renting guides, researched against primary sources'
+    [params.team.reviewer]
+      name = 'Renting Explained Research Desk'
+      role = 'Fact-check pass on statutes, limits, and deadlines cited in each guide'
+
+  # Homepage "Popular answers" — driven by real Rybbit 30-day demand (site 5058).
+  [[params.popular_answers]]
+    q = 'How much income do I need to rent an apartment?'
+    a = 'The 3x rent rule landlords actually apply — and how to pass it with a cosigner.'
+    url = '/blog/minimum-income-to-rent-apartment/'
+  [[params.popular_answers]]
+    q = 'What documents prove my income?'
+    a = 'Pay stubs, W-2s, offer letters, and self-employed proof landlords accept.'
+    url = '/blog/proof-of-income-for-apartments/'
+  [[params.popular_answers]]
+    q = 'How much rent can I afford?'
+    a = 'The 30% guideline, real budgets, and the hidden fees that break them.'
+    url = '/blog/how-much-rent-can-i-afford/'
+  [[params.popular_answers]]
+    q = 'What does moving into a new place really cost?'
+    a = 'Deposit, first/last month, fees, and the setup costs nobody budgets for.'
+    url = '/blog/apartment-move-in-costs/'
+  [[params.popular_answers]]
+    q = 'How do I get approved for an apartment?'
+    a = 'Credit, income, and references — exactly what landlords screen for.'
+    url = '/blog/apartment-approval-requirements/'
+  [[params.popular_answers]]
+    q = 'Can I negotiate my rent?'
+    a = 'Yes — best before signing or at renewal. Scripts, timing, and what to ask for.'
+    url = '/blog/how-to-negotiate-rent-guide/'
+
   [params.adsense]
     client_id = 'ca-pub-5566942094411042'
     [params.adsense.slots]

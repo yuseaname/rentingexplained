@@ -7,7 +7,7 @@ lastmod: 2026-08-15
 author: "Sarah Mitchell"
 categories: ["Apartment Hunting"]
 tags: ["first-apartment", "apartment-checklist", "budgeting", "moving", "first-time-renter"]
-image: "/images/apartment-hunting/first-apartment-checklist-guide-2025/first-apartment-checklist-guide-2025-hero.webp"
+image: "/images/makeover/art-first-apartment-checklist.webp"
 imageAlt: "Moving boxes and essentials in a bright first apartment"
 aliases: ["/blog/first-apartment-checklist-budget-guide"]
 ---

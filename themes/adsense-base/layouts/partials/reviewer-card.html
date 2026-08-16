@@ -1,0 +1,45 @@
+{{- /* reviewer-card.html — named author + reviewer with roles and review date.
+  Site-wide config (hugo.toml [params.team]):
+    author = { name, role, blurb }
+    reviewer = { name, role, blurb }
+  Page overrides: params.author_name / params.reviewer_name etc.
+  Honest default: if no reviewer configured, the author card alone shows. */ -}}
+{{- $author := site.Params.team.author -}}
+{{- $reviewer := site.Params.team.reviewer -}}
+{{- $aName := or .Params.author_name (and $author $author.name) | default site.Params.team.default_author -}}
+{{- $aRole := or .Params.author_role (and $author $author.role) -}}
+{{- $aBlurb := or .Params.author_blurb (and $author $author.blurb) -}}
+{{- $rName := or .Params.reviewer_name (and $reviewer $reviewer.name) -}}
+{{- $rRole := or .Params.reviewer_role (and $reviewer $reviewer.role) -}}
+{{- $rBlurb := or .Params.reviewer_blurb (and $reviewer $reviewer.blurb) -}}
+{{- $revDate := .Params.reviewed | or .Lastmod -}}
+<div class="reviewer-card">
+  <div class="rc-person">
+    <div class="rc-avatar" aria-hidden="true">{{ substr $aName 0 1 }}</div>
+    <div class="rc-text">
+      <span class="rc-role">Written by</span>
+      <span class="rc-name">{{ $aName }}</span>
+      {{- with $aRole }}<span class="rc-title">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+  {{- if $rName }}
+  <div class="rc-divider" aria-hidden="true"></div>
+  <div class="rc-person">
+    <div class="rc-avatar rc-avatar-alt" aria-hidden="true">{{ substr $rName 0 1 }}</div>
+    <div class="rc-text">
+      <span class="rc-role">Reviewed by</span>
+      <span class="rc-name">{{ $rName }}</span>
+      {{- with $rRole }}<span class="rc-title">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+  {{- end }}
+  {{- with $revDate }}
+  <div class="rc-divider" aria-hidden="true"></div>
+  <div class="rc-review">
+    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 2 2 0 00-2 2v12a2 2 0 002 2z"/>
+    </svg>
+    <span>Reviewed <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "Jan 2, 2006" . }}</time></span>
+  </div>
+  {{- end }}
+</div>

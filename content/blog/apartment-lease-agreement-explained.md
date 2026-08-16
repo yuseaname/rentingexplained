@@ -7,7 +7,7 @@ lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["lease-agreement", "tenant-rights", "signing-lease", "apartment-hunting", "legal"]
-image: "/images/legal-rights/apartment-lease-agreement-explained/apartment-lease-agreement-explained-hero.webp"
+image: "/images/makeover/art-lease-agreement-hero.webp"
 imageAlt: "Person carefully reading a lease agreement document at a desk"
 ---
 

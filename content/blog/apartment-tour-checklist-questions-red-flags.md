@@ -6,7 +6,7 @@ date: 2025-02-04
 author: "RentingExplained Editorial Team"
 categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "apartment-tour", "rental-inspection", "moving", "first-apartment"]
-image: "/images/apartment-hunting/apartment-tour-checklist-questions-red-flags/apartment-tour-checklist-questions-red-flags-hero.webp"
+image: "/images/makeover/art-apartment-tour-hero.webp"
 imageAlt: "Bright apartment living room during a tour"
 readingTime: 12
 ---

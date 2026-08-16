@@ -7,7 +7,7 @@ lastmod: 2026-08-15
 author: "Emily Watson"
 categories: ["Financial Planning"]
 tags: ["renting-vs-buying", "real-estate", "investment", "financial-planning"]
-image: "/images/financial-planning/renting-vs-buying-2025/renting-vs-buying-2025-hero.webp"
+image: "/images/makeover/art-renting-vs-buying-hero.webp"
 ---
 
 > **Quick Answer**

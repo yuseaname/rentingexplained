@@ -9,6 +9,11 @@ categories: ["Rental Approval"]
 tags: ["proof-of-income", "rental-application", "tenant-screening", "income-docs", "approval", "pay-stubs", "income-verification", "self-employed-renting", "automated-income-verification", "bank-statement-rental", "offer-letter-apartment"]
 image: "/images/makeover/art-proof-of-income-hero.webp"
 imageAlt: "Fanned rental income documents on a cream desk - pay slip, bank statement, sealed envelope, and calculator leading toward an apartment door"
+sources:
+  - label: "CFPB Ask CFPB — renting and income questions"
+    url: "https://www.consumerfinance.gov/ask-cfpb/"
+  - label: "USA.gov — Tenant rights and lease issues"
+    url: "https://www.usa.gov/tenant-rights"
 ---
 > **Quick Answer**
 > 

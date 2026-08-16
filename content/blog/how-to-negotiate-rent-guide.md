@@ -9,6 +9,11 @@ tags: ["rent-negotiation", "saving-money", "lease-negotiation", "rent-increase",
 image: "/images/makeover/art-negotiate-rent-hero.webp"
 imageAlt: "Two armchairs across a small table with balanced coins and a paper marked by a downward arrow, rent negotiation made calm"
 lastmod: 2026-08-15
+sources:
+  - label: "HUD Tenant Rights overview"
+    url: "https://www.hud.gov/topics/rental_assistance/tenantrights"
+  - label: "USA.gov — Tenant rights and lease issues"
+    url: "https://www.usa.gov/tenant-rights"
 ---
 > **Quick Answer**
 >

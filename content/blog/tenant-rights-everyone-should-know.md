@@ -7,7 +7,7 @@ lastmod: 2025-02-02
 author: "David Chen"
 categories: ["Legal Rights"]
 tags: ["tenant-rights", "legal", "lease-agreement", "protection"]
-image: "/images/legal-rights/tenant-rights-everyone-should-know/tenant-rights-everyone-should-know-hero.webp"
+image: "/images/makeover/art-tenant-rights-hero.webp"
 readingTime: 15
 ---
 

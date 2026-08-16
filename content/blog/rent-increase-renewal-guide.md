@@ -7,7 +7,7 @@ lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Costs"]
 tags: ["rent-increase", "renewal", "budgeting", "costs", "rent-negotiation"]
-image: "/images/costs/rent-increase-renewal-guide/rent-increase-renewal-guide-hero.webp"
+image: "/images/makeover/art-rent-increase-hero.webp"
 imageAlt: "Person reviewing paperwork and a calculator at a desk"
 ---
 

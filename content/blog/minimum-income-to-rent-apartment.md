@@ -9,6 +9,9 @@ categories: ["Rental Approval"]
 tags: ["income-requirements", "3x-rent-rule", "rent-to-income-ratio", "rent-budget", "approval", "financial-planning", "minimum-income", "apartment-income", "2026-rent-data", "how-much-income-to-rent", "landlord-income-requirements", "gross-vs-net-income", "cosigner-guarantor"]
 image: "/images/makeover/art-minimum-income-hero.webp"
 imageAlt: "Balance scale weighing a tall stack of gold coins against a small indigo apartment building, illustrating the 3x rent income rule"
+sources:
+  - label: "HUD Tenant Rights overview"
+    url: "https://www.hud.gov/topics/rental_assistance/tenantrights"
 ---
 
 

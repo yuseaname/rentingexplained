@@ -7,8 +7,13 @@ lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["move-out", "security-deposit", "checklist", "tenant-rights", "moving"]
-image: "/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp"
-imageAlt: "Moving boxes in an empty apartment living room"
+image: "/images/makeover/art-move-out-checklist-hero.webp"
+imageAlt: "Warm editorial illustration of an emptied apartment ready for move-out inspection: stacked boxes by an open door, broom, keys on a small dish"
+sources:
+  - label: "HUD Tenant Rights overview"
+    url: "https://www.hud.gov/topics/rental_assistance/tenantrights"
+  - label: "USA.gov — Tenant rights and lease issues"
+    url: "https://www.usa.gov/tenant-rights"
 ---
 
 > **Quick Answer**
@@ -19,8 +24,6 @@ imageAlt: "Moving boxes in an empty apartment living room"
 Moving out is where most deposit problems start. The fix is not a perfect clean, it is a clear plan: document the unit, finish the basics, and leave a paper trail.
 
 This guide is general information, not legal advice. Use it as a practical checklist for your next move-out.
-
-![Moving boxes in an empty apartment living room](/images/legal-rights/apartment-move-out-checklist/move-out-boxes.webp)
 
 ## Key takeaways
 

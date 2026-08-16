@@ -7,7 +7,7 @@ lastmod: 2026-08-15
 author: "RentingExplained Editorial Team"
 categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "tenant-screening", "credit-check", "rental-application", "first-apartment"]
-image: "/images/apartment-hunting/tenant-screening-credit-checks-for-renters/tenant-screening-credit-checks-for-renters-hero.webp"
+image: "/images/makeover/art-tenant-screening-hero.webp"
 imageAlt: "Person reviewing credit and screening paperwork"
 ---
 
