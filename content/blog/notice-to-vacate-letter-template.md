@@ -6,8 +6,8 @@ date: 2026-01-04
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["notice-to-vacate", "move-out", "tenant-rights", "lease-termination", "templates"]
-image: "/images/legal-rights/notice-to-vacate-letter-template/notice-to-vacate-keys.webp"
-imageAlt: "Apartment keys on a table near a lease"
+image: "/images/makeover/art-notice-to-vacate-hero.webp"
+imageAlt: "Cream envelope with indigo wax seal under a terracotta apartment door, calendar with a glowing date circle, moving box and key nearby"
 lastmod: 2026-08-15
 ---
 > **Quick Answer**

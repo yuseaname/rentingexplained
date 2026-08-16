@@ -6,8 +6,8 @@ date: 2026-01-11
 author: "RentingExplained Editorial Team"
 categories: ["Rental Approval"]
 tags: ["rental-approval", "tenant-screening", "application", "income", "rental-history"]
-image: "/images/rental-approval/apartment-approval-requirements/apartment-approval-requirements-hero.webp"
-imageAlt: "Person reviewing rental application documents"
+image: "/images/makeover/art-apartment-approval-hero.webp"
+imageAlt: "Rental application folder with an indigo checkmark ribbon, golden key and stamped seal, path leading to an apartment building"
 lastmod: 2026-08-15
 ---
 > **Quick Answer**

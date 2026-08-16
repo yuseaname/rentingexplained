@@ -6,7 +6,8 @@ date: 2025-01-12
 author: "Michael Rodriguez"
 categories: ["Technology"]
 tags: ["rental-apps", "technology", "tools", "apartment-hunting"]
-image: "/images/technology/best-apps-and-tools-for-renters/best-apps-and-tools-for-renters-hero.webp"
+image: "/images/makeover/art-best-rental-apps-hero.webp"
+imageAlt: "Smartphone with an indigo map and location pins orbited by a magnifying glass, key, checklist, and calendar cards"
 lastmod: 2026-08-15
 ---
 

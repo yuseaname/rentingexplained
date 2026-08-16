@@ -6,8 +6,8 @@ date: 2025-02-05
 author: "RentingExplained Editorial Team"
 categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "rental-application", "background-check", "first-apartment", "moving"]
-image: "/images/apartment-hunting/rental-application-checklist/rental-application-checklist-hero.webp"
-imageAlt: "Person reviewing rental application documents"
+image: "/images/makeover/art-rental-application-hero.webp"
+imageAlt: "Cream clipboard with indigo checkmarks on document rows surrounded by pay stub, ID card, envelope, and pen"
 lastmod: 2026-08-15
 ---
 > **Quick Answer**

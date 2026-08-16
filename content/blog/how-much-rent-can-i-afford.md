@@ -6,8 +6,8 @@ date: 2026-01-08
 author: "RentingExplained Editorial Team"
 categories: ["Financial Planning"]
 tags: ["rent-budget", "affordability", "financial-planning", "budgeting", "rent-costs"]
-image: "/images/financial-planning/how-much-rent-can-i-afford/how-much-rent-can-i-afford-hero.webp"
-imageAlt: "Calculator and budget notes on a desk"
+image: "/images/makeover/art-rent-afford-hero.webp"
+imageAlt: "Piggy bank with a coin mid-drop beside three savings jars and a small apartment building on a seesaw with coins"
 lastmod: 2026-08-15
 ---
 > **Quick Answer**
