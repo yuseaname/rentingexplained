@@ -2,3 +2,7 @@ node_modules/
 package-lock.json
 public/
 out/
+*-log.json
+*-run*.log
+*-tmp/
+__pycache__/
