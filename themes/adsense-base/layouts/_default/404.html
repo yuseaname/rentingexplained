@@ -2,16 +2,19 @@
 <div class="page-404">
   <div class="max-w-lg mx-auto">
     <div class="mb-8 flex justify-center">
-      <img src="/images/makeover/404-hero.webp" alt="Closed door with a key on the floor" class="max-w-xs rounded-2xl shadow-md">
+      <svg class="w-24 h-24 text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </svg>
     </div>
     <h1>404</h1>
     <p>Page not found</p>
     <p>The page you're looking for doesn't exist or has been moved.</p>
-    <div class="flex flex-col sm:flex-row gap-3 justify-center mt-8">
-      <a href="{{ .Site.BaseURL | absURL }}" class="btn btn-primary">Back to Home</a>
-      <a href="/start-here/" class="btn btn-ghost">Start Here</a>
-      <a href="/search/" class="btn btn-ghost">Search</a>
-    </div>
+    <a href="{{ .Site.BaseURL | absURL }}" class="inline-flex items-center justify-center gap-2 mt-8 px-6 py-3 bg-primary-600 text-white font-medium rounded-xl hover:bg-primary-700 transition-colors shadow-md">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+      </svg>
+      Back to Home
+    </a>
   </div>
 </div>
 {{ end }}

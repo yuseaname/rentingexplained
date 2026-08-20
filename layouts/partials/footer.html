@@ -1,0 +1,77 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <!-- Brand column -->
+      <div class="sm:col-span-2 lg:col-span-1">
+        <a href="{{ .Site.BaseURL | relURL }}" class="brand-wordmark">
+          <svg class="brand-key" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="8" cy="15" r="4"/>
+            <path d="M10.85 12.15 19 4"/>
+            <path d="m18 5 2 2"/>
+            <path d="m15 8 2 2"/>
+          </svg>
+          <span class="brand-name">{{ .Site.Params.site_name | default .Site.Title }}</span>
+        </a>
+        {{ with .Site.Params.description }}
+        <p class="footer-blurb">{{ . }}</p>
+        {{ end }}
+        <p class="footer-copy">© {{ now.Year }} {{ .Site.Params.site_name | default .Site.Title }}. All rights reserved.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="footer-heading">Explore</h3>
+        <ul class="footer-list">
+          <li><a href="/" class="footer-link">Home</a></li>
+          <li><a href="/blog/" class="footer-link">All guides</a></li>
+          <li><a href="/categories/" class="footer-link">Topics</a></li>
+          <li><a href="/about/" class="footer-link">About</a></li>
+          <li><a href="/contact/" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Popular Categories -->
+      <div>
+        <h3 class="footer-heading">Topics</h3>
+        <ul class="footer-list">
+          {{ $count := 0 }}
+          {{ range $name, $pages := .Site.Taxonomies.categories }}
+            {{ if lt $count 6 }}
+            <li><a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" class="footer-link">{{ $name }}</a></li>
+            {{ $count = add $count 1 }}
+            {{ end }}
+          {{ else }}
+          {{ range first 6 .Site.Sections }}
+          <li><a href="{{ .RelPermalink }}" class="footer-link">{{ .Title }}</a></li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+
+      <!-- Policies -->
+      <div>
+        <h3 class="footer-heading">Policies</h3>
+        <ul class="footer-list">
+          {{ $allPages := where .Site.Pages "Kind" "page" }}
+          {{ $slugs := slice "privacy" "privacy-policy" "disclosure" "editorial-policy" "terms" "terms-of-service" }}
+          {{ range $slugs }}
+            {{ $slug := . }}
+            {{ range $allPages }}
+              {{ if or (eq .File.BaseFileName $slug) (eq .File.TranslationBaseName $slug) }}
+                <li><a href="{{ .RelPermalink }}" class="footer-link capitalize">{{ replace $slug "-" " " }}</a></li>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <!-- AdSense disclosure -->
+    <div class="footer-disclosure">
+      <p>
+        This site may display advertisements provided by third parties. Ad placements are automated and not personally endorsed.
+        {{ with .Site.Params.adsense.client_id }} We use Google AdSense to serve ads.{{ end }}
+      </p>
+    </div>
+  </div>
+</footer>

@@ -3,65 +3,51 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
       <!-- Brand column -->
       <div class="sm:col-span-2 lg:col-span-1">
-        <a href="{{ .Site.BaseURL | relURL }}" class="brand-wordmark">
-          <svg class="brand-key" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="8" cy="15" r="4"/>
-            <path d="M10.85 12.15 19 4"/>
-            <path d="m18 5 2 2"/>
-            <path d="m15 8 2 2"/>
+        <a href="{{ .Site.BaseURL | relURL }}" class="flex items-center gap-2 text-sm font-bold footer-brand">
+          <svg class="w-5 h-5 footer-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
           </svg>
-          <span class="brand-name">{{ .Site.Params.site_name | default .Site.Title }}</span>
+          {{ .Site.Params.site_name | default .Site.Title }}
         </a>
         {{ with .Site.Params.description }}
-        <p class="footer-blurb">{{ . }}</p>
+        <p class="footer-desc mt-3">{{ . }}</p>
         {{ end }}
-        <p class="footer-copy">© {{ now.Year }} {{ .Site.Params.site_name | default .Site.Title }}. All rights reserved.</p>
+        <p class="footer-copy mt-4">© {{ now.Year }} {{ .Site.Params.site_name | default .Site.Title }}. All rights reserved.</p>
       </div>
 
       <!-- Quick Links -->
       <div>
-        <h3 class="footer-heading">Explore</h3>
+        <h3 class="footer-heading">Guides</h3>
         <ul class="footer-list">
           <li><a href="/" class="footer-link">Home</a></li>
-          <li><a href="/blog/" class="footer-link">All guides</a></li>
-          <li><a href="/categories/" class="footer-link">Topics</a></li>
+          <li><a href="/blog/" class="footer-link">All Guides</a></li>
           <li><a href="/about/" class="footer-link">About</a></li>
           <li><a href="/contact/" class="footer-link">Contact</a></li>
         </ul>
       </div>
 
-      <!-- Popular Categories -->
+      <!-- Categories -->
       <div>
         <h3 class="footer-heading">Topics</h3>
         <ul class="footer-list">
-          {{ $count := 0 }}
-          {{ range $name, $pages := .Site.Taxonomies.categories }}
-            {{ if lt $count 6 }}
-            <li><a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" class="footer-link">{{ $name }}</a></li>
-            {{ $count = add $count 1 }}
-            {{ end }}
-          {{ else }}
-          {{ range first 6 .Site.Sections }}
-          <li><a href="{{ .RelPermalink }}" class="footer-link">{{ .Title }}</a></li>
-          {{ end }}
+          {{ $cats := .Site.Taxonomies.categories }}
+          {{ range first 6 (sort $cats "Count" "desc") }}
+          <li><a href="{{ .Page.RelPermalink }}" class="footer-link">{{ .Page.Title | default (humanize (path.Base .Page.RelPermalink)) | title }}</a></li>
           {{ end }}
         </ul>
       </div>
 
-      <!-- Policies -->
+      <!-- Trust & Policies -->
       <div>
-        <h3 class="footer-heading">Policies</h3>
+        <h3 class="footer-heading">Trust &amp; Legal</h3>
         <ul class="footer-list">
-          {{ $allPages := where .Site.Pages "Kind" "page" }}
-          {{ $slugs := slice "privacy" "privacy-policy" "disclosure" "editorial-policy" "terms" "terms-of-service" }}
-          {{ range $slugs }}
-            {{ $slug := . }}
-            {{ range $allPages }}
-              {{ if or (eq .File.BaseFileName $slug) (eq .File.TranslationBaseName $slug) }}
-                <li><a href="{{ .RelPermalink }}" class="footer-link capitalize">{{ replace $slug "-" " " }}</a></li>
-              {{ end }}
-            {{ end }}
-          {{ end }}
+          <li><a href="/editorial-team/" class="footer-link">Editorial Team</a></li>
+          <li><a href="/editorial-policy/" class="footer-link">Editorial Policy</a></li>
+          <li><a href="/methodology/" class="footer-link">Methodology</a></li>
+          <li><a href="/corrections/" class="footer-link">Corrections</a></li>
+          <li><a href="/privacy-policy/" class="footer-link">Privacy Policy</a></li>
+          <li><a href="/terms/" class="footer-link">Terms</a></li>
+          <li><a href="/disclaimer/" class="footer-link">Disclaimer</a></li>
         </ul>
       </div>
     </div>
@@ -70,7 +56,7 @@
     <div class="footer-disclosure">
       <p>
         This site may display advertisements provided by third parties. Ad placements are automated and not personally endorsed.
-        {{ with .Site.Params.adsense.client_id }} We use Google AdSense to serve ads.{{ end }}
+        {{ with .Site.Params.adsense.client_id }}We use Google AdSense to serve ads.{{ end }}
       </p>
     </div>
   </div>

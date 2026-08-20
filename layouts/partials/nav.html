@@ -1,0 +1,69 @@
+<nav class="nav-container sticky top-0 z-50" id="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="flex items-center justify-between h-15" style="height: var(--nav-height);">
+      <!-- Wordmark — brass key mark + serif name -->
+      <a href="{{ .Site.BaseURL | relURL }}" class="brand-wordmark">
+        <svg class="brand-key" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="8" cy="15" r="4"/>
+          <path d="M10.85 12.15 19 4"/>
+          <path d="m18 5 2 2"/>
+          <path d="m15 8 2 2"/>
+        </svg>
+        <span class="brand-name">{{ .Site.Params.site_name | default .Site.Title }}</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <div class="hidden sm:flex items-center gap-1">
+        {{ $currentPage := . }}
+        {{ $menuItems := .Site.Menus.main }}
+        {{ if and $menuItems (gt (len $menuItems) 0) }}
+          {{ range $menuItems }}
+            {{ $isActive := or (eq $currentPage.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $currentPage.RelPermalink .URL)) }}
+            <a href="{{ .URL }}"
+               class="nav-link {{ if $isActive }}nav-link-active{{ end }}">
+              {{ .Name }}
+            </a>
+          {{ end }}
+        {{ else }}
+          {{ range .Site.Sections }}
+            <a href="{{ .RelPermalink }}" class="nav-link">{{ .Title }}</a>
+          {{ end }}
+        {{ end }}
+
+
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="sm:hidden p-2 text-gray-600 hover:text-gray-900 rounded-lg hover:bg-gray-50 transition-colors" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="w-6 h-6" id="hamburger-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg class="w-6 h-6 hidden" id="close-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="sm:hidden hidden border-t border-gray-200 pb-4" id="mobile-menu" role="menu">
+      <div class="pt-3 space-y-1">
+        {{ $currentPage := . }}
+        {{ $menuItems := .Site.Menus.main }}
+        {{ if and $menuItems (gt (len $menuItems) 0) }}
+          {{ range $menuItems }}
+            {{ $isActive := or (eq $currentPage.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $currentPage.RelPermalink .URL)) }}
+            <a href="{{ .URL }}"
+               class="block px-3 py-2.5 text-base font-medium rounded-lg transition-colors
+               {{ if $isActive }}bg-primary-50 text-primary-700{{ else }}text-gray-600 hover:text-gray-900 hover:bg-gray-50{{ end }}"
+               role="menuitem">{{ .Name }}</a>
+          {{ end }}
+        {{ else }}
+          {{ range .Site.Sections }}
+            <a href="{{ .RelPermalink }}" class="block px-3 py-2.5 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors" role="menuitem">{{ .Title }}</a>
+          {{ end }}
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</nav>

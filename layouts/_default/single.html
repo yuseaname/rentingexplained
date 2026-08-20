@@ -1,0 +1,217 @@
+{{ define "main" }}
+<article class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  {{ partial "breadcrumbs.html" . }}
+
+  <!-- Article Header: identity first, image second -->
+  <header class="article-header mb-10">
+    <!-- Category eyebrow -->
+    {{ range .Params.categories }}
+      <span class="eyebrow" style="margin-bottom: 0.75rem;">{{ . }}</span>
+    {{ end }}
+
+    <h1 class="article-title">{{ .Title }}</h1>
+
+    {{ with .Params.description }}
+    <p class="article-lede">{{ . }}</p>
+    {{ end }}
+
+    <!-- Article meta — document-style data row -->
+    <div class="article-meta">
+      {{ with .Params.author }}
+      <span class="article-meta-item">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+        </svg>
+        {{ . }}
+      </span>
+      {{ end }}
+      <span class="article-meta-divider" aria-hidden="true">·</span>
+      {{ if .Lastmod.After .Date }}
+      <time class="article-meta-item" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }} · updated {{ .Lastmod.Format "Jan 2, 2006" }}</time>
+      {{ else }}
+      <time class="article-meta-item" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      {{ end }}
+      <span class="article-meta-divider" aria-hidden="true">·</span>
+      <span class="article-meta-item">{{ .ReadingTime }} min read</span>
+    </div>
+
+    <!-- Jurisdiction note for rights/legal articles -->
+    {{ if in .Params.categories "Legal Rights" }}
+    <div class="jurisdiction-note">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+      </svg>
+      <span>Renter-landlord law varies by state and sometimes by city. This guide explains general rules; confirm the specifics in your jurisdiction on our <a href="/state-laws/">State Laws</a> page.</span>
+    </div>
+    {{ end }}
+
+    <!-- Trust strip: visible editorial markers -->
+    <div class="trust-strip" aria-label="Editorial standards">
+      <a class="trust-chip" href="/editorial-policy/">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+        Researched against primary sources
+      </a>
+      <span class="trust-chip">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+        </svg>
+        Editorially independent
+      </span>
+      <span class="trust-chip">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 2 0 00-2 2v12a2 2 0 002 2z"/>
+        </svg>
+        Current for {{ now.Format "2006" }}
+      </span>
+    </div>
+
+    {{ partial "reviewer-card.html" . }}
+  </header>
+
+  {{/* Hero image — below the header so headline + answer sit above the fold */}}
+  {{ partial "hero-image.html" . }}
+
+  {{/* Ad slot: below title */}}
+  {{ if .Site.Params.adsense.client_id }}
+  <div class="ad-zone ad-zone-sm">
+    {{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}
+  </div>
+  {{ end }}
+
+  <!-- Article layout: content + optional sidebar -->
+  <div class="article-layout {{ if gt .WordCount 1000 }}has-sidebar{{ end }}">
+    <div class="article-main">
+      {{/* Mobile TOC — collapsible, in-flow, never overlays text (CSS hides it ≥1024px) */}}
+      {{ if and (gt .WordCount 800) .TableOfContents }}
+      <details class="toc-mobile">
+        <summary>In this guide</summary>
+        {{ partial "toc.html" . }}
+      </details>
+      {{ end }}
+
+      <!-- Article Content -->
+      <div class="article-content">
+        {{ .Content }}
+      </div>
+
+      {{/* Verified primary sources drawer */}}
+      {{ partial "sources-drawer.html" . }}
+
+      {{/* Mid-article ad slot */}}
+      {{ if and .Site.Params.adsense.client_id (gt .WordCount 1200) }}
+      <div class="ad-zone ad-zone-md">
+        {{ partial "adsense.html" (dict "position" "mid_article" "ctx" .) }}
+      </div>
+      {{ end }}
+
+      {{/* Key takeaways — only when the article has none of its own */}}
+      {{ if not (strings.Contains .RawContent "## Key takeaways") }}
+      <div class="key-takeaways">
+        <h2 class="key-takeaways-title">Key takeaways</h2>
+        <ul>
+          <li>Laws and fees vary by location — always check your state and city rules.</li>
+          <li>Read the lease carefully before signing; document everything at move-in.</li>
+          <li>Keep communication with your landlord in writing whenever possible.</li>
+        </ul>
+      </div>
+      {{ end }}
+
+  <!-- Tool / checklist CTA -->
+  <div class="callout callout-info">
+    <svg class="callout-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6 4h6"/>
+    </svg>
+    <div class="callout-content">
+      <p class="callout-title">Try a related tool</p>
+      <p>Use our <a href="/tools/rent-budget-calculator/">Rent Budget Calculator</a> or <a href="/tools/hidden-fees-estimator/">Hidden-Fees Estimator</a> to plan your next move.</p>
+    </div>
+  </div>
+
+      {{/* Tags */}}
+      {{ with .Params.tags }}
+      <div class="article-tags">
+        <span class="article-tags-label">Filed under</span>
+        <div class="flex flex-wrap gap-2">
+        {{ range . }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="badge badge-neutral">{{ . }}</a>
+        {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* Bottom ad */}}
+      {{ if .Site.Params.adsense.client_id }}
+      <div class="ad-zone ad-zone-md">
+        {{ partial "adsense.html" (dict "position" "end_article" "ctx" .) }}
+      </div>
+      {{ end }}
+
+      <!-- Author bio (if available) -->
+      {{ with .Params.author_bio }}
+      <div class="author-box">
+        <div class="author-box-icon">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+          </svg>
+        </div>
+        <div class="author-box-text">
+          <p class="author-box-name">{{ $.Params.author }}</p>
+          <p class="author-box-bio">{{ . }}</p>
+        </div>
+      </div>
+      {{ else }}
+      <div class="author-box">
+        <div class="author-box-icon">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+          </svg>
+        </div>
+        <div class="author-box-text">
+          <p class="author-box-name">{{ $.Params.author | default "RentingExplained Editorial Team" }}</p>
+          <p class="author-box-bio">Independent guides for US renters. We research every article against primary sources and update content as laws change. Read our <a href="/editorial-policy/">editorial standards</a>.</p>
+        </div>
+      </div>
+      {{ end }}
+
+      {{ partial "related-posts.html" . }}
+    </div>
+
+    {{ if gt .WordCount 1000 }}
+    <aside class="article-sidebar" aria-label="Guide contents">
+      {{/* Ad first (scrolls away cleanly), sticky TOC second (pins for the
+           whole article without ever overlapping the ad or the body) */}}
+      {{ if .Site.Params.adsense.client_id }}
+      <div class="ad-zone ad-zone-sidebar">
+        {{ partial "adsense.html" (dict "position" "sidebar" "ctx" .) }}
+      </div>
+      {{ end }}
+      {{ if and (gt .WordCount 800) .TableOfContents }}
+        {{ partial "toc.html" . }}
+      {{ end }}
+    </aside>
+    {{ end }}
+  </div>
+
+</article>
+
+<!-- Newsletter Band (article footer) -->
+<section class="newsletter-band reveal" aria-label="Newsletter">
+  <div class="newsletter-band-inner">
+    <div class="flex justify-center">
+      <div class="keyline keyline-center mb-4"></div>
+    </div>
+    <span class="eyebrow" style="justify-content: center; margin-bottom: var(--space-4);">Stay prepared</span>
+    <h2 class="section-heading-title" style="justify-content: center; text-align: center; margin-bottom: var(--space-4);">Get one clear renting tip per week</h2>
+    <p class="text-center" style="color: var(--color-text-muted); max-width: 32rem; margin: 0 auto;">No spam. One short email with practical guidance for renters.</p>
+    <form class="newsletter-form" action="https://buttondown.email/api/emails/embed-subscribe/rentingexplained" method="post" target="_blank">
+      <label for="article-email" class="visually-hidden">Email address</label>
+      <input id="article-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+    <p class="newsletter-note">We respect your inbox. Unsubscribe anytime.</p>
+  </div>
+</section>
+{{ end }}

@@ -1,62 +1,76 @@
-{{- /*
-  related-posts.html — Context-aware related articles
-  Prefer same category, then shared tags, then same section, then fall back to recent.
-*/ -}}
-{{- $current := . -}}
-{{- $currentCats := .Params.categories | default (slice) -}}
-{{- $currentTags := .Params.tags | default (slice) -}}
-{{- $allPages := where .Site.RegularPages ".Permalink" "!=" $current.Permalink -}}
+{{/* Related Posts: topically-matched, ranked by shared category + tags.
+     Falls back to most-recent same-section pages only if no topical match.
+     Renders using the design-system card pattern for visual consistency. */}}
+{{ $current := . }}
+{{ $currentCat := .Params.category }}
+{{ $currentTags := .Params.tags }}
 
-{{- $sameCat := slice -}}
-{{- $sameTag := slice -}}
-{{- $sameSection := slice -}}
-{{- range $allPages -}}
-  {{- $pageCats := .Params.categories | default (slice) -}}
-  {{- $pageTags := .Params.tags | default (slice) -}}
-  {{- $catMatch := false -}}
-  {{- range $currentCats -}}
-    {{- if in $pageCats . -}}{{- $catMatch = true -}}{{- end -}}
-  {{- end -}}
-  {{- $tagMatch := false -}}
-  {{- range $currentTags -}}
-    {{- if in $pageTags . -}}{{- $tagMatch = true -}}{{- end -}}
-  {{- end -}}
-  {{- if $catMatch -}}
-    {{- $sameCat = $sameCat | append . -}}
-  {{- else if $tagMatch -}}
-    {{- $sameTag = $sameTag | append . -}}
-  {{- else if eq .CurrentSection $current.CurrentSection -}}
-    {{- $sameSection = $sameSection | append . -}}
-  {{- end -}}
-{{- end -}}
+{{ $allPages := where .Site.RegularPages ".Permalink" "!=" $current.Permalink }}
 
-{{- $related := $sameCat | append $sameTag | append $sameSection | first 3 -}}
-{{- if not $related -}}
-  {{- $related = $allPages | first 3 -}}
-{{- end -}}
+{{/* Score every candidate: +2 for same category, +1 per shared tag */}}
+{{ $scored := slice }}
+{{ range $allPages }}
+  {{ $candidate := . }}
+  {{ $score := 0 }}
+  {{ if and $currentCat (eq .Params.category $currentCat) }}
+    {{ $score = add $score 2 }}
+  {{ end }}
+  {{ with $currentTags }}
+    {{ range $t := . }}
+      {{ if in ($candidate.Params.tags | default slice) $t }}
+        {{ $score = add $score 1 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if gt $score 0 }}
+    {{ $scored = $scored | append (dict "page" $candidate "score" $score) }}
+  {{ end }}
+{{ end }}
 
-{{- if gt (len $related) 0 -}}
+{{/* Sort by score (desc), tiebreak by date (desc), take 3 */}}
+{{ $related := sort $scored "score" "desc" }}
+
+{{ $top := slice }}
+{{ range first 3 $related }}
+  {{ $top = $top | append .page }}
+{{ end }}
+
+{{/* Fallback: if no topical match, use 3 most recent non-current pages */}}
+{{ if eq (len $top) 0 }}
+  {{ $top = first 3 $allPages }}
+{{ end }}
+
+{{ if gt (len $top) 0 }}
   <section class="related-section" aria-label="Related articles">
-    <h2 class="related-title">Continue reading</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-      {{- range $related -}}
-        <article class="group">
+    <div class="section-heading">
+      <h2 class="related-title">Keep Reading</h2>
+    </div>
+    <div class="section-grid">
+      {{ range $top }}
+        <article class="card">
           <a href="{{ .RelPermalink }}" class="block">
-            {{- with .Params.image -}}
-              <div class="aspect-video bg-gray-100 rounded-lg overflow-hidden mb-3">
-                <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy">
+            {{ with .Params.image }}
+              <div class="overflow-hidden">
+                {{/* Decorative card art: the visible card heading labels the link,
+                     so alt stays empty instead of duplicating (or mislabeling) text. */}}
+                <img src="{{ . }}" alt="" class="card-image" loading="lazy" decoding="async">
               </div>
-            {{- end -}}
-            <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">{{ .Title }}</h3>
-            {{- with .Params.description -}}
-              <p class="text-sm text-gray-600 mt-1 line-clamp-2">{{ truncate 100 . }}</p>
-            {{- end -}}
-            {{- with .Date -}}
-              <time datetime="{{ .Format "2006-01-02" }}" class="text-xs text-gray-400 mt-2 block">{{ .Format "January 2, 2006" }}</time>
-            {{- end -}}
+            {{ else }}
+              {{/* Intentional no-image fallback: branded monogram block keeps card
+                   geometry stable instead of a missing-image gap. */}}
+              <div class="card-fallback" aria-hidden="true">{{ substr .Title 0 1 }}</div>
+            {{ end }}
+            <div class="card-body">
+              <h3 class="card-title">{{ .Title }}</h3>
+              <p class="card-text">{{ .Params.description | default (truncate 110 .Plain) }}</p>
+              <div class="flex items-center justify-between mt-3">
+                <time datetime="{{ .Date.Format "2006-01-02" }}" class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <span class="text-xs" style="color: var(--color-text-muted)">{{ .ReadingTime }} min read</span>
+              </div>
+            </div>
           </a>
         </article>
-      {{- end -}}
+      {{ end }}
     </div>
   </section>
-{{- end -}}
+{{ end }}
