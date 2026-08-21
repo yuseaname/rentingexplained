@@ -142,10 +142,10 @@
       </div>
       {{ end }}
 
-      {{/* Bottom ad */}}
+      {{/* Bottom ad — observer-gated: fetch only when the reader approaches it */}}
       {{ if .Site.Params.adsense.client_id }}
       <div class="ad-zone ad-zone-md">
-        {{ partial "adsense.html" (dict "position" "end_article" "ctx" .) }}
+        {{ partial "adsense-lazy.html" (dict "position" "end_article" "ctx" .) }}
       </div>
       {{ end }}
 

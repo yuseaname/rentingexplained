@@ -3,6 +3,7 @@ title: "Breaking a Lease Without Penalty: Legal Options and Safer Steps (2025)"
 slug: "breaking-a-lease-without-penalty-2025"
 description: "A renter-first guide to legal lease exits, documentation tips, and negotiating a clean release."
 date: 2025-01-25
+lastmod: 2025-01-25
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["lease-termination", "tenant-rights", "legal", "lease-break", "moving"]

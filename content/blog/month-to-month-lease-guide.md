@@ -3,6 +3,7 @@ title: "Month-to-Month Leases: Rights, Risks, and When It Makes Sense"
 slug: "month-to-month-lease-guide"
 description: "A beginner-friendly guide to month-to-month leases: how they work, the pros and cons, notice rules, rent increase limits, and how to convert from a fixed lease."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "Jenny Park"
 categories: ["Apartment Hunting"]
 tags: ["lease-agreement", "apartment-hunting", "renter-decisions", "lease-renewal", "tenant-tips"]

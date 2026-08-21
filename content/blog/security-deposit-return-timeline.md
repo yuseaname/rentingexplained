@@ -3,6 +3,7 @@ title: "Security Deposit Return Timeline: What to Expect (2026)"
 slug: "security-deposit-return-timeline"
 description: "Learn how security deposit return timelines work, what affects delays, and how to follow up without drama."
 date: 2026-01-04
+lastmod: 2026-01-04
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "tenant-rights", "move-out", "deposit-return", "templates"]

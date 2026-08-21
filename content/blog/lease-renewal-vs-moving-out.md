@@ -3,6 +3,7 @@ title: "Lease Renewal vs. Moving Out: How to Make the Right Call"
 slug: "lease-renewal-vs-moving-out"
 description: "Should you renew your lease or move out? Compare the real costs of staying vs. moving, learn how to negotiate your renewal, and make the right call."
 date: 2026-03-15
+lastmod: 2026-03-15
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["lease-renewal", "moving-out", "tenant-rights", "lease-negotiation", "renter-decisions"]

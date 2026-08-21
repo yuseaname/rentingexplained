@@ -3,6 +3,7 @@ title: "How Tenant Rights Differ by State: An Overview Guide"
 slug: "tenant-rights-by-state-overview"
 description: "Learn how tenant rights vary by state, what rules change most often, and how to find local information."
 date: 2025-02-02
+lastmod: 2025-02-02
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["tenant-rights", "state-laws", "renter-protections", "legal"]

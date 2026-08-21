@@ -3,6 +3,7 @@ title: "Hidden Rental Fees Explained: What Renters Pay Beyond Base Rent"
 slug: "hidden-rental-fees-explained"
 description: "A clear guide to move-in fees, monthly add-ons, and how to spot and negotiate surprise charges."
 date: 2025-01-13
+lastmod: 2025-01-13
 author: "Jessica Torres"
 categories: ["Costs"]
 tags: ["rental-fees", "hidden-costs", "budgeting", "transparency"]

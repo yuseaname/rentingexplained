@@ -1,0 +1,40 @@
+{{- /* adsense-lazy.html — observer-gated ad renderer (SQ-012 §11/§13).
+       Same markup contract as the theme's adsense.html, but the adsbygoogle
+       push only fires when the unit scrolls within ~600px — the end-of-
+       article unit was fetched on load for readers who never reached it.
+       Falls back to an immediate push when IntersectionObserver is missing. */ -}}
+{{- $pos := .position -}}
+{{- $client := .ctx.Site.Params.adsense.client_id -}}
+{{- $slots := .ctx.Site.Params.adsense.slots -}}
+{{- if and $client $slots -}}
+  {{- with index $slots $pos -}}
+<div class="my-6 text-center">
+  <ins class="adsbygoogle lazy-ad"
+       style="display:block"
+       data-ad-client="{{ $client }}"
+       data-ad-slot="{{ .id }}"
+       data-ad-format="{{ .format | default "auto" }}"
+       data-full-width-responsive="{{ .responsive | default "true" }}"></ins>
+  <script>
+    (function () {
+      var units = document.querySelectorAll('ins.lazy-ad[data-ad-slot="{{ .id }}"]');
+      for (var i = 0; i < units.length; i++) {
+        (function (unit) {
+          function push() { (adsbygoogle = window.adsbygoogle || []).push({}); }
+          if (!('IntersectionObserver' in window)) { push(); return; }
+          var io = new IntersectionObserver(function (entries) {
+            for (var j = 0; j < entries.length; j++) {
+              if (entries[j].isIntersecting) {
+                io.disconnect();
+                push();
+              }
+            }
+          }, { rootMargin: '600px' });
+          io.observe(unit);
+        })(units[i]);
+      }
+    })();
+  </script>
+</div>
+  {{- end -}}
+{{- end -}}

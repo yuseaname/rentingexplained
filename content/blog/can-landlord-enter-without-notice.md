@@ -3,6 +3,7 @@ title: "Can Your Landlord Enter Without Notice? State-by-State Rules"
 slug: "can-landlord-enter-without-notice"
 description: "Short answer: usually no. Get the full state-by-state breakdown of landlord entry notice rules, emergency exceptions, and remedies for violations."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["landlord-entry", "tenant-rights", "notice-to-enter", "legal", "renter-protections"]

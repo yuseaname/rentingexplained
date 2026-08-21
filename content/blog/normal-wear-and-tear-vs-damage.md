@@ -3,6 +3,7 @@ title: "Normal Wear and Tear vs. Damage: What Landlords Can Charge For"
 slug: "normal-wear-and-tear-vs-damage"
 description: "Clear examples of normal wear and tear vs. actual damage. Learn how landlords calculate deductions, document the unit, and protect your deposit."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "tenant-rights", "move-out", "legal"]

@@ -3,6 +3,7 @@ title: "Understanding Security Deposits and Evictions: A General Education Guide
 slug: "security-deposits-and-evictions-overview"
 description: "A plain-language overview of security deposits and eviction basics, including documentation tips."
 date: 2025-02-01
+lastmod: 2025-02-01
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "eviction", "tenant-rights", "legal"]

@@ -3,6 +3,7 @@ title: "Apartment Tour Checklist: Questions to Ask and Red Flags to Spot"
 slug: "apartment-tour-checklist-questions-red-flags"
 description: "A practical tour checklist with questions to ask, red flags to notice, and notes to take before you apply."
 date: 2025-02-04
+lastmod: 2025-02-04
 author: "RentingExplained Editorial Team"
 categories: ["Apartment Hunting"]
 tags: ["apartment-hunting", "apartment-tour", "rental-inspection", "moving", "first-apartment"]

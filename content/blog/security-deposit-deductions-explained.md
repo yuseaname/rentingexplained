@@ -3,6 +3,7 @@ title: "Security Deposit Deductions Explained: What's Legal and What's Not"
 slug: "security-deposit-deductions-explained"
 description: "Learn which security deposit deductions are legal, which are illegal, how to dispute them, and how to file in small claims court if your landlord won't return your deposit."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "David Okonkwo"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "tenant-rights", "legal", "consumer-protection"]

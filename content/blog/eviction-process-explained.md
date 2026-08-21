@@ -3,6 +3,7 @@ title: "The Eviction Process Explained: Timeline, Rights, and Defenses"
 slug: "eviction-process-explained"
 description: "A step-by-step guide to the eviction process: notice, filing, court, and removal. Learn your rights, common defenses, and how long each stage really takes."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["eviction", "tenant-rights", "lease-termination", "legal", "renter-protections"]

@@ -3,6 +3,7 @@ title: "Security Deposits: The Complete Guide for Renters"
 slug: "security-deposits-complete-guide"
 description: "The most comprehensive security deposit guide for renters: legal limits, move-in documentation, deductions, return timelines, disputes, and state-by-state rules."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "Sarah Chen"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "tenant-rights", "move-out", "legal", "renter-protections"]

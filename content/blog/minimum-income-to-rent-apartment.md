@@ -15,7 +15,7 @@ sources:
 ---
 
 
-> **Quick Answer (Updated April 2026)**
+> **Quick Answer (Updated August 2026)**
 > 
 > 
 > Most landlords require your **gross monthly income to be at least 3× the monthly rent**. With the U.S. average apartment now at **$1,843/month** (Visual Capitalist, Feb 2026), that means you need to earn at least **$5,529/month** or **$66,348/year** before taxes. But here's what nobody tells you: after taxes, that $1,843 rent eats up **49% of your take-home pay**. This guide shows you the real math, real strategies, and real 2026 data to help you navigate income requirements.

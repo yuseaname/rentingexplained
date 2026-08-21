@@ -3,6 +3,7 @@ title: "2025 Rental Cost Index by State: Average Rent, Deposits, and Move-In Cos
 slug: "2025-rental-cost-index-by-state"
 description: "A state-by-state rental cost index with average rent estimates, deposit limits, and total move-in costs. Methodology, regional breakdowns, and the data behind every number."
 date: 2026-08-10
+lastmod: 2026-08-10
 author: "Marcus Webb"
 categories: ["Financial Planning"]
 tags: ["rent-budget", "apartment-costs", "financial-planning", "hidden-costs", "rent-costs"]

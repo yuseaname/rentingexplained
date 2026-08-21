@@ -3,6 +3,7 @@ title: "Renting With Bad Credit: Options, Cosigners, and What Helps"
 slug: "renting-with-bad-credit-options"
 description: "Learn how renters with bad credit get approved, when cosigners help, and how to strengthen an application."
 date: 2026-01-10
+lastmod: 2026-01-10
 author: "RentingExplained Editorial Team"
 categories: ["Apartment Hunting"]
 tags: ["bad-credit", "rental-application", "tenant-screening", "apartment-hunting", "cosigner"]

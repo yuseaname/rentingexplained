@@ -3,6 +3,7 @@ title: "Section 8 Housing Vouchers Explained: How to Apply and What to Expect"
 slug: "section-8-housing-vouchers-explained"
 description: "Everything you need to know about Section 8 housing vouchers: how they work, how to apply, waitlist times, and finding an apartment."
 date: 2026-03-16
+lastmod: 2026-03-16
 author: "RentingExplained Editorial Team"
 categories: ["Affordable Housing"]
 tags: ["section-8", "housing-vouchers", "affordable-housing", "tenant-rights", "government-assistance"]

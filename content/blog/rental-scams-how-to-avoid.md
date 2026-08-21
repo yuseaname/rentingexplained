@@ -3,6 +3,7 @@ title: "Rental Scams Explained: How to Spot Fake Listings and Stay Safe"
 slug: "rental-scams-how-to-avoid"
 description: "Learn how rental scams work, warning signs to watch for, and simple steps to verify listings before sending money."
 date: 2026-01-09
+lastmod: 2026-01-09
 author: "RentingExplained Editorial Team"
 categories: ["Apartment Hunting"]
 tags: ["rental-scams", "apartment-hunting", "safety", "rental-listings", "moving"]
