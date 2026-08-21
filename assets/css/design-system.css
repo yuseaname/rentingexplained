@@ -2324,3 +2324,42 @@ a.trust-chip:hover { border-color: var(--color-key); }
 }
 @media (max-width: 1023px) { .pa-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 639px) { .pa-grid { grid-template-columns: 1fr; } }
+
+/* ==========================================================================
+   Mobile fold compaction (SQ-012 fold audit, 2026-08-21)
+   On phones the pre-ad stack (title → lede → meta → jurisdiction → trust
+   strip → reviewer card → hero) pushed below_title below the fold, so
+   22-second bouncers never registered an impression. Compacting the
+   compressibles — NOT moving the ad — keeps placements honest.
+   ========================================================================== */
+@media (max-width: 640px) {
+  .article-header { margin-bottom: var(--space-6); }        /* was mb-10 */
+  .article-lede {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: var(--space-3);
+  }
+  .article-meta { margin-top: var(--space-4); }
+  .jurisdiction-note {
+    font-size: 0.78rem;
+    padding: var(--space-2) var(--space-3);
+    gap: 0.5rem;
+  }
+  .trust-strip { gap: var(--space-1) var(--space-2); margin-top: var(--space-3); }
+  .trust-chip { font-size: 0.62rem; padding: 0.22rem 0.55rem; }
+  .reviewer-card {
+    padding: var(--space-2) var(--space-3);
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+    box-shadow: none;
+  }
+  .reviewer-card .rc-title { display: none; }
+  .reviewer-card .rc-review { display: none; }
+  .rc-avatar { width: 1.75rem; height: 1.75rem; font-size: 0.82rem; }
+  .rc-name { font-size: 0.82rem; }
+  .rc-divider { display: none; }
+  .hero-figure { margin-bottom: var(--space-5); }
+  .hero-figure img { max-height: min(30vh, 220px); }
+}
