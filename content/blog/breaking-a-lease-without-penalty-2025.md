@@ -9,7 +9,7 @@ tags: ["lease-termination", "tenant-rights", "legal", "lease-break", "moving"]
 image: "/images/legal-rights/breaking-a-lease-without-penalty-2025/breaking-a-lease-without-penalty-2025-hero.webp"
 imageAlt: "Lease document and pen representing breaking a lease without penalty"
 readingTime: 16
-aliases: ["/blog/how-to-break-lease", "/blog/how-to-break-lease-early", "/blog/breaking-a-lease-without-penalty"]
+aliases: ["/blog/how-to-break-lease", "/blog/how-to-break-lease-early", "/blog/breaking-a-lease-without-penalty", "/breaking-a-lease-without-penalty"]
 ---
 
 Breaking a lease can feel like a trap: you have a move you need to make, a contract that says you cannot, and a fear that one wrong step will wreck your finances. The good news is that there are safer paths if you slow down, read your lease carefully, and keep everything in writing.
