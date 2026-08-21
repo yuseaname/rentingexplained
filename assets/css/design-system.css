@@ -2490,3 +2490,17 @@ a.statute-chip:hover { border-color: var(--color-sage, #4f7a55); background: col
 
 /* §-mark replaces emoji callout icons (council cut, blueprint §6) */
 .callout .callout-icon { color: var(--color-key, #b8893f); }
+
+/* Mobile fold compaction round 2 (measured 375x812: header alone ended at
+   681px). Tighter title, clamped jurisdiction note, single-row trust. */
+@media (max-width: 640px) {
+  .article-header .article-title,
+  .article-header h1 { font-size: 1.75rem; line-height: 1.22; letter-spacing: -0.015em; }
+  .jurisdiction-note span {
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .trust-strip { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .trust-strip::-webkit-scrollbar { display: none; }
+  .trust-chip { white-space: nowrap; flex: none; }
+  .eyebrow { margin-bottom: 0.4rem !important; }
+}

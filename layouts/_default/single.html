@@ -71,15 +71,18 @@
     {{ partial "reviewer-card.html" . }}
   </header>
 
-  {{/* Hero image — below the header so headline + answer sit above the fold */}}
-  {{ partial "hero-image.html" . }}
-
-  {{/* Ad slot: below title */}}
+  {{/* Ad slot: below title — between header and hero so it clears the
+        mobile fold (measured 2026-08-21: after-hero placement pushed the
+        unit to 1079px on an 812px viewport; below-title is its literal
+        home and the ad never enters content). */}}
   {{ if .Site.Params.adsense.client_id }}
   <div class="ad-zone ad-zone-sm">
     {{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}
   </div>
   {{ end }}
+
+  {{/* Hero image — below the ad so headline + answer lead the page */}}
+  {{ partial "hero-image.html" . }}
 
   <!-- Article layout: content + optional sidebar -->
   <div class="article-layout {{ if gt .WordCount 1000 }}has-sidebar{{ end }}">
