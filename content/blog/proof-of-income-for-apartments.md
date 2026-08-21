@@ -51,22 +51,22 @@ sources:
 
 <table role="table" aria-label="Documents accepted as proof of income" style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#1e293b;color:white;">
+<tr style="background:#1a1714;color:white;">
 <th scope="col" style="padding:12px;text-align:left;">Document</th>
 <th scope="col" style="padding:12px;text-align:left;">Best For</th>
 <th scope="col" style="padding:12px;text-align:left;">What It Shows</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Pay stubs (2–3 recent)</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">W-2 employees</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Employer, gross/net pay, YTD earnings</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>W-2 form</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">W-2 employees</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Annual earnings from prior year</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Employment verification letter</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Any employee</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Job title, salary, employment status</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Bank statements (2–3 months)</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Gig workers, cash earners, self-employed</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Deposit history and cash flow patterns</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Tax returns (1–2 years)</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Self-employed, freelancers</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Annual income, business revenue</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>1099 forms</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Independent contractors</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Income from each client/payer</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Offer letter</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">New hires</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Role, start date, salary</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Social Security benefit statement</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Retirees, disabled individuals</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Monthly benefit amount</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Pension/retirement statement</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Retirees</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Monthly pension income</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Pay stubs (2–3 recent)</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">W-2 employees</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Employer, gross/net pay, YTD earnings</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>W-2 form</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">W-2 employees</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Annual earnings from prior year</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Employment verification letter</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Any employee</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Job title, salary, employment status</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Bank statements (2–3 months)</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Gig workers, cash earners, self-employed</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Deposit history and cash flow patterns</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Tax returns (1–2 years)</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Self-employed, freelancers</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Annual income, business revenue</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>1099 forms</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Independent contractors</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Income from each client/payer</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Offer letter</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">New hires</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Role, start date, salary</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Social Security benefit statement</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Retirees, disabled individuals</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Monthly benefit amount</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Pension/retirement statement</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Retirees</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Monthly pension income</td></tr>
 <tr style="background:#f8fafc;"><td style="padding:10px;"><strong>Financial aid / stipend letter</strong></td><td style="padding:10px;">Students</td><td style="padding:10px;">Award amount and disbursement schedule</td></tr>
 </tbody>
 </table>
@@ -117,16 +117,16 @@ sources:
 ### The self-employed document stack
 <table role="table" aria-label="Data table" style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Document</th>
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Why It Helps</th>
+<tr style="background:#f7f2ea;">
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Document</th>
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Why It Helps</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Tax returns (2 years)</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Most convincing — shows the IRS already verified your income</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;">1099 forms</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Shows income from each client or platform</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Bank statements (3 months)</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Proves regular deposits and current cash flow</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Profit &amp; loss statement</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Summarizes business income and expenses monthly</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;">Tax returns (2 years)</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Most convincing — shows the IRS already verified your income</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;">1099 forms</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Shows income from each client or platform</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;">Bank statements (3 months)</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Proves regular deposits and current cash flow</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;">Profit &amp; loss statement</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Summarizes business income and expenses monthly</td></tr>
 <tr><td style="padding:10px;">Client contracts or invoices</td><td style="padding:10px;">Shows ongoing work agreements and payment terms</td></tr>
 </tbody>
 </table>
@@ -184,17 +184,17 @@ sources:
 ### Documents students can use
 <table role="table" aria-label="Data table" style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Income Source</th>
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Proof Document</th>
+<tr style="background:#f7f2ea;">
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Income Source</th>
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Proof Document</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Financial aid / student loans</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Financial aid award letter from your school</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Scholarships</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Scholarship award notification letter</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Graduate stipend / assistantship</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Letter from your program office confirming stipend amount</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Part-time job</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Pay stubs from campus or off-campus employment</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;">529 plan or family support</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Bank statements showing regular deposits; a signed support letter from a parent or guardian</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;">Financial aid / student loans</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Financial aid award letter from your school</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;">Scholarships</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Scholarship award notification letter</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;">Graduate stipend / assistantship</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Letter from your program office confirming stipend amount</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;">Part-time job</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Pay stubs from campus or off-campus employment</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;">529 plan or family support</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Bank statements showing regular deposits; a signed support letter from a parent or guardian</td></tr>
 <tr style="background:#f8fafc;"><td style="padding:10px;">Cosigner / guarantor</td><td style="padding:10px;">Cosigner's income documentation (pay stubs, tax returns)</td></tr>
 </tbody>
 </table>
@@ -218,16 +218,16 @@ sources:
 ### Major verification services in 2026
 <table role="table" aria-label="Data table" style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Service</th>
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">How It Works</th>
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Best For</th>
+<tr style="background:#f7f2ea;">
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Service</th>
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">How It Works</th>
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Best For</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>The Work Number</strong> (Equifax)</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Connects to employer payroll systems directly</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">W-2 employees at large/mid-size companies</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Incomed</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Links to your bank account to verify deposits</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Gig workers, freelancers, variable income</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>RentTrack</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Combines income verification with rent payment reporting</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Renters building credit history</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>The Work Number</strong> (Equifax)</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Connects to employer payroll systems directly</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">W-2 employees at large/mid-size companies</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Incomed</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Links to your bank account to verify deposits</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Gig workers, freelancers, variable income</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>RentTrack</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Combines income verification with rent payment reporting</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Renters building credit history</td></tr>
 <tr style="background:#f8fafc;"><td style="padding:10px;"><strong>TransUnion SmartMove</strong></td><td style="padding:10px;">Income + credit + background in one report</td><td style="padding:10px;">Independent landlords wanting an all-in-one check</td></tr>
 </tbody>
 </table>
@@ -287,12 +287,12 @@ sources:
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Submitting old pay stubs</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Landlords want current income, not what you earned 6 months ago</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Use only the most recent 2–3 pay stubs</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Over-redacting bank statements</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">If you black out the deposit amounts, the statement is useless</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Only redact non-essential spending; keep deposits visible</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Using phone screenshots</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Screenshots are easy to fake and often miss details</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Download official PDF statements from your bank</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Inconsistent numbers</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Application says $5,000/month but pay stubs show $4,200</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Double-check every number before submitting</td></tr>
-<tr><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>Blurry or incomplete scans</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">If the landlord can't read it, it doesn't count</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Use a scanning app or download PDFs directly</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>No explanation for variable income</strong></td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Landlord sees fluctuating deposits and assumes risk</td><td style="padding:10px;border-bottom:1px solid #e2e8f0;">Include a one-paragraph income summary note</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Submitting old pay stubs</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Landlords want current income, not what you earned 6 months ago</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Use only the most recent 2–3 pay stubs</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Over-redacting bank statements</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">If you black out the deposit amounts, the statement is useless</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Only redact non-essential spending; keep deposits visible</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Using phone screenshots</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Screenshots are easy to fake and often miss details</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Download official PDF statements from your bank</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Inconsistent numbers</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Application says $5,000/month but pay stubs show $4,200</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Double-check every number before submitting</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>Blurry or incomplete scans</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">If the landlord can't read it, it doesn't count</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Use a scanning app or download PDFs directly</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>No explanation for variable income</strong></td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Landlord sees fluctuating deposits and assumes risk</td><td style="padding:10px;border-bottom:1px solid #e3dccf;">Include a one-paragraph income summary note</td></tr>
 <tr><td style="padding:10px;"><strong>Missing name or account details</strong></td><td style="padding:10px;">Documents can't be verified if they're not linked to you</td><td style="padding:10px;">Make sure your name appears on every document</td></tr>
 </tbody>
 </table>
@@ -303,7 +303,7 @@ sources:
 
 <p>Use this template when your income is variable, self-employed, or doesn't fit a standard pay stub. Customize the bracketed sections and keep it to one short paragraph.</p>
 
-<div style="background:#f8fafc;padding:20px;border-radius:8px;margin:16px 0;font-family:monospace;font-size:0.95rem;border:1px solid #cbd5e1;">
+<div style="background:#f8fafc;padding:20px;border-radius:8px;margin:16px 0;font-family:monospace;font-size:0.95rem;border:1px solid #d8cfbf;">
 <p style="margin-top:0;">Dear [Property Manager Name],</p>
 <p>I am submitting my income documentation for the rental application at [Property Address]. My income type is [W-2 / self-employed / freelance / student / Social Security], and my average monthly income over the last [3/6/12] months is $[amount].</p>
 <p>I have included the following documents: [list your documents — e.g., "last 3 pay stubs, 2 months of bank statements, and an employment verification letter from HR"].</p>

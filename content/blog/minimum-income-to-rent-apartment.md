@@ -20,6 +20,8 @@ sources:
 > 
 > Most landlords require your **gross monthly income to be at least 3× the monthly rent**. With the U.S. average apartment now at **$1,843/month** (Visual Capitalist, Feb 2026), that means you need to earn at least **$5,529/month** or **$66,348/year** before taxes. But here's what nobody tells you: after taxes, that $1,843 rent eats up **49% of your take-home pay**. This guide shows you the real math, real strategies, and real 2026 data to help you navigate income requirements.
 > For a personalized number, try the [Rent Budget Calculator](/tools/rent-budget-calculator/) after you read the rules below.
+>
+> <p class="verdict-line"><strong>The verdict:</strong> yes, they mean gross income — and yes, the rule is blunt. Your state may cap what a landlord can demand upfront; <a href="/state-laws/">check your state's rules →</a></p>
 > 
 > 
 > 
@@ -47,27 +49,27 @@ sources:
 
 <table role="table" aria-label="Rent-to-income ratio comparison: 2.5x, 3x, and 3.5x rules" style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
-<th scope="col" style="padding:12px;text-align:left;border-bottom:2px solid #cbd5e1;">Rule</th>
-<th scope="col" style="padding:12px;text-align:left;border-bottom:2px solid #cbd5e1;">What It Means</th>
-<th scope="col" style="padding:12px;text-align:left;border-bottom:2px solid #cbd5e1;">Who Usually Uses It</th>
+<tr style="background:#f7f2ea;">
+<th scope="col" style="padding:12px;text-align:left;border-bottom:2px solid #d8cfbf;">Rule</th>
+<th scope="col" style="padding:12px;text-align:left;border-bottom:2px solid #d8cfbf;">What It Means</th>
+<th scope="col" style="padding:12px;text-align:left;border-bottom:2px solid #d8cfbf;">Who Usually Uses It</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>2.5× rent</strong></td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Rent = 40% of gross income</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Smaller landlords, lower-cost markets, private owners</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>2.5× rent</strong></td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Rent = 40% of gross income</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Smaller landlords, lower-cost markets, private owners</td>
 </tr>
 <tr style="background:#f8fafc;">
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>3× rent</strong> (most common)</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Rent = 33% of gross income</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Large complexes, corporate landlords, property management companies</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>3× rent</strong> (most common)</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Rent = 33% of gross income</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Large complexes, corporate landlords, property management companies</td>
 </tr>
 <tr>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;"><strong>3.5× rent</strong></td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Rent = 29% of gross income</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Luxury buildings, high-cost cities (NYC, SF, Boston)</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;"><strong>3.5× rent</strong></td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Rent = 29% of gross income</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Luxury buildings, high-cost cities (NYC, SF, Boston)</td>
 </tr>
 </tbody>
 </table>
@@ -146,7 +148,7 @@ sources:
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:0.95rem;">
 <thead>
-<tr style="background:#1e293b;color:white;">
+<tr style="background:#1a1714;color:white;">
 <th scope="col" style="padding:10px;text-align:left;">City</th>
 <th scope="col" style="padding:10px;text-align:right;">Avg. 1-Bed Rent</th>
 <th scope="col" style="padding:10px;text-align:right;">3× Monthly</th>
@@ -154,18 +156,18 @@ sources:
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">New York, NY</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$3,800</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$11,400</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$136,800</strong></td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">San Francisco, CA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$3,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$9,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$115,200</strong></td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Boston, MA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$2,900</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$8,700</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$104,400</strong></td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Los Angeles, CA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$2,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$7,800</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$93,600</strong></td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Seattle, WA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$2,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$6,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$79,200</strong></td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Chicago, IL</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,900</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$5,700</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$68,400</strong></td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Denver, CO</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,700</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$5,100</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$61,200</strong></td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Atlanta, GA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,650</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$4,950</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$59,400</strong></td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Austin, TX</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$4,800</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$57,600</strong></td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Dallas, TX</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,550</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$4,650</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$55,800</strong></td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Phoenix, AZ</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,400</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$4,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$50,400</strong></td></tr>
-<tr style="background:#f0fdf4;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Columbus, OH</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$3,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$43,200</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">New York, NY</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$3,800</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$11,400</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$136,800</strong></td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">San Francisco, CA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$3,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$9,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$115,200</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Boston, MA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$2,900</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$8,700</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$104,400</strong></td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Los Angeles, CA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$2,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$7,800</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$93,600</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Seattle, WA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$2,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$6,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$79,200</strong></td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Chicago, IL</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,900</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$5,700</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$68,400</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Denver, CO</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,700</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$5,100</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$61,200</strong></td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Atlanta, GA</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,650</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$4,950</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$59,400</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Austin, TX</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$4,800</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$57,600</strong></td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Dallas, TX</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,550</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$4,650</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$55,800</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Phoenix, AZ</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,400</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$4,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$50,400</strong></td></tr>
+<tr style="background:#f0fdf4;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Columbus, OH</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$3,600</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$43,200</strong></td></tr>
 <tr><td style="padding:8px;"><strong>National Average</strong></td><td style="padding:8px;text-align:right;"><strong>$1,843</strong></td><td style="padding:8px;text-align:right;"><strong>$5,529</strong></td><td style="padding:8px;text-align:right;"><strong>$66,348</strong></td></tr>
 </tbody>
 </table>
@@ -192,12 +194,12 @@ sources:
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Gross income</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$5,529</td></tr>
-<tr style="background:#fef2f2;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Federal tax (~22% bracket)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">-$800</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">State tax (avg ~5%)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">-$276</td></tr>
-<tr style="background:#fef2f2;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Social Security + Medicare (7.65%)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">-$423</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Health insurance premium</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">-$275</td></tr>
-<tr style="background:#f0fdf4;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;"><strong>Net (take-home) pay</strong></td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>~$3,755</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Gross income</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$5,529</td></tr>
+<tr style="background:#fef2f2;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Federal tax (~22% bracket)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">-$800</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">State tax (avg ~5%)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">-$276</td></tr>
+<tr style="background:#fef2f2;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Social Security + Medicare (7.65%)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">-$423</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Health insurance premium</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">-$275</td></tr>
+<tr style="background:#f0fdf4;"><td style="padding:8px;border-bottom:1px solid #e3dccf;"><strong>Net (take-home) pay</strong></td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>~$3,755</strong></td></tr>
 <tr><td style="padding:8px;"><strong>Rent payment</strong></td><td style="padding:8px;text-align:right;"><strong>$1,843 (49% of net!)</strong></td></tr>
 </tbody>
 </table>
@@ -218,23 +220,23 @@ sources:
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
+<tr style="background:#f7f2ea;">
 <th scope="col" style="padding:10px;text-align:left;">Expense</th>
 <th scope="col" style="padding:10px;text-align:right;">Amount</th>
 <th scope="col" style="padding:10px;text-align:right;">% of Net</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Gross monthly income</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$4,283</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">—</td></tr>
-<tr style="background:#fef2f2;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Taxes + deductions (est.)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">-$1,290</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">—</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;"><strong>Take-home pay</strong></td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong>$2,993</strong></td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">100%</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Rent (national avg)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$1,843</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;"><strong style="color:#dc2626;">62%</strong></td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Groceries</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$400</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">13%</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Transportation</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">7%</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Utilities</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$180</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">6%</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Phone + internet</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$110</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">4%</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Insurance (renters + health share)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">$150</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e2e8f0;">5%</td></tr>
-<tr style="background:#fef2f2;"><td style="padding:8px;"><strong>Leftover for EVERYTHING else</strong></td><td style="padding:8px;text-align:right;"><strong style="color:#dc2626;">$110</strong></td><td style="padding:8px;text-align:right;"><strong style="color:#dc2626;">4%</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Gross monthly income</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$4,283</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">—</td></tr>
+<tr style="background:#fef2f2;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Taxes + deductions (est.)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">-$1,290</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">—</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;"><strong>Take-home pay</strong></td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong>$2,993</strong></td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">100%</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Rent (national avg)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$1,843</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;"><strong style="color:#b8451f;">62%</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Groceries</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$400</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">13%</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Transportation</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$200</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">7%</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Utilities</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$180</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">6%</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Phone + internet</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$110</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">4%</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Insurance (renters + health share)</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">$150</td><td style="padding:8px;text-align:right;border-bottom:1px solid #e3dccf;">5%</td></tr>
+<tr style="background:#fef2f2;"><td style="padding:8px;"><strong>Leftover for EVERYTHING else</strong></td><td style="padding:8px;text-align:right;"><strong style="color:#b8451f;">$110</strong></td><td style="padding:8px;text-align:right;"><strong style="color:#b8451f;">4%</strong></td></tr>
 </tbody>
 </table>
 
@@ -274,37 +276,37 @@ sources:
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Strength</th>
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">Why It Helps</th>
-<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #cbd5e1;">How to Prove It</th>
+<tr style="background:#f7f2ea;">
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Strength</th>
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">Why It Helps</th>
+<th scope="col" style="padding:10px;text-align:left;border-bottom:2px solid #d8cfbf;">How to Prove It</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Strong cosigner/guarantor</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Shifts financial risk to someone with higher income</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Cosigner's pay stubs, tax returns, credit report</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Strong cosigner/guarantor</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Shifts financial risk to someone with higher income</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Cosigner's pay stubs, tax returns, credit report</td>
 </tr>
 <tr style="background:#f8fafc;">
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">High savings balance</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Shows you can cover rent even if income dips</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Bank statements (3–6 months)</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">High savings balance</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Shows you can cover rent even if income dips</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Bank statements (3–6 months)</td>
 </tr>
 <tr>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Stable employment (2+ years)</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Reliability matters more than raw numbers to some landlords</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Employment verification letter, W-2s</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Stable employment (2+ years)</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Reliability matters more than raw numbers to some landlords</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Employment verification letter, W-2s</td>
 </tr>
 <tr style="background:#f8fafc;">
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Spotless rental history</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Past behavior predicts future behavior</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Reference letters from prior landlords</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Spotless rental history</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Past behavior predicts future behavior</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Reference letters from prior landlords</td>
 </tr>
 <tr>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Offering a larger deposit</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Gives the landlord a financial cushion</td>
-<td style="padding:10px;border-bottom:1px solid #e2e8f0;">Cash up front (check local deposit limits — some states cap this)</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Offering a larger deposit</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Gives the landlord a financial cushion</td>
+<td style="padding:10px;border-bottom:1px solid #e3dccf;">Cash up front (check local deposit limits — some states cap this)</td>
 </tr>
 <tr style="background:#f8fafc;">
 <td style="padding:10px;">Paying several months upfront</td>
@@ -338,19 +340,19 @@ sources:
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
 <thead>
-<tr style="background:#f1f5f9;">
+<tr style="background:#f7f2ea;">
 <th scope="col" style="padding:10px;text-align:left;"></th>
 <th scope="col" style="padding:10px;text-align:center;">Renter A</th>
 <th scope="col" style="padding:10px;text-align:center;">Renter B</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Gross monthly income</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$5,400</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$5,400</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Target rent</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$1,800</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$1,800</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Student loans</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$0</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$450</td></tr>
-<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Car payment + insurance</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$150</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$650</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #e2e8f0;">Credit card payments</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$0</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;">$200</td></tr>
-<tr style="background:#f0fdf4;"><td style="padding:8px;border-bottom:1px solid #e2e8f0;"><strong>Leftover after rent + debt</strong></td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;"><strong style="color:#16a34a;">~$1,737</strong></td><td style="padding:8px;text-align:center;border-bottom:1px solid #e2e8f0;"><strong style="color:#dc2626;">~$437</strong></td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Gross monthly income</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$5,400</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$5,400</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Target rent</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$1,800</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$1,800</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Student loans</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$0</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$450</td></tr>
+<tr style="background:#f8fafc;"><td style="padding:8px;border-bottom:1px solid #e3dccf;">Car payment + insurance</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$150</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$650</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #e3dccf;">Credit card payments</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$0</td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;">$200</td></tr>
+<tr style="background:#f0fdf4;"><td style="padding:8px;border-bottom:1px solid #e3dccf;"><strong>Leftover after rent + debt</strong></td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;"><strong style="color:#4f7a55;">~$1,737</strong></td><td style="padding:8px;text-align:center;border-bottom:1px solid #e3dccf;"><strong style="color:#b8451f;">~$437</strong></td></tr>
 </tbody>
 </table>
 

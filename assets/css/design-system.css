@@ -2474,3 +2474,19 @@ a.statute-chip:hover { border-color: var(--color-sage, #4f7a55); background: col
   .journey-step-title { font-size: 1.15rem; }
   .journey-cards { grid-template-columns: 1fr; }
 }
+
+/* Verdict line — the Quick Answer's one-sentence judgment (blueprint §5.4) */
+.verdict-line {
+  font-family: var(--font-display, Georgia, serif);
+  font-style: italic;
+  font-size: 1.08rem;
+  line-height: 1.55;
+  color: var(--color-ink, #1a1714);
+  border-left: 3px solid var(--color-door, #b8451f);
+  padding: 0.35rem 0 0.35rem 0.9rem;
+  margin: 0.9rem 0 0.2rem;
+}
+.verdict-line a { color: var(--color-link, #993819); }
+
+/* §-mark replaces emoji callout icons (council cut, blueprint §6) */
+.callout .callout-icon { color: var(--color-key, #b8893f); }
