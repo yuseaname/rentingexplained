@@ -7,7 +7,7 @@ lastmod: 2026-08-09
 author: "RentingExplained Editorial Team"
 categories: ["Legal Rights"]
 tags: ["security-deposit", "deposit-return", "move-out", "tenant-rights", "legal"]
-image: "/images/how-to-get-security-deposit-back/how-to-get-security-deposit-back_hero_00001_.png"
+image: "/images/makeover/art-deposit-back-hero.webp"
 ---
 
 <div class="quick-answer">
