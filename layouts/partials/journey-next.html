@@ -1,0 +1,45 @@
+{{- /* journey-next.html — contextual next-step footer for articles.
+       Finds the article's journey + step, links the next article in that
+       step, then the first article of the next step. Session-depth engine
+       (blueprint §9.12). Renders nothing for non-journey pages. */ -}}
+{{- $here := strings.TrimSuffix "/" .RelPermalink -}}
+{{- $done := false -}}
+{{- range $jp := where site.RegularPages "Section" "journeys" -}}
+  {{- range $si, $step := $jp.Params.steps -}}
+    {{- range $ai, $art := $step.articles -}}
+      {{- if and (not $done) (eq (strings.TrimSuffix "/" $art) $here) -}}
+        {{- $done = true -}}
+        {{- $nextInStep := "" -}}
+        {{- if lt (add $ai 1) (len $step.articles) -}}
+          {{- $nextInStep = index $step.articles (add $ai 1) -}}
+        {{- end -}}
+        {{- $ns := index $jp.Params.steps (add $si 1) -}}
+        {{- if or $nextInStep $ns -}}
+<div class="journey-footer" aria-label="Where to go next">
+  <div class="ledger-stamp-row">
+    <span class="ledger-stamp" aria-hidden="true">§ Next steps</span>
+    <span class="ledger-verified">Journey: <a href="{{ $jp.RelPermalink }}">{{ $jp.Title }}</a> — {{ $step.name }}</span>
+  </div>
+  <div class="journey-cards">
+          {{- with site.GetPage (strings.TrimSuffix "/" $nextInStep) }}
+    <a class="journey-card" href="{{ .RelPermalink }}">
+      <span class="journey-card-title">{{ .Title }}</span>
+      {{- with .Params.description }}<span class="journey-card-desc">{{ truncate 110 . }}</span>{{- end }}
+    </a>
+          {{- end -}}
+          {{- if $ns -}}
+            {{- $na := index $ns.articles 0 -}}
+            {{- with site.GetPage (strings.TrimSuffix "/" $na) }}
+    <a class="journey-card journey-card-step" href="{{ .RelPermalink }}">
+      <span class="journey-card-title">Next up: {{ $ns.name }}</span>
+      <span class="journey-card-desc">{{ .Title }}</span>
+    </a>
+            {{- end -}}
+          {{- end -}}
+  </div>
+</div>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

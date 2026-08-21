@@ -142,6 +142,9 @@
       </div>
       {{ end }}
 
+      {{/* Journey footer: contextual next steps (blueprint §9.12) */}}
+      {{ partial "journey-next.html" . }}
+
       {{/* Bottom ad — observer-gated: fetch only when the reader approaches it */}}
       {{ if .Site.Params.adsense.client_id }}
       <div class="ad-zone ad-zone-md">

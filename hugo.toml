@@ -104,7 +104,7 @@ theme = 'adsense-base'
     weight = 1
   [[menus.main]]
     name = "Guides"
-    url = "/blog"
+    url = "/journeys/"
     weight = 2
   [[menus.main]]
     name = "Tools"
@@ -127,6 +127,11 @@ theme = 'adsense-base'
     name = "Search"
     url = "/search/"
     weight = 7
+
+  [[menus.footer]]
+    name = "All Guides"
+    url = "/blog/"
+    weight = 4
 
   [[menus.footer]]
     name = "Start Here"

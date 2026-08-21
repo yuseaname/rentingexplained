@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{/* journeys/section.html — the four-door hub. */}}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  {{ partial "breadcrumbs.html" . }}
+
+  <header class="page-header mb-10">
+    <span class="eyebrow">Journeys</span>
+    <h1 class="page-title">Four doors. Every guide behind one of them.</h1>
+    {{ with .Params.description }}<p class="page-sub">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="journey-hub-grid">
+    {{ range sort (where .Site.RegularPages "Section" "journeys") "Params.weight" }}
+    <a class="journey-door" href="{{ .RelPermalink }}">
+      <span class="journey-step-num">{{ printf "%02d" (int .Params.weight) }}</span>
+      <span class="journey-card-title">{{ .Title }}</span>
+      {{ with .Params.lede }}<span class="journey-card-desc">{{ . }}</span>{{ end }}
+      {{ with .Params.steps }}<span class="journey-door-steps">{{ len . }} steps · {{ len (index (index . 0) "articles") }}+ guides</span>{{ end }}
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="article-content mt-10">{{ .Content }}</div>
+</div>
+{{ end }}

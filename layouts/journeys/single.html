@@ -1,0 +1,60 @@
+{{ define "main" }}
+{{/* journeys/single.html — one journey: lede, ruled step-paths, article cards.
+       Curated step lists live in front matter (steps[].articles). */}}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  {{ partial "breadcrumbs.html" . }}
+
+  <header class="page-header mb-10">
+    <span class="eyebrow">Journey</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Params.lede }}<p class="page-sub">{{ . }}</p>{{ end }}
+  </header>
+
+  {{ $steps := .Params.steps }}
+  {{ $n := len $steps }}
+  <ol class="journey-path">
+    {{ range $i, $step := $steps }}
+    <li class="journey-step">
+      <div class="journey-step-marker">
+        <span class="journey-step-num">{{ add $i 1 }}</span>
+        {{ if lt (add $i 1) $n }}<span class="journey-step-rule" aria-hidden="true"></span>{{ end }}
+      </div>
+      <div class="journey-step-body">
+        <h2 class="journey-step-title">{{ $step.name }}</h2>
+        <div class="journey-cards">
+          {{ range $step.articles }}
+            {{ with $.Site.GetPage (strings.TrimSuffix "/" .) }}
+            <a class="journey-card" href="{{ .RelPermalink }}">
+              <span class="journey-card-title">{{ .Title }}</span>
+              {{ with .Params.description }}<span class="journey-card-desc">{{ truncate 110 . }}</span>{{ end }}
+            </a>
+            {{ else }}
+            <span class="journey-card journey-card-missing">⚠ missing: {{ . }}</span>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+
+  <div class="article-content mt-10">
+    {{ .Content }}
+  </div>
+
+  {{/* Cross-links: the other three doors */}}
+  <nav class="journey-others mt-10" aria-label="Other journeys">
+    <span class="eyebrow">Other doors</span>
+    <div class="journey-cards">
+      {{ range where .Site.RegularPages "Section" "journeys" }}
+        {{ if ne .RelPermalink $.RelPermalink }}
+      <a class="journey-card" href="{{ .RelPermalink }}">
+        <span class="journey-card-title">{{ .Title }}</span>
+        {{ with .Params.lede }}<span class="journey-card-desc">{{ truncate 110 . }}</span>{{ end }}
+      </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </nav>
+</div>
+{{ end }}

@@ -2429,3 +2429,48 @@ a.statute-chip:hover { border-color: var(--color-sage, #4f7a55); background: col
   }
 }
 @media print { .article-content { background-image: none !important; } }
+
+/* Journey system (blueprint §7/§9.12) — ruled paths, not dotted SaaS chrome */
+.journey-path { list-style: none; margin: 0; padding: 0; }
+.journey-step { display: flex; gap: var(--space-4, 1rem); }
+.journey-step-marker { display: flex; flex-direction: column; align-items: center; flex: none; }
+.journey-step-num {
+  width: 2rem; height: 2rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono, monospace); font-size: 0.8rem; font-weight: 600;
+  color: var(--color-parchment, #faf7f2); background: var(--color-door, #b8451f);
+}
+.journey-step-rule { width: 1px; flex: 1; min-height: 1.5rem; background: var(--color-rule, #e3dccf); margin: 0.35rem 0; }
+.journey-step-body { flex: 1; min-width: 0; padding-bottom: var(--space-8, 2rem); }
+.journey-step-title {
+  font-family: var(--font-display, Georgia, serif); font-size: 1.35rem; font-weight: 600;
+  color: var(--color-ink, #1a1714); margin: 0.15rem 0 var(--space-4, 1rem);
+}
+.journey-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.65rem; }
+.journey-card {
+  display: flex; flex-direction: column; gap: 0.3rem; text-decoration: none;
+  border: 1px solid var(--color-rule, #e3dccf); border-left: 3px solid var(--color-rule, #e3dccf);
+  border-radius: 0 10px 10px 0; background: var(--color-surface, #fff);
+  padding: 0.75rem 0.9rem; transition: border-color 0.15s ease;
+}
+.journey-card:hover { border-left-color: var(--color-door, #b8451f); text-decoration: none; }
+.journey-card-title { font-weight: 600; font-size: 0.95rem; color: var(--color-ink, #1a1714); line-height: 1.35; }
+.journey-card-desc { font-size: 0.8rem; color: var(--color-text-muted, #6b6359); line-height: 1.45; }
+.journey-card-step .journey-card-title { font-family: var(--font-mono, monospace); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-sage, #4f7a55); }
+.journey-card-missing { border-style: dashed; color: var(--color-door, #b8451f); font-size: 0.8rem; }
+.journey-hub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.9rem; }
+.journey-door {
+  display: flex; flex-direction: column; gap: 0.45rem; text-decoration: none;
+  border: 1px solid var(--color-rule, #e3dccf); border-radius: 12px;
+  background: var(--color-parchment, #faf7f2); padding: 1.1rem 1.2rem;
+}
+.journey-door:hover { border-color: var(--color-door, #b8451f); text-decoration: none; }
+.journey-door .journey-step-num { width: auto; height: auto; background: none; color: var(--color-key, #b8893f); font-size: 1.6rem; }
+.journey-door-steps { font-family: var(--font-mono, monospace); font-size: 0.68rem; color: var(--color-text-muted, #6b6359); letter-spacing: 0.06em; }
+.journey-footer { margin-top: var(--space-8, 2rem); border: 1px solid var(--color-rule, #e3dccf); border-radius: var(--radius-xl, 14px); overflow: hidden; }
+.journey-footer .ledger-stamp-row { border-bottom-width: 1px; }
+.journey-footer .journey-cards { padding: 0.75rem; }
+@media (max-width: 640px) {
+  .journey-step-title { font-size: 1.15rem; }
+  .journey-cards { grid-template-columns: 1fr; }
+}
