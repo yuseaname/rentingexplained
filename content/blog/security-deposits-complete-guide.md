@@ -9,6 +9,7 @@ tags: ["security-deposit", "deposit-return", "tenant-rights", "move-out", "legal
 image: "/images/makeover/art-security-deposits-complete.webp"
 imageAlt: "Landlord and renter shaking hands over key and envelope on move-in day"
 readingTime: 22
+aliases: ["/blog/security-deposits-guide/"]
 ---
 
 A security deposit is often the largest single check you will write as a renter — frequently equal to one or two months' rent. That money is not the landlord's. It is yours, held in trust, with strict rules about how it can be used and when it must be returned. This guide is the definitive roadmap to every stage of the security deposit process: how much can be charged, how to document the unit, what landlords can and cannot deduct, how long you have to wait for the return, and what to do when your landlord breaks the rules.
