@@ -94,7 +94,7 @@
 
       <!-- Article Content -->
       <div class="article-content">
-        {{ .Content }}
+        {{ .Content }}{{ partial "faq-schema-render.html" . }}
       </div>
 
       {{/* Verified primary sources drawer */}}
