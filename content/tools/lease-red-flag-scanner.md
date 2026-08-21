@@ -81,6 +81,6 @@ The scanner looks for patterns associated with common lease problems. It cannot 
 ## Related guides
 
 - <a href="/blog/understanding-a-lease-agreement/">Understanding a Lease Agreement</a>
-- <a href="/blog/how-to-break-lease/">How to Break a Lease</a>
+- <a href="/blog/breaking-a-lease-without-penalty-2025/">Breaking a Lease Without Penalty</a>
 - <a href="/blog/landlord-entry-notice-requirements/">Landlord Entry Notice Requirements</a>
 - <a href="/blog/security-deposits-guide/">Security Deposits Guide</a>
