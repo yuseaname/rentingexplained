@@ -13,32 +13,71 @@
   {{ $state := index .Site.Data.state_laws $abbr }}
 
   {{ if $state }}
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
-    <div class="card">
-      <div class="card-body">
-        <span class="stamp mb-2">Security deposit</span>
-        <p class="font-semibold text-lg">{{ $state.deposit_limit }}</p>
+    {{ if $state.fields }}
+    {{/* The Ledger: cited, dated rows from data/state_laws.json.
+           States without vetted rows yet keep the card grid below —
+           progressive enhancement, nothing breaks, nothing invents. */}}
+    <section class="ledger-wrap mb-10" aria-label="{{ $state.name }} rules at a glance">
+      <div class="ledger-stamp-row">
+        <span class="ledger-stamp" aria-hidden="true">§ Ledger entry</span>
+        <span class="ledger-verified">Verified {{ $state.verified }} · every row cites its statute</span>
+      </div>
+      <table class="ledger-table">
+        <thead>
+          <tr>
+            <th scope="col">Rule</th>
+            <th scope="col">{{ $state.name }} standard</th>
+            <th scope="col">Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $state.fields }}
+          {{- $row := . -}}
+          <tr>
+            <td class="lt-label">{{ $row.label }}</td>
+            <td class="lt-value">{{ $row.value }}</td>
+            <td class="lt-src">{{ with $row.url }}<a href="{{ . }}" rel="nofollow noopener" target="_blank" class="statute-chip">{{ $row.statute }}</a>{{ else }}<span class="statute-chip statute-chip-nolink">{{ $row.statute }}</span>{{ end }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </section>
+
+    {{/* State pages were unmonetized (SQ-012 §11) — one below-fold unit
+           after the ledger, clearly labeled, never inside the table. */}}
+    {{ if .Site.Params.adsense.client_id }}
+    <div class="ad-zone ad-zone-md">
+      {{ partial "adsense-lazy.html" (dict "position" "end_article" "ctx" .) }}
+    </div>
+    {{ end }}
+    {{ else }}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+      <div class="card">
+        <div class="card-body">
+          <span class="stamp mb-2">Security deposit</span>
+          <p class="font-semibold text-lg">{{ $state.deposit_limit }}</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <span class="stamp mb-2">Notice to enter</span>
+          <p class="font-semibold text-lg">{{ $state.notice_to_enter }}</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <span class="stamp mb-2">Notice to vacate</span>
+          <p class="font-semibold text-lg">{{ $state.notice_to_vacate }}</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <span class="stamp mb-2">Rent control / increases</span>
+          <p class="font-semibold text-lg">{{ $state.rent_control }}</p>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="stamp mb-2">Notice to enter</span>
-        <p class="font-semibold text-lg">{{ $state.notice_to_enter }}</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="stamp mb-2">Notice to vacate</span>
-        <p class="font-semibold text-lg">{{ $state.notice_to_vacate }}</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="stamp mb-2">Rent control / increases</span>
-        <p class="font-semibold text-lg">{{ $state.rent_control }}</p>
-      </div>
-    </div>
-  </div>
+    {{ end }}
   {{ end }}
 
   <div class="article-content">

@@ -2363,3 +2363,69 @@ a.trust-chip:hover { border-color: var(--color-key); }
   .hero-figure { margin-bottom: var(--space-5); }
   .hero-figure img { max-height: min(30vh, 220px); }
 }
+
+/* ==========================================================================
+   The Renter's Ledger components (SQ-012 blueprint §5/§6)
+   Ruled data tables, statute chips, verified stamps — warm tokens only.
+   Cold-slate inline table colors (#1e293b/#f1f5f9/#cbd5e1/#e2e8f0/#dc2626/
+   #16a34a) are BANNED from content; these classes are the replacement.
+   ========================================================================== */
+.ledger-wrap { border: 1px solid var(--color-rule, #e3dccf); border-radius: var(--radius-xl, 14px); background: var(--color-surface, #fff); overflow: hidden; }
+.ledger-stamp-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3, 0.75rem);
+  padding: 0.6rem 1rem; border-bottom: 2px solid var(--color-sage, #4f7a55);
+  background: var(--color-parchment, #faf7f2);
+}
+.ledger-stamp {
+  font-family: var(--font-mono, monospace); font-size: 0.64rem; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-sage, #4f7a55);
+}
+.ledger-verified {
+  font-family: var(--font-mono, monospace); font-size: 0.66rem;
+  color: var(--color-text-muted, #6b6359); margin-left: auto;
+}
+.ledger-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.ledger-table th {
+  text-align: left; font-family: var(--font-mono, monospace); font-size: 0.64rem;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-text-muted, #6b6359);
+  padding: 0.55rem 1rem; border-bottom: 1px solid var(--color-rule, #e3dccf);
+  background: var(--color-parchment, #faf7f2);
+}
+.ledger-table td {
+  padding: 0.7rem 1rem; border-bottom: 1px solid var(--color-rule, #e3dccf);
+  vertical-align: top; color: var(--color-text, #312d28);
+}
+.ledger-table tbody tr:nth-child(even) { background: color-mix(in srgb, var(--color-parchment, #faf7f2) 45%, transparent); }
+.ledger-table tbody tr:last-child td { border-bottom: 0; }
+.lt-label { font-weight: 600; color: var(--color-ink, #1a1714); white-space: nowrap; }
+.lt-value { font-variant-numeric: tabular-nums; line-height: 1.5; }
+.lt-src { white-space: nowrap; }
+.statute-chip {
+  display: inline-block; font-family: var(--font-mono, monospace); font-size: 0.7rem;
+  color: var(--color-sage, #4f7a55); text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--color-sage, #4f7a55) 45%, transparent);
+  border-radius: 6px; padding: 0.14rem 0.5rem; background: transparent;
+  white-space: normal; line-height: 1.45;
+}
+a.statute-chip:hover { border-color: var(--color-sage, #4f7a55); background: color-mix(in srgb, var(--color-sage, #4f7a55) 8%, transparent); }
+.statute-chip-nolink { color: var(--color-text-muted, #6b6359); border-style: dashed; }
+
+@media (max-width: 640px) {
+  .ledger-table th, .ledger-table td { padding: 0.55rem 0.7rem; font-size: 0.8rem; }
+  .lt-label { white-space: normal; }
+  .lt-src { white-space: normal; }
+  .ledger-verified { margin-left: 0; }
+  /* Ruled reading column — the Renter's Ledger body (blueprint §5.1).
+     Barely-there rules, ≤4% ink; off in print; guard remains for
+     prefers-reduced-transparency where supported. */
+  .article-content {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 31px,
+      color-mix(in srgb, var(--color-ink, #1a1714) 3.5%, transparent) 31px,
+      color-mix(in srgb, var(--color-ink, #1a1714) 3.5%, transparent) 32px);
+    background-clip: content-box;
+  }
+}
+@media print { .article-content { background-image: none !important; } }
