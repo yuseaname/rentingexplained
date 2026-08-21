@@ -106,24 +106,7 @@ sources:
 
 <p>Enter your target rent to see what landlords typically require:</p>
 
-<div class="callout callout-info">
-<strong>📊 2026 Income Requirement Estimator</strong>
-
-| Monthly Rent | 2.5× Income | 3× Income | 3.5× Income |
-|--------------|-------------|-----------|-------------|
-| $800 | $2,000/mo ($24K/yr) | **$2,400/mo ($28.8K/yr)** | $2,800/mo ($33.6K/yr) |
-| $1,000 | $2,500/mo ($30K/yr) | **$3,000/mo ($36K/yr)** | $3,500/mo ($42K/yr) |
-| $1,200 | $3,000/mo ($36K/yr) | **$3,600/mo ($43.2K/yr)** | $4,200/mo ($50.4K/yr) |
-| $1,400 | $3,500/mo ($42K/yr) | **$4,200/mo ($50.4K/yr)** | $4,900/mo ($58.8K/yr) |
-| $1,600 | $4,000/mo ($48K/yr) | **$4,800/mo ($57.6K/yr)** | $5,600/mo ($67.2K/yr) |
-| $1,800 | $4,500/mo ($54K/yr) | **$5,400/mo ($64.8K/yr)** | $6,300/mo ($75.6K/yr) |
-| $2,000 | $5,000/mo ($60K/yr) | **$6,000/mo ($72K/yr)** | $7,000/mo ($84K/yr) |
-| $2,500 | $6,250/mo ($75K/yr) | **$7,500/mo ($90K/yr)** | $8,750/mo ($105K/yr) |
-| $3,000 | $7,500/mo ($90K/yr) | **$9,000/mo ($108K/yr)** | $10,500/mo ($126K/yr) |
-| $3,500 | $8,750/mo ($105K/yr) | **$10,500/mo ($126K/yr)** | $12,250/mo ($147K/yr) |
-
-*The 3× column (bolded) is the most common requirement. To see how rent fits your overall budget, read [How Much Rent Can I Afford?](/blog/how-much-rent-can-i-afford/) or use the [Rent Budget Calculator](/tools/rent-budget-calculator/).*
-</div>
+{{< income-estimator >}}
 
 <p><strong>Want your number, not the table's?</strong> The <a href="/tools/rent-budget-calculator/">Rent Budget Calculator</a> turns your actual take-home pay into a rent range in about 30 seconds — including the utilities and fees most landlords won't mention until move-in. It's the same math landlords use, pointed in your favor.</p>
 

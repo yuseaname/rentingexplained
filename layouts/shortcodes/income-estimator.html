@@ -1,0 +1,81 @@
+{{/* income-estimator — interactive 3x-rule estimator (SQ-012 §16.2).
+     Self-contained: inline JS + design-token styles, fixed-height shell so
+     the reserved space never shifts layout (CLS-safe), noscript fallback
+     table, aria-live results. Facts live in HTML, never in images. */}}
+{{- $id := printf "est-%d" .Ordinal -}}
+<div class="income-estimator" id="{{ $id }}"
+     style="margin: var(--space-6, 1.5rem) 0; border: 1px solid var(--color-border, #e3dccf); border-radius: 12px; background: var(--color-parchment, #faf7f2); padding: clamp(1rem, 3vw, 1.5rem); min-height: 300px;">
+  <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.9rem;">
+    <span aria-hidden="true" style="font-family: var(--font-mono, monospace); font-size: 1.1rem; color: var(--color-sage, #4f7a55);">§</span>
+    <span style="font-family: var(--font-mono, monospace); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-text-muted, #6b6359);">2026 income requirement estimator</span>
+  </div>
+
+  <label for="{{ $id }}-rent" style="display: block; font-weight: 600; font-size: 1rem; color: var(--color-ink, #1a1714); margin-bottom: 0.5rem;">
+    Your target monthly rent
+  </label>
+  <div style="display: flex; gap: 0.6rem; align-items: stretch; flex-wrap: wrap;">
+    <span aria-hidden="true" style="display: flex; align-items: center; padding: 0 0.9rem; border: 1px solid var(--color-border, #e3dccf); border-right: 0; border-radius: 10px 0 0 10px; background: var(--color-surface, #fff); font-family: var(--font-mono, monospace); color: var(--color-text-muted, #6b6359);">$</span>
+    <input id="{{ $id }}-rent" type="number" inputmode="decimal" min="100" max="20000" step="50" value="1800"
+           style="flex: 1 1 140px; min-width: 0; font-family: var(--font-mono, monospace); font-size: 1.35rem; font-weight: 600; padding: 0.65rem 0.9rem; border: 1px solid var(--color-border, #e3dccf); border-radius: 0 10px 10px 0; background: var(--color-surface, #fff); color: var(--color-ink, #1a1714);"
+           aria-describedby="{{ $id }}-results">
+    <span style="font-family: var(--font-mono, monospace); font-size: 0.8rem; color: var(--color-text-muted, #6b6359); align-self: center;">/ month</span>
+  </div>
+
+  <div id="{{ $id }}-results" aria-live="polite" style="margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.6rem;"></div>
+
+  <p id="{{ $id }}-note" style="margin-top: 0.9rem; font-size: 0.8rem; color: var(--color-text-muted, #6b6359); line-height: 1.5;">
+    The <strong>3×</strong> column is the most common requirement. To fit rent to your whole budget, try the
+    <a href="/tools/rent-budget-calculator/" style="color: var(--color-link, #993819);">Rent Budget Calculator</a>
+    or read <a href="/blog/how-much-rent-can-i-afford/" style="color: var(--color-link, #993819);">How Much Rent Can I Afford?</a>
+  </p>
+
+  <noscript>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.85rem;">
+      <thead><tr>
+        <th style="text-align: left; padding: 0.4rem; border-bottom: 2px solid var(--color-rule, #e3dccf);">Monthly Rent</th>
+        <th style="text-align: left; padding: 0.4rem; border-bottom: 2px solid var(--color-rule, #e3dccf);">3× Income</th>
+      </tr></thead>
+      <tbody>
+        <tr><td style="padding: 0.4rem; border-bottom: 1px solid var(--color-rule, #e3dccf);">$1,200</td><td style="padding: 0.4rem; border-bottom: 1px solid var(--color-rule, #e3dccf);">$3,600/mo ($43.2K/yr)</td></tr>
+        <tr><td style="padding: 0.4rem; border-bottom: 1px solid var(--color-rule, #e3dccf);">$1,800</td><td style="padding: 0.4rem; border-bottom: 1px solid var(--color-rule, #e3dccf);">$5,400/mo ($64.8K/yr)</td></tr>
+        <tr><td style="padding: 0.4rem;">$2,500</td><td style="padding: 0.4rem;">$7,500/mo ($90K/yr)</td></tr>
+      </tbody>
+    </table>
+  </noscript>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById("{{ $id }}");
+  if (!root) return;
+  var input = root.querySelector("input");
+  var out = root.querySelector("#{{ $id }}-results");
+  var money = function (n) {
+    return "$" + Math.round(n).toLocaleString("en-US");
+  };
+  var COLS = [
+    { mult: 2.5, label: "2.5× (lenient)", strong: false },
+    { mult: 3.0, label: "3× (standard)", strong: true },
+    { mult: 3.5, label: "3.5× (strict)", strong: false }
+  ];
+  function render() {
+    var rent = parseFloat(input.value);
+    if (!(rent > 0)) { rent = 0; }
+    var html = "";
+    for (var i = 0; i < COLS.length; i++) {
+      var c = COLS[i];
+      var m = rent * c.mult;
+      var border = c.strong ? "2px solid var(--color-door, #b8451f)" : "1px solid var(--color-border, #e3dccf)";
+      var bg = c.strong ? "var(--color-surface, #fff)" : "transparent";
+      html += '<div style="border: ' + border + '; background: ' + bg + '; border-radius: 10px; padding: 0.7rem 0.85rem;">'
+           + '<div style="font-family: var(--font-mono, monospace); font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted, #6b6359); margin-bottom: 0.25rem;">' + c.label + '</div>'
+           + '<div style="font-family: var(--font-mono, monospace); font-weight: 700; font-size: 1.25rem; color: var(--color-ink, #1a1714);">' + money(m) + '<span style="font-size: 0.7rem; font-weight: 400; color: var(--color-text-muted, #6b6359);">/mo</span></div>'
+           + '<div style="font-size: 0.75rem; color: var(--color-text-muted, #6b6359); margin-top: 0.15rem;">' + money(m * 12) + '/yr · ' + money(m / 173) + '/hr FT</div>'
+           + '</div>';
+    }
+    out.innerHTML = html;
+  }
+  input.addEventListener("input", render);
+  render();
+})();
+</script>
